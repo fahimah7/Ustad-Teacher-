@@ -1,0 +1,57 @@
+/* Ustad design tokens — values used in the hi-fi screens */
+:root {
+  /* Brand */
+  --turquoise: #00827E;  --turquoise-bright: #19B8B0; --turquoise-ledge: #005F5B; --turquoise-tint: #DDF6F3; --turquoise-ink: #005F5B;
+  --pomegranate: #D81E57; --pomegranate-bright: #FF4F7E; --pomegranate-ledge: #9A1240; --pomegranate-tint: #FFE3EA;
+  --saffron: #FFB31A; --saffron-bright: #FFC94D; --saffron-ledge: #C98300; --saffron-tint: #FFF1CC; --saffron-ink: #7A4E00;
+  --violet: #7443F0; --violet-ledge: #4F24B8; --violet-tint: #EEE7FF; --violet-ink: #4F24B8; --violet-soft: #E4DBFF;
+  --pistachio: #7BC043; --pistachio-ledge: #558A26;
+  --apricot: #F46A24; --apricot-ledge: #B84A12;
+  --sky: #2F7CF6; --walnut: #8A5A3B;
+  --leaf: #1F8F3F; --leaf-ledge: #146B2D; --leaf-tint: #E0F2DF;   /* correct answers & confirmed states ONLY */
+  --ink: #1C1433; --ink-ledge: #0A0714; --ink-2: #4E4868; --ink-3: #6F6A88; --on-dark-2: #BDB6D9;
+  --bg: #FFF8EF; --surface: #FFFFFF; --sand: #F3ECE2; --line: #EFE6DA; --ledge-neutral: #E6DCCD; --dashed: #D9CDBB;
+  /* Subjects (base colour of covers and tiles) */
+  --subject-math: var(--turquoise); --subject-biology: var(--pistachio); --subject-chemistry: var(--apricot);
+  --subject-physics: var(--violet); --subject-geography: var(--sky); --subject-history: var(--walnut);
+  --subject-english: var(--pomegranate); --subject-dari: var(--saffron); --subject-rights: var(--violet);
+  --ustad: var(--pomegranate); --practice: var(--saffron);
+  /* Type */
+  --font-latin: "Rubik", system-ui, sans-serif;           /* 500 body, 700/800 UI, 900 display */
+  --font-rtl: "Vazirmatn", "Noto Sans Arabic", sans-serif; /* Dari & Pashto; set 8% larger, line-height 1.6–1.8, never letter-spaced */
+  --type-display: 900 32px/1.08 var(--font-latin);  --type-hero: 900 36px/1 var(--font-latin);
+  --type-title: 800 21px/1.2 var(--font-latin);     --type-question: 900 24px/1.25 var(--font-latin);
+  --type-answer: 800 18px/1.2 var(--font-latin);    --type-body: 500 16px/1.5 var(--font-latin);
+  --type-button: 800 17px/1 var(--font-latin);      --type-label: 700 13px/1 var(--font-latin);
+  --type-eyebrow: 800 12px/1 var(--font-latin);     /* uppercase, letter-spacing .1em, Latin only */
+  /* Shape */
+  --r-phone: 36px; --r-card: 28px; --r-tile: 24px; --r-button: 16px; --r-input: 18px; --r-chip: 999px; --r-sheet: 32px 32px 0 0;
+  --r-arch-tile: 20px 20px 10px 10px;  /* soft arch: rounder on top */
+  --r-arch-badge: 18px 18px 8px 8px;   /* answer-letter and grade badges */
+  /* Depth: solid "ledge" under pressables, no blur shadows */
+  --ledge: 0 5px 0;  /* e.g. box-shadow: var(--ledge) var(--saffron-ledge); pressed = translateY(5px) + no ledge */
+  --focus-ring: 0 0 0 4px #FFFFFF, 0 0 0 7px var(--turquoise);
+  /* Size */
+  --tap-min: 48px; --button-h: 56px; --input-h: 52px; --chip-h: 36px; --nav-h: 80px; --topbar-h: 60px; --status-h: 28px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+  /* Motion */
+  --ease-settle: cubic-bezier(.2,.8,.2,1); --ease-pop: cubic-bezier(.3,1.4,.5,1);
+  --dur-press: 90ms; --dur-state: 160ms; --dur-enter: 240ms; --dur-reveal: 280ms; --dur-celebrate: 480ms;
+}
+
+/* Additions used by the app shell (kept in the same system as the handoff values). */
+:root {
+  --on-dark-3: #D9D4EE;
+  --turquoise-soft: #E3F7F4; --turquoise-deep: #BFEDE8;
+  --violet-bright: #B9A2FF;
+  --sky-soft: #9CC3FF;
+  --pomegranate-soft: #FF7FA3;
+  --leaf-ink: #146B2D;
+  --apricot-ink: #5C2508; --pistachio-ink: #2E4A12;
+  --canvas: #F2ECE3;
+  --side-nav-w: 240px;
+  --panel-w: clamp(440px, 34vw, 520px);
+  --gutter: 20px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}

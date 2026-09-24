@@ -1,0 +1,84 @@
+/* Ustad base: reset, type, pressables, shell layout. */
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{
+  background:var(--bg);color:var(--ink);
+  font:var(--type-body);font-family:var(--font-latin);
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+  overscroll-behavior:none;
+}
+html[dir="rtl"] body{font-family:var(--font-rtl),var(--font-latin)}
+#root{min-height:100dvh}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;text-align:inherit}
+input,textarea{font:inherit;color:inherit}
+img,svg{display:block}
+b,strong{font-weight:800}
+::selection{background:var(--saffron-tint)}
+
+/* Arabic-script runs: 8% larger, tall line height, never letter-spaced. */
+.fa{font-family:var(--font-rtl);letter-spacing:0!important}
+[dir="rtl"] .eyebrow{letter-spacing:0;text-transform:none}
+html[dir="rtl"] .scale-fa{font-size:1.08em;line-height:1.7}
+
+/* ── pressables: solid ledge, pressed = sink by the ledge, 90 ms ── */
+.press{
+  cursor:pointer;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;
+  transition:transform var(--dur-press) ease-out,box-shadow var(--dur-press) ease-out,background-color var(--dur-state),opacity var(--dur-state);
+  touch-action:manipulation;
+}
+.press:active:not([aria-disabled="true"]):not(:disabled){transform:translateY(var(--lh,5px));box-shadow:none!important}
+.press.flat:active{transform:scale(.97)}
+.press[aria-disabled="true"],.press:disabled:not(.locked){background:var(--sand)!important;color:#A8A1B8!important;box-shadow:none!important;cursor:default}
+:focus{outline:none}
+:focus-visible{outline:none;box-shadow:var(--focus-ring)!important;border-radius:inherit}
+.press:focus-visible{box-shadow:var(--focus-ring)!important}
+
+.hscroll{display:flex;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.hscroll::-webkit-scrollbar{display:none}
+.vscroll{overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.eyebrow{font:var(--type-eyebrow);letter-spacing:.1em;text-transform:uppercase}
+
+/* ── shell ─────────────────────────────────────────────────────── */
+.shell{min-height:100dvh;display:flex;background:var(--bg)}
+.shell-main{flex:1;min-width:0;display:flex;flex-direction:column;min-height:100dvh;position:relative}
+.screen{flex:1;display:flex;flex-direction:column;min-height:0;position:relative;animation:uScreenIn 260ms var(--ease-settle) backwards}
+.with-nav .screen{padding-bottom:calc(var(--nav-h) + var(--safe-bottom))}
+.bottom-nav{position:fixed;inset-inline:0;bottom:0;z-index:30;padding-bottom:var(--safe-bottom);background:#FFFFFF}
+.side-nav{display:none}
+.ustad-panel{display:none}
+.safe-top{padding-top:var(--safe-top)}
+.desk-only{display:none!important}
+
+/* Phones: one column. Tablets: same, with two-column grids. */
+.grid-2{display:grid;grid-template-columns:1fr;gap:10px}
+.col{width:100%;margin:0 auto}
+@media (min-width:720px){
+  .grid-2{grid-template-columns:1fr 1fr}
+  .col{max-width:720px}
+  .tab-cols-3{grid-template-columns:repeat(4,1fr)!important}
+}
+
+/* Laptops: 240 px side nav, content on a 44 px margin, Ustad on the right. */
+@media (min-width:1024px){
+  .with-nav .screen{padding-bottom:0}
+  .bottom-nav{display:none}
+  .side-nav{display:flex;position:sticky;top:0;height:100dvh;flex:none;width:var(--side-nav-w)}
+  .ustad-panel{display:flex;position:sticky;top:0;height:100dvh;flex:none;width:var(--panel-w)}
+  .phone-only{display:none!important}
+  .desk-only{display:revert!important}
+  .col{max-width:none}
+  .desk-pad{padding-inline:44px!important}
+  .tab-cols-3{grid-template-columns:repeat(6,1fr)!important}
+}
+
+/* Sheets and scrims */
+.scrim{position:fixed;inset:0;background:rgba(28,20,51,.55);z-index:60;animation:uFade 200ms ease backwards}
+.sheet{position:fixed;inset-inline:0;bottom:0;z-index:61;background:#FFFFFF;border-radius:var(--r-sheet);padding-bottom:var(--safe-bottom);animation:uSheetUp 320ms var(--ease-settle) backwards;max-height:92dvh;overflow:auto}
+@media (min-width:720px){.sheet{inset-inline:auto;left:50%;width:480px;margin-left:-240px;bottom:24px;border-radius:32px}}
+
+/* Text areas that must look like the design's */
+.plain-input{background:transparent;border:0;outline:none;width:100%;min-width:0;padding:0}
+.plain-input::placeholder{color:var(--ink-3);opacity:1}
+textarea.plain-input{resize:none}

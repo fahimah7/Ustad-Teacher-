@@ -1,0 +1,53 @@
+/* Ustad motion.
+   Two families:
+   1. Loops from the design (waveform, pulse, twinkle, wobble, scan, travel, hop…)
+      kept verbatim so live states look exactly like the artboards.
+   2. Product entrances: the design drives sequences with qInA–qInD on a 9 s loop;
+      in the app the same look is produced once, driven by an index, with
+      settle easing at 240 ms as the handoff asks.
+   Only transform and opacity animate, so it stays cheap on low-end Android. */
+
+/* ── design loops ─────────────────────────────────────────────── */
+@keyframes qWobble{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(-1deg) translateY(-6px)}}
+@keyframes qDot{0%,6%{transform:translateY(-52px) scale(.5);opacity:0}20%{transform:translateY(0) scale(1.18);opacity:1}28%,100%{transform:translateY(0) scale(1);opacity:1}}
+@keyframes qFloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-18px) rotate(4deg)}}
+@keyframes qTwinkle{0%,100%{opacity:.2;transform:scale(.6)}50%{opacity:1;transform:scale(1)}}
+@keyframes qWave{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(1)}}
+@keyframes qGlow{0%,100%{transform:scaleY(.35)}30%{transform:scaleY(.8)}55%{transform:scaleY(.5)}80%{transform:scaleY(.95)}}
+@keyframes qDotJ{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-6px)}}
+@keyframes qPulse{0%{box-shadow:0 0 0 0 rgba(216,30,87,.5),0 5px 0 #9A1240}100%{box-shadow:0 0 0 22px rgba(216,30,87,0),0 5px 0 #9A1240}}
+@keyframes qBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes qSpin{to{transform:rotate(360deg)}}
+@keyframes qCaret{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes qNode{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@keyframes qHop{0%{transform:translateX(0) rotate(0);opacity:0}10%{opacity:1}90%{transform:translateX(var(--hop,136px)) rotate(90deg);opacity:1}100%{transform:translateX(var(--hop,136px)) rotate(90deg);opacity:0}}
+@keyframes qScan{0%{transform:translateY(-10px);opacity:0}6%{opacity:.85}46%{transform:translateY(var(--scan,190px));opacity:.85}52%,100%{transform:translateY(var(--scan,190px));opacity:0}}
+@keyframes qTravel{0%{transform:translateY(0);opacity:0}8%{opacity:1}85%{transform:translateY(var(--travel,318px));opacity:1}100%{transform:translateY(var(--travel,318px));opacity:0}}
+@keyframes qHi{0%,100%{background:transparent}20%,60%{background:#FFB31A;color:#1C1433}}
+
+/* ── product entrances (run once) ─────────────────────────────── */
+@keyframes uRise{from{opacity:0;transform:translateY(14px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes uRiseFar{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@keyframes uFade{from{opacity:0}to{opacity:1}}
+@keyframes uTileIn{0%{opacity:0;transform:translateY(24px) scale(.9)}60%{opacity:1;transform:translateY(-4px) scale(1.02)}100%{opacity:1;transform:none}}
+@keyframes uPop{0%{opacity:0;transform:scale(.3)}70%{opacity:1;transform:scale(1.15)}100%{opacity:1;transform:scale(1)}}
+@keyframes uCheck{0%{transform:scale(0)}60%{transform:scale(1.2)}100%{transform:scale(1)}}
+@keyframes uCorrect{0%{transform:scale(1)}40%{transform:scale(1.07)}100%{transform:scale(1)}}
+@keyframes uStarBig{0%{transform:scale(0) rotate(-40deg)}55%{transform:scale(1.2) rotate(8deg)}100%{transform:scale(1) rotate(0)}}
+@keyframes uSheetUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+@keyframes uScreenIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes uArch{from{transform:scale(.04);opacity:0}30%{opacity:1}to{transform:scale(9);opacity:1}}
+@keyframes uBarX{from{transform:scaleX(.05)}to{transform:scaleX(1)}}
+@keyframes uStar{0%{transform:translate(0,0) scale(0);opacity:0}18%{opacity:1}100%{transform:translate(var(--sx),var(--sy)) scale(var(--ss)) rotate(var(--sr));opacity:0}}
+
+/* utilities */
+.u-enter{animation:uRise var(--dur-enter) var(--ease-settle) backwards;animation-delay:calc(var(--i,0) * 140ms)}
+.u-enter-far{animation:uRiseFar 320ms var(--ease-settle) backwards;animation-delay:calc(var(--i,0) * 140ms)}
+.u-fade{animation:uFade var(--dur-reveal) var(--ease-settle) backwards;animation-delay:calc(var(--i,0) * 90ms)}
+.u-tile{animation:uTileIn 420ms var(--ease-pop) backwards;animation-delay:calc(var(--i,0) * 90ms)}
+.u-pop{animation:uPop 320ms var(--ease-pop) backwards;animation-delay:calc(var(--i,0) * 90ms)}
+.u-screen{animation:uScreenIn 260ms var(--ease-settle) backwards}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
