@@ -50,7 +50,7 @@ export function Me() {
 
           <div className="u-enter" style={{ ["--i" as string]: 5, background: "#FFFFFF", borderRadius: 22, padding: 14, display: "flex", flexDirection: "column", gap: 10, marginTop: 6 } as React.CSSProperties}>
             <div style={{ font: "800 15px/1 var(--font-latin)", color: "#1C1433" }}>{m({ en: "Language", fa: "زبان" })}</div>
-            <Segmented<Lang> value={lang} onChange={setLang} options={[{ v: "fa", label: "دری", fa: true }, { v: "ps", label: "پښتو", fa: true }, { v: "en", label: "English" }]} />
+            <Segmented<Lang> value={lang} onChange={setLang} options={[{ v: "fa", label: "دری", fa: true }, { v: "ps", label: "پښتو", fa: true, soon: m({ en: "Soon", fa: "به‌زودی" }) }, { v: "en", label: "English" }]} />
           </div>
 
           <div className="u-enter" style={{ ["--i" as string]: 6, background: "#E3F7F4", borderRadius: 22, padding: 14, display: "flex", gap: 12, alignItems: "flex-start" } as React.CSSProperties}>

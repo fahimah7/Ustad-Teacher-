@@ -58,7 +58,7 @@ export function LetterWrite() {
   useEffect(() => () => recog.current?.stop(), []);
   if (!l) return <Full><div /></Full>;
 
-  const langs: Lang[] = ["en", "fa", "ps"];
+  const langs: Lang[] = ["en", "fa"]; // Pashto is coming soon
   const rtl = l.lang !== "en";
 
   const say = async () => {
@@ -97,7 +97,7 @@ export function LetterWrite() {
           {hint && <div className="u-fade" style={{ font: "700 13px/1.4 var(--font-latin)", color: "#6F6A88" }}>{hint}</div>}
           <div style={{ display: "flex", gap: 10 }}>
             <Btn tone="outline" icon="mic" fg="#D81E57" fs={15} h={52} ledge={4} style={{ flex: 1, gap: 8, animation: listening ? "qPulse 1.6s ease-out infinite" : undefined }} onClick={say}>{listening ? m({ en: "Stop", fa: "بس" }) : m({ en: "Say it instead", fa: "به جایش بگو" })}</Btn>
-            <Btn tone="outline" fs={15} h={52} ledge={4} style={{ flex: 1 }} onClick={() => setL((x) => ({ ...x, lang: langs[(langs.indexOf(x.lang) + 1) % 3] }))}>
+            <Btn tone="outline" fs={15} h={52} ledge={4} style={{ flex: 1 }} onClick={() => setL((x) => ({ ...x, lang: langs[(langs.indexOf(x.lang) + 1) % langs.length] }))}>
               <span className={rtl ? "fa" : undefined}>{LANG_LABEL[l.lang]}</span> ▾
             </Btn>
           </div>

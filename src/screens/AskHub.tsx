@@ -55,7 +55,7 @@ export function AskHub() {
                 <MicButton size={52} label={m({ en: "Talk with Ustad", fa: "گفتگو با استاد" })} onDown={() => go(`/talk/${here}`)} />
               )}
             </form>
-            <Segmented<Lang> value={lang} onChange={setLang} options={[{ v: "fa", label: "دری", fa: true }, { v: "ps", label: "پښتو", fa: true }, { v: "en", label: "English" }]} />
+            <Segmented<Lang> value={lang} onChange={setLang} options={[{ v: "fa", label: "دری", fa: true }, { v: "ps", label: "پښتو", fa: true, soon: m({ en: "Soon", fa: "به‌زودی" }) }, { v: "en", label: "English" }]} />
           </div>
 
           <h2 className="desk-pad" style={{ margin: 0, padding: "20px 20px 10px", font: "800 18px/1 var(--font-latin)", color: "#1C1433" }}>{m({ en: "About the lesson you're in", fa: "درباره درسی که در آن هستی" })}</h2>

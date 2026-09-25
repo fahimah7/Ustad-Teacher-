@@ -133,16 +133,17 @@ export function UstadAvatar({ w = 42, h = 46 }: { w?: number; h?: number }) {
 }
 
 /** Segmented control on sand (language switch, Protected / Original, Chat / Talk). */
-export function Segmented<T extends string>({ value, options, onChange, h = 36, r = 11, gap = 6 }: { value: T; options: { v: T; label: React.ReactNode; fa?: boolean; icon?: IconName }[]; onChange: (v: T) => void; h?: number; r?: number; gap?: number }) {
+export function Segmented<T extends string>({ value, options, onChange, h = 36, r = 11, gap = 6 }: { value: T; options: { v: T; label: React.ReactNode; fa?: boolean; icon?: IconName; soon?: string }[]; onChange: (v: T) => void; h?: number; r?: number; gap?: number }) {
   return (
     <div role="tablist" style={{ display: "flex", gap, background: "#F3ECE2", borderRadius: r + 3, padding: 4 }}>
       {options.map((o) => {
         const on = o.v === value;
         return (
-          <button key={o.v} role="tab" aria-selected={on} onClick={() => onChange(o.v)} className="press flat"
+          <button key={o.v} role="tab" aria-selected={on} aria-disabled={o.soon ? true : undefined} onClick={() => !o.soon && onChange(o.v)} className="press flat locked"
             style={{ flex: 1, height: h, padding: "0 12px", borderRadius: r, background: on ? "#FFFFFF" : "transparent", boxShadow: on ? "0 2px 0 #E6DCCD" : undefined, display: "flex", alignItems: "center", justifyContent: "center", gap: 6, font: `${on ? 800 : 700} 14px/1 ${o.fa ? "var(--font-rtl)" : "var(--font-latin)"}`, color: on ? "#1C1433" : "#6F6A88", transition: "background-color 160ms, box-shadow 160ms" }}>
             {o.icon && <Icon n={o.icon} s={16} c={on ? "#1C1433" : "#6F6A88"} w={2.6} />}
-            {o.label}
+            <span style={{ opacity: o.soon ? 0.55 : 1 }}>{o.label}</span>
+            {o.soon && <span style={{ height: 20, padding: "0 7px", borderRadius: 999, background: "#FFF1CC", color: "#7A4E00", display: "inline-flex", alignItems: "center", font: "800 10px/1 var(--font-latin)" }}>{o.soon}</span>}
           </button>
         );
       })}
