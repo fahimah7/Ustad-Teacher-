@@ -1,0 +1,145 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 235,
+  "printed_page": 228,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "فورمول‌های جمع و تفاضل",
+  "summary_fa": "تمرین درس فورمول‌های جمع و تفاضل (۱۰ سوال). چند سوال ثبوتی‌اند: رابطهٔ $\\tan(45^\\circ - \\theta)$، و مجموع یا تفاضل sin و cos دو زاویهٔ $\\alpha \\pm \\beta$ که به حاصل‌ضرب تبدیل می‌شوند. چند سوال عددی‌اند: نسبت‌های $240^\\circ$، $210^\\circ$ و $105^\\circ$ با شکستن آن‌ها به مجموع زاویه‌های مشهور، و قیمت $\\cos(\\frac{\\pi}{4} + x)$ وقتی sin x و ربع x معلوم است. سوال ۳ و ۱۰ چندگزینه‌ای‌اند و باید در آن‌ها شکل فورمول مجموع یا تفاضل را در عبارت شناخت.",
+  "key_points_fa": [
+    "برای ثبوت: از طرف پیچیده‌تر شروع کنید و فورمول‌ها را باز کنید.",
+    "$\\cos A\\cos B + \\sin A\\sin B = \\cos(A - B)$ و $\\sin A\\cos B + \\cos A\\sin B = \\sin(A + B)$.",
+    "اگر sin x معلوم باشد، cos x را از $\\cos^2 x = 1 - \\sin^2 x$ و علامهٔ آن را از ربع x پیدا کنید.",
+    "$240^\\circ = 180^\\circ + 60^\\circ$، $210^\\circ = 180^\\circ + 30^\\circ$، $105^\\circ = 60^\\circ + 45^\\circ$."
+  ],
+  "formulas": [
+    {"latex": "\\sin(\\alpha+\\beta) + \\sin(\\alpha-\\beta) = 2\\sin\\alpha\\cos\\beta", "meaning_fa": "مجموع sin دو زاویه به حاصل‌ضرب"},
+    {"latex": "\\cos(\\alpha-\\beta) - \\cos(\\alpha+\\beta) = 2\\sin\\alpha\\sin\\beta", "meaning_fa": "تفاضل cos دو زاویه به حاصل‌ضرب"},
+    {"latex": "\\tan(45^\\circ - \\theta) = \\frac{1 - \\tan\\theta}{1 + \\tan\\theta}", "meaning_fa": "نتیجهٔ سوال ۱"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید $\\tan(45^\\circ - \\theta) = \\frac{1 - \\tan\\theta}{1 + \\tan\\theta}$.",
+      "solution_steps_fa": [
+        "$\\tan(45^\\circ - \\theta) = \\frac{\\tan 45^\\circ - \\tan\\theta}{1 + \\tan 45^\\circ\\tan\\theta}$",
+        "چون $\\tan 45^\\circ = 1$: $= \\frac{1 - \\tan\\theta}{1 + \\tan\\theta}$"
+      ],
+      "answer": "ثبوت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید $\\sin(\\alpha+\\beta) + \\sin(\\alpha-\\beta) = 2\\sin\\alpha\\cos\\beta$ و $\\cos(\\alpha-\\beta) - \\cos(\\alpha+\\beta) = 2\\sin\\alpha\\sin\\beta$.",
+      "solution_steps_fa": [
+        "$(\\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta) + (\\sin\\alpha\\cos\\beta - \\cos\\alpha\\sin\\beta) = 2\\sin\\alpha\\cos\\beta$",
+        "$(\\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta) - (\\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta) = 2\\sin\\alpha\\sin\\beta$"
+      ],
+      "answer": "هر دو رابطه ثبوت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "$\\cos 277^\\circ\\cos 97^\\circ + \\sin 277^\\circ\\sin 97^\\circ = ?$ a) −1 b) 1 c) 0 d) $\\frac{1}{2}$",
+      "solution_steps_fa": [
+        "عبارت شکل $\\cos(A - B)$ را دارد: $\\cos(277^\\circ - 97^\\circ) = \\cos 180^\\circ = -1$"
+      ],
+      "answer": "a ($-1$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "با فورمول‌های جمع، $\\sin 240^\\circ$، $\\cos 240^\\circ$ و $\\tan 240^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$240^\\circ = 180^\\circ + 60^\\circ$",
+        "$\\sin 240^\\circ = \\sin 180^\\circ\\cos 60^\\circ + \\cos 180^\\circ\\sin 60^\\circ = 0 - \\frac{\\sqrt{3}}{2} = -\\frac{\\sqrt{3}}{2}$",
+        "$\\cos 240^\\circ = \\cos 180^\\circ\\cos 60^\\circ - \\sin 180^\\circ\\sin 60^\\circ = -\\frac{1}{2}$",
+        "$\\tan 240^\\circ = \\frac{\\tan 180^\\circ + \\tan 60^\\circ}{1 - \\tan 180^\\circ\\tan 60^\\circ} = \\frac{0 + \\sqrt{3}}{1 - 0} = \\sqrt{3}$"
+      ],
+      "answer": "$\\sin 240^\\circ = -\\frac{\\sqrt{3}}{2}$، $\\cos 240^\\circ = -\\frac{1}{2}$، $\\tan 240^\\circ = \\sqrt{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "با فورمول‌های جمع و تفاضل نشان دهید $\\frac{1}{2}[\\cos(x+y) + \\cos(x-y)] = \\cos x\\cos y$.",
+      "solution_steps_fa": [
+        "$\\cos(x+y) + \\cos(x-y) = (\\cos x\\cos y - \\sin x\\sin y) + (\\cos x\\cos y + \\sin x\\sin y) = 2\\cos x\\cos y$",
+        "نصف آن: $\\cos x\\cos y$"
+      ],
+      "answer": "ثبوت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $210^\\circ$ را با فورمول‌های جمع دریابید.",
+      "solution_steps_fa": [
+        "$210^\\circ = 180^\\circ + 30^\\circ$",
+        "$\\sin 210^\\circ = 0\\cdot\\frac{\\sqrt{3}}{2} + (-1)\\cdot\\frac{1}{2} = -\\frac{1}{2}$",
+        "$\\cos 210^\\circ = (-1)\\cdot\\frac{\\sqrt{3}}{2} - 0\\cdot\\frac{1}{2} = -\\frac{\\sqrt{3}}{2}$",
+        "$\\tan 210^\\circ = \\frac{0 + \\frac{\\sqrt{3}}{3}}{1 - 0} = \\frac{\\sqrt{3}}{3}$",
+        "$\\cot 210^\\circ = \\sqrt{3}$، $\\sec 210^\\circ = -\\frac{2\\sqrt{3}}{3}$، $\\csc 210^\\circ = -2$"
+      ],
+      "answer": "$\\sin = -\\frac{1}{2}$، $\\cos = -\\frac{\\sqrt{3}}{2}$، $\\tan = \\frac{\\sqrt{3}}{3}$، $\\cot = \\sqrt{3}$، $\\sec = -\\frac{2\\sqrt{3}}{3}$، $\\csc = -2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "$\\sin 105^\\circ$، $\\cos 105^\\circ$ و $\\tan 105^\\circ$ را دریابید ($105^\\circ = 60^\\circ + 45^\\circ$).",
+      "solution_steps_fa": [
+        "$\\sin 105^\\circ = \\frac{\\sqrt{3}}{2}\\cdot\\frac{\\sqrt{2}}{2} + \\frac{1}{2}\\cdot\\frac{\\sqrt{2}}{2} = \\frac{\\sqrt{6} + \\sqrt{2}}{4}$",
+        "$\\cos 105^\\circ = \\frac{1}{2}\\cdot\\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{3}}{2}\\cdot\\frac{\\sqrt{2}}{2} = \\frac{\\sqrt{2} - \\sqrt{6}}{4}$",
+        "$\\tan 105^\\circ = \\frac{\\sqrt{3} + 1}{1 - \\sqrt{3}\\cdot 1} = \\frac{(\\sqrt{3}+1)^2}{1 - 3} = \\frac{4 + 2\\sqrt{3}}{-2} = -2 - \\sqrt{3}$"
+      ],
+      "answer": "$\\sin 105^\\circ = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$، $\\cos 105^\\circ = \\frac{\\sqrt{2}-\\sqrt{6}}{4}$، $\\tan 105^\\circ = -2-\\sqrt{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\sin x = -\\frac{3}{4}$ و $\\frac{3\\pi}{2} < x < 2\\pi$ باشد، $\\cos(\\frac{\\pi}{4} + x)$ را دریابید.",
+      "solution_steps_fa": [
+        "x در ربع چهارم است، پس cos x مثبت است: $\\cos x = \\sqrt{1 - \\frac{9}{16}} = \\frac{\\sqrt{7}}{4}$",
+        "$\\cos(\\frac{\\pi}{4} + x) = \\cos\\frac{\\pi}{4}\\cos x - \\sin\\frac{\\pi}{4}\\sin x$",
+        "$= \\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{7}}{4} - \\frac{\\sqrt{2}}{2}\\cdot(-\\frac{3}{4}) = \\frac{\\sqrt{2}(\\sqrt{7} + 3)}{8} = \\frac{\\sqrt{14} + 3\\sqrt{2}}{8}$"
+      ],
+      "answer": "$\\frac{\\sqrt{14} + 3\\sqrt{2}}{8} \\approx 0.998$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید $\\cos(\\alpha+\\beta) - \\cos(\\alpha-\\beta) = -2\\sin\\alpha\\sin\\beta$.",
+      "solution_steps_fa": [
+        "$(\\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta) - (\\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta)$",
+        "$= -2\\sin\\alpha\\sin\\beta$"
+      ],
+      "answer": "ثبوت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰",
+      "kind": "exercise",
+      "problem_fa": "$\\sin 2^\\circ\\cos 88^\\circ + \\cos 2^\\circ\\sin 88^\\circ = ?$ a) −1 b) 1 c) 0 d) $\\frac{1}{2}$",
+      "solution_steps_fa": [
+        "عبارت شکل $\\sin(A + B)$ را دارد: $\\sin(2^\\circ + 88^\\circ) = \\sin 90^\\circ = 1$"
+      ],
+      "answer": "b ($1$)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "همهٔ جواب‌های عددی با محاسبه بررسی شد."
+}

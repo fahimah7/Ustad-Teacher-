@@ -1,0 +1,123 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 221,
+  "printed_page": 212,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "انواع متریکس‌ها",
+  "summary_fa": "این صفحه تمرین درس «انواع متریکس‌ها» است. هشت متریکس (A تا H) داده شده و باید برای هر کدام مرتبه (تعداد سطرها × تعداد ستون‌ها) و نام نوع آن تعیین شود. برای حل، اول سطرها و ستون‌ها را می‌شماریم؛ بعد نگاه می‌کنیم که متریکس یک سطر دارد (سطری)، یک ستون دارد (ستونی)، سطر و ستونش مساوی است (مربعی)، همهٔ عناصرش صفر است (صفری)، یا در متریکس مربعی به جز قطر اصلی همه صفر است (قطری). اگر عناصر قطر اصلی یک متریکس قطری مساوی باشند سکالر است و اگر همه ۱ باشند متریکس واحد است. یک متریکس می‌تواند چند نام داشته باشد.",
+  "key_points_fa": [
+    "مرتبهٔ متریکس به شکل $m \\times n$ نوشته می‌شود: m تعداد سطرها و n تعداد ستون‌ها.",
+    "یک سطر ← متریکس سطری؛ یک ستون ← متریکس ستونی؛ $m = n$ ← متریکس مربعی.",
+    "متریکس قطری: متریکس مربعی که عناصر بیرون قطر اصلی آن صفر است.",
+    "متریکس سکالر: متریکس قطری با عناصر مساوی روی قطر اصلی؛ متریکس واحد $I$: همان عناصر ۱ باشند.",
+    "یک متریکس ممکن است چند نام داشته باشد، مثلاً $I_3$ هم واحد، هم سکالر، هم قطری و هم مربعی است."
+  ],
+  "formulas": [
+    {"latex": "A = (a_{ij})_{m \\times n}", "meaning_fa": "متریکس با m سطر و n ستون؛ $a_{ij}$ عنصر سطر i و ستون j است"}
+  ],
+  "terms": [
+    {"fa": "مرتبهٔ متریکس", "en": "order (size) of a matrix"},
+    {"fa": "متریکس سطری", "en": "row matrix"},
+    {"fa": "متریکس ستونی", "en": "column matrix"},
+    {"fa": "متریکس صفری", "en": "zero matrix"},
+    {"fa": "متریکس مربعی", "en": "square matrix"},
+    {"fa": "متریکس قطری", "en": "diagonal matrix"},
+    {"fa": "متریکس سکالر", "en": "scalar matrix"},
+    {"fa": "متریکس واحد", "en": "unit (identity) matrix"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "مرتبه و نام $A = \\begin{pmatrix} 3 & 4 & -5 \\\\ 1 & -2 & 3 \\\\ 0 & 1 & 0 \\end{pmatrix}$ را تعیین کنید.",
+      "solution_steps_fa": [
+        "سه سطر و سه ستون دارد، پس مرتبه‌اش $3 \\times 3$ است.",
+        "عناصر بیرون قطر اصلی (مثل 4 و 1) صفر نیستند، پس قطری نیست."
+      ],
+      "answer": "مرتبهٔ $3 \\times 3$، متریکس مربعی",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "مرتبه و نام $B$ را تعیین کنید؛ B یک متریکس $3 \\times 3$ است که همهٔ عناصرش صفر است.",
+      "solution_steps_fa": [
+        "سه سطر و سه ستون دارد: مرتبهٔ $3 \\times 3$.",
+        "همهٔ عناصر صفر است، پس متریکس صفری $0_{3 \\times 3}$ است (و مربعی هم است)."
+      ],
+      "answer": "مرتبهٔ $3 \\times 3$، متریکس صفری (مربعی)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "مرتبه و نام $C = \\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$ را تعیین کنید.",
+      "solution_steps_fa": [
+        "مرتبه $3 \\times 3$ است.",
+        "بیرون قطر اصلی همه صفر است (قطری) و همهٔ عناصر قطر اصلی ۱ است."
+      ],
+      "answer": "مرتبهٔ $3 \\times 3$، متریکس واحد $I_3$ (که قطری، سکالر و مربعی هم است)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین d",
+      "kind": "exercise",
+      "problem_fa": "مرتبه و نام $D = \\begin{pmatrix} 3 & 0 & 0 \\\\ 0 & 3 & 0 \\\\ 0 & 0 & 3 \\end{pmatrix}$ را تعیین کنید.",
+      "solution_steps_fa": [
+        "مرتبه $3 \\times 3$ است.",
+        "بیرون قطر اصلی صفر است و عناصر قطر اصلی همه مساوی ($K = 3$) هستند."
+      ],
+      "answer": "مرتبهٔ $3 \\times 3$، متریکس سکالر با $K = 3$ (قطری و مربعی هم است)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین e",
+      "kind": "exercise",
+      "problem_fa": "مرتبه و نام $E = \\begin{pmatrix} 5 & -6 & 7 & 8 \\end{pmatrix}$ را تعیین کنید.",
+      "solution_steps_fa": [
+        "یک سطر و چهار ستون دارد."
+      ],
+      "answer": "مرتبهٔ $1 \\times 4$، متریکس سطری",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین f",
+      "kind": "exercise",
+      "problem_fa": "مرتبه و نام $F = \\begin{pmatrix} 1 & 2 \\end{pmatrix}$ را تعیین کنید.",
+      "solution_steps_fa": [
+        "یک سطر و دو ستون دارد."
+      ],
+      "answer": "مرتبهٔ $1 \\times 2$، متریکس سطری",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین g",
+      "kind": "exercise",
+      "problem_fa": "مرتبه و نام $G = \\begin{pmatrix} 3 \\\\ 2 \\\\ -1 \\\\ 0 \\end{pmatrix}$ را تعیین کنید.",
+      "solution_steps_fa": [
+        "چهار سطر و یک ستون دارد."
+      ],
+      "answer": "مرتبهٔ $4 \\times 1$، متریکس ستونی",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین h",
+      "kind": "exercise",
+      "problem_fa": "مرتبه و نام $H = \\begin{pmatrix} 3 & -1 \\\\ -1 & 0 \\end{pmatrix}$ را تعیین کنید.",
+      "solution_steps_fa": [
+        "دو سطر و دو ستون دارد، پس مربعی است.",
+        "عناصر بیرون قطر اصلی ($-1$) صفر نیستند، پس قطری نیست."
+      ],
+      "answer": "مرتبهٔ $2 \\times 2$، متریکس مربعی",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "نام‌های انواع متریکس از صفحه‌های 209 تا 211 کتاب گرفته شده است."
+}

@@ -1,0 +1,89 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 54,
+  "printed_page": 47,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق یک تابع",
+  "summary_fa": "این صفحه تعریف رسمی مشتق را می‌دهد. در بالای صفحه لیمت $\\lim_{\\Delta x \\to 0}\\frac{f(x + \\Delta x) - f(x)}{\\Delta x}$ به عنوان سؤال مطرح می‌شود. در فعالیت، شاگرد می‌بیند که اگر x به اندازهٔ $\\Delta x$ زیاد شود، تابع هم به اندازهٔ $\\Delta y = f(x + \\Delta x) - f(x)$ تغییر می‌کند؛ با تقسیم دو طرف بر $\\Delta x$ نسبت $\\frac{\\Delta y}{\\Delta x}$ ساخته می‌شود و بعد لیمت آن وقتی $\\Delta x \\to 0$ گرفته می‌شود. تعریف: لیمت نسبت تزاید تابع به تزاید متحول، وقتی تزاید متحول به صفر نزدیک شود، مشتق تابع نام دارد و با $f'(x)$، $y'$، $\\frac{dy}{dx}$ یا $\\frac{df}{dx}$ نشان داده می‌شود. شکل صفحه این تزایدها را روی گراف نشان می‌دهد. مثال ۱ (مشتق $f(x) = 2x$) شروع می‌شود و حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "تزاید تابع: $\\Delta y = f(x + \\Delta x) - f(x)$",
+    "نسبت $\\frac{\\Delta y}{\\Delta x}$ میل قاطع بین دو نقطهٔ منحنی است.",
+    "مشتق = لیمت $\\frac{\\Delta y}{\\Delta x}$ وقتی $\\Delta x \\to 0$ = میل مماس.",
+    "علامه‌های مشتق: $f'(x)$، $y'$، $\\frac{dy}{dx}$، $\\frac{df}{dx}$"
+  ],
+  "formulas": [
+    {"latex": "\\Delta y = f(x + \\Delta x) - f(x)", "meaning_fa": "تزاید تابع وقتی x به اندازهٔ $\\Delta x$ زیاد شود"},
+    {"latex": "f'(x) = \\lim_{\\Delta x \\to 0}\\frac{\\Delta y}{\\Delta x} = \\lim_{\\Delta x \\to 0}\\frac{f(x + \\Delta x) - f(x)}{\\Delta x}", "meaning_fa": "تعریف مشتق تابع"},
+    {"latex": "\\frac{dy}{dx} = \\frac{df(x)}{dx} = y' = f'(x)", "meaning_fa": "شکل‌های مختلف نوشتن مشتق"}
+  ],
+  "terms": [
+    {"fa": "مشتق", "en": "derivative"},
+    {"fa": "تزاید متحول", "en": "increment of the variable"},
+    {"fa": "تزاید تابع", "en": "increment of the function"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.56, 0.42, 0.73], "kind": "graph", "description_fa": "گراف یک منحنی با دو نقطهٔ $(x, y)$ و $(x + \\Delta x, f(x + \\Delta x))$، فاصلهٔ افقی $\\Delta x$، فاصلهٔ عمودی $\\Delta y$ و خط قاطعی که از هر دو نقطه می‌گذرد. نشان می‌دهد که $\\frac{\\Delta y}{\\Delta x}$ میل همین قاطع است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مشتق $f(x) = 2x$ را با تعریف پیدا کنید.",
+      "steps_fa": [
+        "$f'(x) = \\lim_{\\Delta x \\to 0}\\frac{2(x + \\Delta x) - 2x}{\\Delta x}$",
+        "$= \\lim_{\\Delta x \\to 0}\\frac{2\\Delta x}{\\Delta x} = 2$ (حل در صفحهٔ بعد)"
+      ],
+      "answer": "$f'(x) = 2$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغاز درس",
+      "kind": "question",
+      "problem_fa": "لیمت $\\lim_{\\Delta x \\to 0}\\frac{f(x + \\Delta x) - f(x)}{\\Delta x}$ چه چیزی را نشان می‌دهد و به چه شکل دیگری نوشته می‌شود؟",
+      "solution_steps_fa": [
+        "کسر میل قاطع بین نقاط x و $x + \\Delta x$ است.",
+        "وقتی $\\Delta x \\to 0$، قاطع به مماس تبدیل می‌شود."
+      ],
+      "answer": "میل مماس بر منحنی در نقطهٔ x، یعنی مشتق؛ به شکل $f'(x)$ یا $\\frac{dy}{dx}$ یا $\\lim_{h \\to 0}\\frac{f(x + h) - f(x)}{h}$ نوشته می‌شود.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "اگر $y = f(x)$ در $[a, b]$ متمادی باشد و x به اندازهٔ $\\Delta x$ زیاد شود، آیا تابع هم تزاید پیدا می‌کند؟ رابطهٔ دو تزاید را بنویسید.",
+      "solution_steps_fa": [
+        "قیمت جدید تابع $f(x + \\Delta x)$ است.",
+        "$y + \\Delta y = f(x + \\Delta x)$، پس $\\Delta y = f(x + \\Delta x) - f(x)$"
+      ],
+      "answer": "بلی؛ $\\Delta y = f(x + \\Delta x) - f(x)$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "نسبت $\\frac{\\Delta y}{\\Delta x}$ را طوری بنویسید که تساوی تغییر نکند.",
+      "solution_steps_fa": [
+        "دو طرف $\\Delta y = f(x + \\Delta x) - f(x)$ را بر $\\Delta x$ تقسیم می‌کنیم."
+      ],
+      "answer": "$\\frac{\\Delta y}{\\Delta x} = \\frac{f(x + \\Delta x) - f(x)}{\\Delta x}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "فعالیت ۳",
+      "kind": "activity",
+      "problem_fa": "اگر از دو طرف این رابطه لیمت بگیریم و $\\Delta x \\to 0$ شود، این لیمت چه نام دارد؟",
+      "solution_steps_fa": [
+        "$\\lim_{\\Delta x \\to 0}\\frac{\\Delta y}{\\Delta x} = \\lim_{\\Delta x \\to 0}\\frac{f(x + \\Delta x) - f(x)}{\\Delta x}$"
+      ],
+      "answer": "مشتق تابع، $f'(x)$",
+      "solution_source": "book"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

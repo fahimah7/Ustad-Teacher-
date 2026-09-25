@@ -1,0 +1,38 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 266,
+  "printed_page": 257,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "مختصات نقطه در فضای سه بُعدی",
+  "summary_fa": "این صفحه یک یادداشت سه‌قسمتی دارد. (A) مانند مستوی، در فضا سه وکتور واحد $\\vec{i}$، $\\vec{j}$ و $\\vec{k}$ در امتداد محورهای x، y و z داریم که طول هر کدام ۱ است؛ با قاعدهٔ جمع، هر وکتور فضایی به شکل $x\\vec{i} + y\\vec{j} + z\\vec{k}$ نوشته می‌شود. (B) فاصلهٔ بین دو نقطه در فضا: اگر $\\overrightarrow{OP_1}$ و $\\overrightarrow{OP_2}$ شعاع وکتورهای دو نقطه باشند، از قاعدهٔ مثلث $\\overrightarrow{P_1P_2} = \\overrightarrow{OP_2} - \\overrightarrow{OP_1}$ است؛ پس مؤلفه‌های آن تفاوت مختصات دو نقطه هستند و طول آن فاصلهٔ دو نقطه را می‌دهد. (C) اگر یکی از دو نقطه مبدأ باشد، فاصلهٔ نقطهٔ $(x,y,z)$ از مبدأ $\\sqrt{x^2+y^2+z^2}$ می‌شود.",
+  "key_points_fa": [
+    "وکتورهای واحد فضا: $\\vec{i}$، $\\vec{j}$، $\\vec{k}$ با طول ۱ در امتداد محورهای x، y، z.",
+    "هر وکتور: $\\vec{v} = x\\vec{i} + y\\vec{j} + z\\vec{k}$.",
+    "وکتور بین دو نقطه = شعاع وکتور نقطهٔ دوم منفی شعاع وکتور نقطهٔ اول.",
+    "فورمول فاصلهٔ دو نقطه در فضا شبیه فورمول مستوی است، فقط جملهٔ $(z_2 - z_1)^2$ اضافه می‌شود.",
+    "فاصله از مبدأ: $\\sqrt{x^2 + y^2 + z^2}$."
+  ],
+  "formulas": [
+    {"latex": "\\vec{i} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix},\\ \\vec{j} = \\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix},\\ \\vec{k} = \\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix},\\quad |\\vec{i}| = |\\vec{j}| = |\\vec{k}| = 1", "meaning_fa": "سه وکتور واحد در امتداد محورهای مختصات"},
+    {"latex": "\\vec{v} = \\begin{pmatrix} x \\\\ y \\\\ z \\end{pmatrix} = x\\vec{i} + y\\vec{j} + z\\vec{k}", "meaning_fa": "نوشتن وکتور سه‌بعدی با وکتورهای واحد"},
+    {"latex": "\\overrightarrow{P_1P_2} = \\overrightarrow{OP_2} - \\overrightarrow{OP_1} = \\begin{pmatrix} x_2 - x_1 \\\\ y_2 - y_1 \\\\ z_2 - z_1 \\end{pmatrix}", "meaning_fa": "وکتوری که نقطهٔ $P_1$ را به $P_2$ وصل می‌کند"},
+    {"latex": "|\\overrightarrow{P_1P_2}| = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}", "meaning_fa": "فورمول فاصلهٔ بین دو نقطه در فضای سه‌بعدی"},
+    {"latex": "d = \\sqrt{x^2 + y^2 + z^2}", "meaning_fa": "فاصلهٔ نقطهٔ $(x,y,z)$ از مبدأ"}
+  ],
+  "terms": [
+    {"fa": "وکتور واحد", "en": "unit vector"},
+    {"fa": "شعاع وکتور", "en": "position vector"},
+    {"fa": "فاصلهٔ بین دو نقطه در فضا", "en": "distance between two points in space"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.12, 0.46, 0.40, 0.63], "kind": "diagram", "description_fa": "محورهای x، y، z با مبدأ O. از O دو شعاع وکتور به نقاط $P_1$ و $P_2$ رسم شده و وکتور $\\overrightarrow{P_1P_2}$ نوک اولی را به نوک دومی وصل می‌کند. این مثلث نشان می‌دهد که $\\overrightarrow{OP_1} + \\overrightarrow{P_1P_2} = \\overrightarrow{OP_2}$."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب به اشتباه $|\\vec{y}|$ به جای $|\\vec{j}|$ چاپ شده است."
+}

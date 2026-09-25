@@ -1,0 +1,25 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 48,
+  "printed_page": 41,
+  "page_kind": "chapter_title",
+  "chapter": 2,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ آغاز فصل دوم کتاب که موضوع آن مشتق است. در این فصل شاگرد از میل یک منحنی و مماس بر آن شروع می‌کند، تعریف مشتق را به کمک لیمت یاد می‌گیرد و بعد قواعد مشتق‌گیری توابع مختلف را تمرین می‌کند. این فصل صفحات ۴۱ تا ۸۲ کتاب را در بر می‌گیرد و بر مفهوم لیمت فصل اول بنا شده است.",
+  "key_points_fa": [
+    "فصل دوم: مشتق (صفحات ۴۱ تا ۸۲)",
+    "مشتق با کمک لیمت تعریف می‌شود، پس مرور فصل لیمت مفید است."
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "مشتق", "en": "derivative"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

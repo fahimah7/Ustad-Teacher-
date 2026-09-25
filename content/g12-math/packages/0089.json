@@ -1,0 +1,134 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 89,
+  "printed_page": 82,
+  "page_kind": "exercises",
+  "chapter": 2,
+  "section_fa": "تمرینات عمومی فصل دوم",
+  "summary_fa": "بخش دوم تمرینات عمومی فصل مشتق: نُه سوال تشریحی. بیشتر این توابع پیش از مشتق گرفتن ساده می‌شوند: مثلاً $\\frac{2\\tan^2 x}{1 + \\tan^2 x}$ به $2\\sin^2 x$ تبدیل می‌شود، حاصل ضرب $(x-1)(x+1)(x^2+1)(x^4+1)$ برابر $x^8 - 1$ است و $(\\sin x + \\cos x)^2$ با $1 + \\sin 2x$ مساوی است. سوال‌های دیگر مشتق در یک نقطه، مشتق مرتبه بلند توابع مثلثاتی و مشتق ضمنی را تمرین می‌دهند. درس اصلی این صفحه: همیشه اول ببینید تابع را می‌شود ساده کرد یا نه.",
+  "key_points_fa": [
+    "$1 + \\tan^2 x = \\frac{1}{\\cos^2 x}$ و $(\\sin x + \\cos x)^2 = 1 + \\sin 2x$",
+    "$(a - b)(a + b) = a^2 - b^2$ را پیاپی به کار ببرید تا حاصل ضرب‌های طولانی ساده شوند.",
+    "مشتق‌های $\\cos x$ دورهٔ ۴ دارند، پس $(\\cos x)^{(8)} = \\cos x$.",
+    "$\\sin^2 x + \\cos^2 x = 1$ عدد ثابت است و همهٔ مشتق‌های آن صفر است."
+  ],
+  "formulas": [
+    {"latex": "1 + \\tan^2 x = \\frac{1}{\\cos^2 x}", "meaning_fa": "اتحاد مثلثاتی برای ساده کردن سوال ۱"},
+    {"latex": "\\sin 2x = 2\\sin x\\cos x", "meaning_fa": "فورمول زاویهٔ دوچند"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = \\frac{2\\tan^2 x}{1 + \\tan^2 x}$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$1 + \\tan^2 x = \\frac{1}{\\cos^2 x}$، پس $f(x) = 2\\tan^2 x\\cos^2 x = 2\\sin^2 x$",
+        "$f'(x) = 4\\sin x\\cos x = 2\\sin 2x$"
+      ],
+      "answer": "$f'(x) = 2\\sin 2x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = \\frac{x + \\sqrt{x - x^2}}{\\sqrt{x} + \\sqrt{1 - x}}$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "ساحهٔ تعریف: $0 \\le x \\le 1$ و در آن $\\sqrt{x - x^2} = \\sqrt{x}\\,\\sqrt{1 - x}$",
+        "صورت: $x + \\sqrt{x}\\sqrt{1 - x} = \\sqrt{x}(\\sqrt{x} + \\sqrt{1 - x})$",
+        "پس $f(x) = \\sqrt{x}$",
+        "$f'(x) = \\frac{1}{2\\sqrt{x}}$"
+      ],
+      "answer": "$f'(x) = \\frac{1}{2\\sqrt{x}}$ برای $0 < x < 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = (x - 1)(x + 1)(x^2 + 1)(x^4 + 1)$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$(x - 1)(x + 1) = x^2 - 1$",
+        "$(x^2 - 1)(x^2 + 1) = x^4 - 1$",
+        "$(x^4 - 1)(x^4 + 1) = x^8 - 1$",
+        "$f'(x) = 8x^7$"
+      ],
+      "answer": "$f'(x) = 8x^7$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = (\\sqrt[3]{x} - 1)(\\sqrt[3]{x} + 4)$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "ضرب می‌کنیم: $f(x) = x^{\\frac{2}{3}} + 3x^{\\frac{1}{3}} - 4$",
+        "$f'(x) = \\frac{2}{3}x^{-\\frac{1}{3}} + x^{-\\frac{2}{3}}$"
+      ],
+      "answer": "$f'(x) = \\frac{2}{3\\sqrt[3]{x}} + \\frac{1}{\\sqrt[3]{x^2}} = \\frac{2\\sqrt[3]{x} + 3}{3\\sqrt[3]{x^2}}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = \\sin x\\cos x$ را در نقطهٔ $x = \\frac{\\pi}{4}$ دریافت کنید.",
+      "solution_steps_fa": [
+        "$f'(x) = \\cos x\\cos x + \\sin x(-\\sin x) = \\cos^2 x - \\sin^2 x = \\cos 2x$",
+        "$f'(\\frac{\\pi}{4}) = \\cos\\frac{\\pi}{2} = 0$"
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = \\frac{(\\sin x + \\cos x)^2}{1 + \\sin 2x}$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$(\\sin x + \\cos x)^2 = \\sin^2 x + \\cos^2 x + 2\\sin x\\cos x = 1 + \\sin 2x$",
+        "پس $f(x) = 1$ (هر جا که $1 + \\sin 2x \\neq 0$)",
+        "مشتق عدد ثابت صفر است."
+      ],
+      "answer": "$f'(x) = 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "مشتق مرتبهٔ هشتم $y = \\cos x$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$y' = -\\sin x$، $y'' = -\\cos x$، $y''' = \\sin x$، $y^{(4)} = \\cos x$",
+        "دوره ۴ است و $8 = 2\\cdot 4$، پس $y^{(8)} = y^{(4)} = \\cos x$"
+      ],
+      "answer": "$y^{(8)} = \\cos x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "مشتق مرتبهٔ نهم $y = \\sin^2 x + \\cos^2 x$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$\\sin^2 x + \\cos^2 x = 1$، پس $y = 1$",
+        "مشتق اول و همهٔ مشتق‌های بعدی صفر است."
+      ],
+      "answer": "$y^{(9)} = 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹",
+      "kind": "exercise",
+      "problem_fa": "مشتق ضمنی $x^2 + xy + y^2 = 3$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$f(x, y) = x^2 + xy + y^2 - 3$",
+        "$f'_{(x)} = 2x + y$ و $f'_{(y)} = x + 2y$",
+        "$y' = -\\frac{2x + y}{x + 2y}$"
+      ],
+      "answer": "$y' = -\\frac{2x + y}{x + 2y}$ با شرط $x + 2y \\neq 0$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

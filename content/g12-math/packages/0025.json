@@ -1,0 +1,92 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 25,
+  "printed_page": 18,
+  "page_kind": "exercises",
+  "chapter": 1,
+  "section_fa": "شکل مبهم $\\frac{\\infty}{\\infty}$",
+  "summary_fa": "این صفحه یک تمرین دارد: قیمت لیمت پنج تابع نسبتی را وقتی $x \\to \\infty$ دریافت کنید. راه حل همهٔ آن‌ها یکی است: صورت و مخرج را بر بزرگ‌ترین توان x در مخرج تقسیم کنید، یا درجهٔ صورت و مخرج را مقایسه کنید. اگر درجهٔ مخرج بزرگ‌تر باشد لیمت صفر است، اگر درجه‌ها مساوی باشند لیمت برابر نسبت ضریب‌های بزرگ‌ترین توان است، و اگر درجهٔ صورت بزرگ‌تر باشد لیمت بی‌نهایت می‌شود.",
+  "key_points_fa": [
+    "درجهٔ صورت کوچک‌تر از درجهٔ مخرج ← لیمت صفر است.",
+    "درجهٔ صورت مساوی درجهٔ مخرج ← لیمت برابر نسبت ضریب‌های بزرگ‌ترین توان است.",
+    "درجهٔ صورت بزرگ‌تر از درجهٔ مخرج ← لیمت بی‌نهایت است.",
+    "روش عمومی: صورت و مخرج را بر بزرگ‌ترین توان x در مخرج تقسیم کنید."
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to \\infty} \\frac{a_m x^m + \\dots}{b_k x^k + \\dots} = \\begin{cases} 0 & m < k \\\\ \\frac{a_m}{b_k} & m = k \\\\ \\pm\\infty & m > k \\end{cases}", "meaning_fa": "قاعدهٔ مقایسهٔ درجه‌ها برای لیمت توابع نسبتی در بی‌نهایت"},
+    {"latex": "\\lim_{x \\to \\infty} \\frac{c}{x^p} = 0 \\quad (p > 0)", "meaning_fa": "یک عدد ثابت تقسیم بر توان مثبت x، در بی‌نهایت به صفر نزدیک می‌شود"}
+  ],
+  "terms": [
+    {"fa": "تابع نسبتی", "en": "rational function"},
+    {"fa": "شکل مبهم", "en": "indeterminate form"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\frac{6}{x^2 - x}$",
+      "solution_steps_fa": [
+        "صورت و مخرج را بر $x^2$ تقسیم می‌کنیم: $\\frac{\\frac{6}{x^2}}{1 - \\frac{1}{x}}$",
+        "وقتی $x \\to \\infty$، $\\frac{6}{x^2} \\to 0$ و $\\frac{1}{x} \\to 0$",
+        "پس لیمت برابر $\\frac{0}{1} = 0$ است."
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\frac{x^4 + x^2 + x + 6}{x^3 - 3x + 4}$",
+      "solution_steps_fa": [
+        "درجهٔ صورت ۴ و درجهٔ مخرج ۳ است.",
+        "صورت و مخرج را بر $x^3$ تقسیم می‌کنیم: $\\frac{x + \\frac{1}{x} + \\frac{1}{x^2} + \\frac{6}{x^3}}{1 - \\frac{3}{x^2} + \\frac{4}{x^3}}$",
+        "مخرج به ۱ نزدیک می‌شود ولی صورت مانند $x$ بی‌نهایت بزرگ می‌شود."
+      ],
+      "answer": "$+\\infty$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\frac{x^5 + x^2 - x + 9}{x^4 + x^2 - x - 5}$",
+      "solution_steps_fa": [
+        "درجهٔ صورت ۵ و درجهٔ مخرج ۴ است.",
+        "صورت و مخرج را بر $x^4$ تقسیم می‌کنیم: $\\frac{x + \\frac{1}{x^2} - \\frac{1}{x^3} + \\frac{9}{x^4}}{1 + \\frac{1}{x^2} - \\frac{1}{x^3} - \\frac{5}{x^4}}$",
+        "مخرج به ۱ نزدیک می‌شود و صورت بی‌نهایت بزرگ می‌شود."
+      ],
+      "answer": "$+\\infty$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\frac{x^3 + x^2 - x + 7}{x^3 - x + 5}$",
+      "solution_steps_fa": [
+        "درجهٔ صورت و مخرج هر دو ۳ است.",
+        "صورت و مخرج را بر $x^3$ تقسیم می‌کنیم: $\\frac{1 + \\frac{1}{x} - \\frac{1}{x^2} + \\frac{7}{x^3}}{1 - \\frac{1}{x^2} + \\frac{5}{x^3}}$",
+        "همهٔ کسرها به صفر نزدیک می‌شوند، پس لیمت برابر $\\frac{1}{1} = 1$ است."
+      ],
+      "answer": "$1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\frac{3x^3 - 2}{x + 1}$",
+      "solution_steps_fa": [
+        "درجهٔ صورت ۳ و درجهٔ مخرج ۱ است.",
+        "صورت و مخرج را بر $x$ تقسیم می‌کنیم: $\\frac{3x^2 - \\frac{2}{x}}{1 + \\frac{1}{x}}$",
+        "مخرج به ۱ نزدیک می‌شود و $3x^2$ بی‌نهایت بزرگ می‌شود."
+      ],
+      "answer": "$+\\infty$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "عنوان بخش از روی موضوع تمرین‌ها تعیین شده است."
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 339,
+  "printed_page": 332,
+  "page_kind": "exercises",
+  "chapter": 7,
+  "section_fa": "تبدیل معادلهٔ عمومی یک خط مستقیم به اشکال دیگر معادلات خط مستقیم",
+  "summary_fa": "بالای این صفحه نتیجهٔ درس در یک جمله یادآوری می‌شود: برای نوشتن معادلهٔ عمومی $ax + by + c = 0$ به شکل نورمال، هر حد آن بر $\\pm\\sqrt{a^2+b^2}$ تقسیم می‌شود. بعد تمرین درس می‌آید که دو جهت تبدیل را تمرین می‌دهد: در دو سوال اول معادلهٔ نورمال داده شده و باید با گذاشتن قیمت‌های کوساین و ساین آن را به شکل عمومی نوشت؛ در سوال سوم سه معادلهٔ عمومی داده شده که باید به شکل نورمال تبدیل شوند. در این تبدیل، علامهٔ جذر مخالف علامهٔ c گرفته می‌شود و از علامه‌های $\\cos\\theta$ و $\\sin\\theta$ ناحیهٔ زاویه معلوم می‌شود.",
+  "key_points_fa": [
+    "نورمال ← عمومی: قیمت‌های $\\cos\\theta$ و $\\sin\\theta$ را بگذارید و کسرها و جذرها را از بین ببرید.",
+    "عمومی ← نورمال: بر $\\pm\\sqrt{a^2+b^2}$ تقسیم کنید؛ علامهٔ جذر مخالف علامهٔ c.",
+    "ناحیهٔ $\\theta$ از علامه‌های $\\cos\\theta$ و $\\sin\\theta$ معلوم می‌شود.",
+    "P همیشه مثبت است و فاصلهٔ خط از مبدأ را نشان می‌دهد."
+  ],
+  "formulas": [
+    {"latex": "\\frac{ax}{\\pm\\sqrt{a^2+b^2}} + \\frac{by}{\\pm\\sqrt{a^2+b^2}} + \\frac{c}{\\pm\\sqrt{a^2+b^2}} = 0", "meaning_fa": "معادلهٔ عمومی به شکل نورمال"}
+  ],
+  "terms": [
+    {"fa": "معادلهٔ نورمال خط", "en": "normal form of a line"},
+    {"fa": "معادلهٔ عمومی خط مستقیم", "en": "general equation of a straight line"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "معادلهٔ نورمال $x\\cos 60^\\circ + y\\sin 60^\\circ - 7 = 0$ را به شکل عمومی تبدیل کنید.",
+      "solution_steps_fa": [
+        "$\\cos 60^\\circ = \\frac{1}{2}$ و $\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$",
+        "$\\frac{1}{2}x + \\frac{\\sqrt{3}}{2}y - 7 = 0$",
+        "ضرب در ۲: $x + \\sqrt{3}y - 14 = 0$"
+      ],
+      "answer": "$x + \\sqrt{3}y - 14 = 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "معادلهٔ نورمال $x\\cos 225^\\circ + y\\sin 225^\\circ - 6 = 0$ را به شکل عمومی تبدیل کنید.",
+      "solution_steps_fa": [
+        "$225^\\circ$ در ناحیهٔ سوم است: $\\cos 225^\\circ = \\sin 225^\\circ = -\\frac{\\sqrt{2}}{2}$",
+        "$-\\frac{\\sqrt{2}}{2}x - \\frac{\\sqrt{2}}{2}y - 6 = 0$",
+        "ضرب در $-\\sqrt{2}$: $x + y + 6\\sqrt{2} = 0$"
+      ],
+      "answer": "$x + y + 6\\sqrt{2} = 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳ (الف)",
+      "kind": "exercise",
+      "problem_fa": "$2x + 4y + 7 = 0$ را به شکل نورمال تبدیل کنید.",
+      "solution_steps_fa": [
+        "$\\sqrt{2^2 + 4^2} = \\sqrt{20} = 2\\sqrt{5}$؛ چون $c = 7 > 0$، بر $-2\\sqrt{5}$ تقسیم می‌کنیم.",
+        "$-\\frac{1}{\\sqrt{5}}x - \\frac{2}{\\sqrt{5}}y - \\frac{7}{2\\sqrt{5}} = 0$",
+        "$\\cos\\theta = -\\frac{1}{\\sqrt{5}}$ و $\\sin\\theta = -\\frac{2}{\\sqrt{5}}$ هر دو منفی، پس $\\theta$ در ناحیهٔ سوم: $\\theta \\approx 243^\\circ 26'$",
+        "$P = \\frac{7}{2\\sqrt{5}} = \\frac{7\\sqrt{5}}{10} \\approx 1.57$"
+      ],
+      "answer": "$-\\frac{1}{\\sqrt{5}}x - \\frac{2}{\\sqrt{5}}y - \\frac{7}{2\\sqrt{5}} = 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳ (ب)",
+      "kind": "exercise",
+      "problem_fa": "$2x + 5y - 2 = 0$ را به شکل نورمال تبدیل کنید.",
+      "solution_steps_fa": [
+        "$\\sqrt{2^2 + 5^2} = \\sqrt{29}$؛ چون $c = -2 < 0$، بر $+\\sqrt{29}$ تقسیم می‌کنیم.",
+        "$\\frac{2}{\\sqrt{29}}x + \\frac{5}{\\sqrt{29}}y - \\frac{2}{\\sqrt{29}} = 0$",
+        "$\\cos\\theta$ و $\\sin\\theta$ هر دو مثبت، پس $\\theta$ در ناحیهٔ اول: $\\theta \\approx 68^\\circ 12'$",
+        "$P = \\frac{2}{\\sqrt{29}} \\approx 0.37$"
+      ],
+      "answer": "$\\frac{2}{\\sqrt{29}}x + \\frac{5}{\\sqrt{29}}y - \\frac{2}{\\sqrt{29}} = 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳ (ج)",
+      "kind": "exercise",
+      "problem_fa": "$15y - 8x + 3 = 0$ را به شکل نورمال تبدیل کنید.",
+      "solution_steps_fa": [
+        "به ترتیب معیاری: $-8x + 15y + 3 = 0$؛ $\\sqrt{(-8)^2 + 15^2} = \\sqrt{289} = 17$",
+        "چون $c = 3 > 0$، بر $-17$ تقسیم می‌کنیم: $\\frac{8}{17}x - \\frac{15}{17}y - \\frac{3}{17} = 0$",
+        "$\\cos\\theta = \\frac{8}{17} > 0$ و $\\sin\\theta = -\\frac{15}{17} < 0$، پس $\\theta$ در ناحیهٔ چهارم: $\\theta \\approx 298^\\circ 4'$",
+        "$P = \\frac{3}{17}$"
+      ],
+      "answer": "$\\frac{8}{17}x - \\frac{15}{17}y - \\frac{3}{17} = 0$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "زاویه‌ها با ماشین حساب به دقیقه گرد شده اند؛ از جدول مثلثاتی ممکن است یک دقیقه فرق کند."
+}

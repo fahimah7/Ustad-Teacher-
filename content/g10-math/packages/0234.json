@@ -1,0 +1,69 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 234,
+  "printed_page": 227,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "فورمول‌های جمع و تفاضل",
+  "summary_fa": "بالای صفحه حل مثال ۳ صفحهٔ قبل است: با فورمول cos تفاضل و قیمت‌های $\\cos 270^\\circ = 0$ و $\\sin 270^\\circ = -1$ نتیجه می‌شود $\\cos(270^\\circ - \\theta) = -\\sin\\theta$. در مثال ۴ قیمت $\\tan 120^\\circ$ با نوشتن آن به شکل $\\tan(180^\\circ - 60^\\circ)$ و فورمول tan تفاضل برابر $-\\sqrt{3}$ به دست می‌آید. سپس یک فعالیت دو عبارت عددی می‌دهد که باید آن‌ها را به شکل فورمول مجموع شناخت و ساده کرد. در پایین صفحه جدولی رنگی هر شش فورمول مجموع و تفاضل (sin، cos و tan) را یک‌جا خلاصه کرده است.",
+  "key_points_fa": [
+    "عبارتی به شکل $\\sin A\\cos B + \\cos A\\sin B$ همان $\\sin(A + B)$ است؛ از راست به چپ هم می‌توان فورمول را خواند.",
+    "عبارتی به شکل $\\cos A\\cos B - \\sin A\\sin B$ همان $\\cos(A + B)$ است.",
+    "$\\tan 180^\\circ = 0$، پس $\\tan(180^\\circ - \\theta) = -\\tan\\theta$.",
+    "در sin علامهٔ وسط با علامهٔ زاویه یکی است؛ در cos برعکس است."
+  ],
+  "formulas": [
+    {"latex": "\\sin(\\alpha \\pm \\beta) = \\sin\\alpha\\cos\\beta \\pm \\cos\\alpha\\sin\\beta", "meaning_fa": "خلاصهٔ فورمول‌های sin مجموع و تفاضل"},
+    {"latex": "\\cos(\\alpha \\pm \\beta) = \\cos\\alpha\\cos\\beta \\mp \\sin\\alpha\\sin\\beta", "meaning_fa": "خلاصهٔ فورمول‌های cos مجموع و تفاضل"},
+    {"latex": "\\tan(\\alpha \\pm \\beta) = \\frac{\\tan\\alpha \\pm \\tan\\beta}{1 \\mp \\tan\\alpha\\tan\\beta}", "meaning_fa": "خلاصهٔ فورمول‌های tan مجموع و تفاضل"}
+  ],
+  "terms": [],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [0.13, 0.49, 0.82, 0.63],
+      "kind": "table",
+      "description_fa": "جدول نارنجی چهارخانه‌ای که فورمول‌های مجموع و تفاضل را خلاصه می‌کند: خانهٔ بالا-چپ $\\sin(\\alpha \\pm \\beta)$، خانهٔ پایین-چپ $\\cos(\\alpha \\pm \\beta)$، و در طرف راست $\\tan(\\alpha + \\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha\\tan\\beta}$ و $\\tan(\\alpha - \\beta) = \\frac{\\tan\\alpha - \\tan\\beta}{1 + \\tan\\alpha\\tan\\beta}$. برای حفظ کردن و مراجعه به کار می‌رود."
+    }
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳ (حل)",
+      "problem_fa": "نشان دهید $\\cos(270^\\circ - \\theta) = -\\sin\\theta$.",
+      "steps_fa": [
+        "$\\cos(270^\\circ - \\theta) = \\cos 270^\\circ\\cos\\theta + \\sin 270^\\circ\\sin\\theta$",
+        "$= 0\\cdot\\cos\\theta + (-1)\\sin\\theta = -\\sin\\theta$"
+      ],
+      "answer": "$-\\sin\\theta$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "$\\tan 120^\\circ$ را دریابید.",
+      "steps_fa": [
+        "$\\tan 120^\\circ = \\tan(180^\\circ - 60^\\circ) = \\frac{\\tan 180^\\circ - \\tan 60^\\circ}{1 + \\tan 180^\\circ\\tan 60^\\circ}$",
+        "$= \\frac{0 - \\sqrt{3}}{1 + 0\\cdot\\sqrt{3}} = -\\sqrt{3}$"
+      ],
+      "answer": "$-\\sqrt{3}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "نشان دهید $\\sin 211^\\circ\\cos 59^\\circ + \\cos 211^\\circ\\sin 59^\\circ = -1$ و $\\cos 211^\\circ\\cos 149^\\circ - \\sin 211^\\circ\\sin 149^\\circ = 1$.",
+      "solution_steps_fa": [
+        "عبارت اول شکل $\\sin(A + B)$ را دارد: $\\sin(211^\\circ + 59^\\circ) = \\sin 270^\\circ = -1$",
+        "عبارت دوم شکل $\\cos(A + B)$ را دارد: $\\cos(211^\\circ + 149^\\circ) = \\cos 360^\\circ = 1$"
+      ],
+      "answer": "اولی $-1$ و دومی $1$ است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

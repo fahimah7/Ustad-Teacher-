@@ -1,0 +1,46 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 242,
+  "printed_page": 235,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی $2\\alpha$ از جنس $\\alpha$",
+  "summary_fa": "این صفحه با مثال ۴ یک اتحاد را ثابت می‌کند: $\\frac{\\sin 3\\theta}{\\sin\\theta} - \\frac{\\cos 3\\theta}{\\cos\\theta} = 2$. روش: دو کسر را با مخرج مشترک $\\sin\\theta\\cos\\theta$ جمع می‌کنیم؛ صورت به شکل فورمول ساین تفاضل دو زاویه درمی‌آید و $\\sin(3\\theta - \\theta) = \\sin 2\\theta$ می‌شود، و چون $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$ است، جواب ۲ به دست می‌آید. در بقیهٔ صفحه (با رنگ آبی) خلاصهٔ همهٔ فورمول‌های این درس آمده است: نسبت‌های زاویهٔ دوچند $2\\theta$، نسبت‌های $\\theta$ از جنس $\\frac{\\theta}{2}$، و فورمول‌های $\\sin\\theta$، $\\cos\\theta$ و $\\tan\\theta$ از جنس $\\cos 2\\theta$. این فهرست برای مرور و حل تمرین‌های صفحهٔ بعد مفید است.",
+  "key_points_fa": [
+    "برای ثابت کردن اتحادهای کسری، اول مخرج مشترک بگیرید و بعد صورت را با یک فورمول شناخته‌شده ساده کنید.",
+    "$\\sin A\\cos B - \\cos A\\sin B = \\sin(A - B)$ کلید حل مثال ۴ است.",
+    "هر فورمول $2\\theta$ با بدل کردن $\\theta$ به $\\frac{\\theta}{2}$ یک فورمول برای $\\theta$ از جنس $\\frac{\\theta}{2}$ می‌دهد.",
+    "$\\cos 2\\theta$ سه شکل دارد: $\\cos^2\\theta - \\sin^2\\theta$، $2\\cos^2\\theta - 1$ و $1 - 2\\sin^2\\theta$."
+  ],
+  "formulas": [
+    {"latex": "\\sin 2\\theta = 2\\sin\\theta\\cos\\theta", "meaning_fa": "ساین زاویهٔ دوچند"},
+    {"latex": "\\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta = 2\\cos^2\\theta - 1 = 1 - 2\\sin^2\\theta", "meaning_fa": "کوساین زاویهٔ دوچند"},
+    {"latex": "\\tan 2\\theta = \\frac{2\\tan\\theta}{1 - \\tan^2\\theta}", "meaning_fa": "تانجانت زاویهٔ دوچند"},
+    {"latex": "\\sin\\theta = 2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2},\\quad \\cos\\theta = 2\\cos^2\\frac{\\theta}{2} - 1 = 1 - 2\\sin^2\\frac{\\theta}{2},\\quad \\tan\\theta = \\frac{2\\tan\\frac{\\theta}{2}}{1-\\tan^2\\frac{\\theta}{2}}", "meaning_fa": "نسبت‌های $\\theta$ از جنس $\\frac{\\theta}{2}$"},
+    {"latex": "\\sin\\theta = \\pm\\sqrt{\\frac{1-\\cos 2\\theta}{2}},\\quad \\cos\\theta = \\pm\\sqrt{\\frac{1+\\cos 2\\theta}{2}},\\quad \\tan\\theta = \\pm\\sqrt{\\frac{1-\\cos 2\\theta}{1+\\cos 2\\theta}}", "meaning_fa": "نسبت‌های $\\theta$ از جنس $\\cos 2\\theta$؛ علامه از روی ربع زاویه تعیین می‌شود"}
+  ],
+  "terms": [
+    {"fa": "زاویهٔ دوچند", "en": "double angle"},
+    {"fa": "اتحاد مثلثاتی", "en": "trigonometric identity"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "نشان دهید که $\\frac{\\sin 3\\theta}{\\sin\\theta} - \\frac{\\cos 3\\theta}{\\cos\\theta} = 2$.",
+      "steps_fa": [
+        "مخرج مشترک: $\\frac{\\sin 3\\theta\\cos\\theta - \\cos 3\\theta\\sin\\theta}{\\sin\\theta\\cos\\theta}$",
+        "صورت مساوی $\\sin(3\\theta - \\theta) = \\sin 2\\theta$ است.",
+        "$\\frac{\\sin 2\\theta}{\\sin\\theta\\cos\\theta} = \\frac{2\\sin\\theta\\cos\\theta}{\\sin\\theta\\cos\\theta} = 2$"
+      ],
+      "answer": "$2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "نیمهٔ پایین صفحه فقط فهرست فورمول‌ها به رنگ آبی است."
+}

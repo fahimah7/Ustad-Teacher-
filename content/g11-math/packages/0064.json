@@ -1,0 +1,47 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 64,
+  "printed_page": 55,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "قانون ساین",
+  "summary_fa": "این بخش مثال ۳ قانون ساین را حل می‌کند: در یک مثلث دو زاویه و یک ضلع معلوم است و باید زاویهٔ سوم و دو ضلع دیگر دریافت شود. نخست زاویهٔ سوم از مجموع $180^\\circ$ پیدا می‌شود. بعد برای هر ضلع نامعلوم، یک نسبت قانون ساین نوشته می‌شود که ضلع معلوم b و زاویهٔ مقابل آن (B) را دارد، و با گذاشتن قیمت‌های ساین از جدول مثلثاتی، طول ضلع حساب می‌شود. نکتهٔ مهم این است که ساین زاویهٔ منفرجهٔ $129^\\circ$ مثبت است و با ساین $51^\\circ$ برابر است. این مثال روش عمومی حل مثلث در حالت «دو زاویه و یک ضلع» را نشان می‌دهد.",
+  "key_points_fa": [
+    "وقتی دو زاویه و یک ضلع معلوم باشد، اول زاویهٔ سوم را پیدا کنید.",
+    "همیشه از جورهٔ معلوم (ضلع b و زاویهٔ مقابل آن B) در نسبت قانون ساین استفاده کنید.",
+    "ساین زاویهٔ منفرجه مثبت است: $\\sin 129^\\circ = \\sin 51^\\circ \\approx 0.7771$.",
+    "بزرگ‌ترین ضلع مقابل بزرگ‌ترین زاویه است: a (مقابل $129^\\circ$) بزرگ‌ترین ضلع شد."
+  ],
+  "formulas": [
+    {"latex": "A = 180^\\circ - (B + C)", "meaning_fa": "زاویهٔ سوم مثلث"},
+    {"latex": "a = \\frac{b\\sin A}{\\sin B},\\quad c = \\frac{b\\sin C}{\\sin B}", "meaning_fa": "دو ضلع نامعلوم از روی جورهٔ معلوم b و B"}
+  ],
+  "terms": [
+    {"fa": "قانون ساین", "en": "law of sines"},
+    {"fa": "جدول مثلثاتی", "en": "trigonometric table"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.11, 0.08, 0.46, 0.19], "kind": "diagram", "description_fa": "مثلث ABC: رأس C در بالا چپ با زاویهٔ $31^\\circ$، رأس B در راست با زاویهٔ $20^\\circ$، و رأس A در پایین چپ با زاویهٔ منفرجهٔ نامعلوم. ضلع CA برابر $b = 210\\,\\text{cm}$ است؛ ضلع CB (a) و ضلع AB (c) نامعلوم‌اند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "در مثلث ABC، $C = 31^\\circ$، $B = 20^\\circ$ و $b = 210\\,\\text{cm}$ است. زاویهٔ A و ضلع‌های a و c را دریافت کنید.",
+      "steps_fa": [
+        "$A = 180^\\circ - (31^\\circ + 20^\\circ) = 129^\\circ$",
+        "$\\frac{\\sin A}{a} = \\frac{\\sin B}{b} \\Rightarrow a = \\frac{\\sin 129^\\circ \\cdot 210}{\\sin 20^\\circ}$",
+        "$\\sin 129^\\circ \\approx 0.7771$ و $\\sin 20^\\circ \\approx 0.342$؛ پس $a = \\frac{163.191}{0.342} \\approx 477.17\\,\\text{cm}$",
+        "$\\frac{\\sin B}{b} = \\frac{\\sin C}{c} \\Rightarrow c = \\frac{210 \\cdot \\sin 31^\\circ}{\\sin 20^\\circ}$",
+        "$\\sin 31^\\circ \\approx 0.5150$؛ پس $c = \\frac{108.15}{0.342} \\approx 316.23\\,\\text{cm}$"
+      ],
+      "answer": "$A = 129^\\circ$، $a \\approx 477.17\\,\\text{cm}$، $c \\approx 316.23\\,\\text{cm}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

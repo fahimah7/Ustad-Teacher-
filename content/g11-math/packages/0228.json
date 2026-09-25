@@ -1,0 +1,63 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 228,
+  "printed_page": 219,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "ضرب دو متریکس",
+  "summary_fa": "این صفحه نشان می‌دهد که ترتیب در ضرب متریکس‌ها مهم است و سپس خواص ضرب متریکس را جمع‌بندی می‌کند. در فعالیت، یک متریکس $2 \\times 2$ و یک متریکس $2 \\times 3$ داده شده و باید دید که AB و BA هر دو ممکن‌اند یا نه. در مثال ۴ دو متریکس $2 \\times 2$ خاص C و D در هر دو ترتیب ضرب می‌شوند و این بار جواب‌ها برابر می‌آیند؛ یعنی گاهی CD = DC می‌شود، اما این یک حالت استثنایی است. در پایان، خواص ضرب متریکس بیان می‌شود: ضرب به صورت عمومی تبدیلی نیست، اتحادی است، بر جمع توزیع می‌شود، عدد حقیقی K را می‌توان در هر یک از دو عامل ضرب کرد، و متریکس واحد I در ضرب هیچ اثری ندارد.",
+  "key_points_fa": [
+    "به صورت عمومی $AB \\neq BA$ (خاصیت تبدیلی ندارد)؛ گاهی حتی یکی از دو ضرب ممکن نیست.",
+    "در حالت‌های خاص، مانند مثال ۴، ممکن است $CD = DC$ شود.",
+    "خاصیت اتحادی: $(AB)C = A(BC)$.",
+    "خاصیت توزیعی: $A(B+C) = AB + AC$ و $(A+B)C = AC + BC$.",
+    "متریکس واحد مانند عدد ۱ در ضرب اعداد است: $IA = AI = A$."
+  ],
+  "formulas": [
+    {"latex": "AB \\neq BA", "meaning_fa": "خاصیت ۱: ضرب متریکس‌ها به صورت عمومی تبدیلی نیست"},
+    {"latex": "(AB)C = A(BC)", "meaning_fa": "خاصیت ۲: خاصیت اتحادی"},
+    {"latex": "A(B+C) = AB + AC,\\quad (A+B)C = AC + BC", "meaning_fa": "خاصیت ۳ (a و b): توزیعی بودن ضرب بر جمع"},
+    {"latex": "K(AB) = (KA)B = A(KB),\\quad K \\in \\mathbb{R}", "meaning_fa": "خاصیت ۳ (c): ضرب عدد حقیقی با حاصل ضرب دو متریکس"},
+    {"latex": "IA = AI = A", "meaning_fa": "خاصیت ۳ (d): متریکس واحد عنصر عینیت ضرب است"}
+  ],
+  "terms": [
+    {"fa": "خاصیت تبدیلی", "en": "commutative property"},
+    {"fa": "خاصیت اتحادی", "en": "associative property"},
+    {"fa": "خاصیت توزیعی", "en": "distributive property"},
+    {"fa": "متریکس واحد", "en": "identity matrix"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "اگر $C = \\begin{pmatrix} 2 & -1 \\\\ 1 & 2 \\end{pmatrix}$ و $D = \\begin{pmatrix} -3 & 4 \\\\ -4 & -3 \\end{pmatrix}$ باشد، CD و DC را دریافت و مقایسه کنید.",
+      "steps_fa": [
+        "$CD = \\begin{pmatrix} 2(-3) + (-1)(-4) & 2 \\cdot 4 + (-1)(-3) \\\\ 1(-3) + 2(-4) & 1 \\cdot 4 + 2(-3) \\end{pmatrix} = \\begin{pmatrix} -2 & 11 \\\\ -11 & -2 \\end{pmatrix}$",
+        "$DC = \\begin{pmatrix} -3 \\cdot 2 + 4 \\cdot 1 & -3(-1) + 4 \\cdot 2 \\\\ -4 \\cdot 2 + (-3) \\cdot 1 & -4(-1) + (-3) \\cdot 2 \\end{pmatrix} = \\begin{pmatrix} -2 & 11 \\\\ -11 & -2 \\end{pmatrix}$",
+        "دو جواب یکسان‌اند."
+      ],
+      "answer": "$CD = DC = \\begin{pmatrix} -2 & 11 \\\\ -11 & -2 \\end{pmatrix}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر $A = \\begin{pmatrix} 2 & -1 \\\\ 0 & 1 \\end{pmatrix}$ و $B = \\begin{pmatrix} 4 & -2 & 0 \\\\ 0 & 1 & -3 \\end{pmatrix}$ باشد، در صورت امکان AB و BA را دریافت و مقایسه کنید.",
+      "solution_steps_fa": [
+        "AB: A از مرتبهٔ $2 \\times 2$ و B از مرتبهٔ $2 \\times 3$؛ ۲ = ۲ پس ممکن است و جواب $2 \\times 3$ است.",
+        "سطر اول: $2 \\cdot 4 + (-1) \\cdot 0 = 8$، $2(-2) + (-1)(1) = -5$، $2 \\cdot 0 + (-1)(-3) = 3$",
+        "سطر دوم: $0 \\cdot 4 + 1 \\cdot 0 = 0$، $0(-2) + 1 \\cdot 1 = 1$، $0 \\cdot 0 + 1(-3) = -3$",
+        "BA: B از مرتبهٔ $2 \\times 3$ و A از مرتبهٔ $2 \\times 2$؛ تعداد ستون‌های B (۳) با تعداد سطرهای A (۲) برابر نیست، پس BA تعریف نشده است."
+      ],
+      "answer": "$AB = \\begin{pmatrix} 8 & -5 & 3 \\\\ 0 & 1 & -3 \\end{pmatrix}$؛ BA ممکن نیست، پس $AB \\neq BA$.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

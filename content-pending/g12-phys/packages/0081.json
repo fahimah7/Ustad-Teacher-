@@ -1,0 +1,88 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-phys",
+  "pdf_page": 81,
+  "printed_page": 72,
+  "page_kind": "review",
+  "chapter": 3,
+  "section_fa": "سؤال‌های فصل سوم",
+  "summary_fa": "این صفحه آخرین قسمت سؤال‌های فصل سوم (سؤال‌های ۷ تا ۱۰) است. دو سؤال اول می‌خواهند شاگرد کمیت‌های دو فورمول مهم فصل را توضیح دهد: مودول بلک که مقاومت جسم را در برابر تغییر حجم زیر فشار نشان می‌دهد، و مودول شیر که مقاومت جسم را در برابر کج شدن زیر قوهٔ مماسی نشان می‌دهد. دو سؤال آخر مسایل عددی کثافت اند: از کتله و حجم پطرول کثافت و وزن مخصوصهٔ آن را پیدا می‌کنیم، و از کتله و کثافت سیماب حجم آن را حساب می‌کنیم. برای حل این مسایل باید رابطهٔ $\\rho = \\frac{m}{V}$ و تبدیل واحدها ($\\mathrm{g/cm^3}$ و $\\mathrm{kg/m^3}$) را بدانیم.",
+  "key_points_fa": [
+    "مودول بلک: $B = V_1\\,\\frac{\\Delta P}{\\Delta V}$ (تغییر فشار تقسیم بر تغییر نسبی حجم)؛ واحد پاسکال.",
+    "مودول شیر: $S = \\frac{F\\,L_o}{A\\,\\Delta L}$؛ واحد $\\mathrm{N/m^2}$.",
+    "کثافت $\\rho = \\frac{m}{V}$ و از آن $V = \\frac{m}{\\rho}$.",
+    "وزن مخصوصه = کثافت جسم تقسیم بر کثافت آب؛ واحد ندارد.",
+    "$1\\,\\mathrm{g/cm^3} = 1000\\,\\mathrm{kg/m^3}$"
+  ],
+  "formulas": [
+    {"latex": "B = V_1\\,\\frac{\\Delta P}{\\Delta V}", "meaning_fa": "مودول بلک: $V_1$ حجم اولی، $\\Delta P$ تغییر فشار، $\\Delta V$ تغییر حجم"},
+    {"latex": "S = \\frac{F\\,L_o}{A\\,\\Delta L}", "meaning_fa": "مودول شیر: F قوهٔ مماسی، $L_o$ ارتفاع (طول اولی) جسم، A مساحت سطحی که قوه بر آن وارد می‌شود، $\\Delta L$ فاصلهٔ لغزیدن سطح بالایی"},
+    {"latex": "\\rho = \\frac{m}{V},\\quad Sp.gr = \\frac{\\rho}{\\rho_w}", "meaning_fa": "کثافت و وزن مخصوصه ($\\rho_w$ کثافت آب)"}
+  ],
+  "terms": [
+    {"fa": "مودول بلک", "en": "bulk modulus"},
+    {"fa": "مودول شیر", "en": "shear modulus"},
+    {"fa": "وزن مخصوصه", "en": "specific gravity"},
+    {"fa": "سیماب", "en": "mercury (Hg)"},
+    {"fa": "پطرول", "en": "petrol (gasoline)"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "سؤال ۷",
+      "kind": "question",
+      "problem_fa": "کمیت‌های رابطهٔ مودول بلک $B = V_1\\,\\frac{\\Delta P}{\\Delta V}$ را توضیح دهید.",
+      "solution_steps_fa": [
+        "B مودول بلک است: نشان می‌دهد که یک جسم در برابر فشرده شدن حجمی چقدر مقاومت دارد؛ واحد آن پاسکال ($\\mathrm{N/m^2}$).",
+        "$V_1$ حجم اولی جسم پیش از زیاد شدن فشار است ($\\mathrm{m^3}$).",
+        "$\\Delta P$ تغییر فشاری است که از همه طرف بر جسم وارد می‌شود (پاسکال).",
+        "$\\Delta V$ تغییر حجم جسم است ($\\mathrm{m^3}$)؛ چون با زیاد شدن فشار حجم کم می‌شود، قیمت مطلقهٔ آن گرفته می‌شود.",
+        "$\\frac{\\Delta V}{V_1}$ کشش (strain) حجمی و $\\Delta P$ تنش (stress) است؛ پس B = stress ÷ strain."
+      ],
+      "answer": "B مودول بلک، $V_1$ حجم اولی، $\\Delta P$ تغییر فشار و $\\Delta V$ تغییر حجم است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۸",
+      "kind": "question",
+      "problem_fa": "کمیت‌های رابطهٔ مودول شیر $S = \\frac{F\\,L_o}{A\\,\\Delta L}$ را توضیح دهید.",
+      "solution_steps_fa": [
+        "S مودول شیر (مودول برش) است: مقاومت جسم جامد در برابر تغییر شکل (کج شدن)؛ واحد $\\mathrm{N/m^2}$.",
+        "F قوهٔ مماسی است که موازی با سطح جسم وارد می‌شود (نیوتن).",
+        "A مساحت سطحی است که قوه بر آن وارد می‌شود ($\\mathrm{m^2}$)؛ پس $\\frac{F}{A}$ تنش شیر است.",
+        "$L_o$ طول (ارتفاع) اولی مکعب مستطیل و $\\Delta L$ فاصله‌ای است که سطح بالایی نسبت به سطح پایینی می‌لغزد؛ $\\frac{\\Delta L}{L_o}$ کشش (strain) شیر است."
+      ],
+      "answer": "S مودول شیر، F قوهٔ مماسی، A مساحت سطح، $L_o$ طول اولی و $\\Delta L$ فاصلهٔ برش شده است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۹",
+      "kind": "exercise",
+      "problem_fa": "$51\\,\\mathrm{g}$ پطرول $75\\,\\mathrm{cm^3}$ حجم دارد. کثافت و وزن مخصوصهٔ آن را پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\rho = \\frac{m}{V} = \\frac{51\\,\\mathrm{g}}{75\\,\\mathrm{cm^3}} = 0.68\\,\\mathrm{g/cm^3}$",
+        "به واحد SI: $0.68 \\times 1000 = 680\\,\\mathrm{kg/m^3}$",
+        "وزن مخصوصه = $\\frac{\\rho}{\\rho_w} =\\frac{0.68\\,\\mathrm{g/cm^3}}{1\\,\\mathrm{g/cm^3}} = 0.68$ (بی‌واحد)"
+      ],
+      "answer": "کثافت $0.68\\,\\mathrm{g/cm^3} = 680\\,\\mathrm{kg/m^3}$؛ وزن مخصوصه $0.68$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۱۰",
+      "kind": "exercise",
+      "problem_fa": "حجم $300\\,\\mathrm{g}$ سیماب (Hg) را پیدا کنید، اگر کثافت سیماب $\\rho = 13600\\,\\mathrm{kg/m^3}$ باشد.",
+      "solution_steps_fa": [
+        "کثافت را به $\\mathrm{g/cm^3}$ می‌بریم: $13600\\,\\mathrm{kg/m^3} = 13.6\\,\\mathrm{g/cm^3}$",
+        "$V = \\frac{m}{\\rho} = \\frac{300\\,\\mathrm{g}}{13.6\\,\\mathrm{g/cm^3}} \\approx 22.06\\,\\mathrm{cm^3}$",
+        "یا به SI: $V = \\frac{0.3\\,\\mathrm{kg}}{13600\\,\\mathrm{kg/m^3}} \\approx 2.21\\times10^{-5}\\,\\mathrm{m^3}$"
+      ],
+      "answer": "$V \\approx 22.06\\,\\mathrm{cm^3} \\approx 2.21\\times10^{-5}\\,\\mathrm{m^3}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب در سؤال ۹ «وزن مخصوص» نوشته که در این کتاب به معنای وزن مخصوصه (specific gravity، کثافت نسبی) است؛ اگر وزن فی واحد حجم خواسته شود: $\\rho g = 680 \\times 9.8 \\approx 6664\\,\\mathrm{N/m^3}$. در کتاب «gr» برای گرام و حرف کوچک s برای مودول شیر به کار رفته است."
+}

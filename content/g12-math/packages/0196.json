@@ -1,0 +1,90 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 196,
+  "printed_page": 189,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "انتیگرال‌های توابع اکسپوننشیل",
+  "summary_fa": "این صفحه انتیگرال توابع اکسپوننشیل را شروع می‌کند. اول دو رابطهٔ $\\log_a b = x$ و $a^x = b$ کنار هم گذاشته می‌شوند تا شاگرد ببیند که هر دو یک معنی دارند. بعد یک فعالیت سه سوالی دربارهٔ تابع $a^x$، مثال تابع لوگاریتمی و تبدیل شکل لوگاریتمی به اکسپوننشیل آمده است. نتیجهٔ اصلی: چون مشتق $e^x$ خودش است، انتیگرال $e^x$ هم $e^x + C$ است؛ و به طور عموم انتیگرال $a^x$ برابر $\\frac{a^x}{\\ln a} + C$ است. این قاعده با طریقهٔ تعویضی ثابت می‌شود: $u = a^x$ وضع می‌شود، $dx$ بر حسب $du$ نوشته می‌شود و انتیگرال به یک انتیگرال ساده تبدیل می‌گردد.",
+  "key_points_fa": [
+    "$\\log_a b = x \\Leftrightarrow a^x = b$",
+    "$\\int e^x\\,dx = e^x + C$",
+    "$\\int a^x\\,dx = \\frac{a^x}{\\ln a} + C$ برای $a > 0$ و $a \\neq 1$",
+    "امتحان: مشتق $\\frac{a^x}{\\ln a}$ برابر $\\frac{a^x\\ln a}{\\ln a} = a^x$ است.",
+    "در طریقهٔ تعویضی: $u = a^x$ و $du = a^x\\ln a\\,dx$"
+  ],
+  "formulas": [
+    {"latex": "\\int e^x\\,dx = e^x + C", "meaning_fa": "انتیگرال اکسپوننشیل طبیعی"},
+    {"latex": "\\int a^x\\,dx = \\frac{a^x}{\\ln a} + C \\quad (a \\in \\mathbb{R}^+,\\ a \\neq 1)", "meaning_fa": "انتیگرال اکسپوننشیل با قاعدهٔ a"},
+    {"latex": "\\log_a b = x \\Leftrightarrow a^x = b", "meaning_fa": "رابطهٔ شکل لوگاریتمی و اکسپوننشیل"}
+  ],
+  "terms": [
+    {"fa": "انتیگرال", "en": "integral"},
+    {"fa": "طریقهٔ تعویضی", "en": "substitution method"},
+    {"fa": "تابع اکسپوننشیل", "en": "exponential function"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت",
+      "problem_fa": "ثابت کنید $\\int a^x\\,dx = \\frac{a^x}{\\ln a} + C$",
+      "steps_fa": [
+        "وضع می‌کنیم $u = a^x$؛ پس $du = a^x\\ln a\\,dx$ و $dx = \\frac{du}{u\\ln a}$",
+        "$\\int a^x\\,dx = \\int u\\cdot\\frac{du}{u\\ln a} = \\frac{1}{\\ln a}\\int du$",
+        "$= \\frac{1}{\\ln a}u + C = \\frac{a^x}{\\ln a} + C$"
+      ],
+      "answer": "$\\int a^x\\,dx = \\frac{a^x}{\\ln a} + C$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "دو رابطهٔ $\\log_a b = x$ و $a^x = b$ را با هم مقایسه کنید.",
+      "solution_steps_fa": [
+        "در هر دو رابطه a قاعده، x توان و b نتیجه است.",
+        "$\\log_a b = x$ می‌پرسد: a را به کدام توان برسانیم تا b شود؟ جواب x است، یعنی $a^x = b$."
+      ],
+      "answer": "هر دو یک رابطه اند؛ یکی شکل لوگاریتمی و دیگری شکل اکسپوننشیل آن است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت - سوال ۱",
+      "kind": "activity",
+      "problem_fa": "تابع $f(x) = a^x$ چه نوع تابعی است؟",
+      "solution_steps_fa": [
+        "متحول x در توان است و قاعدهٔ a عدد ثابت ($a > 0$، $a \\neq 1$) است.",
+        "برای $a > 1$ صعودی و برای $0 < a < 1$ نزولی است و همیشه مثبت است."
+      ],
+      "answer": "تابع اکسپوننشیل (نمایی)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت - سوال ۲",
+      "kind": "activity",
+      "problem_fa": "یک مثال از تابع لوگاریتمی بنویسید.",
+      "solution_steps_fa": [
+        "هر تابع به شکل $y = \\log_a x$ با $a > 0$ و $a \\neq 1$ لوگاریتمی است.",
+        "مثلاً $y = \\log_2 x$ یا $y = \\ln x$"
+      ],
+      "answer": "$y = \\log_2 x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت - سوال ۳",
+      "kind": "activity",
+      "problem_fa": "رابطهٔ $\\log_a x = c$ را به شکل اکسپوننشیل بنویسید.",
+      "solution_steps_fa": [
+        "با تعریف لوگاریتم: قاعده به توان جواب مساوی عدد داخل لوگاریتم است."
+      ],
+      "answer": "$a^c = x$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سطر چهارم ثبوت کتاب $\\frac{1}{\\ln a}\\int dx$ نوشته که منظور $\\frac{1}{\\ln a}\\int du$ است."
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 57,
+  "printed_page": 50,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "تعبیر هندسی مشتق",
+  "summary_fa": "این صفحه با مثال‌ها نشان می‌دهد که از تعبیر هندسی مشتق چطور استفاده کنیم. در مثال ۱ مشتق $f(x) = 2x^3 - 1$ با تعریف $6x^2$ به دست می‌آید؛ قیمت آن در $x = 1$ میل مماس در نقطهٔ $A(1,1)$ یعنی ۶ است، و با فورمول نقطه-میل معادلهٔ مماس $y = 6x - 5$ نوشته می‌شود. در مثال ۲ میل مماس $y = x^2 + 1$ در $x_0 = 2$ برابر ۴ به دست می‌آید؛ جملهٔ ثابت ۱ در مشتق اثری ندارد. مثال ۳ شروع می‌کند مشتق $x^2$ را در یک نقطهٔ عمومی $x_0$ حساب کند: نسبت تزایدها به $2x_0 + \\Delta x$ ساده می‌شود؛ گرفتن لیمت در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "میل مماس در نقطهٔ $x_1$: $m = f'(x_1) = \\tan\\alpha$",
+    "معادلهٔ مماس با فورمول نقطه-میل: $y - y_1 = m(x - x_1)$",
+    "برای نوشتن معادلهٔ مماس: اول مشتق را پیدا کنید، قیمت آن را در نقطه حساب کنید، بعد در فورمول نقطه-میل بگذارید.",
+    "جملهٔ ثابت در تابع، مشتق را تغییر نمی‌دهد: $x^2 + 1$ و $x^2$ هر دو مشتق $2x$ دارند."
+  ],
+  "formulas": [
+    {"latex": "m = \\tan\\alpha = f'(x)", "meaning_fa": "میل مماس برابر مشتق است"},
+    {"latex": "y - y_1 = m(x - x_1)", "meaning_fa": "معادلهٔ خط (مماس) که از $(x_1, y_1)$ با میل m می‌گذرد"},
+    {"latex": "(2x^3 - 1)' = 6x^2", "meaning_fa": "نتیجهٔ مثال ۱"}
+  ],
+  "terms": [
+    {"fa": "معادلهٔ مماس", "en": "equation of the tangent line"},
+    {"fa": "میل مماس", "en": "slope of the tangent"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "میل و معادلهٔ مماس بر منحنی $f(x) = 2x^3 - 1$ را در نقطهٔ $A(1,1)$ پیدا کنید.",
+      "steps_fa": [
+        "$f(x + \\Delta x) - f(x) = 2[(x + \\Delta x)^3 - x^3] = 6x^2\\Delta x + 6x(\\Delta x)^2 + 2(\\Delta x)^3$",
+        "تقسیم بر $\\Delta x$: $6x^2 + 6x\\Delta x + 2(\\Delta x)^2$؛ وقتی $\\Delta x \\to 0$: $f'(x) = 6x^2$",
+        "میل در $x = 1$: $m = f'(1) = 6$",
+        "$y - 1 = 6(x - 1) \\Rightarrow y = 6x - 5$"
+      ],
+      "answer": "میل ۶ و معادلهٔ مماس $y = 6x - 5$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "میل مماس بر $y = x^2 + 1$ را در $x_0 = 2$ پیدا کنید.",
+      "steps_fa": [
+        "$\\frac{(x_0 + \\Delta x)^2 + 1 - (x_0^2 + 1)}{\\Delta x} = \\frac{2x_0\\Delta x + (\\Delta x)^2}{\\Delta x} = 2x_0 + \\Delta x$",
+        "وقتی $\\Delta x \\to 0$: $y' = 2x_0$",
+        "در $x_0 = 2$: $m = 2 \\cdot 2 = 4$"
+      ],
+      "answer": "$m = 4$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "مشتق $y = x^2$ را در نقطهٔ $x = x_0$ و به خصوص در $x_0 = 2$ پیدا کنید.",
+      "steps_fa": [
+        "$\\frac{\\Delta y}{\\Delta x} = \\frac{(x_0 + \\Delta x)^2 - x_0^2}{\\Delta x} = \\frac{2x_0\\Delta x + (\\Delta x)^2}{\\Delta x}$",
+        "$\\frac{\\Delta y}{\\Delta x} = 2x_0 + \\Delta x$",
+        "وقتی $\\Delta x \\to 0$: $f'(x_0) = 2x_0$ و $f'(2) = 4$ (در صفحهٔ بعد)."
+      ],
+      "answer": "$f'(x_0) = 2x_0$؛ $f'(2) = 4$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سطر آخر حل مثال ۱ در کتاب $(\\Delta x)^2$ به جای $2(\\Delta x)^2$ چاپ شده است؛ در نتیجه اثری ندارد."
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 30,
+  "printed_page": 23,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "شکل عمومی مبهم $1^\\infty$",
+  "summary_fa": "بالای صفحه ثبوت لیمت چهارم، یعنی $\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1$، کامل می‌شود: با تعویض $y = e^x - 1$ این لیمت به معکوس لیمت $\\frac{\\ln(1+y)}{y}$ تبدیل می‌شود که جواب آن ۱ است. بعد یک فورمول عمومی برای شکل $1^\\infty$ به دست می‌آید: اگر $u(x) \\to 1$ و $v(x) \\to \\infty$، با گذاشتن $\\alpha = u - 1$ عبارت به شکل $(1+\\alpha)^{\\frac{1}{\\alpha}}$ درمی‌آید که به e می‌رود؛ پس جواب $e^P$ است که در آن $P = \\lim v(u-1)$. با این فورمول کافی است فقط یک لیمت سادهٔ حاصل ضرب را حساب کنیم. مثال ۱ با همین فورمول $e^2$ به دست می‌آورد و مثال ۲ شروع می‌شود که حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "اگر $u \\to 1$ و $v \\to \\infty$ باشد، $\\lim u^v = e^P$ و $P = \\lim [v(u-1)]$",
+    "گام اول همیشه: شکل لیمت را با وضع قیمت تعیین کنید تا مطمئن شوید $1^\\infty$ است.",
+    "گام دوم: u و v را مشخص کنید و $P = \\lim v(u-1)$ را حساب کنید.",
+    "$\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1$ با تعویض $y = e^x - 1$ ثابت می‌شود."
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1", "meaning_fa": "لیمت مهم اکسپوننشیل (ثبوت آن در این صفحه کامل می‌شود)"},
+    {"latex": "\\lim_{x \\to a} [u(x)]^{v(x)} = e^P,\\quad P = \\lim_{x \\to a} [v(x)(u(x) - 1)]", "meaning_fa": "فورمول عمومی برای شکل مبهم $1^\\infty$"}
+  ],
+  "terms": [
+    {"fa": "تابع اکسپوننشیل", "en": "exponential function"},
+    {"fa": "شکل مبهم", "en": "indeterminate form"},
+    {"fa": "تعویض", "en": "substitution"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت ۴",
+      "problem_fa": "ثابت کنید $\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1$",
+      "steps_fa": [
+        "می‌گذاریم $y = e^x - 1$؛ پس $x = \\ln(1+y)$ و وقتی $x \\to 0$، $y \\to 0$",
+        "$\\frac{e^x - 1}{x} = \\frac{y}{\\ln(1+y)} = \\frac{1}{\\frac{\\ln(1+y)}{y}}$",
+        "طبق لیمت ۳، مخرج به ۱ می‌رود (یا: $\\ln(1+y)^{\\frac{1}{y}} \\to \\ln e = 1$)، پس جواب $\\frac{1}{1} = 1$"
+      ],
+      "answer": "$1$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت فورمول عمومی",
+      "problem_fa": "نشان دهید اگر $\\lim u^v$ شکل $1^\\infty$ داشته باشد، $\\lim u^v = e^{\\lim v(u-1)}$",
+      "steps_fa": [
+        "می‌گذاریم $\\alpha = u - 1$؛ چون $u \\to 1$، $\\alpha \\to 0$",
+        "$u^v = (1 + \\alpha)^{v} = \\left[(1 + \\alpha)^{\\frac{1}{\\alpha}}\\right]^{v\\alpha}$",
+        "قوس به e می‌رود، پس جواب $e^{\\lim v\\alpha} = e^{\\lim v(u-1)} = e^P$"
+      ],
+      "answer": "$e^P$ با $P = \\lim v(u-1)$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\left(1 + \\frac{2}{x}\\right)^x$",
+      "steps_fa": [
+        "با وضع بی‌نهایت شکل $1^\\infty$ است.",
+        "$u = 1 + \\frac{2}{x}$ و $v = x$",
+        "$P = \\lim_{x \\to \\infty} x \\cdot \\frac{2}{x} = 2$",
+        "جواب: $e^2$"
+      ],
+      "answer": "$e^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲ (شروع)",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^{\\frac{x-5}{2}}$",
+      "steps_fa": [
+        "با وضع بی‌نهایت شکل $1^\\infty$ است.",
+        "$u = 1 + \\frac{1}{x}$ و $v = \\frac{x-5}{2}$؛ $P = \\lim \\frac{x-5}{2x} = \\frac{1}{2}$",
+        "جواب: $e^{\\frac{1}{2}} = \\sqrt{e}$"
+      ],
+      "answer": "$\\sqrt{e}$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در این صفحه برای مثال ۲ فقط تعیین شکل $1^\\infty$ آمده؛ باقی حل در صفحهٔ بعد است و اینجا کامل شده است."
+}

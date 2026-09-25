@@ -1,0 +1,107 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 55,
+  "printed_page": 48,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق یک تابع",
+  "summary_fa": "این صفحه با سه مثال نشان می‌دهد که مشتق را چطور مستقیم از تعریف حساب کنیم. در مثال ۱ مشتق $2x$ عدد ثابت ۲ می‌شود. در مثال ۲ برای $x^3$، مکعب $(x + \\Delta x)^3$ باز می‌شود، $\\Delta x$ فاکتور گرفته و حذف می‌شود و نتیجه $3x^2$ است. در مثال ۳ برای $\\sqrt{x}$، صورت و مخرج در مزدوج صورت ضرب می‌شوند تا $\\Delta x$ حذف شود و نتیجه $\\frac{1}{2\\sqrt{x}}$ برای $x > 0$ است؛ اما در $x = 0$ این لیمت موجود نیست، پس $\\sqrt{x}$ در صفر مشتق‌پذیر نیست و مماس آن در این نقطه عمودی است. گراف صفحه این رفتار را نشان می‌دهد. در آخر تمرینی برای یافتن مشتق سه تابع درجهٔ دوم با تعریف آمده است.",
+  "key_points_fa": [
+    "روش: $f(x + \\Delta x)$ را بنویسید، $f(x)$ را کم کنید، بر $\\Delta x$ تقسیم و ساده کنید، بعد $\\Delta x = 0$ بگذارید.",
+    "$(2x)' = 2$، $(x^3)' = 3x^2$، $(\\sqrt{x})' = \\frac{1}{2\\sqrt{x}}$ برای $x > 0$",
+    "برای توابع جذری، ضرب در مزدوج $\\Delta x$ را از مخرج حذف می‌کند.",
+    "$\\sqrt{x}$ در $x = 0$ مشتق‌پذیر نیست؛ مماس در آنجا عمودی است.",
+    "هرچه x بزرگ‌تر شود، میل مماس $\\sqrt{x}$ کوچک‌تر و به صفر نزدیک‌تر می‌شود."
+  ],
+  "formulas": [
+    {"latex": "(x + \\Delta x)^3 = x^3 + 3x^2\\Delta x + 3x(\\Delta x)^2 + (\\Delta x)^3", "meaning_fa": "باز کردن مکعب برای مشتق $x^3$"},
+    {"latex": "(x^3)' = 3x^2", "meaning_fa": "مشتق تابع مکعب"},
+    {"latex": "(\\sqrt{x})' = \\frac{1}{2\\sqrt{x}},\\ x > 0", "meaning_fa": "مشتق تابع جذری"}
+  ],
+  "terms": [
+    {"fa": "مشتق‌پذیر", "en": "differentiable"},
+    {"fa": "مزدوج", "en": "conjugate"},
+    {"fa": "خط عمود", "en": "vertical line"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.61, 0.33, 0.77], "kind": "graph", "description_fa": "گراف $y = \\sqrt{x}$ که از مبدأ شروع می‌شود، اول تند بالا می‌رود و بعد هموار می‌شود. نشان می‌دهد که میل مماس نزدیک $x = 0$ خیلی بزرگ است (مماس عمودی) و برای x های بزرگ به صفر نزدیک می‌شود."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (ادامه)",
+      "problem_fa": "مشتق $f(x) = 2x$",
+      "steps_fa": [
+        "$\\frac{2(x + \\Delta x) - 2x}{\\Delta x} = \\frac{2\\Delta x}{\\Delta x} = 2$",
+        "لیمت عدد ثابت خودش است."
+      ],
+      "answer": "$f'(x) = 2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق $f(x) = x^3$ را پیدا کنید.",
+      "steps_fa": [
+        "$\\frac{(x + \\Delta x)^3 - x^3}{\\Delta x} = \\frac{3x^2\\Delta x + 3x(\\Delta x)^2 + (\\Delta x)^3}{\\Delta x}$",
+        "$= 3x^2 + 3x\\Delta x + (\\Delta x)^2$",
+        "وقتی $\\Delta x \\to 0$: $3x^2$"
+      ],
+      "answer": "$f'(x) = 3x^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "مشتق $f(x) = \\sqrt{x}$ را برای $x \\ge 0$ پیدا کنید.",
+      "steps_fa": [
+        "الف) $x > 0$: $\\frac{\\sqrt{x + \\Delta x} - \\sqrt{x}}{\\Delta x}$ را در $\\frac{\\sqrt{x + \\Delta x} + \\sqrt{x}}{\\sqrt{x + \\Delta x} + \\sqrt{x}}$ ضرب می‌کنیم.",
+        "صورت می‌شود $(x + \\Delta x) - x = \\Delta x$، پس کسر $= \\frac{1}{\\sqrt{x + \\Delta x} + \\sqrt{x}}$",
+        "وقتی $\\Delta x \\to 0$: $\\frac{1}{2\\sqrt{x}}$",
+        "ب) $x = 0$: کسر $\\frac{1}{\\sqrt{\\Delta x}}$ بی‌نهایت بزرگ می‌شود، پس لیمت موجود نیست و تابع در صفر مشتق ندارد؛ مماس در این نقطه عمودی است."
+      ],
+      "answer": "$f'(x) = \\frac{1}{2\\sqrt{x}}$ برای $x > 0$؛ در $x = 0$ مشتق‌پذیر نیست.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = x - x^2$ را با تعریف پیدا کنید.",
+      "solution_steps_fa": [
+        "$f(x + \\Delta x) - f(x) = \\Delta x - 2x\\Delta x - (\\Delta x)^2$",
+        "تقسیم بر $\\Delta x$: $1 - 2x - \\Delta x$",
+        "وقتی $\\Delta x \\to 0$: $1 - 2x$"
+      ],
+      "answer": "$f'(x) = 1 - 2x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = -2x^2$ را با تعریف پیدا کنید.",
+      "solution_steps_fa": [
+        "$f(x + \\Delta x) - f(x) = -2(x^2 + 2x\\Delta x + (\\Delta x)^2) + 2x^2 = -4x\\Delta x - 2(\\Delta x)^2$",
+        "تقسیم بر $\\Delta x$: $-4x - 2\\Delta x$",
+        "وقتی $\\Delta x \\to 0$: $-4x$"
+      ],
+      "answer": "$f'(x) = -4x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = 2x^2 + x$ را با تعریف پیدا کنید.",
+      "solution_steps_fa": [
+        "$f(x + \\Delta x) - f(x) = 4x\\Delta x + 2(\\Delta x)^2 + \\Delta x$",
+        "تقسیم بر $\\Delta x$: $4x + 2\\Delta x + 1$",
+        "وقتی $\\Delta x \\to 0$: $4x + 1$"
+      ],
+      "answer": "$f'(x) = 4x + 1$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

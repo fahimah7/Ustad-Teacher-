@@ -1,0 +1,24 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 8,
+  "printed_page": null,
+  "page_kind": "chapter_title",
+  "chapter": 1,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ آغاز فصل اول کتاب که موضوع آن لیمت است. در این فصل شاگرد با مفهوم لیمت، لیمت طرف راست و طرف چپ، خواص لیمت، لیمت توابع نسبتی، اشکال مبهم، لیمت توابع مثلثاتی و متمادیت توابع آشنا می‌شود. این فصل صفحات ۱ تا ۴۰ کتاب را در بر می‌گیرد.",
+  "key_points_fa": [
+    "فصل اول: لیمت (صفحات ۱ تا ۴۰)"
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "لیمت", "en": "limit"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

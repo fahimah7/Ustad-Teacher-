@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-math",
+  "chapter": 7,
+  "title": {
+    "en": "Statistics",
+    "fa": "احصائیه"
+  },
+  "questions": [
+    {
+      "pdf_page": 235,
+      "q": {
+        "en": "A company plans to dig a well. If it finds water it gains 10 million Afghanis; if not, it loses 1 million Afghanis. The probability of finding water is $0.2$. Find the expected gain $E(x)$ in millions of Afghanis.",
+        "fa": "یک شرکت می‌خواهد چاه بکند. اگر آب برآید، شرکت ۱۰ میلیون افغانی سود می‌کند و اگر آب برنیاید، ۱ میلیون افغانی ضرر می‌کند. احتمال برآمدن آب $0.2$ است. اوسط سود شرکت (قیمت متوقعه) $E(x)$ را به میلیون افغانی پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$4.5$",
+          "fa": "$4.5$"
+        },
+        {
+          "en": "$1.2$",
+          "fa": "$1.2$"
+        },
+        {
+          "en": "$2.8$",
+          "fa": "$2.8$"
+        },
+        {
+          "en": "$2$",
+          "fa": "$2$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$E(x)=10(0.2)+(-1)(0.8)=2-0.8=1.2$ million Afghanis.",
+        "fa": "$E(x)=10(0.2)+(-1)(0.8)=2-0.8=1.2$ میلیون افغانی می‌شود."
+      },
+      "idea": {
+        "en": "Multiply each possible gain by its probability and add them up; a loss is a negative gain.",
+        "fa": "هر قیمت ممکن سود را در احتمال آن ضرب کنید و حاصل‌ها را جمع کنید؛ ضرر یک سود منفی است."
+      }
+    },
+    {
+      "pdf_page": 237,
+      "q": {
+        "en": "A family has 4 children, and each child is equally likely to be a boy or a girl. What is the probability that the family has exactly 2 boys?",
+        "fa": "یک خانواده ۴ طفل دارد و هر طفل به احتمال مساوی پسر یا دختر است. احتمال این‌که این خانواده دقیقاً ۲ پسر داشته باشد چند است؟"
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{2}$",
+          "fa": "$\\frac{1}{2}$"
+        },
+        {
+          "en": "$\\frac{1}{16}$",
+          "fa": "$\\frac{1}{16}$"
+        },
+        {
+          "en": "$\\frac{1}{4}$",
+          "fa": "$\\frac{1}{4}$"
+        },
+        {
+          "en": "$\\frac{3}{8}$",
+          "fa": "$\\frac{3}{8}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$P(X=2)=\\binom{4}{2}\\left(\\frac{1}{2}\\right)^2\\left(\\frac{1}{2}\\right)^2=\\frac{6}{16}=\\frac{3}{8}$.",
+        "fa": "$P(X=2)=\\binom{4}{2}\\left(\\frac{1}{2}\\right)^2\\left(\\frac{1}{2}\\right)^2=\\frac{6}{16}=\\frac{3}{8}$ است."
+      },
+      "idea": {
+        "en": "Use the binomial formula with $n=4$ and $p=\\frac{1}{2}$; do not forget the number of ways to place 2 boys among 4 children.",
+        "fa": "از فورمول توزیع دو جمله‌یی با $n=4$ و $p=\\frac{1}{2}$ کار بگیرید؛ تعداد راه‌های جا دادن ۲ پسر در میان ۴ طفل را فراموش نکنید."
+      }
+    },
+    {
+      "pdf_page": 240,
+      "q": {
+        "en": "On average, 60 people come to a bank in one hour. Using the Poisson formula, which expression gives the probability that exactly 4 people come in the first 3 minutes?",
+        "fa": "به طور اوسط در یک ساعت ۶۰ نفر به یک بانک مراجعه می‌کنند. با فورمول پواسن، احتمال این‌که در سه دقیقهٔ اول دقیقاً ۴ نفر بیایند با کدام افاده برابر است؟"
+      },
+      "options": [
+        {
+          "en": "$\\frac{e^{-3}\\,3^{4}}{4!}$",
+          "fa": "$\\frac{e^{-3}\\,3^{4}}{4!}$"
+        },
+        {
+          "en": "$\\frac{e^{-60}\\,60^{4}}{4!}$",
+          "fa": "$\\frac{e^{-60}\\,60^{4}}{4!}$"
+        },
+        {
+          "en": "$\\frac{e^{-20}\\,20^{4}}{4!}$",
+          "fa": "$\\frac{e^{-20}\\,20^{4}}{4!}$"
+        },
+        {
+          "en": "$\\frac{e^{-4}\\,4^{3}}{3!}$",
+          "fa": "$\\frac{e^{-4}\\,4^{3}}{3!}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Three minutes is $\\frac{1}{20}$ of an hour, so $\\lambda t=60\\cdot\\frac{1}{20}=3$ and $P(4)=\\frac{e^{-3}\\,3^{4}}{4!}\\approx0.168$.",
+        "fa": "سه دقیقه $\\frac{1}{20}$ ساعت است، پس $\\lambda t=60\\cdot\\frac{1}{20}=3$ و $P(4)=\\frac{e^{-3}\\,3^{4}}{4!}\\approx0.168$ می‌شود."
+      },
+      "idea": {
+        "en": "Change 3 minutes into a fraction of an hour and find the average number of people $\\lambda t$ for that short time.",
+        "fa": "سه دقیقه را به کسری از ساعت تبدیل کنید و اوسط تعداد مراجعین $\\lambda t$ را برای همین مدت کوتاه پیدا کنید."
+      }
+    },
+    {
+      "pdf_page": 251,
+      "q": {
+        "en": "Students' math scores are normally distributed with mean 70 and standard deviation 8. What is the probability that a score lies between 54 and 84? Use $P(0\\le Z\\le 2)=0.4772$ and $P(0\\le Z\\le 1.75)=0.4599$.",
+        "fa": "نمرات ریاضی شاگردان توزیع نورمال دارد با اوسط ۷۰ و انحراف معیاری ۸. احتمال این‌که یک نمره بین ۵۴ و ۸۴ باشد چند است؟ از $P(0\\le Z\\le 2)=0.4772$ و $P(0\\le Z\\le 1.75)=0.4599$ کار بگیرید."
+      },
+      "options": [
+        {
+          "en": "$0.0173$",
+          "fa": "$0.0173$"
+        },
+        {
+          "en": "$0.4599$",
+          "fa": "$0.4599$"
+        },
+        {
+          "en": "$0.9371$",
+          "fa": "$0.9371$"
+        },
+        {
+          "en": "$0.9544$",
+          "fa": "$0.9544$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$z_1=\\frac{54-70}{8}=-2$ and $z_2=\\frac{84-70}{8}=1.75$ are on opposite sides of $0$, so the two areas add: $0.4772+0.4599=0.9371$.",
+        "fa": "$z_1=\\frac{54-70}{8}=-2$ و $z_2=\\frac{84-70}{8}=1.75$ در دو طرف صفر قرار دارند، پس دو مساحت جمع می‌شوند: $0.4772+0.4599=0.9371$."
+      },
+      "idea": {
+        "en": "Turn both scores into $z$-values and check whether they fall on the same side of the mean or on opposite sides.",
+        "fa": "هر دو نمره را به قیمت $z$ تبدیل کنید و ببینید که در یک طرف اوسط قرار دارند یا در دو طرف آن."
+      }
+    },
+    {
+      "pdf_page": 260,
+      "q": {
+        "en": "The weight of boxes packed by a machine is normal with mean 250 g and standard deviation 20 g. For a random sample of 16 boxes, find $P(\\bar{x}<240)$. Use $P(Z\\le 2)=0.9772$.",
+        "fa": "وزن جعبه‌هایی که یک ماشین بسته‌بندی می‌کند توزیع نورمال دارد با اوسط ۲۵۰ گرام و انحراف معیاری ۲۰ گرام. برای یک نمونهٔ تصادفی ۱۶ تایی، $P(\\bar{x}<240)$ را پیدا کنید. از $P(Z\\le 2)=0.9772$ کار بگیرید."
+      },
+      "options": [
+        {
+          "en": "$0.9772$",
+          "fa": "$0.9772$"
+        },
+        {
+          "en": "$0.0228$",
+          "fa": "$0.0228$"
+        },
+        {
+          "en": "$0.4772$",
+          "fa": "$0.4772$"
+        },
+        {
+          "en": "$0.0456$",
+          "fa": "$0.0456$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The sample mean has standard deviation $\\frac{20}{\\sqrt{16}}=5$, so $z=\\frac{240-250}{5}=-2$ and $P(Z<-2)=1-0.9772=0.0228$.",
+        "fa": "انحراف معیاری اوسط نمونه $\\frac{20}{\\sqrt{16}}=5$ است، پس $z=\\frac{240-250}{5}=-2$ و $P(Z<-2)=1-0.9772=0.0228$ است."
+      },
+      "idea": {
+        "en": "For a sample mean the standard deviation becomes $\\frac{\\delta}{\\sqrt{n}}$; use it to compute $z$, and remember that the curve is symmetric.",
+        "fa": "برای اوسط نمونه، انحراف معیاری $\\frac{\\delta}{\\sqrt{n}}$ می‌شود؛ هنگام حساب کردن $z$ از آن کار بگیرید و تناظر منحنی را به یاد داشته باشید."
+      }
+    }
+  ]
+}

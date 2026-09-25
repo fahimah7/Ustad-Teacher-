@@ -1,0 +1,24 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 90,
+  "printed_page": 83,
+  "page_kind": "chapter_title",
+  "chapter": 3,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ آغاز فصل سوم کتاب با عنوان «موارد استعمال مشتق». در این فصل شاگرد یاد می‌گیرد که مشتق را برای مطالعهٔ رفتار توابع به کار ببرد: تزاید و تناقص تابع، نقاط بحرانی، نقاط اعظمی و اصغری (موضعی و مطلق) و رسم گراف توابع. این فصل صفحات ۸۳ تا ۱۳۲ کتاب را در بر می‌گیرد.",
+  "key_points_fa": [
+    "فصل سوم: موارد استعمال مشتق (صفحات ۸۳ تا ۱۳۲)"
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "موارد استعمال مشتق", "en": "applications of the derivative"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

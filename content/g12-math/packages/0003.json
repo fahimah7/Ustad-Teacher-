@@ -1,0 +1,23 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 3,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ عنوان کتاب. در بالای صفحه بسم الله الرحمن الرحیم و نشان وزارت معارف آمده و عنوان کتاب «ریاضی صنف ۱۲» با خط درشت نوشته شده است. سال چاپ کتاب ۱۳۹۸ هجری شمسی ذکر شده است. این صفحه درس ریاضی ندارد.",
+  "key_points_fa": [
+    "عنوان: ریاضی صنف ۱۲",
+    "ناشر: وزارت معارف، سال چاپ ۱۳۹۸ هـ. ش."
+  ],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه با حرف «أ» چاپ شده است، بنابراین printed_page خالی است."
+}

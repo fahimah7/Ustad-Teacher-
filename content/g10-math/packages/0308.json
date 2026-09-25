@@ -1,0 +1,40 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 308,
+  "printed_page": 301,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "آغاز تمرین‌های فصل ششم با نُه سوال چهارجوابه. سوال ۱ تا ۳ توان‌های $i$ را می‌پرسند ($i^{51}$ ، $i^{-98}$ ، $i^{67}$) که با تقسیم توان بر ۴ و استفاده از باقی‌مانده حل می‌شوند. سوال ۴ تا ۷ جمع، ضرب و تقسیم ساده‌ترین اعداد موهومی را می‌خواهند؛ نکتهٔ مهم این است که $i\\cdot i = -1$ است. سوال ۸ و ۹ خارج قسمت جذرهای اعداد منفی را می‌پرسند؛ باید اول هر $\\sqrt{-k}$ را به $i\\sqrt{k}$ تبدیل کرد و بعد ساده کرد. تمرین‌ها در صفحهٔ بعد ادامه دارند.",
+  "key_points_fa": [
+    "$i^1 = i$ ، $i^2 = -1$ ، $i^3 = -i$ ، $i^4 = 1$ و بعد تکرار می‌شود.",
+    "برای $i^n$ باقی‌ماندهٔ $n$ بر ۴ را پیدا کنید؛ برای توان منفی می‌توان $i^4 = 1$ را چند بار ضرب کرد.",
+    "$ai \\cdot bi = ab\\,i^2 = -ab$",
+    "پیش از ضرب یا تقسیم جذرها، $\\sqrt{-k}$ را به $i\\sqrt{k}$ تبدیل کنید."
+  ],
+  "formulas": [
+    {"latex": "i^{4k+r} = i^r", "meaning_fa": "ساده کردن توان‌های $i$"},
+    {"latex": "\\sqrt{-k} = i\\sqrt{k}\\quad (k>0)", "meaning_fa": "جذر عدد منفی"}
+  ],
+  "terms": [
+    {"fa": "عدد موهومی", "en": "imaginary number"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {"label_fa": "۱", "kind": "exercise", "problem_fa": "$i^{51}$ مساوی کدام است؟ a) 1 b) $-1$ c) $i$ d) $-i$", "solution_steps_fa": ["$51 = 4\\cdot12+3$", "$i^{51} = i^3 = -i$"], "answer": "d) $-i$", "solution_source": "generated"},
+    {"label_fa": "۲", "kind": "exercise", "problem_fa": "$i^{-98}$ مساوی کدام است؟ a) 1 b) $-1$ c) $i$ d) $-i$", "solution_steps_fa": ["$i^{98} = i^{4\\cdot24+2} = i^2 = -1$", "$i^{-98} = \\frac{1}{i^{98}} = \\frac{1}{-1} = -1$"], "answer": "b) $-1$", "solution_source": "generated"},
+    {"label_fa": "۳", "kind": "exercise", "problem_fa": "$i^{67}$ مساوی کدام است؟ a) $-i$ b) 1 c) $-1$ d) $i$", "solution_steps_fa": ["$67 = 4\\cdot16+3$", "$i^{67} = i^3 = -i$"], "answer": "a) $-i$", "solution_source": "generated"},
+    {"label_fa": "۴", "kind": "exercise", "problem_fa": "$7i-4i$ مساوی کدام است؟ a) $-3i$ b) $3i$ c) 3 d) $-3$", "solution_steps_fa": ["ضرایب $i$ را تفریق می‌کنیم: $(7-4)i = 3i$"], "answer": "b) $3i$", "solution_source": "generated"},
+    {"label_fa": "۵", "kind": "exercise", "problem_fa": "$3i\\cdot4i$ مساوی کدام است؟ a) $-12$ b) 12 c) $12i$ d) $-12i$", "solution_steps_fa": ["$3i\\cdot4i = 12i^2 = 12\\cdot(-1) = -12$"], "answer": "a) $-12$", "solution_source": "generated"},
+    {"label_fa": "۶", "kind": "exercise", "problem_fa": "$\\frac{64i}{8i}$ مساوی کدام است؟ a) $-8$ b) 8 c) $8i$ d) $-8i$", "solution_steps_fa": ["$i$ در صورت و مخرج ساده می‌شود: $\\frac{64}{8} = 8$"], "answer": "b) 8", "solution_source": "generated"},
+    {"label_fa": "۷", "kind": "exercise", "problem_fa": "$\\frac{7}{9}i\\cdot\\frac{2}{9}i$ مساوی کدام است؟ a) $-\\frac{14}{81}$ b) $\\frac{14}{81}$ c) $-\\frac{14}{81}i$ d) $\\frac{14}{81}i$", "solution_steps_fa": ["$\\frac{7}{9}\\cdot\\frac{2}{9}\\,i^2 = \\frac{14}{81}\\cdot(-1) = -\\frac{14}{81}$"], "answer": "a) $-\\frac{14}{81}$", "solution_source": "generated"},
+    {"label_fa": "۸", "kind": "exercise", "problem_fa": "$\\frac{\\sqrt{-11}}{\\sqrt{-5}}$ مساوی کدام است؟ a) $\\sqrt{\\frac{11}{5}}$ b) $\\frac{-11}{5}$ c) $\\frac{-11}{5}i$ d) $\\frac{11}{5}i$", "solution_steps_fa": ["$\\sqrt{-11} = i\\sqrt{11}$ و $\\sqrt{-5} = i\\sqrt{5}$", "$\\frac{i\\sqrt{11}}{i\\sqrt{5}} = \\sqrt{\\frac{11}{5}}$"], "answer": "a) $\\sqrt{\\frac{11}{5}}$", "solution_source": "generated"},
+    {"label_fa": "۹", "kind": "exercise", "problem_fa": "$\\frac{\\sqrt{-1}\\,\\sqrt{5}}{\\sqrt{-1}\\cdot5}$ مساوی کدام است؟ a) $\\frac{\\sqrt5}{5}$ b) $-\\frac{\\sqrt5}{3}$ c) $\\frac{5}{3}i$ d) هر سه جزء درست نیست", "solution_steps_fa": ["$\\sqrt{-1} = i$ ، پس کسر $\\frac{i\\sqrt5}{5i}$ است.", "$i$ ساده می‌شود: $\\frac{\\sqrt5}{5}$"], "answer": "a) $\\frac{\\sqrt5}{5}$", "solution_source": "generated"}
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سوال ۹ علامهٔ جذر در مخرج فقط روی $-1$ است و ۵ بیرون جذر است؛ بنابراین مخرج $5i$ است."
+}

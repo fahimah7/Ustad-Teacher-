@@ -1,0 +1,88 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 75,
+  "printed_page": 68,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق توابع مثلثاتی: مشتق $\\sin x$",
+  "summary_fa": "این صفحه مشتق ساین را با قاعدهٔ زنجیری عمومی می‌کند: اگر $y = \\sin u$ و u تابع x باشد، $y' = u'\\cos u$. در مثال ۱، برای $\\sin 4x$ زاویه را u می‌گیریم؛ مشتق زاویه ۴ است و جواب $4\\cos 4x$ می‌شود. در مثال ۲، تابع $x^3 \\csc x$ حاصل ضرب دو تابع است؛ $\\csc x$ به شکل $\\frac{1}{\\sin x}$ نوشته می‌شود و مشتق آن با قانون حاصل تقسیم $-\\frac{\\cos x}{\\sin^2 x}$ یعنی $-\\cot x\\csc x$ به دست می‌آید. در آخر یک تمرین سه‌قسمتی آمده که قاعدهٔ زنجیری، قانون حاصل تقسیم و قانون جذر را با ساین ترکیب می‌کند.",
+  "key_points_fa": [
+    "$(\\sin u)' = u'\\cos u$؛ مشتق زاویه را فراموش نکنید.",
+    "$(\\sin kx)' = k\\cos kx$",
+    "$\\csc x = \\frac{1}{\\sin x}$ و مشتق آن $-\\csc x\\cot x$ است.",
+    "$\\frac{\\cos x}{\\sin^2 x} = \\cot x \\cdot \\csc x$"
+  ],
+  "formulas": [
+    {"latex": "y = \\sin u \\Rightarrow y' = u'\\cos u", "meaning_fa": "مشتق ساین یک تابع (قاعدهٔ زنجیری)"},
+    {"latex": "\\left(\\frac{1}{\\sin x}\\right)' = \\frac{-\\cos x}{\\sin^2 x} = -\\csc x\\cot x", "meaning_fa": "مشتق کوسکانت از قانون حاصل تقسیم"}
+  ],
+  "terms": [
+    {"fa": "ساین", "en": "sine"},
+    {"fa": "کوسکانت", "en": "cosecant"},
+    {"fa": "کوتانجانت", "en": "cotangent"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مشتق $y = \\sin 4x$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = 4x \\Rightarrow u' = 4$",
+        "$y' = u'\\cos u = 4\\cos 4x$"
+      ],
+      "answer": "$y' = 4\\cos 4x$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق $y = x^3 \\csc x$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = x^3 \\Rightarrow u' = 3x^2$ و $v = \\frac{1}{\\sin x} \\Rightarrow v' = \\frac{-\\cos x}{\\sin^2 x}$",
+        "$y' = 3x^2\\csc x + x^3 \\cdot \\frac{-\\cos x}{\\sin^2 x}$",
+        "$y' = 3x^2\\csc x - x^3\\cot x\\csc x$"
+      ],
+      "answer": "$y' = 3x^2\\csc x - x^3\\cot x\\csc x$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین (a)",
+      "kind": "exercise",
+      "problem_fa": "$y = \\sin 5x$",
+      "solution_steps_fa": [
+        "$u = 5x,\\ u' = 5$",
+        "$y' = 5\\cos 5x$"
+      ],
+      "answer": "$y' = 5\\cos 5x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (b)",
+      "kind": "exercise",
+      "problem_fa": "$y = \\frac{\\sin x}{1 + x}$",
+      "solution_steps_fa": [
+        "$u = \\sin x,\\ u' = \\cos x$ و $v = 1 + x,\\ v' = 1$",
+        "$y' = \\frac{\\cos x \\cdot (1 + x) - \\sin x \\cdot 1}{(1 + x)^2}$"
+      ],
+      "answer": "$y' = \\frac{(1 + x)\\cos x - \\sin x}{(1 + x)^2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (c)",
+      "kind": "exercise",
+      "problem_fa": "$y = \\sqrt{1 + \\sin x}$",
+      "solution_steps_fa": [
+        "$u = 1 + \\sin x,\\ u' = \\cos x$",
+        "$y' = \\frac{u'}{2\\sqrt{u}}$"
+      ],
+      "answer": "$y' = \\frac{\\cos x}{2\\sqrt{1 + \\sin x}}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

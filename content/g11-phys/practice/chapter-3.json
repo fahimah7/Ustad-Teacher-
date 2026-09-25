@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-phys",
+  "chapter": 3,
+  "title": {
+    "en": "Motion in two dimensions",
+    "fa": "حرکت‌های دو بعدی"
+  },
+  "questions": [
+    {
+      "pdf_page": 87,
+      "q": {
+        "en": "A body moves in a plane according to $x = 5t$ and $y = 6t^2 - 2$ (SI units). What is the magnitude of its velocity at $t = 1\\,\\mathrm{s}$?",
+        "fa": "جسمی در یک مستوی مطابق معادله‌های $x = 5t$ و $y = 6t^2 - 2$ (در SI) حرکت می‌کند. اندازۀ سرعت آن در $t = 1\\,\\mathrm{s}$ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$6.4\\,\\mathrm{m/s}$",
+          "fa": "$6.4\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$17\\,\\mathrm{m/s}$",
+          "fa": "$17\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$7.8\\,\\mathrm{m/s}$",
+          "fa": "$7.8\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$13\\,\\mathrm{m/s}$",
+          "fa": "$13\\,\\mathrm{m/s}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$v_x = \\frac{dx}{dt} = 5\\,\\mathrm{m/s}$ and $v_y = \\frac{dy}{dt} = 12t = 12\\,\\mathrm{m/s}$ at $t = 1\\,\\mathrm{s}$, so $v = \\sqrt{5^2 + 12^2} = 13\\,\\mathrm{m/s}$.",
+        "fa": "$v_x = \\frac{dx}{dt} = 5\\,\\mathrm{m/s}$ و در $t = 1\\,\\mathrm{s}$ داریم $v_y = \\frac{dy}{dt} = 12t = 12\\,\\mathrm{m/s}$، پس $v = \\sqrt{5^2 + 12^2} = 13\\,\\mathrm{m/s}$."
+      },
+      "idea": {
+        "en": "Velocity is the derivative of position: first differentiate $x$ and $y$ (the derivative of $6t^2$ is $12t$), then combine the components with $\\sqrt{v_x^2 + v_y^2}$, not by simply adding them.",
+        "fa": "سرعت مشتق مکان است: اول از $x$ و $y$ مشتق بگیرید (مشتق $6t^2$ مساوی $12t$ است)، بعد مرکبه‌ها را با $\\sqrt{v_x^2 + v_y^2}$ یک‌جا کنید، نه با جمع ساده."
+      }
+    },
+    {
+      "pdf_page": 91,
+      "q": {
+        "en": "From the same height and at the same moment, ball A is released and ball B is thrown horizontally at $10\\,\\mathrm{m/s}$ (no air resistance). Which one reaches the ground first?",
+        "fa": "از یک ارتفاع و در یک لحظه، توپ A رها می‌شود و توپ B با سرعت $10\\,\\mathrm{m/s}$ به طور افقی پرتاب می‌شود (بدون مقاومت هوا). کدام یک زودتر به زمین می‌رسد؟"
+      },
+      "options": [
+        {
+          "en": "Ball A, because it falls straight down",
+          "fa": "توپ A، چون مستقیم پایین می‌افتد"
+        },
+        {
+          "en": "Ball B, because it has a larger speed",
+          "fa": "توپ B، چون سرعت بیشتر دارد"
+        },
+        {
+          "en": "Both reach the ground at the same time",
+          "fa": "هر دو هم‌زمان به زمین می‌رسند"
+        },
+        {
+          "en": "The ball with the larger mass arrives first",
+          "fa": "توپی که کتلۀ بیشتر دارد زودتر می‌رسد"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The horizontal motion does not affect the vertical motion. Vertically both balls start with zero velocity and fall according to $y = \\frac{1}{2}g t^2$, so both take $t = \\sqrt{\\frac{2h}{g}}$.",
+        "fa": "حرکت افقی بر حرکت قایم اثر ندارد. در جهت قایم هر دو توپ با سرعت اولیۀ صفر شروع می‌کنند و مطابق $y = \\frac{1}{2}g t^2$ پایین می‌آیند، پس زمان هر دو $t = \\sqrt{\\frac{2h}{g}}$ است."
+      },
+      "idea": {
+        "en": "Split projectile motion into two independent parts: uniform motion along $x$ and free fall along $y$. The falling time depends only on the height, not on $v_0$ or on the mass.",
+        "fa": "حرکت پرتابی را به دو حرکت مستقل تقسیم کنید: حرکت یکنواخت در امتداد $x$ و سقوط آزاد در امتداد $y$. زمان سقوط فقط به ارتفاع بستگی دارد، نه به $v_0$ یا کتله."
+      }
+    },
+    {
+      "pdf_page": 94,
+      "q": {
+        "en": "Two stones are launched from level ground with the same speed, one at $30^\\circ$ and the other at $60^\\circ$ above the horizontal (no air resistance). Which statement is correct?",
+        "fa": "دو سنگ از سطح هموار زمین با سرعت مساوی پرتاب می‌شوند، یکی با زاویۀ $30^\\circ$ و دیگری با زاویۀ $60^\\circ$ نسبت به افق (بدون مقاومت هوا). کدام جمله درست است؟"
+      },
+      "options": [
+        {
+          "en": "Their ranges are equal, but the $60^\\circ$ stone rises higher",
+          "fa": "رنج هر دو مساوی است، ولی سنگ $60^\\circ$ بلندتر می‌رود"
+        },
+        {
+          "en": "The $60^\\circ$ stone has both the larger range and the larger height",
+          "fa": "سنگ $60^\\circ$ هم رنج بیشتر و هم ارتفاع بیشتر دارد"
+        },
+        {
+          "en": "The $30^\\circ$ stone has the larger range",
+          "fa": "رنج سنگ $30^\\circ$ بیشتر است"
+        },
+        {
+          "en": "Both their ranges and their maximum heights are equal",
+          "fa": "رنج و ارتفاع اعظمی هر دو مساوی است"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$R = \\frac{v_0^2\\sin 2\\alpha}{g}$ and $\\sin 60^\\circ = \\sin 120^\\circ$, so the ranges are equal. But the maximum height $H = \\frac{v_0^2\\sin^2\\alpha}{2g}$ is larger for the larger angle.",
+        "fa": "$R = \\frac{v_0^2\\sin 2\\alpha}{g}$ است و $\\sin 60^\\circ = \\sin 120^\\circ$، پس رنج هر دو مساوی است. ولی ارتفاع اعظمی $H = \\frac{v_0^2\\sin^2\\alpha}{2g}$ برای زاویۀ بزرگ‌تر بیشتر است."
+      },
+      "idea": {
+        "en": "Angles that add up to $90^\\circ$ (like $25^\\circ$ and $65^\\circ$) give the same range; the largest range is at $45^\\circ$.",
+        "fa": "زاویه‌هایی که مجموع شان $90^\\circ$ است (مانند $25^\\circ$ و $65^\\circ$) رنج مساوی می‌دهند؛ بیشترین رنج در $45^\\circ$ است."
+      }
+    },
+    {
+      "pdf_page": 101,
+      "q": {
+        "en": "A wheel of radius $0.5\\,\\mathrm{m}$ turns uniformly and makes $2$ turns every second. What is the linear speed of a point on its rim?",
+        "fa": "چرخی به شعاع $0.5\\,\\mathrm{m}$ با حرکت دایره‌یی یکنواخت در هر ثانیه $2$ دور می‌زند. سرعت خطی یک نقطه بر لب چرخ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$1\\,\\mathrm{m/s}$",
+          "fa": "$1\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$6.28\\,\\mathrm{m/s}$",
+          "fa": "$6.28\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$12.6\\,\\mathrm{m/s}$",
+          "fa": "$12.6\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$1.57\\,\\mathrm{m/s}$",
+          "fa": "$1.57\\,\\mathrm{m/s}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The frequency is $\\nu = 2\\,\\mathrm{Hz}$, so $\\omega = 2\\pi\\nu = 4\\pi \\approx 12.6\\,\\mathrm{rad/s}$ and $v = r\\,\\omega = 0.5 \\times 4\\pi \\approx 6.28\\,\\mathrm{m/s}$.",
+        "fa": "فریکونسی $\\nu = 2\\,\\mathrm{Hz}$ است، پس $\\omega = 2\\pi\\nu = 4\\pi \\approx 12.6\\,\\mathrm{rad/s}$ و $v = r\\,\\omega = 0.5 \\times 4\\pi \\approx 6.28\\,\\mathrm{m/s}$."
+      },
+      "idea": {
+        "en": "Turns per second is the frequency, not the period ($T = \\frac{1}{\\nu} = 0.5\\,\\mathrm{s}$). Use $v = r\\omega$ with $\\omega = 2\\pi\\nu$, and forget neither the $2\\pi$ nor the $r$.",
+        "fa": "دور در هر ثانیه فریکونسی است، نه پریود ($T = \\frac{1}{\\nu} = 0.5\\,\\mathrm{s}$). از $v = r\\omega$ با $\\omega = 2\\pi\\nu$ کار بگیرید و نه $2\\pi$ و نه $r$ را فراموش کنید."
+      }
+    },
+    {
+      "pdf_page": 104,
+      "q": {
+        "en": "A $0.2\\,\\mathrm{kg}$ stone tied to a string moves on a frictionless table in a horizontal circle of radius $0.5\\,\\mathrm{m}$ with a constant speed of $3\\,\\mathrm{m/s}$. What is the tension in the string?",
+        "fa": "سنگی به کتلۀ $0.2\\,\\mathrm{kg}$ که به یک تار بسته است، روی میز بدون اصطکاک با سرعت ثابت $3\\,\\mathrm{m/s}$ روی دایرۀ افقی به شعاع $0.5\\,\\mathrm{m}$ حرکت می‌کند. کشش تار چند است؟"
+      },
+      "options": [
+        {
+          "en": "$1.2\\,\\mathrm{N}$",
+          "fa": "$1.2\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$1.96\\,\\mathrm{N}$",
+          "fa": "$1.96\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$3.6\\,\\mathrm{N}$",
+          "fa": "$3.6\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$0.9\\,\\mathrm{N}$",
+          "fa": "$0.9\\,\\mathrm{N}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The tension is the centripetal force: $T = \\frac{mv^2}{r} = \\frac{0.2 \\times 3^2}{0.5} = 3.6\\,\\mathrm{N}$, directed toward the centre. The weight is balanced by the normal force of the table.",
+        "fa": "کشش تار همان قوۀ الی المرکز است: $T = \\frac{mv^2}{r} = \\frac{0.2 \\times 3^2}{0.5} = 3.6\\,\\mathrm{N}$ که به طرف مرکز دایره است. وزن سنگ را قوۀ عمودی میز خنثی می‌کند."
+      },
+      "idea": {
+        "en": "In uniform circular motion the net force points to the centre and equals $\\frac{mv^2}{r}$: square the speed and divide by the radius.",
+        "fa": "در حرکت دایره‌یی یکنواخت قوۀ محصله به طرف مرکز است و مساوی $\\frac{mv^2}{r}$ است: سرعت را مربع کنید و بر شعاع تقسیم کنید."
+      }
+    }
+  ]
+}

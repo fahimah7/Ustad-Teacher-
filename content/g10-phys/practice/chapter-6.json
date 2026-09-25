@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-phys",
+  "chapter": 6,
+  "title": {
+    "en": "Static electricity",
+    "fa": "برق ساکن"
+  },
+  "questions": [
+    {
+      "pdf_page": 149,
+      "q": {
+        "en": "A negatively charged rod is brought near a neutral metal sphere on an insulating stand, without touching it. The sphere is connected to the ground for a moment, the ground wire is removed, and then the rod is taken away. What charge does the sphere have?",
+        "fa": "یک میلهٔ چارج‌دار منفی را بدون تماس نزدیک یک کرهٔ فلزی خنثی که روی پایهٔ عایق است می‌آوریم. کره را برای یک لحظه به زمین وصل می‌کنیم، سیم زمین را قطع می‌کنیم و بعد میله را دور می‌کنیم. کره چه چارج دارد؟"
+      },
+      "options": [
+        {
+          "en": "Negative",
+          "fa": "منفی"
+        },
+        {
+          "en": "Positive",
+          "fa": "مثبت"
+        },
+        {
+          "en": "No charge",
+          "fa": "بی‌چارج (خنثی)"
+        },
+        {
+          "en": "Half positive and half negative, with no overall charge",
+          "fa": "نصف مثبت و نصف منفی، بدون چارج مجموعی"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The negative rod pushes electrons in the sphere away, and they flow to the ground. After the ground wire is cut the sphere is missing electrons, so it is positive, opposite to the rod. The rod keeps its own charge.",
+        "fa": "میلهٔ منفی الکترون‌های کره را دفع می‌کند و آن‌ها به زمین می‌روند. بعد از قطع سیم زمین، کره الکترون کم دارد، پس مثبت است، یعنی مخالف چارج میله. میله چارج خود را از دست نمی‌دهد."
+      },
+      "idea": {
+        "en": "In charging by induction the rod never touches the sphere, so no charge passes from rod to sphere. Where do the sphere's electrons go?",
+        "fa": "در چارج کردن با القا میله هرگز با کره تماس نمی‌کند، پس هیچ چارجی از میله به کره نمی‌رود. الکترون‌های کره به کجا می‌روند؟"
+      }
+    },
+    {
+      "pdf_page": 154,
+      "q": {
+        "en": "Two charges $q_1 = +2\\,\\mu\\mathrm{C}$ and $q_2 = +5\\,\\mu\\mathrm{C}$ are $3\\,\\mathrm{cm}$ apart. What force does each exert on the other? ($k = 9\\times10^{9}\\,\\mathrm{N\\,m^2/C^2}$)",
+        "fa": "دو چارج $q_1 = +2\\,\\mu\\mathrm{C}$ و $q_2 = +5\\,\\mu\\mathrm{C}$ به فاصلهٔ $3\\,\\mathrm{cm}$ از هم قرار دارند. قوه‌ای که هر کدام بالای دیگری وارد می‌کند چند است؟ ($k = 9\\times10^{9}\\,\\mathrm{N\\,m^2/C^2}$)"
+      },
+      "options": [
+        {
+          "en": "$100\\,\\mathrm{N}$, repulsive",
+          "fa": "$100\\,\\mathrm{N}$، دفع"
+        },
+        {
+          "en": "$100\\,\\mathrm{N}$, attractive",
+          "fa": "$100\\,\\mathrm{N}$، جذب"
+        },
+        {
+          "en": "$3\\,\\mathrm{N}$, repulsive",
+          "fa": "$3\\,\\mathrm{N}$، دفع"
+        },
+        {
+          "en": "$0.01\\,\\mathrm{N}$, repulsive",
+          "fa": "$0.01\\,\\mathrm{N}$، دفع"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$F = k\\frac{q_1 q_2}{r^2} = 9\\times10^{9}\\times\\frac{(2\\times10^{-6})(5\\times10^{-6})}{(0.03)^2} = 100\\,\\mathrm{N}$. Both charges are positive, so the force is repulsive.",
+        "fa": "$F = k\\frac{q_1 q_2}{r^2} = 9\\times10^{9}\\times\\frac{(2\\times10^{-6})(5\\times10^{-6})}{(0.03)^2} = 100\\,\\mathrm{N}$. هر دو چارج مثبت اند، پس قوه دفع است."
+      },
+      "idea": {
+        "en": "Change $\\mu\\mathrm{C}$ to C and cm to m first, and remember to square the distance. Like charges repel.",
+        "fa": "اول $\\mu\\mathrm{C}$ را به کولمب و سانتی‌متر را به متر تبدیل کنید و فاصله را مربع کنید. چارج‌های هم‌علامه همدیگر را دفع می‌کنند."
+      }
+    },
+    {
+      "pdf_page": 161,
+      "q": {
+        "en": "Which statement about electric field lines is correct?",
+        "fa": "کدام جمله دربارهٔ خطوط ساحهٔ برقی درست است؟"
+      },
+      "options": [
+        {
+          "en": "They start on negative charges and end on positive charges",
+          "fa": "از چارج منفی شروع و به چارج مثبت ختم می‌شوند"
+        },
+        {
+          "en": "Where the lines are far apart, the field is strongest",
+          "fa": "جایی که خطوط از هم دور اند، ساحه از همه قوی‌تر است"
+        },
+        {
+          "en": "Two field lines never cross each other",
+          "fa": "دو خط ساحه هرگز همدیگر را قطع نمی‌کنند"
+        },
+        {
+          "en": "The force on a negative charge is in the direction of the field line",
+          "fa": "قوه بالای چارج منفی در جهت خط ساحه است"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The field has only one direction at each point, so two lines can never cross. Lines leave positive charges and enter negative ones, they are crowded where the field is strong, and the force on a negative charge is opposite to the field.",
+        "fa": "ساحه در هر نقطه فقط یک جهت دارد، پس دو خط هرگز همدیگر را قطع نمی‌کنند. خطوط از چارج مثبت بیرون و به چارج منفی داخل می‌شوند، جایی که ساحه قوی است فشرده اند، و قوه بالای چارج منفی مخالف جهت ساحه است."
+      },
+      "idea": {
+        "en": "If two lines crossed, the field at the crossing point would have two directions at once. Is that possible?",
+        "fa": "اگر دو خط همدیگر را قطع کنند، ساحه در نقطهٔ تقاطع هم‌زمان دو جهت خواهد داشت. آیا این ممکن است؟"
+      }
+    },
+    {
+      "pdf_page": 166,
+      "q": {
+        "en": "The potential difference across a battery is $12\\,\\mathrm{V}$. A charge of $+1.5\\,\\mathrm{C}$ moves from the positive terminal to the negative terminal. How does its electric potential energy change?",
+        "fa": "تفاوت پوتانشیل بین دو انجام یک بتری $12\\,\\mathrm{V}$ است. چارج $+1.5\\,\\mathrm{C}$ از انجام مثبت به انجام منفی بتری می‌رود. انرژی پوتانشیل برقی آن چگونه تغییر می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "It increases by $18\\,\\mathrm{J}$",
+          "fa": "$18\\,\\mathrm{J}$ زیاد می‌شود"
+        },
+        {
+          "en": "It decreases by $8\\,\\mathrm{J}$",
+          "fa": "$8\\,\\mathrm{J}$ کم می‌شود"
+        },
+        {
+          "en": "It increases by $8\\,\\mathrm{J}$",
+          "fa": "$8\\,\\mathrm{J}$ زیاد می‌شود"
+        },
+        {
+          "en": "It decreases by $18\\,\\mathrm{J}$",
+          "fa": "$18\\,\\mathrm{J}$ کم می‌شود"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Going from + to − the potential drops: $\\Delta v = -12\\,\\mathrm{V}$. $\\Delta u = q\\,\\Delta v = (1.5\\,\\mathrm{C})(-12\\,\\mathrm{V}) = -18\\,\\mathrm{J}$, so the energy decreases by $18\\,\\mathrm{J}$.",
+        "fa": "از انجام مثبت به منفی پوتانشیل پایین می‌آید: $\\Delta v = -12\\,\\mathrm{V}$. $\\Delta u = q\\,\\Delta v = (1.5\\,\\mathrm{C})(-12\\,\\mathrm{V}) = -18\\,\\mathrm{J}$، پس انرژی $18\\,\\mathrm{J}$ کم می‌شود."
+      },
+      "idea": {
+        "en": "Use $\\Delta u = q\\,\\Delta v$ (multiply, don't divide). A positive charge moving from high to low potential loses energy, like water flowing downhill.",
+        "fa": "از $\\Delta u = q\\,\\Delta v$ استفاده کنید (ضرب کنید، تقسیم نکنید). چارج مثبت که از پوتانشیل بلند به پایین می‌رود، مانند آبی که به پایین جاری می‌شود، انرژی از دست می‌دهد."
+      }
+    },
+    {
+      "pdf_page": 176,
+      "q": {
+        "en": "Capacitors of $6\\,\\mu\\mathrm{F}$, $3\\,\\mu\\mathrm{F}$ and $2\\,\\mu\\mathrm{F}$ are connected in series across $150\\,\\mathrm{V}$. What charge is on each capacitor?",
+        "fa": "خازن‌های $6\\,\\mu\\mathrm{F}$، $3\\,\\mu\\mathrm{F}$ و $2\\,\\mu\\mathrm{F}$ به طور مسلسل به ولتیج $150\\,\\mathrm{V}$ وصل شده‌اند. چارج هر خازن چند است؟"
+      },
+      "options": [
+        {
+          "en": "$1650\\,\\mu\\mathrm{C}$ each",
+          "fa": "هر کدام $1650\\,\\mu\\mathrm{C}$"
+        },
+        {
+          "en": "$150\\,\\mu\\mathrm{C}$ each",
+          "fa": "هر کدام $150\\,\\mu\\mathrm{C}$"
+        },
+        {
+          "en": "$50\\,\\mu\\mathrm{C}$ each",
+          "fa": "هر کدام $50\\,\\mu\\mathrm{C}$"
+        },
+        {
+          "en": "$900$, $450$ and $300\\,\\mu\\mathrm{C}$",
+          "fa": "به ترتیب $900$، $450$ و $300\\,\\mu\\mathrm{C}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$\\frac{1}{C_{eq}} = \\frac{1}{6} + \\frac{1}{3} + \\frac{1}{2} = 1$, so $C_{eq} = 1\\,\\mu\\mathrm{F}$ and $q = C_{eq}\\,v = 1\\,\\mu\\mathrm{F}\\times150\\,\\mathrm{V} = 150\\,\\mu\\mathrm{C}$. In series every capacitor carries the same charge.",
+        "fa": "$\\frac{1}{C_{eq}} = \\frac{1}{6} + \\frac{1}{3} + \\frac{1}{2} = 1$، پس $C_{eq} = 1\\,\\mu\\mathrm{F}$ و $q = C_{eq}\\,v = 1\\,\\mu\\mathrm{F}\\times150\\,\\mathrm{V} = 150\\,\\mu\\mathrm{C}$. در اتصال مسلسل همهٔ خازن‌ها چارج مساوی دارند."
+      },
+      "idea": {
+        "en": "In a series connection the charge is the same on every capacitor and the voltage is shared. Find the equivalent capacitance from the reciprocals first.",
+        "fa": "در اتصال مسلسل چارج همهٔ خازن‌ها یکی است و ولتیج بین آن‌ها تقسیم می‌شود. اول ظرفیت معادل را از جمع معکوس‌ها پیدا کنید."
+      }
+    }
+  ]
+}

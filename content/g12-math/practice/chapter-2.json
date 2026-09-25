@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-math",
+  "chapter": 2,
+  "title": {
+    "en": "Derivatives",
+    "fa": "مشتق"
+  },
+  "questions": [
+    {
+      "pdf_page": 53,
+      "q": {
+        "en": "What is the average rate of change of $f(x) = x^2$ on the interval $[2, 5]$?",
+        "fa": "تغییر اوسط تابع $f(x) = x^2$ را در انتروال $[2, 5]$ پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$21$",
+          "fa": "$21$"
+        },
+        {
+          "en": "$7$",
+          "fa": "$7$"
+        },
+        {
+          "en": "$4$",
+          "fa": "$4$"
+        },
+        {
+          "en": "$10$",
+          "fa": "$10$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The average change is $\\frac{f(5) - f(2)}{5 - 2} = \\frac{25 - 4}{3} = 7$.",
+        "fa": "تغییر اوسط مساوی $\\frac{f(5) - f(2)}{5 - 2} = \\frac{25 - 4}{3} = 7$ است."
+      },
+      "idea": {
+        "en": "Divide the change in the function's value by the change in $x$.",
+        "fa": "تغییر قیمت تابع را بر تغییر $x$ تقسیم کنید."
+      }
+    },
+    {
+      "pdf_page": 65,
+      "q": {
+        "en": "Find the derivative of $y = \\frac{2 + 3x}{1 - 2x}$.",
+        "fa": "مشتق $y = \\frac{2 + 3x}{1 - 2x}$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$-\\frac{7}{(1 - 2x)^2}$",
+          "fa": "$-\\frac{7}{(1 - 2x)^2}$"
+        },
+        {
+          "en": "$-\\frac{3}{2}$",
+          "fa": "$-\\frac{3}{2}$"
+        },
+        {
+          "en": "$\\frac{-1 - 12x}{(1 - 2x)^2}$",
+          "fa": "$\\frac{-1 - 12x}{(1 - 2x)^2}$"
+        },
+        {
+          "en": "$\\frac{7}{(1 - 2x)^2}$",
+          "fa": "$\\frac{7}{(1 - 2x)^2}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "By the quotient rule, $y' = \\frac{3(1 - 2x) - (2 + 3x)(-2)}{(1 - 2x)^2} = \\frac{7}{(1 - 2x)^2}$.",
+        "fa": "طبق قانون مشتق حاصل تقسیم، $y' = \\frac{3(1 - 2x) - (2 + 3x)(-2)}{(1 - 2x)^2} = \\frac{7}{(1 - 2x)^2}$ است."
+      },
+      "idea": {
+        "en": "Use $\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}$ and be careful: the derivative of $1 - 2x$ is $-2$.",
+        "fa": "از فورمول $\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}$ استفاده کنید و دقت کنید که مشتق $1 - 2x$ مساوی $-2$ است."
+      }
+    },
+    {
+      "pdf_page": 71,
+      "q": {
+        "en": "Find the derivative of $y = (2x^2 - 1)^3$.",
+        "fa": "مشتق $y = (2x^2 - 1)^3$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$12x(2x^2 - 1)^2$",
+          "fa": "$12x(2x^2 - 1)^2$"
+        },
+        {
+          "en": "$3(2x^2 - 1)^2$",
+          "fa": "$3(2x^2 - 1)^2$"
+        },
+        {
+          "en": "$4x(2x^2 - 1)^2$",
+          "fa": "$4x(2x^2 - 1)^2$"
+        },
+        {
+          "en": "$12x(2x^2 - 1)^3$",
+          "fa": "$12x(2x^2 - 1)^3$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "With $u = 2x^2 - 1$, the chain rule gives $y' = 3u^2 \\cdot u' = 3(2x^2 - 1)^2 \\cdot 4x = 12x(2x^2 - 1)^2$.",
+        "fa": "با $u = 2x^2 - 1$، طبق قاعدهٔ زنجیری $y' = 3u^2 \\cdot u' = 3(2x^2 - 1)^2 \\cdot 4x = 12x(2x^2 - 1)^2$ است."
+      },
+      "idea": {
+        "en": "A function sits inside a power: use $(u^n)' = nu^{n-1} \\cdot u'$ and do not forget the factor $u'$.",
+        "fa": "اینجا یک تابع داخل توان است: از $(u^n)' = nu^{n-1} \\cdot u'$ استفاده کنید و ضریب $u'$ را فراموش نکنید."
+      }
+    },
+    {
+      "pdf_page": 78,
+      "q": {
+        "en": "Find the derivative of $y = \\tan^3 x$.",
+        "fa": "مشتق $y = \\tan^3 x$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$3\\tan^2 x$",
+          "fa": "$3\\tan^2 x$"
+        },
+        {
+          "en": "$\\sec^6 x$",
+          "fa": "$\\sec^6 x$"
+        },
+        {
+          "en": "$3\\tan^2 x \\sec^2 x$",
+          "fa": "$3\\tan^2 x \\sec^2 x$"
+        },
+        {
+          "en": "$-3\\tan^2 x \\csc^2 x$",
+          "fa": "$-3\\tan^2 x \\csc^2 x$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "With $u = \\tan x$ we have $y = u^3$, so $y' = 3\\tan^2 x \\cdot (\\tan x)' = 3\\tan^2 x \\sec^2 x$.",
+        "fa": "با $u = \\tan x$ داریم $y = u^3$، پس $y' = 3\\tan^2 x \\cdot (\\tan x)' = 3\\tan^2 x \\sec^2 x$ است."
+      },
+      "idea": {
+        "en": "Treat $\\tan x$ as the inner function and remember that $(\\tan x)' = \\sec^2 x$.",
+        "fa": "تابع $\\tan x$ را تابع داخلی بگیرید و به یاد داشته باشید که $(\\tan x)' = \\sec^2 x$ است."
+      }
+    },
+    {
+      "pdf_page": 83,
+      "q": {
+        "en": "The curve $x^2 + xy + y^2 = 3$ passes through the point $(1, 1)$. What is the slope of its tangent line at this point?",
+        "fa": "منحنی $x^2 + xy + y^2 = 3$ از نقطهٔ $(1, 1)$ می‌گذرد. میل مماس بر این منحنی را در همین نقطه پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$1$",
+          "fa": "$1$"
+        },
+        {
+          "en": "$-1$",
+          "fa": "$-1$"
+        },
+        {
+          "en": "$-\\frac{2}{3}$",
+          "fa": "$-\\frac{2}{3}$"
+        },
+        {
+          "en": "$-\\frac{3}{2}$",
+          "fa": "$-\\frac{3}{2}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Differentiating gives $2x + y + xy' + 2yy' = 0$, so $y' = -\\frac{2x + y}{x + 2y}$, which equals $-\\frac{3}{3} = -1$ at $(1, 1)$.",
+        "fa": "با مشتق گرفتن داریم $2x + y + xy' + 2yy' = 0$، پس $y' = -\\frac{2x + y}{x + 2y}$ است که در نقطهٔ $(1, 1)$ مساوی $-\\frac{3}{3} = -1$ می‌شود."
+      },
+      "idea": {
+        "en": "Differentiate implicitly: $y$ depends on $x$, so $xy$ needs the product rule and $y^2$ gives $2yy'$.",
+        "fa": "مشتق ضمنی بگیرید: $y$ تابع $x$ است، پس برای $xy$ از قانون حاصل ضرب استفاده کنید و مشتق $y^2$ مساوی $2yy'$ است."
+      }
+    }
+  ]
+}

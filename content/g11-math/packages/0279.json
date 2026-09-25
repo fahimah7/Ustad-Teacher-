@@ -1,0 +1,48 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 279,
+  "printed_page": 270,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "حاصل ضرب وکتوری دو وکتور",
+  "summary_fa": "صفحه با ختم مثال ۱ شروع می‌شود: ضریب‌های هم‌نام جمع شده و فورمول دیترمینانتی حاصل ضرب وکتوری به دست می‌آید. در مثال ۲ حاصل ضرب وکتوری دو وکتور عددی با باز کردن نُه جمله و جدول ضرب وکتورهای واحد حساب می‌شود. سپس بخش «حاصل ضرب مخلوط (حاصل ضرب سه‌گانه) Triple Product» آغاز می‌شود: وقتی سه وکتور ضرب می‌شوند چند امکان وجود دارد. (i) $(\\vec{a}\\cdot\\vec{b})\\vec{c}$: اول ضرب سکالری یک عدد می‌دهد و آن عدد در $\\vec{c}$ ضرب می‌شود، پس نتیجه وکتوری هم‌امتداد با $\\vec{c}$ است و به طور عمومی با $(\\vec{b}\\cdot\\vec{c})\\vec{a}$ و $(\\vec{c}\\cdot\\vec{a})\\vec{b}$ فرق دارد. (ii) $\\vec{a}\\cdot(\\vec{b}\\times\\vec{c})$ یک عدد است و برابر دیترمینانت مؤلفه‌های سه وکتور است. (iii) با جابه‌جایی دوری وکتورها قیمت آن تغییر نمی‌کند. (iv) اگر دو وکتور آن یکی باشند، صفر است.",
+  "key_points_fa": [
+    "$\\vec{u}\\times\\vec{v}$ را با بسط دیترمینانت $3 \\times 3$ که سطر اول آن $\\vec{i}, \\vec{j}, \\vec{k}$ است حساب می‌کنیم.",
+    "$(\\vec{a}\\cdot\\vec{b})\\vec{c}$ یک وکتور هم‌امتداد با $\\vec{c}$ است.",
+    "حاصل ضرب مخلوط $\\vec{a}\\cdot(\\vec{b}\\times\\vec{c})$ یک عدد است و برابر دیترمینانت سه وکتور است.",
+    "جابه‌جایی دوری: $\\vec{a}\\cdot(\\vec{b}\\times\\vec{c}) = \\vec{b}\\cdot(\\vec{c}\\times\\vec{a}) = \\vec{c}\\cdot(\\vec{a}\\times\\vec{b})$.",
+    "$\\vec{a}\\cdot(\\vec{a}\\times\\vec{b}) = 0$ چون $\\vec{a}\\times\\vec{b}$ بر $\\vec{a}$ عمود است."
+  ],
+  "formulas": [
+    {"latex": "\\vec{u}\\times\\vec{v} = \\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\\\ a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\end{vmatrix} = (b_1c_2 - c_1b_2)\\vec{i} - (a_1c_2 - c_1a_2)\\vec{j} + (a_1b_2 - b_1a_2)\\vec{k}", "meaning_fa": "فورمول دیترمینانتی حاصل ضرب وکتوری"},
+    {"latex": "(\\vec{a}\\cdot\\vec{b})\\vec{c} \\ne (\\vec{b}\\cdot\\vec{c})\\vec{a} \\ne (\\vec{c}\\cdot\\vec{a})\\vec{b}", "meaning_fa": "در حالت عمومی این سه وکتور با هم فرق دارند"},
+    {"latex": "\\vec{a}\\cdot(\\vec{b}\\times\\vec{c}) = \\begin{vmatrix} a_1 & a_2 & a_3 \\\\ b_1 & b_2 & b_3 \\\\ c_1 & c_2 & c_3 \\end{vmatrix}", "meaning_fa": "حاصل ضرب مخلوط به شکل دیترمینانت"},
+    {"latex": "\\vec{a}\\cdot(\\vec{b}\\times\\vec{c}) = \\vec{b}\\cdot(\\vec{c}\\times\\vec{a}) = \\vec{c}\\cdot(\\vec{a}\\times\\vec{b})", "meaning_fa": "خاصیت جابه‌جایی دوری حاصل ضرب مخلوط"},
+    {"latex": "\\vec{a}\\cdot(\\vec{a}\\times\\vec{b}) = 0", "meaning_fa": "حاصل ضرب مخلوطی که یک وکتور آن تکرار شده صفر است"}
+  ],
+  "terms": [
+    {"fa": "حاصل ضرب مخلوط", "en": "scalar triple product"},
+    {"fa": "حاصل ضرب سه‌گانه", "en": "triple product"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "حاصل ضرب وکتوری $\\vec{a} = 2\\vec{i}+\\vec{j}+\\vec{k}$ و $\\vec{b} = 4\\vec{i}+2\\vec{j}-\\vec{k}$ را دریافت کنید (کتاب جواب $-\\vec{i}+6\\vec{j}+8\\vec{k}$ را در صورت مسئله نوشته، ولی حل خود کتاب $-3\\vec{i}+6\\vec{j}$ می‌دهد).",
+      "steps_fa": [
+        "$\\vec{a}\\times\\vec{b} = 8(\\vec{i}\\times\\vec{i}) + 4(\\vec{i}\\times\\vec{j}) - 2(\\vec{i}\\times\\vec{k}) + 4(\\vec{j}\\times\\vec{i}) + 2(\\vec{j}\\times\\vec{j}) - (\\vec{j}\\times\\vec{k}) + 4(\\vec{k}\\times\\vec{i}) + 2(\\vec{k}\\times\\vec{j}) - (\\vec{k}\\times\\vec{k})$",
+        "$= 0 + 4\\vec{k} + 2\\vec{j} - 4\\vec{k} + 0 - \\vec{i} + 4\\vec{j} - 2\\vec{i} - 0$",
+        "$= -3\\vec{i} + 6\\vec{j}$",
+        "امتحان با دیترمینانت: $\\vec{i}(1\\cdot(-1) - 1\\cdot 2) - \\vec{j}(2\\cdot(-1) - 1\\cdot 4) + \\vec{k}(2\\cdot 2 - 1\\cdot 4) = -3\\vec{i} + 6\\vec{j} + 0\\vec{k}$"
+      ],
+      "answer": "$\\vec{a}\\times\\vec{b} = -3\\vec{i} + 6\\vec{j}$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "غلط‌های چاپی کتاب: در صورت مثال ۲ جواب $-\\vec{i}+6\\vec{j}+8\\vec{k}$ نوشته شده که درست نیست؛ جواب درست $-3\\vec{i}+6\\vec{j}$ است (همان‌طور که حل کتاب نشان می‌دهد). در خاصیت iii کتاب $\\vec{c}(\\vec{b}\\times\\vec{a})$ نوشته است؛ درست آن $\\vec{c}\\cdot(\\vec{a}\\times\\vec{b})$ است، زیرا $\\vec{c}\\cdot(\\vec{b}\\times\\vec{a}) = -\\vec{a}\\cdot(\\vec{b}\\times\\vec{c})$. کتاب می‌گوید $(\\vec{a}\\cdot\\vec{b})\\vec{c}$ هم‌جهت $\\vec{c}$ است؛ دقیق‌تر، اگر $\\vec{a}\\cdot\\vec{b}$ منفی باشد جهت آن مخالف $\\vec{c}$ است."
+}

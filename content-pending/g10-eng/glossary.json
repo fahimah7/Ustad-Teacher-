@@ -1,0 +1,228 @@
+{
+  "book_id": "g10-eng",
+  "terms": [
+    {
+      "book": "فعل",
+      "avoid": [],
+      "en": "verb"
+    },
+    {
+      "book": "اسم",
+      "avoid": [],
+      "en": "noun"
+    },
+    {
+      "book": "صفت",
+      "avoid": [],
+      "en": "adjective"
+    },
+    {
+      "book": "قید",
+      "avoid": [],
+      "en": "adverb"
+    },
+    {
+      "book": "حرف اضافه",
+      "avoid": [],
+      "en": "preposition"
+    },
+    {
+      "book": "ضمیر",
+      "avoid": [],
+      "en": "pronoun"
+    },
+    {
+      "book": "حرف ربط",
+      "avoid": [],
+      "en": "conjunction"
+    },
+    {
+      "book": "حرف تعریف",
+      "avoid": [],
+      "en": "article (a, an, the)"
+    },
+    {
+      "book": "ضمیر موصولی",
+      "avoid": [],
+      "en": "relative pronoun (who, whom, which, that)"
+    },
+    {
+      "book": "ضمیر ملکی",
+      "avoid": [],
+      "en": "possessive pronoun"
+    },
+    {
+      "book": "صفت ملکی",
+      "avoid": [],
+      "en": "possessive adjective"
+    },
+    {
+      "book": "صفت نسبی",
+      "avoid": [],
+      "en": "proper adjective (nationality adjective, e.g. Afghan, Indian)"
+    },
+    {
+      "book": "صفت تفضیلی",
+      "avoid": [
+        "صفت برتر"
+      ],
+      "en": "comparative adjective"
+    },
+    {
+      "book": "صفت عالی",
+      "avoid": [
+        "صفت برترین"
+      ],
+      "en": "superlative adjective"
+    },
+    {
+      "book": "زمان حال ساده",
+      "avoid": [],
+      "en": "simple present tense"
+    },
+    {
+      "book": "ماضی مطلق",
+      "avoid": [
+        "گذشته ساده"
+      ],
+      "en": "simple past tense"
+    },
+    {
+      "book": "مستقبل ساده",
+      "avoid": [
+        "آینده ساده"
+      ],
+      "en": "simple future tense"
+    },
+    {
+      "book": "ماضی نقلی",
+      "avoid": [
+        "گذشته نقلی"
+      ],
+      "en": "present perfect tense"
+    },
+    {
+      "book": "ماضی نقلی استمراری",
+      "avoid": [
+        "گذشته نقلی استمراری"
+      ],
+      "en": "present perfect continuous tense"
+    },
+    {
+      "book": "فعل باقاعده",
+      "avoid": [],
+      "en": "regular verb"
+    },
+    {
+      "book": "فعل بی‌قاعده",
+      "avoid": [],
+      "en": "irregular verb"
+    },
+    {
+      "book": "جیراند",
+      "avoid": [],
+      "en": "gerund (verb + -ing)"
+    },
+    {
+      "book": "نقل قول مستقیم",
+      "avoid": [],
+      "en": "direct speech"
+    },
+    {
+      "book": "نقل قول غیرمستقیم",
+      "avoid": [],
+      "en": "indirect speech (reported speech)"
+    },
+    {
+      "book": "سوال ضمیمه",
+      "avoid": [],
+      "en": "tag question"
+    },
+    {
+      "book": "سوال منفی",
+      "avoid": [],
+      "en": "negative question"
+    },
+    {
+      "book": "فاعل",
+      "avoid": [],
+      "en": "subject"
+    },
+    {
+      "book": "جمله",
+      "avoid": [],
+      "en": "sentence"
+    },
+    {
+      "book": "گرامر",
+      "avoid": [],
+      "en": "grammar"
+    },
+    {
+      "book": "مکالمه",
+      "avoid": [],
+      "en": "conversation"
+    },
+    {
+      "book": "خواندن",
+      "avoid": [],
+      "en": "reading"
+    },
+    {
+      "book": "نوشتن",
+      "avoid": [],
+      "en": "writing"
+    },
+    {
+      "book": "لغات",
+      "avoid": [],
+      "en": "vocabulary / words"
+    },
+    {
+      "book": "پراگراف",
+      "avoid": [],
+      "en": "paragraph"
+    },
+    {
+      "book": "مکتوب",
+      "avoid": [],
+      "en": "letter"
+    },
+    {
+      "book": "فورم ثبت‌نام",
+      "avoid": [
+        "فرم ثبت‌نام"
+      ],
+      "en": "registration form"
+    },
+    {
+      "book": "مکتب",
+      "avoid": [
+        "مدرسه"
+      ],
+      "en": "school"
+    },
+    {
+      "book": "لیسه",
+      "avoid": [
+        "دبیرستان"
+      ],
+      "en": "high school"
+    },
+    {
+      "book": "شاگرد",
+      "avoid": [
+        "دانش‌آموز"
+      ],
+      "en": "student / pupil"
+    },
+    {
+      "book": "کتابچه",
+      "avoid": [
+        "دفتر"
+      ],
+      "en": "notebook"
+    }
+  ],
+  "style_notes_fa": "این کتاب انگلیسی دوازده «Unit» دارد (Unit One تا Unit Twelve) که در یادداشت‌ها «فصل» گفته می‌شود و عنوان‌شان به انگلیسی است؛ هر فصل با صفحهٔ عنوان و فهرست اهداف «In this unit, you are going to» شروع می‌شود، سپس شش یا هفت «Lesson» (درس) با بخش‌هایی مانند Introduction/Conversation/Listening، Grammar، Reading، Word study، Writing/Activities و Review می‌آید و فصل با «Vocabulary List» (لغات به تفکیک Nouns، Verbs، Adjectives، Adverbs) ختم می‌شود. تمرین‌ها با حروف A، B، C… نام‌گذاری شده‌اند، قاعدهٔ گرامر در کادر رنگی با مثال می‌آید و متن‌ها دور یک برنامهٔ تلویزیونی به نام «Let's Know» و گویندهٔ آن آقای حمیدی می‌چرخند؛ در یادداشت دری، اصطلاح انگلیسی کتاب را همراه معادل دری آن بیاورید."
+}

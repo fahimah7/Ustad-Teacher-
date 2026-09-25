@@ -1,0 +1,140 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 35,
+  "printed_page": 28,
+  "page_kind": "exercises",
+  "chapter": 1,
+  "section_fa": "لیمت توابع مثلثاتی",
+  "summary_fa": "بالای این صفحه گام آخر مثال ۵ صفحهٔ قبل آمده است: با تعویض $y = 5x$ هر دو کسر ساین به ۱ می‌روند و جواب ۱۰ به دست می‌آید. باقی صفحه یک تمرین با نه لیمت مثلثاتی است. پیش از هر کاری باید قیمت را وضع کرد: بسیاری از این لیمت‌ها (مثل ۱، ۳، ۶، ۸ و ۹) شکل مبهم ندارند و با وضع مستقیم قیمت حل می‌شوند. فقط لیمت‌هایی که $\\frac{0}{0}$ می‌دهند (مثل ۲، ۴ و ۵) به قضیهٔ $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$ و بازنویسی نیاز دارند.",
+  "key_points_fa": [
+    "اول همیشه قیمت را وضع کنید؛ اگر شکل مبهم نبود، جواب همان است.",
+    "$\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$ فقط وقتی به کار می‌رود که زاویه به صفر برود.",
+    "$\\cos^2 x + \\sin^2 x = 1$ برای هر x.",
+    "$1 + \\tan^2 x = \\frac{1}{\\cos^2 x}$"
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1", "meaning_fa": "قضیهٔ اساسی لیمت مثلثاتی"},
+    {"latex": "\\sin^2 x + \\cos^2 x = 1", "meaning_fa": "رابطهٔ اساسی مثلثاتی"},
+    {"latex": "\\frac{1}{1 + \\tan^2 x} = \\cos^2 x", "meaning_fa": "رابطه‌ای که در تمرین ۳ به کار می‌آید"}
+  ],
+  "terms": [
+    {"fa": "لیمت توابع مثلثاتی", "en": "limits of trigonometric functions"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۵ (پایان)",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\cos 4x - \\cos 6x}{x^2}$ (گام آخر)",
+      "steps_fa": [
+        "با $y = 5x$ ($y \\to 0$): $10 \\lim_{y \\to 0} \\frac{\\sin y}{y} \\cdot \\lim_{x \\to 0} \\frac{\\sin x}{x}$",
+        "$10 \\cdot 1 \\cdot 1 = 10$"
+      ],
+      "answer": "$10$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\sin(x + \\frac{\\pi}{6})}{x + \\frac{\\pi}{6}}$",
+      "solution_steps_fa": [
+        "زاویه به $\\frac{\\pi}{6}$ می‌رود نه صفر؛ پس شکل مبهم نیست و قیمت را وضع می‌کنیم.",
+        "$\\frac{\\sin\\frac{\\pi}{6}}{\\frac{\\pi}{6}} = \\frac{\\frac{1}{2}}{\\frac{\\pi}{6}} = \\frac{3}{\\pi}$"
+      ],
+      "answer": "$\\frac{3}{\\pi} \\approx 0.955$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\sin^2 x}{x}$",
+      "solution_steps_fa": [
+        "$\\frac{\\sin^2 x}{x} = \\frac{\\sin x}{x} \\cdot \\sin x$",
+        "$1 \\cdot 0 = 0$"
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{1}{1 + \\tan^2 x}$",
+      "solution_steps_fa": [
+        "$\\tan 0 = 0$، پس قیمت را وضع می‌کنیم: $\\frac{1}{1 + 0} = 1$"
+      ],
+      "answer": "$1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\sin x - x}{x}$",
+      "solution_steps_fa": [
+        "کسر را جدا می‌کنیم: $\\frac{\\sin x}{x} - 1$",
+        "$1 - 1 = 0$"
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\tan 2x}{\\sin 3x}$",
+      "solution_steps_fa": [
+        "$\\frac{\\tan 2x}{\\sin 3x} = \\frac{2x \\cdot \\frac{\\sin 2x}{2x}}{\\cos 2x \\cdot 3x \\cdot \\frac{\\sin 3x}{3x}}$",
+        "کسرهای ساین و $\\cos 2x$ به ۱ می‌روند؛ باقی می‌ماند $\\frac{2x}{3x} = \\frac{2}{3}$"
+      ],
+      "answer": "$\\frac{2}{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۶",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} \\sin 5x \\cos 3x$",
+      "solution_steps_fa": [
+        "شکل مبهم نیست؛ قیمت را وضع می‌کنیم: $\\sin 0 \\cdot \\cos 0 = 0 \\cdot 1 = 0$"
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۷",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\tan(2x - 1)}{4x^2 - 1}$",
+      "solution_steps_fa": [
+        "با وضع $x = 0$: $\\frac{\\tan(-1)}{-1} = \\tan 1$؛ شکل مبهم نیست.",
+        "جواب $\\tan 1 \\approx 1.557$ (زاویه به رادیان).",
+        "اگر منظور $x \\to \\frac{1}{2}$ باشد: $4x^2 - 1 = (2x-1)(2x+1)$ و با $t = 2x - 1 \\to 0$: $\\frac{\\tan t}{t} \\cdot \\frac{1}{2x+1} \\to 1 \\cdot \\frac{1}{2} = \\frac{1}{2}$"
+      ],
+      "answer": "$\\tan 1 \\approx 1.557$؛ (اگر $x \\to \\frac{1}{2}$ باشد: $\\frac{1}{2}$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۸",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} \\sqrt{\\cos 2x - \\cos x + 1}$",
+      "solution_steps_fa": [
+        "قیمت را وضع می‌کنیم: $\\sqrt{1 - 1 + 1} = \\sqrt{1} = 1$"
+      ],
+      "answer": "$1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۹",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 1} (\\cos^2 x + \\sin^2 x)$",
+      "solution_steps_fa": [
+        "برای هر x داریم $\\cos^2 x + \\sin^2 x = 1$",
+        "پس لیمت یک تابع ثابت است: ۱"
+      ],
+      "answer": "$1$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "تمرین ۷ با $x \\to 0$ چاپ شده و جواب آن $\\tan 1$ است؛ احتمالاً منظور کتاب $x \\to \\frac{1}{2}$ بوده که جواب $\\frac{1}{2}$ می‌دهد. هر دو حالت در حل آمده است."
+}

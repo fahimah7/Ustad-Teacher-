@@ -1,0 +1,22 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 282,
+  "printed_page": null,
+  "page_kind": "chapter_title",
+  "chapter": 6,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ عنوان فصل ششم کتاب: «اعداد مختلط». در این فصل شاگرد با عدد موهومی $i$ و طاقت‌های آن، شکل معیاری عدد مختلط $a+bi$، جمع، تفریق، ضرب و تقسیم اعداد مختلط، مزدوج و معکوس ضربی یک عدد مختلط، و حل معادله‌های درجه دوم در ساحهٔ اعداد مختلط آشنا می‌شود. این صفحه درس یا تمرین ندارد.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [
+    {"fa": "اعداد مختلط", "en": "complex numbers"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه چاپ نشده است (صفحهٔ ۲۷۵ کتاب)."
+}

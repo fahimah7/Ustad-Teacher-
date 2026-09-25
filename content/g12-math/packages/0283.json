@@ -1,0 +1,80 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 283,
+  "printed_page": 276,
+  "page_kind": "content",
+  "chapter": 8,
+  "section_fa": "استقلالیت حوادث اتفاقی",
+  "summary_fa": "این صفحه بخش استقلالیت حوادث اتفاقی را آغاز می‌کند. در احتمال مشروط دیدیم که وقوع B می‌تواند احتمال A را تغییر دهد؛ این‌جا سوال این است که اگر دو حادثه هیچ اثری بر یک‌دیگر نداشته باشند، احتمال تقاطع شان با حاصل ضرب احتمال‌های شان چه رابطه دارد. تعریف: دو حادثه وقتی مستقل اند که احتمال تقاطع شان مساوی حاصل ضرب احتمال‌های شان باشد. در فعالیت، شاگرد از فورمول احتمال مشروط نتیجه می‌گیرد که برای حوادث مستقل $P_B(A)$ با $P(A)$ برابر است، و از فورمول اتحاد می‌بیند که برای دو حادثهٔ بدون نقطهٔ مشترک، احتمال اتحاد فقط جمع دو احتمال است (اصل حاصل جمع). در پایان، مثال ۱ دربارهٔ رنگ چشم و ذکاوت شاگردان شروع می‌شود که حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "A و B مستقل اند اگر $P(A\\cap B) = P(A)\\cdot P(B)$ باشد.",
+    "برای حوادث مستقل: $P_B(A) = P(A)$؛ یعنی دانستن وقوع B احتمال A را تغییر نمی‌دهد.",
+    "اگر $A\\cap B = \\emptyset$ باشد، $P(A\\cup B) = P(A) + P(B)$ (اصل حاصل جمع).",
+    "«بدون نقطهٔ مشترک» با «مستقل» یکی نیست: دو حادثهٔ جدا با احتمال غیر صفر مستقل نیستند، چون $P(A\\cap B) = 0$ ولی $P(A)\\cdot P(B) > 0$."
+  ],
+  "formulas": [
+    {"latex": "P(A\\cap B) = P(A)\\cdot P(B)", "meaning_fa": "شرط استقلالیت دو حادثه (حاصل ضرب)"},
+    {"latex": "P_B(A) = P(A)", "meaning_fa": "نتیجهٔ استقلالیت در احتمال مشروط"},
+    {"latex": "P(A\\cup B) = P(A) + P(B) - P(A\\cap B)", "meaning_fa": "احتمال اتحاد دو حادثه"},
+    {"latex": "A\\cap B = \\emptyset \\Rightarrow P(A\\cup B) = P(A) + P(B)", "meaning_fa": "اصل حاصل جمع برای حوادث بدون نقطهٔ مشترک"}
+  ],
+  "terms": [
+    {"fa": "حوادث مستقل", "en": "independent events"},
+    {"fa": "استقلالیت", "en": "independence"},
+    {"fa": "اصل حاصل جمع", "en": "addition rule"},
+    {"fa": "حوادث بدون نقطهٔ مشترک", "en": "mutually exclusive events"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "رنگ چشم و ذکاوت شاگردان بر هم اثر ندارند. H: شاگرد انتخاب‌شده ذکی است؛ B: چشمان سیاه دارد. احتمال این که شاگرد هم ذکی و هم سیاه‌چشم باشد؟",
+      "steps_fa": [
+        "چون دو صفت بر هم اثر ندارند، H و B مستقل اند؛ پس $P_B(H) = P(H)$.",
+        "از تعریف احتمال مشروط: $P(B\\cap H) = P(B)\\cdot P_B(H) = P(B)\\cdot P(H)$"
+      ],
+      "answer": "$P(B\\cap H) = P(H)\\cdot P(B)$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت (۱)",
+      "kind": "activity",
+      "problem_fa": "اگر A و B مستقل باشند، $P(A)$ و $P_B(A)$ چه فرقی دارند؟",
+      "solution_steps_fa": [
+        "$P_B(A) = \\frac{P(A\\cap B)}{P(B)} = \\frac{P(A)\\cdot P(B)}{P(B)}$",
+        "$= P(A)$"
+      ],
+      "answer": "هیچ فرقی ندارند: $P_B(A) = P(A)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (۲)",
+      "kind": "activity",
+      "problem_fa": "برای دو حادثهٔ مستقل، $P(A\\cap B)$ مساوی به چیست؟",
+      "solution_steps_fa": [
+        "از اصل حاصل ضرب: $P(A\\cap B) = P(B)\\cdot P_B(A)$",
+        "چون $P_B(A) = P(A)$ است: $P(A\\cap B) = P(A)\\cdot P(B)$"
+      ],
+      "answer": "$P(A\\cap B) = P(A)\\cdot P(B)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (۳)",
+      "kind": "activity",
+      "problem_fa": "در فورمول $P(A\\cup B) = P(A) + P(B) - P(A\\cap B)$ اگر A و B نقطهٔ مشترک نداشته باشند، چه نتیجه می‌گیرید؟",
+      "solution_steps_fa": [
+        "$A\\cap B = \\emptyset$ است، پس $P(A\\cap B) = 0$.",
+        "در نتیجه $P(A\\cup B) = P(A) + P(B)$."
+      ],
+      "answer": "$P(A\\cup B) = P(A) + P(B)$ (اصل حاصل جمع)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "حل مثال ۱ در صفحهٔ بعد آمده است؛ این‌جا برای کامل بودن نوشته شد. کتاب $P(A\\cap B) = 0$ را به شکل $(A\\cap B) = 0$ چاپ کرده است."
+}

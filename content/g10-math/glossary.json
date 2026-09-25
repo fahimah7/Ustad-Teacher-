@@ -1,0 +1,277 @@
+{
+  "book_id": "g10-math",
+  "terms": [
+    {
+      "book": "پولینوم",
+      "avoid": [
+        "چندجمله‌ای"
+      ],
+      "en": "polynomial"
+    },
+    {
+      "book": "مونوم (یک حده)",
+      "avoid": [
+        "تک‌جمله‌ای"
+      ],
+      "en": "monomial"
+    },
+    {
+      "book": "افادهٔ الجبری",
+      "avoid": [
+        "عبارت جبری"
+      ],
+      "en": "algebraic expression"
+    },
+    {
+      "book": "متحول",
+      "avoid": [
+        "متغیر"
+      ],
+      "en": "variable"
+    },
+    {
+      "book": "ضریب",
+      "avoid": [],
+      "en": "coefficient"
+    },
+    {
+      "book": "حدود مشابه",
+      "avoid": [
+        "جملات متشابه"
+      ],
+      "en": "like terms"
+    },
+    {
+      "book": "قیمت",
+      "avoid": [
+        "مقدار"
+      ],
+      "en": "value (e.g. value of a function)"
+    },
+    {
+      "book": "قضیهٔ باقی‌مانده",
+      "avoid": [],
+      "en": "remainder theorem"
+    },
+    {
+      "book": "قضیهٔ فکتور",
+      "avoid": [
+        "قضیهٔ عامل"
+      ],
+      "en": "factor theorem"
+    },
+    {
+      "book": "تقسیم ترکیبی",
+      "avoid": [],
+      "en": "synthetic division"
+    },
+    {
+      "book": "ست",
+      "avoid": [
+        "مجموعه"
+      ],
+      "en": "set"
+    },
+    {
+      "book": "جورهٔ مرتب",
+      "avoid": [
+        "زوج مرتب"
+      ],
+      "en": "ordered pair"
+    },
+    {
+      "book": "مستوی کارتیزینی",
+      "avoid": [
+        "صفحهٔ مختصات",
+        "صفحهٔ دکارتی"
+      ],
+      "en": "Cartesian plane"
+    },
+    {
+      "book": "حاصل‌ضرب کارتیزینی",
+      "avoid": [
+        "ضرب دکارتی"
+      ],
+      "en": "Cartesian product"
+    },
+    {
+      "book": "ناحیهٔ تعریف",
+      "avoid": [
+        "دامنه"
+      ],
+      "en": "domain"
+    },
+    {
+      "book": "ناحیهٔ قیمت‌ها",
+      "avoid": [
+        "برد"
+      ],
+      "en": "range"
+    },
+    {
+      "book": "گراف",
+      "avoid": [
+        "نمودار"
+      ],
+      "en": "graph"
+    },
+    {
+      "book": "تابع متزاید",
+      "avoid": [
+        "تابع صعودی"
+      ],
+      "en": "increasing function"
+    },
+    {
+      "book": "تابع متناقص",
+      "avoid": [
+        "تابع نزولی"
+      ],
+      "en": "decreasing function"
+    },
+    {
+      "book": "تابع جفت",
+      "avoid": [
+        "تابع زوج"
+      ],
+      "en": "even function"
+    },
+    {
+      "book": "تابع تاق",
+      "avoid": [
+        "تابع فرد"
+      ],
+      "en": "odd function"
+    },
+    {
+      "book": "مجانب",
+      "avoid": [],
+      "en": "asymptote"
+    },
+    {
+      "book": "پارابولا",
+      "avoid": [
+        "سهمی"
+      ],
+      "en": "parabola"
+    },
+    {
+      "book": "اعداد ناطق",
+      "avoid": [
+        "اعداد گویا"
+      ],
+      "en": "rational numbers"
+    },
+    {
+      "book": "اعداد غیر ناطق",
+      "avoid": [
+        "اعداد گنگ"
+      ],
+      "en": "irrational numbers"
+    },
+    {
+      "book": "اعداد تام",
+      "avoid": [
+        "اعداد صحیح"
+      ],
+      "en": "integers"
+    },
+    {
+      "book": "اعداد مکمل",
+      "avoid": [
+        "اعداد حسابی"
+      ],
+      "en": "whole numbers"
+    },
+    {
+      "book": "اعداد مختلط",
+      "avoid": [],
+      "en": "complex numbers"
+    },
+    {
+      "book": "زاویهٔ حاده",
+      "avoid": [
+        "زاویهٔ تند"
+      ],
+      "en": "acute angle"
+    },
+    {
+      "book": "حالت معیاری یک زاویه",
+      "avoid": [
+        "وضعیت استاندارد"
+      ],
+      "en": "standard position of an angle"
+    },
+    {
+      "book": "زوایای کوترمینل",
+      "avoid": [
+        "زاویه‌های هم‌انتها"
+      ],
+      "en": "coterminal angles"
+    },
+    {
+      "book": "قضیهٔ فیثاغورث",
+      "avoid": [
+        "قضیهٔ فیثاغورس"
+      ],
+      "en": "Pythagorean theorem"
+    },
+    {
+      "book": "سیستم کمیات وضعیه",
+      "avoid": [
+        "دستگاه مختصات"
+      ],
+      "en": "coordinate system"
+    },
+    {
+      "book": "میل خط مستقیم",
+      "avoid": [
+        "شیب خط"
+      ],
+      "en": "slope of a line"
+    },
+    {
+      "book": "احصائیه",
+      "avoid": [
+        "آمار"
+      ],
+      "en": "statistics"
+    },
+    {
+      "book": "اوسط",
+      "avoid": [
+        "میانگین"
+      ],
+      "en": "mean (average)"
+    },
+    {
+      "book": "مود",
+      "avoid": [
+        "نما"
+      ],
+      "en": "mode"
+    },
+    {
+      "book": "انحراف معیاری",
+      "avoid": [
+        "انحراف معیار"
+      ],
+      "en": "standard deviation"
+    },
+    {
+      "book": "بیان",
+      "avoid": [
+        "گزاره"
+      ],
+      "en": "statement (logic)"
+    },
+    {
+      "book": "جدول صحت",
+      "avoid": [
+        "جدول ارزش"
+      ],
+      "en": "truth table"
+    }
+  ],
+  "style_notes_fa": "این کتاب هر بخش بزرگ را «فصل» (فصل اول، فصل دوم ...) می‌نامد؛ هر درس با یک پرسش آغازین شروع می‌شود و شامل «مثال» با «حل»، «فعالیت»، «تعریف»، «یادداشت» و «تمرین» است و هر فصل با «خلاصهٔ فصل» و «تمرین فصل» پایان می‌یابد. اصطلاح انگلیسی اکثراً در قوس کنار اصطلاح دری آمده، از «فی‌صد» به جای درصد و از فعل‌هایی مانند «دریابید» و «معلوم کنید» استفاده می‌شود."
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 91,
+  "printed_page": 82,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم معادلات دو مجهولهٔ مثلثاتی",
+  "summary_fa": "در این صفحه شرط حل سیستم نوع اول ساده‌تر نوشته می‌شود. نامساوات $\\left|\\frac{a}{2\\sin\\frac{\\alpha}{2}}\\right| \\le 1$ را مربع کرده و دو طرف را در $4\\sin^2\\frac{\\alpha}{2}$ ضرب می‌کنیم؛ نتیجه $a^2 - 4\\sin^2\\frac{\\alpha}{2} \\le 0$ است. سپس مثال ۱ حل می‌شود: $\\sin x + \\sin y = 1$ و $x + y = \\frac{\\pi}{2}$. اول با گذاشتن $a = 1$ و $\\alpha = \\frac{\\pi}{2}$ در شرط، دیده می‌شود که $-1 \\le 0$ درست است، پس سیستم حل دارد. بعد طرف چپ معادلهٔ اول با فورمول تحویل به حاصل ضرب تبدیل می‌شود، $\\frac{x+y}{2} = \\frac{\\pi}{4}$ جاگذاری می‌شود و به $\\cos\\frac{x-y}{2} = \\cos\\frac{\\pi}{4}$ می‌رسیم؛ پس $x - y = \\frac{\\pi}{2}$. قیمت‌های $x$ و $y$ در صفحه بعد پیدا می‌شوند.",
+  "key_points_fa": [
+    "شرط حل نوع اول (برای $\\sin x + \\sin y = a$ و $x + y = \\alpha$): $a^2 - 4\\sin^2\\frac{\\alpha}{2} \\le 0$",
+    "پیش از حل، شرط را کنترل می‌کنیم؛ اگر برقرار نباشد سیستم حل ندارد.",
+    "با فورمول تحویل و قیمت معلوم $x + y$، یک معادلهٔ ساده برای $x - y$ به دست می‌آید.",
+    "با داشتن $x + y$ و $x - y$، سیستم مانند یک سیستم الجبری خطی حل می‌شود."
+  ],
+  "formulas": [
+    {"latex": "a^2 - 4\\sin^2\\frac{\\alpha}{2} \\le 0", "meaning_fa": "شرط حل سیستم نوع اول"}
+  ],
+  "terms": [
+    {"fa": "نامساوات", "en": "inequality"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "سیستم $\\sin x + \\sin y = 1$ و $x + y = \\frac{\\pi}{2}$ را حل کنید.",
+      "steps_fa": [
+        "$a = 1$ و $\\alpha = \\frac{\\pi}{2}$؛ کنترل شرط: $1 - 4\\sin^2\\frac{\\pi}{4} = 1 - 4 \\cdot \\frac{2}{4} = -1 \\le 0$، پس سیستم حل دارد.",
+        "فورمول تحویل: $2\\sin\\frac{x+y}{2}\\cos\\frac{x-y}{2} = 1$",
+        "چون $\\frac{x+y}{2} = \\frac{\\pi}{4}$: $2 \\cdot \\frac{\\sqrt{2}}{2}\\cos\\frac{x-y}{2} = 1 \\Rightarrow \\cos\\frac{x-y}{2} = \\frac{1}{\\sqrt{2}} = \\cos\\frac{\\pi}{4}$",
+        "$\\frac{x-y}{2} = \\frac{\\pi}{4} \\Rightarrow x - y = \\frac{\\pi}{2}$",
+        "با $x + y = \\frac{\\pi}{2}$ جمع می‌کنیم: $2x = \\pi \\Rightarrow x = \\frac{\\pi}{2}$ و $y = 0$ (در صفحه بعد)"
+      ],
+      "answer": "$x = \\frac{\\pi}{2}$، $y = 0$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "قدم آخر مثال ۱ (یافتن x و y) در صفحه بعد آمده است. اگر $\\frac{x-y}{2} = -\\frac{\\pi}{4}$ گرفته شود، جواب دیگر $x = 0$ و $y = \\frac{\\pi}{2}$ هم درست است؛ کتاب فقط یک جواب را آورده است."
+}

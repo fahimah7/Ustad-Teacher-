@@ -1,0 +1,161 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 165,
+  "printed_page": 158,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "زاویه و واحدهای اندازه‌گیری یک زاویه",
+  "summary_fa": "این صفحه ادامهٔ تمرین درس زاویه و واحدهای آن است (سؤال‌های ۴ تا ۱۴). سؤال‌ها تبدیل بین درجه، گراد و رادیان، یافتن رادیان و درجهٔ یک حصه از دوران، طول قوس با فورمول $s = r\\theta$، زاویه‌یی که ثانیه‌گرد ساعت در چند ثانیه می‌پیماید، و یک مسئلهٔ معادله‌یی دربارهٔ دو زاویه را تمرین می‌کنند. سؤال‌های ۱۲ و ۱۳ چهار جوابه هستند.",
+  "key_points_fa": [
+    "درجه ← رادیان: ضرب در $\\frac{\\pi}{180}$؛ درجه ← گراد: ضرب در $\\frac{10}{9}$.",
+    "یک دوران $= 2\\pi$ رادیان $= 360^\\circ = 400\\,\\mathrm{g}$.",
+    "طول قوس: $s = r\\theta$ که در آن θ باید به رادیان باشد.",
+    "ثانیه‌گرد در هر ثانیه $\\frac{2\\pi}{60} = \\frac{\\pi}{30}$ رادیان می‌چرخد."
+  ],
+  "formulas": [
+    {"latex": "\\frac{D}{180} = \\frac{G}{200} = \\frac{R}{\\pi}", "meaning_fa": "تبدیل بین درجه، گراد و رادیان"},
+    {"latex": "s = r\\,\\theta", "meaning_fa": "طول قوس (θ به رادیان)"}
+  ],
+  "terms": [
+    {"fa": "طول قوس", "en": "arc length"},
+    {"fa": "ثانیه‌گرد", "en": "second hand"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "$\\frac{5\\pi}{4}$ رادیان چند گراد است و $-7.5^\\circ$ چند رادیان است؟",
+      "solution_steps_fa": [
+        "$G = R \\cdot \\frac{200}{\\pi} = \\frac{5\\pi}{4} \\cdot \\frac{200}{\\pi} = 250\\,\\mathrm{g}$",
+        "$-7.5 \\cdot \\frac{\\pi}{180} = -\\frac{\\pi}{24}$ رادیان"
+      ],
+      "answer": "$250\\,\\mathrm{g}$ و $-\\frac{\\pi}{24}$ رادیان",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "$225^\\circ$، $-315^\\circ$، $720^\\circ$ و $45^\\circ$ را به رادیان و گراد تبدیل کنید.",
+      "solution_steps_fa": [
+        "$225^\\circ = \\frac{5\\pi}{4}$ رادیان $= 250\\,\\mathrm{g}$",
+        "$-315^\\circ = -\\frac{7\\pi}{4}$ رادیان $= -350\\,\\mathrm{g}$",
+        "$720^\\circ = 4\\pi$ رادیان $= 800\\,\\mathrm{g}$",
+        "$45^\\circ = \\frac{\\pi}{4}$ رادیان $= 50\\,\\mathrm{g}$"
+      ],
+      "answer": "$\\frac{5\\pi}{4}, 250\\,\\mathrm{g}$؛ $-\\frac{7\\pi}{4}, -350\\,\\mathrm{g}$؛ $4\\pi, 800\\,\\mathrm{g}$؛ $\\frac{\\pi}{4}, 50\\,\\mathrm{g}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۶",
+      "kind": "exercise",
+      "problem_fa": "$\\frac{1}{9}$، $\\frac{1}{24}$، $\\frac{1}{18}$ و $\\frac{4}{5}$ حصهٔ یک دایره (یک دوران) چند رادیان و چند درجه است؟",
+      "solution_steps_fa": [
+        "هر کسر را یک بار در $2\\pi$ و یک بار در $360^\\circ$ ضرب می‌کنیم.",
+        "$\\frac{1}{9}$: $\\frac{2\\pi}{9}$ و $40^\\circ$",
+        "$\\frac{1}{24}$: $\\frac{\\pi}{12}$ و $15^\\circ$",
+        "$\\frac{1}{18}$: $\\frac{\\pi}{9}$ و $20^\\circ$",
+        "$\\frac{4}{5}$: $\\frac{8\\pi}{5}$ و $288^\\circ$"
+      ],
+      "answer": "$\\frac{2\\pi}{9}=40^\\circ$، $\\frac{\\pi}{12}=15^\\circ$، $\\frac{\\pi}{9}=20^\\circ$، $\\frac{8\\pi}{5}=288^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۷",
+      "kind": "exercise",
+      "problem_fa": "$\\frac{11\\pi}{3}$، $\\frac{9\\pi}{4}$، $\\frac{\\pi}{6}$، $-\\frac{\\pi}{6}$، $-\\frac{\\pi}{10}$، $\\frac{2\\pi}{5}$ و $-\\frac{5\\pi}{12}$ رادیان را به درجه تبدیل کنید.",
+      "solution_steps_fa": [
+        "هر زاویه را در $\\frac{180}{\\pi}$ ضرب می‌کنیم.",
+        "$\\frac{11\\pi}{3} = 660^\\circ$، $\\frac{9\\pi}{4} = 405^\\circ$",
+        "$\\frac{\\pi}{6} = 30^\\circ$، $-\\frac{\\pi}{6} = -30^\\circ$",
+        "$-\\frac{\\pi}{10} = -18^\\circ$، $\\frac{2\\pi}{5} = 72^\\circ$، $-\\frac{5\\pi}{12} = -75^\\circ$"
+      ],
+      "answer": "$660^\\circ$، $405^\\circ$، $30^\\circ$، $-30^\\circ$، $-18^\\circ$، $72^\\circ$، $-75^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۸",
+      "kind": "exercise",
+      "problem_fa": "طول ثانیه‌گرد یک ساعت $6\\,\\mathrm{cm}$ است. نوک آن در ۴۰ ثانیه چند سانتی‌متر فاصله طی می‌کند؟",
+      "solution_steps_fa": [
+        "زاویه در ۴۰ ثانیه: $\\frac{40}{60} \\cdot 2\\pi = \\frac{4\\pi}{3}$ رادیان",
+        "$s = r\\theta = 6 \\cdot \\frac{4\\pi}{3} = 8\\pi\\,\\mathrm{cm}$",
+        "$8\\pi \\approx 25.13\\,\\mathrm{cm}$"
+      ],
+      "answer": "$8\\pi \\approx 25.13\\,\\mathrm{cm}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۹",
+      "kind": "exercise",
+      "problem_fa": "شعاع دایره $3\\,\\mathrm{cm}$ و زاویهٔ مرکزی $\\frac{5}{3}$ رادیان است. طول قوس مقابل این زاویه چند سانتی‌متر است؟",
+      "solution_steps_fa": [
+        "$s = r\\theta = 3 \\cdot \\frac{5}{3}$",
+        "$s = 5\\,\\mathrm{cm}$"
+      ],
+      "answer": "$5\\,\\mathrm{cm}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱۰",
+      "kind": "exercise",
+      "problem_fa": "اگر ثانیه‌گرد یک ساعت ۳۵ ثانیه بچرخد، چند رادیان زاویهٔ مثبت طی می‌کند؟",
+      "solution_steps_fa": [
+        "$\\frac{35}{60} = \\frac{7}{12}$ دور",
+        "$\\frac{7}{12} \\cdot 2\\pi = \\frac{7\\pi}{6}$ رادیان"
+      ],
+      "answer": "$\\frac{7\\pi}{6}$ رادیان",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱۱",
+      "kind": "exercise",
+      "problem_fa": "مجموع دو زاویه $152^\\circ$ است. عدد اندازهٔ یکی به درجه برابر عدد اندازهٔ دیگری به گراد است. هر زاویه را به رادیان دریابید.",
+      "solution_steps_fa": [
+        "زاویهٔ اول را $a^\\circ$ بگیرید؛ زاویهٔ دوم $a\\,\\mathrm{g}$ است که به درجه $\\frac{9}{10}a = 0.9a$ می‌شود.",
+        "$a + 0.9a = 152 \\Rightarrow 1.9a = 152 \\Rightarrow a = 80$",
+        "زاویهٔ اول $80^\\circ = \\frac{4\\pi}{9}$ رادیان.",
+        "زاویهٔ دوم $80\\,\\mathrm{g} = 72^\\circ = \\frac{2\\pi}{5}$ رادیان؛ آزمایش: $80 + 72 = 152$."
+      ],
+      "answer": "$\\frac{4\\pi}{9}$ و $\\frac{2\\pi}{5}$ رادیان",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱۲",
+      "kind": "exercise",
+      "problem_fa": "$1620^\\circ$ چند رادیان است؟ a) $4\\pi$ b) $8\\pi$ c) $9\\pi$ d) $10\\pi$",
+      "solution_steps_fa": [
+        "$1620 \\cdot \\frac{\\pi}{180} = 9\\pi$"
+      ],
+      "answer": "c) $9\\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱۳",
+      "kind": "exercise",
+      "problem_fa": "چهار دوران چند رادیان است؟ a) $2\\pi$ b) $4\\pi$ c) $6\\pi$ d) $8\\pi$",
+      "solution_steps_fa": [
+        "هر دوران $2\\pi$ رادیان است: $4 \\cdot 2\\pi = 8\\pi$"
+      ],
+      "answer": "d) $8\\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱۴",
+      "kind": "exercise",
+      "problem_fa": "شعاع یک دایره $10\\,\\mathrm{m}$ است. طول قوس مقابل زاویهٔ مرکزی $45$ رادیان چند متر است؟",
+      "solution_steps_fa": [
+        "$s = r\\theta = 10 \\cdot 45 = 450\\,\\mathrm{m}$",
+        "(اگر مقصد $45^\\circ$ باشد: $s = 10 \\cdot \\frac{\\pi}{4} = 2.5\\pi \\approx 7.85\\,\\mathrm{m}$)"
+      ],
+      "answer": "$450\\,\\mathrm{m}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در تمرین ۷ علامهٔ منفی طرف چپ کسرها چاپ شده و مانند صفحه‌های قبل به شکل زاویهٔ منفی خوانده شد ($-\\frac{\\pi}{6}$، $-\\frac{\\pi}{10}$، $-\\frac{5\\pi}{12}$). در تمرین ۱۴ «45 radian» چاپ شده؛ جواب برای ۴۵ رادیان داده شد و حالت ۴۵ درجه هم ذکر شد."
+}

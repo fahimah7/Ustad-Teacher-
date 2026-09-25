@@ -1,0 +1,65 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 249,
+  "printed_page": 242,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "تبدیل مجموع و تفاضل نسبت‌های مثلثاتی زوایا به شکل حاصل‌ضرب",
+  "summary_fa": "این صفحه همان روش صفحهٔ قبل را برای کوساین به کار می‌برد. فورمول‌های $\\cos(A+B)$ (رابطهٔ III) و $\\cos(A-B)$ (رابطهٔ IV) را جمع می‌کنیم تا $2\\cos A\\cos B$ به دست آید، و تفریق آن‌ها $-2\\sin A\\sin B$ را می‌دهد؛ با $A = \\frac{p+q}{2}$ و $B = \\frac{p-q}{2}$ فورمول‌های $\\cos p + \\cos q$ و $\\cos p - \\cos q$ حاصل می‌شوند. یک فعالیت قیمت $\\sin 60^\\circ + \\sin 30^\\circ$ و $\\cos 60^\\circ + \\cos 30^\\circ$ را می‌خواهد. سپس برای تانجانت، دو کسر $\\frac{\\sin p}{\\cos p}$ و $\\frac{\\sin q}{\\cos q}$ را با مخرج مشترک جمع می‌کنیم و صورت، ساین مجموع (یا تفاضل) می‌شود. مثال ۱ (a) با این فورمول‌ها ثابت می‌کند که $\\frac{\\sin 7\\theta + \\sin 3\\theta}{\\cos 7\\theta + \\cos 3\\theta} = \\tan 5\\theta$؛ قسمت (b) در صفحهٔ بعد حل می‌شود.",
+  "key_points_fa": [
+    "$\\cos p + \\cos q = 2\\cos\\frac{p+q}{2}\\cos\\frac{p-q}{2}$",
+    "$\\cos p - \\cos q = -2\\sin\\frac{p+q}{2}\\sin\\frac{p-q}{2}$ (علامهٔ منفی را فراموش نکنید).",
+    "$\\tan p \\pm \\tan q = \\frac{\\sin(p\\pm q)}{\\cos p\\cos q}$",
+    "در کسرهایی مانند مثال ۱، فکتور مشترک $\\cos 2\\theta$ از صورت و مخرج حذف می‌شود."
+  ],
+  "formulas": [
+    {"latex": "\\cos(A+B) + \\cos(A-B) = 2\\cos A\\cos B", "meaning_fa": "جمع رابطه‌های III و IV"},
+    {"latex": "\\cos p + \\cos q = 2\\cos\\frac{p+q}{2}\\cos\\frac{p-q}{2}", "meaning_fa": "مجموع دو کوساین به شکل حاصل‌ضرب"},
+    {"latex": "\\cos p - \\cos q = -2\\sin\\frac{p+q}{2}\\sin\\frac{p-q}{2}", "meaning_fa": "تفاضل دو کوساین به شکل حاصل‌ضرب"},
+    {"latex": "\\tan p + \\tan q = \\frac{\\sin(p+q)}{\\cos p\\cos q},\\quad \\tan p - \\tan q = \\frac{\\sin(p-q)}{\\cos p\\cos q}", "meaning_fa": "مجموع و تفاضل دو تانجانت"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (a)",
+      "problem_fa": "نشان دهید که $\\frac{\\sin 7\\theta + \\sin 3\\theta}{\\cos 7\\theta + \\cos 3\\theta} = \\tan 5\\theta$.",
+      "steps_fa": [
+        "صورت: $2\\sin\\frac{7\\theta+3\\theta}{2}\\cos\\frac{7\\theta-3\\theta}{2} = 2\\sin 5\\theta\\cos 2\\theta$",
+        "مخرج: $2\\cos 5\\theta\\cos 2\\theta$",
+        "بعد از حذف $2\\cos 2\\theta$: $\\frac{\\sin 5\\theta}{\\cos 5\\theta} = \\tan 5\\theta$"
+      ],
+      "answer": "$\\tan 5\\theta$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "قیمت $\\sin 60^\\circ + \\sin 30^\\circ$ و $\\cos 60^\\circ + \\cos 30^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\sin 60^\\circ + \\sin 30^\\circ = 2\\sin 45^\\circ\\cos 15^\\circ = \\sqrt{2}\\cdot\\frac{\\sqrt{6}+\\sqrt{2}}{4} = \\frac{\\sqrt{3}+1}{2}$",
+        "$\\cos 60^\\circ + \\cos 30^\\circ = 2\\cos 45^\\circ\\cos 15^\\circ = \\frac{\\sqrt{3}+1}{2}$",
+        "بررسی مستقیم: $\\frac{\\sqrt{3}}{2} + \\frac{1}{2} = \\frac{1}{2} + \\frac{\\sqrt{3}}{2}$"
+      ],
+      "answer": "هر دو $\\frac{1+\\sqrt{3}}{2} \\approx 1.366$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "مثال ۱ (b)",
+      "kind": "question",
+      "problem_fa": "نشان دهید که $\\sin 3x + \\sin x = 2\\sin 2x\\cos x$.",
+      "solution_steps_fa": [
+        "$\\sin 3x + \\sin x = 2\\sin\\frac{3x+x}{2}\\cos\\frac{3x-x}{2} = 2\\sin 2x\\cos x$ (حل کتاب در صفحهٔ بعد)."
+      ],
+      "answer": "$2\\sin 2x\\cos x$",
+      "solution_source": "book"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "برچسب «مثال a1» در کتاب به معنای مثال ۱ قسمت a است."
+}

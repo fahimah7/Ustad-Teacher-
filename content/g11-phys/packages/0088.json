@@ -1,0 +1,50 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 88,
+  "printed_page": 79,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "شتاب متوسط و شتاب لحظه‌یی",
+  "summary_fa": "این صفحه بحث شتاب را ادامه می‌دهد. اول شتاب متوسط بر حسب مرکبه‌ها نوشته می‌شود: مرکبۀ x آن $\\frac{\\Delta v_x}{\\Delta t}$ و مرکبۀ y آن $\\frac{\\Delta v_y}{\\Delta t}$ است. شکل (3-4) نشان می‌دهد که وکتورهای سرعت در دو نقطۀ مسیر چطور از یک نقطۀ مشترک رسم می‌شوند و $\\Delta \\vec v$ چطور پیدا می‌شود؛ شتاب متوسط هم‌جهت با $\\Delta \\vec v$ است. در بخش «بحث کنید» شاگردان باید دلیل این هم‌جهتی را پیدا کنند. بعد شتاب لحظه‌یی تعریف می‌شود: لیمت شتاب متوسط وقتی $\\Delta t$ به صفر نزدیک شود. با استفاده از مفهوم مشتق، شتاب لحظه‌یی مشتق اول وکتور سرعت و مشتق دوم وکتور مکان نسبت به زمان است، و مرکبه‌های آن مشتق مرکبه‌های سرعت اند.",
+  "key_points_fa": [
+    "شتاب متوسط بر حسب مرکبه‌ها: $\\bar{\\vec a} = \\bar a_x\\,\\vec i + \\bar a_y\\,\\vec j$.",
+    "وکتور شتاب متوسط هم‌جهت با $\\Delta \\vec v$ است (نه لزوماً هم‌جهت با سرعت).",
+    "شتاب لحظه‌یی = لیمت شتاب متوسط وقتی $\\Delta t \\to 0$.",
+    "$\\vec a = \\frac{d\\vec v}{dt} = \\frac{d^2 \\vec r}{dt^2}$: مشتق اول سرعت و مشتق دوم مکان.",
+    "مرکبه‌های شتاب لحظه‌یی: $a_x = \\frac{dv_x}{dt}$ و $a_y = \\frac{dv_y}{dt}$."
+  ],
+  "formulas": [
+    {"latex": "\\bar{\\vec a} = \\left(\\frac{\\Delta v_x}{\\Delta t}\\right)\\vec i + \\left(\\frac{\\Delta v_y}{\\Delta t}\\right)\\vec j = \\bar a_x\\,\\vec i + \\bar a_y\\,\\vec j", "meaning_fa": "شتاب متوسط بر حسب مرکبه‌ها (3-13)"},
+    {"latex": "\\vec a = \\lim_{\\Delta t \\to 0} \\bar{\\vec a} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec v}{\\Delta t}", "meaning_fa": "تعریف شتاب لحظه‌یی (3-14)"},
+    {"latex": "\\vec a = \\frac{d\\vec v}{dt}", "meaning_fa": "شتاب لحظه‌یی به حیث مشتق سرعت (3-15)"},
+    {"latex": "\\vec a = \\frac{d^2 \\vec r}{dt^2}", "meaning_fa": "شتاب لحظه‌یی به حیث مشتق دوم مکان (3-16)"},
+    {"latex": "\\vec a = \\left(\\frac{dv_x}{dt}\\right)\\vec i + \\left(\\frac{dv_y}{dt}\\right)\\vec j", "meaning_fa": "شتاب لحظه‌یی بر حسب مرکبه‌ها (3-17)"}
+  ],
+  "terms": [
+    {"fa": "شتاب لحظه‌یی", "en": "instantaneous acceleration"},
+    {"fa": "مشتق دوم", "en": "second derivative"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.25, 0.88, 0.50], "kind": "diagram", "description_fa": "شکل (3-4): (a) در طرف راست، یک مسیر منحنی در مستوی xy؛ در نقطۀ A (لحظۀ $t_1$) وکتور سرعت $\\vec v_1$ و در نقطۀ B (لحظۀ $t_2$) وکتور سرعت $\\vec v_2$ مماس بر مسیر رسم شده اند و $\\vec v_2$ بیشتر رو به پایین است. (b) در طرف چپ، $\\vec v_1$ و $\\vec v_2$ از یک نقطۀ مشترک O′ رسم شده اند و وکتور $\\Delta \\vec v$ از سر $\\vec v_1$ به سر $\\vec v_2$ کشیده شده؛ کنار آن وکتور $\\bar{\\vec a}$ موازی و هم‌جهت با $\\Delta \\vec v$ نشان داده شده است. زیرنویس: وکتور شتاب متوسط با $\\Delta \\vec v$ هم‌جهت است. این شکل روش تفریق وکتورهای سرعت را برای یافتن شتاب نشان می‌دهد."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "بحث کنید",
+      "kind": "question",
+      "problem_fa": "در گروه‌ها بحث کنید که چرا وکتور شتاب متوسط با $\\Delta \\vec v$ هم‌جهت است.",
+      "solution_steps_fa": [
+        "طبق تعریف $\\bar{\\vec a} = \\frac{\\Delta \\vec v}{\\Delta t}$.",
+        "$\\Delta t$ یک سکالر مثبت است؛ تقسیم وکتور بر عدد مثبت جهت آن را تغییر نمی‌دهد و فقط اندازه‌اش را کوچک یا بزرگ می‌کند.",
+        "پس $\\bar{\\vec a}$ همیشه هم‌جهت با $\\Delta \\vec v$ است، ولی در حرکت منحنی لازم نیست هم‌جهت با $\\vec v_1$ یا $\\vec v_2$ باشد."
+      ],
+      "answer": "چون شتاب متوسط برابر $\\Delta \\vec v$ تقسیم بر عدد مثبت $\\Delta t$ است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

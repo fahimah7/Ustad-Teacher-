@@ -1,0 +1,158 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 224,
+  "printed_page": 217,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "ادامهٔ تمرین‌های فصل چهارم (پایان سوال ۱۲ و سوال ۱۳ تا ۲۲). سوال‌ها تبدیل درجه، گراد و رادیان، نوشتن زاویه به شکل اعشاری یا درجه‌دقیقه‌ثانیه (DMS)، قیمت نسبت‌های مثلثاتی زاویه‌های خاص، زاویه‌هایی که $\\sin\\theta = 1$ است، مجانب‌های عمودی tan، و جفت یا تاق بودن توابع را تمرین می‌دهند. چند سوال چندگزینه‌ای هم هست. برای حل آن‌ها باید زاویهٔ بزرگ را با کم کردن مضرب‌های $2\\pi$ کوچک کرد و علامهٔ نسبت را از ربع زاویه دانست.",
+  "key_points_fa": [
+    "$1\\,g = 0.9^\\circ$ و $200g = 180^\\circ = \\pi$ رادیان.",
+    "درجهٔ اعشاری: $d + \\frac{m}{60} + \\frac{s}{3600}$.",
+    "sin تنها در زوایای $\\frac{\\pi}{2} + 2k\\pi$ برابر ۱ است.",
+    "tan در زوایای $\\frac{\\pi}{2} + k\\pi$ تعریف نشده و مجانب عمودی دارد.",
+    "$\\sin(-x) = -\\sin x$ و $\\tan(-x) = -\\tan x$ ولی $\\cos(-x) = \\cos x$."
+  ],
+  "formulas": [
+    {"latex": "\\sin(-x) = -\\sin x,\\quad \\cos(-x) = \\cos x,\\quad \\tan(-x) = -\\tan x", "meaning_fa": "رابطه‌های زاویهٔ منفی"}
+  ],
+  "terms": [
+    {"fa": "دوران مکمل", "en": "full revolution"},
+    {"fa": "مجانب عمودی", "en": "vertical asymptote"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱۲ (ادامه)",
+      "kind": "exercise",
+      "problem_fa": "چهارضلعی ABCD: $\\hat{A} + \\hat{D} = 240^\\circ$، $\\hat{C} + \\hat{D} = 200g$، $\\hat{B} + \\hat{D} = \\frac{2\\pi}{3}$. زوایا را به درجه دریابید.",
+      "solution_steps_fa": [
+        "$200g = 180^\\circ$ و $\\frac{2\\pi}{3} = 120^\\circ$",
+        "جمع سه رابطه: $(A+B+C+D) + 2D = 540 \\Rightarrow 360 + 2D = 540 \\Rightarrow D = 90^\\circ$",
+        "$A = 150^\\circ$، $B = 30^\\circ$، $C = 90^\\circ$"
+      ],
+      "answer": "$A = 150^\\circ$، $B = 30^\\circ$، $C = 90^\\circ$، $D = 90^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۳",
+      "kind": "exercise",
+      "problem_fa": "$\\frac{1}{12}$ یک دوران مکمل مساوی است به: a) $30^\\circ$ b) $\\frac{\\pi}{6}$ رادیان c) $\\frac{100}{3}g$ d) هر سه درست‌اند",
+      "solution_steps_fa": [
+        "$\\frac{360^\\circ}{12} = 30^\\circ$، $\\frac{2\\pi}{12} = \\frac{\\pi}{6}$، $\\frac{400g}{12} = \\frac{100}{3}g$",
+        "هر سه قیمت برابرند."
+      ],
+      "answer": "d",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۴",
+      "kind": "exercise",
+      "problem_fa": "مجموع دو زاویه $17^\\circ$ و تفاضل آن‌ها ۱۷ گراد است. دو زاویه را دریابید.",
+      "solution_steps_fa": [
+        "$17g = 17 \\times 0.9 = 15.3^\\circ$",
+        "$x + y = 17$ و $x - y = 15.3$",
+        "$x = \\frac{17 + 15.3}{2} = 16.15^\\circ$ و $y = \\frac{17 - 15.3}{2} = 0.85^\\circ$"
+      ],
+      "answer": "$16.15^\\circ$ و $0.85^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۵",
+      "kind": "exercise",
+      "problem_fa": "مجموع دو زاویه به درجه x و تفاضل آن‌ها به گراد نیز x است. دو زاویه را دریابید.",
+      "solution_steps_fa": [
+        "تفاضل به درجه: $x\\,g = 0.9x^\\circ$",
+        "زاویهٔ بزرگ: $\\frac{x + 0.9x}{2} = 0.95x^\\circ$",
+        "زاویهٔ کوچک: $\\frac{x - 0.9x}{2} = 0.05x^\\circ$"
+      ],
+      "answer": "$0.95x^\\circ = \\frac{19x}{20}$ درجه و $0.05x^\\circ = \\frac{x}{20}$ درجه",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۶",
+      "kind": "exercise",
+      "problem_fa": "به شکل اعشاری درجه بنویسید: $47^\\circ\\,15'\\,36''$ و $15^\\circ\\,24'\\,45''$",
+      "solution_steps_fa": [
+        "$47 + \\frac{15}{60} + \\frac{36}{3600} = 47 + 0.25 + 0.01 = 47.26^\\circ$",
+        "$15 + \\frac{24}{60} + \\frac{45}{3600} = 15 + 0.4 + 0.0125 = 15.4125^\\circ$"
+      ],
+      "answer": "$47.26^\\circ$ و $15.4125^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۷",
+      "kind": "exercise",
+      "problem_fa": "به درجه، دقیقه و ثانیه (DMS) تبدیل کنید: $23.16^\\circ$ و $4.2075^\\circ$",
+      "solution_steps_fa": [
+        "$0.16 \\times 60 = 9.6'$ ← ۹ دقیقه؛ $0.6 \\times 60 = 36''$",
+        "$0.2075 \\times 60 = 12.45'$ ← ۱۲ دقیقه؛ $0.45 \\times 60 = 27''$"
+      ],
+      "answer": "$23^\\circ\\,9'\\,36''$ و $4^\\circ\\,12'\\,27''$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۸",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(-\\frac{\\pi}{3})$، $\\tan\\frac{3\\pi}{4}$ و $\\cot\\frac{7\\pi}{6}$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\sin(-\\frac{\\pi}{3}) = -\\sin\\frac{\\pi}{3} = -\\frac{\\sqrt{3}}{2}$",
+        "$\\tan\\frac{3\\pi}{4} = \\tan(\\pi - \\frac{\\pi}{4}) = -\\tan\\frac{\\pi}{4} = -1$",
+        "$\\cot\\frac{7\\pi}{6} = \\cot(\\pi + \\frac{\\pi}{6}) = \\cot\\frac{\\pi}{6} = \\sqrt{3}$"
+      ],
+      "answer": "$-\\frac{\\sqrt{3}}{2}$، $-1$، $\\sqrt{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۹",
+      "kind": "exercise",
+      "problem_fa": "در انتروال $[-2\\pi, 2\\pi]$ به کدام قیمت‌های $\\theta$، $\\sin\\theta = 1$ است؟",
+      "solution_steps_fa": [
+        "$\\sin\\theta = 1$ وقتی $\\theta = \\frac{\\pi}{2} + 2k\\pi$.",
+        "در این انتروال: $k = 0 \\Rightarrow \\frac{\\pi}{2}$ و $k = -1 \\Rightarrow -\\frac{3\\pi}{2}$."
+      ],
+      "answer": "$\\theta = \\frac{\\pi}{2}$ و $\\theta = -\\frac{3\\pi}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۰",
+      "kind": "exercise",
+      "problem_fa": "در انتروال $[-2\\pi, 2\\pi]$ تابع $\\tan\\theta$ به کدام قیمت‌های $\\theta$ مجانب عمودی دارد؟",
+      "solution_steps_fa": [
+        "tan جایی مجانب عمودی دارد که $\\cos\\theta = 0$ باشد: $\\theta = \\frac{\\pi}{2} + k\\pi$.",
+        "در این انتروال: $-\\frac{3\\pi}{2}$، $-\\frac{\\pi}{2}$، $\\frac{\\pi}{2}$، $\\frac{3\\pi}{2}$."
+      ],
+      "answer": "$\\theta = \\pm\\frac{\\pi}{2}$ و $\\theta = \\pm\\frac{3\\pi}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۱",
+      "kind": "exercise",
+      "problem_fa": "از رابطه‌های (i) $\\sin(-x) = -\\sin x$، (ii) $\\cos(-x) = -\\cos x$، (iii) $\\tan(-x) = -\\tan x$ کدام درست نیست؟ گزینه‌ها: a) i و ii درست است b) فقط ii درست است c) i و iii درست است d) هر سه درست است e) هیچ‌کدام درست نیست.",
+      "solution_steps_fa": [
+        "sin و tan توابع تاق‌اند، پس (i) و (iii) درست‌اند.",
+        "cos تابع جفت است: $\\cos(-x) = \\cos x$، پس (ii) نادرست است."
+      ],
+      "answer": "رابطهٔ (ii) درست نیست؛ گزینهٔ درست c (i و iii درست است).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۲",
+      "kind": "exercise",
+      "problem_fa": "$\\cos\\frac{47\\pi}{2}$، $\\sin(-13\\pi)$ و $\\tan\\frac{8\\pi}{3}$ را معلوم کنید.",
+      "solution_steps_fa": [
+        "$\\frac{47\\pi}{2} - 22\\pi = \\frac{3\\pi}{2}$، پس $\\cos\\frac{47\\pi}{2} = \\cos\\frac{3\\pi}{2} = 0$",
+        "$-13\\pi + 14\\pi = \\pi$، پس $\\sin(-13\\pi) = \\sin\\pi = 0$",
+        "$\\frac{8\\pi}{3} - 2\\pi = \\frac{2\\pi}{3}$، پس $\\tan\\frac{8\\pi}{3} = \\tan\\frac{2\\pi}{3} = -\\sqrt{3}$"
+      ],
+      "answer": "$0$، $0$، $-\\sqrt{3}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "سوال ۲۱ می‌پرسد کدام «درست نیست» ولی گزینه‌ها به شکل «... درست است» نوشته شده‌اند؛ هر دو جواب داده شد: (ii) نادرست است و گزینهٔ c درست است."
+}

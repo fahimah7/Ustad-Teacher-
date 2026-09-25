@@ -1,0 +1,53 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 191,
+  "printed_page": 184,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "مشتق توابع معکوس مثلثاتی",
+  "summary_fa": "این صفحه فقط یک تمرین کوتاه دارد: مشتق دو تابع که در آن‌ها توابع معکوس مثلثاتی داخل یک تابع دیگر قرار دارند. در قسمت اول $\\arcsin x$ به توان سوم رسیده است، پس اول قاعدهٔ توان و بعد مشتق $\\arcsin$ به کار می‌رود. در قسمت دوم لوگاریتم با قاعدهٔ ۲ از $\\arccos x$ گرفته شده، پس قاعدهٔ $(\\log_a u)' = \\frac{u'}{u\\ln a}$ با مشتق $\\arccos$ ترکیب می‌شود. این تمرین همان روش مثال‌های صفحهٔ قبل را تمرین می‌کند. باقی صفحه خالی است.",
+  "key_points_fa": [
+    "$(u^n)' = n u^{n-1}\\cdot u'$",
+    "$(\\arcsin x)' = \\frac{1}{\\sqrt{1-x^2}}$ و $(\\arccos x)' = -\\frac{1}{\\sqrt{1-x^2}}$",
+    "$(\\log_a u)' = \\frac{u'}{u\\ln a}$"
+  ],
+  "formulas": [
+    {"latex": "(\\arcsin x)' = \\frac{1}{\\sqrt{1-x^2}}", "meaning_fa": "مشتق معکوس ساین"},
+    {"latex": "(\\arccos x)' = -\\frac{1}{\\sqrt{1-x^2}}", "meaning_fa": "مشتق معکوس کوساین"},
+    {"latex": "(\\log_a u)' = \\frac{u'}{u\\ln a}", "meaning_fa": "مشتق لوگاریتم با قاعدهٔ a"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "مشتق $y = (\\arcsin x)^3$",
+      "solution_steps_fa": [
+        "$u = \\arcsin x$، پس $y = u^3$ و $y' = 3u^2\\cdot u'$",
+        "$u' = \\frac{1}{\\sqrt{1-x^2}}$",
+        "$y' = \\frac{3(\\arcsin x)^2}{\\sqrt{1-x^2}}$"
+      ],
+      "answer": "$y' = \\frac{3(\\arcsin x)^2}{\\sqrt{1-x^2}}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "مشتق $y = \\log_2(\\arccos x)$",
+      "solution_steps_fa": [
+        "$u = \\arccos x$ و $u' = -\\frac{1}{\\sqrt{1-x^2}}$",
+        "$y' = \\frac{u'}{u\\ln 2} = \\frac{-\\frac{1}{\\sqrt{1-x^2}}}{\\arccos x\\cdot\\ln 2}$",
+        "$y' = -\\frac{1}{\\sqrt{1-x^2}\\,\\arccos x\\,\\ln 2}$"
+      ],
+      "answer": "$y' = -\\frac{1}{\\sqrt{1-x^2}\\,(\\arccos x)\\ln 2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "جواب‌ها با محاسبهٔ کمپیوتری بررسی شده‌اند."
+}

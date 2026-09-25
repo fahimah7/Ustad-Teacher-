@@ -1,0 +1,55 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 65,
+  "printed_page": 58,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق حاصل تقسیم",
+  "summary_fa": "این صفحه ثبوت قانون مشتق حاصل تقسیم را کامل می‌کند. تزاید $\\Delta y$ برای $y = \\frac{u}{v}$ با گرفتن مخرج مشترک به شکل $\\frac{v\\Delta u - u\\Delta v}{v(v + \\Delta v)}$ ساده می‌شود. بعد از تقسیم بر $\\Delta x$ و گرفتن لیمت، چون $\\Delta v$ به صفر نزدیک می‌شود، مخرج به $v^2$ تبدیل می‌شود و فورمول $y' = \\frac{u'v - uv'}{v^2}$ به دست می‌آید. در مثال ۱ این فورمول برای $\\frac{2 + 3x}{1 - 2x}$ به کار می‌رود و صورت پس از ساده شدن فقط عدد ۷ می‌ماند. در یادداشت آخر صفحه گفته می‌شود که برای مشتق در یک نقطهٔ معین، اول مشتق عمومی را پیدا کنید و بعد قیمت نقطه را در آن بگذارید.",
+  "key_points_fa": [
+    "قانون حاصل تقسیم: (مشتق صورت × مخرج − صورت × مشتق مخرج) تقسیم بر مربع مخرج.",
+    "ترتیب جمله‌ها در صورت مهم است؛ اول $u'v$ و بعد $uv'$ کم می‌شود.",
+    "در ثبوت، وقتی $\\Delta x \\to 0$، مقدار $\\Delta v$ هم به صفر می‌رود و $v(v + \\Delta v) \\to v^2$.",
+    "مشتق در نقطهٔ $x_0$: اول $f'(x)$ را بیابید، بعد $x_0$ را در آن وضع کنید."
+  ],
+  "formulas": [
+    {"latex": "y = \\frac{u}{v} \\Rightarrow y' = \\frac{u'v - uv'}{v^2},\\quad v \\neq 0", "meaning_fa": "قانون مشتق حاصل تقسیم"},
+    {"latex": "\\Delta y = \\frac{v\\,\\Delta u - u\\,\\Delta v}{v(v + \\Delta v)}", "meaning_fa": "تزاید تابع حاصل تقسیم؛ گام اصلی ثبوت"}
+  ],
+  "terms": [
+    {"fa": "مشتق حاصل تقسیم", "en": "quotient rule"},
+    {"fa": "مشتق در یک نقطه", "en": "derivative at a point"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت قانون حاصل تقسیم",
+      "problem_fa": "ثابت کنید اگر $y = \\frac{u}{v}$ باشد، $y' = \\frac{u'v - uv'}{v^2}$ است.",
+      "steps_fa": [
+        "$\\Delta y = \\frac{u + \\Delta u}{v + \\Delta v} - \\frac{u}{v} = \\frac{v\\Delta u - u\\Delta v}{v(v + \\Delta v)}$",
+        "$\\frac{\\Delta y}{\\Delta x} = \\frac{v\\frac{\\Delta u}{\\Delta x} - u\\frac{\\Delta v}{\\Delta x}}{v(v + \\Delta v)}$",
+        "با لیمت وقتی $\\Delta x \\to 0$: صورت به $vu' - uv'$ و مخرج به $v^2$ نزدیک می‌شود.",
+        "$y' = \\frac{u'v - v'u}{v^2}$"
+      ],
+      "answer": "$y' = \\frac{u'v - uv'}{v^2}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مشتق $y = \\frac{2 + 3x}{1 - 2x}$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = 2 + 3x \\Rightarrow u' = 3$ و $v = 1 - 2x \\Rightarrow v' = -2$",
+        "$y' = \\frac{3(1 - 2x) - (-2)(2 + 3x)}{(1 - 2x)^2}$",
+        "$y' = \\frac{3 - 6x + 4 + 6x}{(1 - 2x)^2} = \\frac{7}{(1 - 2x)^2}$"
+      ],
+      "answer": "$y' = \\frac{7}{(1 - 2x)^2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

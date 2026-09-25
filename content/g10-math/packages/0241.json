@@ -1,0 +1,72 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 241,
+  "printed_page": 234,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی $2\\alpha$ از جنس $\\alpha$",
+  "summary_fa": "این صفحه کاربرد فورمول‌های نصف زاویه را ادامه می‌دهد. اول، حل مثال ۲ (از صفحهٔ قبل) تمام می‌شود: چون $\\theta$ در ربع سوم است، $\\frac{\\theta}{2}$ بین $90^\\circ$ و $135^\\circ$ قرار می‌گیرد و بنابراین علامهٔ $\\cos\\frac{\\theta}{2}$ منفی انتخاب می‌شود. سپس یک فعالیت از شاگرد می‌خواهد نشان دهد که فورمول‌های زاویهٔ دوچند برای $\\theta = 2\\cdot\\frac{\\theta}{2}$ هم صدق می‌کنند. در مثال ۳، با دانستن $\\cos\\theta = \\frac{4}{5}$ در ربع اول، قیمت‌های $\\sin$، $\\cos$ و $\\tan$ نصف زاویه دریافت می‌شوند. نکتهٔ مهم: علامهٔ جذر (مثبت یا منفی) را از روی ربعی تعیین می‌کنیم که $\\frac{\\theta}{2}$ در آن قرار دارد، نه ربع $\\theta$.",
+  "key_points_fa": [
+    "برای تعیین علامهٔ فورمول نصف زاویه، اول انتروال $\\frac{\\theta}{2}$ را با تقسیم حدود $\\theta$ بر ۲ پیدا کنید.",
+    "اگر $180^\\circ < \\theta < 270^\\circ$ باشد، $90^\\circ < \\frac{\\theta}{2} < 135^\\circ$ است و $\\cos\\frac{\\theta}{2}$ منفی و $\\sin\\frac{\\theta}{2}$ مثبت می‌باشد.",
+    "اگر $\\theta$ در ربع اول باشد، $\\frac{\\theta}{2}$ هم در ربع اول است و همهٔ نسبت‌ها مثبت‌اند.",
+    "فورمول‌های $\\sin 2\\alpha$ و $\\cos 2\\alpha$ با گذاشتن $\\alpha = \\frac{\\theta}{2}$ فورمول‌های نسبت‌های $\\theta$ از جنس $\\frac{\\theta}{2}$ را می‌دهند."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1-\\cos\\theta}{2}}", "meaning_fa": "ساین نصف زاویه از روی کوساین زاویه"},
+    {"latex": "\\cos\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}", "meaning_fa": "کوساین نصف زاویه از روی کوساین زاویه"},
+    {"latex": "\\tan\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1-\\cos\\theta}{1+\\cos\\theta}}", "meaning_fa": "تانجانت نصف زاویه"},
+    {"latex": "\\sin\\theta = 2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2},\\quad \\cos\\theta = 2\\cos^2\\frac{\\theta}{2} - 1", "meaning_fa": "نسبت‌های $\\theta$ از جنس نسبت‌های $\\frac{\\theta}{2}$"}
+  ],
+  "terms": [
+    {"fa": "نصف زاویه", "en": "half angle"},
+    {"fa": "ربع", "en": "quadrant"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲ (ادامه)",
+      "problem_fa": "اگر $180^\\circ < \\theta < 270^\\circ$ و $\\sin\\theta = -\\frac{2}{3}$ باشد، قیمت $\\cos\\frac{\\theta}{2}$ را دریابید.",
+      "steps_fa": [
+        "از صفحهٔ قبل: $\\cos\\theta = -\\frac{\\sqrt{5}}{3}$ (در ربع سوم کوساین منفی است).",
+        "از $180^\\circ < \\theta < 270^\\circ$ نتیجه می‌شود $90^\\circ < \\frac{\\theta}{2} < 135^\\circ$؛ پس $\\cos\\frac{\\theta}{2}$ منفی است.",
+        "$\\cos\\frac{\\theta}{2} = -\\sqrt{\\frac{1+\\cos\\theta}{2}} = -\\sqrt{\\frac{1-\\frac{\\sqrt{5}}{3}}{2}}$",
+        "$= -\\sqrt{\\frac{1}{2} - \\frac{\\sqrt{5}}{6}} = -\\sqrt{\\frac{3-\\sqrt{5}}{6}} \\approx -0.357$"
+      ],
+      "answer": "$\\cos\\frac{\\theta}{2} = -\\sqrt{\\frac{1}{2} - \\frac{\\sqrt{5}}{6}} \\approx -0.357$",
+      "solution_source": "mixed"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "اگر $\\cos\\theta = \\frac{4}{5}$ و ضلع دوم $\\theta$ در ربع اول باشد، $\\sin\\frac{\\theta}{2}$، $\\cos\\frac{\\theta}{2}$ و $\\tan\\frac{\\theta}{2}$ را دریابید.",
+      "steps_fa": [
+        "$\\sin\\theta = \\sqrt{1 - \\frac{16}{25}} = \\frac{3}{5}$",
+        "$\\sin\\frac{\\theta}{2} = \\sqrt{\\frac{1-\\frac{4}{5}}{2}} = \\sqrt{\\frac{1}{10}} = \\frac{1}{\\sqrt{10}}$",
+        "$\\cos\\frac{\\theta}{2} = \\sqrt{\\frac{1+\\frac{4}{5}}{2}} = \\sqrt{\\frac{9}{10}} = \\frac{3}{\\sqrt{10}}$",
+        "$\\tan\\frac{\\theta}{2} = \\sqrt{\\frac{1-\\frac{4}{5}}{1+\\frac{4}{5}}} = \\sqrt{\\frac{1}{9}} = \\frac{1}{3}$",
+        "همه مثبت‌اند چون $\\frac{\\theta}{2}$ هم در ربع اول است."
+      ],
+      "answer": "$\\sin\\frac{\\theta}{2} = \\frac{1}{\\sqrt{10}}$، $\\cos\\frac{\\theta}{2} = \\frac{3}{\\sqrt{10}}$، $\\tan\\frac{\\theta}{2} = \\frac{1}{3}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "نشان دهید که $\\cos\\theta = 2\\cos^2\\frac{\\theta}{2} - 1$ و $\\sin\\theta = 2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}$ است.",
+      "solution_steps_fa": [
+        "می‌دانیم $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha$ و $\\cos 2\\alpha = 2\\cos^2\\alpha - 1$.",
+        "در این فورمول‌ها $\\alpha = \\frac{\\theta}{2}$ می‌گذاریم؛ آنگاه $2\\alpha = \\theta$ می‌شود.",
+        "نتیجه: $\\sin\\theta = 2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}$ و $\\cos\\theta = 2\\cos^2\\frac{\\theta}{2} - 1$."
+      ],
+      "answer": "با گذاشتن $\\alpha = \\frac{\\theta}{2}$ در فورمول‌های زاویهٔ دوچند هر دو رابطه ثابت می‌شوند.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در کتاب در حل مثال ۲ اشتباه علامه وجود دارد: کتاب $1 + \\frac{\\sqrt{5}}{3}$ نوشته و جواب را $-\\sqrt{\\frac{1}{2} + \\frac{\\sqrt{5}}{6}}$ داده است، اما چون $\\cos\\theta = -\\frac{\\sqrt{5}}{3}$ است، جواب درست $-\\sqrt{\\frac{1}{2} - \\frac{\\sqrt{5}}{6}} \\approx -0.357$ می‌باشد (با Python بررسی شد). اگر شاگرد جواب کتاب را دید، این نکته را توضیح دهید."
+}

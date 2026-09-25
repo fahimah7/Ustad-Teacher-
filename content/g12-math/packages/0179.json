@@ -1,0 +1,54 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 179,
+  "printed_page": 172,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "تمرینات عمومی فصل چهارم",
+  "summary_fa": "ادامهٔ تمرینات عمومی فصل چهارم. سوال ۴ دوازده انتیگرال را با روش تعویض می‌خواهد: در هر کدام افادهٔ داخل قوس، جذر یا تابع مثلثاتی را u بگیرید، dx را برحسب du بنویسید و در انتیگرال‌های معین سرحدات را هم تبدیل کنید. سوال ۵ نُه انتیگرال را با روش قسمی می‌خواهد: معمولاً توان x را u و تابع مثلثاتی یا اکسپوننشیل را dv می‌گیریم؛ در بعضی سوال‌ها ($x^2e^{2x}$، $x^2e^{-x}$) روش قسمی دو بار لازم است و در سوال‌هایی مثل $e^x\\cos x$ بعد از دو بار، همان انتیگرال اول دوباره ظاهر می‌شود و از معادله حل می‌گردد.",
+  "key_points_fa": [
+    "تعویض: u را قسمتی بگیرید که مشتقش (با ضریب) در انتیگرال موجود است.",
+    "$\\int(ax+b)^n dx = \\frac{(ax+b)^{n+1}}{a(n+1)} + C$",
+    "روش قسمی: توان x را u بگیرید تا با مشتق گرفتن کم شود.",
+    "در $\\int e^{ax}\\sin bx$ یا $\\int e^x\\cos x$ دو بار قسمی بگیرید و انتیگرال را مانند یک مجهول حل کنید.",
+    "پیش از انتیگرال معین بررسی کنید که تابع در تمام انتروال متمادی باشد."
+  ],
+  "formulas": [
+    {"latex": "\\int (ax+b)^n\\,dx = \\frac{(ax+b)^{n+1}}{a(n+1)} + C,\\quad n\\ne-1", "meaning_fa": "نتیجهٔ تعویض خطی $u=ax+b$"},
+    {"latex": "\\int u\\,dv = uv - \\int v\\,du", "meaning_fa": "فورمول روش قسمی"}
+  ],
+  "terms": [
+    {"fa": "روش تعویضی", "en": "substitution"},
+    {"fa": "روش قسمی", "en": "integration by parts"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {"label_fa": "۴-a", "kind": "exercise", "problem_fa": "$\\int3\\cos(2x+1)dx$", "solution_steps_fa": ["$u=2x+1$، $dx=\\frac{du}{2}$", "$\\frac32\\int\\cos u\\,du$"], "answer": "$\\frac32\\sin(2x+1)+C$", "solution_source": "generated"},
+    {"label_fa": "۴-b", "kind": "exercise", "problem_fa": "$\\int\\sqrt{3x+5}\\,dx$", "solution_steps_fa": ["$u=3x+5$، $dx=\\frac{du}{3}$", "$\\frac13\\cdot\\frac23u^{3/2}$"], "answer": "$\\frac29(3x+5)^{3/2}+C$", "solution_source": "generated"},
+    {"label_fa": "۴-c", "kind": "exercise", "problem_fa": "$\\int\\frac{2\\,dx}{x+2}$", "solution_steps_fa": ["$u=x+2$، $du=dx$", "$2\\int\\frac{du}{u} = 2\\ln|u|$"], "answer": "$2\\ln|x+2|+C$", "solution_source": "generated"},
+    {"label_fa": "۴-d", "kind": "exercise", "problem_fa": "$\\int(3x+6)^3dx$", "solution_steps_fa": ["$u=3x+6$، $dx=\\frac{du}{3}$", "$\\frac13\\cdot\\frac{u^4}{4}$"], "answer": "$\\frac{(3x+6)^4}{12}+C$", "solution_source": "generated"},
+    {"label_fa": "۴-e", "kind": "exercise", "problem_fa": "$\\int x^3\\sqrt{x^4+2}\\,dx$", "solution_steps_fa": ["$u=x^4+2$، $x^3dx=\\frac{du}{4}$", "$\\frac14\\cdot\\frac23u^{3/2}$"], "answer": "$\\frac16(x^4+2)^{3/2}+C$", "solution_source": "generated"},
+    {"label_fa": "۴-f", "kind": "exercise", "problem_fa": "$\\int(x^3+2)^2\\,3x^2dx$", "solution_steps_fa": ["$u=x^3+2$، $du=3x^2dx$", "$\\int u^2du = \\frac{u^3}{3}$"], "answer": "$\\frac{(x^3+2)^3}{3}+C$", "solution_source": "generated"},
+    {"label_fa": "۴-g", "kind": "exercise", "problem_fa": "$\\int_0^2\\frac{dt}{(3-2t)^2}$", "solution_steps_fa": ["مخرج در $t=\\frac32$ صفر می‌شود که داخل $[0,2]$ است؛ پس تابع در این انتروال متمادی نیست.", "تعویض مستقیم ($u=3-2t$، سرحدات 3 تا $-1$) عدد $-\\frac23$ می‌دهد که غلط است، چون تابع زیر انتیگرال همیشه مثبت است.", "در نزدیکی $t=\\frac32$ تابع بی‌نهایت بزرگ می‌شود و مساحت زیر آن محدود نیست."], "answer": "این انتیگرال قیمت محدود ندارد (به $+\\infty$ می‌رود)؛ جواب $-\\frac23$ غلط است.", "solution_source": "generated"},
+    {"label_fa": "۴-h", "kind": "exercise", "problem_fa": "$\\int_0^2x^2\\sqrt{9-x^3}\\,dx$", "solution_steps_fa": ["$u=9-x^3$، $x^2dx=-\\frac{du}{3}$؛ سرحدات: 9 تا 1", "$\\frac13\\int_1^9u^{1/2}du = \\frac13\\cdot\\frac23(27-1)$"], "answer": "$\\frac{52}{9}$", "solution_source": "generated"},
+    {"label_fa": "۴-i", "kind": "exercise", "problem_fa": "$\\int\\frac{dx}{(x-10)^7}$", "solution_steps_fa": ["$u=x-10$", "$\\int u^{-7}du = \\frac{u^{-6}}{-6}$"], "answer": "$-\\frac{1}{6(x-10)^6}+C$", "solution_source": "generated"},
+    {"label_fa": "۴-j", "kind": "exercise", "problem_fa": "$\\int_0^1(1-x^2)^3x\\,dx$", "solution_steps_fa": ["$u=1-x^2$، $x\\,dx=-\\frac{du}{2}$؛ سرحدات: 1 تا 0", "$\\frac12\\int_0^1u^3du = \\frac12\\cdot\\frac14$"], "answer": "$\\frac18$", "solution_source": "generated"},
+    {"label_fa": "۴-k", "kind": "exercise", "problem_fa": "$\\int(4-3x)^7dx$", "solution_steps_fa": ["$u=4-3x$، $dx=-\\frac{du}{3}$", "$-\\frac13\\cdot\\frac{u^8}{8}$"], "answer": "$-\\frac{(4-3x)^8}{24}+C$", "solution_source": "generated"},
+    {"label_fa": "۴-l", "kind": "exercise", "problem_fa": "$\\int\\frac{x^2dx}{\\sqrt[4]{x^3+2}}$", "solution_steps_fa": ["$u=x^3+2$، $x^2dx=\\frac{du}{3}$", "$\\frac13\\int u^{-1/4}du = \\frac13\\cdot\\frac43u^{3/4}$"], "answer": "$\\frac49(x^3+2)^{3/4}+C$", "solution_source": "generated"},
+    {"label_fa": "۵-a", "kind": "exercise", "problem_fa": "$\\int x\\cos x\\,dx$", "solution_steps_fa": ["$u=x$، $dv=\\cos x\\,dx$، $v=\\sin x$", "$x\\sin x-\\int\\sin x\\,dx$"], "answer": "$x\\sin x+\\cos x+C$", "solution_source": "generated"},
+    {"label_fa": "۵-b", "kind": "exercise", "problem_fa": "$\\int_0^{\\pi}\\sin x\\cos x\\,dx$", "solution_steps_fa": ["$u=\\sin x$، $dv=\\cos x\\,dx$: $\\int\\sin x\\cos x\\,dx = \\sin^2x - \\int\\cos x\\sin x\\,dx$", "پس $\\int\\sin x\\cos x\\,dx = \\frac{\\sin^2x}{2}$", "$\\left[\\frac{\\sin^2x}{2}\\right]_0^{\\pi} = 0-0$"], "answer": "$0$", "solution_source": "generated"},
+    {"label_fa": "۵-c", "kind": "exercise", "problem_fa": "$\\int e^x\\cos x\\,dx$", "solution_steps_fa": ["بار اول ($u=\\cos x$، $dv=e^xdx$): $I = e^x\\cos x + \\int e^x\\sin x\\,dx$", "بار دوم ($u=\\sin x$): $\\int e^x\\sin x\\,dx = e^x\\sin x - I$", "$I = e^x\\cos x + e^x\\sin x - I \\Rightarrow 2I = e^x(\\sin x+\\cos x)$"], "answer": "$\\frac{e^x(\\sin x+\\cos x)}{2}+C$", "solution_source": "generated"},
+    {"label_fa": "۵-d", "kind": "exercise", "problem_fa": "$\\int_0^{2\\pi}x\\cos3x\\,dx$", "solution_steps_fa": ["$u=x$، $v=\\frac13\\sin3x$", "تابع اولیه: $\\frac{x}{3}\\sin3x+\\frac19\\cos3x$", "$\\left(0+\\frac19\\cos6\\pi\\right)-\\left(0+\\frac19\\right) = 0$"], "answer": "$0$", "solution_source": "generated"},
+    {"label_fa": "۵-e", "kind": "exercise", "problem_fa": "$\\int xe^{-x}dx$", "solution_steps_fa": ["$u=x$، $dv=e^{-x}dx$، $v=-e^{-x}$", "$-xe^{-x}+\\int e^{-x}dx = -xe^{-x}-e^{-x}$"], "answer": "$-(x+1)e^{-x}+C$", "solution_source": "generated"},
+    {"label_fa": "۵-f", "kind": "exercise", "problem_fa": "$\\int x\\sqrt{1+x}\\,dx$", "solution_steps_fa": ["$u=x$، $dv=\\sqrt{1+x}\\,dx$، $v=\\frac23(1+x)^{3/2}$", "$\\frac23x(1+x)^{3/2} - \\frac23\\int(1+x)^{3/2}dx = \\frac23x(1+x)^{3/2}-\\frac{4}{15}(1+x)^{5/2}$", "ساده: $\\frac{2}{15}(1+x)^{3/2}(3x-2)$"], "answer": "$\\frac{2}{15}(3x-2)(1+x)^{3/2}+C$", "solution_source": "generated"},
+    {"label_fa": "۵-g", "kind": "exercise", "problem_fa": "$\\int x^2e^{2x}dx$", "solution_steps_fa": ["$u=x^2$، $v=\\frac12e^{2x}$: $\\frac{x^2}{2}e^{2x}-\\int xe^{2x}dx$", "بار دوم: $\\int xe^{2x}dx = \\frac{x}{2}e^{2x}-\\frac14e^{2x}$"], "answer": "$e^{2x}\\left(\\frac{x^2}{2}-\\frac{x}{2}+\\frac14\\right)+C$", "solution_source": "generated"},
+    {"label_fa": "۵-h", "kind": "exercise", "problem_fa": "$\\int e^{2x}\\sin3x\\,dx$", "solution_steps_fa": ["دو بار قسمی با $dv=e^{2x}dx$: $I = \\frac12e^{2x}\\sin3x - \\frac32\\left(\\frac12e^{2x}\\cos3x + \\frac32I\\right)$", "$I\\left(1+\\frac94\\right) = \\frac{e^{2x}}{4}(2\\sin3x-3\\cos3x)$", "$I = \\frac{e^{2x}(2\\sin3x-3\\cos3x)}{13}$"], "answer": "$\\frac{e^{2x}(2\\sin3x-3\\cos3x)}{13}+C$", "solution_source": "generated"},
+    {"label_fa": "۵-i", "kind": "exercise", "problem_fa": "$\\int x^2e^{-x}dx$", "solution_steps_fa": ["$u=x^2$، $v=-e^{-x}$: $-x^2e^{-x}+2\\int xe^{-x}dx$", "از ۵-e: $\\int xe^{-x}dx = -(x+1)e^{-x}$"], "answer": "$-e^{-x}(x^2+2x+2)+C$", "solution_source": "generated"}
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "در ۴-g تابع در $t=\\frac32$ (داخل انتروال) تعریف نشده است؛ کتاب احتمالاً جواب $-\\frac23$ را با تعویض مستقیم انتظار دارد، اما آن جواب از نظر ریاضی غلط است و انتیگرال واگرا است. ۴-c به $\\ln$ ضرورت دارد (فصل پنجم). بقیهٔ جواب‌ها با sympy بررسی شده‌اند."
+}

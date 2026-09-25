@@ -1,0 +1,89 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 69,
+  "printed_page": 62,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق تابع $\\sqrt{u}$",
+  "summary_fa": "در این صفحه مثال ۳ نشان می‌دهد که چطور مشتق جذر سوم را همراه با قانون حاصل ضرب به کار ببریم و بعد مشتق را در یک نقطهٔ معین حساب کنیم. مشتق $\\sqrt[3]{x}$ از قانون طاقت به دست می‌آید: $\\sqrt[3]{x} = x^{\\frac{1}{3}}$ و مشتق آن $\\frac{1}{3\\sqrt[3]{x^2}}$ است. پس از یافتن مشتق عمومی، $x = 8$ در آن گذاشته می‌شود. در آخر صفحه یک تمرین دو‌قسمتی آمده است: مشتق سه تابع ساده، و مشتق مجموع، حاصل ضرب و حاصل تقسیم دو تابع $f(x) = x^2 - 3x$ و $g(x) = \\sqrt{x} - 1$.",
+  "key_points_fa": [
+    "جذر n‌ام را به شکل توان کسری بنویسید: $\\sqrt[n]{x} = x^{\\frac{1}{n}}$",
+    "$(\\sqrt[3]{x})' = \\frac{1}{3}x^{-\\frac{2}{3}} = \\frac{1}{3\\sqrt[3]{x^2}}$",
+    "برای مشتق در نقطه، قیمت را بعد از مشتق گرفتن وضع کنید: $\\sqrt[3]{8} = 2$ و $\\sqrt[3]{64} = 4$.",
+    "برای $(f \\div g)'$ باید $g \\neq 0$ باشد."
+  ],
+  "formulas": [
+    {"latex": "(\\sqrt[n]{x})' = \\frac{1}{n\\sqrt[n]{x^{n-1}}}", "meaning_fa": "مشتق جذر n‌ام از قانون طاقت"},
+    {"latex": "(uv)' = u'v + uv'", "meaning_fa": "قانون حاصل ضرب که در مثال ۳ به کار رفته است"},
+    {"latex": "\\left(\\frac{f}{g}\\right)' = \\frac{f'g - fg'}{g^2},\\quad g \\neq 0", "meaning_fa": "قانون حاصل تقسیم برای تمرین ۲"}
+  ],
+  "terms": [
+    {"fa": "جذر سوم (جذر مکعب)", "en": "cube root"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "مشتق $f(x) = (\\sqrt[3]{x} - 1)(x + 3)$ را در نقطهٔ $x = 8$ دریافت کنید.",
+      "steps_fa": [
+        "$u = \\sqrt[3]{x} - 1 \\Rightarrow u' = \\frac{1}{3\\sqrt[3]{x^2}}$ و $v = x + 3 \\Rightarrow v' = 1$",
+        "$f'(x) = \\frac{x + 3}{3\\sqrt[3]{x^2}} + (\\sqrt[3]{x} - 1)$",
+        "$f'(8) = \\frac{11}{3 \\cdot 4} + 2 - 1 = \\frac{11}{12} + 1 = \\frac{23}{12}$"
+      ],
+      "answer": "$f'(8) = \\frac{23}{12}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱ (۱)",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\frac{1}{x + 1}$",
+      "solution_steps_fa": [
+        "$u = 1,\\ u' = 0$ و $v = x + 1,\\ v' = 1$",
+        "$f'(x) = \\frac{0 \\cdot (x + 1) - 1 \\cdot 1}{(x + 1)^2}$"
+      ],
+      "answer": "$f'(x) = -\\frac{1}{(x + 1)^2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (۲)",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = 3x^{-3}$",
+      "solution_steps_fa": [
+        "$f'(x) = 3 \\cdot (-3)x^{-4}$"
+      ],
+      "answer": "$f'(x) = -9x^{-4} = -\\frac{9}{x^4}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (۳)",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = x^2 + 3$",
+      "solution_steps_fa": [
+        "$f'(x) = 2x + 0$"
+      ],
+      "answer": "$f'(x) = 2x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "اگر $f(x) = x^2 - 3x$ و $g(x) = \\sqrt{x} - 1$ باشد، $(f + g)'$، $(f \\cdot g)'$ و $(f \\div g)'$ را دریافت کنید ($g \\neq 0$).",
+      "solution_steps_fa": [
+        "$f'(x) = 2x - 3$ و $g'(x) = \\frac{1}{2\\sqrt{x}}$",
+        "$(f + g)' = 2x - 3 + \\frac{1}{2\\sqrt{x}}$",
+        "$(f \\cdot g)' = (2x - 3)(\\sqrt{x} - 1) + \\frac{x^2 - 3x}{2\\sqrt{x}} = \\frac{5}{2}x\\sqrt{x} - 2x - \\frac{9}{2}\\sqrt{x} + 3$",
+        "$(f \\div g)' = \\frac{(2x - 3)(\\sqrt{x} - 1) - \\frac{x^2 - 3x}{2\\sqrt{x}}}{(\\sqrt{x} - 1)^2}$",
+        "با مخرج مشترک: $(f \\div g)' = \\frac{3x^2 - 4x\\sqrt{x} - 3x + 6\\sqrt{x}}{2\\sqrt{x}(\\sqrt{x} - 1)^2}$ برای $x > 0$ و $x \\neq 1$"
+      ],
+      "answer": "$(f+g)' = 2x - 3 + \\frac{1}{2\\sqrt{x}}$؛ $(f g)' = \\frac{5}{2}x\\sqrt{x} - 2x - \\frac{9}{2}\\sqrt{x} + 3$؛ $(f \\div g)' = \\frac{3x^2 - 4x\\sqrt{x} - 3x + 6\\sqrt{x}}{2\\sqrt{x}(\\sqrt{x} - 1)^2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

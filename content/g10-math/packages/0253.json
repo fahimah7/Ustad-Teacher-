@@ -1,0 +1,44 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 253,
+  "printed_page": 246,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "تبدیل حاصل‌ضرب نسبت‌های مثلثاتی زوایا به مجموع و تفاضل",
+  "summary_fa": "بالای صفحه حل مثال ۵ صفحهٔ قبل است. هر یک از چهار حاصل‌ضرب کسر با فورمول‌های تبدیل حاصل‌ضرب به مجموع باز می‌شود؛ در صورت، جمله‌های $\\sin 9\\theta$ و در مخرج، جمله‌های $\\cos\\theta$ یک‌دیگر را حذف می‌کنند. کسری که باقی می‌ماند با فورمول‌های تبدیل مجموع به حاصل‌ضرب ساده می‌شود: $\\cos 5\\theta$ از صورت و مخرج حذف می‌شود و $\\tan 2\\theta$ به دست می‌آید. بقیهٔ صفحه (به رنگ آبی) فهرست کامل فورمول‌های دو درس اخیر است: چهار فورمول تبدیل مجموع و تفاضل ساین و کوساین به حاصل‌ضرب، دو فورمول مجموع و تفاضل تانجانت، و چهار فورمول تبدیل حاصل‌ضرب به مجموع. این فهرست برای حل تمرین‌های صفحهٔ بعد به کار می‌آید.",
+  "key_points_fa": [
+    "در اتحادهای پیچیده، اول حاصل‌ضرب‌ها را به مجموع بدل کنید تا جمله‌ها حذف شوند، بعد مجموع باقی‌مانده را دوباره به حاصل‌ضرب بدل کنید.",
+    "$\\cos(-2\\theta) = \\cos 2\\theta$",
+    "فورمول‌های تبدیل مجموع به حاصل‌ضرب و حاصل‌ضرب به مجموع، دو روی یک سکه‌اند."
+  ],
+  "formulas": [
+    {"latex": "\\sin A + \\sin B = 2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}", "meaning_fa": "مجموع دو ساین"},
+    {"latex": "\\sin A - \\sin B = 2\\cos\\frac{A+B}{2}\\sin\\frac{A-B}{2}", "meaning_fa": "تفاضل دو ساین"},
+    {"latex": "\\cos A + \\cos B = 2\\cos\\frac{A+B}{2}\\cos\\frac{A-B}{2}", "meaning_fa": "مجموع دو کوساین"},
+    {"latex": "\\cos A - \\cos B = -2\\sin\\frac{A+B}{2}\\sin\\frac{A-B}{2}", "meaning_fa": "تفاضل دو کوساین"},
+    {"latex": "\\tan A \\pm \\tan B = \\frac{\\sin(A\\pm B)}{\\cos A\\cos B}", "meaning_fa": "مجموع و تفاضل دو تانجانت"},
+    {"latex": "\\sin A\\cos B = \\tfrac{1}{2}[\\sin(A+B) + \\sin(A-B)],\\quad \\cos A\\sin B = \\tfrac{1}{2}[\\sin(A+B) - \\sin(A-B)]", "meaning_fa": "حاصل‌ضرب ساین و کوساین به مجموع"},
+    {"latex": "\\cos A\\cos B = \\tfrac{1}{2}[\\cos(A+B) + \\cos(A-B)],\\quad \\sin A\\sin B = \\tfrac{1}{2}[\\cos(A-B) - \\cos(A+B)]", "meaning_fa": "حاصل‌ضرب دو کوساین و دو ساین به مجموع"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۵ (حل)",
+      "problem_fa": "نشان دهید $\\frac{\\sin 8\\theta\\cos\\theta - \\sin 6\\theta\\cos 3\\theta}{\\cos 2\\theta\\cos\\theta - \\sin 3\\theta\\sin 4\\theta} = \\tan 2\\theta$.",
+      "steps_fa": [
+        "صورت: $\\frac{1}{2}(\\sin 9\\theta + \\sin 7\\theta) - \\frac{1}{2}(\\sin 9\\theta + \\sin 3\\theta) = \\frac{1}{2}(\\sin 7\\theta - \\sin 3\\theta)$",
+        "مخرج: $\\frac{1}{2}(\\cos 3\\theta + \\cos\\theta) + \\frac{1}{2}(\\cos 7\\theta - \\cos\\theta) = \\frac{1}{2}(\\cos 3\\theta + \\cos 7\\theta)$",
+        "$\\frac{\\sin 7\\theta - \\sin 3\\theta}{\\cos 3\\theta + \\cos 7\\theta} = \\frac{2\\cos 5\\theta\\sin 2\\theta}{2\\cos 5\\theta\\cos(-2\\theta)} = \\frac{\\sin 2\\theta}{\\cos 2\\theta} = \\tan 2\\theta$"
+      ],
+      "answer": "$\\tan 2\\theta$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در آخرین خط فهرست، کتاب $-(\\cos A - B)$ چاپ کرده که منظور $\\cos(A-B)$ است."
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 168,
+  "printed_page": 161,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "انتیگرال‌گیری به طریقهٔ تعویض",
+  "summary_fa": "این صفحه روش تعویض (تبدیل متحول) را معرفی می‌کند. سوال آغاز درس $\\int 2x\\sqrt{1+x^2}\\,dx$ است که با خواص ساده حل نمی‌شود؛ اما اگر داخل جذر را یک متحول تازهٔ u بگیریم، $2x\\,dx$ دقیقاً $du$ می‌شود و انتیگرال ساده می‌گردد. در فعالیت، همین کار برای یک انتیگرال معین انجام می‌شود و نکتهٔ مهم این است که سرحدات هم باید به قیمت‌های u تبدیل شوند. سپس قاعدهٔ عمومی تعویض برای انتیگرال معین نوشته می‌شود: وقتی $u=g(x)$ و $du=g'(x)dx$، سرحدات a و b به $g(a)$ و $g(b)$ تبدیل می‌شوند. این قاعده از قاعدهٔ زنجیری مشتق نتیجه می‌شود. مثال ۱ در پایین صفحه طرح شده و حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "قسمتی از تابع را که مشتقش هم در انتیگرال دیده می‌شود، u بگیرید.",
+    "$du = g'(x)\\,dx$ را حساب کنید و dx را برحسب du بنویسید.",
+    "در انتیگرال معین، سرحدات را هم با $u=g(x)$ تبدیل کنید؛ بعد به x برنمی‌گردیم.",
+    "روش تعویض، عکس قاعدهٔ زنجیری مشتق است."
+  ],
+  "formulas": [
+    {"latex": "\\int_a^b f(g(x))\\,g'(x)\\,dx = \\int_{g(a)}^{g(b)} f(u)\\,du", "meaning_fa": "قاعدهٔ تعویض در انتیگرال معین"},
+    {"latex": "u = g(x),\\quad du = g'(x)\\,dx", "meaning_fa": "تعویض متحول و دیفرنسیال آن"}
+  ],
+  "terms": [
+    {"fa": "انتیگرال‌گیری به طریقهٔ تعویض", "en": "integration by substitution"},
+    {"fa": "متحول", "en": "variable"},
+    {"fa": "افادهٔ تحت جذر", "en": "radicand"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\int_1^2 \\frac{dx}{(3-5x)^2}$ را حساب کنید.",
+      "steps_fa": [
+        "$u = 3-5x$، $du = -5\\,dx$، پس $dx = -\\frac{du}{5}$",
+        "سرحدات: $x=1 \\Rightarrow u=-2$ و $x=2 \\Rightarrow u=-7$",
+        "$-\\frac15\\int_{-2}^{-7} u^{-2}\\,du = -\\frac15\\left[-\\frac1u\\right]_{-2}^{-7} = \\frac15\\left(-\\frac17 + \\frac12\\right)$",
+        "$= \\frac15\\cdot\\frac{5}{14} = \\frac{1}{14}$"
+      ],
+      "answer": "$\\frac{1}{14}$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "$\\int 2x\\sqrt{1+x^2}\\,dx$ را با تعویض داخل جذر حساب کنید. این روش را چه می‌نامند؟",
+      "solution_steps_fa": [
+        "$u = 1+x^2$، $du = 2x\\,dx$",
+        "$\\int \\sqrt{u}\\,du = \\frac23 u^{3/2} + C$",
+        "$= \\frac23(1+x^2)^{3/2} + C$"
+      ],
+      "answer": "$\\frac23(1+x^2)^{3/2} + C$؛ نام روش: انتیگرال‌گیری به طریقهٔ تعویض",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "در $\\int_0^4 \\sqrt{2x+1}\\,dx$ داخل جذر را u بگیرید، dx را پیدا کنید، سرحدات را به u تبدیل کنید و انتیگرال را حساب کنید.",
+      "solution_steps_fa": [
+        "$u = 2x+1$، $du = 2\\,dx \\Rightarrow dx = \\frac{du}{2}$",
+        "سرحدات: $x=0 \\Rightarrow u=1$ و $x=4 \\Rightarrow u=9$",
+        "$\\frac12\\int_1^9 u^{1/2}\\,du = \\frac12\\cdot\\frac23\\left[u^{3/2}\\right]_1^9 = \\frac13(27-1)$"
+      ],
+      "answer": "$\\frac{26}{3}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "حل مثال ۱ در صفحهٔ بعد (۱۶۲) آمده و اینجا کامل شده است."
+}

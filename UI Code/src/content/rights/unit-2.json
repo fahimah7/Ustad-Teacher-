@@ -1,0 +1,381 @@
+{
+  "unit": 2,
+  "title": {
+    "en": "Afghan women were always strong",
+    "fa": "زنان افغان همیشه قوی بوده‌اند"
+  },
+  "about": {
+    "en": "Afghan women who wrote, spoke, taught and learned, from Rabia Balkhi to today.",
+    "fa": "زنانی از افغانستان که نوشتند، سخن گفتند، درس دادند و آموختند؛ از رابعه بلخی تا امروز."
+  },
+  "lessons": [
+    {
+      "id": "r2-1",
+      "title": {
+        "en": "Rabia Balkhi, poet of Balkh",
+        "fa": "رابعه بلخی، شاعر بلخ"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "More than a thousand years ago, in the 10th century, a young woman named Rabia lived in the city of Balkh, in the north of today's Afghanistan. Her father, Ka'b, was the ruler of Balkh. Rabia loved words, and she became a poet.",
+          "fa": "بیش از هزار سال پیش، در قرن چهارم هجری (قرن دهم میلادی)، دختری به نام رابعه در شهر بلخ، در شمال افغانستان امروزی، زندگی می‌کرد. پدرش کعب، حاکم بلخ بود. رابعه کلمات را دوست داشت و شاعر شد."
+        },
+        {
+          "en": "Rabia wrote poems in Persian, the language that is called Dari in Afghanistan today. She is remembered as one of the first women known to write poetry in this language. Only a few of her poems have survived, but people still read them.",
+          "fa": "رابعه به زبان دری (فارسی) شعر می‌گفت؛ همان زبانی که امروز بسیاری از افغان‌ها با آن گپ می‌زنند. او را یکی از اولین زنانی می‌دانند که به این زبان شعر گفته‌اند. تنها چند شعر او باقی مانده، اما مردم هنوز آن‌ها را می‌خوانند."
+        },
+        {
+          "en": "Later writers told her story in their books. The great poet Attar, who lived about two hundred years after her, wrote about her. Her tomb is in Balkh, and people still visit it.",
+          "fa": "نویسندگان بعدی قصه او را در کتاب‌های خود نوشتند. شاعر بزرگ، عطار، که حدود دو صد سال بعد از او زندگی می‌کرد، درباره او نوشته است. آرامگاه رابعه در بلخ است و مردم هنوز به زیارت آن می‌روند."
+        },
+        {
+          "en": "Today, schools and a well-known women's hospital in Kabul carry her name. A young woman who lived a thousand years ago is still remembered, because she used her mind and her words.",
+          "fa": "امروز مکتب‌ها و یک شفاخانه مشهور زنان در کابل نام او را دارند. دختری که هزار سال پیش زندگی می‌کرد، هنوز به یاد مانده، چون از فکر و کلمات خود استفاده کرد."
+        },
+        {
+          "en": "Your words matter too. Try this: learn by heart a few lines of a poem you love, or make up a few lines of your own about something you care about. A poem kept in your memory cannot be taken from you.",
+          "fa": "کلمات شما هم ارزش دارد. این را امتحان کنید: چند مصرع از شعری را که دوست دارید حفظ کنید، یا خودتان درباره چیزی که برای‌تان مهم است، چند مصرع بسازید. شعری که در حافظه شماست، هیچ کس نمی‌تواند از شما بگیرد."
+        }
+      ],
+      "reflect": {
+        "en": "If people read your words a thousand years from now, what would you want them to know?",
+        "fa": "اگر مردم هزار سال بعد کلمات شما را بخوانند، دوست دارید چه چیزی را بدانند؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Where did Rabia Balkhi live?",
+            "fa": "رابعه بلخی در کجا زندگی می‌کرد؟"
+          },
+          "options": [
+            {
+              "en": "In Herat",
+              "fa": "در هرات"
+            },
+            {
+              "en": "In Balkh",
+              "fa": "در بلخ"
+            },
+            {
+              "en": "In Kandahar",
+              "fa": "در کندهار"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Rabia lived in Balkh, in the north of today's Afghanistan, more than a thousand years ago.",
+            "fa": "رابعه بیش از هزار سال پیش در بلخ، در شمال افغانستان امروزی، زندگی می‌کرد."
+          }
+        },
+        {
+          "q": {
+            "en": "Why is Rabia Balkhi remembered?",
+            "fa": "چرا رابعه بلخی را به یاد می‌آورند؟"
+          },
+          "options": [
+            {
+              "en": "She is one of the first known women poets in Dari",
+              "fa": "او یکی از اولین زنان شاعر شناخته‌شده به زبان دری است"
+            },
+            {
+              "en": "She built a great palace",
+              "fa": "او یک قصر بزرگ ساخت"
+            },
+            {
+              "en": "She was a famous trader",
+              "fa": "او یک تاجر مشهور بود"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "She is remembered as one of the first women known to write poetry in Dari (Persian).",
+            "fa": "او را یکی از اولین زنانی می‌دانند که به زبان دری (فارسی) شعر گفته‌اند."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Encyclopaedia Iranica, 'Rabe'a Qozdari' (Rabia bint Ka'b, 10th-century poet of Balkh)",
+        "Farid al-Din Attar, Elahi-nama (story of the daughter of Ka'b)",
+        "Rabia Balkhi's shrine in Balkh; Rabia Balkhi women's hospital, Kabul"
+      ]
+    },
+    {
+      "id": "r2-2",
+      "title": {
+        "en": "Malalai of Maiwand",
+        "fa": "ملالی میوند"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "In July 1880, during the Second Anglo-Afghan War, Afghan forces met a British army near Maiwand, west of Kandahar. Among the people who came to the battlefield was a young woman from the area named Malalai.",
+          "fa": "در ماه جولای سال ۱۸۸۰، در زمان جنگ دوم افغان و انگلیس، لشکر افغان نزدیک میوند، در غرب کندهار، با لشکر انگلیس روبرو شد. در میان مردمی که به آنجا آمده بودند، دختر جوانی از همان منطقه به نام ملالی بود."
+        },
+        {
+          "en": "Malalai had come with other women to bring water and to care for the wounded. The stories say that when many had lost hope, she raised her voice and called out a landay, a short Pashto poem, that gave them courage again.",
+          "fa": "ملالی همراه با زنان دیگر آمده بود تا آب بیاورد و از زخمی‌ها مراقبت کند. روایت‌ها می‌گویند وقتی بسیاری امید خود را از دست داده بودند، او صدای خود را بلند کرد و یک لندی، یعنی یک شعر کوتاه پشتو، خواند که دوباره به آن‌ها دل و جرأت داد."
+        },
+        {
+          "en": "The Afghan side won that day, and Malalai lost her life there. The old accounts differ on some details, but they agree that a young woman's voice gave people strength at a very hard moment.",
+          "fa": "آن روز طرف افغان پیروز شد و ملالی در همان جا جان خود را از دست داد. روایت‌های قدیمی در بعضی جزئیات با هم فرق دارند، اما همه می‌گویند که صدای یک دختر جوان در یک لحظه بسیار سخت به مردم نیرو داد."
+        },
+        {
+          "en": "Today many schools and a well-known maternity hospital in Kabul carry her name, and her story is told to children across the country. She is remembered above all for her care and her brave words.",
+          "fa": "امروز بسیاری از مکتب‌ها و یک زایشگاه مشهور در کابل نام او را دارند، و قصه او را برای اطفال در سراسر کشور می‌گویند. او را بیشتر از همه به خاطر مهربانی و سخنان پرجرأتش به یاد می‌آورند."
+        },
+        {
+          "en": "Courage does not always look like a battle. Today, courage can mean studying when it is hard, encouraging a friend who feels hopeless, or saying a kind, strong word at the right moment. Like Malalai's voice, your words can give others hope.",
+          "fa": "جرأت همیشه به شکل جنگ نیست. امروز جرأت می‌تواند این باشد که وقتی کار سخت است درس بخوانید، به دوستی که ناامید شده دلگرمی بدهید، یا در وقت مناسب یک گپ مهربان و قوی بزنید. مثل صدای ملالی، کلمات شما هم می‌تواند به دیگران امید بدهد."
+        }
+      ],
+      "reflect": {
+        "en": "Who could you encourage this week, and what would you say to her?",
+        "fa": "این هفته به چه کسی می‌توانید دلگرمی بدهید، و به او چه می‌گویید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "According to the stories, what did Malalai do at Maiwand?",
+            "fa": "طبق روایت‌ها، ملالی در میوند چه کرد؟"
+          },
+          "options": [
+            {
+              "en": "She stayed at home",
+              "fa": "در خانه ماند"
+            },
+            {
+              "en": "She cared for the wounded and gave people courage with her words",
+              "fa": "از زخمی‌ها مراقبت کرد و با سخنان خود به مردم جرأت داد"
+            },
+            {
+              "en": "She wrote a book about the war",
+              "fa": "درباره جنگ یک کتاب نوشت"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "She came to bring water and care for the wounded, and her words gave people courage.",
+            "fa": "او آمده بود تا آب بیاورد و از زخمی‌ها مراقبت کند، و سخنانش به مردم جرأت داد."
+          }
+        },
+        {
+          "q": {
+            "en": "What can courage look like today?",
+            "fa": "امروز جرأت می‌تواند چه شکلی داشته باشد؟"
+          },
+          "options": [
+            {
+              "en": "Studying when it is hard and encouraging a friend",
+              "fa": "درس خواندن وقتی کار سخت است، و دلگرمی دادن به یک دوست"
+            },
+            {
+              "en": "Only fighting",
+              "fa": "تنها جنگیدن"
+            },
+            {
+              "en": "Never speaking to anyone",
+              "fa": "هیچ وقت با کسی گپ نزدن"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "Courage can be quiet: learning, caring for others and giving them hope.",
+            "fa": "جرأت می‌تواند آرام باشد: آموختن، مراقبت از دیگران و امید دادن به آن‌ها."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Battle of Maiwand, 27 July 1880, Second Anglo-Afghan War (standard histories of the war)",
+        "Malalai of Maiwand: Afghan oral tradition and Pashto landay tradition; accounts differ in detail",
+        "Malalai Maternity Hospital, Kabul; many schools named after her"
+      ]
+    },
+    {
+      "id": "r2-3",
+      "title": {
+        "en": "Queen Soraya and the first girls' schools",
+        "fa": "ملکه ثریا و اولین مکتب‌های دختران"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Soraya Tarzi was born in 1899 in Damascus, Syria, where her family was living in exile. Her father, Mahmud Tarzi, was a well-known Afghan writer who strongly supported education. Soraya married Amanullah Khan, who came to power in Afghanistan in 1919.",
+          "fa": "ثریا طرزی در سال ۱۸۹۹ در شهر دمشق در سوریه به دنیا آمد؛ خانواده او در آن زمان در تبعید زندگی می‌کردند. پدرش، محمود طرزی، نویسنده مشهور افغان بود که از تعلیم به شدت حمایت می‌کرد. ثریا با امان‌الله خان ازدواج کرد که در سال ۱۹۱۹ در افغانستان به قدرت رسید."
+        },
+        {
+          "en": "Queen Soraya believed that girls must learn. In the early 1920s, the first school for girls in Kabul, the Masturat School, opened with her support. Her mother, Asma Rasmiya Tarzi, helped start a magazine for women called Irshad-e Niswan.",
+          "fa": "ملکه ثریا باور داشت که دختران باید درس بخوانند. در اوایل دهه ۱۹۲۰، اولین مکتب دختران در کابل به نام «مکتب مستورات» با حمایت او باز شد. مادرش، اسما رسمیه طرزی، در راه‌اندازی یک مجله برای زنان به نام «ارشاد النسوان» کمک کرد."
+        },
+        {
+          "en": "In 1929 the king lost power, and the girls' schools were closed. For a while it looked as if everything was lost. But the idea did not die: in the following years girls' schools opened again, and in each generation more girls studied.",
+          "fa": "در سال ۱۹۲۹ شاه قدرت را از دست داد و مکتب‌های دختران بسته شد. مدتی به نظر می‌رسید که همه چیز از دست رفته است. اما این فکر نمرد: در سال‌های بعد، مکتب‌های دختران دوباره باز شدند و در هر نسل، دختران بیشتری درس خواندند."
+        },
+        {
+          "en": "Those schools helped women find their voice. In 1964, Afghanistan's new constitution gave women the right to vote and to be elected. In the 1965 elections women voted, and four women were elected to parliament.",
+          "fa": "آن مکتب‌ها به زنان کمک کرد تا صدای خود را پیدا کنند. در سال ۱۹۶۴ (۱۳۴۳ خورشیدی)، قانون اساسی جدید افغانستان به زنان حق رأی دادن و حق انتخاب شدن داد. در انتخابات سال ۱۹۶۵، زنان رأی دادند و چهار زن به ولسی جرگه راه یافتند."
+        },
+        {
+          "en": "This history shows that girls' schools in Afghanistan have been closed before, and opened again. What brave women started did not disappear. It waited, and it grew.",
+          "fa": "این تاریخ نشان می‌دهد که مکتب‌های دختران در افغانستان پیش از این هم بسته شده و دوباره باز شده‌اند. آنچه زنان باجرأت شروع کردند، از بین نرفت. منتظر ماند و رشد کرد."
+        }
+      ],
+      "reflect": {
+        "en": "Girls' schools in Afghanistan were closed before and opened again. How does that make you feel about your own future?",
+        "fa": "مکتب‌های دختران در افغانستان پیش از این هم بسته و دوباره باز شده‌اند. این موضوع درباره آینده خودتان چه احساسی به شما می‌دهد؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "What happened after girls' schools were closed in 1929?",
+            "fa": "بعد از آن که مکتب‌های دختران در سال ۱۹۲۹ بسته شد، چه شد؟"
+          },
+          "options": [
+            {
+              "en": "They never opened again",
+              "fa": "دیگر هرگز باز نشدند"
+            },
+            {
+              "en": "They opened again in the following years",
+              "fa": "در سال‌های بعد دوباره باز شدند"
+            },
+            {
+              "en": "Only boys' schools were closed",
+              "fa": "تنها مکتب‌های پسران بسته شد"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Girls' schools opened again in the years after 1929, and more girls studied in each generation.",
+            "fa": "مکتب‌های دختران در سال‌های بعد از ۱۹۲۹ دوباره باز شدند، و در هر نسل دختران بیشتری درس خواندند."
+          }
+        },
+        {
+          "q": {
+            "en": "What did the 1964 constitution give Afghan women?",
+            "fa": "قانون اساسی سال ۱۹۶۴ به زنان افغان چه داد؟"
+          },
+          "options": [
+            {
+              "en": "The right to vote and to be elected",
+              "fa": "حق رأی دادن و حق انتخاب شدن"
+            },
+            {
+              "en": "Nothing new",
+              "fa": "هیچ چیز تازه‌ای نداد"
+            },
+            {
+              "en": "Only the right to travel",
+              "fa": "تنها حق سفر"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "The 1964 constitution gave women the vote, and in 1965 women voted and were elected to parliament.",
+            "fa": "این قانون اساسی به زنان حق رأی داد، و در سال ۱۹۶۵ زنان رأی دادند و به ولسی جرگه انتخاب شدند."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Soraya Tarzi (1899-1968), born in Damascus; Mahmud Tarzi; Amanullah Khan came to power 1919 (standard histories, e.g. Louis Dupree, Afghanistan, 1973)",
+        "Masturat School for girls, Kabul, early 1920s; Irshad-e Niswan women's magazine (1921) led by Asma Rasmiya Tarzi (Senzil Nawid, Religious Response to Social Change in Afghanistan 1919-29, 1999)",
+        "Girls' schools closed after King Amanullah lost power in 1929 and reopened in later years (standard histories)",
+        "Constitution of Afghanistan, 1964 (1343): equal rights and universal suffrage; 1965 parliamentary elections: four women elected to the Wolesi Jirga"
+      ]
+    },
+    {
+      "id": "r2-4",
+      "title": {
+        "en": "Teaching and learning in hard times",
+        "fa": "درس دادن و آموختن در روزهای سخت"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "Afghanistan has known many hard times: war, families forced to leave their homes, and years when girls' schools were closed. Through all of them, women found ways to keep teaching and learning.",
+          "fa": "افغانستان روزهای سخت زیادی دیده است: جنگ، خانواده‌هایی که مجبور شدند خانه خود را ترک کنند، و سال‌هایی که مکتب‌های دختران بسته بود. در همه این روزها، زنان راهی پیدا کردند که درس بدهند و درس بخوانند."
+        },
+        {
+          "en": "In the late 1990s, girls' schools were closed too. Many women teachers opened their homes, and small groups of girls came to study reading, maths and the Quran. Some girls carried their books hidden under their chadors.",
+          "fa": "در اواخر دهه ۱۹۹۰ هم مکتب‌های دختران بسته شد. بسیاری از معلمان زن خانه‌های خود را باز کردند، و گروه‌های کوچک دختران برای یاد گرفتن خواندن، ریاضی و قرآن به آنجا می‌آمدند. بعضی دختران کتاب‌های خود را زیر چادر پنهان می‌کردند."
+        },
+        {
+          "en": "Some of these classes looked like sewing classes from the outside. Teachers and families were careful and protected one another. Some of the girls who studied this way later finished school and university and became teachers, doctors and writers.",
+          "fa": "بعضی از این صنف‌ها از بیرون مثل صنف خیاطی معلوم می‌شدند. معلمان و خانواده‌ها احتیاط می‌کردند و از یکدیگر محافظت می‌کردند. بعضی از دخترانی که این طور درس خواندند، بعدها مکتب و پوهنتون را تمام کردند و معلم، داکتر و نویسنده شدند."
+        },
+        {
+          "en": "Families helped too. Mothers taught their daughters to read, fathers brought books home, and older sisters taught younger ones. Learning moved from school buildings into homes, but it did not stop.",
+          "fa": "خانواده‌ها هم کمک کردند. مادرها به دختران خود خواندن یاد دادند، پدرها کتاب به خانه آوردند و خواهران بزرگ به خواهران کوچک درس دادند. آموختن از ساختمان مکتب به خانه‌ها رفت، اما متوقف نشد."
+        },
+        {
+          "en": "Since schools were closed to girls in 2021, many girls and women are learning at home again. You are part of a long line of Afghan women who never stopped learning, and learning itself is a quiet way of standing strong. If you want to learn with others, a later unit shows how to do it safely.",
+          "fa": "از زمانی که در سال ۲۰۲۱ مکتب‌ها به روی دختران بسته شد، بسیاری از دختران و زنان دوباره در خانه درس می‌خوانند. شما بخشی از یک زنجیر طولانی از زنان افغان هستید که هرگز از آموختن دست نکشیدند، و خود آموختن یک راه آرام برای ایستادگی است. اگر می‌خواهید با دیگران درس بخوانید، در یک بخش بعدی یاد می‌گیرید که چطور این کار را با امنیت انجام دهید."
+        }
+      ],
+      "reflect": {
+        "en": "Who in your family or neighbourhood could you learn from, or teach something to?",
+        "fa": "در خانواده یا همسایگی‌تان از چه کسی می‌توانید چیزی یاد بگیرید، یا به چه کسی چیزی یاد بدهید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "When girls' schools were closed in the late 1990s, what did many women teachers do?",
+            "fa": "وقتی در اواخر دهه ۱۹۹۰ مکتب‌های دختران بسته شد، بسیاری از معلمان زن چه کردند؟"
+          },
+          "options": [
+            {
+              "en": "They taught girls in their homes",
+              "fa": "در خانه‌های خود به دختران درس دادند"
+            },
+            {
+              "en": "They stopped teaching forever",
+              "fa": "برای همیشه درس دادن را ترک کردند"
+            },
+            {
+              "en": "They only taught boys",
+              "fa": "تنها به پسران درس دادند"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "Many women teachers opened their homes so that girls could keep learning.",
+            "fa": "بسیاری از معلمان زن خانه‌های خود را باز کردند تا دختران بتوانند به آموختن ادامه دهند."
+          }
+        },
+        {
+          "q": {
+            "en": "Why did some home classes look like sewing classes from the outside?",
+            "fa": "چرا بعضی صنف‌های خانگی از بیرون مثل صنف خیاطی معلوم می‌شدند؟"
+          },
+          "options": [
+            {
+              "en": "Because sewing was the only subject",
+              "fa": "چون خیاطی تنها مضمون بود"
+            },
+            {
+              "en": "To keep the teachers, the girls and their families safe",
+              "fa": "تا معلمان، دختران و خانواده‌های‌شان در امان بمانند"
+            },
+            {
+              "en": "Because it was cheaper",
+              "fa": "چون ارزان‌تر بود"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Being careful protected everyone involved: teachers, girls and families.",
+            "fa": "احتیاط از همه محافظت می‌کرد: معلمان، دختران و خانواده‌ها."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Human Rights Watch, 'Humanity Denied: Systematic Violations of Women's Rights in Afghanistan' (2001): closure of girls' schools in the late 1990s and home-based classes",
+        "Christina Lamb, The Sewing Circles of Herat (2002): women meeting to study and write under cover of sewing classes"
+      ]
+    }
+  ]
+}

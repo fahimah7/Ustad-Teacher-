@@ -1,0 +1,103 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 247,
+  "printed_page": 240,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی زاویهٔ $3\\alpha$ از جنس نسبت‌های مثلثاتی زاویهٔ $\\alpha$",
+  "summary_fa": "بالای صفحه نتیجهٔ نهایی فورمول تانجانت مجموع سه زاویه در کادر آمده است. مثال ۵ نشان می‌دهد که $135^\\circ = 30^\\circ + 45^\\circ + 60^\\circ$ است و با فورمول ساین مجموع سه زاویه و قیمت‌های مشهور، $\\sin 135^\\circ = \\frac{\\sqrt{2}}{2}$ به دست می‌آید. بعد تمرین درس می‌آید: حساب کردن نسبت‌های $90^\\circ$ از جنس $30^\\circ$ (با فورمول‌های سه‌چند)، حساب $\\cos 135^\\circ$ و $\\tan 135^\\circ$ با تجزیهٔ $30^\\circ+45^\\circ+60^\\circ$، یک سوال چهارجوابه دربارهٔ $8\\cos^3\\theta - 6\\cos\\theta$، باز کردن $\\cos(A - B + C)$، و ثابت کردن دو اتحاد شبیه مثال ۴ صفحهٔ قبل برای کوساین و تانجانت.",
+  "key_points_fa": [
+    "$\\tan(\\alpha+\\beta+\\gamma) = \\frac{\\tan\\alpha+\\tan\\beta+\\tan\\gamma - \\tan\\alpha\\tan\\beta\\tan\\gamma}{1 - \\tan\\alpha\\tan\\beta - \\tan\\beta\\tan\\gamma - \\tan\\gamma\\tan\\alpha}$",
+    "هر زاویه‌ای که مجموع سه زاویهٔ مشهور باشد (مثلاً $135^\\circ = 30^\\circ+45^\\circ+60^\\circ$) با این فورمول‌ها حساب می‌شود.",
+    "برای $\\cos(A-B+C)$، $-B$ را زاویهٔ دوم بگیرید: $\\cos(-B) = \\cos B$ و $\\sin(-B) = -\\sin B$."
+  ],
+  "formulas": [
+    {"latex": "\\tan(\\alpha+\\beta+\\gamma) = \\frac{\\tan\\alpha+\\tan\\beta+\\tan\\gamma - \\tan\\alpha\\tan\\beta\\tan\\gamma}{1 - \\tan\\alpha\\tan\\beta - \\tan\\beta\\tan\\gamma - \\tan\\alpha\\tan\\gamma}", "meaning_fa": "تانجانت مجموع سه زاویه"},
+    {"latex": "\\sin(\\alpha+\\beta+\\gamma) = \\sin\\alpha\\cos\\beta\\cos\\gamma + \\cos\\alpha\\sin\\beta\\cos\\gamma + \\cos\\alpha\\cos\\beta\\sin\\gamma - \\sin\\alpha\\sin\\beta\\sin\\gamma", "meaning_fa": "ساین مجموع سه زاویه (در مثال ۵ به کار رفته)"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "$\\sin 135^\\circ$ را از جنس $\\sin(30^\\circ+45^\\circ+60^\\circ)$ دریابید.",
+      "steps_fa": [
+        "$\\sin 30^\\circ\\cos 45^\\circ\\cos 60^\\circ = \\frac{\\sqrt{2}}{8}$",
+        "$-\\sin 30^\\circ\\sin 45^\\circ\\sin 60^\\circ = -\\frac{\\sqrt{6}}{8}$",
+        "$\\sin 45^\\circ\\cos 30^\\circ\\cos 60^\\circ = \\frac{\\sqrt{6}}{8}$",
+        "$\\sin 60^\\circ\\cos 30^\\circ\\cos 45^\\circ = \\frac{3\\sqrt{2}}{8}$",
+        "مجموع: $\\frac{\\sqrt{2}}{8} + \\frac{3\\sqrt{2}}{8} = \\frac{4\\sqrt{2}}{8} = \\frac{\\sqrt{2}}{2}$"
+      ],
+      "answer": "$\\sin 135^\\circ = \\frac{\\sqrt{2}}{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "$\\sin 90^\\circ$، $\\cos 90^\\circ$ و $\\tan 90^\\circ$ را به ترتیب از جنس $\\sin 30^\\circ$، $\\cos 30^\\circ$ و $\\tan 30^\\circ$ دریابید.",
+      "solution_steps_fa": [
+        "$\\sin 90^\\circ = 3\\sin 30^\\circ - 4\\sin^3 30^\\circ = \\frac{3}{2} - \\frac{4}{8} = 1$",
+        "$\\cos 90^\\circ = 4(\\frac{\\sqrt{3}}{2})^3 - 3\\cdot\\frac{\\sqrt{3}}{2} = \\frac{3\\sqrt{3}}{2} - \\frac{3\\sqrt{3}}{2} = 0$",
+        "$\\tan 90^\\circ = \\frac{3\\cdot\\frac{1}{\\sqrt{3}} - \\frac{1}{3\\sqrt{3}}}{1 - 3\\cdot\\frac{1}{3}} = \\frac{\\frac{8\\sqrt{3}}{9}}{0}$؛ مخرج صفر است."
+      ],
+      "answer": "$\\sin 90^\\circ = 1$، $\\cos 90^\\circ = 0$، $\\tan 90^\\circ$ تعریف نشده است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "$\\cos 135^\\circ$ و $\\tan 135^\\circ$ را با $135^\\circ = 30^\\circ+45^\\circ+60^\\circ$ دریابید.",
+      "solution_steps_fa": [
+        "$\\cos 135^\\circ = \\cos 30\\cos 45\\cos 60 - \\cos 30\\sin 45\\sin 60 - \\sin 30\\cos 45\\sin 60 - \\sin 30\\sin 45\\cos 60$",
+        "$= \\frac{\\sqrt{6}}{8} - \\frac{3\\sqrt{2}}{8} - \\frac{\\sqrt{6}}{8} - \\frac{\\sqrt{2}}{8} = -\\frac{\\sqrt{2}}{2}$",
+        "برای تانجانت: $\\tan 30^\\circ = \\frac{1}{\\sqrt{3}}$، $\\tan 45^\\circ = 1$، $\\tan 60^\\circ = \\sqrt{3}$",
+        "صورت: $\\frac{1}{\\sqrt{3}} + 1 + \\sqrt{3} - 1 = \\frac{4}{\\sqrt{3}}$؛ مخرج: $1 - (\\frac{1}{\\sqrt{3}} + \\sqrt{3} + 1) = -\\frac{4}{\\sqrt{3}}$",
+        "$\\tan 135^\\circ = -1$"
+      ],
+      "answer": "$\\cos 135^\\circ = -\\frac{\\sqrt{2}}{2}$، $\\tan 135^\\circ = -1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "$8\\cos^3\\theta - 6\\cos\\theta = ?$ a) $\\cos 3\\theta$ b) $2\\cos 3\\theta$ c) $-2\\cos 3\\theta$",
+      "solution_steps_fa": [
+        "$8\\cos^3\\theta - 6\\cos\\theta = 2(4\\cos^3\\theta - 3\\cos\\theta) = 2\\cos 3\\theta$"
+      ],
+      "answer": "b) $2\\cos 3\\theta$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "$\\cos(\\hat{A} - \\hat{B} + \\hat{C})$ را از جنس نسبت‌های مثلثاتی زوایای $\\hat{A}$، $\\hat{B}$ و $\\hat{C}$ دریابید.",
+      "solution_steps_fa": [
+        "در فورمول $\\cos(\\alpha+\\beta+\\gamma)$ می‌گذاریم $\\alpha = A$، $\\beta = -B$، $\\gamma = C$.",
+        "$\\cos(-B) = \\cos B$ و $\\sin(-B) = -\\sin B$",
+        "$\\cos(A-B+C) = \\cos A\\cos B\\cos C + \\cos A\\sin B\\sin C - \\sin A\\cos B\\sin C + \\sin A\\sin B\\cos C$"
+      ],
+      "answer": "$\\cos A\\cos B\\cos C + \\cos A\\sin B\\sin C - \\sin A\\cos B\\sin C + \\sin A\\sin B\\cos C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $4\\cos x\\cos(60^\\circ-x)\\cos(60^\\circ+x) = \\cos 3x$ و $\\tan x\\tan(60^\\circ-x)\\tan(60^\\circ+x) = \\tan 3x$.",
+      "solution_steps_fa": [
+        "$\\cos(60^\\circ-x)\\cos(60^\\circ+x) = \\cos^2 60^\\circ - \\sin^2 x = \\frac{1}{4} - (1 - \\cos^2 x) = \\cos^2 x - \\frac{3}{4}$",
+        "$4\\cos x(\\cos^2 x - \\frac{3}{4}) = 4\\cos^3 x - 3\\cos x = \\cos 3x$",
+        "با $t = \\tan x$: $\\tan(60^\\circ-x)\\tan(60^\\circ+x) = \\frac{\\sqrt{3}-t}{1+\\sqrt{3}t}\\cdot\\frac{\\sqrt{3}+t}{1-\\sqrt{3}t} = \\frac{3 - t^2}{1 - 3t^2}$",
+        "$t\\cdot\\frac{3-t^2}{1-3t^2} = \\frac{3t - t^3}{1 - 3t^2} = \\tan 3x$"
+      ],
+      "answer": "هر دو اتحاد ثابت شد.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "مربع خالی (□) در تصویر، زاویهٔ سوم $\\gamma$ است. در سوال ۴ نیز میان $\\hat{C}$ و $\\hat{B}$ یک علامهٔ □ چاپ شده که به معنای کامه (،) است. جواب‌ها با Python بررسی شد."
+}

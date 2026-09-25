@@ -1,0 +1,183 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 223,
+  "printed_page": 216,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "این صفحه آغاز تمرین‌های فصل چهارم است (سوال ۱ تا ۱۲). سوال‌ها واحدهای اندازه‌گیری زاویه را تکرار می‌کنند: تبدیل درجهٔ اعشاری به درجه، دقیقه و ثانیه؛ تبدیل رادیان به درجه؛ رابطهٔ طول قوس و زاویهٔ مرکزی ($s = r\\theta$)؛ دوران عقربه‌های ساعت و چرخ‌ها به رادیان؛ و جای ضلع دوم زاویه در حالت معیاری. در سوال ۳ یک مثلث قایم‌الزاویه با اضلاع ۸، ۱۵ و ۱۷ داده شده و باید شش نسبت مثلثاتی دو زاویهٔ حادهٔ آن نوشته شوند. سوال ۱۲ در صفحهٔ بعد تمام می‌شود.",
+  "key_points_fa": [
+    "$1^\\circ = 60'$ و $1' = 60''$.",
+    "$\\frac{R}{\\pi} = \\frac{g}{200} = \\frac{d}{180}$ برای تبدیل رادیان، گراد و درجه.",
+    "زاویهٔ مرکزی به رادیان: $\\theta = \\frac{s}{r}$ (s طول قوس، r شعاع).",
+    "یک دور کامل $2\\pi$ رادیان است.",
+    "برای یافتن جای ضلع دوم، مضرب‌های $2\\pi$ (یا $360^\\circ$) را کم یا زیاد کنید."
+  ],
+  "formulas": [
+    {"latex": "\\frac{R}{\\pi} = \\frac{g}{200} = \\frac{d}{180}", "meaning_fa": "تبدیل واحدهای زاویه"},
+    {"latex": "s = r\\,\\theta", "meaning_fa": "طول قوس برابر شعاع ضرب زاویهٔ مرکزی به رادیان"}
+  ],
+  "terms": [
+    {"fa": "رادیان", "en": "radian"},
+    {"fa": "گراد", "en": "grad (gradian)"},
+    {"fa": "ضلع دوم", "en": "terminal side"}
+  ],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [0.17, 0.27, 0.45, 0.37],
+      "kind": "diagram",
+      "description_fa": "مثلث قایم‌الزاویهٔ JLK با زاویهٔ قایمه در L. ضلع JL = 8 (عمودی)، LK = 15 (افقی) و وتر JK = 17. برای سوال ۳ به کار می‌رود."
+    }
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "زاویهٔ $42.6033^\\circ$ را به درجه، دقیقه و ثانیه بنویسید.",
+      "solution_steps_fa": [
+        "$0.6033 \\times 60 = 36.198'$ ← ۳۶ دقیقه",
+        "$0.198 \\times 60 = 11.88''$ ← تقریباً ۱۲ ثانیه"
+      ],
+      "answer": "$42^\\circ\\,36'\\,11.88'' \\approx 42^\\circ\\,36'\\,12''$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "ثانیه‌گرد برای مدت ۱ ساعت و ۳ دقیقه و ۲۵ ثانیه می‌چرخد. چند رادیان زاویهٔ مثبت طی می‌کند؟",
+      "solution_steps_fa": [
+        "مدت به ثانیه: $3600 + 180 + 25 = 3805$ ثانیه",
+        "ثانیه‌گرد در هر ۶۰ ثانیه یک دور ($2\\pi$) می‌زند.",
+        "$\\frac{3805}{60} \\times 2\\pi = \\frac{761\\pi}{6} \\approx 398.5$ رادیان"
+      ],
+      "answer": "$\\frac{761\\pi}{6}$ رادیان",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "در مثلث JLK (قایمه در L، JL = 8، LK = 15، JK = 17) قیمت sin، cos، tan، cot، sec و csc زاویه‌های J و K را دریابید.",
+      "solution_steps_fa": [
+        "برای K: مقابل = JL = 8، مجاور = LK = 15، وتر = 17.",
+        "$\\sin K = \\frac{8}{17}$، $\\cos K = \\frac{15}{17}$، $\\tan K = \\frac{8}{15}$، $\\cot K = \\frac{15}{8}$، $\\sec K = \\frac{17}{15}$، $\\csc K = \\frac{17}{8}$",
+        "برای J: مقابل = LK = 15، مجاور = JL = 8.",
+        "$\\sin J = \\frac{15}{17}$، $\\cos J = \\frac{8}{17}$، $\\tan J = \\frac{15}{8}$، $\\cot J = \\frac{8}{15}$، $\\sec J = \\frac{17}{8}$، $\\csc J = \\frac{17}{15}$"
+      ],
+      "answer": "$\\sin K = \\cos J = \\frac{8}{17}$، $\\cos K = \\sin J = \\frac{15}{17}$، $\\tan K = \\cot J = \\frac{8}{15}$، $\\tan J = \\cot K = \\frac{15}{8}$، $\\sec K = \\csc J = \\frac{17}{15}$، $\\sec J = \\csc K = \\frac{17}{8}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "شعاع دایره 20cm و طول قوس مقابل زاویهٔ مرکزی s = 85cm است. زاویهٔ مرکزی چند رادیان است؟",
+      "solution_steps_fa": [
+        "$\\theta = \\frac{s}{r} = \\frac{85}{20} = 4.25$"
+      ],
+      "answer": "$4.25$ رادیان",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "قطر دایره 10cm است. طول قوس‌های مقابل زاویه‌های مرکزی ۱ رادیان و ۲ رادیان را دریابید.",
+      "solution_steps_fa": [
+        "شعاع: $r = 5\\,\\mathrm{cm}$",
+        "$s_1 = 5 \\times 1 = 5\\,\\mathrm{cm}$ و $s_2 = 5 \\times 2 = 10\\,\\mathrm{cm}$"
+      ],
+      "answer": "5cm و 10cm",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "ضلع دوم زاویه‌های $\\frac{3\\pi}{2}$، $-7\\pi$، $-\\frac{11\\pi}{2}$، $-500^\\circ$، $900^\\circ$ و $-\\pi$ کجا واقع می‌شود؟",
+      "solution_steps_fa": [
+        "$\\frac{3\\pi}{2}$: روی جهت منفی محور y.",
+        "$-7\\pi + 8\\pi = \\pi$: روی جهت منفی محور x.",
+        "$-\\frac{11\\pi}{2} + 6\\pi = \\frac{\\pi}{2}$: روی جهت مثبت محور y.",
+        "$-500^\\circ + 720^\\circ = 220^\\circ$: در ربع سوم.",
+        "$900^\\circ - 720^\\circ = 180^\\circ$: روی جهت منفی محور x.",
+        "$-\\pi$: روی جهت منفی محور x."
+      ],
+      "answer": "$\\frac{3\\pi}{2}$: محور y منفی؛ $-7\\pi$، $900^\\circ$ و $-\\pi$: محور x منفی؛ $-\\frac{11\\pi}{2}$: محور y مثبت؛ $-500^\\circ$: ربع سوم",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "به درجه تبدیل کنید: $\\frac{\\pi}{8}$، $\\frac{\\pi}{15}$، $\\frac{\\pi}{4}$، $\\frac{\\pi}{3}$، $\\frac{\\pi}{2}$، $\\frac{\\pi}{6}$، $\\frac{17\\pi}{45}$",
+      "solution_steps_fa": [
+        "به جای $\\pi$ عدد $180^\\circ$ می‌گذاریم.",
+        "$\\frac{180}{8} = 22.5^\\circ$، $\\frac{180}{15} = 12^\\circ$، $\\frac{180}{4} = 45^\\circ$، $\\frac{180}{3} = 60^\\circ$، $\\frac{180}{2} = 90^\\circ$، $\\frac{180}{6} = 30^\\circ$، $\\frac{17 \\times 180}{45} = 68^\\circ$"
+      ],
+      "answer": "$22.5^\\circ$، $12^\\circ$، $45^\\circ$، $60^\\circ$، $90^\\circ$، $30^\\circ$، $68^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "در مدت ۵۴ دقیقه ساعت‌گرد و دقیقه‌گرد هر کدام چند رادیان می‌چرخند؟",
+      "solution_steps_fa": [
+        "دقیقه‌گرد در ۶۰ دقیقه یک دور می‌زند: $\\frac{54}{60} \\times 2\\pi = \\frac{9\\pi}{5}$",
+        "ساعت‌گرد در ۱۲ ساعت (۷۲۰ دقیقه) یک دور می‌زند: $\\frac{54}{720} \\times 2\\pi = \\frac{3\\pi}{20}$"
+      ],
+      "answer": "دقیقه‌گرد $\\frac{9\\pi}{5}$ و ساعت‌گرد $\\frac{3\\pi}{20}$ رادیان",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹",
+      "kind": "exercise",
+      "problem_fa": "قطر تایر کوچک تراکتور ۱ متر و قطر تایر بزرگ 120cm است. وقتی تایر کوچک $70^\\circ$ بچرخد، تایر بزرگ چند رادیان می‌چرخد؟",
+      "solution_steps_fa": [
+        "هر دو تایر فاصلهٔ مساوی طی می‌کنند، پس طول قوس برابر است: $r_1\\theta_1 = r_2\\theta_2$.",
+        "$\\theta_1 = 70^\\circ = \\frac{7\\pi}{18}$، $r_1 = 50\\,\\mathrm{cm}$، $r_2 = 60\\,\\mathrm{cm}$",
+        "$\\theta_2 = \\frac{50}{60} \\times \\frac{7\\pi}{18} = \\frac{35\\pi}{108} \\approx 1.02$ رادیان"
+      ],
+      "answer": "$\\frac{35\\pi}{108} \\approx 1.02$ رادیان",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰",
+      "kind": "exercise",
+      "problem_fa": "چرخی در یک ساعت ۳۰۰ دور می‌زند. در یک ثانیه چند رادیان می‌پیماید؟",
+      "solution_steps_fa": [
+        "در یک ساعت: $300 \\times 2\\pi = 600\\pi$ رادیان",
+        "یک ساعت ۳۶۰۰ ثانیه است: $\\frac{600\\pi}{3600} = \\frac{\\pi}{6}$"
+      ],
+      "answer": "$\\frac{\\pi}{6}$ رادیان در ثانیه",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۱",
+      "kind": "exercise",
+      "problem_fa": "زوایای یک مثلث $4x$ درجه، $\\frac{70x}{9}$ گراد و $\\frac{\\pi x}{20}$ رادیان است. هر زاویه چند درجه است؟",
+      "solution_steps_fa": [
+        "$\\frac{70x}{9}$ گراد $= \\frac{70x}{9} \\times \\frac{9}{10} = 7x$ درجه",
+        "$\\frac{\\pi x}{20}$ رادیان $= \\frac{x}{20} \\times 180 = 9x$ درجه",
+        "$4x + 7x + 9x = 180 \\Rightarrow 20x = 180 \\Rightarrow x = 9$"
+      ],
+      "answer": "$36^\\circ$، $63^\\circ$ و $81^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۲",
+      "kind": "exercise",
+      "problem_fa": "A، B، C و D زوایای یک چهارضلعی‌اند. $\\hat{A} + \\hat{D} = 240^\\circ$، $\\hat{C} + \\hat{D} = 200g$ و (در صفحهٔ بعد) $\\hat{B} + \\hat{D} = \\frac{2\\pi}{3}$ رادیان. زوایا را به درجه دریابید.",
+      "solution_steps_fa": [
+        "$200g = 180^\\circ$ و $\\frac{2\\pi}{3} = 120^\\circ$",
+        "سه رابطه را جمع می‌کنیم: $(A+B+C+D) + 2D = 240 + 180 + 120 = 540$",
+        "مجموع زوایای چهارضلعی $360^\\circ$ است: $360 + 2D = 540 \\Rightarrow D = 90^\\circ$",
+        "$A = 150^\\circ$، $C = 90^\\circ$، $B = 30^\\circ$"
+      ],
+      "answer": "$A = 150^\\circ$، $B = 30^\\circ$، $C = 90^\\circ$، $D = 90^\\circ$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "سوال ۱۲ در صفحهٔ بعد ادامه دارد (شرط $\\hat{B}+\\hat{D}$ آنجاست). در سوال ۲ «یک ساعت» به معنای ۶۰ دقیقه گرفته شد."
+}

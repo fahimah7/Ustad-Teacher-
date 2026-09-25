@@ -1,0 +1,57 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 296,
+  "printed_page": 289,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "ضرب اعداد مختلط",
+  "summary_fa": "این درس نشان می‌دهد که دو عدد مختلط را چطور ضرب کنیم. روش مانند ضرب دو افادهٔ دوحده است: هر حد عدد اول را در هر حد عدد دوم ضرب می‌کنیم، بعد به جای $i^2$ عدد $-1$ می‌گذاریم و حدود مشابه را یکجا می‌کنیم. نتیجهٔ عمومی این است: $(a+bi)(c+di)=(ac-bd)+(ad+bc)i$. مثال ۱ حاصل‌ضرب $(5-4i)(7-2i)$ را قدم به قدم حساب می‌کند و یک فعالیت همان پرسش آغاز درس یعنی $(2-3i)(3+4i)$ را می‌خواهد. در آخر گفته می‌شود که $1+0i$ عنصر عینیت ضرب است، چون ضرب آن در هر عدد مختلط همان عدد را می‌دهد.",
+  "key_points_fa": [
+    "هر حد را در هر حد ضرب کنید (مانند ضرب دو دوحده‌یی).",
+    "در آخر $i^2=-1$ بگذارید و قسمت حقیقی و موهومی را جدا یکجا کنید.",
+    "$(a+bi)(c+di)=(ac-bd)+(ad+bc)i$",
+    "عنصر عینیت ضرب: $1+0i$؛ $(a+bi)(1+0i)=a+bi$."
+  ],
+  "formulas": [
+    {"latex": "z_1\\cdot z_2=(a+bi)(c+di)=(ac-bd)+(ad+bc)i", "meaning_fa": "فورمول ضرب دو عدد مختلط"},
+    {"latex": "(a+bi)(1+0i)=a+bi", "meaning_fa": "عنصر عینیت ضرب"}
+  ],
+  "terms": [
+    {"fa": "حاصل‌ضرب", "en": "product"},
+    {"fa": "عنصر عینیت ضرب", "en": "multiplicative identity"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "illustration", "description_fa": "دایرهٔ سفید با پرسش $(2-3i)(3+4i)=?$ روی یک نوار زرد؛ همان پرسش آغاز درس که جواب آن $18-i$ است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت فورمول",
+      "problem_fa": "حاصل‌ضرب $z_1=a+bi$ و $z_2=c+di$ را به دست آرید.",
+      "steps_fa": ["$(a+bi)(c+di)=ac+adi+bci+bdi^2$", "$=ac+(ad+bc)i+bd(-1)$", "$=(ac-bd)+(ad+bc)i$"],
+      "answer": "$(ac-bd)+(ad+bc)i$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "حاصل‌ضرب $(5-4i)(7-2i)$ را به دست آرید.",
+      "steps_fa": ["$5(7)+5(-2i)+(-4i)(7)+(-4i)(-2i)=35-10i-28i+8i^2$", "$=35-38i+8(-1)$", "$=35-38i-8=27-38i$"],
+      "answer": "$27-38i$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت (و پرسش آغاز درس)",
+      "kind": "activity",
+      "problem_fa": "حاصل‌ضرب $(2-3i)(3+4i)$ را به دست آرید.",
+      "solution_steps_fa": ["$2(3)+2(4i)+(-3i)(3)+(-3i)(4i)=6+8i-9i-12i^2$", "$=6-i-12(-1)=6-i+12$", "$=18-i$"],
+      "answer": "$18-i$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

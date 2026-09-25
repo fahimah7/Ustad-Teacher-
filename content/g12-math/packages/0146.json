@@ -1,0 +1,47 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 146,
+  "printed_page": 139,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "مجموع ریمان",
+  "summary_fa": "این صفحه حل کامل مثال ۲ را نشان می‌دهد: لیمت مجموع ریمان $f(x) = 1 + x$ روی $[1, 10]$. اول عرض مستطیل‌ها $\\Delta x = \\frac{9}{n}$ و نقاط $x_i = 1 + \\frac{9}{n}i$ نوشته می‌شوند. بعد $f(x_i)$ در مجموع جای‌گزین می‌شود، مجموع به چند مجموع ساده‌تر شکسته می‌شود و با فورمول‌های مجموع (در بخش یادداشت) مانند $\\sum 1 = n$ و $\\sum i = \\frac{n(n+1)}{2}$ به یک عبارت بر حسب n تبدیل می‌شود. در آخر از این عبارت لیمت گرفته می‌شود؛ کسرهایی که n در مخرج دارند به صفر می‌روند و جواب ۵۸.۵ به دست می‌آید که مساحت دقیق زیر خط است.",
+  "key_points_fa": [
+    "روش کار: $\\Delta x$ و $x_i$ را بنویسید، $f(x_i)$ را جای‌گزین کنید، مجموع را با فورمول‌ها ساده کنید، بعد لیمت بگیرید.",
+    "$\\Delta x$ به i وابسته نیست، پس می‌توان آن را بیرون از علامهٔ مجموع نوشت.",
+    "جمله‌هایی مانند $\\frac{81}{2n}$ وقتی $n \\to \\infty$ به صفر نزدیک می‌شوند.",
+    "جواب را می‌توان با مساحت ذوزنقه امتحان کرد: $\\frac{(2 + 11)}{2}\\cdot 9 = 58.5$"
+  ],
+  "formulas": [
+    {"latex": "\\sum_{i=1}^{n} c = cn", "meaning_fa": "مجموع یک عدد ثابت n بار"},
+    {"latex": "\\sum_{i=1}^{n} i = \\frac{n(n+1)}{2}", "meaning_fa": "مجموع اعداد طبیعی از ۱ تا n"},
+    {"latex": "\\sum_{i=1}^{n} i^2 = \\frac{n(n+1)(2n+1)}{6}", "meaning_fa": "مجموع مربع‌های اعداد طبیعی از ۱ تا n"}
+  ],
+  "terms": [
+    {"fa": "لیمت مجموع ریمان", "en": "limit of a Riemann sum"},
+    {"fa": "یادداشت", "en": "note"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲ (حل)",
+      "problem_fa": "$\\lim_{n\\to\\infty}\\sum_{i=1}^{n} f(x_i)\\Delta x$ برای $f(x) = 1 + x$ روی $[1, 10]$",
+      "steps_fa": [
+        "$\\Delta x = \\frac{10 - 1}{n} = \\frac{9}{n}$ و $x_i = 1 + \\frac{9}{n}i$",
+        "$\\sum (1 + x_i)\\Delta x = \\Delta x\\sum 1 + \\Delta x\\sum x_i = \\frac{9}{n}\\sum 1 + \\frac{9}{n}\\sum\\left(1 + \\frac{9}{n}i\\right)$",
+        "$= \\frac{9}{n}\\cdot n + \\frac{9}{n}\\left(n + \\frac{9}{n}\\cdot\\frac{n(n+1)}{2}\\right)$",
+        "$= 9 + \\frac{9}{n}\\cdot\\frac{11n^2 + 9n}{2n} = 9 + \\frac{99n^2 + 81n}{2n^2}$",
+        "$= 9 + \\frac{99}{2} + \\frac{81}{2n}$",
+        "وقتی $n \\to \\infty$، $\\frac{81}{2n} \\to 0$؛ پس لیمت $9 + \\frac{99}{2} = 58.5$ است."
+      ],
+      "answer": "$58.5$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

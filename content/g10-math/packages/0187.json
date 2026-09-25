@@ -1,0 +1,60 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 187,
+  "printed_page": 180,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "ارتباط بین نسبت‌های مثلثاتی دو زاویه که مجموعه و یا فرق شان $\\pi$ یا $180^\\circ$ باشد",
+  "summary_fa": "این صفحه حالت دوم درس را بررسی می‌کند: دو زاویه که فرق آن‌ها $180^\\circ$ (یا $\\pi$ رادیان) است، یعنی زاویهٔ حادهٔ $\\theta$ و زاویهٔ $\\pi + \\theta$. ضلع دوم $\\theta$ دایرهٔ مثلثاتی را در $M(x,y)$ و ضلع دوم $\\pi + \\theta$ آن را در $M_1(x_1,y_1)$ در ربع سوم قطع می‌کند؛ این دو نقطه دو سر یک قطر دایره‌اند. از مساوی بودن مثلث‌های $OAM$ و $OBM_1$ نتیجه می‌شود که $x_1 = -x$ و $y_1 = -y$. بنابراین sin، cos، sec و csc زاویهٔ $180^\\circ + \\theta$ قرینهٔ نسبت‌های $\\theta$ هستند، ولی tan و cot تغییر نمی‌کنند، چون تقسیم دو عدد منفی مثبت می‌شود. در مثال ۱ با این رابطه‌ها نسبت‌های $120^\\circ = 180^\\circ - 60^\\circ$ و $240^\\circ = 180^\\circ + 60^\\circ$ از نسبت‌های $60^\\circ$ حساب می‌شوند؛ ادامهٔ مثال در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "نقطهٔ $180^\\circ + \\theta$ قرینهٔ نقطهٔ $\\theta$ نسبت به مبدأ O است: $x_1 = -x$، $y_1 = -y$.",
+    "$\\sin(180^\\circ + \\theta) = -\\sin\\theta$ و $\\cos(180^\\circ + \\theta) = -\\cos\\theta$.",
+    "$\\tan(180^\\circ + \\theta) = \\tan\\theta$ و $\\cot(180^\\circ + \\theta) = \\cot\\theta$.",
+    "$\\sec(180^\\circ + \\theta) = -\\sec\\theta$ و $\\csc(180^\\circ + \\theta) = -\\csc\\theta$.",
+    "زاویهٔ منفرجه یا بزرگ‌تر را به شکل $180^\\circ \\pm$ یک زاویهٔ حاده بنویسید."
+  ],
+  "formulas": [
+    {"latex": "x_1 = -x,\\quad y_1 = -y", "meaning_fa": "نقطه‌های $\\theta$ و $\\pi + \\theta$ نسبت به مبدأ قرینه‌اند"},
+    {"latex": "\\sin(\\pi + \\theta) = -\\sin\\theta,\\quad \\cos(\\pi + \\theta) = -\\cos\\theta", "meaning_fa": "sin و cos قرینه می‌شوند"},
+    {"latex": "\\tan(\\pi + \\theta) = \\frac{-\\sin\\theta}{-\\cos\\theta} = \\tan\\theta,\\quad \\cot(\\pi + \\theta) = \\cot\\theta", "meaning_fa": "tan و cot تغییر نمی‌کنند"},
+    {"latex": "\\sec(\\pi + \\theta) = -\\sec\\theta,\\quad \\csc(\\pi + \\theta) = -\\csc\\theta", "meaning_fa": "sec و csc قرینه می‌شوند"}
+  ],
+  "terms": [
+    {"fa": "زاویهٔ حاده", "en": "acute angle"},
+    {"fa": "رادیان", "en": "radian"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.17, 0.15, 0.49, 0.37], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی با محورهای x و y. قطر نارنجی از نقطهٔ $M(x,y)$ در ربع اول از مرکز O می‌گذرد و به $M_1(x_1,y_1)$ در ربع سوم می‌رسد. زاویهٔ $\\theta$ در ربع اول و قوس بزرگ $\\pi + \\theta$ تا $M_1$ نشان داده شده‌اند؛ نقطه‌های A و B پای عمودها روی محور x هستند و مثلث‌های مساوی $OAM$ و $OBM_1$ را می‌سازند. شکل نشان می‌دهد که x و y هر دو قرینه می‌شوند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "اثبات روابط $\\theta$ و $\\pi + \\theta$",
+      "problem_fa": "شش نسبت مثلثاتی $180^\\circ + \\theta$ را بر حسب نسبت‌های $\\theta$ بنویسید.",
+      "steps_fa": [
+        "از مساوی بودن مثلث‌های $OAM$ و $OBM_1$: $y_1 = -y$ و $x_1 = -x$ ($r = 1$).",
+        "$\\sin(180^\\circ + \\theta) = y_1 = -y = -\\sin\\theta$ و $\\cos(180^\\circ + \\theta) = x_1 = -x = -\\cos\\theta$",
+        "$\\tan(180^\\circ + \\theta) = \\frac{-\\sin\\theta}{-\\cos\\theta} = \\tan\\theta$ و $\\cot(180^\\circ + \\theta) = \\frac{-\\cos\\theta}{-\\sin\\theta} = \\cot\\theta$",
+        "$\\sec(180^\\circ + \\theta) = \\frac{1}{-\\cos\\theta} = -\\sec\\theta$ و $\\csc(180^\\circ + \\theta) = \\frac{1}{-\\sin\\theta} = -\\csc\\theta$"
+      ],
+      "answer": "sin، cos، sec و csc قرینه می‌شوند؛ tan و cot تغییر نمی‌کنند.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "نسبت‌های مثلثاتی زوایای $120^\\circ$ و $240^\\circ$ را دریابید (ادامه در صفحهٔ بعد).",
+      "steps_fa": [
+        "$120^\\circ = 180^\\circ - 60^\\circ$: $\\sin 120^\\circ = \\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$",
+        "$\\cos 120^\\circ = -\\cos 60^\\circ = -\\frac{1}{2}$ و $\\tan 120^\\circ = -\\tan 60^\\circ = -\\sqrt{3}$",
+        "$240^\\circ = 180^\\circ + 60^\\circ$: $\\sin 240^\\circ = -\\sin 60^\\circ = -\\frac{\\sqrt{3}}{2}$"
+      ],
+      "answer": "$\\sin 120^\\circ = \\frac{\\sqrt{3}}{2}$، $\\cos 120^\\circ = -\\frac{1}{2}$، $\\tan 120^\\circ = -\\sqrt{3}$، $\\sin 240^\\circ = -\\frac{\\sqrt{3}}{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "زیرعنوان این صفحه در کتاب: «ارتباط بین نسبت‌های مثلثاتی دو زاویه‌یی که فرقشان $180^\\circ$ و یا $\\pi$ رادیان باشد»."
+}

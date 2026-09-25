@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-math",
+  "chapter": 4,
+  "title": {
+    "en": "Trigonometric functions",
+    "fa": "توابع مثلثاتی"
+  },
+  "questions": [
+    {
+      "pdf_page": 161,
+      "q": {
+        "en": "How many radians is $225^\\circ$?",
+        "fa": "زاویهٔ $225^\\circ$ چند رادیان است؟"
+      },
+      "options": [
+        {
+          "en": "$\\frac{4\\pi}{5}$",
+          "fa": "$\\frac{4\\pi}{5}$"
+        },
+        {
+          "en": "$\\frac{5\\pi}{6}$",
+          "fa": "$\\frac{5\\pi}{6}$"
+        },
+        {
+          "en": "$\\frac{3\\pi}{4}$",
+          "fa": "$\\frac{3\\pi}{4}$"
+        },
+        {
+          "en": "$\\frac{5\\pi}{4}$",
+          "fa": "$\\frac{5\\pi}{4}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Multiply the degrees by $\\frac{\\pi}{180}$: $225 \\cdot \\frac{\\pi}{180} = \\frac{225\\pi}{180} = \\frac{5\\pi}{4}$.",
+        "fa": "درجه را در $\\frac{\\pi}{180}$ ضرب می‌کنیم: $225 \\cdot \\frac{\\pi}{180} = \\frac{225\\pi}{180} = \\frac{5\\pi}{4}$."
+      },
+      "idea": {
+        "en": "Use $\\frac{D}{180} = \\frac{R}{\\pi}$. As a check, $225^\\circ = 180^\\circ + 45^\\circ = \\pi + \\frac{\\pi}{4}$.",
+        "fa": "از تناسب $\\frac{D}{180} = \\frac{R}{\\pi}$ استفاده کنید. برای امتحان: $225^\\circ = 180^\\circ + 45^\\circ = \\pi + \\frac{\\pi}{4}$."
+      }
+    },
+    {
+      "pdf_page": 168,
+      "q": {
+        "en": "Which angle is coterminal with $-45^\\circ$ in standard position?",
+        "fa": "کدام زاویه در حالت معیاری با زاویهٔ $-45^\\circ$ کوترمینل است؟"
+      },
+      "options": [
+        {
+          "en": "$315^\\circ$",
+          "fa": "$315^\\circ$"
+        },
+        {
+          "en": "$45^\\circ$",
+          "fa": "$45^\\circ$"
+        },
+        {
+          "en": "$135^\\circ$",
+          "fa": "$135^\\circ$"
+        },
+        {
+          "en": "$405^\\circ$",
+          "fa": "$405^\\circ$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Coterminal angles differ by whole turns: $-45^\\circ + 360^\\circ = 315^\\circ$, so both have the same terminal side, in quadrant IV.",
+        "fa": "زوایای کوترمینل به اندازهٔ دورهای کامل از هم فرق دارند: $-45^\\circ + 360^\\circ = 315^\\circ$؛ پس ضلع دوم هر دو در ربع چهارم روی هم می‌افتد."
+      },
+      "idea": {
+        "en": "Add or subtract $360^\\circ$ (or $n \\cdot 360^\\circ$). $405^\\circ = 45^\\circ + 360^\\circ$ is coterminal with $+45^\\circ$, not with $-45^\\circ$.",
+        "fa": "$360^\\circ$ (یا $n \\cdot 360^\\circ$) را جمع یا تفریق کنید. $405^\\circ = 45^\\circ + 360^\\circ$ با $45^\\circ$ کوترمینل است، نه با $-45^\\circ$."
+      }
+    },
+    {
+      "pdf_page": 174,
+      "q": {
+        "en": "The terminal side of $\\theta$ is in quadrant III and $\\sin\\theta = -\\frac{5}{13}$. What is $\\tan\\theta$?",
+        "fa": "ضلع دوم زاویهٔ $\\theta$ در ربع سوم است و $\\sin\\theta = -\\frac{5}{13}$. قیمت $\\tan\\theta$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "$-\\frac{5}{12}$",
+          "fa": "$-\\frac{5}{12}$"
+        },
+        {
+          "en": "$\\frac{5}{12}$",
+          "fa": "$\\frac{5}{12}$"
+        },
+        {
+          "en": "$\\frac{12}{5}$",
+          "fa": "$\\frac{12}{5}$"
+        },
+        {
+          "en": "$-\\frac{12}{13}$",
+          "fa": "$-\\frac{12}{13}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Take $y = -5$ and $r = 13$; then $x^2 = 13^2 - 5^2 = 144$, and in quadrant III $x = -12$. So $\\tan\\theta = \\frac{y}{x} = \\frac{-5}{-12} = \\frac{5}{12}$.",
+        "fa": "$y = -5$ و $r = 13$ می‌گیریم؛ پس $x^2 = 13^2 - 5^2 = 144$ و در ربع سوم $x = -12$ است. بنابراین $\\tan\\theta = \\frac{y}{x} = \\frac{-5}{-12} = \\frac{5}{12}$."
+      },
+      "idea": {
+        "en": "In quadrant III both $x$ and $y$ are negative, so tan and cot are positive. $-\\frac{12}{13}$ is $\\cos\\theta$, and $\\frac{12}{5}$ is $\\cot\\theta$.",
+        "fa": "در ربع سوم $x$ و $y$ هر دو منفی‌اند، پس tan و cot مثبت‌اند. $-\\frac{12}{13}$ قیمت $\\cos\\theta$ و $\\frac{12}{5}$ قیمت $\\cot\\theta$ است."
+      }
+    },
+    {
+      "pdf_page": 196,
+      "q": {
+        "en": "What is $\\cos 510^\\circ$?",
+        "fa": "قیمت $\\cos 510^\\circ$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{\\sqrt{3}}{2}$",
+          "fa": "$\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "en": "$-\\frac{1}{2}$",
+          "fa": "$-\\frac{1}{2}$"
+        },
+        {
+          "en": "$-\\frac{\\sqrt{3}}{2}$",
+          "fa": "$-\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "en": "$\\frac{1}{2}$",
+          "fa": "$\\frac{1}{2}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$510^\\circ = 360^\\circ + 150^\\circ$, so $\\cos 510^\\circ = \\cos 150^\\circ = \\cos(180^\\circ - 30^\\circ) = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$.",
+        "fa": "$510^\\circ = 360^\\circ + 150^\\circ$ است، پس $\\cos 510^\\circ = \\cos 150^\\circ = \\cos(180^\\circ - 30^\\circ) = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$."
+      },
+      "idea": {
+        "en": "First remove a full turn ($360^\\circ$), then relate $150^\\circ$ to an acute angle; cos is negative in quadrant II.",
+        "fa": "اول یک دور کامل ($360^\\circ$) را کم کنید، بعد $150^\\circ$ را با یک زاویهٔ حاده ربط دهید؛ cos در ربع دوم منفی است."
+      }
+    },
+    {
+      "pdf_page": 204,
+      "q": {
+        "en": "What are the period and the amplitude of $y = -3\\cos 4x$?",
+        "fa": "پریود و دامنه (Amplitude) تابع $y = -3\\cos 4x$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "period $\\frac{\\pi}{2}$, amplitude $3$",
+          "fa": "پریود $\\frac{\\pi}{2}$ و دامنه $3$"
+        },
+        {
+          "en": "period $8\\pi$, amplitude $3$",
+          "fa": "پریود $8\\pi$ و دامنه $3$"
+        },
+        {
+          "en": "period $\\frac{\\pi}{2}$, amplitude $-3$",
+          "fa": "پریود $\\frac{\\pi}{2}$ و دامنه $-3$"
+        },
+        {
+          "en": "period $\\frac{\\pi}{4}$, amplitude $3$",
+          "fa": "پریود $\\frac{\\pi}{4}$ و دامنه $3$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "For $a\\cos bx$ the period is $\\frac{2\\pi}{b} = \\frac{2\\pi}{4} = \\frac{\\pi}{2}$ and the amplitude is $|a| = |-3| = 3$.",
+        "fa": "برای $a\\cos bx$ پریود $\\frac{2\\pi}{b} = \\frac{2\\pi}{4} = \\frac{\\pi}{2}$ و دامنه $|a| = |-3| = 3$ است."
+      },
+      "idea": {
+        "en": "Divide $2\\pi$ by $b$ (do not multiply), and remember that the amplitude is an absolute value, so it is never negative.",
+        "fa": "$2\\pi$ را بر $b$ تقسیم کنید (نه ضرب) و به یاد داشته باشید که دامنه قیمت مطلقه است و منفی نمی‌شود."
+      }
+    }
+  ]
+}

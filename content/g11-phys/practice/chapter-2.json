@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-phys",
+  "chapter": 2,
+  "title": {
+    "en": "Motion in one dimension",
+    "fa": "حرکت یک بعدی"
+  },
+  "questions": [
+    {
+      "pdf_page": 63,
+      "q": {
+        "en": "A runner goes once around a circular track of radius $50\\,\\mathrm{m}$ and stops at the starting point. What is the magnitude of the runner's displacement?",
+        "fa": "یک دونده یک دور کامل روی مسیر دایره‌یی به شعاع $50\\,\\mathrm{m}$ می‌دود و در نقطۀ شروع می‌ایستد. اندازۀ تغییر مکان او چند است؟"
+      },
+      "options": [
+        {
+          "en": "$314\\,\\mathrm{m}$",
+          "fa": "$314\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$0$",
+          "fa": "$0$"
+        },
+        {
+          "en": "$100\\,\\mathrm{m}$",
+          "fa": "$100\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$157\\,\\mathrm{m}$",
+          "fa": "$157\\,\\mathrm{m}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Displacement is the straight line from the start point to the end point, $\\Delta\\vec r = \\vec r_2 - \\vec r_1$. The runner ends where he started, so the displacement is zero, although the path is $2\\pi r \\approx 314\\,\\mathrm{m}$ long.",
+        "fa": "تغییر مکان خط مستقیم از نقطۀ شروع تا نقطۀ ختم است، $\\Delta\\vec r = \\vec r_2 - \\vec r_1$. دونده در همان نقطۀ شروع ایستاده، پس تغییر مکان صفر است، با آن‌که طول مسیر $2\\pi r \\approx 314\\,\\mathrm{m}$ است."
+      },
+      "idea": {
+        "en": "Do not confuse the length of the path with the displacement; the displacement depends only on the start and end points.",
+        "fa": "طول مسیر پیموده‌شده را با تغییر مکان یکی نگیرید؛ تغییر مکان فقط به نقطۀ شروع و ختم بستگی دارد."
+      }
+    },
+    {
+      "pdf_page": 64,
+      "q": {
+        "en": "A car on a straight road is at $x_1 = 20\\,\\mathrm{m}$ at $t_1 = 2\\,\\mathrm{s}$ and at $x_2 = 80\\,\\mathrm{m}$ at $t_2 = 14\\,\\mathrm{s}$. What is its average velocity in this interval?",
+        "fa": "موتری روی یک سرک مستقیم در لحظۀ $t_1 = 2\\,\\mathrm{s}$ در $x_1 = 20\\,\\mathrm{m}$ و در لحظۀ $t_2 = 14\\,\\mathrm{s}$ در $x_2 = 80\\,\\mathrm{m}$ است. سرعت متوسط آن در این انتروال چند است؟"
+      },
+      "options": [
+        {
+          "en": "$5.7\\,\\mathrm{m/s}$",
+          "fa": "$5.7\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$10\\,\\mathrm{m/s}$",
+          "fa": "$10\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$6.7\\,\\mathrm{m/s}$",
+          "fa": "$6.7\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$5\\,\\mathrm{m/s}$",
+          "fa": "$5\\,\\mathrm{m/s}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$\\bar V = \\frac{x_2 - x_1}{t_2 - t_1} = \\frac{80 - 20}{14 - 2} = \\frac{60\\,\\mathrm{m}}{12\\,\\mathrm{s}} = 5\\,\\mathrm{m/s}$.",
+        "fa": "$\\bar V = \\frac{x_2 - x_1}{t_2 - t_1} = \\frac{80 - 20}{14 - 2} = \\frac{60\\,\\mathrm{m}}{12\\,\\mathrm{s}} = 5\\,\\mathrm{m/s}$ است."
+      },
+      "idea": {
+        "en": "Average velocity is the change in position divided by the change in time: subtract the first value from the last one in both the numerator and the denominator.",
+        "fa": "سرعت متوسط تغییر موقعیت تقسیم بر تغییر زمان است؛ هم در صورت و هم در مخرج، قیمت اول را از قیمت آخر تفریق کنید."
+      }
+    },
+    {
+      "pdf_page": 70,
+      "q": {
+        "en": "The velocity-time ($v$-$t$) graph of a moving body is a horizontal line above the time axis. What does this show?",
+        "fa": "گراف سرعت - زمان ($v$-$t$) یک متحرک، یک خط افقی بالای محور زمان است. این گراف چه چیز را نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "The body moves with constant velocity and its acceleration is zero",
+          "fa": "جسم با سرعت ثابت حرکت می‌کند و شتاب آن صفر است"
+        },
+        {
+          "en": "The body is at rest",
+          "fa": "جسم ساکن است"
+        },
+        {
+          "en": "The body moves with a constant non-zero acceleration",
+          "fa": "جسم با شتاب ثابت و غیر صفر حرکت می‌کند"
+        },
+        {
+          "en": "The body's velocity increases steadily with time",
+          "fa": "سرعت جسم با گذشت زمان به طور منظم زیاد می‌شود"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "In a $v$-$t$ graph the height of the line is the velocity and its slope is the acceleration. A horizontal line means the velocity does not change, so the slope, that is the acceleration, is zero.",
+        "fa": "در گراف $v$-$t$ ارتفاع خط سرعت را و میل آن شتاب را نشان می‌دهد. خط افقی یعنی سرعت تغییر نمی‌کند، پس میل آن، یعنی شتاب، صفر است."
+      },
+      "idea": {
+        "en": "Do not read a $v$-$t$ graph like an $x$-$t$ graph: a horizontal line above the axis means a constant, non-zero velocity, not rest. Rest would be the line $v = 0$.",
+        "fa": "گراف $v$-$t$ را مانند گراف $x$-$t$ نخوانید: خط افقی بالای محور یعنی سرعت ثابت و غیر صفر، نه سکون. سکون خط $v = 0$ است."
+      }
+    },
+    {
+      "pdf_page": 75,
+      "q": {
+        "en": "A car moving at $72\\,\\mathrm{km/h}$ brakes with a constant acceleration $a = -4\\,\\mathrm{m/s^2}$ until it stops. How far does it travel while braking?",
+        "fa": "موتری با سرعت $72\\,\\mathrm{km/h}$ حرکت می‌کند و با شتاب ثابت $a = -4\\,\\mathrm{m/s^2}$ برک می‌کند تا بایستد. در مدت برک چه فاصله‌یی می‌پیماید؟"
+      },
+      "options": [
+        {
+          "en": "$648\\,\\mathrm{m}$",
+          "fa": "$648\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$100\\,\\mathrm{m}$",
+          "fa": "$100\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$50\\,\\mathrm{m}$",
+          "fa": "$50\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$5\\,\\mathrm{m}$",
+          "fa": "$5\\,\\mathrm{m}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "First change the speed to SI units: $72\\,\\mathrm{km/h} = 20\\,\\mathrm{m/s}$. From $v^2 - v_0^2 = 2a\\,\\Delta x$: $0 - 20^2 = 2(-4)\\,\\Delta x$, so $\\Delta x = \\frac{400}{8} = 50\\,\\mathrm{m}$.",
+        "fa": "اول سرعت را به SI تبدیل کنید: $72\\,\\mathrm{km/h} = 20\\,\\mathrm{m/s}$. از $v^2 - v_0^2 = 2a\\,\\Delta x$ داریم $0 - 20^2 = 2(-4)\\,\\Delta x$، پس $\\Delta x = \\frac{400}{8} = 50\\,\\mathrm{m}$."
+      },
+      "idea": {
+        "en": "When the time is not given, use the time-free relation $v^2 - v_0^2 = 2a\\,\\Delta x$. Divide km/h by $3.6$ to get m/s, and do not forget the factor 2.",
+        "fa": "وقتی زمان داده نشده، رابطۀ بدون زمان $v^2 - v_0^2 = 2a\\,\\Delta x$ را به کار ببرید. برای تبدیل km/h به m/s عدد را بر $3.6$ تقسیم کنید و ضریب 2 را فراموش نکنید."
+      }
+    },
+    {
+      "pdf_page": 77,
+      "q": {
+        "en": "A stone is released from rest at a height of $45\\,\\mathrm{m}$ ($g = 10\\,\\mathrm{m/s^2}$, no air resistance). How long does it take to reach the ground, and what is its speed then?",
+        "fa": "سنگی از ارتفاع $45\\,\\mathrm{m}$ بدون سرعت اولیه رها می‌شود ($g = 10\\,\\mathrm{m/s^2}$، از مقاومت هوا صرف نظر شود). پس از چند ثانیه به زمین می‌رسد و سرعتش در آن لحظه چند است؟"
+      },
+      "options": [
+        {
+          "en": "$4.5\\,\\mathrm{s}$ and $45\\,\\mathrm{m/s}$",
+          "fa": "$4.5\\,\\mathrm{s}$ و $45\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$3\\,\\mathrm{s}$ and $30\\,\\mathrm{m/s}$",
+          "fa": "$3\\,\\mathrm{s}$ و $30\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$9\\,\\mathrm{s}$ and $90\\,\\mathrm{m/s}$",
+          "fa": "$9\\,\\mathrm{s}$ و $90\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$3\\,\\mathrm{s}$ and $15\\,\\mathrm{m/s}$",
+          "fa": "$3\\,\\mathrm{s}$ و $15\\,\\mathrm{m/s}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$t = \\sqrt{\\frac{2y}{g}} = \\sqrt{\\frac{2 \\times 45}{10}} = \\sqrt{9} = 3\\,\\mathrm{s}$ and $v = g\\,t = 10 \\times 3 = 30\\,\\mathrm{m/s}$.",
+        "fa": "$t = \\sqrt{\\frac{2y}{g}} = \\sqrt{\\frac{2 \\times 45}{10}} = \\sqrt{9} = 3\\,\\mathrm{s}$ و $v = g\\,t = 10 \\times 3 = 30\\,\\mathrm{m/s}$ است."
+      },
+      "idea": {
+        "en": "In free fall from rest $y = \\frac{1}{2}g t^2$, so take the square root of $\\frac{2y}{g}$. $15\\,\\mathrm{m/s}$ is the average speed, not the final speed.",
+        "fa": "در سقوط آزاد از سکون $y = \\frac{1}{2}g t^2$ است، پس از $\\frac{2y}{g}$ جذر بگیرید. $15\\,\\mathrm{m/s}$ سرعت متوسط است، نه سرعت آخری."
+      }
+    }
+  ]
+}

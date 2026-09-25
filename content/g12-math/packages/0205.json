@@ -1,0 +1,129 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 205,
+  "printed_page": 198,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "تمرینات عمومی فصل پنجم",
+  "summary_fa": "این صفحه تمرین‌های عمومی فصل پنجم را دارد و همهٔ مهارت‌های فصل را امتحان می‌کند: مشتق توابع لوگارتمی و اکسپوننشیل (سوال ۱ تا ۴ و ۷)، تجزیهٔ کسرهای واقعی به کسور قسمی (سوال ۵) و انتیگرال‌های گوناگون (سوال ۶). برای مشتق‌ها بهتر است اول لوگارتم را با خواص آن ساده کنید. برای $y = 2x^{2x}$ از لوگارتم گرفتن از دو طرف استفاده می‌شود. در انتیگرال‌ها از قاعدهٔ توان، تعویض، انتیگرال قسمی و کسور قسمی کار گرفته می‌شود.",
+  "key_points_fa": [
+    "پیش از مشتق گرفتن، $\\ln\\frac{u}{v} = \\ln u - \\ln v$ و $\\ln u^n = n\\ln u$ را به کار ببرید.",
+    "برای تابعی که متحول هم در قاعده و هم در توان دارد، از دو طرف لوگارتم بگیرید.",
+    "$(\\ln u)' = \\frac{u'}{u}$ و $(e^u)' = u'e^u$",
+    "در انتیگرال معین با تعویض، سرحدات را هم تبدیل کنید."
+  ],
+  "formulas": [
+    {"latex": "(\\ln u)' = \\frac{u'}{u}", "meaning_fa": "مشتق لوگارتم طبیعی یک تابع"},
+    {"latex": "(a^u)' = a^u\\ln a\\cdot u'", "meaning_fa": "مشتق تابع اکسپوننشیل با توان متحول"},
+    {"latex": "\\int u\\,dv = uv - \\int v\\,du", "meaning_fa": "انتیگرال قسمی (برای $\\int xe^{-x}dx$)"}
+  ],
+  "terms": [
+    {"fa": "کسر واقعی", "en": "proper rational fraction"},
+    {"fa": "کسور قسمی", "en": "partial fractions"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = \\ln\\frac{x-2}{x+2}$",
+      "solution_steps_fa": [
+        "$f(x) = \\ln(x-2) - \\ln(x+2)$",
+        "$f'(x) = \\frac{1}{x-2} - \\frac{1}{x+2} = \\frac{(x+2)-(x-2)}{x^2-4}$"
+      ],
+      "answer": "$f'(x) = \\frac{4}{x^2-4}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = \\ln\\sqrt{x-1}$",
+      "solution_steps_fa": [
+        "$f(x) = \\frac{1}{2}\\ln(x-1)$",
+        "$f'(x) = \\frac{1}{2}\\cdot\\frac{1}{x-1}$"
+      ],
+      "answer": "$f'(x) = \\frac{1}{2(x-1)}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "مشتق $y = 2x^{2x}$",
+      "solution_steps_fa": [
+        "از دو طرف لوگارتم طبیعی: $\\ln y = \\ln 2 + 2x\\ln x$",
+        "مشتق دو طرف: $\\frac{y'}{y} = 2\\ln x + 2x\\cdot\\frac{1}{x} = 2\\ln x + 2$",
+        "$y' = 2x^{2x}(2\\ln x + 2)$"
+      ],
+      "answer": "$y' = 4x^{2x}(\\ln x + 1)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = \\log\\sqrt{x^3}$",
+      "solution_steps_fa": [
+        "$f(x) = \\frac{3}{2}\\log x$",
+        "$f'(x) = \\frac{3}{2}\\cdot\\frac{1}{x\\ln 10}$"
+      ],
+      "answer": "$f'(x) = \\frac{3}{2x\\ln 10} = \\frac{3}{2x}\\log e$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "به کسور قسمی تجزیه کنید: (1) $\\frac{x+1}{x^2-x-6}$ (2) $\\frac{x^2-x+1}{x^3+2x^2+x}$ (3) $\\frac{2x^2+3}{(x^2+1)^2}$",
+      "solution_steps_fa": [
+        "(1) $x^2 - x - 6 = (x-3)(x+2)$؛ $x+1 = A(x+2) + B(x-3)$؛ با $x = 3$: $A = \\frac{4}{5}$، با $x = -2$: $B = \\frac{1}{5}$",
+        "(2) $x^3 + 2x^2 + x = x(x+1)^2$؛ شکل: $\\frac{A}{x} + \\frac{B}{x+1} + \\frac{C}{(x+1)^2}$؛ با $x = 0$: $A = 1$، با $x = -1$: $C = -3$، از ضریب $x^2$: $A + B = 1 \\Rightarrow B = 0$",
+        "(3) $2x^2 + 3 = 2(x^2+1) + 1$، پس کسر را به دو قسمت جدا می‌کنیم."
+      ],
+      "answer": "(1) $\\frac{4/5}{x-3} + \\frac{1/5}{x+2}$ ؛ (2) $\\frac{1}{x} - \\frac{3}{(x+1)^2}$ ؛ (3) $\\frac{2}{x^2+1} + \\frac{1}{(x^2+1)^2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶ (۱ تا ۴)",
+      "kind": "exercise",
+      "problem_fa": "(1) $\\int 5t^7dt$ (2) $\\int \\frac{x^3-3}{x^2}dx$ (3) $\\int (2\\cos x - 5\\sin x + e^x)dx$ (4) $\\int \\sqrt{\\cos x}\\,\\sin x\\,dx$",
+      "solution_steps_fa": [
+        "(1) قاعدهٔ توان: $5\\cdot\\frac{t^8}{8}$",
+        "(2) $\\frac{x^3-3}{x^2} = x - 3x^{-2}$ پس $\\frac{x^2}{2} + \\frac{3}{x}$",
+        "(3) $2\\sin x + 5\\cos x + e^x$",
+        "(4) $u = \\cos x,\\ du = -\\sin x\\,dx$ پس $-\\int u^{1/2}du = -\\frac{2}{3}u^{3/2}$"
+      ],
+      "answer": "(1) $\\frac{5}{8}t^8 + C$ ؛ (2) $\\frac{x^2}{2} + \\frac{3}{x} + C$ ؛ (3) $2\\sin x + 5\\cos x + e^x + C$ ؛ (4) $-\\frac{2}{3}(\\cos x)^{3/2} + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶ (۵ تا ۷)",
+      "kind": "exercise",
+      "problem_fa": "(5) $\\int xe^{-x}dx$ (6) $\\int \\frac{5}{(2x+1)(x-2)}dx$ (7) $\\int_{-1}^{1} 3x^2\\sqrt{x^3+1}\\,dx$",
+      "solution_steps_fa": [
+        "(5) انتیگرال قسمی با $u = x$ و $dv = e^{-x}dx$ ($v = -e^{-x}$): $-xe^{-x} + \\int e^{-x}dx = -xe^{-x} - e^{-x}$",
+        "(6) $\\frac{5}{(2x+1)(x-2)} = \\frac{-2}{2x+1} + \\frac{1}{x-2}$؛ انتیگرال $\\frac{-2}{2x+1}$ برابر $-\\ln|2x+1|$ است.",
+        "(7) $u = x^3 + 1,\\ du = 3x^2dx$؛ سرحدات: $x = -1 \\to u = 0$ و $x = 1 \\to u = 2$",
+        "(7) $\\int_0^2 \\sqrt{u}\\,du = \\left[\\frac{2}{3}u^{3/2}\\right]_0^2 = \\frac{2}{3}\\cdot 2\\sqrt{2}$"
+      ],
+      "answer": "(5) $-(x+1)e^{-x} + C$ ؛ (6) $\\ln\\left|\\frac{x-2}{2x+1}\\right| + C$ ؛ (7) $\\frac{4\\sqrt{2}}{3} \\approx 1.886$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "مشتق: (a) $y = \\ln(x^2+x+1)$ (b) $y = \\ln(\\sin x)$ (c) $y = e^{x^2+1}$ (d) $y = \\sqrt[x]{2}$",
+      "solution_steps_fa": [
+        "(a) $\\frac{(x^2+x+1)'}{x^2+x+1} = \\frac{2x+1}{x^2+x+1}$",
+        "(b) $\\frac{\\cos x}{\\sin x} = \\cot x$",
+        "(c) $e^{x^2+1}\\cdot 2x$",
+        "(d) $y = 2^{1/x}$ پس $y' = 2^{1/x}\\ln 2\\cdot\\left(-\\frac{1}{x^2}\\right)$"
+      ],
+      "answer": "(a) $\\frac{2x+1}{x^2+x+1}$ ؛ (b) $\\cot x$ ؛ (c) $2xe^{x^2+1}$ ؛ (d) $-\\frac{2^{1/x}\\ln 2}{x^2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در سوال ۴ فرض شده که log لوگارتم بر اساس ۱۰ است. همهٔ جواب‌ها با مشتق گرفتن یا محاسبهٔ کمپیوتری امتحان شده‌اند."
+}

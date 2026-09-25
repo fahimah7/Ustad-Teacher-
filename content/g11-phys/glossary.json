@@ -1,0 +1,275 @@
+{
+  "book_id": "g11-phys",
+  "terms": [
+    {
+      "book": "قوه",
+      "avoid": [
+        "نیرو"
+      ],
+      "en": "force"
+    },
+    {
+      "book": "کتله",
+      "avoid": [
+        "جرم"
+      ],
+      "en": "mass"
+    },
+    {
+      "book": "قوۀ محصله",
+      "avoid": [
+        "نیروی برایند",
+        "برایند نیروها"
+      ],
+      "en": "resultant (net) force"
+    },
+    {
+      "book": "وکتور",
+      "avoid": [
+        "بردار"
+      ],
+      "en": "vector"
+    },
+    {
+      "book": "سکالر",
+      "avoid": [
+        "نرده‌ای",
+        "اسکالر"
+      ],
+      "en": "scalar"
+    },
+    {
+      "book": "تعادل میخانیکی",
+      "avoid": [
+        "تعادل مکانیکی"
+      ],
+      "en": "mechanical equilibrium"
+    },
+    {
+      "book": "مومنت قوه (تورک)",
+      "avoid": [
+        "گشتاور نیرو",
+        "گشتاور"
+      ],
+      "en": "moment of a force (torque)"
+    },
+    {
+      "book": "مرکز ثقل",
+      "avoid": [],
+      "en": "centre of gravity"
+    },
+    {
+      "book": "قوه‌های متلاقی",
+      "avoid": [
+        "نیروهای همرس"
+      ],
+      "en": "concurrent forces"
+    },
+    {
+      "book": "زوج قوه",
+      "avoid": [
+        "زوج نیرو"
+      ],
+      "en": "couple (pair of forces)"
+    },
+    {
+      "book": "تغییر مکان",
+      "avoid": [
+        "جابه‌جایی"
+      ],
+      "en": "displacement"
+    },
+    {
+      "book": "سرعت متوسط",
+      "avoid": [],
+      "en": "average velocity"
+    },
+    {
+      "book": "سرعت لحظه‌یی",
+      "avoid": [
+        "سرعت لحظه‌ای"
+      ],
+      "en": "instantaneous velocity"
+    },
+    {
+      "book": "شتاب",
+      "avoid": [],
+      "en": "acceleration"
+    },
+    {
+      "book": "گراف",
+      "avoid": [
+        "نمودار"
+      ],
+      "en": "graph"
+    },
+    {
+      "book": "سقوط آزاد",
+      "avoid": [],
+      "en": "free fall"
+    },
+    {
+      "book": "پرتاب مایل",
+      "avoid": [],
+      "en": "oblique projectile launch"
+    },
+    {
+      "book": "حرکت دایره‌یی یکنواخت",
+      "avoid": [
+        "حرکت دایره‌ای یکنواخت"
+      ],
+      "en": "uniform circular motion"
+    },
+    {
+      "book": "قوۀ الی المرکز",
+      "avoid": [
+        "نیروی مرکزگرا"
+      ],
+      "en": "centripetal force"
+    },
+    {
+      "book": "قوۀ اصطکاک",
+      "avoid": [
+        "نیروی اصطکاک"
+      ],
+      "en": "friction force"
+    },
+    {
+      "book": "قوۀ جاذبه",
+      "avoid": [
+        "نیروی گرانش",
+        "گرانش"
+      ],
+      "en": "gravitational force"
+    },
+    {
+      "book": "ثابت جهانی جاذبه",
+      "avoid": [
+        "ثابت جهانی گرانش"
+      ],
+      "en": "universal gravitational constant"
+    },
+    {
+      "book": "لفت",
+      "avoid": [
+        "آسانسور"
+      ],
+      "en": "elevator (lift)"
+    },
+    {
+      "book": "قمر مصنوعی",
+      "avoid": [
+        "ماهواره"
+      ],
+      "en": "artificial satellite"
+    },
+    {
+      "book": "انرژی حرکی",
+      "avoid": [
+        "انرژی جنبشی"
+      ],
+      "en": "kinetic energy"
+    },
+    {
+      "book": "انرژی پوتانسیل",
+      "avoid": [],
+      "en": "potential energy"
+    },
+    {
+      "book": "تحفظ انرژی میخانیکی",
+      "avoid": [
+        "پایستگی انرژی مکانیکی"
+      ],
+      "en": "conservation of mechanical energy"
+    },
+    {
+      "book": "قوه‌های تحفظی",
+      "avoid": [
+        "نیروهای پایستار"
+      ],
+      "en": "conservative forces"
+    },
+    {
+      "book": "طاقت (توان)",
+      "avoid": [],
+      "en": "power"
+    },
+    {
+      "book": "مومنتم خطی",
+      "avoid": [
+        "تکانه",
+        "اندازۀ حرکت"
+      ],
+      "en": "linear momentum"
+    },
+    {
+      "book": "امپولس (ضربه)",
+      "avoid": [],
+      "en": "impulse"
+    },
+    {
+      "book": "تصادم ارتجاعی",
+      "avoid": [
+        "برخورد کشسان",
+        "برخورد الاستیک"
+      ],
+      "en": "elastic collision"
+    },
+    {
+      "book": "سیال",
+      "avoid": [],
+      "en": "fluid"
+    },
+    {
+      "book": "کثافت",
+      "avoid": [
+        "چگالی"
+      ],
+      "en": "density"
+    },
+    {
+      "book": "فشار اتموسفیر",
+      "avoid": [
+        "فشار جو"
+      ],
+      "en": "atmospheric pressure"
+    },
+    {
+      "book": "قوۀ صعودی",
+      "avoid": [
+        "نیروی شناوری"
+      ],
+      "en": "buoyant force"
+    },
+    {
+      "book": "معادلۀ متمادیت",
+      "avoid": [],
+      "en": "continuity equation"
+    },
+    {
+      "book": "لزوجیت",
+      "avoid": [
+        "گرانروی",
+        "ویسکوزیته"
+      ],
+      "en": "viscosity"
+    },
+    {
+      "book": "جریان توفانی",
+      "avoid": [
+        "جریان آشفته",
+        "جریان متلاطم"
+      ],
+      "en": "turbulent flow"
+    },
+    {
+      "book": "موتر",
+      "avoid": [
+        "خودرو",
+        "ماشین"
+      ],
+      "en": "car"
+    }
+  ],
+  "style_notes_fa": "این کتاب «قوه»، «کتله»، «وکتور» و «میخانیکی» را به کار می‌برد نه «نیرو»، «جرم»، «بردار» و «مکانیکی»، و پسوند صفت‌ها را به شکل «ـه‌یی» می‌نویسد (لحظه‌یی، دایره‌یی، زاویه‌یی) نه «ـه‌ای». هر فصل با نام «فصل اول، فصل دوم…» آمده و درس‌ها با شماره مانند «1-2:» مشخص شده‌اند؛ در متن بخش‌های «مثال» و «حل»، «تمرین»، «فعالیت» (با «مواد ضروری» و «طرزالعمل»)، «سؤال»، «بحث کنید» و «نوت» آمده و هر فصل با «خلاصۀ فصل» و «سؤال‌های فصل» پایان می‌یابد."
+}

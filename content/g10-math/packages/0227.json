@@ -1,0 +1,113 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 227,
+  "printed_page": 220,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "صفحهٔ آخر تمرین‌های فصل چهارم: گزینه‌های سوال ۴۴ و سوال‌های چندگزینه‌ای ۴۵ تا ۵۱. باز هم باید قیمت sin، cos یا tan زاویه‌های بزرگ یا منفی (مانند $\\frac{235\\pi}{2}$، $\\frac{407\\pi}{2}$، $-1980^\\circ$ و $-\\frac{3\\pi}{2}$) را با کم کردن مضرب‌های $2\\pi$ پیدا کرد. سوال ۴۷ و ۴۸ رابطهٔ tan زاویه‌های $90^\\circ + \\theta$ و $270^\\circ + \\theta$ را با cot می‌پرسند و سوال ۵۱ قیمت‌های $\\sin\\frac{3\\pi}{4}$ و $\\sin\\frac{\\pi}{4}$ را مقایسه می‌کند.",
+  "key_points_fa": [
+    "برای $\\frac{n\\pi}{2}$: n را بر ۴ تقسیم کنید؛ باقی‌ماندهٔ ۰، ۱، ۲، ۳ به ترتیب زاویهٔ $0$، $\\frac{\\pi}{2}$، $\\pi$، $\\frac{3\\pi}{2}$ را می‌دهد.",
+    "$\\tan(90^\\circ + \\theta) = -\\cot\\theta$ و $\\tan(270^\\circ + \\theta) = -\\cot\\theta$.",
+    "$\\sin(\\pi - \\theta) = \\sin\\theta$، پس $\\sin\\frac{3\\pi}{4} = \\sin\\frac{\\pi}{4}$."
+  ],
+  "formulas": [
+    {"latex": "\\tan(90^\\circ + \\theta) = -\\cot\\theta", "meaning_fa": "tan زاویهٔ $90^\\circ + \\theta$"},
+    {"latex": "\\tan(270^\\circ + \\theta) = -\\cot\\theta", "meaning_fa": "tan زاویهٔ $270^\\circ + \\theta$"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۴۴ (گزینه‌ها)",
+      "kind": "exercise",
+      "problem_fa": "$\\cot(-2430^\\circ) = ?$ a) 1 b) −1 c) 0 d) تعریف نشده",
+      "solution_steps_fa": [
+        "$-2430 + 7 \\times 360 = 90^\\circ$ و $\\cot 90^\\circ = 0$"
+      ],
+      "answer": "c ($0$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۵",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(\\frac{235\\pi}{2}) = ?$ a) 1 b) −1 c) 0 d) تعریف نشده",
+      "solution_steps_fa": [
+        "$235 = 4 \\times 58 + 3$، پس $\\frac{235\\pi}{2} = 58\\pi + \\frac{3\\pi}{2}$ (۲۹ دور کامل + $\\frac{3\\pi}{2}$).",
+        "$\\sin\\frac{3\\pi}{2} = -1$"
+      ],
+      "answer": "b ($-1$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۶",
+      "kind": "exercise",
+      "problem_fa": "$\\cos(\\frac{407\\pi}{2}) = ?$ a) 1 b) 0 c) −1 d) $\\infty$",
+      "solution_steps_fa": [
+        "$407 = 4 \\times 101 + 3$، پس زاویه با $\\frac{3\\pi}{2}$ کوترمینل است.",
+        "$\\cos\\frac{3\\pi}{2} = 0$"
+      ],
+      "answer": "b ($0$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۷",
+      "kind": "exercise",
+      "problem_fa": "$\\tan(90^\\circ + \\theta) = ?$ a) $\\cot\\theta$ b) $-\\cot\\theta$ c) $-\\tan\\theta$ d) $\\tan\\theta$",
+      "solution_steps_fa": [
+        "$\\sin(90^\\circ + \\theta) = \\cos\\theta$ و $\\cos(90^\\circ + \\theta) = -\\sin\\theta$",
+        "$\\tan(90^\\circ + \\theta) = \\frac{\\cos\\theta}{-\\sin\\theta} = -\\cot\\theta$"
+      ],
+      "answer": "b ($-\\cot\\theta$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۸",
+      "kind": "exercise",
+      "problem_fa": "$\\tan(270^\\circ + \\theta) = ?$ a) $\\cot\\theta$ b) $-\\cot\\theta$ c) $\\tan\\theta$ d) $-\\tan\\theta$",
+      "solution_steps_fa": [
+        "$\\sin(270^\\circ + \\theta) = -\\cos\\theta$ و $\\cos(270^\\circ + \\theta) = \\sin\\theta$",
+        "$\\tan(270^\\circ + \\theta) = \\frac{-\\cos\\theta}{\\sin\\theta} = -\\cot\\theta$"
+      ],
+      "answer": "b ($-\\cot\\theta$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۹",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(-1980^\\circ) = ?$ a) 1 b) −1 c) 0 d) $\\frac{1}{2}$",
+      "solution_steps_fa": [
+        "$-1980 + 6 \\times 360 = 180^\\circ$",
+        "$\\sin 180^\\circ = 0$"
+      ],
+      "answer": "c ($0$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵۰",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(-\\frac{3\\pi}{2}) = ?$ a) 1 b) −1 c) 0 d) $\\frac{1}{2}$",
+      "solution_steps_fa": [
+        "$\\sin(-\\frac{3\\pi}{2}) = -\\sin\\frac{3\\pi}{2} = -(-1) = 1$"
+      ],
+      "answer": "a ($1$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵۱",
+      "kind": "exercise",
+      "problem_fa": "کدام درست است؟ a) $\\sin\\frac{3\\pi}{4} = \\sin\\frac{\\pi}{4}$ b) $\\sin\\frac{3\\pi}{4} > \\sin\\frac{\\pi}{4}$ c) $\\sin\\frac{3\\pi}{4} < \\sin\\frac{\\pi}{4}$",
+      "solution_steps_fa": [
+        "$\\sin\\frac{3\\pi}{4} = \\sin(\\pi - \\frac{\\pi}{4}) = \\sin\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}$"
+      ],
+      "answer": "a",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "بالای صفحه فقط گزینه‌های سوال ۴۴ (از صفحهٔ قبل) آمده است."
+}

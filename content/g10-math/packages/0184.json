@@ -1,0 +1,62 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 184,
+  "printed_page": 177,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "ارتباط بین نسبت‌های مثلثاتی یک زاویه حاده با زوایای دیگر",
+  "summary_fa": "درس تازه با این انگیزه شروع می‌شود: جدول مثلثاتی که شاگردان در صنف نهم دیدند، فقط نسبت‌های زاویه‌های حادهٔ مثبت را دارد؛ برای این‌که نسبت‌های زاویه‌های منفی و منفرجه را هم از همین جدول پیدا کنیم، باید رابطهٔ آن‌ها را با یک زاویهٔ حاده بدانیم. اولین رابطه بین $\\theta$ و $-\\theta$ است. زاویهٔ $\\theta$ خلاف عقربهٔ ساعت و زاویهٔ $-\\theta$ به همان اندازه در جهت عقربهٔ ساعت در دایرهٔ مثلثاتی رسم می‌شوند. ضلع دوم آن‌ها دایره را در $P(x,y)$ و $P_1(x_1,y_1)$ قطع می‌کند. چون مثلث‌های $OMP$ و $OMP_1$ مساوی‌اند، این دو نقطه نسبت به محور X قرینه‌اند: $x_1 = x$ و $y_1 = -y$. از این نتیجه گرفته می‌شود که cos تغییر نمی‌کند ولی sin، tan و cot فقط علامهٔ خود را عوض می‌کنند. در مثال ۱ نسبت‌های $-30^\\circ$ حساب می‌شوند و ادامهٔ آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "نقطه‌های $P(x,y)$ برای $\\theta$ و $P_1(x, -y)$ برای $-\\theta$ نسبت به محور X قرینه‌اند.",
+    "$\\sin(-\\theta) = -\\sin\\theta$ و $\\cos(-\\theta) = \\cos\\theta$.",
+    "$\\tan(-\\theta) = -\\tan\\theta$ و $\\cot(-\\theta) = -\\cot\\theta$.",
+    "با این رابطه‌ها نسبت‌های یک زاویهٔ منفی را از نسبت‌های زاویهٔ مثبت همان اندازه (مثلاً از جدول) می‌یابیم."
+  ],
+  "formulas": [
+    {"latex": "x_1 = x,\\quad y_1 = -y", "meaning_fa": "نقطهٔ ضلع دوم $-\\theta$ قرینهٔ نقطهٔ $\\theta$ نسبت به محور X است"},
+    {"latex": "\\sin(-\\theta) = -\\sin\\theta", "meaning_fa": "sin زاویهٔ منفی قرینهٔ sin زاویهٔ مثبت است"},
+    {"latex": "\\cos(-\\theta) = \\cos\\theta", "meaning_fa": "cos با منفی شدن زاویه تغییر نمی‌کند"},
+    {"latex": "\\tan(-\\theta) = \\frac{\\sin(-\\theta)}{\\cos(-\\theta)} = -\\tan\\theta", "meaning_fa": "tan زاویهٔ منفی"},
+    {"latex": "\\cot(-\\theta) = \\frac{\\cos(-\\theta)}{\\sin(-\\theta)} = -\\cot\\theta", "meaning_fa": "cot زاویهٔ منفی"}
+  ],
+  "terms": [
+    {"fa": "زاویهٔ حاده", "en": "acute angle"},
+    {"fa": "زاویهٔ منفرجه", "en": "obtuse angle"},
+    {"fa": "زاویهٔ منفی", "en": "negative angle"},
+    {"fa": "جدول مثلثاتی", "en": "trigonometric table"},
+    {"fa": "حالت معیاری", "en": "standard position"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی با مرکز O. زاویهٔ $\\theta$ از محور X به بالا تا نقطهٔ $P(x,y)$ در ربع اول، و زاویهٔ $-\\theta$ به پایین تا نقطهٔ $P_1(x_1,y_1)$ در ربع چهارم رسم شده است. خط نقطه‌چین عمودی از P تا $P_1$ محور X را در M قطع می‌کند و دو مثلث مساوی $OMP$ و $OMP_1$ می‌سازد؛ این شکل نشان می‌دهد که دو نقطه x یکسان و y قرینه دارند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "اثبات روابط $\\theta$ و $-\\theta$",
+      "problem_fa": "رابطهٔ نسبت‌های مثلثاتی $-\\theta$ را با نسبت‌های $\\theta$ به دست آورید.",
+      "steps_fa": [
+        "از مساوی بودن مثلث‌های $OMP$ و $OMP_1$: $x_1 = x$، $|y_1| = |y|$ و چون $P_1$ زیر محور X است، $y_1 = -y$.",
+        "در دایرهٔ مثلثاتی $r = 1$: $\\sin(-\\theta) = \\frac{y_1}{1} = -y = -\\sin\\theta$",
+        "$\\cos(-\\theta) = \\frac{x_1}{1} = x = \\cos\\theta$",
+        "$\\tan(-\\theta) = \\frac{-\\sin\\theta}{\\cos\\theta} = -\\tan\\theta$ و $\\cot(-\\theta) = \\frac{\\cos\\theta}{-\\sin\\theta} = -\\cot\\theta$"
+      ],
+      "answer": "$\\sin(-\\theta) = -\\sin\\theta$، $\\cos(-\\theta) = \\cos\\theta$، $\\tan(-\\theta) = -\\tan\\theta$، $\\cot(-\\theta) = -\\cot\\theta$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "نسبت‌های مثلثاتی $-30^\\circ = -\\frac{\\pi}{6}$ را دریابید (ادامه در صفحهٔ بعد).",
+      "steps_fa": [
+        "$\\sin(-30^\\circ) = -\\sin 30^\\circ = -\\frac{1}{2}$",
+        "$\\cos(-30^\\circ) = \\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$"
+      ],
+      "answer": "$\\sin(-30^\\circ) = -\\frac{1}{2}$، $\\cos(-30^\\circ) = \\frac{\\sqrt{3}}{2}$ (چهار نسبت دیگر در صفحهٔ بعد)",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "زیرعنوان این بخش در کتاب «رابطه بین نسبت‌های مثلثاتی زوایای $\\hat{\\theta}$ و $-\\hat{\\theta}$» است."
+}

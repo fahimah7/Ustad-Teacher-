@@ -1,0 +1,75 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 141,
+  "printed_page": 132,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "کاری که توسط قوۀ ثابت اجرا می‌شود",
+  "summary_fa": "این صفحه واحدهای کار را معرفی می‌کند و سپس تعریف کار را برای حالتی که قوه با تغییر مکان زاویه می‌سازد عمومی می‌سازد. در سیستم SI واحد کار نیوتن ضرب متر است که «ژول» (J) نام دارد. در سیستم cgs واحد کار «ارگ» است (یک داین ضرب یک سانتی‌متر) و در سیستم انگلیسی «فت پوند». رابطۀ بین آن‌ها: یک ژول مساوی $10^7$ ارگ و تقریباً $0.7376$ فت پوند است. کار یک کمیت سکالر است؛ پس اگر جسم چند تغییر مکان پی‌درپی داشته باشد، کار کل جمع الجبری کارهای هر مرحله است. یک مثال ساده حل شده است: قوۀ افقی ۷۰ نیوتن جسم را ۱۰ متر بی‌جا می‌کند و کار ۷۰۰ ژول است. در آخر، اگر قوۀ F با وکتور تغییر مکان d زاویۀ θ بسازد (شکل 5-3)، فقط مرکبۀ قوه در جهت تغییر مکان ($F\\cos\\theta$) کار انجام می‌دهد و $W = F\\,d\\cos\\theta$.",
+  "key_points_fa": [
+    "واحد کار در SI ژول است: $1\\,\\mathrm{J} = 1\\,\\mathrm{N\\cdot m}$.",
+    "واحد کار در cgs ارگ است: $1\\,\\mathrm{erg} = 1\\,\\mathrm{dyne\\cdot cm}$ و $1\\,\\mathrm{J} = 10^7\\,\\mathrm{erg}$.",
+    "کار سکالر است؛ کار چند تغییر مکان پی‌درپی با هم جمع الجبری می‌شود.",
+    "وقتی قوه با تغییر مکان زاویۀ θ می‌سازد، تنها مرکبۀ $F\\cos\\theta$ کار انجام می‌دهد.",
+    "مرکبۀ عمودی قوه ($F\\sin\\theta$) در این تغییر مکان افقی هیچ کاری انجام نمی‌دهد."
+  ],
+  "formulas": [
+    {"latex": "1\\,\\mathrm{N\\cdot m} = 1\\,\\mathrm{J}", "meaning_fa": "رابطۀ (2): تعریف ژول، واحد کار در SI"},
+    {"latex": "1\\,\\mathrm{erg} = 1\\,\\mathrm{dyne}\\cdot 1\\,\\mathrm{cm}", "meaning_fa": "رابطۀ (3): واحد کار در سیستم cgs"},
+    {"latex": "1\\,\\mathrm{J} = 10^{7}\\,\\mathrm{erg} = 0.7376\\,\\mathrm{lb\\cdot ft}", "meaning_fa": "رابطۀ (4): تبدیل ژول به ارگ و فت پوند"},
+    {"latex": "W_F = F\\,d\\cos\\theta = (F\\cos\\theta)\\,d", "meaning_fa": "رابطۀ (5): کار قوۀ ثابت F که با تغییر مکان d زاویۀ θ می‌سازد"}
+  ],
+  "terms": [
+    {"fa": "ژول", "en": "joule"},
+    {"fa": "ارگ", "en": "erg"},
+    {"fa": "داین", "en": "dyne"},
+    {"fa": "فت پوند", "en": "foot-pound"},
+    {"fa": "کمیت سکالر", "en": "scalar quantity"}
+  ],
+  "figures": [
+    {"id": "fig5-3", "bbox": [0.13, 0.79, 0.88, 0.90], "kind": "diagram", "description_fa": "شکل (5-3): یک جعبه روی سطح افقی که قوۀ F با زاویۀ θ نسبت به افق بر آن وارد می‌شود و وکتور تغییر مکان d افقی است. در طرف راست، قوۀ F به دو مرکبه تجزیه شده: $F_1$ در امتداد افق (در جهت تغییر مکان) و $F_2$ عمود بر آن. این شکل نشان می‌دهد که چرا در رابطۀ کار ضریب $\\cos\\theta$ می‌آید: فقط $F_1 = F\\cos\\theta$ جسم را در جهت d می‌برد."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "شخصی قوۀ افقی $70\\,\\mathrm{N}$ را بر جسمی وارد می‌کند و آن را $10\\,\\mathrm{m}$ بی‌جا می‌کند. کار این شخص چقدر است؟",
+      "steps_fa": [
+        "قوه و تغییر مکان هم‌جهت هستند، پس از رابطۀ (1) استفاده می‌کنیم: $W = F\\cdot d$",
+        "$W = (70\\,\\mathrm{N})(10\\,\\mathrm{m}) = 700\\,\\mathrm{J}$"
+      ],
+      "answer": "$700\\,\\mathrm{J}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال 1",
+      "kind": "question",
+      "problem_fa": "رابطۀ (4)، یعنی $1\\,\\mathrm{J} = 10^7\\,\\mathrm{erg} = 0.7376\\,\\mathrm{lb\\cdot ft}$ را در گروه‌ها ثابت کنید.",
+      "solution_steps_fa": [
+        "می‌دانیم $1\\,\\mathrm{N} = 1\\,\\mathrm{kg\\cdot m/s^2} = 1000\\,\\mathrm{g} \\times 100\\,\\mathrm{cm/s^2} = 10^5\\,\\mathrm{dyne}$ و $1\\,\\mathrm{m} = 100\\,\\mathrm{cm}$.",
+        "پس $1\\,\\mathrm{J} = 1\\,\\mathrm{N}\\cdot 1\\,\\mathrm{m} = (10^5\\,\\mathrm{dyne})(10^2\\,\\mathrm{cm}) = 10^7\\,\\mathrm{dyne\\cdot cm} = 10^7\\,\\mathrm{erg}$.",
+        "برای سیستم انگلیسی: $1\\,\\mathrm{N} \\approx 0.2248\\,\\mathrm{lb}$ (پوند قوه) و $1\\,\\mathrm{m} \\approx 3.281\\,\\mathrm{ft}$.",
+        "پس $1\\,\\mathrm{J} \\approx 0.2248 \\times 3.281\\,\\mathrm{lb\\cdot ft} \\approx 0.7376\\,\\mathrm{lb\\cdot ft}$."
+      ],
+      "answer": "$1\\,\\mathrm{J} = 10^7\\,\\mathrm{erg} \\approx 0.7376\\,\\mathrm{lb\\cdot ft}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال 2",
+      "kind": "question",
+      "problem_fa": "شخصی قوۀ $30\\,\\mathrm{N}$ را بر جسمی وارد می‌کند و آن را $0.5\\,\\mathrm{m}$ به طرف بالا می‌برد. کار این شخص چقدر است؟",
+      "solution_steps_fa": [
+        "قوه به طرف بالا و تغییر مکان هم به طرف بالا است، پس $\\theta = 0$ و $\\cos\\theta = 1$.",
+        "$W = F\\,d = (30\\,\\mathrm{N})(0.5\\,\\mathrm{m}) = 15\\,\\mathrm{J}$"
+      ],
+      "answer": "$15\\,\\mathrm{J}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سؤال 2 فرض شده که قوۀ شخص در جهت حرکت (به طرف بالا) است. کتاب پوند را با علامۀ Lb نوشته است."
+}

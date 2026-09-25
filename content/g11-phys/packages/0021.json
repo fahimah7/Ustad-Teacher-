@@ -1,0 +1,97 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 21,
+  "printed_page": 12,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "قوه‌های متلاقی (غیر موازی)",
+  "summary_fa": "این صفحه بحث فارمول قوۀ محصلۀ دو قوه را که از صفحۀ قبل شروع شده بود تمام می‌کند. حالت سوم این است که زاویۀ بین دو قوه صفر باشد، یعنی هر دو قوه هم‌جهت باشند؛ در این صورت $\\cos 0^\\circ = 1$ است و مقدار محصله برابر مجموع دو قوه می‌شود. بعد یک مثال حل‌شده می‌آید: دو قوۀ $4\\,\\mathrm{N}$ و $5\\,\\mathrm{N}$ با زاویۀ $45^\\circ$ بین شان، که با قاعدۀ کسینوس محصلۀ شان حدود $8.32\\,\\mathrm{N}$ به دست می‌آید. در آخر، یک سؤال چهار شکل از دو قوه با زاویه‌های مختلف می‌دهد و می‌خواهد مقدار و سمت محصله هم با فارمول و هم با رسم متوازی الاضلاع پیدا شود.",
+  "key_points_fa": [
+    "فارمول عمومی محصلۀ دو قوه: $R = \\sqrt{F_1^2 + F_2^2 + 2F_1F_2\\cos\\alpha}$ که $\\alpha$ زاویۀ بین دو قوه است.",
+    "اگر $\\alpha = 0^\\circ$ باشد (دو قوه هم‌جهت)، محصله بیشترین قیمت را دارد: $R = F_1 + F_2$.",
+    "اگر $\\alpha = 180^\\circ$ باشد (دو قوه مخالف)، محصله کمترین قیمت را دارد: $R = |F_1 - F_2|$.",
+    "اگر $\\alpha = 90^\\circ$ باشد، $R = \\sqrt{F_1^2 + F_2^2}$ (قضیۀ فیثاغورث).",
+    "سمت محصله را می‌توان با زاویۀ $\\theta$ نسبت به یکی از قوه‌ها پیدا کرد: $\\tan\\theta = \\frac{F_2\\sin\\alpha}{F_1 + F_2\\cos\\alpha}$."
+  ],
+  "formulas": [
+    {"latex": "R = \\sqrt{F_1^2 + F_2^2 + 2F_1F_2\\cos\\alpha}", "meaning_fa": "مقدار قوۀ محصلۀ دو قوه که با هم زاویۀ $\\alpha$ می‌سازند"},
+    {"latex": "\\alpha = 0^\\circ \\Rightarrow R = F_1 + F_2", "meaning_fa": "دو قوۀ هم‌جهت: محصله مجموع آن‌هاست"},
+    {"latex": "\\tan\\theta = \\frac{F_2\\sin\\alpha}{F_1 + F_2\\cos\\alpha}", "meaning_fa": "زاویۀ محصله نسبت به قوۀ $F_1$ (برای تعیین سمت محصله)"}
+  ],
+  "terms": [
+    {"fa": "قوۀ محصله", "en": "resultant force"},
+    {"fa": "طریق محاسبوی", "en": "analytical (calculation) method"},
+    {"fa": "طریق تکمیل متوازی الاضلاع", "en": "parallelogram method"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.33, 0.50, 0.46], "kind": "diagram", "description_fa": "متوازی الاضلاعی که دو ضلع آن قوۀ $F_1 = 4\\,\\mathrm{N}$ (مایل، با چهار درجه‌بندی) و قوۀ $F_2 = 5\\,\\mathrm{N}$ (افقی، با پنج درجه‌بندی) است و زاویۀ $45^\\circ$ بین شان نشان داده شده. قطر سرخ رنگ از نقطۀ شروع مشترک، قوۀ محصله را نشان می‌دهد. این شکل روش متوازی الاضلاع را برای مثال همین صفحه نشان می‌دهد."},
+    {"id": "fig2", "bbox": [0.12, 0.72, 0.80, 0.88], "kind": "diagram", "description_fa": "چهار جفت قوه برای سؤال: (۱) $4\\,\\mathrm{N}$ و $3\\,\\mathrm{N}$ با زاویۀ $60^\\circ$؛ (۲) $2\\,\\mathrm{N}$ و $5\\,\\mathrm{N}$ با زاویۀ $120^\\circ$؛ (۳) $6\\,\\mathrm{N}$ (عمودی) و $8\\,\\mathrm{N}$ (افقی) با زاویۀ $90^\\circ$؛ (۴) $3\\,\\mathrm{N}$ و $2\\,\\mathrm{N}$ با زاویۀ $30^\\circ$. در هر جفت، قوۀ افقی به طرف راست است و قوۀ دیگر از همان نقطه با زاویۀ داده‌شده بالا می‌رود."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "دو قوۀ $F_1 = 4\\,\\mathrm{N}$ و $F_2 = 5\\,\\mathrm{N}$ از یک نقطه با زاویۀ $45^\\circ$ بین شان اثر می‌کنند. مقدار قوۀ محصله را حساب کنید.",
+      "steps_fa": [
+        "$\\cos 45^\\circ = \\frac{\\sqrt{2}}{2} \\approx 0.707$",
+        "$R = \\sqrt{4^2 + 5^2 + 2 \\times 4 \\times 5 \\times \\frac{\\sqrt{2}}{2}} = \\sqrt{16 + 25 + 20\\sqrt{2}}$",
+        "$R = \\sqrt{41 + 28.28} = \\sqrt{69.28} \\approx 8.32\\,\\mathrm{N}$"
+      ],
+      "answer": "$R \\approx 8.32\\,\\mathrm{N}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال (شکل ۱)",
+      "kind": "question",
+      "problem_fa": "محصلۀ دو قوۀ $4\\,\\mathrm{N}$ و $3\\,\\mathrm{N}$ را که زاویۀ بین شان $60^\\circ$ است، با فارمول و با متوازی الاضلاع پیدا کنید.",
+      "solution_steps_fa": [
+        "$R = \\sqrt{4^2 + 3^2 + 2 \\times 4 \\times 3 \\times \\cos 60^\\circ} = \\sqrt{16 + 9 + 12} = \\sqrt{37} \\approx 6.08\\,\\mathrm{N}$",
+        "سمت نسبت به قوۀ $3\\,\\mathrm{N}$: $\\tan\\theta = \\frac{4\\sin 60^\\circ}{3 + 4\\cos 60^\\circ} = \\frac{3.46}{5} \\approx 0.69$، پس $\\theta \\approx 34.7^\\circ$",
+        "با رسم: دو قوه را با مقیاس (مثلاً هر $1\\,\\mathrm{N}$ یک سانتی‌متر) رسم کنید، متوازی الاضلاع را کامل کنید و طول قطر را اندازه کنید؛ حدود ۶ سانتی‌متر می‌شود."
+      ],
+      "answer": "$R \\approx 6.08\\,\\mathrm{N}$، با زاویۀ حدود $34.7^\\circ$ از قوۀ $3\\,\\mathrm{N}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال (شکل ۲)",
+      "kind": "question",
+      "problem_fa": "محصلۀ دو قوۀ $2\\,\\mathrm{N}$ و $5\\,\\mathrm{N}$ با زاویۀ $120^\\circ$ بین شان را پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\cos 120^\\circ = -0.5$",
+        "$R = \\sqrt{2^2 + 5^2 + 2 \\times 2 \\times 5 \\times (-0.5)} = \\sqrt{4 + 25 - 10} = \\sqrt{19} \\approx 4.36\\,\\mathrm{N}$",
+        "سمت نسبت به قوۀ $5\\,\\mathrm{N}$: $\\tan\\theta = \\frac{2\\sin 120^\\circ}{5 + 2\\cos 120^\\circ} = \\frac{1.73}{4} \\approx 0.43$، پس $\\theta \\approx 23.4^\\circ$"
+      ],
+      "answer": "$R \\approx 4.36\\,\\mathrm{N}$، با زاویۀ حدود $23.4^\\circ$ از قوۀ $5\\,\\mathrm{N}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال (شکل ۳)",
+      "kind": "question",
+      "problem_fa": "محصلۀ دو قوۀ عمود بر هم $6\\,\\mathrm{N}$ و $8\\,\\mathrm{N}$ را پیدا کنید.",
+      "solution_steps_fa": [
+        "چون $\\cos 90^\\circ = 0$ است: $R = \\sqrt{6^2 + 8^2} = \\sqrt{100} = 10\\,\\mathrm{N}$",
+        "سمت نسبت به قوۀ $8\\,\\mathrm{N}$: $\\tan\\theta = \\frac{6}{8} = 0.75$، پس $\\theta \\approx 36.9^\\circ$"
+      ],
+      "answer": "$R = 10\\,\\mathrm{N}$، با زاویۀ حدود $36.9^\\circ$ از قوۀ $8\\,\\mathrm{N}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال (شکل ۴)",
+      "kind": "question",
+      "problem_fa": "محصلۀ دو قوۀ $3\\,\\mathrm{N}$ و $2\\,\\mathrm{N}$ با زاویۀ $30^\\circ$ بین شان را پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\cos 30^\\circ \\approx 0.866$",
+        "$R = \\sqrt{3^2 + 2^2 + 2 \\times 3 \\times 2 \\times 0.866} = \\sqrt{9 + 4 + 10.39} = \\sqrt{23.39} \\approx 4.84\\,\\mathrm{N}$",
+        "سمت نسبت به قوۀ $2\\,\\mathrm{N}$: $\\tan\\theta = \\frac{3\\sin 30^\\circ}{2 + 3\\cos 30^\\circ} = \\frac{1.5}{4.60} \\approx 0.33$، پس $\\theta \\approx 18.1^\\circ$"
+      ],
+      "answer": "$R \\approx 4.84\\,\\mathrm{N}$، با زاویۀ حدود $18.1^\\circ$ از قوۀ $2\\,\\mathrm{N}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "حالت‌های اول و دوم ($90^\\circ$ و $180^\\circ$) در صفحۀ قبل آمده‌اند. سمت محصله در جواب‌ها به صورت زاویه نسبت به قوۀ افقی داده شده است."
+}

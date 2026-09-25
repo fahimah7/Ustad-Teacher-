@@ -1,0 +1,36 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-phys",
+  "pdf_page": 152,
+  "printed_page": 143,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "قوهٔ برقی",
+  "summary_fa": "این صفحه قانون کولمب را به شکل ریاضی می‌نویسد: $F_{electric} = K_c \\frac{q_1 q_2}{r^2}$. ضریب $K_c$ ثابت کولمب نام دارد و قیمت آن در سیستم SI تقریباً $8.988 \\times 10^{9}\\,\\mathrm{N\\cdot m^2/C^2}$ است (در مسأله‌ها معمولاً $9 \\times 10^{9}$ گرفته می‌شود). ثابت کولمب را به شکل $\\frac{1}{4\\pi\\varepsilon_0}$ هم می‌نویسند که در آن $\\varepsilon_0$ (اپسیلون صفر) ضریب نفوذپذیری برقی خلا است و قیمت آن تقریباً $8.85 \\times 10^{-12}\\,\\mathrm{C^2/(N\\cdot m^2)}$ است. صفحه قانون کولمب را با قانون جاذبهٔ نیوتن مقایسه می‌کند که شکل بسیار مشابه دارد: در هر دو قوه با مربع فاصله معکوساً متناسب است. قوهٔ برقی همیشه در امتداد خطی عمل می‌کند که دو چارج را به هم وصل می‌کند. قانون کولمب برای چارج‌های نقطه‌یی و برای چارج‌هایی که به شکل کروی (یکسان در یک کره) پخش شده اند درست است؛ در حالت کره‌ها، فاصله از مرکز یک کره تا مرکز کرهٔ دیگر گرفته می‌شود.",
+  "key_points_fa": [
+    "$K_c \\approx 8.988 \\times 10^{9}\\,\\mathrm{N\\cdot m^2/C^2} \\approx 9 \\times 10^{9}\\,\\mathrm{N\\cdot m^2/C^2}$",
+    "$K_c = \\frac{1}{4\\pi\\varepsilon_0}$ و $\\varepsilon_0 \\approx 8.85 \\times 10^{-12}\\,\\mathrm{C^2/(N\\cdot m^2)}$",
+    "قانون کولمب و قانون جاذبهٔ نیوتن هر دو با $\\frac{1}{r^2}$ تغییر می‌کنند؛ جاذبه همیشه کشش است ولی قوهٔ برقی جذب یا دفع است.",
+    "جهت قوهٔ برقی در امتداد خط وصل‌کنندهٔ دو چارج است.",
+    "قانون برای چارج‌های نقطه‌یی و کروی درست است؛ برای کره‌ها r فاصلهٔ بین مراکز است."
+  ],
+  "formulas": [
+    {"latex": "F_{electric} = K_c\\,\\frac{q_1\\,q_2}{r^2}", "meaning_fa": "قانون کولمب"},
+    {"latex": "K_c = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.988 \\times 10^{9}\\,\\mathrm{\\frac{N\\cdot m^2}{C^2}}", "meaning_fa": "ثابت کولمب"},
+    {"latex": "\\varepsilon_0 \\approx 8.85 \\times 10^{-12}\\,\\mathrm{\\frac{C^2}{N\\cdot m^2}}", "meaning_fa": "ضریب نفوذپذیری برقی خلا"},
+    {"latex": "F_g = G\\,\\frac{m_1\\,m_2}{r^2}", "meaning_fa": "قانون جاذبهٔ نیوتن (m کتله‌ها، G ثابت جاذبه)"}
+  ],
+  "terms": [
+    {"fa": "ثابت کولمب", "en": "Coulomb constant"},
+    {"fa": "ضریب نفوذپذیری برقی خلا", "en": "permittivity of free space"},
+    {"fa": "چارج نقطه‌یی", "en": "point charge"},
+    {"fa": "قانون جاذبهٔ نیوتن", "en": "Newton's law of gravitation"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,99 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 73,
+  "printed_page": 66,
+  "page_kind": "exercises",
+  "chapter": 2,
+  "section_fa": "مشتق تابع مرکب (قاعدهٔ زنجیری)",
+  "summary_fa": "بالای صفحه نتیجهٔ مثال $|x|$ از صفحهٔ قبل تمام می‌شود: چون مشتق طرف راست و چپ در صفر مساوی نیستند، $|x|$ در صفر مشتق‌پذیر نیست، هرچند در آنجا متمادی است. باقی صفحه یک تمرین شش‌قسمتی دربارهٔ قاعدهٔ زنجیری است. در همهٔ قسمت‌ها باید عبارت درونی را u بنامید، $u'$ را پیدا کنید و در مشتق تابع بیرونی ضرب کنید: قانون $(u^n)' = nu^{n-1}u'$ برای توان‌های مثبت و منفی، و قانون جذر برای جذر مربع و جذر سوم. قسمت ۴ به قانون حاصل تقسیم داخل جذر هم نیاز دارد.",
+  "key_points_fa": [
+    "$|x|$ در صفر متمادی است ولی مشتق‌پذیر نیست.",
+    "الگوی عمومی: مشتق بیرونی × مشتق درونی.",
+    "کسر زیر جذر: اول مشتق کسر را با قانون حاصل تقسیم بیابید.",
+    "$\\frac{1}{\\sqrt{u}}$ را به شکل $u^{-\\frac{1}{2}}$ بنویسید."
+  ],
+  "formulas": [
+    {"latex": "(u^n)' = nu^{n-1} \\cdot u'", "meaning_fa": "قانون طاقت با قاعدهٔ زنجیری"},
+    {"latex": "(\\sqrt[n]{u})' = \\frac{u'}{n\\sqrt[n]{u^{n-1}}}", "meaning_fa": "مشتق جذر n‌ام یک تابع"}
+  ],
+  "terms": [
+    {"fa": "قاعدهٔ زنجیری", "en": "chain rule"},
+    {"fa": "مشتق‌پذیر", "en": "differentiable"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "$y = (x^2 + 2)^2$",
+      "solution_steps_fa": [
+        "$u = x^2 + 2,\\ u' = 2x$",
+        "$y' = 2(x^2 + 2) \\cdot 2x = 4x(x^2 + 2)$"
+      ],
+      "answer": "$y' = 4x^3 + 8x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "$y = (x^3 - 4x^2 + 1)^{-4}$",
+      "solution_steps_fa": [
+        "$u = x^3 - 4x^2 + 1,\\ u' = 3x^2 - 8x$",
+        "$y' = -4(x^3 - 4x^2 + 1)^{-5}(3x^2 - 8x)$"
+      ],
+      "answer": "$y' = \\frac{-4(3x^2 - 8x)}{(x^3 - 4x^2 + 1)^5}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "$y = (1 - 2x^3)^4$",
+      "solution_steps_fa": [
+        "$u = 1 - 2x^3,\\ u' = -6x^2$",
+        "$y' = 4(1 - 2x^3)^3 \\cdot (-6x^2)$"
+      ],
+      "answer": "$y' = -24x^2(1 - 2x^3)^3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "$y = \\sqrt{\\frac{1 - z}{1 + z}}$",
+      "solution_steps_fa": [
+        "$u = \\frac{1 - z}{1 + z}$؛ با قانون حاصل تقسیم: $u' = \\frac{-(1 + z) - (1 - z)}{(1 + z)^2} = \\frac{-2}{(1 + z)^2}$",
+        "$y' = \\frac{u'}{2\\sqrt{u}} = \\frac{-2}{2(1 + z)^2\\sqrt{\\frac{1 - z}{1 + z}}}$",
+        "ساده می‌کنیم: $(1 + z)^2\\sqrt{\\frac{1 - z}{1 + z}} = (1 + z)\\sqrt{(1 + z)(1 - z)} = (1 + z)\\sqrt{1 - z^2}$"
+      ],
+      "answer": "$y' = \\frac{-1}{(1 + z)\\sqrt{1 - z^2}}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "$y = \\sqrt[3]{3t + 1}$",
+      "solution_steps_fa": [
+        "$u = 3t + 1,\\ u' = 3$",
+        "$y' = \\frac{3}{3\\sqrt[3]{(3t + 1)^2}}$"
+      ],
+      "answer": "$y' = \\frac{1}{\\sqrt[3]{(3t + 1)^2}}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۶",
+      "kind": "exercise",
+      "problem_fa": "$y = \\frac{1}{\\sqrt{2 + x^2 + x^3}}$",
+      "solution_steps_fa": [
+        "$y = (2 + x^2 + x^3)^{-\\frac{1}{2}}$ و $u' = 2x + 3x^2$",
+        "$y' = -\\frac{1}{2}(2 + x^2 + x^3)^{-\\frac{3}{2}}(2x + 3x^2)$"
+      ],
+      "answer": "$y' = \\frac{-(3x^2 + 2x)}{2(2 + x^2 + x^3)\\sqrt{2 + x^2 + x^3}}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

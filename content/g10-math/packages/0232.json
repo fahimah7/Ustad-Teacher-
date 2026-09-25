@@ -1,0 +1,55 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 232,
+  "printed_page": 225,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "فورمول‌های جمع و تفاضل",
+  "summary_fa": "نیمهٔ اول صفحه حل مثال صفحهٔ قبل است: $\\frac{7\\pi}{12}$ به $\\frac{\\pi}{3} + \\frac{\\pi}{4}$، زاویهٔ $120^\\circ$ به $90^\\circ + 30^\\circ$ و $\\frac{5\\pi}{12}$ به $\\frac{\\pi}{4} + \\frac{\\pi}{6}$ شکسته می‌شود و فورمول‌های مجموع به کار می‌روند. بعد عنوان «نسبت‌های مثلثاتی تفاضل دو زاویه» شروع می‌شود: برای دریافت $\\sin(\\alpha - \\beta)$ کافی است در فورمول مجموع به جای $\\beta$، $-\\beta$ گذاشته شود، چون $\\alpha - \\beta = \\alpha + (-\\beta)$. با استفاده از روابط زاویهٔ منفی ($\\cos(-\\beta) = \\cos\\beta$، $\\sin(-\\beta) = -\\sin\\beta$، $\\tan(-\\beta) = -\\tan\\beta$) علامهٔ جملهٔ دوم عوض می‌شود. پرسش $\\sin 120^\\circ = \\sin(180^\\circ - 60^\\circ) = ?$ نمونه‌ای از کاربرد این فورمول است. ادامه در صفحهٔ بعد.",
+  "key_points_fa": [
+    "$\\alpha - \\beta$ را به شکل $\\alpha + (-\\beta)$ بنویسید و فورمول مجموع را به کار ببرید.",
+    "$\\cos(-\\beta) = \\cos\\beta$، $\\sin(-\\beta) = -\\sin\\beta$، $\\tan(-\\beta) = -\\tan\\beta$",
+    "$\\sin(\\alpha - \\beta) = \\sin\\alpha\\cos\\beta - \\cos\\alpha\\sin\\beta$",
+    "$\\tan\\frac{5\\pi}{12} = \\frac{3+\\sqrt{3}}{3-\\sqrt{3}}$ که ساده‌شدهٔ آن $2 + \\sqrt{3}$ است."
+  ],
+  "formulas": [
+    {"latex": "\\sin(\\alpha - \\beta) = \\sin\\alpha\\cos(-\\beta) + \\cos\\alpha\\sin(-\\beta) = \\sin\\alpha\\cos\\beta - \\cos\\alpha\\sin\\beta", "meaning_fa": "sin تفاضل دو زاویه از فورمول مجموع"},
+    {"latex": "\\cos(-\\beta) = \\cos\\beta,\\ \\sin(-\\beta) = -\\sin\\beta,\\ \\tan(-\\beta) = -\\tan\\beta", "meaning_fa": "روابط زاویهٔ منفی که در ثبوت به کار می‌روند"}
+  ],
+  "terms": [
+    {"fa": "تفاضل دو زاویه", "en": "difference of two angles"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (حل)",
+      "problem_fa": "$\\sin\\frac{7\\pi}{12}$، $\\sin 120^\\circ$، $\\cos 120^\\circ$ و $\\tan\\frac{5\\pi}{12}$ را دریابید.",
+      "steps_fa": [
+        "$\\sin\\frac{7\\pi}{12} = \\sin\\frac{\\pi}{3}\\cos\\frac{\\pi}{4} + \\cos\\frac{\\pi}{3}\\sin\\frac{\\pi}{4} = \\frac{\\sqrt{6}}{4} + \\frac{\\sqrt{2}}{4} = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$",
+        "$\\sin 120^\\circ = \\sin 90^\\circ\\cos 30^\\circ + \\cos 90^\\circ\\sin 30^\\circ = \\frac{\\sqrt{3}}{2}$",
+        "$\\cos 120^\\circ = \\cos 90^\\circ\\cos 30^\\circ - \\sin 90^\\circ\\sin 30^\\circ = -\\frac{1}{2}$",
+        "$\\tan\\frac{5\\pi}{12} = \\frac{\\tan\\frac{\\pi}{4} + \\tan\\frac{\\pi}{6}}{1 - \\tan\\frac{\\pi}{4}\\tan\\frac{\\pi}{6}} = \\frac{1 + \\frac{\\sqrt{3}}{3}}{1 - \\frac{\\sqrt{3}}{3}} = \\frac{3+\\sqrt{3}}{3-\\sqrt{3}}$"
+      ],
+      "answer": "$\\frac{\\sqrt{6}+\\sqrt{2}}{4}$، $\\frac{\\sqrt{3}}{2}$، $-\\frac{1}{2}$، $\\frac{3+\\sqrt{3}}{3-\\sqrt{3}}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش",
+      "kind": "question",
+      "problem_fa": "$\\sin 120^\\circ = \\sin(180^\\circ - 60^\\circ) = ?$",
+      "solution_steps_fa": [
+        "$\\sin(180^\\circ - 60^\\circ) = \\sin 180^\\circ\\cos 60^\\circ - \\cos 180^\\circ\\sin 60^\\circ$",
+        "$= 0\\cdot\\frac{1}{2} - (-1)\\cdot\\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{3}}{2}$"
+      ],
+      "answer": "$\\frac{\\sqrt{3}}{2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "عنوان فرعی «نسبت‌های مثلثاتی تفاضل دو زاویه» در این صفحه آغاز می‌شود ولی جزء همان درس فورمول‌های جمع و تفاضل است."
+}

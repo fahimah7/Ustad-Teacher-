@@ -1,0 +1,76 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 177,
+  "printed_page": 170,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "نسبت‌های مثلثاتی بعضی زوایای خاص",
+  "summary_fa": "اول یک فعالیت می‌خواهد که نسبت‌های $45^\\circ$ را با ساق‌های b (به جای ۱) حساب کنید تا دیده شود نتیجه تغییر نمی‌کند. بعد برای زاویهٔ $30^\\circ = \\frac{\\pi}{6}$ یک مثلث متساوی‌الاضلاع ABC با ضلع ۲ گرفته می‌شود. ارتفاع AH از رأس A رسم می‌شود؛ این ارتفاع زاویهٔ A را نصف می‌کند ($30^\\circ$) و قاعده را به دو پارچهٔ ۱ تقسیم می‌کند. از قضیهٔ فیثاغورث $h = \\sqrt{3}$ به دست می‌آید. در مثلث قایم‌الزاویهٔ حاصل (با اضلاع ۱، $\\sqrt{3}$ و ۲) شش نسبت $30^\\circ$ نوشته می‌شوند. در آخر فعالیت دیگری می‌خواهد همین کار با ضلع a انجام شود.",
+  "key_points_fa": [
+    "ارتفاع مثلث متساوی‌الاضلاع آن را به دو مثلث قایم‌الزاویه با زاویه‌های $30^\\circ$، $60^\\circ$ و $90^\\circ$ تقسیم می‌کند.",
+    "اضلاع مثلث $30^\\circ$-$60^\\circ$-$90^\\circ$ به نسبت $1 : \\sqrt{3} : 2$ هستند.",
+    "$\\sin 30^\\circ = \\frac{1}{2}$، $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$، $\\tan 30^\\circ = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}$.",
+    "$\\cot 30^\\circ = \\sqrt{3}$، $\\sec 30^\\circ = \\frac{2\\sqrt{3}}{3}$، $\\csc 30^\\circ = 2$.",
+    "نسبت‌ها به اندازهٔ مثلث بستگی ندارند؛ ساق b یا ضلع a همان نتیجه را می‌دهد."
+  ],
+  "formulas": [
+    {"latex": "h^2 + 1^2 = 2^2 \\Rightarrow h = \\sqrt{3}", "meaning_fa": "ارتفاع مثلث متساوی‌الاضلاع با ضلع ۲"},
+    {"latex": "\\sin\\frac{\\pi}{6} = \\frac{1}{2},\\ \\cos\\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2},\\ \\tan\\frac{\\pi}{6} = \\frac{\\sqrt{3}}{3}", "meaning_fa": "سه نسبت اصلی $30^\\circ$"},
+    {"latex": "\\cot\\frac{\\pi}{6} = \\sqrt{3},\\ \\sec\\frac{\\pi}{6} = \\frac{2\\sqrt{3}}{3},\\ \\csc\\frac{\\pi}{6} = 2", "meaning_fa": "سه نسبت معکوس $30^\\circ$"}
+  ],
+  "terms": [
+    {"fa": "مثلث متساوی‌الاضلاع", "en": "equilateral triangle"},
+    {"fa": "ارتفاع", "en": "altitude (height)"},
+    {"fa": "مثلث قایم‌الزاویهٔ متساوی‌الساقین", "en": "isosceles right triangle"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.35, 0.37, 0.81, 0.58], "kind": "diagram", "description_fa": "چپ: مثلث متساوی‌الاضلاع آبی ABC با ضلع‌های ۲، زاویه‌های $60^\\circ$ در B و C، و ارتفاع AH به طول $h = \\sqrt{3}$ که زاویهٔ A را به دو زاویهٔ $30^\\circ$ و قاعده BC را به دو پارچهٔ ۱ تقسیم می‌کند. راست: نیمهٔ این مثلث به شکل مثلث قایم‌الزاویهٔ سبز با وتر ۲، ضلع کوچک ۱ (مقابل $30^\\circ$) و ضلع $\\sqrt{3}$ (مقابل $60^\\circ$)."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "نسبت‌های مثلثاتی $30^\\circ$",
+      "problem_fa": "با مثلث متساوی‌الاضلاع با ضلع ۲، نسبت‌های مثلثاتی $30^\\circ = \\frac{\\pi}{6}$ را دریابید.",
+      "steps_fa": [
+        "ارتفاع AH: $h^2 + 1^2 = 2^2 \\Rightarrow h^2 = 3 \\Rightarrow h = \\sqrt{3}$",
+        "برای زاویهٔ $30^\\circ$: ضلع مقابل ۱، ضلع مجاور $\\sqrt{3}$، وتر ۲.",
+        "$\\sin 30^\\circ = \\frac{1}{2}$، $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$، $\\tan 30^\\circ = \\frac{1}{\\sqrt{3}}$",
+        "$\\cot 30^\\circ = \\sqrt{3}$، $\\sec 30^\\circ = \\frac{2}{\\sqrt{3}} = \\frac{2\\sqrt{3}}{3}$، $\\csc 30^\\circ = \\frac{2}{1} = 2$"
+      ],
+      "answer": "$\\frac{1}{2}, \\frac{\\sqrt{3}}{2}, \\frac{\\sqrt{3}}{3}, \\sqrt{3}, \\frac{2\\sqrt{3}}{3}, 2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "در یک مثلث قایم‌الزاویهٔ متساوی‌الساقین هر ضلع قایم b واحد است. نسبت‌های مثلثاتی $45^\\circ$ را به دست آورید.",
+      "solution_steps_fa": [
+        "وتر: $r = \\sqrt{b^2 + b^2} = b\\sqrt{2}$",
+        "$\\sin 45^\\circ = \\cos 45^\\circ = \\frac{b}{b\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$",
+        "$\\tan 45^\\circ = \\cot 45^\\circ = \\frac{b}{b} = 1$",
+        "$\\sec 45^\\circ = \\csc 45^\\circ = \\frac{b\\sqrt{2}}{b} = \\sqrt{2}$؛ b حذف می‌شود و نتیجه همان قبلی است."
+      ],
+      "answer": "$\\sin = \\cos = \\frac{\\sqrt{2}}{2}$، $\\tan = \\cot = 1$، $\\sec = \\csc = \\sqrt{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "یک مثلث متساوی‌الاضلاع با ضلع a واحد در نظر بگیرید. نسبت‌های مثلثاتی زاویهٔ $30^\\circ = \\frac{\\pi}{6}$ را دریابید.",
+      "solution_steps_fa": [
+        "ارتفاع قاعده را به دو پارچهٔ $\\frac{a}{2}$ تقسیم می‌کند: $h = \\sqrt{a^2 - \\frac{a^2}{4}} = \\frac{a\\sqrt{3}}{2}$",
+        "برای $30^\\circ$: ضلع مقابل $\\frac{a}{2}$، ضلع مجاور $\\frac{a\\sqrt{3}}{2}$، وتر a.",
+        "$\\sin 30^\\circ = \\frac{a/2}{a} = \\frac{1}{2}$، $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$، $\\tan 30^\\circ = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}$",
+        "$\\cot 30^\\circ = \\sqrt{3}$، $\\sec 30^\\circ = \\frac{2\\sqrt{3}}{3}$، $\\csc 30^\\circ = 2$"
+      ],
+      "answer": "$\\frac{1}{2}, \\frac{\\sqrt{3}}{2}, \\frac{\\sqrt{3}}{3}, \\sqrt{3}, \\frac{2\\sqrt{3}}{3}, 2$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب $\\csc 30^\\circ = \\frac{2}{1} = 1$ چاپ کرده که غلط چاپی است؛ قیمت درست $\\csc 30^\\circ = 2$ است."
+}

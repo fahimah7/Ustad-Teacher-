@@ -1,0 +1,57 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 160,
+  "printed_page": 153,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "خواص انتیگرال معین",
+  "summary_fa": "این صفحه خاصیت ۷ انتیگرال معین (خاصیت مقایسه) را شرح می‌دهد: اگر روی $[a, b]$ همیشه $f(x) \\le g(x)$ باشد، انتیگرال f هم از انتیگرال g بزرگ‌تر نیست. ثبوت: تفاضل دو انتیگرال به شکل انتیگرال $g - f$ و بعد به شکل لیمت مجموع ریمان نوشته می‌شود. چون $g - f \\ge 0$ و $\\Delta x > 0$، هر جملهٔ مجموع غیرمنفی است و لیمت آن هم غیرمنفی می‌ماند. در مثال، برای $f(x) = 1 - \\frac{x^2}{4}$ و $g(x) = 1 + \\frac{x^2}{2}$ درستی نامساوی انتیگرال‌ها امتحان می‌شود: هر دو انتیگرال حساب، بر $(b - a)$ ساده و با هم مقایسه می‌شوند.",
+  "key_points_fa": [
+    "خاصیت ۷: اگر $f(x) \\le g(x)$ روی $[a, b]$، آنگاه $\\int_a^b f\\,dx \\le \\int_a^b g\\,dx$",
+    "حالت خاص: اگر $h(x) \\ge 0$ روی $[a, b]$، آنگاه $\\int_a^b h\\,dx \\ge 0$",
+    "راه ساده: کافی است نشان دهید $g(x) - f(x) \\ge 0$ است.",
+    "$b^3 - a^3 = (b - a)(a^2 + ab + b^2)$ در ساده کردن مثال به کار می‌رود."
+  ],
+  "formulas": [
+    {"latex": "f(x) \\le g(x) \\Rightarrow \\int_a^b f(x)\\,dx \\le \\int_a^b g(x)\\,dx", "meaning_fa": "خاصیت ۷: مقایسهٔ انتیگرال‌ها"},
+    {"latex": "\\int_a^b g\\,dx - \\int_a^b f\\,dx = \\lim_{n\\to\\infty}\\sum_{i=1}^{n}[g(x_i) - f(x_i)]\\Delta x \\ge 0", "meaning_fa": "اساس ثبوت: مجموع جمله‌های غیرمنفی، غیرمنفی است"},
+    {"latex": "b^3 - a^3 = (b - a)(a^2 + ab + b^2)", "meaning_fa": "تجزیهٔ تفاضل مکعب‌ها"}
+  ],
+  "terms": [
+    {"fa": "غیرمنفی", "en": "non-negative"},
+    {"fa": "خاصیت مقایسه", "en": "comparison property"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت خاصیت ۷",
+      "problem_fa": "اگر $f(x) \\le g(x)$ روی $[a, b]$ باشد، نشان دهید $\\int_a^b f\\,dx \\le \\int_a^b g\\,dx$",
+      "steps_fa": [
+        "$\\int_a^b g\\,dx - \\int_a^b f\\,dx = \\int_a^b [g - f]dx = \\lim_{n\\to\\infty}\\sum_{i=1}^{n}[g(x_i) - f(x_i)]\\Delta x$",
+        "$g(x_i) - f(x_i) \\ge 0$ و $\\Delta x > 0$، پس هر جمله غیرمنفی است.",
+        "مجموع و لیمت جمله‌های غیرمنفی هم غیرمنفی است: $\\int_a^b [g - f]dx \\ge 0$",
+        "پس $\\int_a^b g\\,dx \\ge \\int_a^b f\\,dx$"
+      ],
+      "answer": "خاصیت ۷ ثبوت شد.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال",
+      "problem_fa": "برای $f(x) = 1 - \\frac{x^2}{4}$ و $g(x) = 1 + \\frac{x^2}{2}$ (با $x > 1$) نشان دهید $\\int_a^b f\\,dx \\le \\int_a^b g\\,dx$.",
+      "steps_fa": [
+        "$\\int_a^b f\\,dx = (b - a) - \\frac{1}{12}(b^3 - a^3)$ و $\\int_a^b g\\,dx = (b - a) + \\frac{1}{6}(b^3 - a^3)$",
+        "با تقسیم بر $(b - a) > 0$ و استفاده از $b^3 - a^3 = (b - a)(a^2 + ab + b^2)$: $1 - \\frac{1}{12}(a^2 + ab + b^2) \\le 1 + \\frac{1}{6}(a^2 + ab + b^2)$",
+        "۱ را از دو طرف کم و بر $a^2 + ab + b^2 > 0$ تقسیم کنید: $-\\frac{1}{12} < \\frac{1}{6}$ که درست است.",
+        "راه کوتاه‌تر: $g(x) - f(x) = \\frac{x^2}{2} + \\frac{x^2}{4} = \\frac{3x^2}{4} \\ge 0$، پس با خاصیت ۷ نامساوی برقرار است."
+      ],
+      "answer": "$\\int_a^b f\\,dx \\le \\int_a^b g\\,dx$ درست است.",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب در گام آخر مثال، کم کردن ۱ از دو طرف را ننوشته است. شرط $x > 1$ در واقع لازم نیست، چون $g - f = \\frac{3x^2}{4}$ برای هر x غیرمنفی است. راه کوتاه‌تر اضافه شد."
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 190,
+  "printed_page": 183,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "نسبت‌های مثلثاتی دو زاویه‌یی که مجموعه‌شان $90^\\circ$ یا $\\frac{\\pi}{2}$ رادیان باشد",
+  "summary_fa": "درس تازه دربارهٔ دو زاویه است که مجموعهٔ آن‌ها $90^\\circ$ است (زوایای متمم)، مانند $\\theta$ و $\\frac{\\pi}{2} - \\theta$. درس با دو پرسش شروع می‌شود: آیا $\\sin 60^\\circ = \\cos 30^\\circ$ است و نسبت‌های $150^\\circ$ و $60^\\circ$ چه رابطه دارند. در دایرهٔ مثلثاتی زاویهٔ $AOM = \\theta$ و زاویهٔ $AOM' = \\frac{\\pi}{2} - \\theta$ رسم شده‌اند؛ زاویهٔ بین $OM'$ و محور Y هم $\\theta$ است. چون مثلث‌های $OHM$ و $OH'M'$ مساوی‌اند، نقش x و y در دو نقطه با هم عوض می‌شود: y نقطهٔ $M'$ برابر x نقطهٔ M است و برعکس. پس sin هر زاویه مساوی cos زاویهٔ متمم آن است و tan با cot جای خود را عوض می‌کند. در یک فعالیت رابطهٔ sec و csc خواسته شده است.",
+  "key_points_fa": [
+    "اگر $\\alpha + \\beta = 90^\\circ$ باشد، $\\sin\\alpha = \\cos\\beta$ است.",
+    "$\\sin(\\frac{\\pi}{2} - \\theta) = \\cos\\theta$ و $\\cos(\\frac{\\pi}{2} - \\theta) = \\sin\\theta$.",
+    "$\\tan(\\frac{\\pi}{2} - \\theta) = \\cot\\theta$ و $\\cot(\\frac{\\pi}{2} - \\theta) = \\tan\\theta$.",
+    "در این حالت همهٔ نسبت‌ها مثبت می‌مانند و فقط نام نسبت به «هم‌نام» آن تبدیل می‌شود (sin↔cos، tan↔cot، sec↔csc).",
+    "مثال: $\\sin 60^\\circ = \\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\left(\\frac{\\pi}{2} - \\theta\\right) = \\cos\\theta", "meaning_fa": "sin یک زاویه برابر cos متمم آن است"},
+    {"latex": "\\cos\\left(\\frac{\\pi}{2} - \\theta\\right) = \\sin\\theta", "meaning_fa": "cos یک زاویه برابر sin متمم آن است"},
+    {"latex": "\\tan\\left(\\frac{\\pi}{2} - \\theta\\right) = \\frac{\\cos\\theta}{\\sin\\theta} = \\cot\\theta", "meaning_fa": "tan متمم برابر cot زاویه است"},
+    {"latex": "\\cot\\left(\\frac{\\pi}{2} - \\theta\\right) = \\frac{1}{\\cot\\theta} = \\tan\\theta", "meaning_fa": "cot متمم برابر tan زاویه است"}
+  ],
+  "terms": [
+    {"fa": "زوایای متمم", "en": "complementary angles"},
+    {"fa": "دایرهٔ مثلثاتی", "en": "unit circle"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی با مرکز O و نقطهٔ A روی محور X. نقطهٔ M در ربع اول با زاویهٔ $\\theta$ از محور X، و نقطهٔ $M'$ با زاویهٔ $\\frac{\\pi}{2} - \\theta$ از محور X (یعنی $\\theta$ از محور Y) رسم شده‌اند. H پای عمود از M روی محور X و $H'$ پای عمود از $M'$ روی محور Y است؛ دو مثلث مساوی $OHM$ و $OH'M'$ نشان می‌دهند که x و y دو نقطه با هم جابه‌جا شده‌اند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "اثبات روابط زوایای متمم",
+      "problem_fa": "رابطهٔ نسبت‌های $\\frac{\\pi}{2} - \\theta$ را با نسبت‌های $\\theta$ به دست آورید.",
+      "steps_fa": [
+        "مثلث‌های $OHM$ و $OH'M'$ مساوی‌اند، پس $OH' = OH$ و $H'M' = HM$.",
+        "y نقطهٔ $M'$ برابر $OH'$ است که مساوی $OH$ یعنی x نقطهٔ M است: $\\sin(\\frac{\\pi}{2} - \\theta) = \\cos\\theta$.",
+        "x نقطهٔ $M'$ برابر $H'M'$ است که مساوی $HM$ یعنی y نقطهٔ M است: $\\cos(\\frac{\\pi}{2} - \\theta) = \\sin\\theta$.",
+        "$\\tan(\\frac{\\pi}{2} - \\theta) = \\frac{\\cos\\theta}{\\sin\\theta} = \\cot\\theta$ و $\\cot(\\frac{\\pi}{2} - \\theta) = \\frac{1}{\\cot\\theta} = \\tan\\theta$"
+      ],
+      "answer": "sin↔cos و tan↔cot برای زوایای متمم",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش‌های آغاز درس",
+      "kind": "question",
+      "problem_fa": "(۱) آیا $\\sin 60^\\circ = \\cos 30^\\circ$ است؟ چرا؟ (۲) نسبت‌های مثلثاتی $150^\\circ$ و $60^\\circ$ با هم چه ارتباط دارند؟",
+      "solution_steps_fa": [
+        "(۱) $\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$ و $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$؛ بلی مساوی‌اند، چون $60^\\circ + 30^\\circ = 90^\\circ$ و sin هر زاویه برابر cos متمم آن است.",
+        "(۲) فرق آن‌ها $90^\\circ$ است: $150^\\circ = 90^\\circ + 60^\\circ$.",
+        "$\\sin 150^\\circ = \\cos 60^\\circ = \\frac{1}{2}$، $\\cos 150^\\circ = -\\sin 60^\\circ = -\\frac{\\sqrt{3}}{2}$، $\\tan 150^\\circ = -\\cot 60^\\circ = -\\frac{\\sqrt{3}}{3}$ (این رابطه‌ها در صفحهٔ بعد ثابت می‌شوند)."
+      ],
+      "answer": "(۱) بلی، هر دو $\\frac{\\sqrt{3}}{2}$؛ (۲) $\\sin 150^\\circ = \\cos 60^\\circ$، $\\cos 150^\\circ = -\\sin 60^\\circ$، $\\tan 150^\\circ = -\\cot 60^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "نشان دهید که $\\sec(90^\\circ - \\theta) = \\csc\\theta$ و $\\csc(90^\\circ - \\theta) = \\sec\\theta$ است.",
+      "solution_steps_fa": [
+        "$\\sec(90^\\circ - \\theta) = \\frac{1}{\\cos(90^\\circ - \\theta)} = \\frac{1}{\\sin\\theta} = \\csc\\theta$",
+        "$\\csc(90^\\circ - \\theta) = \\frac{1}{\\sin(90^\\circ - \\theta)} = \\frac{1}{\\cos\\theta} = \\sec\\theta$"
+      ],
+      "answer": "$\\sec(90^\\circ - \\theta) = \\csc\\theta$ و $\\csc(90^\\circ - \\theta) = \\sec\\theta$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

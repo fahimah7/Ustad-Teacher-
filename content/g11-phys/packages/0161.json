@@ -1,0 +1,54 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 161,
+  "printed_page": 152,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "مومنتم",
+  "summary_fa": "این صفحه تعریف مومنتم را کامل می‌کند: جسمی که کتلۀ m دارد و با سرعت v حرکت می‌کند، مومنتم $\\vec{P} = m\\vec{V}$ دارد. واحد مومنتم در سیستم SI کیلوگرام ضرب متر فی ثانیه ($\\mathrm{kg\\cdot m/s}$) و در سیستم CGS گرام ضرب سانتی‌متر فی ثانیه ($\\mathrm{g\\cdot cm/s}$) است و بُعد (دایمنشن) آن $M\\cdot L\\cdot T^{-1}$ است. نکتۀ مهم این است که امپولس و مومنتم واحد و بُعد یکسان دارند. سپس شکل (6-3) مومنتم هفت جسم بسیار متفاوت را مقایسه می‌کند: از یک پروتون بسیار سبک ولی تیز تا ستاره‌یی بسیار سنگین. از این مقایسه دیده می‌شود که مومنتم هم به کتله و هم به سرعت وابسته است؛ جسم کوچک با سرعت زیاد یا جسم بزرگ با سرعت کم هر دو می‌توانند مومنتم قابل ملاحظه داشته باشند.",
+  "key_points_fa": [
+    "مومنتم خطی: $\\vec{P} = m\\vec{V}$؛ حاصل ضرب کتله و سرعت.",
+    "واحد SI مومنتم $\\mathrm{kg\\cdot m/s}$ و واحد CGS آن $\\mathrm{g\\cdot cm/s}$ است.",
+    "بُعد مومنتم: $[P] = M\\cdot L\\cdot T^{-1}$.",
+    "امپولس و مومنتم واحد و بُعد یکسان دارند.",
+    "مومنتم هم با کتله و هم با سرعت نسبت مستقیم دارد."
+  ],
+  "formulas": [
+    {"latex": "\\vec{P} = m\\,\\vec{V}", "meaning_fa": "تعریف مومنتم خطی"},
+    {"latex": "[P] = \\left[\\frac{M\\cdot L}{T}\\right] = M\\cdot L\\cdot T^{-1}", "meaning_fa": "بُعد (دایمنشن) مومنتم"},
+    {"latex": "1\\,\\mathrm{kg\\cdot m/s} = 10^{5}\\,\\mathrm{g\\cdot cm/s}", "meaning_fa": "رابطۀ واحد SI و CGS مومنتم"}
+  ],
+  "terms": [
+    {"fa": "مومنتم خطی", "en": "linear momentum"},
+    {"fa": "بُعد (دایمنشن)", "en": "dimension"},
+    {"fa": "پروتون", "en": "proton"}
+  ],
+  "figures": [
+    {
+      "id": "fig6-3",
+      "bbox": [0.12, 0.31, 0.90, 0.90],
+      "kind": "illustration",
+      "description_fa": "شکل (6-3): مقایسۀ مومنتم اجسام مختلف. برای هر جسم کتله، سرعت و مومنتم نوشته شده است: (a) پروتون: $m = 1.67\\times10^{-27}\\,\\mathrm{kg}$، $V = 3\\times10^{5}\\,\\mathrm{m/s}$، $P = 5.0\\times10^{-22}\\,\\mathrm{kg\\cdot m/s}$؛ (b) مرمی: $m = 10^{-3}\\,\\mathrm{kg}$، $V = 10^{3}\\,\\mathrm{m/s}$، $P = 1\\,\\mathrm{kg\\cdot m/s}$؛ (c) لاری: $m = 10^{4}\\,\\mathrm{kg}$، $V = 20\\,\\mathrm{m/s}$، $P = 2\\times10^{5}\\,\\mathrm{kg\\cdot m/s}$؛ (d) طیارۀ بووینگ: $m = 3\\times10^{5}\\,\\mathrm{kg}$، $V = 3\\times10^{2}\\,\\mathrm{m/s}$، $P = 9\\times10^{7}\\,\\mathrm{kg\\cdot m/s}$؛ (e) سفینۀ فضایی اپولو: $m = 5\\times10^{3}\\,\\mathrm{kg}$، $V = 10^{4}\\,\\mathrm{m/s}$، $P = 5\\times10^{7}\\,\\mathrm{kg\\cdot m/s}$؛ (f) زمین: $m = 6\\times10^{24}\\,\\mathrm{kg}$، $V = 3\\times10^{4}\\,\\mathrm{m/s}$، $P = 1.8\\times10^{29} \\approx 2\\times10^{29}\\,\\mathrm{kg\\cdot m/s}$؛ (g) ستاره: $m = 3\\times10^{30}\\,\\mathrm{kg}$، $V = 10^{4}\\,\\mathrm{m/s}$، $P = 3\\times10^{34}\\,\\mathrm{kg\\cdot m/s}$. این شکل نشان می‌دهد که مومنتم در طبیعت از مقدارهای بسیار کوچک تا بسیار بزرگ تغییر می‌کند و هر عدد با ضرب کتله در سرعت به دست می‌آید."
+    }
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "شکل (6-3): محاسبۀ مومنتم اجسام",
+      "problem_fa": "مومنتم هر جسم شکل (6-3) را از روی کتله و سرعت آن حساب کنید (مثلاً پروتون و زمین).",
+      "steps_fa": [
+        "پروتون: $P = mV = 1.67\\times10^{-27}\\,\\mathrm{kg}\\times 3\\times10^{5}\\,\\mathrm{m/s} \\approx 5.0\\times10^{-22}\\,\\mathrm{kg\\cdot m/s}$",
+        "مرمی: $P = 10^{-3}\\times 10^{3} = 1\\,\\mathrm{kg\\cdot m/s}$",
+        "لاری: $P = 10^{4}\\times 20 = 2\\times10^{5}\\,\\mathrm{kg\\cdot m/s}$",
+        "زمین: $P = 6\\times10^{24}\\times 3\\times10^{4} = 18\\times10^{28} = 1.8\\times10^{29}\\,\\mathrm{kg\\cdot m/s}$"
+      ],
+      "answer": "به ترتیب $5.0\\times10^{-22}$، $1$، $2\\times10^{5}$، $9\\times10^{7}$، $5\\times10^{7}$، $1.8\\times10^{29}$ و $3\\times10^{34}\\,\\mathrm{kg\\cdot m/s}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "همۀ اعداد شکل (6-3) با Python بررسی شد و درست است. رابطۀ $1\\,\\mathrm{kg\\cdot m/s} = 10^{5}\\,\\mathrm{g\\cdot cm/s}$ برای توضیح اضافه شده است."
+}

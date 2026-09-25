@@ -1,0 +1,102 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 219,
+  "printed_page": 212,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "گراف تابع کوتانجانت",
+  "summary_fa": "بالای صفحه جدول خلاصهٔ صفحهٔ قبل تمام می‌شود: csc تابع تاق با پریود $2\\pi$ است، ناحیهٔ تعریف آن تمام اعداد حقیقی بدون مضرب‌های تام $\\pi$ و قیمت‌های آن $\\le -1$ یا $\\ge 1$ است؛ cot تابع تاق با پریود $\\pi$ است، ناحیهٔ تعریف آن تمام اعداد حقیقی بدون مضرب‌های تام $\\pi$ و ناحیهٔ قیمت‌های آن تمام اعداد حقیقی است. بعد یک نتیجه گفته می‌شود: وقتی زاویه (در ربع اول) بزرگ می‌شود، sin و tan زیاد و cos و cot کم می‌شوند. باقی صفحه تمرین است با شش سؤال دربارهٔ cot، sec و csc که بیشتر آن‌ها چند گزینه‌یی هستند.",
+  "key_points_fa": [
+    "csc: تاق، پریود $2\\pi$، ناحیهٔ تعریف $\\mathbb{R} - \\{k\\pi\\}$، قیمت‌ها $\\le -1$ یا $\\ge 1$.",
+    "cot: تاق، پریود $\\pi$، ناحیهٔ تعریف $\\mathbb{R} - \\{k\\pi\\}$، قیمت‌ها تمام اعداد حقیقی.",
+    "در ربع اول با بزرگ شدن زاویه sin و tan زیاد و cos و cot کم می‌شوند.",
+    "ناحیهٔ قیمت‌های sec و csc: $\\mathbb{R} - (-1,1)$؛ خود ۱ و $-1$ شامل‌اند."
+  ],
+  "formulas": [
+    {"latex": "\\cot(-t) = -\\cot t,\\quad \\csc(-t) = -\\csc t", "meaning_fa": "cot و csc توابع تاق هستند"},
+    {"latex": "R_{\\sec} = R_{\\csc} = \\mathbb{R} - \\{t \\mid -1 < t < 1\\}", "meaning_fa": "ناحیهٔ قیمت‌های sec و csc"}
+  ],
+  "terms": [
+    {"fa": "کوسیکانت", "en": "cosecant"},
+    {"fa": "کوتانجانت", "en": "cotangent"},
+    {"fa": "تابع تاق", "en": "odd function"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.17, 0.12, 0.89, 0.3], "kind": "table", "description_fa": "ادامهٔ جدول نارنجی خلاصه: سطر $f(t) = \\csc(t)$: ناحیهٔ تعریف تمام اعداد حقیقی بدون مضرب تام $\\pi$، قیمت‌ها کوچک‌تر یا مساوی $-1$ و بزرگ‌تر یا مساوی ۱، پریود $2\\pi$، تاق. سطر $f(t) = \\cot(t)$: ناحیهٔ تعریف تمام اعداد حقیقی بدون مضرب تام $\\pi$، قیمت‌ها تمام اعداد حقیقی، پریود $\\pi$، تاق."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "تابع $f(t) = \\cot(t)$ در کدام قیمت t تعریف نشده است و چرا؟",
+      "solution_steps_fa": [
+        "$\\cot t = \\frac{\\cos t}{\\sin t}$.",
+        "وقتی $\\sin t = 0$ باشد مخرج صفر است و تقسیم ممکن نیست.",
+        "$\\sin t = 0$ در $t = k\\pi$ (مثل $0$، $\\pm\\pi$، $\\pm 2\\pi$)."
+      ],
+      "answer": "در $t = k\\pi$ ($k$ عدد تام)، چون در آن‌جا $\\sin t = 0$ است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "وقتی θ از $\\frac{\\pi}{2}$ به $\\pi$ تحول کند، $\\cot\\theta$ چطور تحول می‌کند؟ a) $1 \\to -\\infty$ b) $0 \\to -\\infty$ c) هر دو غلط‌اند",
+      "solution_steps_fa": [
+        "$\\cot\\frac{\\pi}{2} = \\frac{0}{1} = 0$.",
+        "نزدیک $\\pi$، $\\sin\\theta$ مثبت و کوچک و $\\cos\\theta \\approx -1$ است، پس cot به $-\\infty$ می‌رود."
+      ],
+      "answer": "b) $0 \\to -\\infty$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "اگر $t = \\pi$ باشد، قیمت $\\cot(t)$ کدام است؟ a) صفر b) $-1$ c) تعریف نشده",
+      "solution_steps_fa": [
+        "$\\sin\\pi = 0$، پس $\\cot\\pi = \\frac{\\cos\\pi}{\\sin\\pi} = \\frac{-1}{0}$."
+      ],
+      "answer": "c) تعریف نشده",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "ناحیهٔ قیمت‌های (Range) توابع sec و csc کدام است؟ a) $\\mathbb{R} - \\{t \\mid -1 < t < 1\\}$ b) تمام اعداد حقیقی c) $\\mathbb{R} - \\{t \\mid -1 \\le t \\le 1\\}$",
+      "solution_steps_fa": [
+        "قیمت‌های sec و csc یا $\\ge 1$ هستند یا $\\le -1$.",
+        "خود ۱ و $-1$ قیمت می‌شوند ($\\sec 0 = 1$، $\\csc\\frac{3\\pi}{2} = -1$)، پس فقط انتروال باز $(-1,1)$ حذف می‌شود.",
+        "گزینهٔ c ۱ و $-1$ را هم حذف می‌کند، پس غلط است."
+      ],
+      "answer": "a) $\\mathbb{R} - \\{t \\mid -1 < t < 1\\}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "ناحیهٔ تعریف (Domain) تابع $f(t) = \\csc(t)$ کدام است؟ a) تمام اعداد حقیقی بدون مضرب تام $\\pi$ b) تمام اعداد حقیقی بدون مضرب تاق $\\frac{\\pi}{2}$ c) تمام اعداد حقیقی بدون مضرب تام $2\\pi$ d) هر سه درست نیست",
+      "solution_steps_fa": [
+        "$\\csc t = \\frac{1}{\\sin t}$ وقتی تعریف نشده است که $\\sin t = 0$.",
+        "$\\sin t = 0$ در همهٔ $t = k\\pi$."
+      ],
+      "answer": "a) تمام اعداد حقیقی بدون مضرب تام $\\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۶",
+      "kind": "exercise",
+      "problem_fa": "تابع $f(t) = \\csc(t)$ در انتروال $[0,\\frac{\\pi}{2}]$: a) متزاید است b) متناقص است c) نه متزاید است نه متناقص",
+      "solution_steps_fa": [
+        "در این انتروال $\\sin t$ از ۰ تا ۱ زیاد می‌شود.",
+        "پس $\\csc t = \\frac{1}{\\sin t}$ از $+\\infty$ تا ۱ کم می‌شود (در $t = 0$ تعریف نشده است)."
+      ],
+      "answer": "b) متناقص است",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "جملهٔ کتاب دربارهٔ زیاد شدن sin و tan و کم شدن cos و cot فقط برای ربع اول ($0^\\circ$ تا $90^\\circ$) درست است. در تمرین ۶، csc در $t = 0$ تعریف نشده، پس متناقص بودن در $(0,\\frac{\\pi}{2}]$ منظور است."
+}

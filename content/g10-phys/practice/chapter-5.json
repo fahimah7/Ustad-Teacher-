@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-phys",
+  "chapter": 5,
+  "title": {
+    "en": "Lenses",
+    "fa": "عدسیه‌ها"
+  },
+  "questions": [
+    {
+      "pdf_page": 117,
+      "q": {
+        "en": "An object is $30\\,\\mathrm{cm}$ from a convex lens of focal length $20\\,\\mathrm{cm}$. How far from the lens is the image?",
+        "fa": "جسمی در فاصلهٔ $30\\,\\mathrm{cm}$ از یک عدسیهٔ محدب با فاصلهٔ محراقی $20\\,\\mathrm{cm}$ قرار دارد. تصویر در چه فاصله از عدسیه تشکیل می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "$12\\,\\mathrm{cm}$",
+          "fa": "$12\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$10\\,\\mathrm{cm}$",
+          "fa": "$10\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$50\\,\\mathrm{cm}$",
+          "fa": "$50\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$60\\,\\mathrm{cm}$",
+          "fa": "$60\\,\\mathrm{cm}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$\\frac{1}{P'} = \\frac{1}{f} - \\frac{1}{P} = \\frac{1}{20} - \\frac{1}{30} = \\frac{1}{60}$, so $P' = 60\\,\\mathrm{cm}$: a real image on the other side of the lens.",
+        "fa": "$\\frac{1}{P'} = \\frac{1}{f} - \\frac{1}{P} = \\frac{1}{20} - \\frac{1}{30} = \\frac{1}{60}$، پس $P' = 60\\,\\mathrm{cm}$؛ تصویر حقیقی در طرف دیگر عدسیه است."
+      },
+      "idea": {
+        "en": "Rearrange $\\frac{1}{P} + \\frac{1}{P'} = \\frac{1}{f}$ to find $\\frac{1}{P'}$: subtract the fractions, then take the reciprocal at the end.",
+        "fa": "از $\\frac{1}{P} + \\frac{1}{P'} = \\frac{1}{f}$ قیمت $\\frac{1}{P'}$ را پیدا کنید: کسرها را تفریق کنید و در آخر معکوس جواب را بگیرید."
+      }
+    },
+    {
+      "pdf_page": 128,
+      "q": {
+        "en": "A convex lens has a focal length of $50\\,\\mathrm{cm}$. What is its power?",
+        "fa": "فاصلهٔ محراقی یک عدسیهٔ محدب $50\\,\\mathrm{cm}$ است. قدرت آن چند است؟"
+      },
+      "options": [
+        {
+          "en": "$+2$ diopters",
+          "fa": "$+2$ دیوپتر"
+        },
+        {
+          "en": "$+0.02$ diopters",
+          "fa": "$+0.02$ دیوپتر"
+        },
+        {
+          "en": "$+50$ diopters",
+          "fa": "$+50$ دیوپتر"
+        },
+        {
+          "en": "$-2$ diopters",
+          "fa": "$-2$ دیوپتر"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Power is $D = \\frac{1}{f}$ with $f$ in metres: $f = 0.50\\,\\mathrm{m}$, so $D = \\frac{1}{0.50\\,\\mathrm{m}} = 2\\,\\mathrm{m^{-1}} = +2$ diopters. It is positive because the lens is convex.",
+        "fa": "قدرت $D = \\frac{1}{f}$ است و $f$ باید به متر باشد: $f = 0.50\\,\\mathrm{m}$، پس $D = \\frac{1}{0.50\\,\\mathrm{m}} = 2\\,\\mathrm{m^{-1}} = +2$ دیوپتر. چون عدسیه محدب است، قدرت مثبت است."
+      },
+      "idea": {
+        "en": "The diopter is $\\mathrm{m^{-1}}$, so change centimetres to metres before taking $\\frac{1}{f}$. Convex lenses have positive power.",
+        "fa": "دیوپتر همان $\\mathrm{m^{-1}}$ است، پس پیش از گرفتن $\\frac{1}{f}$ سانتی‌متر را به متر تبدیل کنید. قدرت عدسیهٔ محدب مثبت است."
+      }
+    },
+    {
+      "pdf_page": 126,
+      "q": {
+        "en": "A biconvex glass lens ($n = 1.5$) in air has radii of curvature $R_1 = 10\\,\\mathrm{cm}$ and $R_2 = 30\\,\\mathrm{cm}$. What is its focal length?",
+        "fa": "یک عدسیهٔ محدب‌الطرفین شیشه‌یی ($n = 1.5$) در هوا شعاع‌های انحنای $R_1 = 10\\,\\mathrm{cm}$ و $R_2 = 30\\,\\mathrm{cm}$ دارد. فاصلهٔ محراقی آن چند است؟"
+      },
+      "options": [
+        {
+          "en": "$30\\,\\mathrm{cm}$",
+          "fa": "$30\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$7.5\\,\\mathrm{cm}$",
+          "fa": "$7.5\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$15\\,\\mathrm{cm}$",
+          "fa": "$15\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$40\\,\\mathrm{cm}$",
+          "fa": "$40\\,\\mathrm{cm}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "With the book's sign rule both convex surfaces count as positive, so the reciprocals add: $\\frac{1}{f} = (1.5 - 1)\\left(\\frac{1}{10} + \\frac{1}{30}\\right) = 0.5\\times\\frac{4}{30} = \\frac{1}{15}$, so $f = 15\\,\\mathrm{cm}$.",
+        "fa": "طبق قاعدهٔ علامهٔ کتاب هر دو سطح محدب مثبت حساب می‌شوند، پس معکوس‌ها جمع می‌شوند: $\\frac{1}{f} = (1.5 - 1)\\left(\\frac{1}{10} + \\frac{1}{30}\\right) = 0.5\\times\\frac{4}{30} = \\frac{1}{15}$، پس $f = 15\\,\\mathrm{cm}$."
+      },
+      "idea": {
+        "en": "Both faces bulge outward, so both add to the lens's converging power. Don't forget the factor $(n - 1) = 0.5$.",
+        "fa": "هر دو سطح برآمده اند و هر دو به قدرت جمع‌کنندهٔ عدسیه کمک می‌کنند. ضریب $(n - 1) = 0.5$ را فراموش نکنید."
+      }
+    },
+    {
+      "pdf_page": 120,
+      "q": {
+        "en": "A real object is placed at any distance in front of a concave lens. What is its image always like?",
+        "fa": "یک جسم حقیقی در هر فاصله‌یی پیش روی عدسیهٔ مقعر گذاشته شود، تصویر آن همیشه چگونه است؟"
+      },
+      "options": [
+        {
+          "en": "Real, inverted and larger",
+          "fa": "حقیقی، سرچپه و بزرگ‌تر"
+        },
+        {
+          "en": "Virtual, upright and smaller",
+          "fa": "مجازی، مستقیم و کوچک‌تر"
+        },
+        {
+          "en": "Virtual, upright and larger",
+          "fa": "مجازی، مستقیم و بزرگ‌تر"
+        },
+        {
+          "en": "Real, inverted and the same size",
+          "fa": "حقیقی، سرچپه و هم‌اندازه"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "A concave lens spreads rays apart; the image forms where their extensions meet, on the object's side between the lens and the focal point. So it is always virtual, upright and smaller.",
+        "fa": "عدسیهٔ مقعر شعاع‌ها را پراگنده می‌کند و تصویر از قطع امتداد آن‌ها، در همان طرف جسم و بین عدسیه و محراق ساخته می‌شود. پس همیشه مجازی، مستقیم و کوچک‌تر است."
+      },
+      "idea": {
+        "en": "'Virtual, upright and larger' is what a convex lens gives when used as a magnifying glass. A concave lens never brings rays together.",
+        "fa": "«مجازی، مستقیم و بزرگ‌تر» تصویر عدسیهٔ محدب است وقتی به حیث ذره‌بین به کار رود. عدسیهٔ مقعر هرگز شعاع‌ها را جمع نمی‌کند."
+      }
+    },
+    {
+      "pdf_page": 134,
+      "q": {
+        "en": "A near-sighted eye sees nearby objects clearly, but the image of a distant object forms in front of the retina. Which lens corrects this?",
+        "fa": "چشم نزدیک‌بین اشیای نزدیک را واضح می‌بیند، ولی تصویر اشیای دور پیش از شبکیه تشکیل می‌شود. کدام عدسیه این عیب را اصلاح می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "A convex lens",
+          "fa": "عدسیهٔ محدب"
+        },
+        {
+          "en": "A flat sheet of glass",
+          "fa": "یک شیشهٔ هموار"
+        },
+        {
+          "en": "A prism",
+          "fa": "منشور"
+        },
+        {
+          "en": "A concave lens",
+          "fa": "عدسیهٔ مقعر"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The eye brings the light together too early, so the image falls in front of the retina. A concave lens spreads the rays a little before they enter the eye, moving the image back onto the retina.",
+        "fa": "چشم نور را زودتر از لازم جمع می‌کند، پس تصویر پیش از شبکیه می‌افتد. عدسیهٔ مقعر شعاع‌ها را پیش از داخل شدن به چشم کمی از هم دور می‌کند تا تصویر روی شبکیه بیفتد."
+      },
+      "idea": {
+        "en": "The image forms too early (in front of the retina). Do the rays need to be brought together more, or spread apart?",
+        "fa": "تصویر زودتر از لازم (پیش از شبکیه) ساخته می‌شود. آیا شعاع‌ها باید بیشتر جمع شوند یا کمی از هم دور شوند؟"
+      }
+    }
+  ]
+}

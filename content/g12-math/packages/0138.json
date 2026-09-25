@@ -1,0 +1,113 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 138,
+  "printed_page": 131,
+  "page_kind": "review",
+  "chapter": 3,
+  "section_fa": "تمرینات عمومی فصل سوم",
+  "summary_fa": "این صفحه نه سؤال چهارجوابه برای مرور فصل سوم دارد. سؤال‌ها این مفاهیم را آزمایش می‌کنند: شرط متزاید بودن تابع (علامت مشتق اول)، نام بلندترین نقطهٔ منحنی، پیدا کردن نقاط بحرانی یک تابع نسبتی، نقطهٔ انعطاف، ساحهٔ تعریف تابع درجه دوم، مجانب عمودی و افقی توابع نسبتی و هوموگرافیک، و شکل درست قاعدهٔ هوپیتال. برای حل بیشتر آن‌ها کافی است تعریف‌ها را از صفحهٔ «نکات مهم فصل سوم» به یاد آورید؛ برای سؤال ۳ باید مشتق را با قاعدهٔ خارج قسمت حساب کنید و برای سؤال‌های ۶ و ۸ صفرهای مخرج و لیمت در بی‌نهایت را بررسی کنید.",
+  "key_points_fa": [
+    "متزاید بودن ← $f'(x)>0$.",
+    "مجانب عمودی: صفر مخرج که صورت را صفر نمی‌کند.",
+    "مجانب افقی تابع نسبتی با درجه‌های مساوی: نسبت ضریب‌های بزرگ‌ترین توان.",
+    "نقطهٔ بحرانی باید در ساحهٔ تعریف تابع باشد."
+  ],
+  "formulas": [
+    {"latex": "x=-\\frac{d}{c}", "meaning_fa": "مجانب عمودی تابع هوموگرافیک $\\frac{ax+b}{cx+d}$"},
+    {"latex": "\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}", "meaning_fa": "مشتق خارج قسمت (برای سؤال ۳)"}
+  ],
+  "terms": [
+    {"fa": "مجانب عمودی", "en": "vertical asymptote"},
+    {"fa": "مجانب افقی", "en": "horizontal asymptote"},
+    {"fa": "ساحهٔ تعریف", "en": "domain"},
+    {"fa": "نقاط بحرانی", "en": "critical points"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "سؤال ۱",
+      "kind": "question",
+      "problem_fa": "تابع متمادی و مشتق‌پذیر روی $[0,b]$ چه وقت متزاید است؟ (a) $f(x)=0$ (b) $f(x)<0$ (c) $f'(x)>0$ (d) $f(x)\\ge0$",
+      "solution_steps_fa": ["متزاید بودن به علامت مشتق اول وابسته است، نه به علامت خود تابع."],
+      "answer": "(c) $f'(x)>0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۲",
+      "kind": "question",
+      "problem_fa": "بلندترین نقطهٔ یک تابع را چه می‌گویند؟ (a) Minimum (b) Inflection (c) Maximum (d) هیچ‌کدام",
+      "solution_steps_fa": ["بلندترین نقطه، اعظمی (Maximum) است."],
+      "answer": "(c) Maximum",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۳",
+      "kind": "question",
+      "problem_fa": "نقاط بحرانی $f(x)=\\frac{x+1}{x^2+2x}$ چند است؟ (a) دو نقطه (b) یک نقطه (c) سه نقطه (d) ندارد",
+      "solution_steps_fa": [
+        "$f'(x)=\\frac{(x^2+2x)-(x+1)(2x+2)}{(x^2+2x)^2}=\\frac{-(x^2+2x+2)}{(x^2+2x)^2}$",
+        "$x^2+2x+2=0$ ریشهٔ حقیقی ندارد ($\\Delta=4-8<0$)، پس مشتق هیچ‌گاه صفر نمی‌شود.",
+        "مشتق در $x=0$ و $x=-2$ وجود ندارد، ولی این نقاط در ساحهٔ تعریف تابع نیستند."
+      ],
+      "answer": "(d) ندارد",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۴",
+      "kind": "question",
+      "problem_fa": "نقطه‌ای که تابع را از محدب به مقعر تبدیل می‌کند: (a) اعظمی (b) انعطاف (c) اصغری (d) هیچ‌کدام",
+      "solution_steps_fa": ["تغییر نوع خمیدگی منحنی در نقطهٔ انعطاف رخ می‌دهد."],
+      "answer": "(b) نقطهٔ انعطاف",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۵",
+      "kind": "question",
+      "problem_fa": "ساحهٔ تعریف $f(x)=ax^2+bx+c$: (a) $(-\\infty,+\\infty)$ (b) $(-\\infty,0)$ (c) $(0,-\\infty)$ (d) هیچ‌کدام",
+      "solution_steps_fa": ["پولینوم برای هر عدد حقیقی تعریف شده است."],
+      "answer": "(a) $(-\\infty,+\\infty)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۶",
+      "kind": "question",
+      "problem_fa": "مجانب عمودی $f(x)=\\frac{2x-1}{x+2}$: (a) $x=1$ (b) $x=2$ (c) $x=-1$ (d) $x=-2$",
+      "solution_steps_fa": ["$x+2=0 \\Rightarrow x=-2$ و صورت در آن‌جا $-5\\ne0$ است."],
+      "answer": "(d) $x=-2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۷",
+      "kind": "question",
+      "problem_fa": "مجانب عمودی توابع هوموگرافیک $\\frac{ax+b}{cx+d}$: (a) $y=\\frac{a}{c}$ (b) $x=-\\frac{d}{c}$ (c) $y=\\frac{c}{a}$ (d) $y=-\\frac{c}{d}$",
+      "solution_steps_fa": ["مخرج صفر: $cx+d=0 \\Rightarrow x=-\\frac{d}{c}$ (و $y=\\frac{a}{c}$ مجانب افقی است)."],
+      "answer": "(b) $x=-\\frac{d}{c}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۸",
+      "kind": "question",
+      "problem_fa": "مجانب افقی $g(x)=\\frac{4x^2-6x}{x^2-4}$: (a) 4 (b) 6 (c) $-6$ (d) $-4$",
+      "solution_steps_fa": ["درجهٔ صورت و مخرج مساوی (۲) است؛ $\\lim_{x\\to\\infty}g(x)=\\frac{4}{1}=4$."],
+      "answer": "(a) $y=4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۹",
+      "kind": "question",
+      "problem_fa": "کدام رابطه درست است؟ (a) $\\lim_{x\\to x_0}\\frac{f}{g}=\\lim_{x\\to x_0}\\frac{f'}{g'}$ (b) $\\lim_{x\\to x_0}f(x)=f'(x)$ (c) همان رابطهٔ (a) برای $x\\to\\infty$ (d) هیچ‌کدام",
+      "solution_steps_fa": [
+        "(b) غلط است؛ لیمت تابع با مشتق آن برابر نیست.",
+        "(a) شکل اصلی قاعدهٔ هوپیتال است (به شرط شکل مبهم $\\frac{0}{0}$ یا $\\frac{\\infty}{\\infty}$)؛ (c) هم با همین شرط برای $x\\to\\infty$ درست است."
+      ],
+      "answer": "(a) — شکل معمول قاعدهٔ هوپیتال (رابطهٔ (c) هم با همان شرط درست است)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "سؤال ۹ مبهم است: هر دو گزینهٔ a و c قاعدهٔ هوپیتال را (به شرط شکل مبهم) بیان می‌کنند؛ a جواب مورد انتظار دانسته شد. در سؤال ۳ ممکن است کتاب $x=0$ و $x=-2$ را نقطهٔ بحرانی بشمارد، ولی این نقاط در ساحهٔ تعریف نیستند؛ جواب درست «ندارد» است."
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 171,
+  "printed_page": 164,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "توابع مثلثاتی",
+  "summary_fa": "بالای صفحه حل مثال ۱ تمام می‌شود: برای نقطهٔ $(8, 15)$ مقدار $r = 17$ به دست آمده و شش نسبت مثلثاتی نوشته می‌شوند. بعد زیر عنوان «بعضی از رابطه‌های اساسی بین نسبت‌های مثلثاتی زوایا» سه اتحاد مهم از قضیهٔ فیثاغورث $y^2 + x^2 = r^2$ ساخته می‌شوند: با تقسیم هر دو طرف بر $r^2$ رابطهٔ $\\sin^2\\theta + \\cos^2\\theta = 1$، با تقسیم بر $y^2$ رابطهٔ $1 + \\cot^2\\theta = \\csc^2\\theta$، و با تقسیم بر $x^2$ رابطهٔ $1 + \\tan^2\\theta = \\sec^2\\theta$ به دست می‌آید. صفحه با «از طرف دیگر» تمام می‌شود و رابطه‌های بیشتر در صفحهٔ بعد می‌آیند.",
+  "key_points_fa": [
+    "نقطهٔ شروع همهٔ این رابطه‌ها قضیهٔ فیثاغورث است: $x^2 + y^2 = r^2$ (رابطهٔ I).",
+    "تقسیم بر $r^2$: $\\left(\\frac{y}{r}\\right)^2 + \\left(\\frac{x}{r}\\right)^2 = 1$ یعنی $\\sin^2\\theta + \\cos^2\\theta = 1$.",
+    "تقسیم بر $y^2$: $1 + \\left(\\frac{x}{y}\\right)^2 = \\left(\\frac{r}{y}\\right)^2$ یعنی $1 + \\cot^2\\theta = \\csc^2\\theta$.",
+    "تقسیم بر $x^2$: $\\left(\\frac{y}{x}\\right)^2 + 1 = \\left(\\frac{r}{x}\\right)^2$ یعنی $1 + \\tan^2\\theta = \\sec^2\\theta$.",
+    "$\\sin^2\\theta$ یعنی $(\\sin\\theta)^2$."
+  ],
+  "formulas": [
+    {"latex": "\\sin^2\\theta + \\cos^2\\theta = 1", "meaning_fa": "اتحاد اساسی فیثاغورثی"},
+    {"latex": "1 + \\cot^2\\theta = \\csc^2\\theta", "meaning_fa": "از تقسیم رابطهٔ فیثاغورث بر $y^2$"},
+    {"latex": "1 + \\tan^2\\theta = \\sec^2\\theta", "meaning_fa": "از تقسیم رابطهٔ فیثاغورث بر $x^2$"}
+  ],
+  "terms": [
+    {"fa": "رابطه‌های اساسی مثلثاتی", "en": "fundamental trigonometric identities"},
+    {"fa": "اتحاد فیثاغورثی", "en": "Pythagorean identity"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.40, 0.46, 0.60, 0.60], "kind": "diagram", "description_fa": "روی کاغذ چهارخانه: خط سبز از مبدأ $(0,0)$ تا نقطهٔ $P(x, y)$ با طول r، ضلع افقی x روی محور X، ضلع عمودی y، و زاویهٔ θ در مبدأ. این مثلث قایم‌الزاویه پایهٔ اثبات رابطه‌های فیثاغورثی است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (ادامهٔ حل)",
+      "problem_fa": "ضلع دوم θ از نقطهٔ $(8, 15)$ می‌گذرد؛ نسبت‌های مثلثاتی θ را دریابید.",
+      "steps_fa": [
+        "$r^2 = 8^2 + 15^2 = 64 + 225 = 289$، پس $r = \\sqrt{289} = 17$.",
+        "$\\sin\\theta = \\frac{y}{r} = \\frac{15}{17}$، $\\cos\\theta = \\frac{x}{r} = \\frac{8}{17}$",
+        "$\\tan\\theta = \\frac{y}{x} = \\frac{15}{8}$، $\\cot\\theta = \\frac{x}{y} = \\frac{8}{15}$",
+        "$\\sec\\theta = \\frac{r}{x} = \\frac{17}{8}$، $\\csc\\theta = \\frac{r}{y} = \\frac{17}{15}$"
+      ],
+      "answer": "$\\frac{15}{17}, \\frac{8}{17}, \\frac{15}{8}, \\frac{8}{15}, \\frac{17}{8}, \\frac{17}{15}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "اثبات رابطه‌های اساسی",
+      "problem_fa": "از $y^2 + x^2 = r^2$ سه رابطهٔ اساسی مثلثاتی را به دست آورید.",
+      "steps_fa": [
+        "تقسیم بر $r^2$: $\\frac{y^2}{r^2} + \\frac{x^2}{r^2} = 1 \\Rightarrow \\sin^2\\theta + \\cos^2\\theta = 1$",
+        "تقسیم بر $y^2$: $1 + \\frac{x^2}{y^2} = \\frac{r^2}{y^2} \\Rightarrow 1 + \\cot^2\\theta = \\csc^2\\theta$",
+        "تقسیم بر $x^2$: $\\frac{y^2}{x^2} + 1 = \\frac{r^2}{x^2} \\Rightarrow 1 + \\tan^2\\theta = \\sec^2\\theta$"
+      ],
+      "answer": "$\\sin^2\\theta + \\cos^2\\theta = 1$، $1 + \\cot^2\\theta = \\csc^2\\theta$، $1 + \\tan^2\\theta = \\sec^2\\theta$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

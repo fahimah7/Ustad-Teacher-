@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-math",
+  "chapter": 8,
+  "title": {
+    "en": "Statistics",
+    "fa": "احصائیه"
+  },
+  "questions": [
+    {
+      "pdf_page": 291,
+      "q": {
+        "en": "Group A has mean $40$ and standard deviation $8$; group B has mean $100$ and standard deviation $12$. Which group has the greater relative dispersion?",
+        "fa": "گروپ A اوسط $40$ و انحراف معیاری $8$ دارد؛ گروپ B اوسط $100$ و انحراف معیاری $12$ دارد. پراگنده‌گی نسبی کدام گروپ بیشتر است؟"
+      },
+      "options": [
+        {
+          "en": "Group A ($CV = 20\\%$)",
+          "fa": "گروپ A ($CV = 20\\%$)"
+        },
+        {
+          "en": "Group B, because its standard deviation is larger",
+          "fa": "گروپ B، چون انحراف معیاری آن بزرگ‌تر است"
+        },
+        {
+          "en": "Both are equal",
+          "fa": "هر دو مساوی اند"
+        },
+        {
+          "en": "They cannot be compared because the means are different",
+          "fa": "مقایسه ممکن نیست، چون اوسط‌ها فرق دارند"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$CV_A = \\frac{8}{40} = 20\\%$ and $CV_B = \\frac{12}{100} = 12\\%$, so group A has the greater relative dispersion.",
+        "fa": "$CV_A = \\frac{8}{40} = 20\\%$ و $CV_B = \\frac{12}{100} = 12\\%$ است، پس پراگنده‌گی نسبی گروپ A بیشتر است."
+      },
+      "idea": {
+        "en": "When the means differ, compare the coefficients of variation $CV = \\frac{S}{\\bar{x}}$, not the standard deviations.",
+        "fa": "وقتی اوسط‌ها فرق دارند، ضریب تغییرات $CV = \\frac{S}{\\bar{x}}$ را مقایسه کنید، نه انحراف معیاری را."
+      }
+    },
+    {
+      "pdf_page": 292,
+      "q": {
+        "en": "Data are normally distributed with mean $60$ and standard deviation $5$. About what percent of the data lie between $55$ and $65$?",
+        "fa": "data توزیع نورمال دارند با اوسط $60$ و انحراف معیاری $5$. تقریباً چند فیصد data بین $55$ و $65$ قرار دارند؟"
+      },
+      "options": [
+        {
+          "en": "$96\\%$",
+          "fa": "$96\\%$"
+        },
+        {
+          "en": "$99.7\\%$",
+          "fa": "$99.7\\%$"
+        },
+        {
+          "en": "$68\\%$",
+          "fa": "$68\\%$"
+        },
+        {
+          "en": "$50\\%$",
+          "fa": "$50\\%$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$55$ and $65$ are $\\bar{x} - S$ and $\\bar{x} + S$, and about $68\\%$ of normal data lie within one standard deviation of the mean.",
+        "fa": "$55$ و $65$ همان $\\bar{x} - S$ و $\\bar{x} + S$ اند، و تقریباً $68\\%$ data در فاصلهٔ یک انحراف معیاری از اوسط قرار دارند."
+      },
+      "idea": {
+        "en": "Count how many standard deviations each end is from the mean: $\\pm S$ gives about $68\\%$, $\\pm 2S$ about $96\\%$ and $\\pm 3S$ about $99.7\\%$.",
+        "fa": "ببینید هر سر انتروال چند انحراف معیاری از اوسط فاصله دارد: $\\pm S$ تقریباً $68\\%$، $\\pm 2S$ تقریباً $96\\%$ و $\\pm 3S$ تقریباً $99.7\\%$."
+      }
+    },
+    {
+      "pdf_page": 295,
+      "q": {
+        "en": "A distribution has mean $52$, median $50$ and standard deviation $4$. Find Pearson's coefficient of skewness.",
+        "fa": "یک توزیع اوسط $52$، میانه $50$ و انحراف معیاری $4$ دارد. ضریب خمیده‌گی پیرسون را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$-1.5$ (negative skewness)",
+          "fa": "$-1.5$ (خمیده‌گی منفی)"
+        },
+        {
+          "en": "$0.5$ (positive skewness)",
+          "fa": "$0.5$ (خمیده‌گی مثبت)"
+        },
+        {
+          "en": "$0$ (symmetric)",
+          "fa": "$0$ (متناظر)"
+        },
+        {
+          "en": "$1.5$ (positive skewness)",
+          "fa": "$1.5$ (خمیده‌گی مثبت)"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$SK_{(P)} = \\frac{3(\\bar{x} - med)}{S} = \\frac{3(52 - 50)}{4} = 1.5 > 0$, so the distribution has positive skewness.",
+        "fa": "$SK_{(P)} = \\frac{3(\\bar{x} - med)}{S} = \\frac{3(52 - 50)}{4} = 1.5 > 0$ است، پس توزیع خمیده‌گی مثبت دارد."
+      },
+      "idea": {
+        "en": "Do not forget the factor $3$, and subtract the median from the mean (not the other way round).",
+        "fa": "ضریب $3$ را فراموش نکنید و میانه را از اوسط تفریق کنید (نه برعکس)."
+      }
+    },
+    {
+      "pdf_page": 303,
+      "q": {
+        "en": "All points of a scatter plot lie exactly on a straight line that goes down from left to right. What is the correlation coefficient $r$?",
+        "fa": "همهٔ نقاط یک گراف پراگنده‌گی دقیقاً روی یک خط مستقیم قرار دارند که از چپ به راست پایین می‌رود. ضریب همبسته‌گی $r$ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$-1$",
+          "fa": "$-1$"
+        },
+        {
+          "en": "$0$",
+          "fa": "$0$"
+        },
+        {
+          "en": "$1$",
+          "fa": "$1$"
+        },
+        {
+          "en": "$-0.5$",
+          "fa": "$-0.5$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Points exactly on a line give the largest possible value $|r| = 1$, and a falling line means negative correlation, so $r = -1$.",
+        "fa": "نقاطی که دقیقاً روی یک خط باشند بزرگ‌ترین قیمت $|r| = 1$ را می‌دهند، و خط پایین‌رونده یعنی همبسته‌گی منفی؛ پس $r = -1$."
+      },
+      "idea": {
+        "en": "$r$ is always between $-1$ and $1$: its sign shows the direction of the line, and its size shows how close the points are to a line.",
+        "fa": "$r$ همیشه بین $-1$ و $1$ است: علامت آن جهت خط را نشان می‌دهد و اندازهٔ آن نزدیکی نقاط به یک خط را."
+      }
+    },
+    {
+      "pdf_page": 307,
+      "q": {
+        "en": "For two variables, $\\bar{x} = 3$, $\\bar{y} = 10$, $S_x = 2$, $S_y = 5$ and $r = 0.8$. Find the regression line of $y$ on $x$.",
+        "fa": "برای دو متحول، $\\bar{x} = 3$، $\\bar{y} = 10$، $S_x = 2$، $S_y = 5$ و $r = 0.8$ است. خط رگرسیون y نسبت به x را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$y = 2x + 10$",
+          "fa": "$y = 2x + 10$"
+        },
+        {
+          "en": "$y = 2x + 4$",
+          "fa": "$y = 2x + 4$"
+        },
+        {
+          "en": "$y = 0.32x + 9.04$",
+          "fa": "$y = 0.32x + 9.04$"
+        },
+        {
+          "en": "$y = 2x - 4$",
+          "fa": "$y = 2x - 4$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$a = r\\frac{S_y}{S_x} = 0.8 \\cdot \\frac{5}{2} = 2$ and $b = \\bar{y} - a\\bar{x} = 10 - 2 \\cdot 3 = 4$, so $y = 2x + 4$.",
+        "fa": "$a = r\\frac{S_y}{S_x} = 0.8 \\cdot \\frac{5}{2} = 2$ و $b = \\bar{y} - a\\bar{x} = 10 - 2 \\cdot 3 = 4$، پس $y = 2x + 4$ است."
+      },
+      "idea": {
+        "en": "The slope uses $\\frac{S_y}{S_x}$ (not $\\frac{S_x}{S_y}$), and the line must pass through $(\\bar{x}, \\bar{y})$: check that $2 \\cdot 3 + 4 = 10$.",
+        "fa": "در میل خط $\\frac{S_y}{S_x}$ به کار می‌رود (نه $\\frac{S_x}{S_y}$)، و خط باید از $(\\bar{x}, \\bar{y})$ بگذرد: امتحان کنید که $2 \\cdot 3 + 4 = 10$ شود."
+      }
+    }
+  ]
+}

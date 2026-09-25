@@ -1,0 +1,81 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 231,
+  "printed_page": 222,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "ترانسپوز یک متریکس",
+  "summary_fa": "این صفحه چهار خاصیت ترانسپوز را بیان می‌کند و با فعالیت، مثال و تمرین آن‌ها را تمرین می‌دهد. خاصیت اول: اگر از ترانسپوز دوباره ترانسپوز بگیریم، به متریکس اصلی برمی‌گردیم. خاصیت دوم: ترانسپوز جمع یا تفریق چند متریکس برابر جمع یا تفریق ترانسپوزهای آن‌هاست. خاصیت سوم: ترانسپوز حاصل ضرب دو متریکس برابر ضرب ترانسپوزها به ترتیب معکوس است. خاصیت چهارم: عدد حقیقی از ترانسپوز بیرون می‌آید. در فعالیت خاصیت دوم برای دو متریکس $2 \\times 2$ امتحان می‌شود؛ در مثال ترانسپوز یک متریکس $2 \\times 3$ و یک متریکس $3 \\times 3$ نوشته می‌شود؛ و در تمرین باید ترانسپوز دو متریکس $3 \\times 3$ نوشته و خاصیت‌ها با عدد ۳ نشان داده شوند.",
+  "key_points_fa": [
+    "$(A^T)^T = A$: دو بار ترانسپوز، متریکس را به حالت اول برمی‌گرداند.",
+    "$(A \\pm B)^T = A^T \\pm B^T$، و برای چند متریکس هم همین‌طور.",
+    "$(AB)^T = B^T A^T$: ترتیب ضرب عوض می‌شود.",
+    "$(\\alpha A)^T = \\alpha A^T$ و به خصوص $(-A)^T = -A^T$.",
+    "ترانسپوز یک متریکس متناظر، خود آن است."
+  ],
+  "formulas": [
+    {"latex": "(A^T)^T = A", "meaning_fa": "خاصیت اول"},
+    {"latex": "(A \\pm B \\pm C \\pm \\dots)^T = A^T \\pm B^T \\pm C^T \\pm \\dots", "meaning_fa": "خاصیت دوم: ترانسپوز جمع و تفریق"},
+    {"latex": "(AB)^T = B^T \\cdot A^T", "meaning_fa": "خاصیت سوم: ترانسپوز حاصل ضرب با ترتیب معکوس"},
+    {"latex": "(\\alpha A)^T = \\alpha A^T,\\ \\alpha \\in \\mathbb{R};\\quad (-A)^T = -A^T", "meaning_fa": "خاصیت چهارم: ضرب عدد حقیقی و ترانسپوز"}
+  ],
+  "terms": [
+    {"fa": "خواص متریکس ترانسپوز", "en": "properties of the transpose"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "ترانسپوز $B = \\begin{pmatrix} 3 & 1 & 2 \\\\ -1 & 0 & -3 \\end{pmatrix}$ و $C = \\begin{pmatrix} -1 & 5 & 7 \\\\ 4 & 2 & 1 \\\\ 0 & -6 & 3 \\end{pmatrix}$ را به دست آورید.",
+      "steps_fa": [
+        "B از مرتبهٔ $2 \\times 3$ است، پس $B^T$ از مرتبهٔ $3 \\times 2$ می‌شود؛ سطرهای B ستون‌های $B^T$ می‌شوند.",
+        "در C هم سطر اول، دوم و سوم به ترتیب ستون اول، دوم و سوم می‌شوند."
+      ],
+      "answer": "$B^T = \\begin{pmatrix} 3 & -1 \\\\ 1 & 0 \\\\ 2 & -3 \\end{pmatrix}$، $C^T = \\begin{pmatrix} -1 & 4 & 0 \\\\ 5 & 2 & -6 \\\\ 7 & 1 & 3 \\end{pmatrix}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر $A = \\begin{pmatrix} 3 & 2 \\\\ -2 & 1 \\end{pmatrix}$ و $B = \\begin{pmatrix} -2 & 3 \\\\ 5 & -2 \\end{pmatrix}$ باشد، نشان دهید $(A-B)^T = A^T - B^T$ و $(A+B)^T = A^T + B^T$.",
+      "solution_steps_fa": [
+        "$A^T = \\begin{pmatrix} 3 & -2 \\\\ 2 & 1 \\end{pmatrix}$ و $B^T = \\begin{pmatrix} -2 & 5 \\\\ 3 & -2 \\end{pmatrix}$",
+        "$A - B = \\begin{pmatrix} 5 & -1 \\\\ -7 & 3 \\end{pmatrix}$ پس $(A-B)^T = \\begin{pmatrix} 5 & -7 \\\\ -1 & 3 \\end{pmatrix}$؛ و $A^T - B^T = \\begin{pmatrix} 5 & -7 \\\\ -1 & 3 \\end{pmatrix}$ ✓",
+        "$A + B = \\begin{pmatrix} 1 & 5 \\\\ 3 & -1 \\end{pmatrix}$ پس $(A+B)^T = \\begin{pmatrix} 1 & 3 \\\\ 5 & -1 \\end{pmatrix}$؛ و $A^T + B^T = \\begin{pmatrix} 1 & 3 \\\\ 5 & -1 \\end{pmatrix}$ ✓"
+      ],
+      "answer": "$(A-B)^T = A^T - B^T = \\begin{pmatrix} 5 & -7 \\\\ -1 & 3 \\end{pmatrix}$ و $(A+B)^T = A^T + B^T = \\begin{pmatrix} 1 & 3 \\\\ 5 & -1 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "ترانسپوز $A = \\begin{pmatrix} 1 & 2 & 3 \\\\ 0 & 1 & 5 \\\\ 0 & 2 & 3 \\end{pmatrix}$ و $B = \\begin{pmatrix} 0 & 4 & -2 \\\\ 4 & 5 & 3 \\\\ -2 & 3 & 0 \\end{pmatrix}$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "سطرهای A را ستون می‌نویسیم.",
+        "در B عناصر دو طرف قطر اصلی برابرند ($4 = 4$، $-2 = -2$، $3 = 3$)، پس B متناظر است و $B^T = B$."
+      ],
+      "answer": "$A^T = \\begin{pmatrix} 1 & 0 & 0 \\\\ 2 & 1 & 2 \\\\ 3 & 5 & 3 \\end{pmatrix}$، $B^T = B = \\begin{pmatrix} 0 & 4 & -2 \\\\ 4 & 5 & 3 \\\\ -2 & 3 & 0 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "با متریکس‌های A و B تمرین ۱ و عدد حقیقی ۳، صحت چهار خاصیت ترانسپوز را نشان دهید.",
+      "solution_steps_fa": [
+        "خاصیت ۱: ترانسپوز $A^T$ دوباره سطرها را به جای اول برمی‌گرداند، پس $(A^T)^T = A$.",
+        "خاصیت ۲: $A + B = \\begin{pmatrix} 1 & 6 & 1 \\\\ 4 & 6 & 8 \\\\ -2 & 5 & 3 \\end{pmatrix}$، پس $(A+B)^T = \\begin{pmatrix} 1 & 4 & -2 \\\\ 6 & 6 & 5 \\\\ 1 & 8 & 3 \\end{pmatrix}$ که با $A^T + B^T$ برابر است.",
+        "خاصیت ۳: $AB = \\begin{pmatrix} 2 & 23 & 4 \\\\ -6 & 20 & 3 \\\\ 2 & 19 & 6 \\end{pmatrix}$، پس $(AB)^T = \\begin{pmatrix} 2 & -6 & 2 \\\\ 23 & 20 & 19 \\\\ 4 & 3 & 6 \\end{pmatrix}$؛ حساب $B^T A^T$ هم همین را می‌دهد.",
+        "خاصیت ۴: $3A = \\begin{pmatrix} 3 & 6 & 9 \\\\ 0 & 3 & 15 \\\\ 0 & 6 & 9 \\end{pmatrix}$، پس $(3A)^T = \\begin{pmatrix} 3 & 0 & 0 \\\\ 6 & 3 & 6 \\\\ 9 & 15 & 9 \\end{pmatrix} = 3A^T$؛ و چون B متناظر است، $(3B)^T = 3B = 3B^T$."
+      ],
+      "answer": "هر چهار خاصیت برقرار است؛ مثلاً $(3A)^T = 3A^T = \\begin{pmatrix} 3 & 0 & 0 \\\\ 6 & 3 & 6 \\\\ 9 & 15 & 9 \\end{pmatrix}$ و $(AB)^T = B^T A^T = \\begin{pmatrix} 2 & -6 & 2 \\\\ 23 & 20 & 19 \\\\ 4 & 3 & 6 \\end{pmatrix}$.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "تمرین ۲ را می‌توان «خاصیت چهارم» یا «چهار خاصیت» خواند؛ حل هر چهار خاصیت را نشان می‌دهد."
+}

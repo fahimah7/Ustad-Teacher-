@@ -1,0 +1,80 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 85,
+  "printed_page": 76,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "معادلات مثلثاتی",
+  "summary_fa": "این صفحه حالت چهارم، یعنی معادله‌های $a\\cot x + b = 0$، را شرح می‌دهد. مانند تانجانت، کوتانجانت هم دورهٔ $\\pi$ دارد. در مثال ۱ از $\\cot x - 1 = 0$ زاویهٔ $\\frac{\\pi}{4}$ به دست می‌آید؛ روی دایرهٔ مثلثاتی $\\frac{\\pi}{4}$ و $\\pi + \\frac{\\pi}{4}$ با دورهای کامل جواب‌اند، و این دو دسته در فورمول $x = k\\pi + \\frac{\\pi}{4}$ یک‌جا می‌شوند. به صورت عمومی جواب $\\cot x = \\cot\\theta$ برابر $x = k\\pi + \\theta$ است. در مثال ۲ معادلهٔ $\\cot 3x = \\cot x$ حل می‌شود. در آخر یک تمرین دو معادلهٔ ساده دارد.",
+  "key_points_fa": [
+    "حالت چهارم: $a\\cot x + b = 0 \\Rightarrow \\cot x = -\\frac{b}{a}$",
+    "جواب عمومی $\\cot x = \\cot\\theta$: $x = k\\pi + \\theta$، زیرا دورهٔ کوتانجانت $\\pi$ است.",
+    "اگر $\\cot A = \\cot B$ باشد، $A = k\\pi + B$ است؛ ولی جواب‌هایی که کوتانجانت در آن‌ها تعریف نشده (مضرب‌های $\\pi$) باید کنار گذاشته شوند.",
+    "معادلهٔ $\\cos x = m$ با $|m| > 1$ حل ندارد."
+  ],
+  "formulas": [
+    {"latex": "a\\cot x + b = 0 \\Rightarrow \\cot x = -\\frac{b}{a}", "meaning_fa": "حالت چهارم معادلات مثلثاتی"},
+    {"latex": "\\cot x = \\cot\\theta \\Rightarrow x = k\\pi + \\theta,\\ k \\in \\mathbb{Z}", "meaning_fa": "جواب عمومی معادلهٔ کوتانجانت"}
+  ],
+  "terms": [
+    {"fa": "کوتانجانت", "en": "cotangent"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.17, 0.33, 0.35, 0.44], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی با یک خط مستقیم که از مبدأ با زاویهٔ $\\frac{\\pi}{4}$ می‌گذرد و در ربع سوم به زاویهٔ $\\frac{\\pi}{4} + \\pi$ می‌رسد؛ یک خط نقطه‌چین افقی در بالای دایره (خط کوتانجانت) هم رسم شده است. نشان می‌دهد که هر دو زاویه کوتانجانت برابر ۱ دارند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (حالت چهارم)",
+      "problem_fa": "معادلهٔ $\\cot x - 1 = 0$ را حل کنید.",
+      "steps_fa": [
+        "$\\cot x = 1 \\Rightarrow x = \\frac{\\pi}{4}$",
+        "دستهٔ اول: $A_1 = \\{\\frac{\\pi}{4},\\ 2\\pi + \\frac{\\pi}{4},\\ 4\\pi + \\frac{\\pi}{4}, \\dots\\}$",
+        "دستهٔ دوم: $A_2 = \\{\\pi + \\frac{\\pi}{4},\\ 3\\pi + \\frac{\\pi}{4},\\ 5\\pi + \\frac{\\pi}{4}, \\dots\\}$",
+        "هر دو دسته با هم: $x = k\\pi + \\frac{\\pi}{4}$"
+      ],
+      "answer": "$x = k\\pi + \\frac{\\pi}{4}$، $k \\in \\mathbb{Z}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "حل معادلهٔ $\\cot 3x = \\cot x$ را به دست آورید.",
+      "steps_fa": [
+        "چون کوتانجانت‌ها مساوی‌اند: $3x = k\\pi + x$",
+        "$2x = k\\pi \\Rightarrow x = \\frac{k\\pi}{2}$ (جواب کتاب)",
+        "بررسی: وقتی $k$ جفت باشد، $x$ مضرب $\\pi$ است و $\\cot x$ تعریف نمی‌شود؛ این قیمت‌ها قبول نیستند.",
+        "وقتی $k$ تاق باشد، مثلاً $x = \\frac{\\pi}{2}$: $\\cot\\frac{3\\pi}{2} = 0 = \\cot\\frac{\\pi}{2}$ درست است."
+      ],
+      "answer": "$x = \\frac{\\pi}{2} + m\\pi$، $m \\in \\mathbb{Z}$ (از $x = \\frac{k\\pi}{2}$ فقط $k$ تاق)",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "ست حل عمومی $3\\cos x + 5 = 0$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$3\\cos x = -5 \\Rightarrow \\cos x = -\\frac{5}{3}$",
+        "چون $-\\frac{5}{3} < -1$ است و کوساین هیچ‌گاه از ۱- کوچک‌تر نمی‌شود، زاویه‌یی با این کوساین وجود ندارد."
+      ],
+      "answer": "حل ندارد (ست حل خالی است).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "ست حل عمومی $\\tan x = \\sqrt{3}$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "زاویه‌یی در $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$ که تانجانت آن $\\sqrt{3}$ است: $\\frac{\\pi}{3}$",
+        "دورهٔ تانجانت $\\pi$ است، پس $x = k\\pi + \\frac{\\pi}{3}$"
+      ],
+      "answer": "$x = k\\pi + \\frac{\\pi}{3}$، $k \\in \\mathbb{Z}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در مثال ۲ کتاب جواب را $x = \\frac{k\\pi}{2}$ نوشته است؛ قیمت‌های $k$ جفت (مثل $x = 0$ یا $x = \\pi$) کوتانجانت را تعریف‌ناشده می‌سازند، پس جواب درست $x = \\frac{\\pi}{2} + m\\pi$ است."
+}

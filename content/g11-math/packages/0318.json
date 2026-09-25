@@ -1,0 +1,102 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 318,
+  "printed_page": 309,
+  "page_kind": "content",
+  "chapter": 9,
+  "section_fa": "ترکیب‌ها",
+  "summary_fa": "درس ترکیب‌ها (Combination) با سه سوال آغاز می‌شود: ترکیب عددهای ۱ و ۲ چیست، ترتیب آن‌ها کدام است، و ترتیب و ترکیب از نظر شمار چه فرق دارند. کنار سوال، تصویر یک سکوی جایزه با جاهای ۱، ۲ و ۳ است که نشان می‌دهد در ترتیب، جای هر کس مهم است. سپس علامت $\\binom{n}{k}$ (خوانده می‌شود «n بالای k») تعریف می‌شود که در حقیقت ضرایب بینوم است: $\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$ با $0 \\le k \\le n$. در فعالیت، شاگرد با این تعریف ضرایب انکشاف $(a+b)^2$ را حساب می‌کند، نشان می‌دهد که $\\binom{n}{0} = \\binom{n}{n} = 1$، ضریب حد دوم $(a+b)^n$ را پیدا می‌کند و ضرایب $(a+b)^4$ را می‌نویسد. نتیجه در صفحه بعد است.",
+  "key_points_fa": [
+    "در ترکیب ترتیب مهم نیست: {۱، ۲} فقط یک ترکیب است، ولی دو ترتیب ۱۲ و ۲۱ دارد.",
+    "$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$ ضریب بینوم است.",
+    "$\\binom{n}{0} = \\binom{n}{n} = 1$ و $\\binom{n}{1} = n$.",
+    "$(a+b)^2 = a^2 + 2ab + b^2$ ضرایب ۱، ۲، ۱ را دارد."
+  ],
+  "formulas": [
+    {"latex": "\\binom{n}{k} = \\frac{n!}{k!\\,(n-k)!},\\quad k, n \\in \\mathbb{N},\\ 0 \\le k \\le n", "meaning_fa": "تعریف ضریب بینوم (n بالای k)"},
+    {"latex": "(a+b)^2 = \\sum_{k=0}^{2} \\binom{2}{k} a^{2-k} b^k = a^2 + 2ab + b^2", "meaning_fa": "انکشاف دو حده با ضرایب بینوم"}
+  ],
+  "terms": [
+    {"fa": "ترکیب", "en": "combination"},
+    {"fa": "ضرایب بینوم", "en": "binomial coefficients"},
+    {"fa": "انکشاف", "en": "expansion"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.15, 0.14, 0.39, 0.23], "kind": "illustration", "description_fa": "سکوی جایزه با سه پله: پلهٔ بلند وسط شمارهٔ ۱، پلهٔ چپ شمارهٔ ۲ و پلهٔ راست شمارهٔ ۳. یادآوری می‌کند که وقتی جای هر نفر مهم است، با ترتیب سروکار داریم نه ترکیب."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "ترکیب عددهای ۱ و ۲ چیست؟ ترتیب آن‌ها کدام است؟ ترتیب و ترکیب از نظر شمار چه فرق دارند؟",
+      "solution_steps_fa": [
+        "ترکیب فقط گروه را می‌بیند: {۱، ۲}؛ یک ترکیب.",
+        "ترتیب جای هر عدد را هم می‌بیند: ۱۲ و ۲۱؛ دو ترتیب.",
+        "پس تعداد ترتیب‌ها بیشتر است: هر ترکیب k عنصری $k!$ ترتیب دارد."
+      ],
+      "answer": "۱ ترکیب و ۲ ترتیب؛ در ترتیب ترتیب مهم است و در ترکیب مهم نیست.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "ضرایب انکشاف $(a+b)^2$ را که مساوی $\\binom{2}{k}$ برای $k = 0, 1, 2$ است تعیین کنید و خانه‌های خالی را پر کنید.",
+      "solution_steps_fa": [
+        "$\\binom{2}{0} = \\frac{2!}{0!\\,2!} = 1$، $\\binom{2}{1} = \\frac{2!}{1!\\,1!} = 2$، $\\binom{2}{2} = \\frac{2!}{2!\\,0!} = 1$",
+        "$(a+b)^2 = 1\\cdot a^2 + 2\\,ab + 1\\cdot b^2$"
+      ],
+      "answer": "$(a+b)^2 = a^2 + 2ab + b^2$؛ ضرایب ۱، ۲، ۱",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "ضرایب بینوم خانه‌های بالا را با قیمت‌های $\\binom{2}{k}$ برای $k = 0, 1, 2$ مقایسه کنید.",
+      "solution_steps_fa": [
+        "ضرایب انکشاف ۱، ۲، ۱ است.",
+        "$\\binom{2}{0}, \\binom{2}{1}, \\binom{2}{2}$ هم ۱، ۲، ۱ است."
+      ],
+      "answer": "دقیقاً مساوی‌اند.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۳",
+      "kind": "activity",
+      "problem_fa": "چون $\\binom{2}{2} = \\binom{2}{0} = 1$ است، نشان دهید که برای هر $n \\in \\mathbb{N}$، $\\binom{n}{0}$ و $\\binom{n}{n}$ هر دو ۱ است.",
+      "solution_steps_fa": [
+        "$\\binom{n}{0} = \\frac{n!}{0!\\,n!} = \\frac{n!}{1\\cdot n!} = 1$",
+        "$\\binom{n}{n} = \\frac{n!}{n!\\,0!} = 1$"
+      ],
+      "answer": "$\\binom{n}{0} = \\binom{n}{n} = 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۴",
+      "kind": "activity",
+      "problem_fa": "ضریب حد دوم انکشاف $(a+b)^n$ را با $\\binom{n}{k}$ حساب کنید.",
+      "solution_steps_fa": [
+        "حد دوم $k = 1$ است: $\\binom{n}{1} a^{n-1} b$",
+        "$\\binom{n}{1} = \\frac{n!}{1!\\,(n-1)!} = n$"
+      ],
+      "answer": "$n$ (حد دوم: $n\\,a^{n-1}b$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۵",
+      "kind": "activity",
+      "problem_fa": "$\\binom{4}{k}$ برای $k = 0, 1, 2, 3, 4$ ضرایب کدام انکشاف را نشان می‌دهد؟ آن را بنویسید.",
+      "solution_steps_fa": [
+        "$\\binom{4}{0} = 1$، $\\binom{4}{1} = 4$، $\\binom{4}{2} = \\frac{24}{2\\cdot 2} = 6$، $\\binom{4}{3} = 4$، $\\binom{4}{4} = 1$",
+        "این‌ها ضرایب $(a+b)^4$ است."
+      ],
+      "answer": "$(a+b)^4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب سطر $(a+b)^2 = a^2 + \\square + ab + \\square b^2$ چاپ شده؛ منظور پر کردن ضرایب $2ab$ و $1\\cdot b^2$ است."
+}

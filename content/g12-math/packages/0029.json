@@ -1,0 +1,67 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 29,
+  "printed_page": 22,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "اشکال مبهم $1^\\infty$، $\\infty^0$ و $0^0$",
+  "summary_fa": "در ادامهٔ یادداشت صفحهٔ قبل، این صفحه نتیجه می‌گیرد که لیمت $(1 + \\frac{1}{n})^n$ عدد $e = 2.718\\ldots$ است که به نام عدد اویلر (Euler) یاد می‌شود. بعد چهار لیمت مهم و پرکاربرد را بیان می‌کند که همه از عدد e به دست می‌آیند و در حل سؤال‌های شکل $1^\\infty$ به کار می‌روند. در بخش ثبوت، سه لیمت اول با تعویض متحول ثابت می‌شوند: در اولی با گذاشتن $x = \\frac{1}{\\alpha}$ لیمت به تعریف e برمی‌گردد؛ در دومی با $u = \\frac{\\alpha}{x}$ توان به شکل $\\alpha\\beta$ بیرون می‌آید؛ در سومی کسر به ln یک توان تبدیل می‌شود و جواب $\\ln e = 1$ است. ثبوت لیمت چهارم در صفحهٔ بعد آمده است.",
+  "key_points_fa": [
+    "عدد $e = 2.718281828\\ldots$ عدد اویلر نام دارد.",
+    "چهار لیمت مهم این صفحه را حفظ کنید؛ بسیاری از سؤال‌های $1^\\infty$ با آن‌ها حل می‌شوند.",
+    "روش ثبوت: تعویض متحول طوری که لیمت به شکل تعریف e برگردد.",
+    "لوگاریتم و لیمت را می‌توان جابه‌جا کرد: $\\lim \\ln(\\ldots) = \\ln(\\lim \\ldots)$"
+  ],
+  "formulas": [
+    {"latex": "\\lim_{\\alpha \\to 0} (1 + \\alpha)^{\\frac{1}{\\alpha}} = e", "meaning_fa": "شکل دیگر تعریف e (در کتاب زیر lim به اشتباه $x \\to 0$ چاپ شده است)"},
+    {"latex": "\\lim_{x \\to \\infty} \\left(1 + \\frac{\\alpha}{x}\\right)^{\\beta x} = e^{\\alpha\\beta}", "meaning_fa": "لیمت عمومی‌تر با ضریب‌های α و β"},
+    {"latex": "\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x} = 1", "meaning_fa": "لیمت مهم لوگاریتمی"},
+    {"latex": "\\lim_{x \\to 0} \\frac{e^x - 1}{x} = 1", "meaning_fa": "لیمت مهم اکسپوننشیل"}
+  ],
+  "terms": [
+    {"fa": "عدد اویلر", "en": "Euler's number (e)"},
+    {"fa": "ثبوت", "en": "proof"},
+    {"fa": "تعویض متحول", "en": "change of variable (substitution)"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت ۱",
+      "problem_fa": "ثابت کنید $\\lim_{\\alpha \\to 0} (1 + \\alpha)^{\\frac{1}{\\alpha}} = e$",
+      "steps_fa": [
+        "می‌گذاریم $\\alpha = \\frac{1}{x}$؛ وقتی $\\alpha \\to 0$، $x \\to \\infty$",
+        "$(1 + \\alpha)^{\\frac{1}{\\alpha}} = (1 + \\frac{1}{x})^x \\to e$"
+      ],
+      "answer": "$e$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت ۲",
+      "problem_fa": "ثابت کنید $\\lim_{x \\to \\infty} (1 + \\frac{\\alpha}{x})^{\\beta x} = e^{\\alpha\\beta}$",
+      "steps_fa": [
+        "می‌گذاریم $u = \\frac{\\alpha}{x}$، پس $x = \\frac{\\alpha}{u}$ و وقتی $x \\to \\infty$، $u \\to 0$",
+        "$(1 + u)^{\\beta \\frac{\\alpha}{u}} = \\left[(1 + u)^{\\frac{1}{u}}\\right]^{\\alpha\\beta}$",
+        "قوس داخلی به e می‌رود (ثبوت ۱)، پس جواب $e^{\\alpha\\beta}$ است."
+      ],
+      "answer": "$e^{\\alpha\\beta}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت ۳",
+      "problem_fa": "ثابت کنید $\\lim_{x \\to 0} \\frac{\\ln(1+x)}{x} = 1$",
+      "steps_fa": [
+        "$\\frac{1}{x}\\ln(1+x) = \\ln(1+x)^{\\frac{1}{x}}$",
+        "لیمت را داخل ln می‌بریم: $\\ln\\left[\\lim_{x \\to 0} (1+x)^{\\frac{1}{x}}\\right]$",
+        "با $x = \\frac{1}{u}$ ($u \\to \\infty$): $\\ln\\left[\\lim_{u \\to \\infty} (1 + \\frac{1}{u})^u\\right] = \\ln e = 1$"
+      ],
+      "answer": "$1$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب، لیمت ۱ زیر lim به شکل $x \\to 0$ چاپ شده ولی منظور $\\alpha \\to 0$ است. کتاب می‌گوید هر چهار لیمت شکل $1^\\infty$ دارند؛ در واقع لیمت‌های ۳ و ۴ شکل $\\frac{0}{0}$ دارند و به شکل $1^\\infty$ تبدیل می‌شوند. ثبوت ۴ در صفحهٔ بعد است."
+}

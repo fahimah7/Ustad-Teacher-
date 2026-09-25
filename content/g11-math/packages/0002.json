@@ -1,0 +1,22 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 2,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "این صفحه درس ریاضی ندارد. در آن بیرق سه‌رنگ افغانستان (سیاه، سرخ و سبز با نشان ملی در وسط) و متن سرود ملی به زبان پشتو چاپ شده است. سرود از وطن، عزت همهٔ افغان‌ها و اقوام مختلف کشور مانند پشتون، هزاره، تاجک، ازبک، ترکمن، بلوچ، نورستانی و دیگران یاد می‌کند و با «الله اکبر» پایان می‌یابد.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [
+    {"id": "fig1", "bbox": [0.06, 0.05, 0.33, 0.72], "kind": "photo", "description_fa": "بیرق افغانستان روی میله: سه نوار عمودی سیاه، سرخ و سبز و نشان ملی در نوار سرخ."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "صفحه غیر درسی (سرود ملی)."
+}

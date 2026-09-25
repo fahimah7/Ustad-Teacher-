@@ -1,0 +1,51 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 225,
+  "printed_page": 218,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "محاسبهٔ طول قوس",
+  "summary_fa": "در این صفحه فورمول طول قوس برای منحنی پارامتری $x=f(t)$، $y=g(t)$ ساخته می‌شود. از تعریف مشتق، $\\Delta x$ تقریباً $f'(t)\\Delta t$ و $\\Delta y$ تقریباً $g'(t)\\Delta t$ است. با گذاشتن این‌ها در طول وتر، $\\Delta t$ از زیر جذر بیرون می‌آید. با جمع کردن همهٔ وترها و گرفتن لیمت وقتی n بی‌نهایت شود (مجموع ریمان)، طول قوس به صورت یک انتیگرال معین نوشته می‌شود. بعد، به عنوان مثال محیط دایرهٔ $x^2+y^2=r^2$ با معادلهٔ پارامتری $x=r\\cos t$، $y=r\\sin t$ حساب می‌شود: برای $0\\le t\\le\\pi$ نصف محیط $\\pi r$ به دست می‌آید و محیط کامل $2\\pi r$ است.",
+  "key_points_fa": [
+    "$\\Delta x\\approx f'(t)\\Delta t$ و $\\Delta y\\approx g'(t)\\Delta t$",
+    "طول هر وتر: $\\sqrt{[f'(t)]^2+[g'(t)]^2}\\,\\Delta t$",
+    "لیمت مجموع ریمان این وترها طول دقیق قوس است.",
+    "در مثال دایره، $\\sin^2t+\\cos^2t=1$ زیر جذر را ساده می‌کند.",
+    "محیط دایره با انتیگرال همان $2\\pi r$ معروف است."
+  ],
+  "formulas": [
+    {"latex": "M_1M_2=\\sqrt{[f'(t)]^2+[g'(t)]^2}\\cdot\\Delta t", "meaning_fa": "طول تقریبی یک وتر کوچک برای منحنی پارامتری"},
+    {"latex": "L=\\lim_{n\\to\\infty}\\sum_{i=1}^{n}\\sqrt{[f'(t)]^2+[g'(t)]^2}\\,\\Delta t", "meaning_fa": "طول قوس به صورت لیمت مجموع ریمان"},
+    {"latex": "L=\\int_a^b\\sqrt{[f'(t)]^2+[g'(t)]^2}\\,dt", "meaning_fa": "فورمول طول قوس منحنی پارامتری $x=f(t)$، $y=g(t)$"},
+    {"latex": "x=r\\cos t,\\quad y=r\\sin t", "meaning_fa": "معادلهٔ پارامتری دایره به شعاع r"}
+  ],
+  "terms": [
+    {"fa": "معادلهٔ پارامتری", "en": "parametric equation"},
+    {"fa": "محیط دایره", "en": "circumference"},
+    {"fa": "مجموع ریمان", "en": "Riemann sum"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.56, 0.56, 0.88, 0.80], "kind": "graph", "description_fa": "دایره‌یی به مرکز مبدأ و شعاع r؛ یک شعاع با زاویهٔ t کشیده شده و تصویرهای آن $r\\cos t$ روی محور x و $r\\sin t$ به طور عمودی نشان داده شده‌اند. این شکل معادلهٔ پارامتری دایره را توضیح می‌دهد."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "محیط دایرهٔ $x^2+y^2=r^2$ را با فورمول طول قوس حساب کنید.",
+      "steps_fa": [
+        "معادلهٔ پارامتری: $x=r\\cos t$، $y=r\\sin t$؛ برای نصف دایره $0\\le t\\le\\pi$.",
+        "$x'=-r\\sin t$ و $y'=r\\cos t$",
+        "$P=\\int_0^{\\pi}\\sqrt{r^2\\sin^2t+r^2\\cos^2t}\\,dt=\\int_0^{\\pi}\\sqrt{r^2}\\,dt=\\int_0^{\\pi}r\\,dt$",
+        "$P=[rt]_0^{\\pi}=\\pi r$ (نصف محیط)",
+        "محیط کامل دو چند آن است."
+      ],
+      "answer": "محیط دایره $=2\\pi r$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

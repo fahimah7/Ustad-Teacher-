@@ -1,0 +1,95 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 63,
+  "printed_page": 56,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق حاصل جمع و تفریق؛ مشتق حاصل ضرب",
+  "summary_fa": "بالای صفحه حل مثال ۱ (مشتق $y = 2x + 1$) تمام می‌شود. بعد در مثال ۲ و ۳ قانون مشتق حاصل جمع و تفریق برای چندجمله‌ای‌ها به کار می‌رود: هر جمله جداگانه مشتق گرفته می‌شود و جمله‌های ثابت حذف می‌شوند. سپس قانون پنجم، یعنی مشتق حاصل ضرب، با یک فعالیت شروع می‌شود. در ثبوت، به u و v تزاید داده می‌شود، $\\Delta y$ باز می‌شود و بر $\\Delta x$ تقسیم می‌گردد. وقتی $\\Delta x \\to 0$ جملهٔ $\\Delta u \\cdot \\frac{\\Delta v}{\\Delta x}$ به صفر می‌رود، زیرا $\\Delta u \\to 0$. نتیجه: $y' = u'v + uv'$.",
+  "key_points_fa": [
+    "مشتق چندجمله‌ای: از هر جمله جداگانه مشتق بگیرید؛ جملهٔ ثابت صفر می‌شود.",
+    "$(ax^n)' = anx^{n-1}$؛ ضریب ثابت در مشتق باقی می‌ماند.",
+    "مشتق حاصل ضرب برابر حاصل ضرب مشتق‌ها نیست.",
+    "قانون حاصل ضرب: $(uv)' = u'v + uv'$",
+    "در ثبوت، جملهٔ $\\Delta u \\cdot \\frac{\\Delta v}{\\Delta x}$ به $0 \\cdot v' = 0$ نزدیک می‌شود."
+  ],
+  "formulas": [
+    {"latex": "(u + v - w)' = u' + v' - w'", "meaning_fa": "مشتق مجموع و تفاضل چند تابع"},
+    {"latex": "y = u \\cdot v \\Rightarrow y' = u'v + uv'", "meaning_fa": "قانون مشتق حاصل ضرب"},
+    {"latex": "\\frac{\\Delta y}{\\Delta x} = v\\frac{\\Delta u}{\\Delta x} + u\\frac{\\Delta v}{\\Delta x} + \\Delta u\\frac{\\Delta v}{\\Delta x}", "meaning_fa": "گام اصلی ثبوت قانون حاصل ضرب"}
+  ],
+  "terms": [
+    {"fa": "مشتق حاصل ضرب", "en": "product rule"},
+    {"fa": "چندجمله‌ای", "en": "polynomial"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (ادامه)",
+      "problem_fa": "مشتق $y = 2x + 1$",
+      "steps_fa": [
+        "$u = 2x \\Rightarrow u' = 2$ و $v = 1 \\Rightarrow v' = 0$",
+        "$y' = u' + v' = 2 + 0 = 2$"
+      ],
+      "answer": "$y' = 2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق $y = 4x^2 - 3x + 5$ را دریافت کنید.",
+      "steps_fa": [
+        "$(4x^2)' = 8x$، $(3x)' = 3$، $(5)' = 0$",
+        "$y' = 8x - 3 + 0 = 8x - 3$"
+      ],
+      "answer": "$y' = 8x - 3$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳ (۱)",
+      "problem_fa": "$y = 12x - 7$",
+      "steps_fa": [
+        "$y' = (12x)' - (7)' = 12 - 0$"
+      ],
+      "answer": "$y' = 12$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳ (۲)",
+      "problem_fa": "$f(x) = 9x^2 - 12x + 4$",
+      "steps_fa": [
+        "$f'(x) = (9x^2)' - (12x)' + (4)' = 18x - 12 + 0$"
+      ],
+      "answer": "$f'(x) = 18x - 12$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳ (۳)",
+      "problem_fa": "$f(x) = 6x^3 - 2x^2 + 6x - 1$",
+      "steps_fa": [
+        "$f'(x) = (6x^3)' - (2x^2)' + (6x)' - (1)'$",
+        "$f'(x) = 18x^2 - 4x + 6$"
+      ],
+      "answer": "$f'(x) = 18x^2 - 4x + 6$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت قانون حاصل ضرب",
+      "problem_fa": "ثابت کنید اگر $y = u \\cdot v$ باشد، $y' = u'v + uv'$ است.",
+      "steps_fa": [
+        "$y + \\Delta y = (u + \\Delta u)(v + \\Delta v)$",
+        "$\\Delta y = u\\Delta v + v\\Delta u + \\Delta u\\Delta v$",
+        "$\\frac{\\Delta y}{\\Delta x} = v\\frac{\\Delta u}{\\Delta x} + u\\frac{\\Delta v}{\\Delta x} + \\Delta u\\frac{\\Delta v}{\\Delta x}$",
+        "وقتی $\\Delta x \\to 0$: $\\frac{\\Delta u}{\\Delta x} \\to u'$، $\\frac{\\Delta v}{\\Delta x} \\to v'$ و $\\Delta u \\to 0$",
+        "$y' = vu' + uv' + 0 \\cdot v' = u'v + uv'$"
+      ],
+      "answer": "$y' = u'v + uv'$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

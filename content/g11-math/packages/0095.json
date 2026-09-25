@@ -1,0 +1,48 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 95,
+  "printed_page": 86,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم معادلات دو مجهولهٔ مثلثاتی",
+  "summary_fa": "این صفحه مثال ۴ را که از نوع چهارم است حل می‌کند: $x - y = \\frac{\\pi}{3}$ و $\\tan x - \\tan y = -2\\sqrt{3}$. نخست از معادلهٔ خطی تانجنت هر دو طرف گرفته می‌شود: $\\tan(x - y) = \\tan\\frac{\\pi}{3} = \\sqrt{3}$. سپس طرف چپ با فورمول تفریق تانجنت باز می‌شود و به جای صورت آن قیمت معلوم $-2\\sqrt{3}$ گذاشته می‌شود؛ از این‌جا حاصل ضرب $\\tan x\\tan y = -3$ دریافت می‌شود. حالا یک سیستم الجبری داریم که مجهول‌های آن $\\tan x$ و $\\tan y$ هستند: حاصل ضرب آن‌ها $-3$ و تفاضل آن‌ها $-2\\sqrt{3}$. با جاگذاری، یک معادلهٔ درجه دوم به دست می‌آید که مربع کامل است، پس $\\tan y = \\sqrt{3}$ و $y = \\frac{\\pi}{3}$؛ بعد $\\tan x = -\\sqrt{3}$ دریافت می‌شود. تعیین زاویهٔ x در صفحه بعد تمام می‌شود.",
+  "key_points_fa": [
+    "روش نوع چهارم: از $x \\pm y = \\alpha$ تانجنت بگیرید و فورمول $\\tan(x \\pm y)$ را به کار ببرید تا حاصل ضرب $\\tan x\\tan y$ دریافت شود.",
+    "با داشتن مجموع (یا تفاضل) و حاصل ضرب $\\tan x$ و $\\tan y$، مسأله به یک معادلهٔ درجه دوم تبدیل می‌شود.",
+    "در این مثال معادله $(\\tan y - \\sqrt{3})^2 = 0$ است، یعنی یک جذر مضاعف دارد.",
+    "شرط نوع چهارم هم همین را نشان می‌دهد: $a^2 - 4 + 4a\\cot\\alpha = 12 - 4 - 8 = 0$."
+  ],
+  "formulas": [
+    {"latex": "\\tan(x - y) = \\frac{\\tan x - \\tan y}{1 + \\tan x\\tan y}", "meaning_fa": "فورمول تفریق تانجنت (فورمول طرح)"},
+    {"latex": "\\tan(x + y) = \\frac{\\tan x + \\tan y}{1 - \\tan x\\tan y}", "meaning_fa": "فورمول جمع تانجنت، برای حالت $x + y = \\alpha$"}
+  ],
+  "terms": [
+    {"fa": "فورمول‌های جمع و تفریق", "en": "addition and subtraction formulas"},
+    {"fa": "جذر مضاعف", "en": "double root"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "سیستم $x - y = \\frac{\\pi}{3}$ و $\\tan x - \\tan y = -2\\sqrt{3}$ را حل کنید.",
+      "steps_fa": [
+        "از معادلهٔ اول: $\\tan(x - y) = \\tan\\frac{\\pi}{3} = \\sqrt{3}$",
+        "$\\frac{\\tan x - \\tan y}{1 + \\tan x\\tan y} = \\sqrt{3}$ و به جای صورت $-2\\sqrt{3}$ می‌گذاریم: $\\frac{-2\\sqrt{3}}{1 + \\tan x\\tan y} = \\sqrt{3}$",
+        "دو طرف را بر $\\sqrt{3}$ تقسیم می‌کنیم: $\\frac{-2}{1 + \\tan x\\tan y} = 1 \\Rightarrow 1 + \\tan x\\tan y = -2 \\Rightarrow \\tan x\\tan y = -3$ (I)",
+        "معادلهٔ دوم: $\\tan x - \\tan y = -2\\sqrt{3}$ (II)، پس $\\tan x = \\tan y - 2\\sqrt{3}$",
+        "در (I) می‌گذاریم: $(\\tan y - 2\\sqrt{3})\\tan y = -3 \\Rightarrow \\tan^2 y - 2\\sqrt{3}\\tan y + 3 = 0$",
+        "$(\\tan y - \\sqrt{3})^2 = 0 \\Rightarrow \\tan y = \\sqrt{3} \\Rightarrow y = \\frac{\\pi}{3}$",
+        "از (I): $\\tan x\\cdot\\sqrt{3} = -3 \\Rightarrow \\tan x = \\frac{-3}{\\sqrt{3}} = -\\sqrt{3}$",
+        "(صفحه بعد) $\\tan x = -\\sqrt{3} \\Rightarrow x = \\frac{2\\pi}{3}$؛ امتحان: $\\frac{2\\pi}{3} - \\frac{\\pi}{3} = \\frac{\\pi}{3}$ درست است."
+      ],
+      "answer": "$x = \\frac{2\\pi}{3}$، $y = \\frac{\\pi}{3}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "قدم آخر ($x = \\frac{2\\pi}{3}$) در بالای صفحه بعد آمده و این‌جا برای کامل بودن نوشته شده است. در کتاب سطر «$= 1 + \\tan x\\tan y = -2$» با یک علامهٔ مساوی اضافی در آغاز چاپ شده است. امتحان شرط نوع چهارم از ما است."
+}

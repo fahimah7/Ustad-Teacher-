@@ -1,0 +1,71 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 267,
+  "printed_page": 260,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مساحت مثلث از روی سه ضلع آن (فورمول هیرون)",
+  "summary_fa": "این صفحه اول ثابت می‌کند که $\\cos\\frac{A}{2} = \\sqrt{\\frac{p(p-a)}{bc}}$: قیمت cos A از قضیهٔ cosine در $\\cos\\frac{A}{2} = \\sqrt{\\frac{1+\\cos A}{2}}$ گذاشته می‌شود، صورت به $(b+c)^2 - a^2$ ساده می‌شود و به $(b+c+a)(b+c-a) = 2p \\cdot 2(p-a)$ تجزیه می‌شود. بعد در یک فعالیت، از تقسیم sin بر cos نصف زاویه فورمول $\\tan\\frac{A}{2}$ خواسته می‌شود. سپس با فورمول دو چند زاویه $\\sin A = 2\\sin\\frac{A}{2}\\cos\\frac{A}{2}$ و گذاشتن هر دو فورمول، $\\sin A$ فقط با ضلع‌ها نوشته می‌شود: $\\sin A = \\frac{2}{bc}\\sqrt{p(p-a)(p-b)(p-c)}$. در آخر یادآوری می‌شود که مساحت مثلث $\\frac{1}{2}bc\\sin A$ است؛ گذاشتن sin A در این فورمول در صفحهٔ بعد به فورمول هیرون می‌رسد.",
+  "key_points_fa": [
+    "$\\cos\\frac{A}{2} = \\sqrt{\\frac{1+\\cos A}{2}}$ و با قضیهٔ cosine: $\\cos\\frac{A}{2} = \\sqrt{\\frac{p(p-a)}{bc}}$.",
+    "$(b+c)^2 - a^2 = (b+c+a)(b+c-a) = 2p \\cdot 2(p-a)$.",
+    "$\\tan\\frac{A}{2} = \\frac{\\sin(A/2)}{\\cos(A/2)} = \\sqrt{\\frac{(p-b)(p-c)}{p(p-a)}}$.",
+    "$\\sin A = \\frac{2}{bc}\\sqrt{p(p-a)(p-b)(p-c)}$.",
+    "مساحت: $S = \\frac{1}{2}bc\\sin A = \\frac{1}{2}ac\\sin B = \\frac{1}{2}ab\\sin C$."
+  ],
+  "formulas": [
+    {"latex": "\\cos\\frac{A}{2} = \\sqrt{\\frac{p(p-a)}{bc}}", "meaning_fa": "cos نصف زاویهٔ A از روی ضلع‌ها"},
+    {"latex": "\\tan\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{p(p-a)}}", "meaning_fa": "tan نصف زاویهٔ A از روی ضلع‌ها"},
+    {"latex": "\\sin A = 2\\sin\\frac{A}{2}\\cos\\frac{A}{2} = \\frac{2}{bc}\\sqrt{p(p-a)(p-b)(p-c)}", "meaning_fa": "sin زاویهٔ A فقط از روی ضلع‌ها"}
+  ],
+  "terms": [
+    {"fa": "ثبوت", "en": "proof"},
+    {"fa": "نصف محیط", "en": "semi-perimeter"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.60, 0.64, 0.88, 0.80], "kind": "diagram", "description_fa": "مثلث ABC با رأس A در بالا و قاعدهٔ BC در پایین؛ ضلع مقابل A با a، مقابل B با b و مقابل C با c نام‌گذاری شده است. این شکل قرارداد نام‌گذاری ضلع‌ها را برای فورمول‌های نصف زاویه و فورمول هیرون نشان می‌دهد."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت فورمول $\\cos\\frac{A}{2}$",
+      "problem_fa": "نشان دهید که $\\cos\\frac{A}{2} = \\sqrt{\\frac{p(p-a)}{bc}}$.",
+      "steps_fa": [
+        "$\\cos\\frac{A}{2} = \\sqrt{\\frac{1 + \\frac{b^2+c^2-a^2}{2bc}}{2}} = \\sqrt{\\frac{2bc + b^2 + c^2 - a^2}{4bc}} = \\sqrt{\\frac{(b+c)^2 - a^2}{4bc}}$",
+        "$= \\sqrt{\\frac{(b+c+a)(b+c-a)}{4bc}}$",
+        "$b+c+a = 2p$ و $b+c-a = 2p - 2a = 2(p-a)$",
+        "$\\cos\\frac{A}{2} = \\sqrt{\\frac{2p \\cdot 2(p-a)}{4bc}} = \\sqrt{\\frac{p(p-a)}{bc}}$"
+      ],
+      "answer": "$\\cos\\frac{A}{2} = \\sqrt{\\frac{p(p-a)}{bc}}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "sin A از روی ضلع‌ها",
+      "problem_fa": "با کمک $\\sin A = 2\\sin\\frac{A}{2}\\cos\\frac{A}{2}$، sin A را از روی ضلع‌ها بنویسید.",
+      "steps_fa": [
+        "$\\sin A = 2\\sqrt{\\frac{(p-b)(p-c)}{bc}} \\cdot \\sqrt{\\frac{p(p-a)}{bc}}$",
+        "$= 2\\sqrt{\\frac{p(p-a)(p-b)(p-c)}{(bc)^2}} = \\frac{2}{bc}\\sqrt{p(p-a)(p-b)(p-c)}$"
+      ],
+      "answer": "$\\sin A = \\frac{2}{bc}\\sqrt{p(p-a)(p-b)(p-c)}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "چون $\\tan\\frac{A}{2} = \\frac{\\sin\\frac{A}{2}}{\\cos\\frac{A}{2}}$ است، نشان دهید که $\\tan\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{p(p-a)}}$.",
+      "solution_steps_fa": [
+        "$\\tan\\frac{A}{2} = \\frac{\\sqrt{\\frac{(p-b)(p-c)}{bc}}}{\\sqrt{\\frac{p(p-a)}{bc}}}$",
+        "$= \\sqrt{\\frac{(p-b)(p-c)}{bc} \\cdot \\frac{bc}{p(p-a)}}$؛ bc ساده می‌شود.",
+        "$\\tan\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{p(p-a)}}$"
+      ],
+      "answer": "$\\tan\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{p(p-a)}}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

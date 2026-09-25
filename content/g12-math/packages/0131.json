@@ -1,0 +1,120 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 131,
+  "printed_page": 124,
+  "page_kind": "exercises",
+  "chapter": 3,
+  "section_fa": "قاعدهٔ هوپیتال (L'Hopital)",
+  "summary_fa": "این صفحه اول نشان می‌دهد که مثال صفحهٔ قبل را با تجزیه به فکتورها هم می‌توان حل کرد و همان جواب $\\frac{9}{4}$ به دست می‌آید. بعد سه مثال با قاعدهٔ هوپیتال حل شده است: یک لیمت مثلثاتی با شکل $\\frac{0}{0}$ که جواب آن $-3$ است، یک لیمت پولینومی با شکل $\\frac{0}{0}$ که جواب آن ۱۰۸ است، و یک لیمت در بی‌نهایت با شکل $\\frac{\\infty}{\\infty}$ که دو بار مشتق لازم دارد و جواب آن $\\frac{3}{7}$ است. در پایان چهار تمرین برای تطبیق قاعدهٔ هوپیتال آمده است.",
+  "key_points_fa": [
+    "قاعدهٔ هوپیتال و روش تجزیه به فکتورها یک جواب می‌دهند.",
+    "در لیمت‌های مثلثاتی: $(\\sin 2x)'=2\\cos 2x$.",
+    "اگر بعد از مشتق اول باز $\\frac{\\infty}{\\infty}$ بود، مشتق دوم بگیرید.",
+    "اگر بعد از مشتق صورت عدد غیر صفر و مخرج صفر شود، لیمت بی‌نهایت است."
+  ],
+  "formulas": [
+    {"latex": "(\\sin kx)'=k\\cos kx", "meaning_fa": "مشتق ساین با ضریب"},
+    {"latex": "(x^n)'=nx^{n-1}", "meaning_fa": "مشتق توان"}
+  ],
+  "terms": [
+    {"fa": "قاعدهٔ هوپیتال", "en": "L'Hôpital's rule"},
+    {"fa": "شکل مبهم", "en": "indeterminate form"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "روش دوم برای مثال قبلی",
+      "problem_fa": "$\\lim_{x\\to2}\\frac{2x^2+x-10}{x^2-4}$ با تجزیه",
+      "steps_fa": [
+        "$\\frac{(2x+5)(x-2)}{(x-2)(x+2)}=\\frac{2x+5}{x+2}$",
+        "$\\frac{2\\cdot2+5}{2+2}=\\frac{9}{4}$"
+      ],
+      "answer": "$\\frac{9}{4}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\lim_{x\\to0}\\frac{x+\\sin2x}{x-\\sin2x}$",
+      "steps_fa": [
+        "قیمت‌گذاری: $\\frac{0}{0}$",
+        "$\\lim_{x\\to0}\\frac{1+2\\cos2x}{1-2\\cos2x}=\\frac{1+2}{1-2}=-3$"
+      ],
+      "answer": "$-3$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\lim_{x\\to3}\\frac{x^4-81}{x-3}$",
+      "steps_fa": [
+        "قیمت‌گذاری: $\\frac{81-81}{0}=\\frac{0}{0}$",
+        "$\\lim_{x\\to3}\\frac{4x^3}{1}=4\\cdot27=108$"
+      ],
+      "answer": "$108$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "$\\lim_{x\\to\\infty}\\frac{3x^2-4x+6}{7x^2-2x+1}$",
+      "steps_fa": [
+        "شکل $\\frac{\\infty}{\\infty}$",
+        "مشتق اول: $\\frac{6x-4}{14x-2}$ که باز $\\frac{\\infty}{\\infty}$ است.",
+        "مشتق دوم: $\\frac{6}{14}=\\frac{3}{7}$"
+      ],
+      "answer": "$\\frac{3}{7}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x\\to0}\\frac{\\sin x}{x}$",
+      "solution_steps_fa": [
+        "قیمت‌گذاری: $\\frac{0}{0}$",
+        "$\\lim_{x\\to0}\\frac{\\cos x}{1}=\\cos0=1$"
+      ],
+      "answer": "$1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x\\to1}\\frac{x^5-1}{x^3-1}$",
+      "solution_steps_fa": [
+        "قیمت‌گذاری: $\\frac{0}{0}$",
+        "$\\lim_{x\\to1}\\frac{5x^4}{3x^2}=\\frac{5}{3}$"
+      ],
+      "answer": "$\\frac{5}{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x\\to0}\\frac{\\sin x}{x^3}$",
+      "solution_steps_fa": [
+        "قیمت‌گذاری: $\\frac{0}{0}$",
+        "یک بار مشتق: $\\lim_{x\\to0}\\frac{\\cos x}{3x^2}$؛ صورت به ۱ و مخرج به صفر مثبت نزدیک می‌شود.",
+        "چون $3x^2$ از هر دو طرف مثبت است، کسر بی‌نهایت بزرگ می‌شود. (این دیگر مبهم نیست و نباید دوباره هوپیتال زد.)"
+      ],
+      "answer": "$+\\infty$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین d",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x\\to\\infty}\\frac{x^5}{3x^3}$",
+      "solution_steps_fa": [
+        "شکل $\\frac{\\infty}{\\infty}$",
+        "مشتق اول: $\\frac{5x^4}{9x^2}$، باز $\\frac{\\infty}{\\infty}$؛ مشتق دوم: $\\frac{20x^3}{18x}$، باز مبهم؛ مشتق سوم: $\\frac{60x^2}{18}$",
+        "$\\frac{60x^2}{18}\\to+\\infty$ (به ساده‌گی هم $\\frac{x^5}{3x^3}=\\frac{x^2}{3}$)"
+      ],
+      "answer": "$+\\infty$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

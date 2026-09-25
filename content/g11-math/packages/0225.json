@@ -1,0 +1,68 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 225,
+  "printed_page": 216,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "ضرب یک متریکس در سکالر",
+  "summary_fa": "این صفحه سه خاصیت ضرب متریکس در عدد حقیقی را بیان می‌کند: توزیعی بودن ضرب عدد بر جمع متریکس‌ها، توزیعی بودن جمع دو عدد در ضرب با متریکس، و اتحادی بودن ضرب چند عدد با متریکس. در مثال با $A = \\begin{pmatrix} 3 & 6 \\\\ -3 & 9 \\end{pmatrix}$، $\\alpha = 3$ و $\\beta = 2$ هر سه عبارت $\\alpha(\\beta A)$، $(\\alpha\\beta)A$ و $\\beta(\\alpha A)$ حساب می‌شوند و همه یک نتیجه می‌دهند. در تمرین، اول باید هر سه خاصیت برای دو متریکس داده شده امتحان شوند و سپس KA و $\\frac{1}{K}A$ برای یک متریکس $3 \\times 3$ حساب شوند.",
+  "key_points_fa": [
+    "این خاصیت‌ها برای متریکس‌های هم‌مرتبه A و B و اعداد حقیقی $\\alpha$ و $\\beta$ درست است.",
+    "ترتیب ضرب اعداد مهم نیست: $\\alpha(\\beta A) = (\\alpha\\beta)A = \\beta(\\alpha A)$.",
+    "در عمل، راه ساده این است که اول اعداد را با هم ضرب کنیم و بعد در متریکس.",
+    "ضرب در $\\frac{1}{K}$ یعنی تقسیم هر عنصر بر K."
+  ],
+  "formulas": [
+    {"latex": "\\alpha(A + B) = \\alpha A + \\alpha B", "meaning_fa": "ضرب یک عدد بر جمع دو متریکس توزیع می‌شود"},
+    {"latex": "(\\alpha + \\beta)A = \\alpha A + \\beta A", "meaning_fa": "جمع دو عدد ضرب در یک متریکس توزیع می‌شود"},
+    {"latex": "\\alpha(\\beta A) = (\\alpha\\beta)A = \\beta(\\alpha A)", "meaning_fa": "خاصیت اتحادی ضرب اعداد با متریکس"}
+  ],
+  "terms": [
+    {"fa": "عدد حقیقی", "en": "real number"},
+    {"fa": "خاصیت توزیعی", "en": "distributive property"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "اگر $A = \\begin{pmatrix} 3 & 6 \\\\ -3 & 9 \\end{pmatrix}$، $\\alpha = 3$ و $\\beta = 2$ باشد، نشان دهید $\\alpha(\\beta A) = (\\alpha\\beta)A = \\beta(\\alpha A)$.",
+      "steps_fa": [
+        "$\\alpha(\\beta A) = 3\\begin{pmatrix} 6 & 12 \\\\ -6 & 18 \\end{pmatrix} = \\begin{pmatrix} 18 & 36 \\\\ -18 & 54 \\end{pmatrix}$",
+        "$(\\alpha\\beta)A = 6\\begin{pmatrix} 3 & 6 \\\\ -3 & 9 \\end{pmatrix} = \\begin{pmatrix} 18 & 36 \\\\ -18 & 54 \\end{pmatrix}$",
+        "$\\beta(\\alpha A) = 2\\begin{pmatrix} 9 & 18 \\\\ -9 & 27 \\end{pmatrix} = \\begin{pmatrix} 18 & 36 \\\\ -18 & 54 \\end{pmatrix}$"
+      ],
+      "answer": "هر سه برابر $\\begin{pmatrix} 18 & 36 \\\\ -18 & 54 \\end{pmatrix}$ هستند.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "اگر $A = \\begin{pmatrix} 2 & 0 \\\\ 1 & -1 \\end{pmatrix}$، $B = \\begin{pmatrix} -1 & 0 \\\\ 1 & 0 \\end{pmatrix}$، $\\alpha = 2$ و $\\beta = 1$ باشد، سه خاصیت ضرب متریکس در سکالر را نشان دهید.",
+      "solution_steps_fa": [
+        "a) $A + B = \\begin{pmatrix} 1 & 0 \\\\ 2 & -1 \\end{pmatrix}$، پس $\\alpha(A+B) = \\begin{pmatrix} 2 & 0 \\\\ 4 & -2 \\end{pmatrix}$؛ و $\\alpha A + \\alpha B = \\begin{pmatrix} 4 & 0 \\\\ 2 & -2 \\end{pmatrix} + \\begin{pmatrix} -2 & 0 \\\\ 2 & 0 \\end{pmatrix} = \\begin{pmatrix} 2 & 0 \\\\ 4 & -2 \\end{pmatrix}$ ✓",
+        "b) $(\\alpha + \\beta)A = 3A = \\begin{pmatrix} 6 & 0 \\\\ 3 & -3 \\end{pmatrix}$؛ و $\\alpha A + \\beta A = \\begin{pmatrix} 4 & 0 \\\\ 2 & -2 \\end{pmatrix} + \\begin{pmatrix} 2 & 0 \\\\ 1 & -1 \\end{pmatrix} = \\begin{pmatrix} 6 & 0 \\\\ 3 & -3 \\end{pmatrix}$ ✓",
+        "c) $\\alpha(\\beta A) = 2(1 \\cdot A) = \\begin{pmatrix} 4 & 0 \\\\ 2 & -2 \\end{pmatrix}$، $(\\alpha\\beta)A = 2A = \\begin{pmatrix} 4 & 0 \\\\ 2 & -2 \\end{pmatrix}$، $\\beta(\\alpha A) = 1 \\cdot 2A = \\begin{pmatrix} 4 & 0 \\\\ 2 & -2 \\end{pmatrix}$ ✓"
+      ],
+      "answer": "هر سه خاصیت برقرار است: $\\alpha(A+B) = \\begin{pmatrix} 2 & 0 \\\\ 4 & -2 \\end{pmatrix}$، $(\\alpha+\\beta)A = \\begin{pmatrix} 6 & 0 \\\\ 3 & -3 \\end{pmatrix}$، $\\alpha(\\beta A) = \\begin{pmatrix} 4 & 0 \\\\ 2 & -2 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "اگر $A = \\begin{pmatrix} 5 & 1 & 1 \\\\ 0 & 1 & 2 \\\\ 0 & 0 & 1 \\end{pmatrix}$ و $K = 3$ باشد، KA و $\\frac{1}{K}A$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$3A$: هر عنصر ضرب در ۳.",
+        "$\\frac{1}{3}A$: هر عنصر تقسیم بر ۳."
+      ],
+      "answer": "$KA = \\begin{pmatrix} 15 & 3 & 3 \\\\ 0 & 3 & 6 \\\\ 0 & 0 & 3 \\end{pmatrix}$، $\\frac{1}{K}A = \\begin{pmatrix} \\frac{5}{3} & \\frac{1}{3} & \\frac{1}{3} \\\\ 0 & \\frac{1}{3} & \\frac{2}{3} \\\\ 0 & 0 & \\frac{1}{3} \\end{pmatrix}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در سطر سوم حل مثال، کتاب عنصر $9 \\cdot 3$ را $-27$ چاپ کرده؛ درست آن $27$ است و نتیجهٔ نهایی کتاب درست است."
+}

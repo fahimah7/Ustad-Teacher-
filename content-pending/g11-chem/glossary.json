@@ -1,0 +1,356 @@
+{
+  "book_id": "g11-chem",
+  "terms": [
+    {
+      "book": "کیمیا",
+      "avoid": [
+        "شیمی"
+      ],
+      "en": "chemistry"
+    },
+    {
+      "book": "کیمیاوی",
+      "avoid": [
+        "شیمیایی"
+      ],
+      "en": "chemical"
+    },
+    {
+      "book": "تعامل",
+      "avoid": [
+        "واکنش"
+      ],
+      "en": "chemical reaction"
+    },
+    {
+      "book": "مواد تعامل کننده",
+      "avoid": [
+        "واکنش‌دهنده‌ها"
+      ],
+      "en": "reactants"
+    },
+    {
+      "book": "محصول تعامل",
+      "avoid": [
+        "فراورده"
+      ],
+      "en": "product of a reaction"
+    },
+    {
+      "book": "محلول",
+      "avoid": [],
+      "en": "solution"
+    },
+    {
+      "book": "مادهٔ منحله",
+      "avoid": [
+        "حل‌شونده"
+      ],
+      "en": "solute"
+    },
+    {
+      "book": "محلل",
+      "avoid": [
+        "حلال"
+      ],
+      "en": "solvent"
+    },
+    {
+      "book": "غلظت",
+      "avoid": [],
+      "en": "concentration"
+    },
+    {
+      "book": "مولاریتی",
+      "avoid": [
+        "مولاریته"
+      ],
+      "en": "molarity"
+    },
+    {
+      "book": "مولالیتی",
+      "avoid": [
+        "مولالیته"
+      ],
+      "en": "molality"
+    },
+    {
+      "book": "سهم مولی",
+      "avoid": [
+        "کسر مولی"
+      ],
+      "en": "mole fraction"
+    },
+    {
+      "book": "انحلالیت",
+      "avoid": [
+        "انحلال‌پذیری"
+      ],
+      "en": "solubility"
+    },
+    {
+      "book": "محلول مشبوع",
+      "avoid": [
+        "محلول سیرشده"
+      ],
+      "en": "saturated solution"
+    },
+    {
+      "book": "مالیکول",
+      "avoid": [
+        "مولکول"
+      ],
+      "en": "molecule"
+    },
+    {
+      "book": "اتوم",
+      "avoid": [
+        "اتم"
+      ],
+      "en": "atom"
+    },
+    {
+      "book": "آیون",
+      "avoid": [
+        "یون"
+      ],
+      "en": "ion"
+    },
+    {
+      "book": "کتله",
+      "avoid": [
+        "جرم"
+      ],
+      "en": "mass"
+    },
+    {
+      "book": "کتلهٔ اتومی",
+      "avoid": [
+        "جرم اتمی"
+      ],
+      "en": "atomic mass"
+    },
+    {
+      "book": "کثافت",
+      "avoid": [
+        "چگالی"
+      ],
+      "en": "density"
+    },
+    {
+      "book": "درجهٔ حرارت",
+      "avoid": [
+        "دما"
+      ],
+      "en": "temperature"
+    },
+    {
+      "book": "درجهٔ غلیان",
+      "avoid": [
+        "نقطهٔ جوش"
+      ],
+      "en": "boiling point"
+    },
+    {
+      "book": "درجهٔ ذوبان",
+      "avoid": [
+        "نقطهٔ ذوب"
+      ],
+      "en": "melting point"
+    },
+    {
+      "book": "فشار آسموتیک",
+      "avoid": [
+        "فشار اسمزی"
+      ],
+      "en": "osmotic pressure"
+    },
+    {
+      "book": "کتلست",
+      "avoid": [
+        "کاتالیزگر",
+        "کاتالیزور"
+      ],
+      "en": "catalyst"
+    },
+    {
+      "book": "انرژی فعال سازی",
+      "avoid": [],
+      "en": "activation energy"
+    },
+    {
+      "book": "تعادل کیمیاوی",
+      "avoid": [
+        "تعادل شیمیایی"
+      ],
+      "en": "chemical equilibrium"
+    },
+    {
+      "book": "ثابت تعادل",
+      "avoid": [],
+      "en": "equilibrium constant"
+    },
+    {
+      "book": "تیزاب",
+      "avoid": [
+        "اسید"
+      ],
+      "en": "acid (generic term; specific acids are named e.g. سلفوریک اسید)"
+    },
+    {
+      "book": "القلی",
+      "avoid": [
+        "باز"
+      ],
+      "en": "base"
+    },
+    {
+      "book": "خنثی سازی",
+      "avoid": [
+        "خنثی‌شدن"
+      ],
+      "en": "neutralization"
+    },
+    {
+      "book": "تیتریشن (عیار سازی)",
+      "avoid": [
+        "تیتراسیون"
+      ],
+      "en": "titration"
+    },
+    {
+      "book": "انرژی آیونایزیشن",
+      "avoid": [
+        "انرژی یونش"
+      ],
+      "en": "ionization energy"
+    },
+    {
+      "book": "نمبر اکسیدیشن",
+      "avoid": [
+        "عدد اکسایش"
+      ],
+      "en": "oxidation number"
+    },
+    {
+      "book": "اکسیدیشن",
+      "avoid": [
+        "اکسایش"
+      ],
+      "en": "oxidation"
+    },
+    {
+      "book": "ارجاع",
+      "avoid": [
+        "کاهش"
+      ],
+      "en": "reduction"
+    },
+    {
+      "book": "پیل گالوانی",
+      "avoid": [
+        "سلول گالوانی"
+      ],
+      "en": "galvanic cell"
+    },
+    {
+      "book": "انود",
+      "avoid": [
+        "آند"
+      ],
+      "en": "anode"
+    },
+    {
+      "book": "کتود",
+      "avoid": [
+        "کاتد"
+      ],
+      "en": "cathode"
+    },
+    {
+      "book": "الکترولیز (تجزیهٔ برقی)",
+      "avoid": [
+        "برقکافت"
+      ],
+      "en": "electrolysis"
+    },
+    {
+      "book": "منفیت برقی",
+      "avoid": [
+        "الکترونگاتیوی"
+      ],
+      "en": "electronegativity"
+    },
+    {
+      "book": "فلزات انتقالی",
+      "avoid": [
+        "فلزات واسطه"
+      ],
+      "en": "transition metals"
+    },
+    {
+      "book": "گروپ",
+      "avoid": [
+        "گروه"
+      ],
+      "en": "group (of the periodic table)"
+    },
+    {
+      "book": "هایدروجن",
+      "avoid": [
+        "هیدروژن"
+      ],
+      "en": "hydrogen"
+    },
+    {
+      "book": "آکسیجن",
+      "avoid": [
+        "اکسیژن"
+      ],
+      "en": "oxygen"
+    },
+    {
+      "book": "نایتروجن",
+      "avoid": [
+        "نیتروژن"
+      ],
+      "en": "nitrogen"
+    },
+    {
+      "book": "کلورین",
+      "avoid": [
+        "کلر"
+      ],
+      "en": "chlorine"
+    },
+    {
+      "book": "سودیم",
+      "avoid": [
+        "سدیم"
+      ],
+      "en": "sodium"
+    },
+    {
+      "book": "پوتاشیم",
+      "avoid": [
+        "پتاسیم"
+      ],
+      "en": "potassium"
+    },
+    {
+      "book": "سیماب",
+      "avoid": [
+        "جیوه"
+      ],
+      "en": "mercury"
+    },
+    {
+      "book": "سلیکان",
+      "avoid": [
+        "سیلیسیم"
+      ],
+      "en": "silicon"
+    }
+  ],
+  "style_notes_fa": "این کتاب «فصل» را برای واحدهای درسی به کار می‌برد و بخش‌ها را با شماره‌گذاری مانند «۱-۳» نام می‌گیرد؛ کارهای عملی زیر عنوان «فعالیت» با «سامان و مواد» و «طرزالعمل» آمده، مثال‌های حل‌شده با «مثال» و «حل»، و نکته‌ها با «نوت» یا «توجه» مشخص شده‌اند. در پایان هر فصل «خلاصهٔ فصل» و «سؤالات فصل» (سؤالات چهار جوابه و سؤالات تشریحی) آمده است؛ کلمهٔ عمومی «تیزاب» به کار می‌رود ولی نام تیزاب‌های مشخص به شکل «سلفوریک اسید» و «هایدروکلوریک اسید» نوشته می‌شود."
+}

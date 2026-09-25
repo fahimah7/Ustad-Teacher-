@@ -1,0 +1,44 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 97,
+  "printed_page": 88,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم معادلات دو مجهولهٔ مثلثاتی",
+  "summary_fa": "این صفحه حل مثال ۵ (نوع پنجم) را تمام می‌کند. در صفحه قبل کسری به دست آمد که باید مساوی صفر باشد؛ یک کسر وقتی صفر است که صورت آن صفر شود، پس $\\cos(x - y) = \\cos\\frac{7\\pi}{6}$. چون $\\cos\\frac{7\\pi}{6} = -\\frac{\\sqrt{3}}{2}$ است، زاویهٔ $x - y = \\frac{5\\pi}{6}$ انتخاب می‌شود. حالا یک سیستم خطی ساده داریم: $x - y = \\frac{5\\pi}{6}$ و $x + y = \\frac{7\\pi}{6}$. با جمع دو معادله $2x = \\frac{12\\pi}{6}$، پس $x = \\pi$. با گذاشتن x در معادلهٔ اول $y = \\pi - \\frac{5\\pi}{6} = \\frac{\\pi}{6}$ دریافت می‌شود. نیمهٔ پایین صفحه خالی است.",
+  "key_points_fa": [
+    "کسر صفر است اگر صورت آن صفر و مخرج آن غیر صفر باشد؛ این‌جا مخرج $-\\sqrt{3} \\ne 0$ است.",
+    "$\\cos\\frac{7\\pi}{6} = -\\cos\\frac{\\pi}{6} = -\\frac{\\sqrt{3}}{2}$ (زاویه در ربع سوم).",
+    "از $\\cos(x-y) = -\\frac{\\sqrt{3}}{2}$ کتاب $x - y = \\frac{5\\pi}{6}$ را می‌گیرد.",
+    "جمع دو معادلهٔ خطی $2x$ و تفریق آن‌ها $2y$ را می‌دهد.",
+    "امتحان: $\\tan\\pi = 0$، پس $\\tan\\pi\\cdot\\tan\\frac{\\pi}{6} = 0$ و $\\pi + \\frac{\\pi}{6} = \\frac{7\\pi}{6}$ درست است.",
+    "راه کوتاه‌تر: حاصل ضرب صفر است اگر یکی از عوامل صفر باشد، پس $\\tan x = 0$ یا $\\tan y = 0$."
+  ],
+  "formulas": [
+    {"latex": "\\cos\\frac{7\\pi}{6} = -\\frac{\\sqrt{3}}{2}", "meaning_fa": "قیمت کوساین زاویهٔ $210^\\circ$"},
+    {"latex": "\\cos(x - y) = -\\frac{\\sqrt{3}}{2} \\Rightarrow x - y = \\frac{5\\pi}{6}", "meaning_fa": "دریافت تفاضل دو مجهول"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۵ (ادامه)",
+      "problem_fa": "ادامهٔ حل سیستم $x + y = \\frac{7\\pi}{6}$ و $\\tan x\\tan y = 0$ از رابطهٔ $\\frac{\\cos(x-y) - \\cos\\frac{7\\pi}{6}}{\\cos(x-y) + \\cos\\frac{7\\pi}{6}} = 0$",
+      "steps_fa": [
+        "صورت را صفر می‌گذاریم: $\\cos(x-y) - \\cos\\frac{7\\pi}{6} = 0$",
+        "$\\cos\\frac{7\\pi}{6} = -\\frac{\\sqrt{3}}{2}$، پس $\\cos(x-y) + \\frac{\\sqrt{3}}{2} = 0 \\Rightarrow \\cos(x-y) = -\\frac{\\sqrt{3}}{2}$",
+        "$x - y = \\frac{5\\pi}{6}$ (I) و $x + y = \\frac{7\\pi}{6}$ (II)",
+        "با جمع: $2x = \\frac{5\\pi + 7\\pi}{6} = \\frac{12\\pi}{6} \\Rightarrow x = \\pi$",
+        "در (I): $\\pi - y = \\frac{5\\pi}{6} \\Rightarrow y = \\pi - \\frac{5\\pi}{6} = \\frac{6\\pi - 5\\pi}{6} = \\frac{\\pi}{6}$"
+      ],
+      "answer": "$x = \\pi$، $y = \\frac{\\pi}{6}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب $\\frac{5\\pi}{6}$ و $\\frac{7\\pi}{6}$ را به شکل $5\\frac{\\pi}{6}$ و $7\\frac{\\pi}{6}$ چاپ کرده است. کتاب فقط یک جواب می‌دهد؛ با $x - y = -\\frac{5\\pi}{6}$ جواب دیگر $x = \\frac{\\pi}{6}$، $y = \\pi$ هم درست است (این توضیح و امتحان از ما است)."
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 259,
+  "printed_page": 252,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "طول قوس (Arc length)",
+  "summary_fa": "این صفحه کاربرد هم‌زمان فورمول‌های طول قوس و مساحت قطاع را نشان می‌دهد. بالای صفحه حل مثال ۳ تمام می‌شود: زاویه $\\frac{5\\pi}{6}$ رادیان و طول قوس حدود $15.7$ سانتی‌متر است. مثال ۴ برای دایره‌ای به شعاع ۷ سانتی‌متر محیط، مساحت کل، طول قوس مقابل $60^\\circ$ و مساحت قطاع $60^\\circ$ را حساب می‌کند. مثال ۵ برای قطاعی با شعاع ۸ و زاویهٔ $45^\\circ$ مساحت، طول قوس و محیط قطاع را پیدا می‌کند. نکتهٔ مهم: محیط قطاع فقط طول قوس نیست؛ دو شعاع کنار آن هم جمع می‌شوند ($L + 2R$). یک فعالیت در پایان صفحه مساحت قطاع‌هایی با زاویه‌های $180^\\circ$، $216^\\circ$ و $324^\\circ$ را می‌خواهد.",
+  "key_points_fa": [
+    "محیط دایره $C = 2\\pi R$ و مساحت دایره $A = \\pi R^2$.",
+    "محیط قطاع = طول قوس + دو شعاع = $L + 2R$.",
+    "با $\\pi \\approx \\frac{22}{7}$ یا $\\pi \\approx 3.14$ جواب تقریبی به دست می‌آید.",
+    "قطاع $180^\\circ$ نصف دایره است؛ پس مساحتش نصف مساحت دایره است."
+  ],
+  "formulas": [
+    {"latex": "C = 2\\pi R,\\quad A = \\pi R^2", "meaning_fa": "محیط و مساحت دایره"},
+    {"latex": "A_s = \\pi R^2\\frac{\\theta}{360^\\circ},\\quad L = 2\\pi R\\frac{\\theta}{360^\\circ}", "meaning_fa": "مساحت قطاع و طول قوس با زاویهٔ درجه‌ای"},
+    {"latex": "P_{sector} = 2\\pi R\\frac{\\theta}{360^\\circ} + 2R", "meaning_fa": "محیط قطاع"}
+  ],
+  "terms": [
+    {"fa": "محیط قطاع", "en": "perimeter of a sector"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.70, 0.63, 0.89, 0.77], "kind": "diagram", "description_fa": "یک قطاع گلابی‌رنگ با رأس $M$، دو شعاع $R = 8\\,cm$، زاویهٔ $45^\\circ$، قوس $L$ در بالا و مساحت $A_s$ در داخل؛ شکل مثال ۵ است و نشان می‌دهد که محیط قطاع از قوس و دو شعاع تشکیل می‌شود."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳ (ادامه)",
+      "problem_fa": "شعاع $6\\,cm$ و مساحت قطاع $15\\pi\\,cm^2$؛ طول قوس؟",
+      "steps_fa": [
+        "$15\\pi = 18\\theta \\Rightarrow \\theta = \\frac{15\\pi}{18} = \\frac{5\\pi}{6}$ رادیان",
+        "$L = R\\theta = 6\\cdot\\frac{5\\pi}{6} = 5\\pi \\approx 15.7\\,cm$"
+      ],
+      "answer": "$5\\pi\\,cm \\approx 15.7\\,cm$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "دایره‌ای به شعاع $7\\,cm$: محیط و مساحت دایره، طول قوس مقابل زاویهٔ مرکزی $60^\\circ$ و مساحت قطاع $60^\\circ$ را دریابید.",
+      "steps_fa": [
+        "$60^\\circ = \\frac{\\pi}{3}$ رادیان",
+        "$C = 2\\pi R \\approx 2\\cdot\\frac{22}{7}\\cdot 7 = 44\\,cm$",
+        "$A = \\pi R^2 \\approx \\frac{22}{7}\\cdot 49 = 154\\,cm^2$",
+        "$L = R\\theta = 7\\cdot\\frac{\\pi}{3} = \\frac{7\\pi}{3} \\approx 7.33\\,cm$",
+        "$A_s = \\frac{1}{2}\\cdot 49\\cdot\\frac{\\pi}{3} = \\frac{49\\pi}{6} \\approx 25.7\\,cm^2$"
+      ],
+      "answer": "$C \\approx 44\\,cm$، $A \\approx 154\\,cm^2$، $L = \\frac{7\\pi}{3}\\,cm$، $A_s = \\frac{49\\pi}{6} \\approx 25.7\\,cm^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "شعاع دایره $8\\,cm$ و زاویهٔ قطاع $45^\\circ$ است؛ مساحت قطاع، طول قوس و محیط قطاع را دریابید.",
+      "steps_fa": [
+        "$A_s = \\pi R^2\\frac{45^\\circ}{360^\\circ} = 64\\cdot 3.14\\cdot\\frac{1}{8} \\approx 25.12\\,cm^2$",
+        "$L = 2\\pi R\\frac{45^\\circ}{360^\\circ} = 2\\cdot 8\\cdot 3.14\\cdot\\frac{1}{8} \\approx 6.28\\,cm$",
+        "محیط قطاع $= L + 2R = 6.28 + 16 = 22.28\\,cm$"
+      ],
+      "answer": "$A_s \\approx 25.12\\,cm^2$، $L \\approx 6.28\\,cm$، محیط $\\approx 22.28\\,cm$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "شعاع دایره $10\\,cm$ است. مساحت قطاع را وقتی اندازهٔ قوس $180^\\circ$، $216^\\circ$ و $324^\\circ$ باشد دریابید.",
+      "solution_steps_fa": [
+        "$S = \\pi R^2\\frac{\\theta}{360^\\circ} = 100\\pi\\cdot\\frac{\\theta}{360^\\circ}$",
+        "$180^\\circ$: $100\\pi\\cdot\\frac{1}{2} = 50\\pi \\approx 157.1\\,cm^2$",
+        "$216^\\circ$: $100\\pi\\cdot\\frac{3}{5} = 60\\pi \\approx 188.5\\,cm^2$",
+        "$324^\\circ$: $100\\pi\\cdot\\frac{9}{10} = 90\\pi \\approx 282.7\\,cm^2$"
+      ],
+      "answer": "$50\\pi$، $60\\pi$ و $90\\pi$ سانتی‌متر مربع (تقریباً $157.1$، $188.5$ و $282.7$)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب مساحت قطاع مثال ۴ را $\\approx 25.6$ نوشته؛ قیمت دقیق‌تر $\\frac{49\\pi}{6} \\approx 25.66 \\approx 25.7\\,cm^2$ است. در مثال ۵ واحد مساحت در کتاب $cm$ چاپ شده که باید $cm^2$ باشد، و کامه به جای نقطهٔ اعشاری آمده (25,12 یعنی 25.12)."
+}

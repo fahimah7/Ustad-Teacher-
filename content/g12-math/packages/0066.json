@@ -1,0 +1,141 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 66,
+  "printed_page": 59,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق حاصل تقسیم",
+  "summary_fa": "این صفحه دو مثال دیگر از قانون حاصل تقسیم می‌آورد و با یک تمرین هشت‌قسمتی تمام می‌شود. در مثال ۲ متحول تابع y است نه x؛ مشتق عمومی حساب می‌شود و بعد قیمت $y = 0$ در آن گذاشته می‌شود تا مشتق در آن نقطه به دست آید. در مثال ۳ صورت کسر یک عدد ثابت است، پس مشتق صورت صفر می‌شود و فقط جملهٔ $-uv'$ باقی می‌ماند. تمرین آخر صفحه ترکیبی از قانون‌های طاقت، حاصل جمع، حاصل ضرب و حاصل تقسیم را برای توابع الجبری می‌خواهد.",
+  "key_points_fa": [
+    "نام متحول مهم نیست؛ قانون‌ها برای $f(y)$ یا $f(t)$ هم همان‌طور کار می‌کنند.",
+    "برای مشتق در یک نقطه، اول مشتق عمومی را پیدا کنید و بعد قیمت نقطه را وضع کنید.",
+    "اگر صورت عدد ثابت باشد ($u' = 0$): $\\left(\\frac{k}{v}\\right)' = -\\frac{kv'}{v^2}$",
+    "بعضی ضرب‌ها را می‌توان اول باز کرد و بعد مشتق گرفت؛ نتیجه یکی است."
+  ],
+  "formulas": [
+    {"latex": "\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}", "meaning_fa": "قانون مشتق حاصل تقسیم"},
+    {"latex": "\\left(\\frac{k}{v}\\right)' = \\frac{-k\\,v'}{v^2}", "meaning_fa": "حالت خاص: صورت کسر عدد ثابت k است"},
+    {"latex": "\\left(\\frac{ax + b}{cx + d}\\right)' = \\frac{ad - bc}{(cx + d)^2}", "meaning_fa": "نتیجهٔ تمرین ۶؛ فورمول مفید برای کسرهای خطی"}
+  ],
+  "terms": [
+    {"fa": "تابع الجبری", "en": "algebraic function"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق $f(y) = \\frac{2y^2 - 3}{1 - 3y}$ را در نقطهٔ $y = 0$ دریافت کنید.",
+      "steps_fa": [
+        "$u = 2y^2 - 3 \\Rightarrow u' = 4y$ و $v = 1 - 3y \\Rightarrow v' = -3$",
+        "$f'(y) = \\frac{4y(1 - 3y) + 3(2y^2 - 3)}{(1 - 3y)^2} = \\frac{-6y^2 + 4y - 9}{(1 - 3y)^2}$",
+        "$f'(0) = \\frac{-9}{1} = -9$"
+      ],
+      "answer": "$f'(0) = -9$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "مشتق $f(t) = \\frac{-3}{2t - 1}$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = -3 \\Rightarrow u' = 0$ و $v = 2t - 1 \\Rightarrow v' = 2$",
+        "$f'(t) = \\frac{0 \\cdot (2t - 1) - 2(-3)}{(2t - 1)^2} = \\frac{6}{(2t - 1)^2}$"
+      ],
+      "answer": "$f'(t) = \\frac{6}{(2t - 1)^2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\frac{3}{5}x(x - 2)$",
+      "solution_steps_fa": [
+        "باز می‌کنیم: $f(x) = \\frac{3}{5}x^2 - \\frac{6}{5}x$",
+        "$f'(x) = \\frac{6}{5}x - \\frac{6}{5}$"
+      ],
+      "answer": "$f'(x) = \\frac{6}{5}(x - 1)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "$g(x) = (2x - 3)(x - 3)$",
+      "solution_steps_fa": [
+        "$u = 2x - 3,\\ u' = 2$ و $v = x - 3,\\ v' = 1$",
+        "$g'(x) = 2(x - 3) + 1 \\cdot (2x - 3) = 2x - 6 + 2x - 3$"
+      ],
+      "answer": "$g'(x) = 4x - 9$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = (2x - 1)^2$",
+      "solution_steps_fa": [
+        "$f(x) = (2x - 1)(2x - 1)$؛ $u = v = 2x - 1$ و $u' = v' = 2$",
+        "$f'(x) = 2(2x - 1) + 2(2x - 1) = 4(2x - 1)$"
+      ],
+      "answer": "$f'(x) = 8x - 4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "$f(t) = \\frac{t^2}{1 - 2t}$",
+      "solution_steps_fa": [
+        "$u = t^2,\\ u' = 2t$ و $v = 1 - 2t,\\ v' = -2$",
+        "$f'(t) = \\frac{2t(1 - 2t) - t^2(-2)}{(1 - 2t)^2} = \\frac{2t - 4t^2 + 2t^2}{(1 - 2t)^2}$",
+        "$f'(t) = \\frac{2t - 2t^2}{(1 - 2t)^2}$"
+      ],
+      "answer": "$f'(t) = \\frac{2t(1 - t)}{(1 - 2t)^2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\frac{1}{x^2 - 2}$",
+      "solution_steps_fa": [
+        "صورت ثابت است: $u = 1,\\ u' = 0$ و $v = x^2 - 2,\\ v' = 2x$",
+        "$f'(x) = \\frac{0 - 1 \\cdot 2x}{(x^2 - 2)^2}$"
+      ],
+      "answer": "$f'(x) = \\frac{-2x}{(x^2 - 2)^2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۶",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\frac{ax + b}{cx + d}$ (a، b، c، d اعداد ثابت‌اند)",
+      "solution_steps_fa": [
+        "$u = ax + b,\\ u' = a$ و $v = cx + d,\\ v' = c$",
+        "$f'(x) = \\frac{a(cx + d) - c(ax + b)}{(cx + d)^2} = \\frac{acx + ad - acx - bc}{(cx + d)^2}$"
+      ],
+      "answer": "$f'(x) = \\frac{ad - bc}{(cx + d)^2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۷",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = 3x^5 - 5x^2$",
+      "solution_steps_fa": [
+        "$f'(x) = 3 \\cdot 5x^4 - 5 \\cdot 2x$"
+      ],
+      "answer": "$f'(x) = 15x^4 - 10x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۸",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = 7x + 3$",
+      "solution_steps_fa": [
+        "$f'(x) = (7x)' + (3)' = 7 + 0$"
+      ],
+      "answer": "$f'(x) = 7$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

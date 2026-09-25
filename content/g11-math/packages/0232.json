@@ -1,0 +1,71 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 232,
+  "printed_page": 223,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "دیترمینانت",
+  "summary_fa": "این صفحه دیترمینانت را معرفی می‌کند. دیترمینانت عدد حقیقی‌ای است که به هر متریکس مربعی نسبت داده می‌شود و با $|A|$ یا $\\det A$ نشان داده می‌شود؛ متریکس غیرمربعی دیترمینانت ندارد. دیترمینانت یک متریکس $n \\times n$ را دیترمینانت درجهٔ n می‌گویند. برای متریکس $2 \\times 2$ قاعده ساده است: حاصل ضرب عناصر قطر اصلی منهای حاصل ضرب عناصر قطر دیگر، یعنی $ad - bc$. شکل ضربدری کنار سوال آغاز همین قاعده را نشان می‌دهد. سوال آغاز می‌خواهد یک متریکس عددی بسازیم که دیترمینانت آن صفر شود. در مثال دیترمینانت یک متریکس $2 \\times 2$ حساب می‌شود و در فعالیت شاگرد خودش یکی دیگر را حساب می‌کند.",
+  "key_points_fa": [
+    "دیترمینانت فقط برای متریکس مربعی تعریف می‌شود و جواب آن یک عدد است، نه متریکس.",
+    "نشانه‌ها: $|A|$ یا $\\det A$؛ خط‌های عمودی به جای قوس‌ها.",
+    "برای $2 \\times 2$: (ضرب قطر اصلی) منهای (ضرب قطر فرعی) $= ad - bc$.",
+    "دیترمینانت متریکس $n \\times n$ را دیترمینانت درجهٔ n می‌نامند.",
+    "دیترمینانت ممکن است مثبت، منفی یا صفر باشد."
+  ],
+  "formulas": [
+    {"latex": "|A| = \\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = ad - bc", "meaning_fa": "دیترمینانت متریکس $2 \\times 2$"},
+    {"latex": "|A| = \\det A = \\begin{vmatrix} a_{11} & \\dots & a_{1n} \\\\ \\vdots & & \\vdots \\\\ a_{n1} & \\dots & a_{nn} \\end{vmatrix}", "meaning_fa": "نشانهٔ دیترمینانت درجهٔ n برای متریکس مربعی $n \\times n$"}
+  ],
+  "terms": [
+    {"fa": "دیترمینانت", "en": "determinant"},
+    {"fa": "دیترمینانت درجهٔ n", "en": "determinant of order n"},
+    {"fa": "متریکس مربعی", "en": "square matrix"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.13, 0.40, 0.24], "kind": "diagram", "description_fa": "متریکس $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ با دو تیر ضربدری: تیری که از a به d می‌رود با $ad$ و تیری که از b به c می‌رود با $-cb$ نشانی شده است؛ یعنی دیترمینانت $= ad - cb$. این شکل راه به یاد سپردن قاعده است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "دیترمینانت $A = \\begin{pmatrix} 3 & 4 \\\\ 7 & 2 \\end{pmatrix}$ را محاسبه کنید.",
+      "steps_fa": [
+        "ضرب قطر اصلی: $3 \\cdot 2 = 6$",
+        "ضرب قطر دیگر: $7 \\cdot 4 = 28$",
+        "$|A| = 6 - 28$"
+      ],
+      "answer": "$|A| = -22$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "یک متریکس مربعی عددی $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ بسازید که $ad - cb = 0$ شود.",
+      "solution_steps_fa": [
+        "کافی است سطر دوم مضربی از سطر اول باشد، مثلاً دو برابر آن.",
+        "$\\begin{pmatrix} 1 & 2 \\\\ 2 & 4 \\end{pmatrix}$: $1 \\cdot 4 - 2 \\cdot 2 = 4 - 4 = 0$"
+      ],
+      "answer": "مثلاً $\\begin{pmatrix} 1 & 2 \\\\ 2 & 4 \\end{pmatrix}$ (جواب‌های زیاد دیگری هم ممکن است).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "دیترمینانت $A = \\begin{pmatrix} 1 & 4 \\\\ 6 & -3 \\end{pmatrix}$ را محاسبه کنید.",
+      "solution_steps_fa": [
+        "ضرب قطر اصلی: $1 \\cdot (-3) = -3$",
+        "ضرب قطر دیگر: $6 \\cdot 4 = 24$",
+        "$|A| = -3 - 24 = -27$"
+      ],
+      "answer": "$|A| = -27$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

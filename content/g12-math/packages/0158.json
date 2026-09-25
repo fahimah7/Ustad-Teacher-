@@ -1,0 +1,80 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 158,
+  "printed_page": 151,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "خواص انتیگرال معین",
+  "summary_fa": "بالای این صفحه نتیجهٔ مثال خاصیت ۳ نوشته شده است: چون جواب‌ها ۵ و ۵- بودند، $\\int_2^3 2x\\,dx = -\\int_3^2 2x\\,dx$. خاصیت ۴: اگر سرحد پایینی و بالایی یکی باشند، انتیگرال صفر است؛ زیرا عرض انتروال صفر است و $F(a) - F(a) = 0$. مثال آن $\\int_3^3 3x^2 dx$ است. خاصیت ۵: انتیگرال معین جمع یا تفریق دو تابع برابر جمع یا تفریق انتیگرال‌های آن‌هاست؛ ثبوت آن با جدا کردن مجموع ریمان به دو مجموع و لیمت گرفتن از هر کدام است. دو مثال نشان می‌دهند که پولینوم را جمله به جمله انتیگرال می‌گیریم و بعد سرحدها را جای‌گزین می‌کنیم.",
+  "key_points_fa": [
+    "خاصیت ۴: $\\int_a^a f(x)dx = 0$",
+    "خاصیت ۵: $\\int_a^b [f \\pm g]dx = \\int_a^b f\\,dx \\pm \\int_a^b g\\,dx$",
+    "در انتیگرال معین ثابت C لازم نیست؛ فقط $F(b) - F(a)$ حساب می‌شود.",
+    "لیمت جمع دو مجموع برابر جمع لیمت‌های آن‌هاست؛ ثبوت خاصیت ۵ بر همین تکیه دارد."
+  ],
+  "formulas": [
+    {"latex": "\\int_a^a f(x)\\,dx = F(a) - F(a) = 0", "meaning_fa": "خاصیت ۴: انتیگرال روی انتروال به طول صفر"},
+    {"latex": "\\int_a^b [f(x) \\pm g(x)]\\,dx = \\int_a^b f(x)\\,dx \\pm \\int_a^b g(x)\\,dx", "meaning_fa": "خاصیت ۵: جدا کردن جمع و تفریق"}
+  ],
+  "terms": [
+    {"fa": "تابع متمادی", "en": "continuous function"},
+    {"fa": "انتیگرال‌پذیر", "en": "integrable"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت خاصیت ۴",
+      "problem_fa": "اگر f در $[a, b]$ متمادی باشد، نشان دهید $\\int_a^a f(x)dx = 0$",
+      "steps_fa": [
+        "وقتی هر دو سرحد a باشند، $\\Delta x = 0$ است.",
+        "$\\int_a^a f(x)dx = F(a) - F(a) = 0$"
+      ],
+      "answer": "$0$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال (خاصیت ۴)",
+      "problem_fa": "$\\int_3^3 3x^2\\,dx$",
+      "steps_fa": ["$[x^3]_3^3 = 27 - 27 = 0$"],
+      "answer": "$0$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت خاصیت ۵",
+      "problem_fa": "نشان دهید $\\int_a^b [f \\pm g]dx = \\int_a^b f\\,dx \\pm \\int_a^b g\\,dx$",
+      "steps_fa": [
+        "$\\int_a^b [f \\pm g]dx = \\lim_{n\\to\\infty}\\sum [f(x_i) \\pm g(x_i)]\\Delta x$",
+        "$= \\lim_{n\\to\\infty}\\left[\\sum f(x_i)\\Delta x \\pm \\sum g(x_i)\\Delta x\\right]$",
+        "$= \\lim\\sum f(x_i)\\Delta x \\pm \\lim\\sum g(x_i)\\Delta x = \\int_a^b f\\,dx \\pm \\int_a^b g\\,dx$"
+      ],
+      "answer": "خاصیت ۵ ثبوت شد.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال a",
+      "problem_fa": "$\\int_0^1 (4 + 3x^2)\\,dx$",
+      "steps_fa": [
+        "$= 4\\int_0^1 dx + 3\\int_0^1 x^2 dx = 4[x]_0^1 + 3\\left[\\frac{x^3}{3}\\right]_0^1$",
+        "$= 4 + 1 = 5$"
+      ],
+      "answer": "$5$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال b",
+      "problem_fa": "$\\int_0^3 (x^2 - 1)\\,dx$",
+      "steps_fa": [
+        "$= \\left[\\frac{x^3}{3}\\right]_0^3 - [x]_0^3 = \\frac{27}{3} - 3$",
+        "$= 9 - 3 = 6$"
+      ],
+      "answer": "$6$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

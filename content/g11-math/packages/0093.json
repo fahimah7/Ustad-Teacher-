@@ -1,0 +1,57 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 93,
+  "printed_page": 84,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم معادلات دو مجهولهٔ مثلثاتی",
+  "summary_fa": "مثال ۲ در اینجا تمام می‌شود: با $\\cos\\pi = -1$ معادله به $\\cos(x - y) = 1$ می‌رسد، پس $x - y = 0$، یعنی $x = y$، و از $x + y = \\pi$ نتیجه می‌شود $x = y = \\frac{\\pi}{2}$. بعد نوع سوم معرفی می‌شود: یک معادله $x \\pm y = \\alpha$ و دیگری نسبت دو ساین یا دو کوساین است ($\\frac{\\sin x}{\\sin y} = a$ یا $\\frac{\\cos x}{\\cos y} = a$)؛ این نوع چهار سیستم دارد. مثال ۳: $x + y = \\frac{\\pi}{2}$ و $\\frac{\\sin x}{\\sin y} = \\sqrt{3}$. روش حل از خاصیت تناسب استفاده می‌کند: اگر صورت منهای مخرج را بر صورت جمع مخرج تقسیم کنیم، باز یک تناسب به دست می‌آید: $\\frac{\\sin x - \\sin y}{\\sin x + \\sin y} = \\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1}$. سپس صورت و مخرج با فورمول‌های تحویل به حاصل ضرب تبدیل می‌شوند؛ ادامه در صفحه بعد.",
+  "key_points_fa": [
+    "نوع سوم: $x \\pm y = \\alpha$ همراه با $\\frac{\\sin x}{\\sin y} = a$ یا $\\frac{\\cos x}{\\cos y} = a$ (چهار سیستم).",
+    "خاصیت تناسب: اگر $\\frac{p}{q} = a$ باشد، آنگاه $\\frac{p - q}{p + q} = \\frac{a - 1}{a + 1}$.",
+    "$\\sin x + \\sin y = 2\\sin\\frac{x+y}{2}\\cos\\frac{x-y}{2}$ و $\\sin x - \\sin y = 2\\cos\\frac{x+y}{2}\\sin\\frac{x-y}{2}$",
+    "بعد از ساده کردن: $\\cot\\frac{x+y}{2}\\tan\\frac{x-y}{2} = \\frac{a - 1}{a + 1}$"
+  ],
+  "formulas": [
+    {"latex": "\\frac{p}{q} = a \\Rightarrow \\frac{p - q}{p + q} = \\frac{a - 1}{a + 1}", "meaning_fa": "خاصیت تناسب (تفاضل بر مجموع)"},
+    {"latex": "\\sin x - \\sin y = 2\\cos\\frac{x+y}{2}\\sin\\frac{x-y}{2}", "meaning_fa": "فورمول تحویل تفاضل ساین‌ها"},
+    {"latex": "\\frac{\\sin x - \\sin y}{\\sin x + \\sin y} = \\cot\\frac{x+y}{2}\\tan\\frac{x-y}{2}", "meaning_fa": "نتیجهٔ تقسیم دو فورمول تحویل"}
+  ],
+  "terms": [
+    {"fa": "تناسب", "en": "proportion"},
+    {"fa": "خواص تناسب", "en": "properties of proportions"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲ (ادامه)",
+      "problem_fa": "ادامهٔ سیستم $x + y = \\pi$، $\\sin x\\sin y = 1$ از $\\cos(x - y) - \\cos(x + y) = 2$",
+      "steps_fa": [
+        "$\\cos(x - y) - \\cos\\pi = 2$ و $\\cos\\pi = -1$، پس $\\cos(x - y) + 1 = 2$",
+        "$\\cos(x - y) = 1 = \\cos 0^\\circ \\Rightarrow x - y = 0 \\Rightarrow x = y$",
+        "$x + x = \\pi \\Rightarrow x = \\frac{\\pi}{2}$ و $y = \\frac{\\pi}{2}$"
+      ],
+      "answer": "$x = \\frac{\\pi}{2}$، $y = \\frac{\\pi}{2}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "سیستم $x + y = \\frac{\\pi}{2}$ و $\\frac{\\sin x}{\\sin y} = \\sqrt{3}$ را حل کنید.",
+      "steps_fa": [
+        "خاصیت تناسب: $\\frac{\\sin x - \\sin y}{\\sin x + \\sin y} = \\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1}$",
+        "با فورمول‌های تحویل: $\\frac{2\\cos\\frac{x+y}{2}\\sin\\frac{x-y}{2}}{2\\sin\\frac{x+y}{2}\\cos\\frac{x-y}{2}} = \\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1}$",
+        "یعنی $\\cot\\frac{x+y}{2}\\tan\\frac{x-y}{2} = \\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1}$ (ادامه در صفحه بعد)",
+        "چون $\\frac{x+y}{2} = \\frac{\\pi}{4}$ و $\\cot\\frac{\\pi}{4} = 1$: $\\tan\\frac{x-y}{2} = \\frac{\\sqrt{3}-1}{\\sqrt{3}+1} = \\tan 15^\\circ$، پس $x - y = \\frac{\\pi}{6}$",
+        "$x = \\frac{\\pi}{3}$ و $y = \\frac{\\pi}{6}$"
+      ],
+      "answer": "$x = \\frac{\\pi}{3}$، $y = \\frac{\\pi}{6}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "دو قدم آخر مثال ۳ در صفحه بعد حل شده‌اند و اینجا فقط برای کامل بودن آمده‌اند."
+}

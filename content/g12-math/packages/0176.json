@@ -1,0 +1,36 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 176,
+  "printed_page": 169,
+  "page_kind": "review",
+  "chapter": 4,
+  "section_fa": "نکات مهم فصل چهارم",
+  "summary_fa": "ادامهٔ خلاصهٔ فصل چهارم که دو قضیهٔ اساسی و دو روش انتیگرال‌گیری را یکجا مرور می‌کند. قضیهٔ اول می‌گوید اگر F به شکل انتیگرال f از a تا x تعریف شود، مشتق F همان f است. قضیهٔ دوم می‌گوید انتیگرال معین را با تفاوت قیمت‌های تابع اولیه در دو سرحد حساب می‌کنیم. بعد روش تعویض برای انتیگرال غیرمعین و معین آمده است؛ در حالت معین سرحدات هم به $g(a)$ و $g(b)$ تبدیل می‌شوند. در آخر، ریشهٔ روش قسمی یادآوری شده است: از قاعدهٔ مشتق حاصل ضرب $(uv)'$ شروع می‌کنیم و با انتیگرال گرفتن فورمول $\\int u\\,dv = uv - \\int v\\,du$ را به دست می‌آوریم.",
+  "key_points_fa": [
+    "قضیهٔ اول: $F(x)=\\int_a^x f(t)dt \\Rightarrow F'(x)=f(x)$",
+    "قضیهٔ دوم: $\\int_a^b f(x)dx = F(b)-F(a)$",
+    "تعویض: $u=g(x)$، $du=g'(x)dx$",
+    "در انتیگرال معین با تعویض، سرحدات جدید $g(a)$ و $g(b)$ هستند.",
+    "روش قسمی از قاعدهٔ مشتق حاصل ضرب می‌آید."
+  ],
+  "formulas": [
+    {"latex": "F(x) = \\int_a^x f(t)\\,dt \\Rightarrow F'(x) = f(x)", "meaning_fa": "قضیهٔ اول اساسی مشتق و انتیگرال"},
+    {"latex": "\\int_a^b f(x)\\,dx = F(b) - F(a)", "meaning_fa": "قضیهٔ دوم اساسی مشتق و انتیگرال"},
+    {"latex": "\\int f(g(x))g'(x)\\,dx = \\int f(u)\\,du", "meaning_fa": "تعویض در انتیگرال غیرمعین"},
+    {"latex": "\\int_a^b f(g(x))g'(x)\\,dx = \\int_{g(a)}^{g(b)} f(u)\\,du", "meaning_fa": "تعویض در انتیگرال معین"},
+    {"latex": "\\int u\\,dv = uv - \\int v\\,du", "meaning_fa": "فورمول روش قسمی"}
+  ],
+  "terms": [
+    {"fa": "قضایای اساسی مشتق و انتیگرال", "en": "fundamental theorems of calculus"},
+    {"fa": "طریقهٔ تعویض", "en": "substitution"},
+    {"fa": "طریقهٔ قسمی", "en": "integration by parts"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

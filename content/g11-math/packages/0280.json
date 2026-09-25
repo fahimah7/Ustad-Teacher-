@@ -1,0 +1,63 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 280,
+  "printed_page": 271,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "حاصل ضرب وکتوری دو وکتور",
+  "summary_fa": "این صفحه رابطهٔ حاصل ضرب مخلوط را با حجم متوازی‌السطوح شرح می‌دهد: اگر $\\vec{a}$، $\\vec{b}$ و $\\vec{c}$ سه ضلع متوازی‌السطوح از یک رأس باشند، $|\\vec{b}\\times\\vec{c}|$ مساحت قاعده (متوازی‌الاضلاعی که بر $\\vec{b}$ و $\\vec{c}$ ساخته شده) است و ارتفاع h تصویر $\\vec{a}$ روی وکتور واحد $\\vec{e}$ عمود بر قاعده است؛ پس حجم برابر قیمت مطلقهٔ $\\vec{a}\\cdot(\\vec{b}\\times\\vec{c})$ می‌شود. سپس «مسایل تطبیقاتی» آغاز می‌شود. در مسئلهٔ ۱ برای دو وکتور معلوم، وکتوری عمود بر هر دو با حاصل ضرب وکتوری دریافت می‌شود و گفته می‌شود که این وکتور یگانه نیست، چون $\\vec{b}\\times\\vec{a}$ (وکتور مخالف‌جهت) هم عمود است. مسئلهٔ ۲ ثبوت فورمول $\\sin(\\alpha + \\beta)$ با حاصل ضرب وکتوری دو وکتور واحد است که حل آن در صفحه بعد ادامه دارد.",
+  "key_points_fa": [
+    "مساحت متوازی‌الاضلاعی که بر $\\vec{b}$ و $\\vec{c}$ ساخته می‌شود: $|\\vec{b}\\times\\vec{c}|$.",
+    "حجم متوازی‌السطوح: $V = |\\vec{b}\\times\\vec{c}|\\,h = |\\vec{a}\\cdot(\\vec{b}\\times\\vec{c})|$.",
+    "$\\vec{a}\\times\\vec{b}$ بر هر دو وکتور $\\vec{a}$ و $\\vec{b}$ عمود است؛ برای امتحان، حاصل ضرب سکالری آن با هر کدام صفر است.",
+    "وکتور عمود بر دو وکتور یگانه نیست: $\\vec{b}\\times\\vec{a} = -\\vec{a}\\times\\vec{b}$ و هر مضرب آن نیز عمود است.",
+    "طول $\\vec{u}\\times\\vec{v}$ برای دو وکتور واحد برابر ساین زاویهٔ بین آن‌ها است."
+  ],
+  "formulas": [
+    {"latex": "V = |\\vec{b}\\times\\vec{c}|\\,h,\\quad h = |\\vec{a}\\cdot\\vec{e}|,\\quad \\vec{e} = \\frac{\\vec{b}\\times\\vec{c}}{|\\vec{b}\\times\\vec{c}|}", "meaning_fa": "حجم متوازی‌السطوح = مساحت قاعده × ارتفاع"},
+    {"latex": "V = |\\vec{a}\\cdot(\\vec{b}\\times\\vec{c})|", "meaning_fa": "حجم متوازی‌السطوح با حاصل ضرب مخلوط"},
+    {"latex": "\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta", "meaning_fa": "فورمول ساین مجموع دو زاویه (مسئلهٔ ۲)"}
+  ],
+  "terms": [
+    {"fa": "متوازی‌السطوح", "en": "parallelepiped"},
+    {"fa": "حجم", "en": "volume"},
+    {"fa": "مسایل تطبیقاتی", "en": "applied problems"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.05, 0.10, 0.40, 0.29], "kind": "diagram", "description_fa": "یک متوازی‌السطوح مایل در سیستم مختصات x، y، z که از مبدأ O سه ضلع وکتوری دارد: $\\vec{b}$ در امتداد محور y، $\\vec{c}$ در قاعده و $\\vec{a}$ ضلع مایل به بالا. وکتور $\\vec{b}\\times\\vec{c}$ و وکتور واحد $\\vec{e}$ عمود بر قاعده به بالا رسم شده‌اند. نشان می‌دهد که ارتفاع جسم، تصویر $\\vec{a}$ روی جهت عمود $\\vec{e}$ است."},
+    {"id": "fig2", "bbox": [0.10, 0.76, 0.35, 0.92], "kind": "diagram", "description_fa": "محورهای x و y با دو وکتور واحد از مبدأ: $\\overrightarrow{OA}$ بالای محور x با زاویهٔ $\\alpha$ و $\\overrightarrow{OB}$ پایین محور x با زاویهٔ $-\\beta$. زاویهٔ بین دو وکتور $\\alpha + \\beta$ است؛ این شکل برای ثبوت فورمول $\\sin(\\alpha + \\beta)$ به کار می‌رود."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مسئلهٔ تطبیقی ۱",
+      "problem_fa": "اگر $\\vec{a} = 4\\vec{i}+3\\vec{j}+\\vec{k}$ و $\\vec{b} = 2\\vec{i}-\\vec{j}+2\\vec{k}$ باشند، وکتوری دریافت کنید که بر هر دو عمود باشد. آیا این وکتور یگانه است؟ چرا؟",
+      "steps_fa": [
+        "طبق قاعدهٔ دست راست، $\\vec{a}\\times\\vec{b}$ بر هر دو وکتور عمود است.",
+        "$\\vec{a}\\times\\vec{b} = \\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\\\ 4 & 3 & 1 \\\\ 2 & -1 & 2 \\end{vmatrix} = (6+1)\\vec{i} - (8-2)\\vec{j} + (-4-6)\\vec{k} = 7\\vec{i} - 6\\vec{j} - 10\\vec{k}$",
+        "امتحان: $(7)(4) + (-6)(3) + (-10)(1) = 0$ و $(7)(2) + (-6)(-1) + (-10)(2) = 0$",
+        "یگانه نیست: $\\vec{b}\\times\\vec{a} = -7\\vec{i} + 6\\vec{j} + 10\\vec{k} = -\\vec{a}\\times\\vec{b}$ هم عمود است (و هر مضرب عددی آن نیز)."
+      ],
+      "answer": "$7\\vec{i} - 6\\vec{j} - 10\\vec{k}$؛ یگانه نیست، زیرا $-7\\vec{i} + 6\\vec{j} + 10\\vec{k}$ هم بر هر دو عمود است.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مسئلهٔ تطبیقی ۲",
+      "problem_fa": "ثبوت کنید که برای هر دو زاویهٔ $\\alpha$ و $\\beta$: $\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$.",
+      "steps_fa": [
+        "دو وکتور واحد $\\overrightarrow{OA}$ و $\\overrightarrow{OB}$ در مستوی xy می‌گیریم که با محور x زاویه‌های $\\alpha$ و $-\\beta$ می‌سازند؛ پس زاویهٔ بین آن‌ها $\\alpha + \\beta$ است.",
+        "(صفحه بعد) $\\overrightarrow{OA} = \\cos\\alpha\\,\\vec{i} + \\sin\\alpha\\,\\vec{j}$ و $\\overrightarrow{OB} = \\cos\\beta\\,\\vec{i} - \\sin\\beta\\,\\vec{j}$",
+        "$\\overrightarrow{OA}\\times\\overrightarrow{OB} = \\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\\\ \\cos\\alpha & \\sin\\alpha & 0 \\\\ \\cos\\beta & -\\sin\\beta & 0 \\end{vmatrix} = (-\\cos\\alpha\\sin\\beta - \\sin\\alpha\\cos\\beta)\\vec{k}$",
+        "طول آن از تعریف: $|\\overrightarrow{OA}||\\overrightarrow{OB}|\\sin(\\alpha + \\beta) = \\sin(\\alpha + \\beta)$",
+        "با مقایسهٔ دو طول: $\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$"
+      ],
+      "answer": "فورمول ثابت شد.",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "فورمول‌های حجم در کتاب درهم چاپ شده‌اند (مثلاً $V = \\vec{b}(\\vec{a}\\times\\vec{c})$)؛ اینجا شکل درست $V = |\\vec{b}\\times\\vec{c}|\\,h = |\\vec{a}\\cdot(\\vec{b}\\times\\vec{c})|$ نوشته شد. در مسئلهٔ ۱ کتاب یک بار $7\\vec{i}+6\\vec{j}-10\\vec{k}$ و بعد $7\\vec{i}-6\\vec{j}-10\\vec{k}$ نوشته است؛ درست آن دومی است. در مسئلهٔ ۲ کتاب «sos» به جای cos چاپ کرده است. در ثبوت مسئلهٔ ۲ فرض شده که $0 < \\alpha + \\beta < \\pi$ باشد تا ساین مثبت و برابر طول باشد."
+}

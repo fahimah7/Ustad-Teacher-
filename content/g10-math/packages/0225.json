@@ -1,0 +1,162 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 225,
+  "printed_page": 218,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "ادامهٔ تمرین‌های فصل چهارم (سوال ۲۳ تا ۳۴). دو سوال اول با تبدیل گراد، رادیان و درجه حل می‌شوند. در سوال ۲۵ و ۲۶ باید نسبت‌های مثلثاتی زاویه‌های بسیار بزرگ یا منفی را با پیدا کردن زاویهٔ کوترمینل بین $0^\\circ$ و $360^\\circ$ دریافت کرد. سوال ۲۷ تا ۳۴ چندگزینه‌ای‌اند و متزاید یا متناقص بودن cos در یک ربع، دورهٔ تناوب tan و cos، جفت یا تاق بودن توابع، و مقایسهٔ نسبت‌های زوایای مرتبط (مانند $787^\\circ$ و $67^\\circ$، یا $135^\\circ$ و $45^\\circ$) را می‌پرسند.",
+  "key_points_fa": [
+    "برای زاویهٔ بزرگ: مضرب‌های $360^\\circ$ را کم کنید تا زاویهٔ کوترمینل بین $0^\\circ$ و $360^\\circ$ به دست آید.",
+    "اندازه به گراد = $\\frac{10}{9}$ × اندازه به درجه ($G = \\frac{10D}{9}$).",
+    "cos در ربع چهارم ($\\frac{3\\pi}{2}$ تا $2\\pi$) از ۰ به ۱ متزاید است.",
+    "دورهٔ تناوب tan برابر $\\pi$ و دورهٔ تناوب cos برابر $2\\pi$ است.",
+    "تابعی که گرافش نسبت به مبدأ متناظر است تابع تاق است؛ cos تابع جفت است."
+  ],
+  "formulas": [
+    {"latex": "\\theta \\equiv \\theta - 360^\\circ k", "meaning_fa": "زاویه و کوترمینل‌هایش نسبت‌های مثلثاتی مساوی دارند"}
+  ],
+  "terms": [
+    {"fa": "دورهٔ تناوب", "en": "period"},
+    {"fa": "تابع جفت", "en": "even function"},
+    {"fa": "تابع تاق", "en": "odd function"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۲۳",
+      "kind": "exercise",
+      "problem_fa": "زاویه‌ای را دریابید که اگر از اندازهٔ گرادی آن ۲۳ کم کنیم، اندازهٔ آن به درجه به دست آید.",
+      "solution_steps_fa": [
+        "اگر اندازه به درجه D باشد، به گراد $G = \\frac{10D}{9}$ است.",
+        "$\\frac{10D}{9} - 23 = D \\Rightarrow \\frac{D}{9} = 23 \\Rightarrow D = 207$",
+        "بررسی: $G = 230$ و $230 - 23 = 207$."
+      ],
+      "answer": "$207^\\circ$ (یعنی $230g$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۴",
+      "kind": "exercise",
+      "problem_fa": "مجموع سه زاویه ۲۴۰ گراد است. زاویهٔ اول ۴۰ گراد و دوم $\\frac{3\\pi}{4}$ رادیان است. زاویهٔ سوم چند درجه است؟",
+      "solution_steps_fa": [
+        "$240g = 216^\\circ$، $40g = 36^\\circ$، $\\frac{3\\pi}{4} = 135^\\circ$",
+        "$216 - 36 - 135 = 45$"
+      ],
+      "answer": "$45^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۵",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $4185^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$4185 - 11 \\times 360 = 225^\\circ$ (ربع سوم)",
+        "$225^\\circ = 180^\\circ + 45^\\circ$؛ در ربع سوم sin و cos منفی و tan مثبت است.",
+        "$\\sin = -\\frac{\\sqrt{2}}{2}$، $\\cos = -\\frac{\\sqrt{2}}{2}$، $\\tan = 1$، $\\cot = 1$، $\\sec = -\\sqrt{2}$، $\\csc = -\\sqrt{2}$"
+      ],
+      "answer": "$\\sin = \\cos = -\\frac{\\sqrt{2}}{2}$، $\\tan = \\cot = 1$، $\\sec = \\csc = -\\sqrt{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۶",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $-3660^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$-3660 + 11 \\times 360 = 300^\\circ$ (ربع چهارم)",
+        "$300^\\circ = 360^\\circ - 60^\\circ$؛ در ربع چهارم فقط cos و sec مثبت‌اند.",
+        "$\\sin = -\\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = -\\sqrt{3}$، $\\cot = -\\frac{\\sqrt{3}}{3}$، $\\sec = 2$، $\\csc = -\\frac{2\\sqrt{3}}{3}$"
+      ],
+      "answer": "$\\sin = -\\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = -\\sqrt{3}$، $\\cot = -\\frac{\\sqrt{3}}{3}$، $\\sec = 2$، $\\csc = -\\frac{2\\sqrt{3}}{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۷",
+      "kind": "exercise",
+      "problem_fa": "تابع $y = \\cos\\theta$ در انتروال $[\\frac{3\\pi}{2}, 2\\pi]$: a) متزاید است b) متناقص است c) هم متزاید و هم متناقص است",
+      "solution_steps_fa": [
+        "در این انتروال cos از $\\cos\\frac{3\\pi}{2} = 0$ به $\\cos 2\\pi = 1$ زیاد می‌شود."
+      ],
+      "answer": "a (متزاید است)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۸",
+      "kind": "exercise",
+      "problem_fa": "پریود تابع $y = \\tan\\theta$: a) $2\\pi$ b) $\\pi$ c) $\\frac{\\pi}{2}$ d) $\\frac{3\\pi}{2}$",
+      "solution_steps_fa": [
+        "$\\tan(\\theta + \\pi) = \\tan\\theta$ و عدد مثبت کوچک‌تری این خاصیت را ندارد."
+      ],
+      "answer": "b ($\\pi$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۹",
+      "kind": "exercise",
+      "problem_fa": "تابع $f(t) = \\cos t$: a) جفت است b) تاق است c) نه جفت و نه تاق است",
+      "solution_steps_fa": [
+        "$\\cos(-t) = \\cos t$، پس $f(-t) = f(t)$."
+      ],
+      "answer": "a (جفت است)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۰",
+      "kind": "exercise",
+      "problem_fa": "تابعی که گرافش نسبت به مبدأ متناظر باشد: a) جفت است b) تاق است c) نه جفت و نه تاق است",
+      "solution_steps_fa": [
+        "تناظر نسبت به مبدأ یعنی $f(-x) = -f(x)$، که تعریف تابع تاق است."
+      ],
+      "answer": "b (تاق است)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۱",
+      "kind": "exercise",
+      "problem_fa": "دورهٔ تناوب $y = \\cos\\theta$: a) $\\pi$ b) $\\frac{3\\pi}{2}$ c) $2\\pi$ d) $3\\pi$",
+      "solution_steps_fa": [
+        "cos بعد از هر یک دور کامل ($2\\pi$) تکرار می‌شود."
+      ],
+      "answer": "c ($2\\pi$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۲",
+      "kind": "exercise",
+      "problem_fa": "$\\sin 787^\\circ$ با $\\sin 67^\\circ$ چه رابطه دارد؟ a) بزرگ‌تر b) کوچک‌تر c) مساوی",
+      "solution_steps_fa": [
+        "$787^\\circ - 2 \\times 360^\\circ = 67^\\circ$؛ دو زاویه کوترمینل‌اند."
+      ],
+      "answer": "c ($\\sin 67^\\circ = \\sin 787^\\circ$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۳",
+      "kind": "exercise",
+      "problem_fa": "کدام درست است؟ a) $\\sec 135^\\circ = -\\csc 45^\\circ$ b) $\\sec 135^\\circ = \\csc 45^\\circ$ c) $\\sec 135^\\circ = -\\sec 45^\\circ$ d) $\\sec 135^\\circ = \\sec 45^\\circ$",
+      "solution_steps_fa": [
+        "$\\cos 135^\\circ = -\\cos 45^\\circ = -\\frac{\\sqrt{2}}{2}$، پس $\\sec 135^\\circ = -\\sqrt{2}$.",
+        "$\\sec 45^\\circ = \\csc 45^\\circ = \\sqrt{2}$.",
+        "پس هم $-\\sec 45^\\circ$ و هم $-\\csc 45^\\circ$ برابر $-\\sqrt{2}$ است."
+      ],
+      "answer": "c (قاعدهٔ $\\sec(180^\\circ - \\theta) = -\\sec\\theta$)؛ از نظر عددی a هم درست است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۴",
+      "kind": "exercise",
+      "problem_fa": "کدام درست است؟ a) $\\tan 240^\\circ = \\tan 60^\\circ$ b) $\\tan 240^\\circ = -\\tan 60^\\circ$ c) $\\tan 240^\\circ = \\cot 60^\\circ$ d) $\\tan 240^\\circ = -\\cot 60^\\circ$",
+      "solution_steps_fa": [
+        "$\\tan 240^\\circ = \\tan(180^\\circ + 60^\\circ) = \\tan 60^\\circ = \\sqrt{3}$"
+      ],
+      "answer": "a",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در سوال ۳۳ دو گزینه (a و c) از نظر عددی درست‌اند، چون $\\sec 45^\\circ = \\csc 45^\\circ$؛ گزینهٔ c با قاعدهٔ کتاب مطابقت دارد."
+}

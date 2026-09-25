@@ -1,0 +1,85 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 195,
+  "printed_page": 188,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "رابطه بین نسبت‌های مثلثاتی زاویه‌هایی که مجموعه یا فرق شان $360^\\circ$ یا $2\\pi$ رادیان باشد",
+  "summary_fa": "بالای صفحه حل مثال صفحهٔ قبل آمده است: $\\frac{11\\pi}{6} = 2\\pi - \\frac{\\pi}{6}$، یعنی $330^\\circ = 360^\\circ - 30^\\circ$؛ پس هر شش نسبت آن از نسبت‌های $30^\\circ$ به دست می‌آیند و فقط cos و sec مثبت می‌مانند. یک فعالیت نسبت‌های $315^\\circ$ را می‌خواهد. بعد زیرعنوان «نسبت‌های مثلثاتی زوایای کوترمینل» شروع می‌شود و می‌پرسد آیا $\\sin 450^\\circ$، $\\tan 390^\\circ$ و $\\csc 405^\\circ$ را می‌توان یافت و آیا $\\sin 90^\\circ$، $\\sin 450^\\circ$ و $\\sin 790^\\circ$ مساوی‌اند. شکل نشان می‌دهد که ضلع دوم زاویهٔ $\\theta$ و زاویهٔ $360^\\circ + \\theta$ روی هم منطبق‌اند؛ پس هر شش نسبت آن‌ها کاملاً مساوی است. به عبارت دیگر افزودن یا کم کردن یک دور کامل هیچ نسبتی را تغییر نمی‌دهد.",
+  "key_points_fa": [
+    "$330^\\circ = 360^\\circ - 30^\\circ$: $\\sin = -\\frac{1}{2}$، $\\cos = \\frac{\\sqrt{3}}{2}$، $\\tan = -\\frac{1}{\\sqrt{3}}$.",
+    "زوایای کوترمینل ضلع دوم یکسان دارند، پس همهٔ نسبت‌های آن‌ها مساوی است.",
+    "$\\sin(360^\\circ + \\theta) = \\sin\\theta$ و همین طور برای cos، tan، cot، sec و csc.",
+    "برای زاویهٔ بزرگ، مضرب‌های $360^\\circ$ را کم کنید تا زاویه‌ای بین $0^\\circ$ و $360^\\circ$ بماند."
+  ],
+  "formulas": [
+    {"latex": "\\sin(360^\\circ + \\theta) = \\sin\\theta,\\quad \\cos(360^\\circ + \\theta) = \\cos\\theta", "meaning_fa": "sin و cos زوایای کوترمینل مساوی است"},
+    {"latex": "\\tan(360^\\circ + \\theta) = \\tan\\theta,\\quad \\cot(360^\\circ + \\theta) = \\cot\\theta", "meaning_fa": "tan و cot زوایای کوترمینل مساوی است"},
+    {"latex": "\\sec(360^\\circ + \\theta) = \\sec\\theta,\\quad \\csc(360^\\circ + \\theta) = \\csc\\theta", "meaning_fa": "sec و csc زوایای کوترمینل مساوی است"}
+  ],
+  "terms": [
+    {"fa": "زوایای کوترمینل", "en": "coterminal angles"},
+    {"fa": "حالت معیاری", "en": "standard position"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.18, 0.58, 0.45, 0.77], "kind": "diagram", "description_fa": "دو دایرهٔ هم‌مرکز به مرکز O. زاویهٔ کوچک $\\theta$ (قوس سبز) و زاویهٔ $360^\\circ + \\theta$ (قوس آبی که یک دور کامل و کمی بیشتر می‌چرخد) هر دو از محور x شروع شده و به همان ضلع دوم OP ختم می‌شوند. شکل نشان می‌دهد که ضلع دوم هر دو زاویه منطبق است و بنابراین نسبت‌های آن‌ها یکی است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ($330^\\circ = \\frac{11\\pi}{6}$، حل)",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $330^\\circ$ یا $\\frac{11\\pi}{6}$ رادیان را دریابید.",
+      "steps_fa": [
+        "$\\frac{11\\pi}{6} = 2\\pi - \\frac{\\pi}{6}$، یعنی $330^\\circ = 360^\\circ - 30^\\circ$.",
+        "$\\sin 330^\\circ = -\\sin 30^\\circ = -\\frac{1}{2}$، $\\cos 330^\\circ = \\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$",
+        "$\\tan 330^\\circ = -\\tan 30^\\circ = -\\frac{1}{\\sqrt{3}}$، $\\cot 330^\\circ = -\\cot 30^\\circ = -\\sqrt{3}$",
+        "$\\sec 330^\\circ = \\sec 30^\\circ = \\frac{2}{\\sqrt{3}}$، $\\csc 330^\\circ = -\\csc 30^\\circ = -2$"
+      ],
+      "answer": "$\\sin = -\\frac{1}{2}$، $\\cos = \\frac{\\sqrt{3}}{2}$، $\\tan = -\\frac{1}{\\sqrt{3}}$، $\\cot = -\\sqrt{3}$، $\\sec = \\frac{2}{\\sqrt{3}}$، $\\csc = -2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $315^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$315^\\circ = 360^\\circ - 45^\\circ$ (ربع چهارم).",
+        "$\\sin 315^\\circ = -\\sin 45^\\circ = -\\frac{\\sqrt{2}}{2}$، $\\cos 315^\\circ = \\cos 45^\\circ = \\frac{\\sqrt{2}}{2}$",
+        "$\\tan 315^\\circ = -\\tan 45^\\circ = -1$، $\\cot 315^\\circ = -\\cot 45^\\circ = -1$",
+        "$\\sec 315^\\circ = \\sec 45^\\circ = \\sqrt{2}$، $\\csc 315^\\circ = -\\csc 45^\\circ = -\\sqrt{2}$"
+      ],
+      "answer": "$\\sin = -\\frac{\\sqrt{2}}{2}$، $\\cos = \\frac{\\sqrt{2}}{2}$، $\\tan = \\cot = -1$، $\\sec = \\sqrt{2}$، $\\csc = -\\sqrt{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "پرسش ۱ (زوایای کوترمینل)",
+      "kind": "question",
+      "problem_fa": "آیا $\\sin 450^\\circ$، $\\tan 390^\\circ$ و $\\csc 405^\\circ$ را می‌توانید دریافت کنید؟",
+      "solution_steps_fa": [
+        "$450^\\circ = 360^\\circ + 90^\\circ$، پس $\\sin 450^\\circ = \\sin 90^\\circ = 1$.",
+        "$390^\\circ = 360^\\circ + 30^\\circ$، پس $\\tan 390^\\circ = \\tan 30^\\circ = \\frac{\\sqrt{3}}{3}$.",
+        "$405^\\circ = 360^\\circ + 45^\\circ$، پس $\\csc 405^\\circ = \\csc 45^\\circ = \\sqrt{2}$."
+      ],
+      "answer": "$\\sin 450^\\circ = 1$، $\\tan 390^\\circ = \\frac{\\sqrt{3}}{3}$، $\\csc 405^\\circ = \\sqrt{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "پرسش ۲ (زوایای کوترمینل)",
+      "kind": "question",
+      "problem_fa": "آیا $\\sin 90^\\circ$، $\\sin 450^\\circ$ و $\\sin 790^\\circ$ با هم برابرند؟ چرا؟",
+      "solution_steps_fa": [
+        "$450^\\circ = 90^\\circ + 360^\\circ$ با $90^\\circ$ کوترمینل است، پس $\\sin 450^\\circ = \\sin 90^\\circ = 1$.",
+        "ولی $790^\\circ = 2 \\cdot 360^\\circ + 70^\\circ$، پس $\\sin 790^\\circ = \\sin 70^\\circ \\approx 0.94$ که با ۱ برابر نیست.",
+        "زاویهٔ کوترمینل با $90^\\circ$ که از $720^\\circ$ بیشتر باشد $810^\\circ = 90^\\circ + 2 \\cdot 360^\\circ$ است و $\\sin 810^\\circ = 1$."
+      ],
+      "answer": "$\\sin 90^\\circ = \\sin 450^\\circ = 1$ چون کوترمینل‌اند؛ اما $\\sin 790^\\circ = \\sin 70^\\circ \\neq 1$ (احتمالاً منظور کتاب $810^\\circ$ بوده است).",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "زیرعنوان «نسبت‌های مثلثاتی زوایای کوترمینل» در میانهٔ صفحه است. در کتاب $\\sin 790^\\circ$ چاپ شده که کوترمینل با $90^\\circ$ نیست ($790 - 720 = 70$)؛ احتمالاً اشتباه چاپی به جای $810^\\circ$ است. جواب درست برای هر دو حالت ذکر شد. همچنین میان $\\tan 390^\\circ$ و $\\csc 405^\\circ$ یک علامهٔ ناخوانا چاپ شده است."
+}

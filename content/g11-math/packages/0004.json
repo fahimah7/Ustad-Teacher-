@@ -1,0 +1,20 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 4,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "مشخصات کتاب: مضمون ریاضی، صنف یازدهم، زبان متن دری. کتاب را گروه مؤلفان دیپارتمنت ریاضی نوشته، دیپارتمنت ویراستاری زبان دری ویرایش کرده و ریاست عمومی انکشاف نصاب تعلیمی آماده ساخته است. ناشر آن ریاست ارتباط و آگاهی عامهٔ وزارت معارف است و در سال ۱۳۹۸ در کابل چاپ شده است. در پایان گفته شده که حق چاپ و توزیع از وزارت معارف است و خرید و فروش کتاب درسی در بازار اجازه ندارد.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ چاپی به حرف «ب» است."
+}

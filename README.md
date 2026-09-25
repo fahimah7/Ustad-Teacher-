@@ -1,65 +1,60 @@
-# Ustad · app
+# Ustad: offline school
 
-Offline school on the phone and the laptop. One React codebase, shipped as native
-apps for **iOS, Android, macOS, Windows and Linux** through Tauri 2.
+An offline school for Afghan girls: the real Ministry of Education textbooks, page by page, with a
+local AI teacher ("Ustad") that knows which page the student is reading. Nothing goes online.
+Today: **Grades 10–12 Mathematics and Grades 10–11 Physics** (5 books, every page with study notes
+and checked practice questions) on Windows, plus a "My rights, my voice" section. More books are being
+prepared in `content-pending/`; Android is next.
 
-**The app never connects to the internet.** Not for fonts, not for updates, not for
-the AI teacher. This is enforced three ways:
-
-1. **CSP** in every build: `connect-src 'none'` (see `vite.config.ts`).
-2. **Network guard** (`src/lib/net-guard.ts`): `fetch`, `XMLHttpRequest`, `WebSocket`,
-   `EventSource`, `sendBeacon` and `RTCPeerConnection` are disabled at startup.
-3. **Native shell** (`src-tauri/`): no plugins, no commands, no permissions.
-
-Fonts (Rubik, Vazirmatn) are bundled in `public/fonts/`.
-
-## Run it
-
-```bash
-npm install
-npm run dev        # http://localhost:5173 (no CSP in dev so hot reload can connect)
-npm run build      # dist/ with the offline CSP
-npm run typecheck
-```
-
-## Native builds (Tauri 2)
-
-Needs Rust (`rustup`), plus Xcode for iOS/macOS and Android Studio for Android.
-
-```bash
-npx tauri icon src-tauri/icons/app-icon.svg   # once: generates all icon sizes
-npx tauri dev                                  # desktop window
-npx tauri build                                # .dmg / .msi / .AppImage / .deb for this OS
-npx tauri android init && npx tauri android build
-npx tauri ios init && npx tauri ios build
-```
-
-After `tauri android init`, remove `<uses-permission android:name="android.permission.INTERNET"/>`
-from `src-tauri/gen/android/app/src/main/AndroidManifest.xml` for release builds (Tauri only
-needs it for the dev server).
-
-## What is where
+## Layout
 
 | Path | What |
 |---|---|
-| `src/screens/` | All 21 mobile screens and the 4 desktop layouts (W1 to W4) |
-| `src/components/fx.tsx` | Motion from the design: mark, waveforms, speaking glow, star burst, journey, transfer |
-| `src/components/Art.tsx` | Seeded generative art (covers, headers, seals) |
-| `src/lib/tutor.ts` | Ustad on the device: answers from lesson blocks and teacher-reviewed explanations, cites the page, says honestly when the lesson doesn't cover it. `TutorModel` is the plug-in point for a local model later |
-| `src/lib/search.ts` | Offline search: "grade 12 chemistry page 13" and question search, Persian normalisation |
-| `src/lib/scrub.ts` | Letter protection on the device: names, cities, schools, phones, emails, dates |
-| `src/lib/outbox.ts` | Shared letters are signed with a one-time key and wait in the outbox; they leave only as a file she hands on |
-| `src/lib/store.ts` | Encrypted IndexedDB. School data: device key (no login). Rights and letters: key from the second-door code, memory only |
-| `src/lib/speech.ts` | Read-aloud with installed voices only; speech-to-text only where it runs on the device |
-| `src/content/` | Demo curriculum (sample lesson text) and rights content. All Dari is a draft for native review |
+| `UI Code/` | **The app**: React UI in a Tauri 2 shell. `src/` is the UI and the tutor logic, `src-tauri/` the native side (books from disk, the teacher model, learning packs). See `UI Code/README.md` |
+| `content/<book>/` | The books in the app (g10-math, g11-math, g12-math, g10-phys, g11-phys): `book.json` (chapters, pages), `packages/NNNN.json` (study notes per page), `practice/chapter-N.json` (5 checked questions per chapter), `titles_en.json`, `glossary.json` (the book's Dari terms), `pages/` (rendered images, not in git, regenerated) |
+| `content-pending/` | Books still being prepared (chemistry, biology, English, grade 12 physics); see its README |
+| `UI Code/src/content/rights/` | The rights lessons (6 units, Dari and English) |
+| `pipeline/` | Adding a book: `BOOK_SETUP.md` → `TRANSCRIBE.md` → `FINISH_BOOK.md`; `render_pages.py` (PDF → page images), `PAGE_PACKAGE.md` (page-package format), `validate_packages.py`, `validate_practice.py` |
+| `app/` | The earlier Flutter app. Its tutor code (Dart) is the evaluated reference; `app/tool/dump_prompts.dart` checks the web port against it |
+| `scripts/run_ustad.ps1` | Runs the app |
+| `scripts/build_windows.ps1`, `installer/` | The Windows installer (Inno Setup): app, books, teacher model and runtime in one setup, split into parts under 2 GB for GitHub Releases. Installers are not in git |
+| `Website/` | ustadschool.com (published from its own repository) |
+| `eval/` | Teacher evaluations and replayed conversations |
+| `scripts/start_llama_server.ps1` | Runs llama.cpp by hand for testing |
+| `maktab93-textbooks/` | Source PDFs (junction to D:, not in git; re-download from `manifest.csv`) |
 
-## Honest limits (by design, because nothing goes online)
+## Run on Windows
 
-- **Certificates**: the fingerprint is made on the device; the Bitcoin timestamp happens when a
-  copy of the file reaches a connected computer. New records stay "Proof saved" until then.
-- **Letters**: "Share it" seals the letter; posting to the Wall of Voices is done by whoever
-  carries the file to a connection.
-- **Voice**: if the device has no local voice or no on-device recogniser for a language, Ustad shows
-  captions and she types; nothing falls back to a cloud service.
-- **Nearby transfer**: packs go out through the phone's share sheet (Quick Share / Bluetooth) or as a
-  file for a memory card.
+Needs: Node 22 (`D:\dev\node22`), Rust, llama.cpp CUDA build (`D:\dev\llama.cpp`),
+`gemma-4-E2B-it-Q4_K_M.gguf` in `C:\ai-models\gemma-4\` (SSD, loads fast) or `D:\ai-models\gemma-4\`,
+CUDA 12.x runtime.
+
+```bash
+powershell -ExecutionPolicy Bypass -File scripts/run_ustad.ps1
+```
+
+The app starts `llama-server` itself on `127.0.0.1:8080` (loopback only), reuses one that is
+already running, and stops the one it started when the window closes. Override paths with
+`SCHOOL_CONTENT_DIR`, `SCHOOL_LLAMA_SERVER`, `SCHOOL_MODEL`, `SCHOOL_CUDA_BIN`, `SCHOOL_LLAMA_PORT`.
+
+## How the teacher sees the book
+
+Every question is sent with: the teacher's rules (`UI Code/src/tutor/prompts/teacher_fa.txt`, or
+`teacher_en.txt` when the app is in English), the book outline (all chapters and sections with
+printed pages), and the open page's notes with its examples and exercises. If the question is about
+another part of the book, offline keyword search (`UI Code/src/tutor/bookSearch.ts`) adds short
+notes from the best-matching pages; a page named by number ("صفحهٔ ۴۰") gets its full notes. Those
+pages appear as links under the answer. Iranian terms in answers are rewritten to the book's Dari
+terms (`dariTerms.ts`). The TypeScript prompt builder is a port of the Dart one and builds
+character-identical prompts (`UI Code/src/tutor/parity.test.ts`).
+
+## Test the teacher without the app
+
+```bash
+powershell -File scripts/start_llama_server.ps1 -Model e2b
+cd app && dart run tool/eval_teacher.dart e2b         # answers → eval/teacher_e2b.jsonl
+cd "UI Code" && npm test                               # tutor logic + parity with the Dart prompts
+```
+
+On an RTX 3050 (4 GB): Gemma 4 E2B answers in ~2–5 s at ~65 tok/s; E4B ~14 s at ~14 tok/s.
+Requests must send `chat_template_kwargs: {"enable_thinking": false}` or Gemma 4 spends its tokens on hidden reasoning.

@@ -1,0 +1,24 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 58,
+  "printed_page": null,
+  "page_kind": "chapter_title",
+  "chapter": 2,
+  "section_fa": null,
+  "summary_fa": "این صفحهٔ عنوان فصل دوم کتاب است: «رابطه». در این فصل شاگرد با جوره‌های مرتب، مستوی کارتیزینی، حاصل‌ضرب کارتیزینی و گراف آن، رابطه و معکوس یک رابطه، و رابطهٔ معادل آشنا می‌شود. این مفاهیم پایهٔ درس تابع در فصل سوم هستند.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [
+    {"fa": "رابطه", "en": "relation"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.14, 0.26, 0.79, 0.71], "kind": "illustration", "description_fa": "یک دایرهٔ نارنجی بزرگ روی زمینهٔ رنگه که در آن نوشته شده «فصل دوم، رابطه». تصویر فقط تزئینی است."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه روی این صفحه چاپ نشده است."
+}

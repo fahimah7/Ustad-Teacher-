@@ -1,0 +1,77 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 115,
+  "printed_page": 108,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "ترکیب توابع یا توابع مرکب",
+  "summary_fa": "این صفحه با مثال‌ها نشان می‌دهد که چطور تابع مرکب ساخته می‌شود. در مثال ۱ برای $f(x) = x^2 - 1$ و $g(x) = 3x$ دیده می‌شود که $f \\circ g$ و $g \\circ f$ دو افادهٔ مختلف می‌دهند، پس ترکیب توابع خاصیت تبدیلی ندارد. در مثال ۲ همین کار با یک تابع خطی و یک تابع درجه دوم تکرار می‌شود و گفته می‌شود که ناحیهٔ تعریف هر دو ترکیب همهٔ اعداد حقیقی است. در فعالیت، شاگرد نشان می‌دهد که برای $x + 6$ و $x - 6$ هر دو ترکیب مساوی‌اند. مثال ۳ با $f(x) = \\sqrt{x}$ و $g(x) = 1 - x$ شروع می‌شود تا ناحیهٔ تعریف تابع مرکب پیدا شود؛ ناحیهٔ تعریف $f$ انتروال $[0, \\infty)$ و ناحیهٔ تعریف $g$ همهٔ اعداد حقیقی است (ادامه در صفحهٔ بعد).",
+  "key_points_fa": [
+    "برای $f(g(x))$ هر $x$ در $f$ را با تمام افادهٔ $g(x)$ عوض کنید (با قوس).",
+    "$f \\circ g$ و $g \\circ f$ معمولاً مساوی نیستند.",
+    "اگر دو تابع کار یکدیگر را خنثی کنند (مثل $+6$ و $-6$)، هر دو ترکیب $x$ می‌شود.",
+    "اگر هر دو تابع پولینوم باشند، ناحیهٔ تعریف ترکیب آن‌ها $\\mathbb{R}$ است."
+  ],
+  "formulas": [
+    {"latex": "(f \\circ g)(x) \\ne (g \\circ f)(x)", "meaning_fa": "ترکیب توابع به طور عموم تبدیلی (جابه‌جاپذیر) نیست"}
+  ],
+  "terms": [
+    {"fa": "تابع مرکب", "en": "composite function"},
+    {"fa": "ناحیهٔ تعریف", "en": "domain"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "اگر $f(x) = x^2 - 1$ و $g(x) = 3x$ باشد، $(f \\circ g)(x)$ و $(g \\circ f)(x)$ را دریابید.",
+      "steps_fa": [
+        "$(f \\circ g)(x) = f(3x) = (3x)^2 - 1 = 9x^2 - 1$",
+        "$(g \\circ f)(x) = g(x^2 - 1) = 3(x^2 - 1) = 3x^2 - 3$",
+        "$9x^2 - 1 \\ne 3x^2 - 3$، پس $f \\circ g \\ne g \\circ f$."
+      ],
+      "answer": "$f \\circ g = 9x^2 - 1$ و $g \\circ f = 3x^2 - 3$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "اگر $f(x) = 3x - 4$ و $g(x) = x^2 + 6$ باشد، $(f \\circ g)(x)$ و $(g \\circ f)(x)$ را دریابید.",
+      "steps_fa": [
+        "در $f \\circ g$ به جای $x$ در $f$، افادهٔ $g(x)$ را می‌گذاریم: $f(x^2 + 6) = 3(x^2 + 6) - 4 = 3x^2 + 14$",
+        "$g(f(x)) = g(3x - 4) = (3x - 4)^2 + 6 = 9x^2 - 24x + 16 + 6 = 9x^2 - 24x + 22$",
+        "ناحیهٔ تعریف هر دو تابع مرکب $\\mathbb{R}$ است."
+      ],
+      "answer": "$f \\circ g = 3x^2 + 14$ و $g \\circ f = 9x^2 - 24x + 22$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "اگر $f(x) = \\sqrt{x}$ و $g(x) = 1 - x$ باشد، اول ناحیهٔ تعریف $f \\circ g$ و $g \\circ f$ و بعد خود این توابع را دریابید.",
+      "steps_fa": [
+        "$\\mathrm{Dom}\\,f = [0, \\infty)$ و $\\mathrm{Dom}\\,g = (-\\infty, \\infty)$.",
+        "$\\mathrm{Dom}(f \\circ g) = \\{x \\mid x \\in \\mathrm{dom}\\,g,\\ g(x) \\in \\mathrm{dom}\\,f\\}$، یعنی باید $1 - x \\ge 0$ باشد.",
+        "(ادامه در صفحهٔ بعد:) $\\mathrm{Dom}(f \\circ g) = (-\\infty, 1]$، $\\mathrm{Dom}(g \\circ f) = [0, \\infty)$، $(f \\circ g)(x) = \\sqrt{1 - x}$، $(g \\circ f)(x) = 1 - \\sqrt{x}$."
+      ],
+      "answer": "$f \\circ g = \\sqrt{1-x}$ با ناحیهٔ تعریف $(-\\infty, 1]$؛ $g \\circ f = 1 - \\sqrt{x}$ با ناحیهٔ تعریف $[0, \\infty)$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر $f(x) = x + 6$ و $g(x) = x - 6$ باشد، نشان دهید که $(f \\circ g)(x) = (g \\circ f)(x)$ است.",
+      "solution_steps_fa": [
+        "$(f \\circ g)(x) = f(x - 6) = (x - 6) + 6 = x$",
+        "$(g \\circ f)(x) = g(x + 6) = (x + 6) - 6 = x$",
+        "هر دو مساوی $x$ هستند؛ یعنی هر تابع کار تابع دیگر را خنثی می‌کند (بعداً دیده می‌شود که این دو تابع معکوس یکدیگرند)."
+      ],
+      "answer": "$(f \\circ g)(x) = (g \\circ f)(x) = x$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "حل مثال ۳ در صفحهٔ بعد تمام می‌شود."
+}

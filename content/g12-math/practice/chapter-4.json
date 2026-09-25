@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-math",
+  "chapter": 4,
+  "title": {
+    "en": "Integrals",
+    "fa": "انتیگرال‌ها"
+  },
+  "questions": [
+    {
+      "pdf_page": 149,
+      "q": {
+        "en": "Find $\\int \\frac{1}{\\sqrt{x}}\\,dx$.",
+        "fa": "انتیگرال $\\int \\frac{1}{\\sqrt{x}}\\,dx$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{2}\\sqrt{x} + C$",
+          "fa": "$\\frac{1}{2}\\sqrt{x} + C$"
+        },
+        {
+          "en": "$2\\sqrt{x} + C$",
+          "fa": "$2\\sqrt{x} + C$"
+        },
+        {
+          "en": "$-\\frac{1}{2x\\sqrt{x}} + C$",
+          "fa": "$-\\frac{1}{2x\\sqrt{x}} + C$"
+        },
+        {
+          "en": "$\\frac{2}{3}x\\sqrt{x} + C$",
+          "fa": "$\\frac{2}{3}x\\sqrt{x} + C$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Since $\\frac{1}{\\sqrt{x}} = x^{-\\frac{1}{2}}$, adding 1 to the power and dividing by the new power gives $\\frac{x^{\\frac{1}{2}}}{\\frac{1}{2}} = 2\\sqrt{x}$.",
+        "fa": "چون $\\frac{1}{\\sqrt{x}} = x^{-\\frac{1}{2}}$ است، با یکی زیاد کردن توان و تقسیم بر توان جدید، $\\frac{x^{\\frac{1}{2}}}{\\frac{1}{2}} = 2\\sqrt{x}$ به دست می‌آید."
+      },
+      "idea": {
+        "en": "Write the root as a power of $x$, then use the power rule: add 1 to the power and divide by the new power.",
+        "fa": "جذر را به شکل توان $x$ بنویسید و قاعدهٔ توان را به کار ببرید: توان را یکی زیاد کنید و بر توان جدید تقسیم کنید."
+      }
+    },
+    {
+      "pdf_page": 145,
+      "q": {
+        "en": "Split $[0, 2]$ into 4 equal parts and estimate the area under $y = x^2 + 1$ with lower rectangles (each height is the function's value at the left end of its part). What is the sum of their areas?",
+        "fa": "انتروال $[0, 2]$ را به ۴ قسمت مساوی تقسیم کنید و مساحت زیر منحنی $y = x^2 + 1$ را با مستطیل‌های تحتانی تخمین کنید (ارتفاع هر مستطیل، قیمت تابع در طرف چپ همان قسمت است). مجموع مساحت این مستطیل‌ها چند است؟"
+      },
+      "options": [
+        {
+          "en": "$5.75$",
+          "fa": "$5.75$"
+        },
+        {
+          "en": "$7.5$",
+          "fa": "$7.5$"
+        },
+        {
+          "en": "$\\frac{14}{3}$",
+          "fa": "$\\frac{14}{3}$"
+        },
+        {
+          "en": "$3.75$",
+          "fa": "$3.75$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Each width is $\\frac{1}{2}$ and the heights are $1, 1.25, 2, 3.25$, so the sum is $\\frac{1}{2} \\cdot 7.5 = 3.75$.",
+        "fa": "عرض هر مستطیل $\\frac{1}{2}$ و ارتفاع‌ها $1$، $1.25$، $2$ و $3.25$ هستند؛ پس مجموع $\\frac{1}{2} \\cdot 7.5 = 3.75$ است."
+      },
+      "idea": {
+        "en": "First find the width $\\Delta x$, then add up height times width for every rectangle.",
+        "fa": "اول عرض $\\Delta x$ را پیدا کنید، بعد حاصل ضرب ارتفاع در عرض همهٔ مستطیل‌ها را جمع کنید."
+      }
+    },
+    {
+      "pdf_page": 162,
+      "q": {
+        "en": "For $f(x) = x^2$ on $[1, 4]$, find the number $c$ given by the mean value theorem for integrals, that is $f(c) = \\frac{1}{b - a}\\int_a^b f(x)\\,dx$.",
+        "fa": "برای $f(x) = x^2$ در انتروال $[1, 4]$، عدد $c$ را طوری پیدا کنید که قضیهٔ قیمت متوسط انتیگرال صدق کند، یعنی $f(c) = \\frac{1}{b - a}\\int_a^b f(x)\\,dx$ شود."
+      },
+      "options": [
+        {
+          "en": "$\\sqrt{7}$",
+          "fa": "$\\sqrt{7}$"
+        },
+        {
+          "en": "$7$",
+          "fa": "$7$"
+        },
+        {
+          "en": "$\\frac{5}{2}$",
+          "fa": "$\\frac{5}{2}$"
+        },
+        {
+          "en": "$\\sqrt{21}$",
+          "fa": "$\\sqrt{21}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Since $\\int_1^4 x^2\\,dx = 21$, we get $f(c) = \\frac{21}{3} = 7$, so $c^2 = 7$ and $c = \\sqrt{7}$, which lies in $[1, 4]$.",
+        "fa": "چون $\\int_1^4 x^2\\,dx = 21$ است، $f(c) = \\frac{21}{3} = 7$ و $c^2 = 7$ می‌شود؛ پس $c = \\sqrt{7}$ که داخل $[1, 4]$ است."
+      },
+      "idea": {
+        "en": "Compute the integral, divide it by the length of the interval, then solve for $c$ inside the interval.",
+        "fa": "اول انتیگرال را حساب کنید و بر طول انتروال تقسیم کنید، بعد $c$ را داخل انتروال پیدا کنید."
+      }
+    },
+    {
+      "pdf_page": 169,
+      "q": {
+        "en": "Using substitution, find $\\int_0^1 x^2 (1 + 2x^3)^5\\,dx$.",
+        "fa": "با طریقهٔ تعویض، قیمت $\\int_0^1 x^2 (1 + 2x^3)^5\\,dx$ را حساب کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{36}$",
+          "fa": "$\\frac{1}{36}$"
+        },
+        {
+          "en": "$\\frac{364}{3}$",
+          "fa": "$\\frac{364}{3}$"
+        },
+        {
+          "en": "$\\frac{182}{9}$",
+          "fa": "$\\frac{182}{9}$"
+        },
+        {
+          "en": "$\\frac{182}{3}$",
+          "fa": "$\\frac{182}{3}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "With $u = 1 + 2x^3$ we have $du = 6x^2\\,dx$ and the limits become $1$ and $3$, so the integral is $\\frac{1}{6}\\int_1^3 u^5\\,du = \\frac{3^6 - 1}{36} = \\frac{182}{9}$.",
+        "fa": "با $u = 1 + 2x^3$ داریم $du = 6x^2\\,dx$ و سرحدات $1$ و $3$ می‌شوند؛ پس انتیگرال $\\frac{1}{6}\\int_1^3 u^5\\,du = \\frac{3^6 - 1}{36} = \\frac{182}{9}$ است."
+      },
+      "idea": {
+        "en": "Let $u$ be the expression in brackets, and remember to change the limits to values of $u$.",
+        "fa": "افادهٔ داخل قوس را $u$ بگیرید و فراموش نکنید که سرحدات را هم به قیمت‌های $u$ تبدیل کنید."
+      }
+    },
+    {
+      "pdf_page": 173,
+      "q": {
+        "en": "Using integration by parts, find $\\int x\\cos x\\,dx$.",
+        "fa": "با طریقهٔ قسمی، انتیگرال $\\int x\\cos x\\,dx$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$x\\sin x - \\cos x + C$",
+          "fa": "$x\\sin x - \\cos x + C$"
+        },
+        {
+          "en": "$x\\sin x + \\cos x + C$",
+          "fa": "$x\\sin x + \\cos x + C$"
+        },
+        {
+          "en": "$\\frac{x^2}{2}\\sin x + C$",
+          "fa": "$\\frac{x^2}{2}\\sin x + C$"
+        },
+        {
+          "en": "$-x\\sin x - \\cos x + C$",
+          "fa": "$-x\\sin x - \\cos x + C$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "With $u = x$ and $dv = \\cos x\\,dx$: $\\int x\\cos x\\,dx = x\\sin x - \\int \\sin x\\,dx = x\\sin x + \\cos x + C$.",
+        "fa": "با $u = x$ و $dv = \\cos x\\,dx$ داریم $\\int x\\cos x\\,dx = x\\sin x - \\int \\sin x\\,dx = x\\sin x + \\cos x + C$."
+      },
+      "idea": {
+        "en": "Take $u = x$ (its derivative is simple) and $dv = \\cos x\\,dx$, then use $\\int u\\,dv = uv - \\int v\\,du$.",
+        "fa": "قسمت $x$ را $u$ (که مشتقش ساده است) و $\\cos x\\,dx$ را $dv$ بگیرید و فورمول $\\int u\\,dv = uv - \\int v\\,du$ را به کار ببرید."
+      }
+    }
+  ]
+}

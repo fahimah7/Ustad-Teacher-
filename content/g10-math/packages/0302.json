@@ -1,0 +1,72 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 302,
+  "printed_page": 295,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "تقسیم دو عدد مختلط",
+  "summary_fa": "این صفحه باقی خاصیت‌های مزدوج یک عدد مختلط را (خاصیت ۳ تا ۷) فهرست می‌کند و آن‌ها را با مثال امتحان می‌کند. مزدوج حاصل ضرب دو عدد مساوی حاصل ضرب مزدوج‌هاست، و مزدوج خارج قسمت مساوی خارج قسمت مزدوج‌هاست. اگر $z = x+yi$ باشد، $z+\\bar z = 2x$ یک عدد حقیقی و $z-\\bar z = 2yi$ یک عدد موهومی خالص است؛ و اگر از یک عدد دو بار مزدوج بگیریم، خود همان عدد به دست می‌آید. در مثال ۱ با $z_1 = 4+5i$ و $z_2 = -3+2i$ دو طرف خاصیت جمع و خاصیت ضرب جداجدا حساب می‌شوند و برابر بودن آن‌ها دیده می‌شود. مثال ۲ به طور عمومی $z+\\bar z$ و $z-\\bar z$ را حساب می‌کند. در آخر یک فعالیت برای $z = 2+3i$ آمده است.",
+  "key_points_fa": [
+    "مزدوج $z = x+yi$ عدد $\\bar z = x-yi$ است (علامهٔ قسمت موهومی عوض می‌شود).",
+    "$\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$ و $\\overline{\\left(\\frac{z_1}{z_2}\\right)} = \\frac{\\overline{z_1}}{\\overline{z_2}}$",
+    "جمع یک عدد با مزدوجش همیشه حقیقی است: $z+\\bar z = 2x$",
+    "تفریق مزدوج از خود عدد، موهومی خالص است: $z-\\bar z = 2yi$",
+    "مزدوجِ مزدوج، خود عدد است: $\\overline{\\overline{z}} = z$"
+  ],
+  "formulas": [
+    {"latex": "\\overline{z_1 \\cdot z_2} = \\overline{z_1}\\cdot\\overline{z_2} = \\overline{z_2}\\cdot\\overline{z_1}", "meaning_fa": "خاصیت ۳: مزدوج حاصل ضرب"},
+    {"latex": "\\overline{\\left(\\frac{z_1}{z_2}\\right)} = \\frac{\\overline{z_1}}{\\overline{z_2}}", "meaning_fa": "خاصیت ۴: مزدوج خارج قسمت"},
+    {"latex": "z+\\bar z = 2x", "meaning_fa": "خاصیت ۵: دو برابر قسمت حقیقی"},
+    {"latex": "z-\\bar z = 2yi", "meaning_fa": "خاصیت ۶: دو برابر قسمت موهومی"},
+    {"latex": "\\overline{\\overline{z}} = z", "meaning_fa": "خاصیت ۷: مزدوجِ مزدوج"}
+  ],
+  "terms": [
+    {"fa": "مزدوج", "en": "conjugate"},
+    {"fa": "عدد موهومی خالص", "en": "pure imaginary number"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "اگر $z_1 = 4+5i$ و $z_2 = -3+2i$ باشد، نشان دهید که $\\overline{z_1+z_2} = \\overline{z_1}+\\overline{z_2}$ و $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$ است.",
+      "steps_fa": [
+        "$z_1+z_2 = (4+5i)+(-3+2i) = 1+7i$ ، پس $\\overline{z_1+z_2} = 1-7i$",
+        "$\\overline{z_1}+\\overline{z_2} = (4-5i)+(-3-2i) = 1-7i$ ؛ دو طرف برابر اند.",
+        "$z_1 z_2 = (4+5i)(-3+2i) = -12+8i-15i+10i^2 = -22-7i$ ، پس $\\overline{z_1 z_2} = -22+7i$",
+        "$\\overline{z_1}\\,\\overline{z_2} = (4-5i)(-3-2i) = -12-8i+15i+10i^2 = -22+7i$ ؛ دو طرف برابر اند."
+      ],
+      "answer": "هر دو خاصیت درست است: $1-7i$ و $-22+7i$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "اگر $z = x+yi$ باشد، $z+\\bar z$ و $z-\\bar z$ را دریابید.",
+      "steps_fa": [
+        "$z+\\bar z = (x+yi)+(x-yi) = 2x$",
+        "$z-\\bar z = (x+yi)-(x-yi) = 2yi$"
+      ],
+      "answer": "$z+\\bar z = 2x$ و $z-\\bar z = 2yi$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر $z = 2+3i$ باشد، $z+\\bar z$ ، $\\overline{\\overline{z}}$ و $z-\\bar z$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\bar z = 2-3i$",
+        "$z+\\bar z = (2+3i)+(2-3i) = 4$",
+        "$\\overline{\\overline{z}} = \\overline{2-3i} = 2+3i$",
+        "$z-\\bar z = (2+3i)-(2-3i) = 6i$"
+      ],
+      "answer": "$z+\\bar z = 4$ ، $\\overline{\\overline{z}} = 2+3i$ ، $z-\\bar z = 6i$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "خاصیت ۱ و ۲ مزدوج در صفحهٔ قبل آمده است. در مثال ۱ کتاب یک جا $\\overline{z \\cdot z_2}$ چاپ کرده که منظور $\\overline{z_1 \\cdot z_2}$ است. در متن فعالیت به جای «و» یک علامت مربع چاپ شده است."
+}

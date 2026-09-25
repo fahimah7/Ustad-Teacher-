@@ -1,0 +1,80 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 262,
+  "printed_page": 255,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "طول قوس (Arc length)",
+  "summary_fa": "این صفحه حل مثال ۱ صفحهٔ قبل و مثال ۲ را دارد. در مثال ۱ (R = 6.8cm و $\\theta = 71^\\circ$) قدم به قدم مساحت قطاع با فورمول $\\pi R^2\\frac{\\theta}{360^\\circ}$، ارتفاع مثلث با $R\\cos\\frac{\\theta}{2}$، قاعدهٔ مثلث با $2R\\sin\\frac{\\theta}{2}$ و مساحت مثلث با $\\frac{1}{2}R^2\\sin\\theta$ حساب می‌شود؛ بعد مساحت قطعه از تفریق این دو به دست می‌آید. قیمت‌های $\\cos 35^\\circ 30'$، $\\sin 35^\\circ 30'$ و $\\sin 71^\\circ$ از جدول گرفته شده‌اند. در مثال ۲ قوس $60^\\circ$ اول به رادیان ($\\frac{\\pi}{3}$) تبدیل می‌شود و بعد مستقیماً در فورمول $S = \\frac{1}{2}R^2(\\theta - \\sin\\theta)$ گذاشته می‌شود؛ جواب دقیق به شکل $24\\pi - 36\\sqrt{3}$ نوشته می‌شود.",
+  "key_points_fa": [
+    "برای فورمول $\\frac{1}{2}R^2(\\theta - \\sin\\theta)$ زاویه را اول به رادیان تبدیل کنید.",
+    "راه دیگر: اول مساحت قطاع و مساحت مثلث را جدا حساب کنید و بعد تفریق کنید.",
+    "$71^\\circ$ تقسیم بر ۲ می‌شود $35^\\circ 30'$ (یعنی 35.5 درجه).",
+    "جواب دقیق را می‌توان با $\\pi$ و جذر نوشت، مثلاً $(24\\pi - 36\\sqrt{3})\\,\\text{cm}^2$."
+  ],
+  "formulas": [
+    {
+      "latex": "A_{\\text{sector}} = \\pi R^2 \\frac{\\theta^\\circ}{360^\\circ}",
+      "meaning_fa": "مساحت قطاع وقتی زاویه به درجه است"
+    },
+    {
+      "latex": "S = \\frac{1}{2}R^2(\\theta - \\sin\\theta)",
+      "meaning_fa": "مساحت قطعه (زاویه به رادیان)"
+    }
+  ],
+  "terms": [
+    {
+      "fa": "قطعهٔ دایره",
+      "en": "segment of a circle"
+    },
+    {
+      "fa": "قطاع",
+      "en": "sector"
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [
+        0.65,
+        0.75,
+        0.82,
+        0.87
+      ],
+      "kind": "diagram",
+      "description_fa": "دایره به مرکز O؛ دو شعاع OA و OB با خط‌چین سرخ رسم شده‌اند و قطعهٔ کوچک بین قوس AB و وتر AB سبز رنگ است. این شکل قطعهٔ مثال ۲ را نشان می‌دهد."
+    }
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (حل)",
+      "problem_fa": "دایره به شعاع $R = 6.8\\,\\text{cm}$ و زاویهٔ مرکزی $\\theta = 71^\\circ$: مساحت قطاع، مثلث و قطعه را دریابید.",
+      "steps_fa": [
+        "مساحت قطاع: $(6.8)^2 \\cdot 3.14 \\cdot \\frac{71^\\circ}{360^\\circ} \\approx 28.64\\,\\text{cm}^2$",
+        "ارتفاع مثلث: $h = 6.8 \\cos 35^\\circ 30' = 6.8 \\cdot 0.8141 \\approx 5.54\\,\\text{cm}$",
+        "قاعدهٔ مثلث: $b = 2 \\cdot 6.8 \\sin 35^\\circ 30' = 13.6 \\cdot 0.5807 \\approx 7.9\\,\\text{cm}$",
+        "مساحت مثلث: $\\frac{1}{2}(6.8)^2 \\sin 71^\\circ = 23.12 \\cdot 0.9455 \\approx 21.86\\,\\text{cm}^2$ (کتاب 21.96 نوشته است)",
+        "مساحت قطعه: $28.64 - 21.86 \\approx 6.78\\,\\text{cm}^2$"
+      ],
+      "answer": "قطاع $\\approx 28.64\\,\\text{cm}^2$، مثلث $\\approx 21.86\\,\\text{cm}^2$، قطعه $\\approx 6.78\\,\\text{cm}^2$ (کتاب: 6.68)",
+      "solution_source": "mixed"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مساحت قطعهٔ دایره را دریابید اگر $\\overset{\\frown}{AB} = 60^\\circ$ و $R = 12\\,\\text{cm}$ باشد.",
+      "steps_fa": [
+        "$60^\\circ = \\frac{\\pi}{3}$ رادیان.",
+        "$S = \\frac{1}{2}(12)^2\\left(\\frac{\\pi}{3} - \\sin\\frac{\\pi}{3}\\right) = 72\\left(\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{2}\\right)$",
+        "$= 24\\pi - 36\\sqrt{3} \\approx 75.40 - 62.35 \\approx 13.04\\,\\text{cm}^2$"
+      ],
+      "answer": "$(24\\pi - 36\\sqrt{3})\\,\\text{cm}^2 \\approx 13.04\\,\\text{cm}^2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب مساحت مثلث مثال ۱ را 21.96 و قطعه را 6.68 نوشته است؛ با $\\frac{1}{2}(6.8)^2 \\cdot 0.9455 = 21.86$ جواب درست قطعه تقریباً 6.78cm² است. قیمت تقریبی 13.04 در مثال ۲ را ما اضافه کرده‌ایم."
+}

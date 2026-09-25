@@ -1,0 +1,51 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 251,
+  "printed_page": 244,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "تبدیل حاصل‌ضرب نسبت‌های مثلثاتی زوایا به مجموع و تفاضل",
+  "summary_fa": "این صفحه سه فورمول دیگر تبدیل حاصل‌ضرب به مجموع را (در کادرها) کامل می‌کند. هر کدام از یکی از روابط جمع یا تفریق فورمول‌های مجموع و تفاضل دو زاویه به دست می‌آید: از تفریق دو ساین، $\\cos A\\sin B$؛ از جمع دو کوساین، $\\cos A\\cos B$؛ و از تفریق دو کوساین، $\\sin A\\sin B$. در همهٔ آن‌ها ضریب $\\frac{1}{2}$ وجود دارد. سپس مثال ۱ با فورمول‌های تبدیل مجموع به حاصل‌ضرب دو چیز را ثابت می‌کند: (a) کسری با سه ساین در صورت و سه کوساین در مخرج برابر $\\tan 5x$ است؛ روش این است که جملهٔ اول و سوم را جفت کنیم تا $\\sin 5x$ و $\\cos 5x$ فکتور مشترک شوند. (b) $\\cos 75^\\circ - \\cos 15^\\circ = -\\frac{\\sqrt{2}}{2}$.",
+  "key_points_fa": [
+    "$\\cos A\\sin B = \\frac{1}{2}[\\sin(A+B) - \\sin(A-B)]$",
+    "$\\cos A\\cos B = \\frac{1}{2}[\\cos(A+B) + \\cos(A-B)]$",
+    "$\\sin A\\sin B = \\frac{1}{2}[\\cos(A-B) - \\cos(A+B)]$ (ترتیب را دقت کنید).",
+    "در مجموع سه جمله، دو جمله‌ای را جفت کنید که نصف مجموع آن‌ها با زاویهٔ جملهٔ سوم برابر باشد."
+  ],
+  "formulas": [
+    {"latex": "\\cos A\\sin B = \\frac{1}{2}[\\sin(A+B) - \\sin(A-B)]", "meaning_fa": "حاصل‌ضرب کوساین در ساین"},
+    {"latex": "\\cos A\\cos B = \\frac{1}{2}[\\cos(A+B) + \\cos(A-B)]", "meaning_fa": "حاصل‌ضرب دو کوساین"},
+    {"latex": "\\sin A\\sin B = -\\frac{1}{2}[\\cos(A+B) - \\cos(A-B)] = \\frac{1}{2}[\\cos(A-B) - \\cos(A+B)]", "meaning_fa": "حاصل‌ضرب دو ساین"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (a)",
+      "problem_fa": "نشان دهید $\\frac{\\sin 8x + \\sin 5x + \\sin 2x}{\\cos 8x + \\cos 5x + \\cos 2x} = \\tan 5x$.",
+      "steps_fa": [
+        "$\\sin 8x + \\sin 2x = 2\\sin 5x\\cos 3x$ و $\\cos 8x + \\cos 2x = 2\\cos 5x\\cos 3x$",
+        "کسر: $\\frac{2\\sin 5x\\cos 3x + \\sin 5x}{2\\cos 5x\\cos 3x + \\cos 5x} = \\frac{\\sin 5x(2\\cos 3x + 1)}{\\cos 5x(2\\cos 3x + 1)}$",
+        "بعد از حذف $(2\\cos 3x + 1)$: $\\tan 5x$"
+      ],
+      "answer": "$\\tan 5x$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱ (b)",
+      "problem_fa": "نشان دهید $\\cos 75^\\circ - \\cos 15^\\circ = -\\frac{\\sqrt{2}}{2}$.",
+      "steps_fa": [
+        "$\\cos 75^\\circ - \\cos 15^\\circ = -2\\sin\\frac{75^\\circ+15^\\circ}{2}\\sin\\frac{75^\\circ-15^\\circ}{2} = -2\\sin 45^\\circ\\sin 30^\\circ$",
+        "$= -2\\cdot\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2} = -\\frac{\\sqrt{2}}{2}$"
+      ],
+      "answer": "$-\\frac{\\sqrt{2}}{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

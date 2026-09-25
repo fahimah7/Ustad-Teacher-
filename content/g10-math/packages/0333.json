@@ -1,0 +1,59 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 333,
+  "printed_page": 326,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "معادلهٔ یک خط مستقیم",
+  "summary_fa": "این صفحه ثبوت معادلهٔ نورمال را تمام می‌کند و نتیجه را می‌نویسد: $x\\cos\\theta + y\\sin\\theta = P$. در مثال ۱ طول نورمال ۵ و زاویهٔ نورمال $120^\\circ$ است؛ با گذاشتن قیمت‌های $\\cos 120^\\circ$ و $\\sin 120^\\circ$ معادلهٔ خط به دست می‌آید و بعد با نوشتن آن به شکل $y = mx + b$ میل خط و نقطهٔ تقاطع آن با محور Y معلوم می‌شود. یک فعالیت معادلهٔ نورمال خطی با طول نورمال ۱۰ و زاویهٔ $30^\\circ$ را می‌خواهد. در پایین صفحه حالت هشتم، معادلهٔ عمومی خط $ax + by + c = 0$ معرفی می‌شود (a و b هر دو هم‌زمان صفر نیستند) و اولین حالت خاص آن ($b = 0$) که یک خط عمودی است بیان می‌شود.",
+  "key_points_fa": [
+    "معادلهٔ نورمال: $x\\cos\\theta + y\\sin\\theta - P = 0$ که P طول نورمال و $\\theta$ زاویهٔ نورمال با محور X است.",
+    "برای پیدا کردن میل، معادله را به شکل $y = mx + b$ حل می‌کنیم.",
+    "معادلهٔ عمومی خط: $ax + by + c = 0$ که a، b، c اعداد ثابت اند و a و b هر دو صفر نیستند.",
+    "اگر $b = 0$ و $a \\ne 0$: $x = -\\frac{c}{a}$ که خط موازی محور Y است."
+  ],
+  "formulas": [
+    {"latex": "x\\cos\\theta + y\\sin\\theta - P = 0", "meaning_fa": "معادلهٔ نورمال خط مستقیم"},
+    {"latex": "ax + by + c = 0", "meaning_fa": "معادلهٔ عمومی خط مستقیم"},
+    {"latex": "b = 0 \\Rightarrow x = -\\frac{c}{a}", "meaning_fa": "حالت خاص معادلهٔ عمومی: خط عمودی"}
+  ],
+  "terms": [
+    {"fa": "معادلهٔ عمومی خط مستقیم", "en": "general equation of a straight line"},
+    {"fa": "متحول", "en": "variable"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "طول عمود از مبدأ بر خط l برابر ۵ واحد و زاویهٔ میل این عمود (نورمال) $120^\\circ$ است. معادلهٔ نورمال خط، میل آن و نقطهٔ تقاطع آن با محور Y را دریابید.",
+      "steps_fa": [
+        "$\\theta = 120^\\circ$ و $P = 5$؛ $\\cos 120^\\circ = -\\frac{1}{2}$ و $\\sin 120^\\circ = \\frac{\\sqrt{3}}{2}$",
+        "$x\\cos 120^\\circ + y\\sin 120^\\circ = 5 \\Rightarrow -\\frac{1}{2}x + \\frac{\\sqrt{3}}{2}y = 5$",
+        "ضرب در $-2$: $x - \\sqrt{3}y + 10 = 0$",
+        "به شکل معیاری: $y = \\frac{x}{\\sqrt{3}} + \\frac{10}{\\sqrt{3}}$",
+        "پس $m = \\frac{1}{\\sqrt{3}}$ و خط محور Y را در $(0, \\frac{10}{\\sqrt{3}})$ قطع می‌کند."
+      ],
+      "answer": "$x - \\sqrt{3}y + 10 = 0$؛ $m = \\frac{1}{\\sqrt{3}}$؛ تقاطع با محور Y: $(0, \\frac{10}{\\sqrt{3}})$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "معادلهٔ نورمال خطی را دریابید که طول نورمال آن ۱۰ واحد است و نورمال با جهت مثبت محور X زاویهٔ $30^\\circ$ می‌سازد.",
+      "solution_steps_fa": [
+        "$P = 10$ و $\\theta = 30^\\circ$؛ $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$ و $\\sin 30^\\circ = \\frac{1}{2}$",
+        "$x\\cos 30^\\circ + y\\sin 30^\\circ = 10 \\Rightarrow \\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y = 10$",
+        "ضرب در ۲: $\\sqrt{3}x + y - 20 = 0$"
+      ],
+      "answer": "$\\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y - 10 = 0$ یا $\\sqrt{3}x + y - 20 = 0$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 418,
+  "printed_page": 411,
+  "page_kind": "review",
+  "chapter": 9,
+  "section_fa": "خلاصهٔ فصل",
+  "summary_fa": "این صفحه ادامه و پایان خلاصهٔ فصل نهم (منطق ریاضی) است. استدلال مثال نقض: وقتی با یک مثال نشان دهیم که یک نتیجه‌گیری کلی نادرست است، کل ادعا رد می‌شود؛ این را استدلال مثال نقض یا نفی می‌گویند. برهان خلف یا ثبوت غیرمستقیم: اگر خلاف یک ادعا را فرض کنیم و به تناقض برسیم، فرض نادرست و خود ادعا درست است. بیان: جملهٔ خبری که یا درست است یا نادرست؛ جمله‌ای که هیچ‌کدام نباشد بیان نیست. ترکیب بیان‌ها برای دو بیان p و q: با «و» $p \\wedge q$ (p و q)، با «یا» $p \\vee q$ (p یا q)، با «اگر ... پس» $p \\Rightarrow q$ (اگر p پس q؛ p شرطی است که q از آن نتیجه می‌شود)، و با «اگر و تنها اگر» $p \\Leftrightarrow q$ (ترکیب مشروط دوطرفه).",
+  "key_points_fa": [
+    "مثال نقض: یک مثال کافی است تا یک حکم کلی رد شود.",
+    "برهان خلف: فرض خلاف ← تناقض ← ادعا درست است.",
+    "بیان: جملهٔ خبری با قیمت صحت درست یا نادرست.",
+    "$p \\wedge q$: و؛ $p \\vee q$: یا؛ $p \\Rightarrow q$: اگر p پس q؛ $p \\Leftrightarrow q$: p اگر و تنها اگر q."
+  ],
+  "formulas": [
+    {"latex": "p \\wedge q,\\quad p \\vee q,\\quad p \\Rightarrow q,\\quad p \\Leftrightarrow q", "meaning_fa": "چهار ترکیب بیان‌ها: عطفی، فصلی، مشروط و مشروط دوطرفه"}
+  ],
+  "terms": [
+    {"fa": "استدلال مثال نقض", "en": "counterexample reasoning"},
+    {"fa": "برهان خلف", "en": "proof by contradiction"},
+    {"fa": "ثبوت غیرمستقیم", "en": "indirect proof"},
+    {"fa": "بیان", "en": "statement (logic)"},
+    {"fa": "ترکیب بیان‌ها", "en": "compound statements"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

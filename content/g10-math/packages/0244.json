@@ -1,0 +1,59 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 244,
+  "printed_page": 237,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی زاویهٔ $3\\alpha$ از جنس نسبت‌های مثلثاتی زاویهٔ $\\alpha$",
+  "summary_fa": "درس تازه: پیدا کردن نسبت‌های زاویهٔ سه‌چند ($3\\alpha$) از روی نسبت‌های $\\alpha$. پرسش آغازین می‌پرسد آیا $\\cos 90^\\circ = 4\\cos^3 30^\\circ - 3\\cos 30^\\circ$ درست است. برای ساین، $3\\alpha$ را به شکل $2\\alpha + \\alpha$ می‌نویسیم و فورمول ساین مجموع دو زاویه را به کار می‌بریم؛ سپس $\\sin 2\\alpha$ و $\\cos 2\\alpha$ را جای‌گزین و $\\cos^2\\alpha$ را به $1 - \\sin^2\\alpha$ بدل می‌کنیم تا همه چیز فقط از جنس $\\sin\\alpha$ شود. نتیجه $\\sin 3\\alpha = 3\\sin\\alpha - 4\\sin^3\\alpha$ است. مثال ۱ با همین فورمول $\\sin 180^\\circ$ را از $\\sin 60^\\circ$ حساب می‌کند و صفر به دست می‌آورد. در پایان صفحه، اثبات فورمول کوساین سه‌چند به همین روش آغاز می‌شود و در صفحهٔ بعد تمام می‌شود.",
+  "key_points_fa": [
+    "روش: $3\\alpha = 2\\alpha + \\alpha$ و به کار بردن فورمول مجموع دو زاویه.",
+    "$\\sin 3\\alpha = 3\\sin\\alpha - 4\\sin^3\\alpha$ (فقط از جنس ساین).",
+    "در اثبات از $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha$، $\\cos 2\\alpha = 1 - 2\\sin^2\\alpha$ و $\\cos^2\\alpha = 1 - \\sin^2\\alpha$ استفاده می‌شود.",
+    "با این فورمول می‌توان مثلاً $\\sin 180^\\circ$، $\\sin 90^\\circ$ را از $\\sin 60^\\circ$، $\\sin 30^\\circ$ حساب کرد."
+  ],
+  "formulas": [
+    {"latex": "\\sin 3\\alpha = \\sin(2\\alpha + \\alpha) = \\sin 2\\alpha\\cos\\alpha + \\cos 2\\alpha\\sin\\alpha", "meaning_fa": "قدم اول اثبات: نوشتن $3\\alpha$ به شکل مجموع"},
+    {"latex": "\\sin 3\\alpha = 3\\sin\\alpha - 4\\sin^3\\alpha", "meaning_fa": "ساین زاویهٔ سه‌چند از جنس ساین زاویه"},
+    {"latex": "\\cos 3\\alpha = \\cos 2\\alpha\\cos\\alpha - \\sin 2\\alpha\\sin\\alpha", "meaning_fa": "آغاز اثبات کوساین سه‌چند (ادامه در صفحهٔ بعد)"}
+  ],
+  "terms": [
+    {"fa": "زاویهٔ سه‌چند", "en": "triple angle"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "illustration", "description_fa": "دایرهٔ سفید در کادر نارنجی آغاز درس با پرسش $4\\cos^3 45^\\circ - 3\\cos 45^\\circ = ?$؛ جواب آن $\\cos 135^\\circ = -\\frac{\\sqrt{2}}{2}$ است و شاگرد را به فورمول کوساین سه‌چند راهنمایی می‌کند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\sin 180^\\circ$ را از جنس $\\sin 60^\\circ$ به دست آورید.",
+      "steps_fa": [
+        "$180^\\circ = 3\\cdot 60^\\circ$ و $\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$",
+        "$\\sin 180^\\circ = 3\\cdot\\frac{\\sqrt{3}}{2} - 4(\\frac{\\sqrt{3}}{2})^3 = \\frac{3\\sqrt{3}}{2} - \\frac{12\\sqrt{3}}{8}$",
+        "$= \\frac{3\\sqrt{3}}{2} - \\frac{3\\sqrt{3}}{2} = 0$"
+      ],
+      "answer": "$\\sin 180^\\circ = 0$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغازین",
+      "kind": "question",
+      "problem_fa": "آیا $\\cos 90^\\circ = 4\\cos^3 30^\\circ - 3\\cos 30^\\circ$ درست است؟ و $4\\cos^3 45^\\circ - 3\\cos 45^\\circ$ چند است؟",
+      "solution_steps_fa": [
+        "$\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$، $\\cos^3 30^\\circ = \\frac{3\\sqrt{3}}{8}$",
+        "$4\\cdot\\frac{3\\sqrt{3}}{8} - 3\\cdot\\frac{\\sqrt{3}}{2} = \\frac{3\\sqrt{3}}{2} - \\frac{3\\sqrt{3}}{2} = 0 = \\cos 90^\\circ$؛ پس درست است.",
+        "$\\cos 45^\\circ = \\frac{\\sqrt{2}}{2}$، $\\cos^3 45^\\circ = \\frac{\\sqrt{2}}{4}$",
+        "$4\\cdot\\frac{\\sqrt{2}}{4} - \\frac{3\\sqrt{2}}{2} = -\\frac{\\sqrt{2}}{2} = \\cos 135^\\circ$"
+      ],
+      "answer": "بلی، درست است؛ و $4\\cos^3 45^\\circ - 3\\cos 45^\\circ = -\\frac{\\sqrt{2}}{2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

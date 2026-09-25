@@ -1,0 +1,62 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 185,
+  "printed_page": 178,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مشتق توابع اکسپوننشیل و لوگاریتمی",
+  "summary_fa": "این صفحه دو مثال حل‌شده دربارهٔ مشتق توابع لوگاریتمی دارد. در مثال ۲ تابع داخل لوگاریتم یک چندجمله‌ای درجه دوم است و مستقیماً قاعدهٔ $(\\ln g)' = \\frac{g'}{g}$ به کار می‌رود. در مثال ۳ لوگاریتم یک جذر کسری گرفته می‌شود، یک بار با قاعدهٔ a و یک بار با ln. نکتهٔ مهم روش است: قبل از مشتق گرفتن، با خواص لوگاریتم جذر را به توان $\\frac{1}{2}$ و تقسیم را به تفریق تبدیل می‌کنیم؛ این کار مشتق را خیلی ساده‌تر می‌سازد. در حالت قاعدهٔ a، ضریب $\\log_a e$ در جواب باقی می‌ماند.",
+  "key_points_fa": [
+    "قبل از مشتق، لوگاریتم را با خواص آن ساده کنید.",
+    "$\\ln\\sqrt{A} = \\frac{1}{2}\\ln A$ و $\\ln\\frac{A}{B} = \\ln A - \\ln B$",
+    "جواب با قاعدهٔ a همان جواب ln است ضرب $\\log_a e$.",
+    "$(x^2+1)(x^2-1) = x^4 - 1$ برای یک‌جا کردن کسرها"
+  ],
+  "formulas": [
+    {"latex": "(\\ln g(x))' = \\frac{g'(x)}{g(x)}", "meaning_fa": "قاعدهٔ اصلی این صفحه"},
+    {"latex": "\\log_a\\sqrt{\\frac{A}{B}} = \\frac{1}{2}(\\log_a A - \\log_a B)", "meaning_fa": "ساده کردن لوگاریتم جذر یک کسر"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق $f(x) = \\ln(x^2 - 5x + 4)$ را پیدا کنید.",
+      "steps_fa": [
+        "$g(x) = x^2 - 5x + 4$ و $g'(x) = 2x - 5$",
+        "$f'(x) = \\frac{g'(x)}{g(x)} = \\frac{2x-5}{x^2-5x+4}$"
+      ],
+      "answer": "$f'(x) = \\frac{2x-5}{x^2-5x+4}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳ (قاعدهٔ a)",
+      "problem_fa": "مشتق $f(x) = \\log_a\\sqrt{\\frac{x^2+1}{x^2-1}}$ را پیدا کنید.",
+      "steps_fa": [
+        "$f(x) = \\frac{1}{2}\\left(\\log_a(x^2+1) - \\log_a(x^2-1)\\right)$",
+        "$f'(x) = \\frac{1}{2}\\left[\\frac{2x}{x^2+1}\\log_a e - \\frac{2x}{x^2-1}\\log_a e\\right]$",
+        "$= x\\log_a e\\left[\\frac{1}{x^2+1} - \\frac{1}{x^2-1}\\right] = x\\log_a e\\cdot\\frac{-2}{x^4-1}$",
+        "$= \\frac{-2x}{x^4-1}\\log_a e$"
+      ],
+      "answer": "$f'(x) = \\frac{-2x}{x^4-1}\\log_a e$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳ (لوگاریتم طبیعی)",
+      "problem_fa": "مشتق $f(x) = \\ln\\sqrt{\\frac{x^2+1}{x^2-1}}$ را پیدا کنید.",
+      "steps_fa": [
+        "$f(x) = \\frac{1}{2}\\left(\\ln(x^2+1) - \\ln(x^2-1)\\right)$",
+        "$f'(x) = \\frac{1}{2}\\left(\\frac{2x}{x^2+1} - \\frac{2x}{x^2-1}\\right)$",
+        "$= \\frac{x(x^2-1) - x(x^2+1)}{x^4-1} = \\frac{-2x}{x^4-1}$"
+      ],
+      "answer": "$f'(x) = \\frac{-2x}{x^4-1}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

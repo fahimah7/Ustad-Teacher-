@@ -1,0 +1,61 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 248,
+  "printed_page": 241,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "تبدیل مجموع و تفاضل نسبت‌های مثلثاتی زوایا به شکل حاصل‌ضرب",
+  "summary_fa": "درس تازه: چگونه مجموع یا تفاضل دو ساین را به حاصل‌ضرب بدل کنیم. پرسش آغازین قیمت $\\sin 30^\\circ + \\sin 60^\\circ$ و $\\tan 45^\\circ + \\tan 60^\\circ$ را می‌پرسد. روش: فورمول‌های $\\sin(A+B)$ (رابطهٔ I) و $\\sin(A-B)$ (رابطهٔ II) را جمع می‌کنیم؛ جمله‌های $\\cos A\\sin B$ حذف می‌شوند و $2\\sin A\\cos B$ باقی می‌ماند. بعد نام‌گذاری می‌کنیم $A+B = p$ و $A-B = q$؛ از جمع و تفریق این دو معادله $A = \\frac{p+q}{2}$ و $B = \\frac{p-q}{2}$ به دست می‌آید. با جای‌گزینی، فورمول $\\sin p + \\sin q$ حاصل می‌شود. اگر رابطهٔ II را از I تفریق کنیم، فورمول $\\sin p - \\sin q$ به دست می‌آید.",
+  "key_points_fa": [
+    "جمع دو فورمول مجموع و تفاضل، جمله‌های مخالف را حذف می‌کند.",
+    "تبدیل متحول‌ها: $A = \\frac{p+q}{2}$ (نصف مجموع) و $B = \\frac{p-q}{2}$ (نصف تفاضل).",
+    "$\\sin p + \\sin q = 2\\sin\\frac{p+q}{2}\\cos\\frac{p-q}{2}$",
+    "$\\sin p - \\sin q = 2\\cos\\frac{p+q}{2}\\sin\\frac{p-q}{2}$",
+    "فایده: مجموعی که مستقیماً حساب نمی‌شود، به حاصل‌ضرب زوایای ساده‌تر بدل می‌شود."
+  ],
+  "formulas": [
+    {"latex": "\\sin(A+B) + \\sin(A-B) = 2\\sin A\\cos B", "meaning_fa": "جمع رابطه‌های I و II"},
+    {"latex": "\\sin p + \\sin q = 2\\sin\\frac{p+q}{2}\\cos\\frac{p-q}{2}", "meaning_fa": "مجموع دو ساین به شکل حاصل‌ضرب"},
+    {"latex": "\\sin(A+B) - \\sin(A-B) = 2\\cos A\\sin B", "meaning_fa": "تفریق رابطهٔ II از I"},
+    {"latex": "\\sin p - \\sin q = 2\\cos\\frac{p+q}{2}\\sin\\frac{p-q}{2}", "meaning_fa": "تفاضل دو ساین به شکل حاصل‌ضرب"}
+  ],
+  "terms": [
+    {"fa": "حاصل‌ضرب", "en": "product"},
+    {"fa": "مجموع", "en": "sum"},
+    {"fa": "تفاضل", "en": "difference"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "illustration", "description_fa": "دایرهٔ سفید در کادر نارنجی آغاز درس با دو پرسش: $\\sin 30^\\circ + \\sin 60^\\circ = ?$ و $\\tan 45^\\circ + \\tan 60^\\circ = ?$؛ انگیزه‌ای برای فورمول‌های تبدیل مجموع به حاصل‌ضرب."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "دریافت $A$ و $B$ از روی $p$ و $q$",
+      "problem_fa": "اگر $A+B = p$ و $A-B = q$ باشد، $A$ و $B$ را دریابید.",
+      "steps_fa": [
+        "جمع دو معادله: $2A = p+q$ پس $A = \\frac{p+q}{2}$",
+        "تفریق دو معادله: $2B = p-q$ پس $B = \\frac{p-q}{2}$"
+      ],
+      "answer": "$A = \\frac{p+q}{2}$، $B = \\frac{p-q}{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغازین",
+      "kind": "question",
+      "problem_fa": "آیا قیمت $\\sin 30^\\circ + \\sin 60^\\circ$ را دریافت کرده می‌توانید؟ (همچنین $\\tan 45^\\circ + \\tan 60^\\circ$)",
+      "solution_steps_fa": [
+        "مستقیم: $\\sin 30^\\circ + \\sin 60^\\circ = \\frac{1}{2} + \\frac{\\sqrt{3}}{2} = \\frac{1+\\sqrt{3}}{2}$",
+        "با فورمول: $2\\sin 45^\\circ\\cos 15^\\circ = 2\\cdot\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{6}+\\sqrt{2}}{4} = \\frac{1+\\sqrt{3}}{2}$ (همان جواب).",
+        "$\\tan 45^\\circ + \\tan 60^\\circ = 1 + \\sqrt{3}$"
+      ],
+      "answer": "$\\frac{1+\\sqrt{3}}{2}$ و $1+\\sqrt{3}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب در خط تفریق معادله‌ها علامهٔ $\\mp$ چاپ شده؛ منظور تفریق $A - B = q$ از $A + B = p$ است."
+}

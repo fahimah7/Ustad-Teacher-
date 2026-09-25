@@ -1,0 +1,38 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 277,
+  "printed_page": 270,
+  "page_kind": "review",
+  "chapter": 5,
+  "section_fa": "خلاصهٔ فصل",
+  "summary_fa": "صفحهٔ آخر خلاصهٔ فصل پنجم، که فورمول‌های بخش هندسی فصل را مرور می‌کند. اول تعریف قطعهٔ دایره (قسمت سطح دایره بین قوس و وتر مقابل آن) و فورمول مساحت آن. بعد مساحت مثلث از روی دو ضلع و زاویهٔ بین آن‌ها در سه شکل. سپس نسبت‌های مثلثاتی نصف زاویه‌های مثلث از روی طول ضلع‌ها با نصف محیط p (برای sin، cos و tan). بعد فورمول هیرون برای مساحت از روی سه ضلع. در آخر شعاع دایرهٔ محیطی ($R = \\frac{a}{2\\sin A} = \\frac{abc}{4S}$) و شعاع دایرهٔ محاطی ($r = \\frac{S}{p}$) آمده است. این صفحه تمرین ندارد؛ تمرین فصل از صفحهٔ بعد شروع می‌شود.",
+  "key_points_fa": [
+    "مساحت قطعه = $\\frac{1}{2}R^2(\\theta - \\sin\\theta)$، $\\theta$ به رادیان.",
+    "مساحت مثلث = نصف حاصل‌ضرب دو ضلع × sin زاویهٔ بین آن‌ها.",
+    "p نصف محیط مثلث است و a، b، c ضلع‌های مقابل A، B، C.",
+    "فورمول هیرون: $S = \\sqrt{p(p-a)(p-b)(p-c)}$.",
+    "$2R = \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$ و $r = \\frac{S}{p}$."
+  ],
+  "formulas": [
+    {"latex": "A_{\\text{segment}} = \\frac{1}{2}R^2(\\theta - \\sin\\theta)", "meaning_fa": "مساحت قطعهٔ دایره"},
+    {"latex": "S = \\frac{1}{2}ac\\sin B = \\frac{1}{2}bc\\sin A = \\frac{1}{2}ab\\sin C", "meaning_fa": "مساحت مثلث از دو ضلع و زاویهٔ بین"},
+    {"latex": "\\sin\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{bc}},\\ \\cos\\frac{A}{2} = \\sqrt{\\frac{p(p-a)}{bc}},\\ \\tan\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{p(p-a)}}", "meaning_fa": "نسبت‌های نصف زاویه از روی ضلع‌ها (برای B و C هم مشابه)"},
+    {"latex": "S = \\sqrt{p(p-a)(p-b)(p-c)}", "meaning_fa": "فورمول هیرون"},
+    {"latex": "R = \\frac{a}{2\\sin A} = \\frac{b}{2\\sin B} = \\frac{c}{2\\sin C} = \\frac{abc}{4S}", "meaning_fa": "شعاع دایرهٔ محیطی"},
+    {"latex": "r = \\frac{S}{p} = \\frac{\\sqrt{p(p-a)(p-b)(p-c)}}{p}", "meaning_fa": "شعاع دایرهٔ محاطی"}
+  ],
+  "terms": [
+    {"fa": "قطعهٔ دایره", "en": "segment of a circle"},
+    {"fa": "فورمول هیرون", "en": "Heron's formula"},
+    {"fa": "دایرهٔ محیطی", "en": "circumcircle"},
+    {"fa": "دایرهٔ محاطی", "en": "incircle"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب در فورمول $\\sin\\frac{C}{2}$ ترتیب را $(p-b)(p-a)$ نوشته که با $(p-a)(p-b)$ یکی است."
+}

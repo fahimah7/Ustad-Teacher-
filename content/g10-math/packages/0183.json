@@ -1,0 +1,82 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 183,
+  "printed_page": 176,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "نسبت‌های مثلثاتی زوایای $0^\\circ$، $90^\\circ$، $180^\\circ$، $270^\\circ$ و $360^\\circ$",
+  "summary_fa": "این صفحه تمرین درس زوایای محوری است و چهار سوال دارد. در سوال اول باید جدولی از sin، cos و tan زاویه‌های $0^\\circ$، $\\frac{\\pi}{2}$، $\\pi$، $\\frac{3\\pi}{2}$ و $2\\pi$ پر شود. سوال‌های دوم و سوم چهارگزینه‌ای هستند و قیمت $\\tan 270^\\circ$ و $\\cos 90^\\circ$ را می‌پرسند. سوال چهارم می‌پرسد آیا $\\cos\\frac{3\\pi}{2}$ و $\\cos\\frac{9\\pi}{2}$ مساوی‌اند. راه حل همهٔ آن‌ها این است که نقطهٔ ضلع دوم هر زاویه را روی دایرهٔ مثلثاتی پیدا کنیم: $(1,0)$، $(0,1)$، $(-1,0)$ یا $(0,-1)$؛ sin برابر y و cos برابر x آن نقطه است و tan برابر $\\frac{y}{x}$ است (اگر $x = 0$ شود، tan تعریف نشده است).",
+  "key_points_fa": [
+    "روی دایرهٔ مثلثاتی: $\\cos\\theta = x$ و $\\sin\\theta = y$ نقطهٔ ضلع دوم است.",
+    "$0^\\circ \\to (1,0)$، $90^\\circ \\to (0,1)$، $180^\\circ \\to (-1,0)$، $270^\\circ \\to (0,-1)$، $360^\\circ \\to (1,0)$.",
+    "tan در $90^\\circ$ و $270^\\circ$ تعریف نشده است، چون $x = 0$ است.",
+    "برای زاویهٔ بزرگ‌تر از $2\\pi$، مضرب $2\\pi$ را کم کنید تا زاویهٔ کوترمینل کوچک‌تر به دست آید."
+  ],
+  "formulas": [
+    {"latex": "\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta} = \\frac{y}{x}", "meaning_fa": "tan وقتی تعریف نشده است که $\\cos\\theta = 0$ باشد"},
+    {"latex": "\\cos(\\theta + 2k\\pi) = \\cos\\theta", "meaning_fa": "زوایای کوترمینل نسبت‌های مثلثاتی مساوی دارند"}
+  ],
+  "terms": [
+    {"fa": "زوایای محوری", "en": "quadrantal angles"},
+    {"fa": "زوایای کوترمینل", "en": "coterminal angles"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.18, 0.21, 0.62, 0.34], "kind": "table", "description_fa": "جدول خالی سوال ۱: سطر اول زاویه‌های $\\theta$ یعنی $0^\\circ$، $\\frac{\\pi}{2}$، $\\pi$، $\\frac{3\\pi}{2}$ و $2\\pi$، و سه سطر بعدی برای نوشتن $\\sin\\theta$، $\\cos\\theta$ و $\\tan\\theta$ هر زاویه."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "جدول sin، cos و tan زاویه‌های $0^\\circ$، $\\frac{\\pi}{2}$، $\\pi$، $\\frac{3\\pi}{2}$ و $2\\pi$ را پر کنید.",
+      "solution_steps_fa": [
+        "نقطه‌ها روی دایرهٔ مثلثاتی: $0 \\to (1,0)$، $\\frac{\\pi}{2} \\to (0,1)$، $\\pi \\to (-1,0)$، $\\frac{3\\pi}{2} \\to (0,-1)$، $2\\pi \\to (1,0)$",
+        "سطر sin (قیمت y): $0,\\ 1,\\ 0,\\ -1,\\ 0$",
+        "سطر cos (قیمت x): $1,\\ 0,\\ -1,\\ 0,\\ 1$",
+        "سطر tan ($\\frac{y}{x}$): $0$، تعریف نشده، $0$، تعریف نشده، $0$"
+      ],
+      "answer": "sin: $0, 1, 0, -1, 0$؛ cos: $1, 0, -1, 0, 1$؛ tan: $0$، تعریف نشده، $0$، تعریف نشده، $0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "$\\tan 270^\\circ = ?$ گزینه‌ها: a) $-1$ b) $1$ c) $0$ d) تعریف نشده است",
+      "solution_steps_fa": [
+        "نقطهٔ $270^\\circ$ روی دایرهٔ مثلثاتی $(0,-1)$ است.",
+        "$\\tan 270^\\circ = \\frac{y}{x} = \\frac{-1}{0}$ که تقسیم بر صفر است."
+      ],
+      "answer": "d) تعریف نشده است",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "$\\cos 90^\\circ = ?$ گزینه‌ها: a) $-1$ b) $1$ c) $0$ d) تعریف نشده است",
+      "solution_steps_fa": [
+        "نقطهٔ $90^\\circ$ روی دایرهٔ مثلثاتی $(0,1)$ است.",
+        "$\\cos 90^\\circ = \\frac{x}{r} = \\frac{0}{1} = 0$"
+      ],
+      "answer": "c) $0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "آیا $\\cos\\frac{3\\pi}{2} = \\cos\\frac{9\\pi}{2}$ است؟ چرا؟",
+      "solution_steps_fa": [
+        "$\\frac{9\\pi}{2} = 4\\pi + \\frac{\\pi}{2}$؛ پس $\\frac{9\\pi}{2}$ با $\\frac{\\pi}{2}$ کوترمینل است و $\\cos\\frac{9\\pi}{2} = \\cos\\frac{\\pi}{2} = 0$.",
+        "نقطهٔ $\\frac{3\\pi}{2}$ روی دایره $(0,-1)$ است، پس $\\cos\\frac{3\\pi}{2} = 0$.",
+        "هر دو قیمت صفر است؛ چون ضلع دوم هر دو زاویه روی محور Y قرار دارد و x نقطهٔ آن‌ها صفر است.",
+        "توجه: این دو زاویه کوترمینل نیستند (فرق آن‌ها $3\\pi$ است)، و مثلاً sin آن‌ها فرق دارد: $\\sin\\frac{3\\pi}{2} = -1$ ولی $\\sin\\frac{9\\pi}{2} = 1$."
+      ],
+      "answer": "بلی، هر دو برابر $0$ هستند، چون ضلع دوم هر دو زاویه روی محور Y است ($x = 0$).",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

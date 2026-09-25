@@ -1,0 +1,121 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 149,
+  "printed_page": 142,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "انتیگرال غیرمعین",
+  "summary_fa": "بر اساس فعالیت صفحهٔ قبل، این صفحه انتیگرال غیرمعین را تعریف می‌کند: اگر $F(x)$ یک تابع اولیهٔ $f(x)$ باشد (یعنی $F'(x) = f(x)$)، مجموعهٔ همهٔ توابع $F(x) + C$ را انتیگرال غیرمعین $f(x)$ می‌گویند، که C یک عدد ثابت اختیاری است. بعد سه مثال با قاعدهٔ توان حل می‌شود: توان را یکی زیاد کنید و بر توان جدید تقسیم کنید. در مثال‌ها ریشه‌ها و کسرها اول به شکل توان کسری یا منفی نوشته می‌شوند. در آخر یک تمرین با پنج انتیگرال از همین نوع آمده است.",
+  "key_points_fa": [
+    "تابع اولیه: $F$ تابع اولیهٔ $f$ است اگر $F'(x) = f(x)$",
+    "$\\int f(x)\\,dx = F(x) + C$؛ C ثابت اختیاری است.",
+    "قاعدهٔ توان: $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$ برای $n \\ne -1$",
+    "ریشه را به توان کسری تبدیل کنید: $\\sqrt[m]{x^k} = x^{\\frac{k}{m}}$ و $\\frac{1}{x^k} = x^{-k}$",
+    "جواب را می‌توان با مشتق گرفتن امتحان کرد."
+  ],
+  "formulas": [
+    {"latex": "\\int f(x)\\,dx = F(x) + C", "meaning_fa": "تعریف انتیگرال غیرمعین"},
+    {"latex": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\quad n \\ne -1", "meaning_fa": "قاعدهٔ توان در انتیگرال"},
+    {"latex": "\\sqrt[m]{x^k} = x^{\\frac{k}{m}}", "meaning_fa": "نوشتن ریشه به شکل توان کسری"}
+  ],
+  "terms": [
+    {"fa": "تابع اولیه", "en": "antiderivative (primitive)"},
+    {"fa": "انتیگرال غیرمعین", "en": "indefinite integral"},
+    {"fa": "ثابت اختیاری", "en": "arbitrary constant"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\int x\\,dx$",
+      "steps_fa": [
+        "$\\int x\\,dx = \\frac{x^{1+1}}{1+1} + C = \\frac{x^2}{2} + C$"
+      ],
+      "answer": "$\\frac{x^2}{2} + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\int \\frac{1}{\\sqrt[7]{x^3}}\\,dx$",
+      "steps_fa": [
+        "$\\frac{1}{\\sqrt[7]{x^3}} = x^{-\\frac{3}{7}}$",
+        "$\\int x^{-\\frac{3}{7}}dx = \\frac{x^{\\frac{4}{7}}}{\\frac{4}{7}} + C = \\frac{7}{4}\\sqrt[7]{x^4} + C$"
+      ],
+      "answer": "$\\frac{7}{4}\\sqrt[7]{x^4} + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "$\\int x^{\\frac{3}{2}}\\,dx$",
+      "steps_fa": [
+        "$\\int x^{\\frac{3}{2}}dx = \\frac{x^{\\frac{5}{2}}}{\\frac{5}{2}} + C = \\frac{2}{5}x^{\\frac{5}{2}} + C = \\frac{2}{5}\\sqrt{x^5} + C$"
+      ],
+      "answer": "$\\frac{2}{5}\\sqrt{x^5} + C$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\sqrt[5]{x^3}\\,dx$",
+      "solution_steps_fa": [
+        "$\\sqrt[5]{x^3} = x^{\\frac{3}{5}}$",
+        "$\\int x^{\\frac{3}{5}}dx = \\frac{x^{\\frac{8}{5}}}{\\frac{8}{5}} + C = \\frac{5}{8}x^{\\frac{8}{5}} + C$"
+      ],
+      "answer": "$\\frac{5}{8}\\sqrt[5]{x^8} + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\frac{1}{x^4}\\,dx$",
+      "solution_steps_fa": [
+        "$\\frac{1}{x^4} = x^{-4}$",
+        "$\\int x^{-4}dx = \\frac{x^{-3}}{-3} + C$"
+      ],
+      "answer": "$-\\frac{1}{3x^3} + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\frac{1}{\\sqrt{x}}\\,dx$",
+      "solution_steps_fa": [
+        "$\\frac{1}{\\sqrt{x}} = x^{-\\frac{1}{2}}$",
+        "$\\int x^{-\\frac{1}{2}}dx = \\frac{x^{\\frac{1}{2}}}{\\frac{1}{2}} + C = 2\\sqrt{x} + C$"
+      ],
+      "answer": "$2\\sqrt{x} + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین d",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\frac{x^2}{\\sqrt[4]{x^2}}\\,dx$",
+      "solution_steps_fa": [
+        "$\\sqrt[4]{x^2} = x^{\\frac{1}{2}}$ (برای $x > 0$)",
+        "$\\frac{x^2}{x^{\\frac{1}{2}}} = x^{\\frac{3}{2}}$",
+        "$\\int x^{\\frac{3}{2}}dx = \\frac{2}{5}x^{\\frac{5}{2}} + C$"
+      ],
+      "answer": "$\\frac{2}{5}\\sqrt{x^5} + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین e",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\sqrt[8]{x^4}\\cdot x\\,dx$",
+      "solution_steps_fa": [
+        "$\\sqrt[8]{x^4} = x^{\\frac{4}{8}} = x^{\\frac{1}{2}}$",
+        "$x^{\\frac{1}{2}}\\cdot x = x^{\\frac{3}{2}}$",
+        "$\\int x^{\\frac{3}{2}}dx = \\frac{2}{5}x^{\\frac{5}{2}} + C$"
+      ],
+      "answer": "$\\frac{2}{5}\\sqrt{x^5} + C$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در تمرین d و e فرض شده $x > 0$ است تا ریشه‌های زوج تعریف شده باشند."
+}

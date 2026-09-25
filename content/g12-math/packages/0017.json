@@ -1,0 +1,89 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 17,
+  "printed_page": 10,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "خواص لیمت (Properties of limit)",
+  "summary_fa": "این صفحه خواص توابع بی‌نهایت کوچک را بیان می‌کند و بعد از آن‌ها برای ثبوت خواص لیمت استفاده می‌کند. خاصیت اصلی: $\\lim_{x \\to a} f(x) = b$ است اگر و تنها اگر بتوانیم $f(x)$ را به شکل $b + \\varepsilon(x)$ بنویسیم که $\\varepsilon(x)$ بی‌نهایت کوچک باشد. همچنین مجموع و حاصل ضرب توابع بی‌نهایت کوچک، بی‌نهایت کوچک است؛ تقسیم یک تابع بی‌نهایت کوچک بر تابعی که لیمتش صفر نیست، بی‌نهایت کوچک است؛ و معکوس یک تابع بی‌نهایت کوچک غیر صفر به بی‌نهایت می‌رود. دو مثال ($x^2 - 9$ در $x \\to 3$ و $\\frac{1}{2x}$ در $x \\to \\infty$) این تعریف را نشان می‌دهند. سه سؤال با کمک خواص لیمت حل شده‌اند. در آخر ثبوت خاصیت مجموع با نوشتن $f(x_1) = b_1 + \\varepsilon_1$ و $f(x_2) = b_2 + \\varepsilon_2$ شروع می‌شود و در صفحهٔ بعد ادامه دارد.",
+  "key_points_fa": [
+    "$\\lim_{x \\to a} f(x) = b \\iff f(x) = b + \\varepsilon(x)$ که در آن $\\varepsilon(x) \\to 0$",
+    "مجموع و حاصل ضرب توابع بی‌نهایت کوچک، بی‌نهایت کوچک است.",
+    "اگر $\\varepsilon(x)$ بی‌نهایت کوچک و غیر صفر باشد، $\\frac{1}{\\varepsilon(x)} \\to \\infty$.",
+    "اگر لیمت $u(x)$ صفر نباشد، $\\frac{\\varepsilon(x)}{u(x)}$ بی‌نهایت کوچک است.",
+    "برای حل لیمت‌ها، عبارت را با خواص لیمت به لیمت‌های ساده‌تر تجزیه کنید."
+  ],
+  "formulas": [
+    {"latex": "f(x) = b + \\varepsilon(x),\\ \\lim_{x \\to a} \\varepsilon(x) = 0 \\iff \\lim_{x \\to a} f(x) = b", "meaning_fa": "رابطهٔ لیمت با تابع بی‌نهایت کوچک"},
+    {"latex": "\\lim_{x \\to a} \\frac{1}{\\varepsilon(x)} = \\infty", "meaning_fa": "معکوس تابع بی‌نهایت کوچک غیر صفر، بی‌نهایت بزرگ می‌شود"},
+    {"latex": "v(x) = \\frac{\\varepsilon(x)}{u(x)}", "meaning_fa": "اگر لیمت $u(x)$ صفر نباشد، v بی‌نهایت کوچک است"},
+    {"latex": "\\lim_{x \\to a} [f(x_1) + f(x_2)] = \\lim_{x \\to a} f(x_1) + \\lim_{x \\to a} f(x_2)", "meaning_fa": "لیمت مجموع توابع، مجموع لیمت‌های آن‌هاست"}
+  ],
+  "terms": [
+    {"fa": "تابع بی‌نهایت کوچک", "en": "infinitesimal function"},
+    {"fa": "ثبوت", "en": "proof"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال I",
+      "problem_fa": "نشان دهید $\\varepsilon(x) = x^2 - 9$ در $x \\to 3$ بی‌نهایت کوچک است.",
+      "steps_fa": [
+        "$\\lim_{x \\to 3} (x^2 - 9) = 9 - 9 = 0$",
+        "چون لیمت صفر است، تابع بی‌نهایت کوچک است."
+      ],
+      "answer": "بی‌نهایت کوچک است، زیرا $\\lim_{x \\to 3}(x^2 - 9) = 0$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال II",
+      "problem_fa": "نشان دهید $\\varepsilon(x) = \\frac{1}{2x}$ در $x \\to \\infty$ بی‌نهایت کوچک است.",
+      "steps_fa": [
+        "وقتی x بسیار بزرگ می‌شود، مخرج $2x$ بسیار بزرگ و کسر بسیار کوچک می‌شود.",
+        "$\\lim_{x \\to \\infty} \\frac{1}{2x} = 0$"
+      ],
+      "answer": "بی‌نهایت کوچک است، زیرا $\\lim_{x \\to \\infty} \\frac{1}{2x} = 0$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال ۱",
+      "kind": "question",
+      "problem_fa": "$\\lim_{x \\to 2} (2x^2 - 1)$",
+      "solution_steps_fa": [
+        "$= \\lim_{x \\to 2} 2x^2 - \\lim_{x \\to 2} 1 = 2 \\lim_{x \\to 2} x^2 - 1$",
+        "$= 2 \\cdot 2^2 - 1 = 8 - 1 = 7$"
+      ],
+      "answer": "$7$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "سؤال ۲",
+      "kind": "question",
+      "problem_fa": "$\\lim_{x \\to -3} (x - 1)^2$",
+      "solution_steps_fa": [
+        "$= \\lim_{x \\to -3} (x - 1) \\cdot \\lim_{x \\to -3} (x - 1)$",
+        "$= (-4)(-4) = 16$"
+      ],
+      "answer": "$16$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "سؤال ۳",
+      "kind": "question",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{4x - 3}{x + 1}$",
+      "solution_steps_fa": [
+        "لیمت مخرج $0 + 1 = 1 \\neq 0$ است، پس خاصیت تقسیم را به کار می‌بریم.",
+        "$= \\frac{\\lim_{x \\to 0} 4x - \\lim_{x \\to 0} 3}{\\lim_{x \\to 0} x + \\lim_{x \\to 0} 1} = \\frac{0 - 3}{0 + 1} = -3$"
+      ],
+      "answer": "$-3$",
+      "solution_source": "book"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب، جملهٔ «مجموع توابع بی‌نهایت کوچک، بی‌نهایت کوچک است» در ادامهٔ خاصیت دوم چاپ شده است."
+}

@@ -1,0 +1,90 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 279,
+  "printed_page": 272,
+  "page_kind": "content",
+  "chapter": 8,
+  "section_fa": "اصل حاصل ضرب",
+  "summary_fa": "این صفحه بخش «اصل حاصل ضرب» را آغاز می‌کند. سوال اصلی این است که احتمال A به شرط B با احتمال واقع شدن هم‌زمان A و B چه رابطه دارد؛ یک دیاگرام وین قسمت مشترک $A\\cap B$ را رنگ کرده است. در فعالیت، شاگرد تعریف احتمال مشروط را می‌نویسد، آن را برای $P(A\\cap B)$ حل می‌کند، حاصل ضرب $P(B)\\cdot P_B(A)$ را از روی گراف درختی می‌خواند و دو نتیجه را مقایسه می‌کند. نتیجه این است که احتمال تقاطع دو حادثه برابر است با احتمال یکی ضرب احتمال مشروط دیگری. یک دیاگرام مسیری (آغاز ← B ← A) نشان می‌دهد که ضرب احتمال‌های روی یک مسیر همان احتمال تقاطع است. تعمیم آن برای سه حادثه در صفحهٔ بعد آمده است.",
+  "key_points_fa": [
+    "اصل حاصل ضرب: $P(A\\cap B) = P(B)\\cdot P_B(A)$؛ این از ضرب دو طرف تعریف احتمال مشروط در $P(B)$ به دست می‌آید.",
+    "به همین ترتیب $P(A\\cap B) = P(A)\\cdot P_A(B)$ هم درست است.",
+    "در دیاگرام درختی، احتمال‌های روی یک مسیر را ضرب می‌کنیم تا احتمال تقاطع به دست آید.",
+    "این قاعده برای بیشتر از دو حادثه هم تعمیم می‌یابد."
+  ],
+  "formulas": [
+    {"latex": "P_B(A) = \\frac{P(A\\cap B)}{P(B)}", "meaning_fa": "تعریف احتمال مشروط که نقطهٔ آغاز فعالیت است"},
+    {"latex": "P(A\\cap B) = P(B)\\cdot P_B(A)", "meaning_fa": "اصل حاصل ضرب برای دو حادثه"}
+  ],
+  "terms": [
+    {"fa": "اصل حاصل ضرب", "en": "multiplication rule"},
+    {"fa": "تقاطع حوادث", "en": "intersection of events"},
+    {"fa": "دیاگرام وین", "en": "Venn diagram"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.13, 0.12, 0.49, 0.27], "kind": "diagram", "description_fa": "دیاگرام وین با دو دایرهٔ A و B که قسمت مشترک آن‌ها ($A\\cap B$) سرخ رنگ شده است؛ نشان می‌دهد حادثهٔ «هم A و هم B» همان ناحیهٔ مشترک است."},
+    {"id": "fig2", "bbox": [0.20, 0.78, 0.75, 0.88], "kind": "diagram", "description_fa": "مسیر آغاز ← B ← A با احتمال $P(B)$ روی شاخهٔ اول و $P_B(A)$ روی شاخهٔ دوم؛ قوس زیر مسیر نشان می‌دهد که حاصل ضرب آن‌ها $P(A\\cap B)$ است."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "فعالیت (۱)",
+      "kind": "activity",
+      "problem_fa": "احتمال حادثهٔ A مشروط به B را بنویسید.",
+      "solution_steps_fa": [
+        "طبق تعریف: $P_B(A) = \\frac{P(A\\cap B)}{P(B)}$ به شرط $P(B)\\neq 0$"
+      ],
+      "answer": "$P_B(A) = \\frac{P(A\\cap B)}{P(B)}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (۲)",
+      "kind": "activity",
+      "problem_fa": "$P(A\\cap B)$ را به کمک $P(B)$ و $P_B(A)$ بنویسید.",
+      "solution_steps_fa": [
+        "دو طرف تعریف را در $P(B)$ ضرب می‌کنیم.",
+        "$P(A\\cap B) = P(B)\\cdot P_B(A)$"
+      ],
+      "answer": "$P(A\\cap B) = P(B)\\cdot P_B(A)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (۳)",
+      "kind": "activity",
+      "problem_fa": "به کمک گراف درختی، حاصل ضرب $P(B)\\cdot P_B(A)$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "در درخت، مسیر آغاز ← B ← A را دنبال می‌کنیم.",
+        "طبق قاعدهٔ اول مسیر، ضرب احتمال‌های این مسیر احتمال رسیدن به پایان آن یعنی $P(A\\cap B)$ است."
+      ],
+      "answer": "$P(B)\\cdot P_B(A) = P(A\\cap B)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (۴)",
+      "kind": "activity",
+      "problem_fa": "نتیجهٔ دو بند بالا را مقایسه کنید.",
+      "solution_steps_fa": [
+        "هر دو راه (فورمول و درخت) یک نتیجه می‌دهند.",
+        "پس $P(A\\cap B) = P(B)\\cdot P_B(A)$ یک قاعدهٔ عمومی است."
+      ],
+      "answer": "هر دو نتیجه مساوی اند.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (۵)",
+      "kind": "activity",
+      "problem_fa": "آیا این موضوع را می‌توان برای بیشتر از دو حادثه تعمیم داد؟",
+      "solution_steps_fa": [
+        "بلی؛ مسیر درخت را یک مرحلهٔ دیگر ادامه می‌دهیم و احتمال مشروط مرحلهٔ سوم را هم ضرب می‌کنیم.",
+        "$P(A\\cap B\\cap C) = P(A)\\cdot P_A(B)\\cdot P_{A\\cap B}(C)$"
+      ],
+      "answer": "بلی، مثلاً $P(A\\cap B\\cap C) = P(A)\\cdot P_A(B)\\cdot P_{A\\cap B}(C)$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

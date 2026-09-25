@@ -1,0 +1,74 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 240,
+  "printed_page": 231,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "حل سیستم معادلات خطی با استفاده از معکوس متریکس",
+  "summary_fa": "این صفحه درس حل سیستم معادلات خطی با معکوس متریکس را آغاز می‌کند. ایدهٔ اصلی: یک سیستم دو معادلهٔ دو مجهوله را می‌توان به شکل یک معادلهٔ متریکسی $AX = B$ نوشت؛ A متریکس ضرایب (عددهای پهلوی مجهول‌ها)، X متریکس ستونی مجهول‌ها و B متریکس ستونی حدود ثابت (طرف راست) است. اگر $|A| \\neq 0$ باشد، هر دو طرف را از چپ در $A^{-1}$ ضرب می‌کنیم؛ چون $A^{-1}A = I$ و $IX = X$، جواب $X = A^{-1}B$ به دست می‌آید. در فعالیت همین مراحل برای سیستم عمومی انجام می‌شود. مثال ۱ با سیستم $x + 2y = 5$ و $x + 3y = 7$ آغاز می‌شود: متریکس‌های A، X و B نوشته و دیترمینانت A (برابر ۱) حساب می‌شود؛ بقیهٔ حل در صفحه بعد است.",
+  "key_points_fa": [
+    "سیستم را به شکل $AX = B$ بنویسید: A ضرایب، X مجهول‌ها، B حدود ثابت.",
+    "شرط استفاده از این روش: $|A| \\neq 0$.",
+    "دو طرف را از طرف چپ در $A^{-1}$ ضرب کنید (نه از راست)، چون ضرب متریکس‌ها تبدیلی نیست.",
+    "جواب: $X = A^{-1} \\cdot B$.",
+    "معکوس $2 \\times 2$ از فورمول $\\frac{1}{|A|}\\,\\mathrm{Adj}\\,A$ به دست می‌آید."
+  ],
+  "formulas": [
+    {"latex": "\\begin{cases} a_1 x + b_1 y = c_1 \\\\ a_2 x + b_2 y = c_2 \\end{cases} \\iff \\begin{pmatrix} a_1 & b_1 \\\\ a_2 & b_2 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} c_1 \\\\ c_2 \\end{pmatrix}", "meaning_fa": "نوشتن سیستم به شکل متریکسی $AX = B$"},
+    {"latex": "AX = B \\Rightarrow A^{-1}AX = A^{-1}B \\Rightarrow IX = A^{-1}B \\Rightarrow X = A^{-1} \\cdot B", "meaning_fa": "حل سیستم با معکوس متریکس ضرایب"}
+  ],
+  "terms": [
+    {"fa": "متریکس ضرایب", "en": "coefficient matrix"},
+    {"fa": "متریکس مجهول‌ها", "en": "matrix of unknowns"},
+    {"fa": "متریکس حدود ثابت", "en": "constant matrix"},
+    {"fa": "سیستم معادلات خطی", "en": "system of linear equations"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.16, 0.13, 0.38, 0.18], "kind": "illustration", "description_fa": "فورمول $X = A^{-1} \\cdot B$ با حروف درشت؛ خلاصهٔ همهٔ روش این درس."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (آغاز)",
+      "problem_fa": "سیستم $x + 2y = 5$ و $x + 3y = 7$ را با استفاده از متریکس معکوس حل کنید.",
+      "steps_fa": [
+        "$A = \\begin{pmatrix} 1 & 2 \\\\ 1 & 3 \\end{pmatrix}$، $X = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$، $B = \\begin{pmatrix} 5 \\\\ 7 \\end{pmatrix}$",
+        "$|A| = 1 \\cdot 3 - 1 \\cdot 2 = 1 \\neq 0$، پس A معکوس دارد.",
+        "(ادامه در صفحه بعد) $A^{-1} = \\frac{1}{1} \\begin{pmatrix} 3 & -2 \\\\ -1 & 1 \\end{pmatrix}$",
+        "$X = A^{-1}B = \\begin{pmatrix} 3 \\cdot 5 - 2 \\cdot 7 \\\\ -5 + 7 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$"
+      ],
+      "answer": "$x = 1,\\ y = 2$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "آیا تا حال فکر کرده‌اید که سیستم معادلات را با معکوس متریکس‌ها حل کنید؟",
+      "solution_steps_fa": [
+        "سیستم را به شکل $AX = B$ می‌نویسیم.",
+        "اگر $|A| \\neq 0$، دو طرف را در $A^{-1}$ ضرب می‌کنیم و $X = A^{-1}B$ به دست می‌آید."
+      ],
+      "answer": "بلی؛ با فورمول $X = A^{-1} \\cdot B$.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "برای سیستم $a_1 x + b_1 y = c_1$ و $a_2 x + b_2 y = c_2$: متریکس ضرایب، مجهول‌ها و حدود ثابت را بنویسید، آن‌ها را به شکل معادله بنویسید و دو طرف را در معکوس متریکس ضرایب ضرب کنید.",
+      "solution_steps_fa": [
+        "$A = \\begin{pmatrix} a_1 & b_1 \\\\ a_2 & b_2 \\end{pmatrix}$، $X = \\begin{pmatrix} x \\\\ y \\end{pmatrix}$، $B = \\begin{pmatrix} c_1 \\\\ c_2 \\end{pmatrix}$",
+        "معادله: $AX = B$",
+        "اگر $|A| = a_1 b_2 - a_2 b_1 \\neq 0$: $X = A^{-1}B = \\frac{1}{a_1 b_2 - a_2 b_1} \\begin{pmatrix} b_2 & -b_1 \\\\ -a_2 & a_1 \\end{pmatrix} \\begin{pmatrix} c_1 \\\\ c_2 \\end{pmatrix}$",
+        "پس $x = \\frac{b_2 c_1 - b_1 c_2}{a_1 b_2 - a_2 b_1}$ و $y = \\frac{a_1 c_2 - a_2 c_1}{a_1 b_2 - a_2 b_1}$"
+      ],
+      "answer": "$X = A^{-1}B$، یعنی $x = \\frac{b_2 c_1 - b_1 c_2}{a_1 b_2 - a_2 b_1}$، $y = \\frac{a_1 c_2 - a_2 c_1}{a_1 b_2 - a_2 b_1}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب در متریکس عمومی A عناصر را $a_{11}, b_{12}, a_{21}, b_{22}$ نوشته که با نشانه‌های سیستم ($a_1, b_1, a_2, b_2$) فرق دارد؛ منظور یکی است."
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 266,
+  "printed_page": 259,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مساحت مثلث از روی سه ضلع آن (فورمول هیرون)",
+  "summary_fa": "این صفحه ثابت می‌کند که $\\sin\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{bc}}$. راه کار: از قضیهٔ cosine می‌دانیم $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$. این را در $\\sin\\frac{A}{2} = \\sqrt{\\frac{1-\\cos A}{2}}$ می‌گذاریم و کسر را ساده می‌کنیم تا زیر جذر $\\frac{a^2 - (b-c)^2}{4bc}$ بماند. صورت تفاضل دو مربع است و به $(a-b+c)(a+b-c)$ تجزیه می‌شود. چون $a+b+c = 2p$، داریم $a-b+c = 2(p-b)$ و $a+b-c = 2(p-c)$. با گذاشتن این‌ها، عدد ۴ ساده می‌شود و فورمول به دست می‌آید. در فعالیت شاگرد باید به همین طریق فورمول‌های $\\sin\\frac{B}{2}$ و $\\sin\\frac{C}{2}$ را ثابت کند. در آخر صفحه فورمول‌های cos نصف زاویه از روی ضلع‌ها داده شده است.",
+  "key_points_fa": [
+    "قضیهٔ cosine: $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$.",
+    "$2bc - b^2 - c^2 = -(b-c)^2$، پس صورت $a^2 - (b-c)^2$ می‌شود.",
+    "تفاضل دو مربع: $a^2 - (b-c)^2 = (a-b+c)(a+b-c)$.",
+    "با $a+b+c = 2p$: $a-b+c = 2(p-b)$ و $a+b-c = 2(p-c)$.",
+    "فورمول‌های cos نصف زاویه: $\\cos\\frac{A}{2} = \\sqrt{\\frac{p(p-a)}{bc}}$ و مانند آن."
+  ],
+  "formulas": [
+    {"latex": "\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}", "meaning_fa": "قضیهٔ cosine"},
+    {"latex": "\\sin\\frac{A}{2} = \\sqrt{\\frac{a^2 - (b-c)^2}{4bc}} = \\sqrt{\\frac{(a-b+c)(a+b-c)}{4bc}}", "meaning_fa": "قدم میانی ثبوت"},
+    {"latex": "\\sin\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{bc}}", "meaning_fa": "sin نصف زاویهٔ A از روی ضلع‌ها"},
+    {"latex": "\\cos\\frac{A}{2} = \\sqrt{\\frac{p(p-a)}{bc}},\\ \\cos\\frac{B}{2} = \\sqrt{\\frac{p(p-b)}{ac}},\\ \\cos\\frac{C}{2} = \\sqrt{\\frac{p(p-c)}{ab}}", "meaning_fa": "cos نصف زاویه‌ها از روی ضلع‌ها"}
+  ],
+  "terms": [
+    {"fa": "قضیهٔ cosine", "en": "law of cosines"},
+    {"fa": "نصف محیط", "en": "semi-perimeter"},
+    {"fa": "تفاضل دو مربع", "en": "difference of two squares"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت فورمول $\\sin\\frac{A}{2}$",
+      "problem_fa": "نشان دهید که $\\sin\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{bc}}$.",
+      "steps_fa": [
+        "$\\sin\\frac{A}{2} = \\sqrt{\\frac{1 - \\frac{b^2+c^2-a^2}{2bc}}{2}} = \\sqrt{\\frac{2bc - b^2 - c^2 + a^2}{4bc}}$",
+        "$= \\sqrt{\\frac{a^2 - (b^2 - 2bc + c^2)}{4bc}} = \\sqrt{\\frac{a^2 - (b-c)^2}{4bc}} = \\sqrt{\\frac{(a-b+c)(a+b-c)}{4bc}}$",
+        "$a-b+c = 2p - 2b = 2(p-b)$ و $a+b-c = 2p - 2c = 2(p-c)$",
+        "$\\sin\\frac{A}{2} = \\sqrt{\\frac{2(p-b) \\cdot 2(p-c)}{4bc}} = \\sqrt{\\frac{(p-b)(p-c)}{bc}}$"
+      ],
+      "answer": "$\\sin\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{bc}}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "به همین طریق نشان دهید که $\\sin\\frac{B}{2} = \\sqrt{\\frac{(p-a)(p-c)}{ac}}$ و $\\sin\\frac{C}{2} = \\sqrt{\\frac{(p-a)(p-b)}{ab}}$.",
+      "solution_steps_fa": [
+        "$\\cos B = \\frac{a^2 + c^2 - b^2}{2ac}$، پس $\\sin\\frac{B}{2} = \\sqrt{\\frac{2ac - a^2 - c^2 + b^2}{4ac}} = \\sqrt{\\frac{b^2 - (a-c)^2}{4ac}}$",
+        "$b^2 - (a-c)^2 = (b-a+c)(b+a-c) = 2(p-a) \\cdot 2(p-c)$",
+        "پس $\\sin\\frac{B}{2} = \\sqrt{\\frac{(p-a)(p-c)}{ac}}$.",
+        "برای C: $\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$ و $\\sin\\frac{C}{2} = \\sqrt{\\frac{c^2 - (a-b)^2}{4ab}} = \\sqrt{\\frac{(c-a+b)(c+a-b)}{4ab}}$",
+        "$c-a+b = 2(p-a)$ و $c+a-b = 2(p-b)$، پس $\\sin\\frac{C}{2} = \\sqrt{\\frac{(p-a)(p-b)}{ab}}$."
+      ],
+      "answer": "هر دو فورمول ثابت شد.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "علامه‌های مربع (□) میان فورمول‌های cos نصف زاویه اشتباه چاپی و به جای «،» اند. ثبوت فورمول cos در صفحهٔ بعد است."
+}

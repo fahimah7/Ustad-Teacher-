@@ -1,0 +1,64 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 250,
+  "printed_page": 243,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "تبدیل مجموع و تفاضل نسبت‌های مثلثاتی زوایا به شکل حاصل‌ضرب",
+  "summary_fa": "بالای صفحه حل قسمت (b) مثال ۱ است: $\\sin 3x + \\sin x$ با فورمول مجموع دو ساین به $2\\sin 2x\\cos x$ بدل می‌شود. یک فعالیت می‌خواهد فورمول‌های مجموع و تفاضل دو کوتانجانت ثابت شوند. مثال ۲ دو اتحاد را با فورمول‌های تبدیل ثابت می‌کند: کسر $\\frac{\\cos 2\\theta - \\cos 2\\beta}{\\sin 2\\theta + \\sin 2\\beta}$ به $\\tan(\\beta - \\theta)$ ساده می‌شود و $\\cos 4\\theta - \\cos 2\\theta = -2\\sin 3\\theta\\sin\\theta$ است. در نیمهٔ پایین، درس تازهٔ «تبدیل حاصل‌ضرب نسبت‌های مثلثاتی زوایا به مجموع و تفاضل» آغاز می‌شود: همان روابط را برعکس می‌خوانیم؛ مثلاً از $\\sin(A+B) + \\sin(A-B) = 2\\sin A\\cos B$ نتیجه می‌شود که $\\sin A\\cos B$ برابر نصف مجموع دو ساین است. این کار در صفحهٔ بعد برای حاصل‌ضرب‌های دیگر ادامه دارد.",
+  "key_points_fa": [
+    "$\\cot p + \\cot q = \\frac{\\sin(p+q)}{\\sin p\\sin q}$ و $\\cot p - \\cot q = \\frac{\\sin(q-p)}{\\sin p\\sin q}$",
+    "$-\\tan(\\theta - \\beta) = \\tan(\\beta - \\theta)$، چون تانجانت تابع تاق است.",
+    "تبدیل حاصل‌ضرب به مجموع، همان فورمول‌های تبدیل مجموع است که از طرف دیگر خوانده می‌شود.",
+    "$\\sin A\\cos B = \\frac{1}{2}[\\sin(A+B) + \\sin(A-B)]$"
+  ],
+  "formulas": [
+    {"latex": "\\cot p + \\cot q = \\frac{\\sin(p+q)}{\\sin p\\sin q},\\quad \\cot p - \\cot q = \\frac{\\sin(q-p)}{\\sin p\\sin q}", "meaning_fa": "مجموع و تفاضل دو کوتانجانت (فعالیت)"},
+    {"latex": "\\sin A\\cos B = \\frac{1}{2}[\\sin(A+B) + \\sin(A-B)]", "meaning_fa": "تبدیل حاصل‌ضرب ساین در کوساین به مجموع"},
+    {"latex": "2\\cos A\\sin B = \\sin(A+B) - \\sin(A-B)", "meaning_fa": "رابطه‌ای که در صفحهٔ بعد به فورمول $\\cos A\\sin B$ می‌رسد"}
+  ],
+  "terms": [
+    {"fa": "کوتانجانت", "en": "cotangent"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (b)",
+      "problem_fa": "نشان دهید $\\sin 3x + \\sin x = 2\\sin 2x\\cos x$.",
+      "steps_fa": [
+        "$\\sin 3x + \\sin x = 2\\sin\\frac{3x+x}{2}\\cos\\frac{3x-x}{2} = 2\\sin 2x\\cos x$"
+      ],
+      "answer": "$2\\sin 2x\\cos x$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "نشان دهید $\\frac{\\cos 2\\theta - \\cos 2\\beta}{\\sin 2\\theta + \\sin 2\\beta} = \\tan(\\beta - \\theta)$ و $\\cos 4\\theta - \\cos 2\\theta = -2\\sin 3\\theta\\sin\\theta$.",
+      "steps_fa": [
+        "صورت: $-2\\sin(\\theta+\\beta)\\sin(\\theta-\\beta)$؛ مخرج: $2\\sin(\\theta+\\beta)\\cos(\\theta-\\beta)$",
+        "بعد از حذف: $-\\frac{\\sin(\\theta-\\beta)}{\\cos(\\theta-\\beta)} = -\\tan(\\theta-\\beta) = \\tan(\\beta-\\theta)$",
+        "$\\cos 4\\theta - \\cos 2\\theta = -2\\sin\\frac{4\\theta+2\\theta}{2}\\sin\\frac{4\\theta-2\\theta}{2} = -2\\sin 3\\theta\\sin\\theta$"
+      ],
+      "answer": "هر دو اتحاد ثابت شد.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "نشان دهید که $\\cot p + \\cot q = \\frac{\\sin(p+q)}{\\sin p\\sin q}$ و $\\cot p - \\cot q = \\frac{\\sin(q-p)}{\\sin p\\sin q}$.",
+      "solution_steps_fa": [
+        "$\\cot p + \\cot q = \\frac{\\cos p}{\\sin p} + \\frac{\\cos q}{\\sin q} = \\frac{\\cos p\\sin q + \\sin p\\cos q}{\\sin p\\sin q} = \\frac{\\sin(p+q)}{\\sin p\\sin q}$",
+        "$\\cot p - \\cot q = \\frac{\\cos p\\sin q - \\sin p\\cos q}{\\sin p\\sin q} = \\frac{\\sin(q-p)}{\\sin p\\sin q}$"
+      ],
+      "answer": "هر دو رابطه با مخرج مشترک و فورمول ساین مجموع/تفاضل ثابت می‌شوند.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "درس «تبدیل حاصل‌ضرب نسبت‌های مثلثاتی زوایا به مجموع و تفاضل» از نیمهٔ پایین همین صفحه آغاز می‌شود، ولی بیشتر صفحه به درس قبلی تعلق دارد."
+}

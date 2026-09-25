@@ -1,0 +1,71 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 62,
+  "printed_page": 55,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق حاصل جمع و حاصل تفریق",
+  "summary_fa": "این صفحه قانون سوم و چهارم مشتق را معرفی می‌کند. در فعالیت، دو تابع مشتق‌پذیر u و v گرفته می‌شوند و پرسیده می‌شود که آیا $y = u + v$ هم مشتق‌پذیر است. در ثبوت، به u و v تزایدهای $\\Delta u$ و $\\Delta v$ داده می‌شود؛ نتیجه این است که تزاید y برابر $\\Delta u + \\Delta v$ است. با تقسیم بر $\\Delta x$ و گرفتن لیمت دیده می‌شود که مشتق مجموع، مجموع مشتق‌هاست: $y' = u' + v'$. به همین ترتیب برای تفاضل $y = u - v$ قاعدهٔ $y' = u' - v'$ بیان می‌شود و ثبوت آن کار خانگی شاگردان است. در آخر، مثال ۱ (مشتق $y = 2x + 1$) شروع می‌شود و حل آن در صفحهٔ بعد تمام می‌شود.",
+  "key_points_fa": [
+    "مشتق مجموع دو تابع برابر مجموع مشتق‌های آن‌هاست.",
+    "مشتق تفاضل دو تابع برابر تفاضل مشتق‌های آن‌هاست.",
+    "در ثبوت، تزاید مجموع مساوی مجموع تزایدهاست: $\\Delta y = \\Delta u + \\Delta v$.",
+    "لیمت مجموع برابر مجموع لیمت‌هاست؛ این خاصیت اساس ثبوت است."
+  ],
+  "formulas": [
+    {"latex": "y = u + v \\Rightarrow y' = u' + v'", "meaning_fa": "قانون مشتق حاصل جمع"},
+    {"latex": "y = u - v \\Rightarrow y' = u' - v'", "meaning_fa": "قانون مشتق حاصل تفریق"},
+    {"latex": "\\lim_{\\Delta x \\to 0} \\frac{\\Delta y}{\\Delta x} = \\lim_{\\Delta x \\to 0} \\frac{\\Delta u}{\\Delta x} + \\lim_{\\Delta x \\to 0} \\frac{\\Delta v}{\\Delta x}", "meaning_fa": "گام اصلی ثبوت قانون حاصل جمع"}
+  ],
+  "terms": [
+    {"fa": "مشتق‌پذیر", "en": "differentiable"},
+    {"fa": "مشتق حاصل جمع", "en": "sum rule"},
+    {"fa": "مشتق حاصل تفریق", "en": "difference rule"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت قانون حاصل جمع",
+      "problem_fa": "ثابت کنید اگر $y = u + v$ باشد، $y' = u' + v'$ است.",
+      "steps_fa": [
+        "$y + \\Delta y = (u + \\Delta u) + (v + \\Delta v)$",
+        "$\\Delta y = \\Delta u + \\Delta v$",
+        "$\\frac{\\Delta y}{\\Delta x} = \\frac{\\Delta u}{\\Delta x} + \\frac{\\Delta v}{\\Delta x}$",
+        "با گرفتن لیمت وقتی $\\Delta x \\to 0$: $y' = u' + v'$"
+      ],
+      "answer": "$y' = u' + v'$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مشتق $y = 2x + 1$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = 2x$ و $v = 1$",
+        "$u' = 2$ و $v' = 0$ (مشتق عدد ثابت صفر است)",
+        "$y' = u' + v' = 2 + 0 = 2$"
+      ],
+      "answer": "$y' = 2$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "ثبوت قانون حاصل تفریق (کار خانگی)",
+      "kind": "exercise",
+      "problem_fa": "ثابت کنید اگر $y = u - v$ باشد، $y' = u' - v'$ است.",
+      "solution_steps_fa": [
+        "$y + \\Delta y = (u + \\Delta u) - (v + \\Delta v)$",
+        "از آن $y = u - v$ را کم می‌کنیم: $\\Delta y = \\Delta u - \\Delta v$",
+        "بر $\\Delta x$ تقسیم می‌کنیم: $\\frac{\\Delta y}{\\Delta x} = \\frac{\\Delta u}{\\Delta x} - \\frac{\\Delta v}{\\Delta x}$",
+        "با لیمت وقتی $\\Delta x \\to 0$: $y' = u' - v'$"
+      ],
+      "answer": "$y' = u' - v'$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "حل مثال ۱ در صفحهٔ بعد (صفحهٔ ۵۶) تمام می‌شود؛ گام‌های آن اینجا کامل شده است."
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 213,
+  "printed_page": 206,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "گراف تابع تانجانت",
+  "summary_fa": "صفحه جواب مثال قبل را می‌دهد: همهٔ جواب‌های $\\tan t = -1$ به شکل $t = -\\frac{\\pi}{4} + k\\pi$ هستند. بعد خاصیت‌های tan جمع‌بندی می‌شوند: tan در هر شاخه متزاید است، برای همهٔ اعداد حقیقی به جز مضرب‌های تاق $\\frac{\\pi}{2}$ تعریف شده، پریود آن $\\pi$ است چون $\\tan(t \\pm \\pi) = \\tan t$، و چون $\\tan(-t) = -\\tan t$ یک تابع تاق است و در مضرب‌های تاق $\\frac{\\pi}{2}$ مجانب عمودی دارد. یک جدول خلاصه، مشخصات سه تابع sin، cos و tan (ناحیهٔ تعریف، ناحیهٔ قیمت‌ها، پریود، جفت یا تاق) را کنار هم می‌گذارد. در پایان، تمرین با چهار سؤال دربارهٔ tan آمده است.",
+  "key_points_fa": [
+    "sin: ناحیهٔ تعریف $\\mathbb{R}$، ناحیهٔ قیمت‌ها $[-1,1]$، پریود $2\\pi$، تاق.",
+    "cos: ناحیهٔ تعریف $\\mathbb{R}$، ناحیهٔ قیمت‌ها $[-1,1]$، پریود $2\\pi$، جفت.",
+    "tan: ناحیهٔ تعریف $\\mathbb{R}$ بدون مضرب‌های تاق $\\frac{\\pi}{2}$، ناحیهٔ قیمت‌ها $\\mathbb{R}$، پریود $\\pi$، تاق.",
+    "$\\tan(-t) = -\\tan t$ پس گراف tan نظر به مبدأ متناظر است."
+  ],
+  "formulas": [
+    {"latex": "D_{\\sin} = D_{\\cos} = \\mathbb{R},\\quad R_{\\sin} = R_{\\cos} = [-1,1]", "meaning_fa": "ناحیهٔ تعریف و قیمت‌های sin و cos"},
+    {"latex": "D_{\\tan} = \\{x \\in \\mathbb{R} : \\cos x \\neq 0\\}", "meaning_fa": "ناحیهٔ تعریف tan"},
+    {"latex": "\\tan(t \\pm \\pi) = \\tan t,\\quad \\tan(-t) = -\\tan t", "meaning_fa": "پریود $\\pi$ و تاق بودن تابع tan"}
+  ],
+  "terms": [
+    {"fa": "تابع تاق", "en": "odd function"},
+    {"fa": "تابع جفت", "en": "even function"},
+    {"fa": "ناحیهٔ تعریف", "en": "domain"},
+    {"fa": "ناحیهٔ قیمت‌ها", "en": "range"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.17, 0.3, 0.89, 0.52], "kind": "table", "description_fa": "جدول نارنجی «خلص مشخصات توابع sine، cosine و tangent» با ستون‌های تابع، سمبول، Domain، Range، پریود و جفت/تاق: sine با $f(t) = \\sin t$، ناحیهٔ تعریف تمام اعداد حقیقی، قیمت‌ها از $-1$ تا ۱، پریود $2\\pi$، تاق؛ cosine با $f(t) = \\cos t$، همان ناحیه‌ها، پریود $2\\pi$، جفت؛ tangent با $f(t) = \\tan t$، تمام اعداد حقیقی بدون مضرب‌های تاق $\\frac{\\pi}{2}$، قیمت‌ها تمام اعداد حقیقی، پریود $\\pi$، تاق."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (پایان)",
+      "problem_fa": "همهٔ قیمت‌های t که $\\tan t = -1$ باشد.",
+      "steps_fa": [
+        "در $(-\\frac{\\pi}{2},\\frac{\\pi}{2})$ تنها جواب $-\\frac{\\pi}{4}$ است.",
+        "پریود tan برابر $\\pi$ است، پس $k\\pi$ جمع می‌کنیم."
+      ],
+      "answer": "$t = -\\frac{\\pi}{4} + k\\pi$ ($k$ عدد تام)",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "برای کدام قیمت‌های t در انتروال $(-\\frac{\\pi}{2},\\frac{\\pi}{2})$ قیمت $\\tan t$ از صفر کمتر است؟",
+      "solution_steps_fa": [
+        "$\\tan t = \\frac{\\sin t}{\\cos t}$ و در این انتروال همیشه $\\cos t > 0$ است.",
+        "پس علامت tan همان علامت sin است و $\\sin t < 0$ وقتی $-\\frac{\\pi}{2} < t < 0$.",
+        "روی گراف هم شاخهٔ وسطی در طرف چپ مبدأ پایین محور t است."
+      ],
+      "answer": "$-\\frac{\\pi}{2} < t < 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "گراف تابع $y = 3\\tan\\theta$ را رسم کنید.",
+      "solution_steps_fa": [
+        "ضریب ۳ پریود را تغییر نمی‌دهد؛ پریود $\\pi$ و مجانب‌ها $\\theta = \\frac{\\pi}{2} + k\\pi$ هستند.",
+        "هر قیمت tan در ۳ ضرب می‌شود: $(0,0)$، $(\\frac{\\pi}{4},3)$، $(-\\frac{\\pi}{4},-3)$.",
+        "شاخهٔ وسطی را بین $-\\frac{\\pi}{2}$ و $\\frac{\\pi}{2}$ رسم می‌کنیم و در هر $\\pi$ تکرار می‌کنیم."
+      ],
+      "answer": "مثل گراف tan ولی در جهت عمودی سه برابر کشیده شده؛ از $(0,0)$ و $(\\frac{\\pi}{4},3)$ می‌گذرد، ناحیهٔ قیمت‌ها تمام اعداد حقیقی.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "پریود تابع $\\tan\\theta$ کدام است؟ a) $2\\pi$ b) $\\pi$ c) $3\\pi$ d) هر سه درست نیستند",
+      "solution_steps_fa": [
+        "$\\tan(\\theta + \\pi) = \\tan\\theta$ و عدد مثبت کوچک‌تری با این خاصیت نیست."
+      ],
+      "answer": "b) $\\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "اگر θ از $0^\\circ$ تا $90^\\circ$ تغییر کند، $\\tan\\theta$ چطور تغییر می‌کند؟ a) از $-1$ تا $-\\infty$ b) از صفر تا $+\\infty$ c) از $-\\infty$ تا $+\\infty$",
+      "solution_steps_fa": [
+        "$\\tan 0^\\circ = 0$.",
+        "وقتی θ به $90^\\circ$ نزدیک می‌شود، $\\cos\\theta$ به صفر و tan به $+\\infty$ می‌رود."
+      ],
+      "answer": "b) از صفر تا $+\\infty$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 18,
+  "printed_page": 11,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "خواص لیمت (Properties of limit)",
+  "summary_fa": "این صفحه ثبوت سه خاصیت لیمت را با کمک توابع بی‌نهایت کوچک ادامه می‌دهد. ایدهٔ همهٔ ثبوت‌ها یکی است: هر تابع را به شکل «لیمت آن + یک مقدار بی‌نهایت کوچک» می‌نویسیم، یعنی $f(x_1) = b_1 + \\varepsilon_1$ و $f(x_2) = b_2 + \\varepsilon_2$. برای مجموع و تفاضل، $\\varepsilon_1 \\pm \\varepsilon_2$ بی‌نهایت کوچک است، پس لیمت $b_1 \\pm b_2$ می‌شود. برای حاصل ضرب، بعد از ضرب کردن، جمله‌های اضافی $b_1\\varepsilon_2 + b_2\\varepsilon_1 + \\varepsilon_1\\varepsilon_2$ به صفر نزدیک می‌شوند و لیمت $b_1 b_2$ باقی می‌ماند. برای خارج قسمت (به شرط $b_2 \\neq 0$)، از $\\frac{f(x)}{g(x)}$ مقدار $\\frac{b_1}{b_2}$ را تفریق می‌کنیم و نشان می‌دهیم که تفاوت، کسری با صورت بی‌نهایت کوچک است؛ نتیجهٔ آن در صفحهٔ بعد آمده است.",
+  "key_points_fa": [
+    "روش ثبوت: $f = b + \\varepsilon$ که $\\varepsilon \\to 0$.",
+    "مجموع/تفاضل: $(b_1 + \\varepsilon_1) \\pm (b_2 + \\varepsilon_2) = (b_1 \\pm b_2) + (\\varepsilon_1 \\pm \\varepsilon_2)$",
+    "حاصل ضرب: $(b_1 + \\varepsilon_1)(b_2 + \\varepsilon_2) = b_1 b_2 + (b_1\\varepsilon_2 + b_2\\varepsilon_1 + \\varepsilon_1\\varepsilon_2)$ و قوس دوم به صفر می‌رود.",
+    "خارج قسمت: تفاوت $\\frac{f}{g} - \\frac{b_1}{b_2} = \\frac{b_2\\varepsilon_1 - b_1\\varepsilon_2}{b_2(b_2 + \\varepsilon_2)}$ به صفر نزدیک می‌شود، چون صورت به صفر و مخرج به $b_2^2 \\neq 0$ نزدیک می‌شود."
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to a} [f(x_1) \\pm f(x_2)] = b_1 \\pm b_2", "meaning_fa": "لیمت مجموع و تفاضل"},
+    {"latex": "\\lim_{x \\to a} [f(x_1) \\cdot f(x_2)] = b_1 \\cdot b_2", "meaning_fa": "لیمت حاصل ضرب دو یا چند تابع"},
+    {"latex": "\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{b_1}{b_2},\\quad b_2 \\neq 0", "meaning_fa": "لیمت خارج قسمت دو تابع"},
+    {"latex": "\\frac{f(x)}{g(x)} - \\frac{b_1}{b_2} = \\frac{b_2 \\varepsilon_1 - b_1 \\varepsilon_2}{b_2 (b_2 + \\varepsilon_2)}", "meaning_fa": "گام اصلی در ثبوت خاصیت تقسیم"}
+  ],
+  "terms": [
+    {"fa": "ثبوت", "en": "proof"},
+    {"fa": "تابع بی‌نهایت کوچک", "en": "infinitesimal function"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در یکی از سطرهای ثبوت تقسیم، مخرج در کتاب به شکل $b_2(b_2 + \\varepsilon_1)$ چاپ شده که غلط چاپی است؛ درست آن $b_2(b_2 + \\varepsilon_2)$ است."
+}

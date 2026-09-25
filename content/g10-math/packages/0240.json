@@ -1,0 +1,57 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 240,
+  "printed_page": 233,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی $2\\alpha$ از جنس $\\alpha$",
+  "summary_fa": "این صفحه فورمول‌های نصف زاویه را کامل می‌کند. از $1 - 2\\sin^2\\theta = \\cos 2\\theta$ قیمت $\\sin^2\\theta$ و بعد $\\sin\\theta$ از جنس $\\cos 2\\theta$ به دست می‌آید؛ با تقسیم فورمول sin بر فورمول cos، فورمول tan هم ساخته می‌شود. هر کدام شکل «نصف زاویه» هم دارد که در آن $\\theta$ جای $2\\theta$ و $\\frac{\\theta}{2}$ جای $\\theta$ را می‌گیرد. مثال ۱ این فورمول‌ها را به کار می‌برد و نسبت‌های $30^\\circ$ را از $\\cos 60^\\circ = \\frac{1}{2}$ حساب می‌کند. مثال ۲ زاویه‌ای در ربع سوم با $\\sin\\theta = -\\frac{2}{3}$ دارد و $\\cos\\frac{\\theta}{2}$ را می‌خواهد؛ در این صفحه فقط $\\cos\\theta = -\\frac{\\sqrt{5}}{3}$ پیدا می‌شود و بقیهٔ حل در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "$\\sin^2\\theta = \\frac{1 - \\cos 2\\theta}{2}$",
+    "$\\sin\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1 - \\cos\\theta}{2}}$ و $\\cos\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1 + \\cos\\theta}{2}}$",
+    "$\\tan\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1 - \\cos\\theta}{1 + \\cos\\theta}}$",
+    "علامهٔ ± را از ربعی که $\\frac{\\theta}{2}$ (نه $\\theta$) در آن است تعیین کنید.",
+    "اگر $180^\\circ < \\theta < 270^\\circ$، آنگاه $90^\\circ < \\frac{\\theta}{2} < 135^\\circ$ و $\\cos\\frac{\\theta}{2}$ منفی است."
+  ],
+  "formulas": [
+    {"latex": "\\sin^2\\theta = \\frac{1 - \\cos 2\\theta}{2}", "meaning_fa": "از $1 - 2\\sin^2\\theta = \\cos 2\\theta$"},
+    {"latex": "\\sin\\theta = \\pm\\sqrt{\\frac{1 - \\cos 2\\theta}{2}},\\quad \\sin\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1 - \\cos\\theta}{2}}", "meaning_fa": "sin از جنس cos دوچند؛ sin نصف زاویه"},
+    {"latex": "\\tan\\theta = \\pm\\sqrt{\\frac{1 - \\cos 2\\theta}{1 + \\cos 2\\theta}},\\quad \\tan\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1 - \\cos\\theta}{1 + \\cos\\theta}}", "meaning_fa": "tan از جنس cos دوچند؛ tan نصف زاویه"}
+  ],
+  "terms": [
+    {"fa": "نصف زاویه", "en": "half angle"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "نسبت‌های مثلثاتی $30^\\circ$ را از جنس $60^\\circ$ دریابید.",
+      "steps_fa": [
+        "$\\sin 30^\\circ = \\sqrt{\\frac{1 - \\cos 60^\\circ}{2}} = \\sqrt{\\frac{1 - \\frac{1}{2}}{2}} = \\sqrt{\\frac{1}{4}} = \\frac{1}{2}$",
+        "$\\cos 30^\\circ = \\sqrt{\\frac{1 + \\cos 60^\\circ}{2}} = \\sqrt{\\frac{3/2}{2}} = \\sqrt{\\frac{3}{4}} = \\frac{\\sqrt{3}}{2}$",
+        "$\\tan 30^\\circ = \\sqrt{\\frac{1 - \\cos 60^\\circ}{1 + \\cos 60^\\circ}} = \\sqrt{\\frac{1/2}{3/2}} = \\frac{1}{\\sqrt{3}}$",
+        "علامه‌ها مثبت‌اند، چون $30^\\circ$ در ربع اول است."
+      ],
+      "answer": "$\\sin 30^\\circ = \\frac{1}{2}$، $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$، $\\tan 30^\\circ = \\frac{1}{\\sqrt{3}}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "اگر $180^\\circ < \\theta < 270^\\circ$ و $\\sin\\theta = -\\frac{2}{3}$ باشد، $\\cos\\frac{\\theta}{2}$ را دریابید.",
+      "steps_fa": [
+        "$y = -2$، $r = 3$: $x^2 + (-2)^2 = 3^2 \\Rightarrow x = \\pm\\sqrt{5}$",
+        "در ربع سوم x منفی است: $x = -\\sqrt{5}$، پس $\\cos\\theta = -\\frac{\\sqrt{5}}{3}$",
+        "(ادامه در صفحهٔ بعد) $90^\\circ < \\frac{\\theta}{2} < 135^\\circ$، پس $\\cos\\frac{\\theta}{2}$ منفی است.",
+        "$\\cos\\frac{\\theta}{2} = -\\sqrt{\\frac{1 + \\cos\\theta}{2}} = -\\sqrt{\\frac{1 - \\frac{\\sqrt{5}}{3}}{2}} = -\\sqrt{\\frac{3 - \\sqrt{5}}{6}} \\approx -0.357$"
+      ],
+      "answer": "$\\cos\\frac{\\theta}{2} = -\\sqrt{\\frac{3 - \\sqrt{5}}{6}} = -\\sqrt{\\frac{1}{2} - \\frac{\\sqrt{5}}{6}} \\approx -0.357$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "در مثال ۲ کتاب نوشته «x در ربع دوم منفی است»؛ درست آن «ربع سوم» است (چون $180^\\circ < \\theta < 270^\\circ$). همچنین در صفحهٔ بعد کتاب به جای $\\cos\\theta = -\\frac{\\sqrt{5}}{3}$ قیمت مثبت $\\frac{\\sqrt{5}}{3}$ را گذاشته و به $-\\sqrt{\\frac{1}{2} + \\frac{\\sqrt{5}}{6}}$ رسیده است؛ جواب درست $-\\sqrt{\\frac{1}{2} - \\frac{\\sqrt{5}}{6}} \\approx -0.357$ است (با محاسبهٔ عددی بررسی شد). اگر شاگرد جواب کتاب را دید، این اشتباه را برایش توضیح دهید."
+}

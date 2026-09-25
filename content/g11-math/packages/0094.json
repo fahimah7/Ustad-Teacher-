@@ -1,0 +1,50 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 94,
+  "printed_page": 85,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم معادلات دو مجهولهٔ مثلثاتی",
+  "summary_fa": "بالای این صفحه حل مثال ۳ (نوع سوم) تمام می‌شود. چون $x + y = \\frac{\\pi}{2}$ است، نصف آن $\\frac{\\pi}{4}$ می‌شود و $\\cot\\frac{\\pi}{4} = 1$؛ پس فقط $\\tan\\frac{x-y}{2} = \\frac{\\sqrt{3}-1}{\\sqrt{3}+1}$ باقی می‌ماند. با فورمول تفریق تانجنت دیده می‌شود که این کسر همان $\\tan 15^\\circ$ است، پس $x - y = 30^\\circ = \\frac{\\pi}{6}$. از جمع دو معادلهٔ خطی $x = \\frac{\\pi}{3}$ و با جاگذاری $y = \\frac{\\pi}{6}$ دریافت می‌شود. بعد نوع چهارم معرفی می‌شود: یک معادله $x \\pm y = \\alpha$ و معادلهٔ دیگر مجموع یا تفاضل تانجنت‌ها یا کوتانجنت‌ها ($\\tan x \\pm \\tan y = a$ یا $\\cot x \\pm \\cot y = a$) است؛ این نوع چهار سیستم دارد. شرط حل این نوع $a^2 - 4 + 4a\\cot\\alpha \\ge 0$ داده شده است. مثال این نوع در صفحه بعد می‌آید.",
+  "key_points_fa": [
+    "وقتی $x + y$ معلوم باشد، $\\cot\\frac{x+y}{2}$ یک عدد معلوم است و معادله فقط به $x - y$ وابسته می‌ماند.",
+    "$\\frac{\\sqrt{3}-1}{\\sqrt{3}+1} = \\tan(45^\\circ - 30^\\circ) = \\tan 15^\\circ$ (که مساوی $2 - \\sqrt{3}$ هم است).",
+    "در آخر همیشه یک سیستم خطی ساده از $x + y$ و $x - y$ حل می‌شود: جمع دو معادله $2x$ و تفریق آن‌ها $2y$ را می‌دهد.",
+    "نوع چهارم: $x \\pm y = \\alpha$ همراه با $\\tan x \\pm \\tan y = a$ یا $\\cot x \\pm \\cot y = a$ (چهار سیستم).",
+    "شرط حل نوع چهارم: $a^2 - 4 + 4a\\cot\\alpha \\ge 0$؛ این شرط از آن می‌آید که $\\tan x$ و $\\tan y$ جذرهای یک معادلهٔ درجه دوم‌اند و دیسکریمینانت آن نباید منفی باشد."
+  ],
+  "formulas": [
+    {"latex": "\\tan(A - B) = \\frac{\\tan A - \\tan B}{1 + \\tan A\\tan B}", "meaning_fa": "فورمول تفریق تانجنت؛ با $A = 45^\\circ$ و $B = 30^\\circ$ قیمت $\\tan 15^\\circ$ دریافت می‌شود"},
+    {"latex": "\\tan 15^\\circ = \\frac{\\sqrt{3}-1}{\\sqrt{3}+1}", "meaning_fa": "قیمت تانجنت ۱۵ درجه"},
+    {"latex": "\\begin{cases} x \\pm y = \\alpha \\\\ \\tan x \\pm \\tan y = a \\end{cases} \\quad \\begin{cases} x \\pm y = \\alpha \\\\ \\cot x \\pm \\cot y = a \\end{cases}", "meaning_fa": "شکل سیستم‌های نوع چهارم ($\\alpha$ زاویهٔ معلوم، $a$ عدد معلوم، $x$ و $y$ مجهول)"},
+    {"latex": "a^2 - 4 + 4a\\cot\\alpha \\ge 0", "meaning_fa": "شرط حل سیستم نوع چهارم"}
+  ],
+  "terms": [
+    {"fa": "تانجنت", "en": "tangent"},
+    {"fa": "کوتانجنت", "en": "cotangent"},
+    {"fa": "شرط حل", "en": "condition for solvability"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳ (ادامه)",
+      "problem_fa": "ادامهٔ حل سیستم $x + y = \\frac{\\pi}{2}$ و $\\frac{\\sin x}{\\sin y} = \\sqrt{3}$ از رابطهٔ $\\cot\\frac{x+y}{2}\\tan\\frac{x-y}{2} = \\frac{\\sqrt{3}-1}{\\sqrt{3}+1}$",
+      "steps_fa": [
+        "$\\frac{x+y}{2} = \\frac{\\pi}{4}$ و $\\cot\\frac{\\pi}{4} = 1$، پس $\\tan\\frac{x-y}{2} = \\frac{\\sqrt{3}-1}{\\sqrt{3}+1}$",
+        "با فورمول تفریق: $\\frac{\\sqrt{3}-1}{\\sqrt{3}+1} = \\tan 15^\\circ$، پس $\\frac{x-y}{2} = 15^\\circ$",
+        "$x - y = 30^\\circ = \\frac{\\pi}{6}$",
+        "سیستم خطی: $x + y = \\frac{\\pi}{2}$ و $x - y = \\frac{\\pi}{6}$؛ با جمع: $2x = \\frac{\\pi}{2} + \\frac{\\pi}{6} = \\frac{4\\pi}{6}$، پس $x = \\frac{\\pi}{3}$",
+        "با جاگذاری: $\\frac{\\pi}{3} - y = \\frac{\\pi}{6} \\Rightarrow y = \\frac{2\\pi - \\pi}{6} = \\frac{\\pi}{6}$",
+        "امتحان: $\\frac{\\sin\\frac{\\pi}{3}}{\\sin\\frac{\\pi}{6}} = \\frac{\\sqrt{3}/2}{1/2} = \\sqrt{3}$ درست است."
+      ],
+      "answer": "$x = \\frac{\\pi}{3}$، $y = \\frac{\\pi}{6}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب شرط نوع چهارم را بدون ثبوت می‌دهد. دلیل آن (برای $x + y = \\alpha$ و $\\tan x + \\tan y = a$): از فورمول $\\tan(x+y)$ به دست می‌آید $\\tan x\\tan y = 1 - a\\cot\\alpha$، پس $\\tan x$ و $\\tan y$ جذرهای $t^2 - a t + (1 - a\\cot\\alpha) = 0$ اند و دیسکریمینانت آن $a^2 - 4 + 4a\\cot\\alpha$ است. امتحان مثال ۳ از ما است."
+}

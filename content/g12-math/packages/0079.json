@@ -1,0 +1,93 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 79,
+  "printed_page": 72,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق تابع مثلثاتی $y = \\tan x$",
+  "summary_fa": "این صفحه مثال ۲ را حل می‌کند: مشتق حاصل ضرب $\\sec x \\cdot \\cot x$. هر عامل جداگانه مشتق گرفته می‌شود ($\\sec x$ به $\\sec x\\tan x$ و $\\cot x$ به $-\\csc^2 x$) و در قانون حاصل ضرب گذاشته می‌شود. چون $\\tan x \\cdot \\cot x = 1$، جملهٔ اول به $\\sec x$ ساده می‌شود. بعد یک تمرین چهارقسمتی می‌آید که مشتق توابع مثلثاتی را با قانون حاصل ضرب، حاصل تقسیم و قاعدهٔ زنجیری ترکیب می‌کند. در بعضی قسمت‌ها بهتر است اول تابع را ساده کنیم؛ مثلاً $\\tan x\\cot x = 1$ و $\\frac{1}{\\tan x} = \\cot x$.",
+  "key_points_fa": [
+    "$\\tan x \\cdot \\cot x = 1$؛ پیش از مشتق گرفتن ساده کردن را امتحان کنید.",
+    "$(\\sec x)' = \\sec x\\tan x$ و $(\\cot x)' = -\\csc^2 x$",
+    "$\\sec x \\cdot \\cot x = \\csc x$؛ پس جواب مثال ۲ همان $-\\csc x\\cot x$ است.",
+    "برای $\\tan^2 x$ قاعدهٔ زنجیری لازم است: $2\\tan x\\sec^2 x$."
+  ],
+  "formulas": [
+    {"latex": "(uv)' = u'v + uv'", "meaning_fa": "قانون حاصل ضرب"},
+    {"latex": "(\\sec x)' = \\sec x\\tan x", "meaning_fa": "مشتق سکانت"},
+    {"latex": "(\\cot x)' = -\\csc^2 x", "meaning_fa": "مشتق کوتانجانت"},
+    {"latex": "(\\tan x)' = \\sec^2 x", "meaning_fa": "مشتق تانجانت"}
+  ],
+  "terms": [
+    {"fa": "کوتانجانت", "en": "cotangent"},
+    {"fa": "سکانت", "en": "secant"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق $y = \\sec x \\cdot \\cot x$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = \\sec x \\Rightarrow u' = \\sec x\\tan x$ و $v = \\cot x \\Rightarrow v' = -\\csc^2 x$",
+        "$y' = \\sec x\\tan x \\cdot \\cot x + \\sec x(-\\csc^2 x)$",
+        "چون $\\tan x\\cot x = 1$: $y' = \\sec x - \\csc^2 x\\sec x$",
+        "(اضافه) $\\sec x(1 - \\csc^2 x) = -\\sec x\\cot^2 x = -\\csc x\\cot x$"
+      ],
+      "answer": "$y' = \\sec x - \\csc^2 x\\sec x = -\\csc x\\cot x$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین (a)",
+      "kind": "exercise",
+      "problem_fa": "$y = \\tan x\\cot x$",
+      "solution_steps_fa": [
+        "با قانون حاصل ضرب: $y' = \\sec^2 x\\cot x + \\tan x(-\\csc^2 x)$",
+        "$= \\frac{1}{\\cos^2 x}\\cdot\\frac{\\cos x}{\\sin x} - \\frac{\\sin x}{\\cos x}\\cdot\\frac{1}{\\sin^2 x} = \\frac{1}{\\sin x\\cos x} - \\frac{1}{\\sin x\\cos x} = 0$",
+        "راه کوتاه: $\\tan x\\cot x = 1$ یک عدد ثابت است، پس مشتق آن صفر است."
+      ],
+      "answer": "$y' = 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (b)",
+      "kind": "exercise",
+      "problem_fa": "$y = (x^2 + x - 1)\\tan^2 x$",
+      "solution_steps_fa": [
+        "$u = x^2 + x - 1,\\ u' = 2x + 1$",
+        "$v = \\tan^2 x,\\ v' = 2\\tan x\\sec^2 x$",
+        "$y' = (2x + 1)\\tan^2 x + (x^2 + x - 1) \\cdot 2\\tan x\\sec^2 x$"
+      ],
+      "answer": "$y' = (2x + 1)\\tan^2 x + 2(x^2 + x - 1)\\tan x\\sec^2 x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (c)",
+      "kind": "exercise",
+      "problem_fa": "$y = \\frac{1}{\\tan x}$",
+      "solution_steps_fa": [
+        "با قانون حاصل تقسیم: $y' = \\frac{0 - \\sec^2 x}{\\tan^2 x} = -\\frac{1}{\\cos^2 x}\\cdot\\frac{\\cos^2 x}{\\sin^2 x}$",
+        "$y' = -\\frac{1}{\\sin^2 x}$ (همان مشتق $\\cot x$)"
+      ],
+      "answer": "$y' = -\\csc^2 x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (d)",
+      "kind": "exercise",
+      "problem_fa": "$y = \\tan x\\sec x - \\cot x$",
+      "solution_steps_fa": [
+        "$(\\tan x\\sec x)' = \\sec^2 x \\cdot \\sec x + \\tan x \\cdot \\sec x\\tan x = \\sec^3 x + \\sec x\\tan^2 x$",
+        "$(\\cot x)' = -\\csc^2 x$، پس $-(\\cot x)' = +\\csc^2 x$"
+      ],
+      "answer": "$y' = \\sec^3 x + \\sec x\\tan^2 x + \\csc^2 x$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "گام آخر مثال ۲ (ساده کردن به $-\\csc x\\cot x$) در کتاب نیست و برای امتحان جواب اضافه شده است."
+}

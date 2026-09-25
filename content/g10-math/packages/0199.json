@@ -1,0 +1,144 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 199,
+  "printed_page": 192,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "رابطه بین نسبت‌های مثلثاتی زاویه‌هایی که مجموعه یا فرق شان $360^\\circ$ یا $2\\pi$ رادیان باشد",
+  "summary_fa": "این صفحه تمرین درس زوایای کوترمینل و زاویه‌های $2\\pi \\pm \\theta$ است و ده سوال دارد. هفت سوال اول نسبت‌های زاویه‌های بزرگ یا منفی را به درجه و رادیان می‌خواهند و سه سوال آخر چهارگزینه‌ای‌اند. روش همه یکی است: (۱) مضرب‌های $360^\\circ$ یا $2\\pi$ را کم یا اضافه کنید تا زاویه‌ای بین $0^\\circ$ و $360^\\circ$ بماند؛ (۲) اگر این زاویه حاده نیست، آن را به شکل $180^\\circ \\pm \\alpha$ یا $360^\\circ - \\alpha$ بنویسید؛ (۳) قیمت نسبت‌های $\\alpha$ را بگذارید و علامه را از ربع تعیین کنید. برای زاویهٔ دقیقه‌دار $1095^\\circ 20'$ باقی‌مانده $15^\\circ 20'$ است که قیمت‌هایش از جدول مثلثاتی یا ماشین حساب گرفته می‌شود.",
+  "key_points_fa": [
+    "برای رادیان: کسر را به شکل $2k\\pi + $ یک زاویهٔ کوچک بنویسید، مثلاً $\\frac{41\\pi}{6} = 6\\pi + \\frac{5\\pi}{6}$.",
+    "$\\cos(-\\theta) = \\cos\\theta$ و $\\sin(-\\theta) = -\\sin\\theta$ را برای زاویه‌های منفی به کار ببرید.",
+    "مضرب تاق $\\pi$ با $\\pi$ کوترمینل است: $\\cos(-3\\pi) = \\cos(-15\\pi) = \\cos\\pi = -1$.",
+    "$780^\\circ$، $-300^\\circ$ و $420^\\circ$ هر سه با $60^\\circ$ کوترمینل‌اند."
+  ],
+  "formulas": [
+    {"latex": "\\theta = k \\cdot 360^\\circ + \\alpha \\Rightarrow \\text{نسبت‌های } \\theta = \\text{نسبت‌های } \\alpha", "meaning_fa": "کم کردن دورهای کامل"},
+    {"latex": "1^\\circ = 60'", "meaning_fa": "هر درجه ۶۰ دقیقه است"}
+  ],
+  "terms": [
+    {"fa": "زوایای کوترمینل", "en": "coterminal angles"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویه‌های $480^\\circ$ و $390^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$480^\\circ = 360^\\circ + 120^\\circ$ و $120^\\circ = 180^\\circ - 60^\\circ$: $\\sin = \\frac{\\sqrt{3}}{2}$، $\\cos = -\\frac{1}{2}$، $\\tan = -\\sqrt{3}$، $\\cot = -\\frac{\\sqrt{3}}{3}$، $\\sec = -2$، $\\csc = \\frac{2\\sqrt{3}}{3}$",
+        "$390^\\circ = 360^\\circ + 30^\\circ$: $\\sin = \\frac{1}{2}$، $\\cos = \\frac{\\sqrt{3}}{2}$، $\\tan = \\frac{\\sqrt{3}}{3}$، $\\cot = \\sqrt{3}$، $\\sec = \\frac{2\\sqrt{3}}{3}$، $\\csc = 2$"
+      ],
+      "answer": "$480^\\circ$ همان نسبت‌های $120^\\circ$ و $390^\\circ$ همان نسبت‌های $30^\\circ$ را دارد (قیمت‌ها در مراحل).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویه‌های $600^\\circ$ و $300^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$600^\\circ = 360^\\circ + 240^\\circ$ و $240^\\circ = 180^\\circ + 60^\\circ$: $\\sin = -\\frac{\\sqrt{3}}{2}$، $\\cos = -\\frac{1}{2}$، $\\tan = \\sqrt{3}$، $\\cot = \\frac{\\sqrt{3}}{3}$، $\\sec = -2$، $\\csc = -\\frac{2\\sqrt{3}}{3}$",
+        "$300^\\circ = 360^\\circ - 60^\\circ$: $\\sin = -\\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = -\\sqrt{3}$، $\\cot = -\\frac{\\sqrt{3}}{3}$، $\\sec = 2$، $\\csc = -\\frac{2\\sqrt{3}}{3}$"
+      ],
+      "answer": "$600^\\circ$ مانند $240^\\circ$ (ربع سوم) و $300^\\circ$ در ربع چهارم (قیمت‌ها در مراحل).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویه‌های $1830^\\circ$ و $1095^\\circ 20'$ را دریابید.",
+      "solution_steps_fa": [
+        "$1830^\\circ = 5 \\cdot 360^\\circ + 30^\\circ$: $\\sin = \\frac{1}{2}$، $\\cos = \\frac{\\sqrt{3}}{2}$، $\\tan = \\frac{\\sqrt{3}}{3}$، $\\cot = \\sqrt{3}$، $\\sec = \\frac{2\\sqrt{3}}{3}$، $\\csc = 2$",
+        "$1095^\\circ 20' = 3 \\cdot 360^\\circ + 15^\\circ 20'$؛ پس نسبت‌های آن همان نسبت‌های $15^\\circ 20'$ است.",
+        "از جدول (تقریبی): $\\sin 15^\\circ 20' \\approx 0.2644$، $\\cos \\approx 0.9644$، $\\tan \\approx 0.2742$، $\\cot \\approx 3.647$، $\\sec \\approx 1.037$، $\\csc \\approx 3.782$"
+      ],
+      "answer": "$1830^\\circ$ مانند $30^\\circ$؛ $1095^\\circ 20'$ مانند $15^\\circ 20'$ ($\\sin \\approx 0.2644$، $\\cos \\approx 0.9644$، $\\tan \\approx 0.2742$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $\\frac{25\\pi}{6}$ رادیان را دریابید.",
+      "solution_steps_fa": [
+        "$\\frac{25\\pi}{6} = 4\\pi + \\frac{\\pi}{6}$ (دو دور کامل)",
+        "$\\sin = \\frac{1}{2}$، $\\cos = \\frac{\\sqrt{3}}{2}$، $\\tan = \\frac{\\sqrt{3}}{3}$، $\\cot = \\sqrt{3}$، $\\sec = \\frac{2\\sqrt{3}}{3}$، $\\csc = 2$"
+      ],
+      "answer": "همان نسبت‌های $\\frac{\\pi}{6}$: $\\sin = \\frac{1}{2}$، $\\cos = \\frac{\\sqrt{3}}{2}$، $\\tan = \\frac{\\sqrt{3}}{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $\\frac{5\\pi}{3}$ رادیان را دریابید.",
+      "solution_steps_fa": [
+        "$\\frac{5\\pi}{3} = 2\\pi - \\frac{\\pi}{3}$ (ربع چهارم)",
+        "$\\sin = -\\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = -\\sqrt{3}$، $\\cot = -\\frac{\\sqrt{3}}{3}$، $\\sec = 2$، $\\csc = -\\frac{2\\sqrt{3}}{3}$"
+      ],
+      "answer": "$\\sin = -\\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = -\\sqrt{3}$، $\\cot = -\\frac{\\sqrt{3}}{3}$، $\\sec = 2$، $\\csc = -\\frac{2\\sqrt{3}}{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویه‌های $\\frac{41\\pi}{6}$، $\\frac{4\\pi}{3}$ و $\\frac{3\\pi}{4}$ رادیان را دریابید.",
+      "solution_steps_fa": [
+        "$\\frac{41\\pi}{6} = 6\\pi + \\frac{5\\pi}{6}$ و $\\frac{5\\pi}{6} = \\pi - \\frac{\\pi}{6}$: $\\sin = \\frac{1}{2}$، $\\cos = -\\frac{\\sqrt{3}}{2}$، $\\tan = -\\frac{\\sqrt{3}}{3}$، $\\cot = -\\sqrt{3}$، $\\sec = -\\frac{2\\sqrt{3}}{3}$، $\\csc = 2$",
+        "$\\frac{4\\pi}{3} = \\pi + \\frac{\\pi}{3}$: $\\sin = -\\frac{\\sqrt{3}}{2}$، $\\cos = -\\frac{1}{2}$، $\\tan = \\sqrt{3}$، $\\cot = \\frac{\\sqrt{3}}{3}$، $\\sec = -2$، $\\csc = -\\frac{2\\sqrt{3}}{3}$",
+        "$\\frac{3\\pi}{4} = \\pi - \\frac{\\pi}{4}$: $\\sin = \\frac{\\sqrt{2}}{2}$، $\\cos = -\\frac{\\sqrt{2}}{2}$، $\\tan = -1$، $\\cot = -1$، $\\sec = -\\sqrt{2}$، $\\csc = \\sqrt{2}$"
+      ],
+      "answer": "قیمت‌ها در مراحل؛ $\\frac{41\\pi}{6}$ و $\\frac{3\\pi}{4}$ در ربع دوم و $\\frac{4\\pi}{3}$ در ربع سوم است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویه‌های $780^\\circ$، $-300^\\circ$ و $420^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$780^\\circ = 2 \\cdot 360^\\circ + 60^\\circ$، $-300^\\circ + 360^\\circ = 60^\\circ$، $420^\\circ = 360^\\circ + 60^\\circ$؛ هر سه با $60^\\circ$ کوترمینل‌اند.",
+        "پس برای هر سه: $\\sin = \\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = \\sqrt{3}$، $\\cot = \\frac{\\sqrt{3}}{3}$، $\\sec = 2$، $\\csc = \\frac{2\\sqrt{3}}{3}$"
+      ],
+      "answer": "هر سه زاویه نسبت‌های $60^\\circ$ را دارند: $\\sin = \\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = \\sqrt{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "$\\cos(-3\\pi) = ?$ گزینه‌ها: a) $1$ b) $-1$ c) $0$ d) $\\frac{1}{2}$",
+      "solution_steps_fa": [
+        "$\\cos(-3\\pi) = \\cos 3\\pi$ و $3\\pi = 2\\pi + \\pi$",
+        "$\\cos 3\\pi = \\cos\\pi = -1$"
+      ],
+      "answer": "b) $-1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹",
+      "kind": "exercise",
+      "problem_fa": "$\\cos(-15\\pi) = ?$ گزینه‌ها: a) $1$ b) $-1$ c) $0$ d) هر سه درست نیست",
+      "solution_steps_fa": [
+        "$\\cos(-15\\pi) = \\cos 15\\pi$ و $15\\pi = 7 \\cdot 2\\pi + \\pi$",
+        "$\\cos 15\\pi = \\cos\\pi = -1$"
+      ],
+      "answer": "b) $-1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(-1110^\\circ) = ?$ گزینه‌ها: a) $\\frac{1}{2}$ b) $-\\frac{1}{2}$ c) $\\frac{\\sqrt{3}}{2}$ d) $-\\frac{\\sqrt{3}}{3}$",
+      "solution_steps_fa": [
+        "$\\sin(-1110^\\circ) = -\\sin 1110^\\circ$",
+        "$1110^\\circ = 3 \\cdot 360^\\circ + 30^\\circ$، پس $\\sin 1110^\\circ = \\sin 30^\\circ = \\frac{1}{2}$",
+        "$\\sin(-1110^\\circ) = -\\frac{1}{2}$"
+      ],
+      "answer": "b) $-\\frac{1}{2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "قیمت‌های $15^\\circ 20'$ در سوال ۳ تقریبی و با Python امتحان شده‌اند."
+}

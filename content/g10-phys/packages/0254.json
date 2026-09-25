@@ -1,0 +1,20 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-phys",
+  "pdf_page": 254,
+  "printed_page": 245,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": "مأخذ",
+  "summary_fa": "این صفحهٔ آخر کتاب فهرست مأخذ (منابعی که مؤلفان از آن‌ها استفاده کرده‌اند) است و درس ندارد. شش مأخذ اول کتاب‌های فزیک انگلیسی زبان‌اند، از جمله کتاب‌های فزیک Giancoli، James S. Walker، Serway و Faughn، Serway (فزیک برای ساینس‌دانان و انجنیران) و دو کتاب نشر Surat در ترکیه (یکی دربارهٔ نور). چهار مأخذ دیگر به زبان فارسی‌اند: کتاب درسی فزیک صنف یازدهم وزارت معارف افغانستان (کابل، 1381 هـ.ش) و چند کتاب فزیک چاپ تهران.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "صفحهٔ پایانی کتاب (فهرست مأخذ)؛ چون نوع back matter در فهرست page_kind نیست، front_matter انتخاب شد."
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 92,
+  "printed_page": 83,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم معادلات دو مجهولهٔ مثلثاتی",
+  "summary_fa": "اول، مثال ۱ تمام می‌شود: از $x - y = \\frac{\\pi}{2}$ و $x + y = \\frac{\\pi}{2}$ با جمع کردن، $x = \\frac{\\pi}{2}$ و با جاگذاری، $y = 0$ به دست می‌آید. سپس نوع دوم معرفی می‌شود: یک معادله $x \\pm y = \\alpha$ است و دیگری حاصل ضرب دو نسبت مثلثاتی را می‌دهد ($\\sin x\\cos y$، $\\sin x\\sin y$ یا $\\cos x\\cos y$ مساوی $a$)؛ این نوع شش سیستم دارد. شرط حل که کتاب می‌دهد $-\\cos^2\\frac{\\alpha}{2} \\le a \\le \\sin^2\\frac{\\alpha}{2}$ است. در مثال ۲، $x + y = \\pi$ و $\\sin x\\sin y = 1$ است؛ با $a = 1$ و $\\alpha = \\pi$ شرط $0 \\le a \\le 1$ برقرار است. برای حل، حاصل ضرب ساین‌ها با فورمول تحویل به تفاضل کوساین‌ها تبدیل می‌شود: $2\\sin x\\sin y = \\cos(x - y) - \\cos(x + y)$؛ ادامه در صفحه بعد.",
+  "key_points_fa": [
+    "نوع دوم: $x \\pm y = \\alpha$ همراه با $\\sin x\\cos y = a$ یا $\\sin x\\sin y = a$ یا $\\cos x\\cos y = a$ (شش سیستم).",
+    "شرط حل: $-\\cos^2\\frac{\\alpha}{2} \\le a \\le \\sin^2\\frac{\\alpha}{2}$",
+    "این شرط از $\\sin x\\sin y = \\frac{1}{2}[\\cos(x-y) - \\cos\\alpha]$ و $-1 \\le \\cos(x-y) \\le 1$ می‌آید.",
+    "حاصل ضرب نسبت‌ها را با فورمول‌های تحویل به مجموع یا تفاضل تبدیل می‌کنیم."
+  ],
+  "formulas": [
+    {"latex": "-\\cos^2\\frac{\\alpha}{2} \\le a \\le \\sin^2\\frac{\\alpha}{2}", "meaning_fa": "شرط حل سیستم نوع دوم (برای $\\sin x\\sin y = a$ و $x + y = \\alpha$)"},
+    {"latex": "2\\sin x\\sin y = \\cos(x - y) - \\cos(x + y)", "meaning_fa": "فورمول تحویل حاصل ضرب ساین‌ها به تفاضل کوساین‌ها"}
+  ],
+  "terms": [
+    {"fa": "حاصل ضرب", "en": "product"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (ادامه)",
+      "problem_fa": "ادامهٔ سیستم $\\sin x + \\sin y = 1$، $x + y = \\frac{\\pi}{2}$ که به $x - y = \\frac{\\pi}{2}$ رسیده بود.",
+      "steps_fa": [
+        "$x - y = \\frac{\\pi}{2}$ و $x + y = \\frac{\\pi}{2}$ را جمع می‌کنیم: $2x = \\pi \\Rightarrow x = \\frac{\\pi}{2}$",
+        "در معادلهٔ اول: $\\frac{\\pi}{2} - y = \\frac{\\pi}{2} \\Rightarrow y = 0$",
+        "کنترل: $\\sin\\frac{\\pi}{2} + \\sin 0 = 1$ درست است."
+      ],
+      "answer": "$x = \\frac{\\pi}{2}$، $y = 0$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "سیستم $x + y = \\pi$ و $\\sin x\\sin y = 1$ را حل کنید.",
+      "steps_fa": [
+        "$a = 1$ و $\\alpha = \\pi$؛ $-\\cos^2\\frac{\\pi}{2} = 0$ و $\\sin^2\\frac{\\pi}{2} = 1$، پس شرط $0 \\le 1 \\le 1$ برقرار است.",
+        "فورمول تحویل: $2\\sin x\\sin y = \\cos(x - y) - \\cos(x + y)$",
+        "چون $\\sin x\\sin y = 1$: $\\cos(x - y) - \\cos(x + y) = 2$ (ادامه در صفحه بعد)",
+        "$\\cos(x - y) - \\cos\\pi = 2 \\Rightarrow \\cos(x - y) = 1 \\Rightarrow x - y = 0$",
+        "با $x + y = \\pi$: $x = y = \\frac{\\pi}{2}$"
+      ],
+      "answer": "$x = \\frac{\\pi}{2}$، $y = \\frac{\\pi}{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب شرط نوع دوم را عمومی نوشته، اما این شرط دقیقاً برای $\\sin x\\sin y = a$ با $x + y = \\alpha$ است. در کتاب «$-\\cos 2\\frac{\\pi}{2}$» غلط چاپی برای $-\\cos^2\\frac{\\pi}{2}$ است. دو قدم آخر مثال ۲ در صفحه بعد آمده است."
+}

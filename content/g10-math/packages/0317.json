@@ -1,0 +1,110 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 317,
+  "printed_page": 310,
+  "page_kind": "exercises",
+  "chapter": 7,
+  "section_fa": "سیستم کمیات وضعیه یا سیستم کواردنت",
+  "summary_fa": "صفحهٔ تمرین درس سیستم کمیات وضعیه و فاصلهٔ دو نقطه با هفت سوال. در سوال ۱ باید از بین چهار نقطه، نقطه‌ای پیدا شود که فاصله‌اش از مبدأ ۱۵ واحد است؛ فاصله از مبدأ با $\\sqrt{x^2+y^2}$ حساب می‌شود. سوال ۲ می‌خواهد با فورمول فاصله ثابت شود که سه نقطه رأس‌های یک مثلث قایم‌الزاویه اند. سوال ۳ تا ۷ فاصلهٔ جوره‌های نقطه را می‌خواهند؛ یکی از آن‌ها کمیات کسری دارد و یکی دو نقطهٔ روی محور Y است.",
+  "key_points_fa": [
+    "فاصلهٔ نقطهٔ $(x,y)$ از مبدأ: $\\sqrt{x^2+y^2}$",
+    "فاصلهٔ دو نقطه: $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$",
+    "برای مثلث قایم‌الزاویه: مربع بزرگ‌ترین ضلع = مجموع مربع‌های دو ضلع دیگر.",
+    "اگر دو نقطه روی یک محور باشند، فاصله تفاضل مطلقهٔ مختصه‌های متفاوت آن‌هاست."
+  ],
+  "formulas": [
+    {"latex": "d = \\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}", "meaning_fa": "فورمول فاصلهٔ دو نقطه"},
+    {"latex": "|OP| = \\sqrt{x^2+y^2}", "meaning_fa": "فاصلهٔ نقطهٔ $P(x,y)$ از مبدأ"}
+  ],
+  "terms": [
+    {"fa": "مبدأ کمیات وضعیه", "en": "origin"},
+    {"fa": "فاصله بین دو نقطه", "en": "distance between two points"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ کدام نقطه از مبدأ ۱۵ واحد است؟ a) $(\\sqrt{176},7)$ b) $(10,-10)$ c) $(1,15)$ d) $(\\frac{15}{2},\\frac{15}{2})$",
+      "solution_steps_fa": [
+        "a) $\\sqrt{176+49} = \\sqrt{225} = 15$",
+        "b) $\\sqrt{100+100} = \\sqrt{200} \\approx 14.14$",
+        "c) $\\sqrt{1+225} = \\sqrt{226} \\approx 15.03$",
+        "d) $\\sqrt{\\frac{225}{4}+\\frac{225}{4}} = \\sqrt{112.5} \\approx 10.61$"
+      ],
+      "answer": "a) $(\\sqrt{176},7)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید که $A(0,2)$ ، $B(\\sqrt3,1)$ و $C(0,-2)$ رأس‌های یک مثلث قایم‌الزاویه اند.",
+      "solution_steps_fa": [
+        "$|AB|^2 = (\\sqrt3-0)^2+(1-2)^2 = 3+1 = 4$",
+        "$|BC|^2 = (0-\\sqrt3)^2+(-2-1)^2 = 3+9 = 12$",
+        "$|AC|^2 = 0^2+(-2-2)^2 = 16$",
+        "$|AB|^2+|BC|^2 = 4+12 = 16 = |AC|^2$ ، پس زاویهٔ قایمه در رأس $B$ است."
+      ],
+      "answer": "مثلث قایم‌الزاویه است؛ زاویهٔ قایمه در $B$.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ نقاط $(0,5)$ و $(0,-3)$ را دریابید.",
+      "solution_steps_fa": [
+        "هر دو نقطه روی محور Y اند: $d = |5-(-3)| = 8$"
+      ],
+      "answer": "$8$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ نقاط $A(-\\frac12,3)$ و $B(-1,-\\frac34)$ را دریابید.",
+      "solution_steps_fa": [
+        "$x_2-x_1 = -1+\\frac12 = -\\frac12$ ؛ $y_2-y_1 = -\\frac34-3 = -\\frac{15}{4}$",
+        "$d^2 = \\frac14+\\frac{225}{16} = \\frac{4}{16}+\\frac{225}{16} = \\frac{229}{16}$",
+        "$d = \\frac{\\sqrt{229}}{4} \\approx 3.78$"
+      ],
+      "answer": "$\\frac{\\sqrt{229}}{4} \\approx 3.78$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ نقاط $(7,11)$ و $(1,3)$ را دریابید.",
+      "solution_steps_fa": [
+        "$d = \\sqrt{(7-1)^2+(11-3)^2} = \\sqrt{36+64} = \\sqrt{100} = 10$"
+      ],
+      "answer": "$10$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ نقاط $(3,6)$ و $(1,2)$ را دریابید.",
+      "solution_steps_fa": [
+        "$d = \\sqrt{(3-1)^2+(6-2)^2} = \\sqrt{4+16} = \\sqrt{20} = 2\\sqrt5 \\approx 4.47$"
+      ],
+      "answer": "$2\\sqrt5$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ نقاط $(3,7)$ و $(12,19)$ را دریابید.",
+      "solution_steps_fa": [
+        "$d = \\sqrt{(12-3)^2+(19-7)^2} = \\sqrt{81+144} = \\sqrt{225} = 15$"
+      ],
+      "answer": "$15$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

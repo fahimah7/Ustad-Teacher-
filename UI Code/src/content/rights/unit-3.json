@@ -1,0 +1,297 @@
+{
+  "unit": 3,
+  "title": {
+    "en": "Faith and knowledge",
+    "fa": "ایمان و دانش"
+  },
+  "about": {
+    "en": "What Islam teaches about learning, and the Muslim women who led the way in knowledge.",
+    "fa": "اسلام در مورد آموختن چه می‌گوید، و زنان مسلمانی که در راه دانش پیش‌قدم بودند."
+  },
+  "lessons": [
+    {
+      "id": "r3-1",
+      "title": {
+        "en": "The first word was: Read",
+        "fa": "اولین کلمه: بخوان"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "In about the year 610, the Prophet Muhammad (peace be upon him) was in the cave of Hira, near Mecca. There, the first verses of the Quran came to him. The very first word was «Iqra», which means \"Read!\"",
+          "fa": "در حدود سال ۶۱۰ میلادی، پیامبر اسلام حضرت محمد (ص) در غار حرا، نزدیک مکه بودند. در همان‌جا اولین آیه‌های قرآن کریم بر ایشان نازل شد. اولین کلمه «اقرأ» بود، یعنی «بخوان!»"
+        },
+        {
+          "en": "These first verses (Surah al-Alaq, 96:1–5) also say that God \"taught by the pen\" and \"taught people what they did not know.\" So from its very first moment, the Quran begins with reading, writing and learning.",
+          "fa": "در همین آیه‌های اول (سورهٔ علق، آیه‌های ۱ تا ۵) آمده است که خداوند «با قلم یاد داد» و «به انسان آنچه را نمی‌دانست آموخت». پس قرآن از همان لحظهٔ اول با خواندن، نوشتن و آموختن شروع می‌شود."
+        },
+        {
+          "en": "The Quran also teaches this prayer: \"My Lord, increase me in knowledge\" (20:114). And it asks: \"Are those who know equal to those who do not know?\" (39:9). Knowledge is something we ask God for, not something to fear.",
+          "fa": "قرآن این دعا را هم به ما یاد می‌دهد: «پروردگارا، علم مرا زیاد کن» (سورهٔ طه، آیهٔ ۱۱۴). و می‌پرسد: «آیا کسانی که می‌دانند با کسانی که نمی‌دانند برابرند؟» (سورهٔ زمر، آیهٔ ۹). علم چیزی است که از خدا می‌خواهیم، نه چیزی که از آن بترسیم."
+        },
+        {
+          "en": "A well-known saying of the Prophet (peace be upon him) is: \"Seeking knowledge is a duty for every Muslim.\" Scholars explain that \"every Muslim\" means every man and every woman. When you study, you are doing something your faith asks of you.",
+          "fa": "یک حدیث مشهور پیامبر (ص) می‌گوید: «طلب علم بر هر مسلمان فرض است.» علما توضیح می‌دهند که «هر مسلمان» یعنی هر مرد و هر زن. وقتی شما درس می‌خوانید، کاری را می‌کنید که دین‌تان از شما خواسته است."
+        },
+        {
+          "en": "In the Prophet's time, women said to him: \"The men take all your time. Give us a day of our own.\" He promised them a day, came to them and taught them (Sahih al-Bukhari). Women asking to learn has been part of our history from the very start.",
+          "fa": "در زمان پیامبر (ص)، زنان به ایشان گفتند: «مردها همهٔ وقت شما را می‌گیرند؛ یک روز را برای ما تعیین کنید.» ایشان به زنان یک روز را وعده دادند، نزدشان آمدند و به آن‌ها درس دادند (صحیح بخاری). پس زنانی که آموختن را می‌خواهند، از همان اول بخشی از تاریخ ما بوده‌اند."
+        }
+      ],
+      "reflect": {
+        "en": "Which verse or saying from this lesson would you like to remember when learning feels hard?",
+        "fa": "وقتی درس خواندن سخت می‌شود، کدام آیه یا حدیث این درس را می‌خواهید به یاد داشته باشید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "What was the first word of the Quran revealed to the Prophet (peace be upon him)?",
+            "fa": "اولین کلمهٔ قرآن که بر پیامبر (ص) نازل شد، چه بود؟"
+          },
+          "options": [
+            {
+              "en": "Be quiet",
+              "fa": "خاموش باش"
+            },
+            {
+              "en": "Read",
+              "fa": "بخوان"
+            },
+            {
+              "en": "Stay home",
+              "fa": "در خانه بمان"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "The first word was «Iqra», which means \"Read!\" (Surah al-Alaq 96:1).",
+            "fa": "اولین کلمه «اقرأ» بود، یعنی «بخوان!» (سورهٔ علق، آیهٔ ۱)."
+          }
+        },
+        {
+          "q": {
+            "en": "Who is seeking knowledge a duty for?",
+            "fa": "طلب علم بر چه کسی فرض است؟"
+          },
+          "options": [
+            {
+              "en": "Only men",
+              "fa": "فقط مردان"
+            },
+            {
+              "en": "Only rich families",
+              "fa": "فقط خانواده‌های پول‌دار"
+            },
+            {
+              "en": "Every Muslim, woman and man",
+              "fa": "هر مسلمان، چه زن و چه مرد"
+            },
+            {
+              "en": "Only religious scholars",
+              "fa": "فقط علمای دین"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "The saying is about every Muslim, and scholars explain that this includes every woman.",
+            "fa": "این حدیث در مورد هر مسلمان است، و علما می‌گویند که هر زن هم شامل آن است."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Quran 96:1–5 (Surah al-Alaq): first revelation, cave of Hira, c. 610 CE",
+        "Quran 20:114 ('My Lord, increase me in knowledge')",
+        "Quran 39:9 ('Are those who know equal to those who do not know?')",
+        "Sunan Ibn Majah 224 ('Seeking knowledge is an obligation upon every Muslim'; widely quoted, chain graded differently by scholars)",
+        "Sahih al-Bukhari 101 (women ask the Prophet for a day of teaching; he promised them a day and taught them)"
+      ]
+    },
+    {
+      "id": "r3-2",
+      "title": {
+        "en": "Women who led in knowledge",
+        "fa": "زنانی که در دانش پیش‌قدم بودند"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Khadija, the first wife of the Prophet (peace be upon him), was a respected merchant in Mecca. She ran her own trade, and before their marriage the Prophet worked for her, leading one of her caravans to Syria. She was also the first person to believe in his message.",
+          "fa": "حضرت خدیجه (رض)، همسر اول پیامبر (ص)، یک تاجر محترم در مکه بودند. ایشان تجارت خود را اداره می‌کردند، و پیامبر (ص) پیش از ازدواج برای ایشان کار کردند و کاروان تجارتی ایشان را به شام بردند. حضرت خدیجه اولین کسی بودند که به پیام پیامبر (ص) ایمان آوردند."
+        },
+        {
+          "en": "Aisha, another wife of the Prophet, became one of the greatest teachers of Islam. More than two thousand hadith are reported from her. Even senior companions came to her with questions, and she taught many students, both men and women.",
+          "fa": "حضرت عایشه (رض)، یکی دیگر از همسران پیامبر (ص)، یکی از بزرگ‌ترین استادان اسلام شدند. بیشتر از دو هزار حدیث از ایشان روایت شده است. حتی صحابهٔ بزرگ برای پرسیدن سوال نزد ایشان می‌آمدند، و ایشان به شاگردان زیادی، هم مرد و هم زن، درس دادند."
+        },
+        {
+          "en": "Fatima al-Fihri lived in the city of Fez, in today's Morocco. In the year 859, she used money she had inherited from her father to build a mosque there, called al-Qarawiyyin. It grew into a great centre of learning, and students still study there today. Many call it the oldest university in the world that is still open.",
+          "fa": "فاطمه فهری در شهر فاس، در کشوری که امروز مراکش نام دارد، زندگی می‌کردند. در سال ۸۵۹ میلادی، ایشان با پولی که از پدرشان به میراث مانده بود، در آنجا مسجدی به نام «قرویین» ساختند. این مسجد به یک مرکز بزرگ علم تبدیل شد، و هنوز هم شاگردان در آنجا درس می‌خوانند. بسیاری آن را قدیمی‌ترین پوهنتون جهان می‌دانند که هنوز باز است."
+        },
+        {
+          "en": "These three women were different: one worked in trade, one taught, and one built a place of learning. But each used her mind and her gifts, and Muslims still remember them with respect more than a thousand years later.",
+          "fa": "این سه زن با هم فرق داشتند: یکی تجارت می‌کرد، یکی درس می‌داد، و یکی جای آموختن ساخت. اما هر سه از عقل و استعداد خود کار گرفتند، و مسلمانان بعد از بیشتر از هزار سال، هنوز هم با احترام از ایشان یاد می‌کنند."
+        },
+        {
+          "en": "When you study at home today, you are walking on the same road they walked. Your learning is part of a long Muslim tradition, not something outside it.",
+          "fa": "وقتی شما امروز در خانه درس می‌خوانید، در همان راهی قدم می‌زنید که آن‌ها رفتند. آموختن شما بخشی از یک سنت کهن اسلامی است، نه چیزی بیرون از آن."
+        }
+      ],
+      "reflect": {
+        "en": "Which of these three women would you most like to be like, and why?",
+        "fa": "دوست دارید بیشتر به کدام یک از این سه زن شبیه شوید، و چرا؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "What did Fatima al-Fihri build in Fez in 859?",
+            "fa": "فاطمه فهری در سال ۸۵۹ میلادی در شهر فاس چه ساختند؟"
+          },
+          "options": [
+            {
+              "en": "A palace",
+              "fa": "یک قصر"
+            },
+            {
+              "en": "A market",
+              "fa": "یک بازار"
+            },
+            {
+              "en": "A mosque that became a great centre of learning",
+              "fa": "مسجدی که به یک مرکز بزرگ علم تبدیل شد"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "She built al-Qarawiyyin, which grew into a centre of learning where students still study today.",
+            "fa": "ایشان قرویین را ساختند که به مرکز علم تبدیل شد، و هنوز هم شاگردان در آن درس می‌خوانند."
+          }
+        },
+        {
+          "q": {
+            "en": "Why did senior companions come to Aisha?",
+            "fa": "چرا صحابهٔ بزرگ نزد حضرت عایشه (رض) می‌آمدند؟"
+          },
+          "options": [
+            {
+              "en": "To ask her questions and learn from her",
+              "fa": "برای پرسیدن سوال و آموختن از ایشان"
+            },
+            {
+              "en": "To buy goods from her",
+              "fa": "برای خریدن جنس از ایشان"
+            },
+            {
+              "en": "To ask her to stop teaching",
+              "fa": "تا از ایشان بخواهند که درس ندهند"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "Aisha was one of the great teachers of Islam, and many people learned from her.",
+            "fa": "حضرت عایشه (رض) یکی از استادان بزرگ اسلام بودند و بسیاری از ایشان آموختند."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Ibn Ishaq, Sirat Rasul Allah (Khadija a merchant; the Prophet led her caravan to Syria before their marriage; first to believe)",
+        "Hadith collections: about 2,210 hadith are narrated from Aisha (commonly cited figure); companions consulted her; students included Urwa ibn al-Zubayr and Amra bint Abd al-Rahman",
+        "Ibn Abi Zar', Rawd al-Qirtas (Fatima al-Fihri founded al-Qarawiyyin in Fez, 245 AH / 859 CE, with her inheritance)",
+        "UNESCO and Guinness World Records: University of al-Qarawiyyin as the oldest existing, continually operating educational institution"
+      ]
+    },
+    {
+      "id": "r3-3",
+      "title": {
+        "en": "Girls learn across the Muslim world",
+        "fa": "دختران در سراسر جهان اسلام درس می‌خوانند"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "In every other Muslim-majority country, from Indonesia to Morocco, girls are allowed to study after sixth grade. Afghanistan is the only country in the world where girls are stopped from going to school after sixth grade. In many Muslim countries, women become doctors, teachers, engineers and religious scholars.",
+          "fa": "در همهٔ کشورهای دیگری که بیشتر مردم آن مسلمان هستند، از اندونیزیا تا مراکش، دختران اجازه دارند بعد از صنف ششم هم درس بخوانند. افغانستان تنها کشور جهان است که در آن دختران بعد از صنف ششم از رفتن به مکتب منع شده‌اند. در بسیاری از کشورهای اسلامی، زنان داکتر، معلم، انجنیر و عالم دین می‌شوند."
+        },
+        {
+          "en": "In some of these countries, more young women than young men study at university. Their families are Muslim, their teachers are Muslim, and their faith does not stop them from learning.",
+          "fa": "در بعضی از این کشورها، تعداد دخترانی که در پوهنتون درس می‌خوانند از پسران بیشتر است. خانواده‌های آن‌ها مسلمان‌اند، معلمان‌شان مسلمان‌اند، و ایمان‌شان مانع آموختن‌شان نمی‌شود."
+        },
+        {
+          "en": "Many Muslim scholars have said clearly that closing schools to girls has no basis in Islam. Al-Azhar in Egypt has been a centre of Islamic learning for more than a thousand years. In December 2022, its Grand Imam said that banning women from university goes against Islamic law, which calls both men and women to seek knowledge.",
+          "fa": "بسیاری از علمای اسلام به روشنی گفته‌اند که بستن مکتب به روی دختران هیچ اساسی در اسلام ندارد. الازهر در مصر بیشتر از هزار سال است که مرکز علوم اسلامی است. در ماه دسمبر سال ۲۰۲۲ میلادی، شیخ الازهر گفتند که منع زنان از پوهنتون خلاف شریعت اسلام است، چون شریعت هم مرد و هم زن را به طلب علم دعوت می‌کند."
+        },
+        {
+          "en": "So if someone tells you that Islam forbids girls to learn, you can know, calmly and for yourself, that great scholars of Islam say the opposite. Your wish to learn is not against your faith.",
+          "fa": "پس اگر کسی به شما بگوید که اسلام درس خواندن دختران را منع کرده، شما می‌توانید آرام و در دل خود بدانید که علمای بزرگ اسلام برعکس آن را می‌گویند. خواست شما برای آموختن، خلاف دین شما نیست."
+        },
+        {
+          "en": "You do not need to argue about religion with anyone, especially where it could put you at risk. Knowing the truth quietly, for yourself, is enough. Every page you learn is its own answer.",
+          "fa": "لازم نیست با کسی در مورد دین بحث کنید، مخصوصاً جایی که برای شما خطر داشته باشد. همین که خودتان حقیقت را در دل بدانید، کافی است. هر صفحه‌ای که یاد می‌گیرید، خودش یک جواب است."
+        }
+      ],
+      "reflect": {
+        "en": "How does it feel to know that girls across the Muslim world are studying today, just like you?",
+        "fa": "وقتی می‌دانید که امروز دختران در سراسر جهان اسلام، درست مثل شما، درس می‌خوانند، چه احساسی دارید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "What did the Grand Imam of Al-Azhar say in December 2022?",
+            "fa": "شیخ الازهر در دسمبر ۲۰۲۲ چه گفتند؟"
+          },
+          "options": [
+            {
+              "en": "That women should only study at home",
+              "fa": "که زنان فقط باید در خانه درس بخوانند"
+            },
+            {
+              "en": "That banning women from university goes against Islamic law",
+              "fa": "که منع زنان از پوهنتون خلاف شریعت اسلام است"
+            },
+            {
+              "en": "That girls do not need school",
+              "fa": "که دختران به مکتب ضرورت ندارند"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "He said the ban goes against Islamic law, which calls both men and women to seek knowledge.",
+            "fa": "ایشان گفتند که این منع خلاف شریعت است، چون شریعت هم مرد و هم زن را به طلب علم دعوت می‌کند."
+          }
+        },
+        {
+          "q": {
+            "en": "If someone says Islam forbids girls to learn, what is a safe response?",
+            "fa": "اگر کسی بگوید اسلام درس خواندن دختران را منع کرده، چه کاری بی‌خطر است؟"
+          },
+          "options": [
+            {
+              "en": "Start a loud argument in front of others",
+              "fa": "پیش روی دیگران با صدای بلند بحث کنید"
+            },
+            {
+              "en": "Stop studying",
+              "fa": "درس خواندن را بس کنید"
+            },
+            {
+              "en": "Stay calm, know the facts for yourself, and keep learning",
+              "fa": "آرام بمانید، حقیقت را برای خود بدانید، و به آموختن ادامه بدهید"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "You don't have to win an argument; staying safe and continuing to learn is enough.",
+            "fa": "لازم نیست در بحث برنده شوید؛ در امان ماندن و ادامهٔ آموختن کافی است."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "UNESCO statements (2022–2024): Afghanistan is the only country in the world that bars girls from secondary education (after grade 6) and women from university",
+        "UNESCO Institute for Statistics: female tertiary enrolment exceeds male in several Muslim-majority countries (e.g. Qatar, Tunisia, Algeria)",
+        "Statement of the Grand Imam of Al-Azhar, Ahmed al-Tayeb, December 2022, on the ban on women's university education in Afghanistan ('contradicts Islamic Sharia')",
+        "Al-Azhar founded 970–972 CE"
+      ]
+    }
+  ]
+}

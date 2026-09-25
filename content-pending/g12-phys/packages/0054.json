@@ -1,0 +1,77 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-phys",
+  "pdf_page": 54,
+  "printed_page": 45,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "تعیین موقعیت شکل تداخلی نوارها",
+  "summary_fa": "این صفحه حساب صفحهٔ قبل را تمام می‌کند. تفاوت مربع‌ها را به شکل حاصل ضرب می‌نویسیم: $(S_2P - S_1P)(S_2P + S_1P) = 2xd$. چون $d$ و $x$ در مقایسه با $D$ بسیار کوچک اند، مجموع $S_2P + S_1P$ تقریباً $2D$ است؛ پس تفاوت راه نوری $\\frac{xd}{D}$ و فرق فاز $\\frac{2\\pi}{\\lambda}\\cdot\\frac{xd}{D}$ می‌شود. اگر در نقطهٔ P نوار روشن باشد، تفاوت راه باید مضرب تام طول موج باشد: $\\frac{xd}{D} = m\\lambda$، پس فاصلهٔ نوار روشن از وسط پرده $x = \\frac{m\\lambda D}{d}$ است. در فعالیت اول، فاصلهٔ نوارهای روشن اول، دوم و سوم از وسط پرده و فاصلهٔ بین دو نوار روشن حساب می‌شود؛ هم‌چنان برای نوار تاریک، تفاوت راه باید مضرب طاق نصف طول موج باشد: $x = \\frac{(2m+1)\\lambda D}{2d}$. در فعالیت دوم، فاصلهٔ نوارهای تاریک و فاصلهٔ بین دو نوار تاریک پیدا می‌شود.",
+  "key_points_fa": [
+    "تفاوت راه نوری: $S_2P - S_1P \\approx \\frac{xd}{D}$ (چون $d, x \\ll D$)",
+    "فرق فاز: $\\varphi = \\frac{2\\pi}{\\lambda}\\cdot\\frac{xd}{D}$",
+    "نوار روشن: $x = \\frac{m\\lambda D}{d}$، $m = 0, 1, 2, \\dots$ (نوار وسطی $m = 0$ روشن است)",
+    "نوار تاریک: $x = \\frac{(2m+1)\\lambda D}{2d}$، $m = 0, 1, 2, \\dots$",
+    "فاصلهٔ دو نوار روشن (یا دو نوار تاریک) پی‌درپی: $\\Delta x = \\frac{\\lambda D}{d}$"
+  ],
+  "formulas": [
+    {"latex": "S_2P - S_1P = \\frac{2\\,x\\,d}{S_2P + S_1P} \\approx \\frac{2\\,x\\,d}{2D} = \\frac{x\\,d}{D}", "meaning_fa": "تفاوت راه نوری دو شعاع تا نقطهٔ P"},
+    {"latex": "\\varphi = \\frac{2\\pi}{\\lambda}\\left(\\frac{x\\,d}{D}\\right)", "meaning_fa": "فرق فاز دو موج در نقطهٔ P"},
+    {"latex": "\\frac{x\\,d}{D} = m\\,\\lambda \\;\\Rightarrow\\; x = \\frac{m\\,\\lambda\\,D}{d}", "meaning_fa": "موقعیت نوار روشن شمارهٔ m از وسط پرده"},
+    {"latex": "\\frac{x\\,d}{D} = (2m+1)\\frac{\\lambda}{2} \\;\\Rightarrow\\; x = \\frac{(2m+1)\\,\\lambda\\,D}{2d}", "meaning_fa": "موقعیت نوار تاریک از وسط پرده"},
+    {"latex": "\\Delta x = \\frac{\\lambda\\,D}{d}", "meaning_fa": "فاصلهٔ دو نوار روشن یا دو نوار تاریک پی‌درپی"}
+  ],
+  "terms": [
+    {"fa": "تفاوت راه نوری", "en": "optical path difference"},
+    {"fa": "تفاوت فاز", "en": "phase difference"},
+    {"fa": "فاصلهٔ نوارها", "en": "fringe spacing"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "استخراج موقعیت نوار روشن",
+      "problem_fa": "از $S_2P^2 - S_1P^2 = 2xd$ موقعیت نوار روشن را به دست آورید.",
+      "steps_fa": [
+        "$(S_2P - S_1P)(S_2P + S_1P) = 2xd$ پس $S_2P - S_1P = \\frac{2xd}{S_2P + S_1P}$.",
+        "چون d بسیار کوچک است، $S_2P + S_1P \\approx 2D$، پس تفاوت راه $= \\frac{xd}{D}$.",
+        "فرق فاز $= \\frac{2\\pi}{\\lambda}\\cdot\\frac{xd}{D}$.",
+        "برای نوار روشن تفاوت راه $= m\\lambda$: $\\frac{xd}{D} = m\\lambda \\Rightarrow x = \\frac{m\\lambda D}{d}$."
+      ],
+      "answer": "$x = \\frac{m\\lambda D}{d}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت ۱ (نوارهای روشن)",
+      "kind": "activity",
+      "problem_fa": "فاصلهٔ نوارهای روشن شمارهٔ اول، دوم و سوم را از وسط پرده و فاصلهٔ بین دو نوار روشن را پیدا کنید.",
+      "solution_steps_fa": [
+        "از $x = \\frac{m\\lambda D}{d}$: $x_1 = \\frac{\\lambda D}{d}$، $x_2 = \\frac{2\\lambda D}{d}$، $x_3 = \\frac{3\\lambda D}{d}$.",
+        "فاصلهٔ دو نوار پی‌درپی: $x_2 - x_1 = x_3 - x_2 = \\frac{\\lambda D}{d}$؛ پس نوارها به فاصله‌های مساوی اند.",
+        "مثال عددی: $\\lambda = 600\\,\\mathrm{nm}$، $D = 1\\,\\mathrm{m}$، $d = 0.5\\,\\mathrm{mm}$ ← $\\frac{\\lambda D}{d} = \\frac{600 \\times 10^{-9} \\times 1}{0.5 \\times 10^{-3}} = 1.2 \\times 10^{-3}\\,\\mathrm{m}$.",
+        "پس $x_1 = 1.2\\,\\mathrm{mm}$، $x_2 = 2.4\\,\\mathrm{mm}$، $x_3 = 3.6\\,\\mathrm{mm}$ و فاصلهٔ نوارها $1.2\\,\\mathrm{mm}$ است."
+      ],
+      "answer": "$x_1 = \\frac{\\lambda D}{d}$، $x_2 = \\frac{2\\lambda D}{d}$، $x_3 = \\frac{3\\lambda D}{d}$؛ $\\Delta x = \\frac{\\lambda D}{d}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲ (نوارهای تاریک)",
+      "kind": "activity",
+      "problem_fa": "فاصلهٔ نوارهای تاریک را از وسط پرده برای $m = 1, 2, 3$ حساب کنید و فاصلهٔ بین دو نوار تاریک را پیدا کنید.",
+      "solution_steps_fa": [
+        "از $x = \\frac{(2m+1)\\lambda D}{2d}$:",
+        "$m = 1$: $x = \\frac{3\\lambda D}{2d}$؛ $m = 2$: $x = \\frac{5\\lambda D}{2d}$؛ $m = 3$: $x = \\frac{7\\lambda D}{2d}$.",
+        "فاصلهٔ دو نوار تاریک پی‌درپی: $\\frac{5\\lambda D}{2d} - \\frac{3\\lambda D}{2d} = \\frac{\\lambda D}{d}$ (همان فاصلهٔ نوارهای روشن).",
+        "یادداشت: نزدیک‌ترین نوار تاریک به وسط ($m = 0$) در $x = \\frac{\\lambda D}{2d}$ است؛ نوارهای تاریک دقیقاً بین نوارهای روشن قرار دارند.",
+        "با همان اعداد مثال: $1.8\\,\\mathrm{mm}$، $3.0\\,\\mathrm{mm}$ و $4.2\\,\\mathrm{mm}$."
+      ],
+      "answer": "$\\frac{3\\lambda D}{2d}$، $\\frac{5\\lambda D}{2d}$، $\\frac{7\\lambda D}{2d}$؛ فاصلهٔ دو نوار تاریک $= \\frac{\\lambda D}{d}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "اعداد مثال (600 نانومتر، 1 متر، 0.5 ملی‌متر) در کتاب نیستند و تنها برای روشن شدن اضافه شده اند."
+}

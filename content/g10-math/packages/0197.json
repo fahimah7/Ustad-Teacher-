@@ -1,0 +1,62 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 197,
+  "printed_page": 190,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "رابطه بین نسبت‌های مثلثاتی زاویه‌هایی که مجموعه یا فرق شان $360^\\circ$ یا $2\\pi$ رادیان باشد",
+  "summary_fa": "این صفحه حل مثال ۳ صفحهٔ قبل را می‌دهد. برای زاویهٔ منفی $-930^\\circ$ سه دور کامل ($3 \\cdot 360^\\circ$) اضافه می‌شود تا زاویهٔ کوترمینل مثبت $150^\\circ$ به دست آید؛ بعد $150^\\circ = 180^\\circ - 30^\\circ$ نوشته می‌شود. برای $900^\\circ$ دو دور کامل کم می‌شود و $180^\\circ$ می‌ماند. دو شکل حلزونی این دورها را نشان می‌دهند. در مثال ۴ زاویه‌های رادیانی $-\\frac{5\\pi}{2}$ و $\\frac{7\\pi}{3}$ بررسی می‌شوند: $-\\frac{5\\pi}{2}$ با $-\\frac{\\pi}{2}$ کوترمینل است و tan آن تعریف نشده است، و $\\frac{7\\pi}{3}$ با $\\frac{\\pi}{3}$ کوترمینل است. پس روش کلی: مضرب $2\\pi$ یا $360^\\circ$ را اضافه یا کم کنید تا زاویهٔ آشنا بماند.",
+  "key_points_fa": [
+    "برای زاویهٔ منفی، آن‌قدر $360^\\circ$ اضافه کنید تا مثبت شود: $-930^\\circ + 1080^\\circ = 150^\\circ$.",
+    "$900^\\circ - 720^\\circ = 180^\\circ$، پس $\\sin 900^\\circ = 0$، $\\cos 900^\\circ = -1$.",
+    "$-\\frac{5\\pi}{2} = -2\\pi - \\frac{\\pi}{2}$ با $-\\frac{\\pi}{2}$ کوترمینل است.",
+    "$\\frac{7\\pi}{3} = 2\\pi + \\frac{\\pi}{3}$ با $\\frac{\\pi}{3}$ کوترمینل است.",
+    "پس از رسیدن به زاویهٔ بین $0^\\circ$ و $360^\\circ$، رابطه‌های $180^\\circ \\pm \\theta$ و مانند آن را به کار ببرید."
+  ],
+  "formulas": [
+    {"latex": "-930^\\circ + 3 \\cdot 360^\\circ = 150^\\circ", "meaning_fa": "زاویهٔ کوترمینل مثبت برای $-930^\\circ$"},
+    {"latex": "900^\\circ = 2 \\cdot 360^\\circ + 180^\\circ", "meaning_fa": "زاویهٔ کوترمینل برای $900^\\circ$"},
+    {"latex": "\\sin(\\theta + 2k\\pi) = \\sin\\theta,\\ \\cos(\\theta + 2k\\pi) = \\cos\\theta,\\ \\tan(\\theta + 2k\\pi) = \\tan\\theta", "meaning_fa": "کوترمینل بودن در رادیان"}
+  ],
+  "terms": [
+    {"fa": "زوایای کوترمینل", "en": "coterminal angles"},
+    {"fa": "تعریف نشده", "en": "undefined"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.26, 0.43, 0.50, 0.61], "kind": "diagram", "description_fa": "محورهای X و Y. حلقه‌های سبز در جهت عقربهٔ ساعت زاویهٔ $-930^\\circ$ را نشان می‌دهند (نزدیک به سه دور) و قوس سرخ زاویهٔ $150^\\circ$ را در ربع دوم؛ هر دو به یک ضلع دوم ختم می‌شوند. زیر شکل نوشته شده: $-930^\\circ + 3 \\cdot 360^\\circ = 150^\\circ$."},
+    {"id": "fig2", "bbox": [0.53, 0.42, 0.78, 0.61], "kind": "diagram", "description_fa": "محورهای X و Y. حلقه‌های سبز زاویهٔ $900^\\circ$ (دو دور کامل و نیم دور) و قوس سرخ زاویهٔ $180^\\circ$ را نشان می‌دهند که هر دو روی نیمهٔ منفی محور X ختم می‌شوند. زیر شکل: $900^\\circ = 2 \\cdot 360^\\circ + 180^\\circ$."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳ (حل)",
+      "problem_fa": "sin، cos و tan زاویه‌های $900^\\circ$ و $-930^\\circ$ را دریابید.",
+      "steps_fa": [
+        "$-930^\\circ + 3 \\cdot 360^\\circ = 150^\\circ$ و $150^\\circ = 180^\\circ - 30^\\circ$.",
+        "$\\sin(-930^\\circ) = \\sin 150^\\circ = \\sin 30^\\circ = \\frac{1}{2}$",
+        "$\\cos(-930^\\circ) = \\cos 150^\\circ = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$",
+        "$\\tan(-930^\\circ) = \\tan 150^\\circ = -\\tan 30^\\circ = -\\frac{1}{\\sqrt{3}}$",
+        "$900^\\circ = 2 \\cdot 360^\\circ + 180^\\circ$: $\\sin 900^\\circ = \\sin 180^\\circ = 0$، $\\cos 900^\\circ = \\cos 180^\\circ = -1$، $\\tan 900^\\circ = \\tan 180^\\circ = 0$"
+      ],
+      "answer": "$\\sin(-930^\\circ) = \\frac{1}{2}$، $\\cos(-930^\\circ) = -\\frac{\\sqrt{3}}{2}$، $\\tan(-930^\\circ) = -\\frac{1}{\\sqrt{3}}$؛ $\\sin 900^\\circ = 0$، $\\cos 900^\\circ = -1$، $\\tan 900^\\circ = 0$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "نسبت‌های مثلثاتی زاویه‌های $-\\frac{5\\pi}{2}$ و $\\frac{7\\pi}{3}$ را دریابید.",
+      "steps_fa": [
+        "$-\\frac{5\\pi}{2} = -2\\pi - \\frac{\\pi}{2}$، پس با $-\\frac{\\pi}{2}$ کوترمینل است.",
+        "$\\sin(-\\frac{5\\pi}{2}) = \\sin(-\\frac{\\pi}{2}) = -\\sin\\frac{\\pi}{2} = -1$، $\\cos(-\\frac{5\\pi}{2}) = \\cos\\frac{\\pi}{2} = 0$",
+        "$\\tan(-\\frac{5\\pi}{2}) = \\frac{-1}{0}$ تعریف نشده است.",
+        "$\\frac{7\\pi}{3} = 2\\pi + \\frac{\\pi}{3}$: $\\sin\\frac{7\\pi}{3} = \\sin\\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2}$، $\\cos\\frac{7\\pi}{3} = \\cos\\frac{\\pi}{3} = \\frac{1}{2}$، $\\tan\\frac{7\\pi}{3} = \\tan\\frac{\\pi}{3} = \\sqrt{3}$"
+      ],
+      "answer": "$-\\frac{5\\pi}{2}$: $\\sin = -1$، $\\cos = 0$، $\\tan$ تعریف نشده؛ $\\frac{7\\pi}{3}$: $\\sin = \\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = \\sqrt{3}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در کتاب در سطر $\\tan(-930^\\circ)$ علامهٔ منفی پیش از $\\tan 30^\\circ$ جا مانده است، ولی جواب نهایی $-\\frac{1}{\\sqrt{3}}$ درست است."
+}

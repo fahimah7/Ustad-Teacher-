@@ -1,0 +1,113 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 187,
+  "printed_page": 180,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مشتق توابع اکسپوننشیل و لوگاریتمی",
+  "summary_fa": "این صفحه حل مثال ۹ را می‌آورد و با یک تمرین شش‌قسمتی تمام می‌شود. در حل مثال ۹ همه‌جا از قاعدهٔ $(\\log_a u)' = \\frac{u'}{u\\ln a}$ استفاده می‌شود. در قسمت ۲ لوگاریتم داخل لوگاریتم است و جواب با تبدیل $\\log_2 x = \\frac{\\ln x}{\\ln 2}$ ساده می‌شود. در قسمت ۳ قاعدهٔ لوگاریتم خودش تابع x است؛ پس اول با تبدیل قاعده تابع را به شکل تقسیم دو ln می‌نویسیم و بعد قاعدهٔ مشتق تقسیم $\\left(\\frac{u}{v}\\right)' = \\frac{u'v - v'u}{v^2}$ را به کار می‌بریم. تمرین آخر صفحه مشتق شش تابع لوگاریتمی و اکسپوننشیل را می‌خواهد؛ قسمت f با مشتق لوگاریتمی آسان‌تر حل می‌شود.",
+  "key_points_fa": [
+    "$(\\log_a u)' = \\frac{u'}{u}\\log_a e = \\frac{u'}{u\\ln a}$",
+    "تبدیل قاعده: $\\log_b A = \\frac{\\ln A}{\\ln b}$",
+    "اگر قاعدهٔ لوگاریتم متحول باشد، تابع را به تقسیم دو ln تبدیل کنید.",
+    "برای ضرب و تقسیم چند عامل، مشتق لوگاریتمی کار را ساده می‌کند."
+  ],
+  "formulas": [
+    {"latex": "y = \\log_a u \\Rightarrow y' = \\frac{u'}{u\\ln a}", "meaning_fa": "مشتق لوگاریتم با هر قاعده"},
+    {"latex": "\\left(\\frac{u}{v}\\right)' = \\frac{u'v - v'u}{v^2}", "meaning_fa": "قاعدهٔ مشتق تقسیم"},
+    {"latex": "\\log_{x^2-1}(x^2+1) = \\frac{\\ln(x^2+1)}{\\ln(x^2-1)}", "meaning_fa": "تبدیل قاعده در مثال ۹-۳"}
+  ],
+  "terms": [
+    {"fa": "تبدیل قاعده", "en": "change of base"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۹ (حل)",
+      "problem_fa": "مشتق ۱) $y = \\log(x^4+1)$ ۲) $y = \\log_3(\\log_2 x)$ ۳) $y = \\log_{x^2-1}(x^2+1)$",
+      "steps_fa": [
+        "۱) $u = x^4 + 1$، $u' = 4x^3$: $y' = \\frac{4x^3}{(x^4+1)\\ln 10}$",
+        "۲) $u = \\log_2 x$، $u' = \\frac{1}{x\\ln 2}$: $y' = \\frac{1}{x\\ln 2\\cdot\\ln 3\\cdot\\log_2 x}$؛ چون $\\log_2 x = \\frac{\\ln x}{\\ln 2}$، $y' = \\frac{1}{x\\ln 3\\ln x}$",
+        "۳) $y = \\frac{\\ln(x^2+1)}{\\ln(x^2-1)}$؛ با قاعدهٔ تقسیم:",
+        "$y' = \\frac{\\frac{2x}{x^2+1}\\ln(x^2-1) - \\frac{2x}{x^2-1}\\ln(x^2+1)}{[\\ln(x^2-1)]^2}$"
+      ],
+      "answer": "۱) $\\frac{4x^3}{(x^4+1)\\ln 10}$ ۲) $\\frac{1}{x\\ln 3\\ln x}$ ۳) $\\frac{\\frac{2x}{x^2+1}\\ln(x^2-1) - \\frac{2x}{x^2-1}\\ln(x^2+1)}{[\\ln(x^2-1)]^2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\ln\\sin 3x$",
+      "solution_steps_fa": [
+        "$u = \\sin 3x$ و $u' = 3\\cos 3x$",
+        "$f'(x) = \\frac{u'}{u} = \\frac{3\\cos 3x}{\\sin 3x} = 3\\cot 3x$"
+      ],
+      "answer": "$f'(x) = 3\\cot 3x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\ln\\sqrt{3x^2+7}$",
+      "solution_steps_fa": [
+        "$f(x) = \\frac{1}{2}\\ln(3x^2+7)$",
+        "$f'(x) = \\frac{1}{2}\\cdot\\frac{6x}{3x^2+7} = \\frac{3x}{3x^2+7}$"
+      ],
+      "answer": "$f'(x) = \\frac{3x}{3x^2+7}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\ln(5x^2 - 6x + 5)$",
+      "solution_steps_fa": [
+        "$u = 5x^2 - 6x + 5$ و $u' = 10x - 6$",
+        "$f'(x) = \\frac{10x-6}{5x^2-6x+5}$"
+      ],
+      "answer": "$f'(x) = \\frac{10x-6}{5x^2-6x+5}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین d",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\log_{10} 3x^2$",
+      "solution_steps_fa": [
+        "$u = 3x^2$ و $u' = 6x$",
+        "$f'(x) = \\frac{6x}{3x^2\\ln 10} = \\frac{2}{x\\ln 10}$"
+      ],
+      "answer": "$f'(x) = \\frac{2}{x\\ln 10} = \\frac{2}{x}\\log_{10} e$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین e",
+      "kind": "exercise",
+      "problem_fa": "$y = x^x$",
+      "solution_steps_fa": [
+        "$\\ln y = x\\ln x$",
+        "$\\frac{y'}{y} = \\ln x + x\\cdot\\frac{1}{x} = \\ln x + 1$",
+        "$y' = x^x(\\ln x + 1)$"
+      ],
+      "answer": "$y' = x^x(\\ln x + 1)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین f",
+      "kind": "exercise",
+      "problem_fa": "$y = \\frac{(x+1)^2\\sqrt{x-1}}{(x+4)^3 e^x}$",
+      "solution_steps_fa": [
+        "از دو طرف ln می‌گیریم: $\\ln y = 2\\ln(x+1) + \\frac{1}{2}\\ln(x-1) - 3\\ln(x+4) - x$",
+        "مشتق: $\\frac{y'}{y} = \\frac{2}{x+1} + \\frac{1}{2(x-1)} - \\frac{3}{x+4} - 1$",
+        "$y' = \\frac{(x+1)^2\\sqrt{x-1}}{(x+4)^3 e^x}\\left[\\frac{2}{x+1} + \\frac{1}{2(x-1)} - \\frac{3}{x+4} - 1\\right]$"
+      ],
+      "answer": "$y' = y\\left[\\frac{2}{x+1} + \\frac{1}{2(x-1)} - \\frac{3}{x+4} - 1\\right]$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "تمرین d به شکل $\\log_{10}(3x^2)$ فهمیده شده است. جواب‌ها با محاسبهٔ کمپیوتری بررسی شده‌اند."
+}

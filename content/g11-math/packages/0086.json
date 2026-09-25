@@ -1,0 +1,49 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 86,
+  "printed_page": 77,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "معادلات مثلثاتی درجه دوم",
+  "summary_fa": "درس نو معادلات مثلثاتی درجه دوم را معرفی می‌کند. شکل عمومی این معادله‌ها $a\\sin^2 x + b\\cos^2 x + c\\sin x\\cos x = d$ است که در آن $a, b, c, d$ اعداد ثابت‌اند. روش اصلی این است که نسبت مثلثاتی را با یک متحول مانند $y$ عوض کنیم تا یک معادلهٔ درجه دوم الجبری به دست آید، آن را با دیسکریمیننت ($\\Delta$) حل کنیم و سپس هر جذر را دوباره مساوی نسبت مثلثاتی قرار داده معادلهٔ ساده را حل کنیم. در مثال ۱، $6\\sin^2 x - 5\\sin x + 1 = 0$ با تعویض $y = \\sin x$ به $6y^2 - 5y + 1 = 0$ تبدیل می‌شود و دو جذر $\\frac{1}{2}$ و $\\frac{1}{3}$ دارد. برای $\\sin x = \\frac{1}{2}$ جواب عمومی نوشته شده و بخش $\\sin x = \\frac{1}{3}$ در صفحه بعد ادامه دارد.",
+  "key_points_fa": [
+    "شکل عمومی: $a\\sin^2 x + b\\cos^2 x + c\\sin x\\cos x = d$",
+    "با تعویض $y = \\sin x$ (یا $y = \\cos x$) معادله درجه دوم الجبری می‌شود.",
+    "جذرها را با $\\Delta = b^2 - 4ac$ و $y_{1,2} = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}$ می‌یابیم.",
+    "هر جذر $y$ یک معادلهٔ سادهٔ مثلثاتی می‌دهد؛ جذری که بیرون از $[-1, 1]$ باشد قبول نیست."
+  ],
+  "formulas": [
+    {"latex": "a\\sin^2 x + b\\cos^2 x + c\\sin x\\cos x = d", "meaning_fa": "شکل عمومی معادلهٔ مثلثاتی درجه دوم"},
+    {"latex": "\\Delta = b^2 - 4ac,\\quad y_{1,2} = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}", "meaning_fa": "حل معادلهٔ درجه دوم بعد از تعویض"},
+    {"latex": "x = n\\pi + (-1)^n\\theta", "meaning_fa": "جواب عمومی $\\sin x = \\sin\\theta$"}
+  ],
+  "terms": [
+    {"fa": "معادلهٔ مثلثاتی درجه دوم", "en": "quadratic trigonometric equation"},
+    {"fa": "تعویض", "en": "substitution"},
+    {"fa": "دیسکریمیننت", "en": "discriminant"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.11, 0.16, 0.47, 0.23], "kind": "illustration", "description_fa": "نوشتهٔ تزئینی شکل عمومی $a\\sin^2 x + b\\cos^2 x + c\\sin x\\cos x = d$؛ همان فورمولی است که در متن آمده."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "معادلهٔ $6\\sin^2 x - 5\\sin x + 1 = 0$ را حل کنید.",
+      "steps_fa": [
+        "$\\sin x$ را به $y$ عوض می‌کنیم: $6y^2 - 5y + 1 = 0$",
+        "$\\Delta = (-5)^2 - 4(6)(1) = 25 - 24 = 1$",
+        "$y_1 = \\frac{5 + 1}{12} = \\frac{1}{2}$ و $y_2 = \\frac{5 - 1}{12} = \\frac{1}{3}$",
+        "$\\sin x = \\frac{1}{2} \\Rightarrow$ کوچک‌ترین زاویه $\\frac{\\pi}{6}$ رادیان است؛ جواب عمومی: $x = 2k\\pi + \\frac{\\pi}{6}$ یا $x = (2k+1)\\pi - \\frac{\\pi}{6}$، یعنی $x = n\\pi + (-1)^n\\frac{\\pi}{6}$",
+        "$\\sin x = \\frac{1}{3} \\Rightarrow$ کوچک‌ترین زاویه تقریباً $19^\\circ 30'$ است (ادامه در صفحه بعد)."
+      ],
+      "answer": "$x = n\\pi + (-1)^n\\frac{\\pi}{6}$ و $x = n\\pi + (-1)^n\\theta$ با $\\sin\\theta = \\frac{1}{3}$ ($\\theta \\approx 19^\\circ 28'$)",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب زاویهٔ $\\sin x = \\frac{1}{3}$ را از جدول $19^\\circ 30'$ گرفته است؛ قیمت دقیق‌تر حدود $19.47^\\circ \\approx 19^\\circ 28'$ است. در فهرست کتاب عنوان این درس با غلط چاپی «مثالثاتی» آمده؛ اینجا عنوان خود درس به کار رفته است."
+}

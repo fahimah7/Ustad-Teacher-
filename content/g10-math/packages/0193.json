@@ -1,0 +1,77 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 193,
+  "printed_page": 186,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "نسبت‌های مثلثاتی دو زاویه‌یی که مجموعه‌شان $90^\\circ$ یا $\\frac{\\pi}{2}$ رادیان باشد",
+  "summary_fa": "این صفحه تمرین درس زوایای متمم و زاویه‌های $\\frac{\\pi}{2} \\pm \\theta$ است و چهار سوال دارد: پیدا کردن همهٔ نسبت‌های $135^\\circ$ و $150^\\circ$، و دو سوال چهارگزینه‌ای دربارهٔ $\\sin(\\frac{\\pi}{2} - x)$ و $\\cot(\\frac{\\pi}{2} + \\theta)$. برای دو سوال اول بهتر است زاویه را به شکل $90^\\circ + \\alpha$ بنویسیم ($135^\\circ = 90^\\circ + 45^\\circ$ و $150^\\circ = 90^\\circ + 60^\\circ$) و از جدول خلاصهٔ صفحهٔ قبل استفاده کنیم؛ نام هر نسبت به هم‌نام آن تبدیل می‌شود و علامه از ربع دوم تعیین می‌گردد (فقط sin و csc مثبت). جواب‌ها را می‌توان با روش $180^\\circ - \\alpha$ نیز امتحان کرد.",
+  "key_points_fa": [
+    "$135^\\circ = 90^\\circ + 45^\\circ$ و $150^\\circ = 90^\\circ + 60^\\circ$ هر دو در ربع دوم‌اند.",
+    "$\\sin(90^\\circ + \\alpha) = \\cos\\alpha$، $\\cos(90^\\circ + \\alpha) = -\\sin\\alpha$، $\\tan(90^\\circ + \\alpha) = -\\cot\\alpha$.",
+    "$\\sin(\\frac{\\pi}{2} - x) = \\cos x$.",
+    "$\\cot(\\frac{\\pi}{2} + \\theta) = -\\tan\\theta$."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\left(\\frac{\\pi}{2} - x\\right) = \\cos x", "meaning_fa": "قاعدهٔ زوایای متمم"},
+    {"latex": "\\cot\\left(\\frac{\\pi}{2} + \\theta\\right) = -\\tan\\theta", "meaning_fa": "cot زاویه‌ای که $90^\\circ$ از $\\theta$ بیشتر است"}
+  ],
+  "terms": [
+    {"fa": "زوایای متمم", "en": "complementary angles"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $135^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$135^\\circ = 90^\\circ + 45^\\circ$",
+        "$\\sin 135^\\circ = \\cos 45^\\circ = \\frac{\\sqrt{2}}{2}$، $\\cos 135^\\circ = -\\sin 45^\\circ = -\\frac{\\sqrt{2}}{2}$",
+        "$\\tan 135^\\circ = -\\cot 45^\\circ = -1$، $\\cot 135^\\circ = -\\tan 45^\\circ = -1$",
+        "$\\sec 135^\\circ = -\\csc 45^\\circ = -\\sqrt{2}$، $\\csc 135^\\circ = \\sec 45^\\circ = \\sqrt{2}$"
+      ],
+      "answer": "$\\sin = \\frac{\\sqrt{2}}{2}$، $\\cos = -\\frac{\\sqrt{2}}{2}$، $\\tan = \\cot = -1$، $\\sec = -\\sqrt{2}$، $\\csc = \\sqrt{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $150^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$150^\\circ = 90^\\circ + 60^\\circ$",
+        "$\\sin 150^\\circ = \\cos 60^\\circ = \\frac{1}{2}$، $\\cos 150^\\circ = -\\sin 60^\\circ = -\\frac{\\sqrt{3}}{2}$",
+        "$\\tan 150^\\circ = -\\cot 60^\\circ = -\\frac{\\sqrt{3}}{3}$، $\\cot 150^\\circ = -\\tan 60^\\circ = -\\sqrt{3}$",
+        "$\\sec 150^\\circ = -\\csc 60^\\circ = -\\frac{2\\sqrt{3}}{3}$، $\\csc 150^\\circ = \\sec 60^\\circ = 2$"
+      ],
+      "answer": "$\\sin = \\frac{1}{2}$، $\\cos = -\\frac{\\sqrt{3}}{2}$، $\\tan = -\\frac{\\sqrt{3}}{3}$، $\\cot = -\\sqrt{3}$، $\\sec = -\\frac{2\\sqrt{3}}{3}$، $\\csc = 2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(\\frac{\\pi}{2} - x) = ?$ گزینه‌ها: a) $\\cos x$ b) $\\sin x$ c) $-\\cos x$ d) $-\\sin x$",
+      "solution_steps_fa": [
+        "$x$ و $\\frac{\\pi}{2} - x$ زوایای متمم‌اند؛ sin هر کدام برابر cos دیگری است و علامه تغییر نمی‌کند."
+      ],
+      "answer": "a) $\\cos x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "$\\cot(\\frac{\\pi}{2} + \\theta) = ?$ گزینه‌ها: a) $\\tan\\theta$ b) $-\\tan\\theta$ c) $\\cot\\theta$ d) $-\\cot\\theta$",
+      "solution_steps_fa": [
+        "$\\cot(\\frac{\\pi}{2} + \\theta) = \\frac{\\cos(\\frac{\\pi}{2} + \\theta)}{\\sin(\\frac{\\pi}{2} + \\theta)} = \\frac{-\\sin\\theta}{\\cos\\theta} = -\\tan\\theta$"
+      ],
+      "answer": "b) $-\\tan\\theta$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

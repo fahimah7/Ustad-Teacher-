@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-math",
+  "chapter": 4,
+  "title": {
+    "en": "Sequences and series",
+    "fa": "ترادف‌ها و سلسله‌ها"
+  },
+  "questions": [
+    {
+      "pdf_page": 133,
+      "q": {
+        "en": "Find the 20th term of the arithmetic sequence $3, 7, 11, \\dots$",
+        "fa": "حد بیستم ترادف حسابی $3, 7, 11, \\dots$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$83$",
+          "fa": "$83$"
+        },
+        {
+          "en": "$80$",
+          "fa": "$80$"
+        },
+        {
+          "en": "$79$",
+          "fa": "$79$"
+        },
+        {
+          "en": "$76$",
+          "fa": "$76$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$a_1 = 3$ and $d = 4$, so $a_{20} = a_1 + (n-1)d = 3 + 19 \\cdot 4 = 79$.",
+        "fa": "$a_1 = 3$ و $d = 4$ است، پس $a_{20} = a_1 + (n-1)d = 3 + 19 \\cdot 4 = 79$."
+      },
+      "idea": {
+        "en": "The coefficient of $d$ is one less than the term number: use $n - 1 = 19$, not $20$.",
+        "fa": "ضریب $d$ یکی کمتر از شمارهٔ حد است: $n - 1 = 19$ را به کار ببرید، نه $20$ را."
+      }
+    },
+    {
+      "pdf_page": 140,
+      "q": {
+        "en": "Find the 6th term of the geometric sequence $3, 6, 12, \\dots$",
+        "fa": "حد ششم ترادف هندسی $3, 6, 12, \\dots$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$96$",
+          "fa": "$96$"
+        },
+        {
+          "en": "$192$",
+          "fa": "$192$"
+        },
+        {
+          "en": "$48$",
+          "fa": "$48$"
+        },
+        {
+          "en": "$18$",
+          "fa": "$18$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$a_1 = 3$ and $q = \\frac{6}{3} = 2$, so $a_6 = a_1 q^{5} = 3 \\cdot 32 = 96$.",
+        "fa": "$a_1 = 3$ و $q = \\frac{6}{3} = 2$ است، پس $a_6 = a_1 q^{5} = 3 \\cdot 32 = 96$."
+      },
+      "idea": {
+        "en": "In a geometric sequence you multiply by $q$: $a_n = a_1 q^{n-1}$, and the power is one less than the term number.",
+        "fa": "در ترادف هندسی در $q$ ضرب می‌کنیم: $a_n = a_1 q^{n-1}$، و توان یکی کمتر از شمارهٔ حد است."
+      }
+    },
+    {
+      "pdf_page": 147,
+      "q": {
+        "en": "Find the sum of the first 10 terms of the arithmetic series $5 + 8 + 11 + \\dots$",
+        "fa": "مجموع ۱۰ حد اول سلسلهٔ حسابی $5 + 8 + 11 + \\dots$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$32$",
+          "fa": "$32$"
+        },
+        {
+          "en": "$370$",
+          "fa": "$370$"
+        },
+        {
+          "en": "$200$",
+          "fa": "$200$"
+        },
+        {
+          "en": "$185$",
+          "fa": "$185$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$a_1 = 5$ and $d = 3$, so $S_{10} = \\frac{10}{2}[2 \\cdot 5 + 9 \\cdot 3] = 5 \\cdot 37 = 185$.",
+        "fa": "$a_1 = 5$ و $d = 3$ است، پس $S_{10} = \\frac{10}{2}[2 \\cdot 5 + 9 \\cdot 3] = 5 \\cdot 37 = 185$."
+      },
+      "idea": {
+        "en": "Use $S_n = \\frac{n}{2}[2a_1 + (n-1)d]$; keep the factor $\\frac{n}{2}$, and note that $32$ is only the 10th term.",
+        "fa": "از $S_n = \\frac{n}{2}[2a_1 + (n-1)d]$ کار بگیرید؛ ضریب $\\frac{n}{2}$ را فراموش نکنید، و $32$ فقط حد دهم است."
+      }
+    },
+    {
+      "pdf_page": 150,
+      "q": {
+        "en": "Find the sum of the first 5 terms of the geometric sequence $1, 3, 9, \\dots$",
+        "fa": "مجموع ۵ حد اول ترادف هندسی $1, 3, 9, \\dots$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$81$",
+          "fa": "$81$"
+        },
+        {
+          "en": "$121$",
+          "fa": "$121$"
+        },
+        {
+          "en": "$242$",
+          "fa": "$242$"
+        },
+        {
+          "en": "$364$",
+          "fa": "$364$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$a_1 = 1$ and $q = 3$: $S_5 = \\frac{a_1(q^5 - 1)}{q - 1} = \\frac{243 - 1}{2} = 121$ (check: $1 + 3 + 9 + 27 + 81 = 121$).",
+        "fa": "$a_1 = 1$ و $q = 3$: $S_5 = \\frac{a_1(q^5 - 1)}{q - 1} = \\frac{243 - 1}{2} = 121$ (امتحان: $1 + 3 + 9 + 27 + 81 = 121$)."
+      },
+      "idea": {
+        "en": "Use $S_n = \\frac{a_1(q^n - 1)}{q - 1}$ and divide by $q - 1 = 2$; $81$ is only the 5th term.",
+        "fa": "از $S_n = \\frac{a_1(q^n - 1)}{q - 1}$ کار بگیرید و بر $q - 1 = 2$ تقسیم کنید؛ $81$ فقط حد پنجم است."
+      }
+    },
+    {
+      "pdf_page": 152,
+      "q": {
+        "en": "Which infinite geometric series has a finite sum?",
+        "fa": "کدام سلسلهٔ هندسی لایتناهی مجموع معین دارد؟"
+      },
+      "options": [
+        {
+          "en": "$1 + 3 + 9 + 27 + \\dots$",
+          "fa": "$1 + 3 + 9 + 27 + \\dots$"
+        },
+        {
+          "en": "$2 - 2 + 2 - 2 + \\dots$",
+          "fa": "$2 - 2 + 2 - 2 + \\dots$"
+        },
+        {
+          "en": "$8 + 4 + 2 + 1 + \\dots$",
+          "fa": "$8 + 4 + 2 + 1 + \\dots$"
+        },
+        {
+          "en": "$1 + 1 + 1 + 1 + \\dots$",
+          "fa": "$1 + 1 + 1 + 1 + \\dots$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Only $8 + 4 + 2 + 1 + \\dots$ has $|q| = \\frac{1}{2} < 1$, so it is convergent with $S_\\infty = \\frac{8}{1 - \\frac{1}{2}} = 16$. The others have $|q| \\ge 1$.",
+        "fa": "فقط $8 + 4 + 2 + 1 + \\dots$ دارای $|q| = \\frac{1}{2} < 1$ است، پس متقارب است و $S_\\infty = \\frac{8}{1 - \\frac{1}{2}} = 16$. سلسله‌های دیگر $|q| \\ge 1$ دارند."
+      },
+      "idea": {
+        "en": "Find $q$ by dividing a term by the term before it; the series is convergent only when $|q| < 1$.",
+        "fa": "$q$ را با تقسیم یک حد بر حد قبلی آن دریافت کنید؛ سلسله فقط وقتی متقارب است که $|q| < 1$ باشد."
+      }
+    }
+  ]
+}

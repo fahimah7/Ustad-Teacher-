@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-phys",
+  "chapter": 5,
+  "title": {
+    "en": "Work, mechanical energy and power",
+    "fa": "کار، انرژی میخانیکی و طاقت"
+  },
+  "questions": [
+    {
+      "pdf_page": 142,
+      "q": {
+        "en": "A box is pulled $5\\,\\mathrm{m}$ across a horizontal floor by a horizontal rope, and kinetic friction acts on it. Which statement about the work of the forces on the box is correct?",
+        "fa": "صندوقی با یک ریسمان افقی $5\\,\\mathrm{m}$ روی سطح افقی کش می‌شود و قوۀ اصطکاک حرکی بر آن اثر دارد. کدام جمله دربارۀ کار قوه‌های وارد بر صندوق درست است؟"
+      },
+      "options": [
+        {
+          "en": "The weight does negative work and friction does zero work",
+          "fa": "کار وزن منفی و کار اصطکاک صفر است"
+        },
+        {
+          "en": "The normal force does positive work because it holds the box up",
+          "fa": "کار قوۀ عمودی مثبت است، چون صندوق را بالا نگه می‌دارد"
+        },
+        {
+          "en": "The weight does zero work and friction does negative work",
+          "fa": "کار وزن صفر و کار اصطکاک منفی است"
+        },
+        {
+          "en": "Friction does positive work because it acts on the box during the motion",
+          "fa": "کار اصطکاک مثبت است، چون در مدت حرکت بر صندوق اثر دارد"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$W = F\\,d\\cos\\theta$. The weight and the normal force are perpendicular to the displacement ($\\theta = 90^\\circ$), so their work is zero; friction is opposite to the motion ($\\theta = 180^\\circ$), so its work is $-f\\,d$.",
+        "fa": "$W = F\\,d\\cos\\theta$ است. وزن و قوۀ عمودی بر تغییر مکان عمود اند ($\\theta = 90^\\circ$)، پس کار آن‌ها صفر است؛ اصطکاک مخالف حرکت است ($\\theta = 180^\\circ$)، پس کار آن $-f\\,d$ است."
+      },
+      "idea": {
+        "en": "Look at the angle between each force and the displacement: less than $90^\\circ$ gives positive work, exactly $90^\\circ$ gives zero work, more than $90^\\circ$ gives negative work.",
+        "fa": "زاویۀ بین هر قوه و تغییر مکان را ببینید: کمتر از $90^\\circ$ کار مثبت، دقیقاً $90^\\circ$ کار صفر و بیشتر از $90^\\circ$ کار منفی می‌دهد."
+      }
+    },
+    {
+      "pdf_page": 145,
+      "q": {
+        "en": "A car of mass $1000\\,\\mathrm{kg}$ moving at $36\\,\\mathrm{km/h}$ brakes and stops. Using the work-energy theorem, what is the work done by the friction (brake) force?",
+        "fa": "موتری به کتلۀ $1000\\,\\mathrm{kg}$ با سرعت $36\\,\\mathrm{km/h}$ حرکت می‌کند، برک می‌گیرد و می‌ایستد. با قضیۀ کار و انرژی، کار قوۀ اصطکاک (برک) چند است؟"
+      },
+      "options": [
+        {
+          "en": "$-5\\times10^{4}\\,\\mathrm{J}$",
+          "fa": "$-5\\times10^{4}\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$+5\\times10^{4}\\,\\mathrm{J}$",
+          "fa": "$+5\\times10^{4}\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$-6.48\\times10^{5}\\,\\mathrm{J}$",
+          "fa": "$-6.48\\times10^{5}\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$-1\\times10^{5}\\,\\mathrm{J}$",
+          "fa": "$-1\\times10^{5}\\,\\mathrm{J}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$36\\,\\mathrm{km/h} = 10\\,\\mathrm{m/s}$. $W = k_2 - k_1 = 0 - \\frac{1}{2} \\times 1000 \\times 10^2 = -5\\times10^{4}\\,\\mathrm{J}$; the work is negative because the car slows down.",
+        "fa": "$36\\,\\mathrm{km/h} = 10\\,\\mathrm{m/s}$ است. $W = k_2 - k_1 = 0 - \\frac{1}{2} \\times 1000 \\times 10^2 = -5\\times10^{4}\\,\\mathrm{J}$؛ کار منفی است چون سرعت موتر کم می‌شود."
+      },
+      "idea": {
+        "en": "Change the speed to m/s first, use $\\frac{1}{2}mv^2$ (with the $\\frac{1}{2}$), and remember that the work equals the final minus the initial kinetic energy.",
+        "fa": "اول سرعت را به m/s تبدیل کنید، $\\frac{1}{2}mv^2$ را (با $\\frac{1}{2}$) به کار ببرید و به یاد داشته باشید که کار = انرژی حرکی آخر منفی انرژی حرکی اول."
+      }
+    },
+    {
+      "pdf_page": 148,
+      "q": {
+        "en": "A spring with constant $k = 200\\,\\mathrm{N/m}$ is stretched $10\\,\\mathrm{cm}$ from its natural length. How much work is done on the spring (the energy stored in it)?",
+        "fa": "فنری با ثابت $k = 200\\,\\mathrm{N/m}$ به اندازۀ $10\\,\\mathrm{cm}$ از طول عادی خود کش می‌شود. کار انجام‌شده بر فنر (انرژی ذخیره‌شده در آن) چند است؟"
+      },
+      "options": [
+        {
+          "en": "$10^{4}\\,\\mathrm{J}$",
+          "fa": "$10^{4}\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$20\\,\\mathrm{J}$",
+          "fa": "$20\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$2\\,\\mathrm{J}$",
+          "fa": "$2\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$1\\,\\mathrm{J}$",
+          "fa": "$1\\,\\mathrm{J}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$x = 10\\,\\mathrm{cm} = 0.1\\,\\mathrm{m}$, so $W = \\frac{1}{2}k\\,x^2 = \\frac{1}{2} \\times 200 \\times 0.1^2 = 1\\,\\mathrm{J}$.",
+        "fa": "$x = 10\\,\\mathrm{cm} = 0.1\\,\\mathrm{m}$ است، پس $W = \\frac{1}{2}k\\,x^2 = \\frac{1}{2} \\times 200 \\times 0.1^2 = 1\\,\\mathrm{J}$."
+      },
+      "idea": {
+        "en": "The spring force grows from $0$ to $kx$, so the work uses the average force: $W = \\frac{1}{2}kx^2$. Put $x$ in metres; $kx = 20\\,\\mathrm{N}$ is a force, not work.",
+        "fa": "قوۀ فنر از صفر تا $kx$ زیاد می‌شود، پس کار با قوۀ اوسط حساب می‌شود: $W = \\frac{1}{2}kx^2$. $x$ را به متر بگذارید؛ $kx = 20\\,\\mathrm{N}$ قوه است، نه کار."
+      }
+    },
+    {
+      "pdf_page": 150,
+      "q": {
+        "en": "A ball is thrown straight up at $8\\,\\mathrm{m/s}$ from a point $1\\,\\mathrm{m}$ above the ground ($g = 10\\,\\mathrm{m/s^2}$, no air resistance). Using conservation of mechanical energy, how high above the ground does it rise?",
+        "fa": "توپی از نقطه‌یی به ارتفاع $1\\,\\mathrm{m}$ از زمین با سرعت $8\\,\\mathrm{m/s}$ عمودی به طرف بالا پرتاب می‌شود ($g = 10\\,\\mathrm{m/s^2}$، بدون مقاومت هوا). با قانون تحفظ انرژی میخانیکی، توپ تا چه ارتفاعی از زمین بالا می‌رود؟"
+      },
+      "options": [
+        {
+          "en": "$3.2\\,\\mathrm{m}$",
+          "fa": "$3.2\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$4.2\\,\\mathrm{m}$",
+          "fa": "$4.2\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$7.4\\,\\mathrm{m}$",
+          "fa": "$7.4\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$1.8\\,\\mathrm{m}$",
+          "fa": "$1.8\\,\\mathrm{m}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "At the highest point $K = 0$: $\\frac{1}{2}mv^2 + mgh_1 = mgh_2$, so $h_2 = h_1 + \\frac{v^2}{2g} = 1 + \\frac{64}{20} = 4.2\\,\\mathrm{m}$. The mass cancels.",
+        "fa": "در بلندترین نقطه $K = 0$ است: $\\frac{1}{2}mv^2 + mgh_1 = mgh_2$، پس $h_2 = h_1 + \\frac{v^2}{2g} = 1 + \\frac{64}{20} = 4.2\\,\\mathrm{m}$. کتله از دو طرف حذف می‌شود."
+      },
+      "idea": {
+        "en": "The ball rises $\\frac{v^2}{2g} = 3.2\\,\\mathrm{m}$ above the launch point; add the starting height to get the height above the ground.",
+        "fa": "توپ $\\frac{v^2}{2g} = 3.2\\,\\mathrm{m}$ بالاتر از نقطۀ پرتاب می‌رود؛ برای ارتفاع از زمین، ارتفاع اولی را هم جمع کنید."
+      }
+    },
+    {
+      "pdf_page": 152,
+      "q": {
+        "en": "Two students each lift an identical $30\\,\\mathrm{kg}$ box through $2\\,\\mathrm{m}$ at constant speed ($g = 10\\,\\mathrm{m/s^2}$). Student A takes $4\\,\\mathrm{s}$ and student B takes $6\\,\\mathrm{s}$. Which statement is correct?",
+        "fa": "دو شاگرد هر کدام یک صندوق $30\\,\\mathrm{kg}$ را با سرعت ثابت $2\\,\\mathrm{m}$ بالا می‌برند ($g = 10\\,\\mathrm{m/s^2}$). شاگرد A این کار را در $4\\,\\mathrm{s}$ و شاگرد B در $6\\,\\mathrm{s}$ انجام می‌دهد. کدام جمله درست است؟"
+      },
+      "options": [
+        {
+          "en": "A does more work than B because A is faster",
+          "fa": "A کار بیشتر از B انجام می‌دهد، چون تیزتر است"
+        },
+        {
+          "en": "Both do $600\\,\\mathrm{J}$ of work, so their power is the same",
+          "fa": "هر دو $600\\,\\mathrm{J}$ کار انجام می‌دهند، پس طاقت شان مساوی است"
+        },
+        {
+          "en": "Both do $600\\,\\mathrm{J}$ of work, and A's power is $150\\,\\mathrm{W}$",
+          "fa": "هر دو $600\\,\\mathrm{J}$ کار انجام می‌دهند و طاقت A مساوی $150\\,\\mathrm{W}$ است"
+        },
+        {
+          "en": "Both do $600\\,\\mathrm{J}$ of work, and A's power is $100\\,\\mathrm{W}$",
+          "fa": "هر دو $600\\,\\mathrm{J}$ کار انجام می‌دهند و طاقت A مساوی $100\\,\\mathrm{W}$ است"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The work is the same for both: $W = mgh = 30 \\times 10 \\times 2 = 600\\,\\mathrm{J}$. Power is work divided by time: $P_A = \\frac{600\\,\\mathrm{J}}{4\\,\\mathrm{s}} = 150\\,\\mathrm{W}$ (and $P_B = 100\\,\\mathrm{W}$).",
+        "fa": "کار هر دو یکسان است: $W = mgh = 30 \\times 10 \\times 2 = 600\\,\\mathrm{J}$. طاقت کار تقسیم بر زمان است: $P_A = \\frac{600\\,\\mathrm{J}}{4\\,\\mathrm{s}} = 150\\,\\mathrm{W}$ (و $P_B = 100\\,\\mathrm{W}$)."
+      },
+      "idea": {
+        "en": "Work does not depend on how fast it is done, but power does. The same work in less time means more power: $P = \\frac{W}{t}$.",
+        "fa": "کار به تیزی انجام آن وابسته نیست، ولی طاقت وابسته است. کار یکسان در زمان کمتر یعنی طاقت بیشتر: $P = \\frac{W}{t}$."
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 182,
+  "printed_page": 173,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "تبدیل قاعدهٔ لوگاریتم به قاعدهٔ دیگر",
+  "summary_fa": "در اینجا ثبوت قانون هشتم تمام می‌شود: از $x = (a^n)^{\\frac{m}{n}}$ لوگاریتم به قاعدهٔ $a^n$ گرفته می‌شود و $\\log_{a^n}x = \\frac{m}{n}$ به دست می‌آید؛ با گذاشتن $m = \\log_a x$ قانون $\\log_{a^n}x = \\frac1n\\log_a x$ ثابت می‌شود. از این قانون سه نتیجه گرفته می‌شود: وقتی هم قاعده و هم عدد توان دارند، توان عدد در صورت و توان قاعده در مخرج ضریب قرار می‌گیرد؛ معکوس کردن هم‌زمان قاعده و عدد قیمت لوگاریتم را تغییر نمی‌دهد؛ و توان مساوی در قاعده و عدد حذف می‌شود. یک فعالیت ثبوت این نتایج را می‌خواهد. دو مثال ($\\log_{25}125$ و $\\log_{1/\\sqrt[3]{3}}27^2$) با نوشتن قاعده و عدد به شکل توان یک عدد اولیه حل شده‌اند و فعالیت آخر ساده کردن دو لوگاریتم را می‌خواهد.",
+  "key_points_fa": [
+    "$\\log_{a^n} x^m = \\frac{m}{n}\\log_a x$: توان عدد به صورت و توان قاعده به مخرج می‌رود.",
+    "$\\log_{\\frac1n}\\frac1x = \\log_n x$: معکوس کردن قاعده و عدد با هم، جواب را تغییر نمی‌دهد.",
+    "$\\log_{a^n} x^n = \\log_a x$: توان مساوی در قاعده و عدد حذف می‌شود.",
+    "برای حل، قاعده و عدد را به توان‌هایی از یک عدد اولیه تبدیل کنید، مانند $25 = 5^2$ و $\\frac{1}{\\sqrt[3]{3}} = 3^{-\\frac13}$."
+  ],
+  "formulas": [
+    {"latex": "\\log_{a^n} x = \\frac{1}{n}\\log_a x", "meaning_fa": "قانون هشتم"},
+    {"latex": "\\log_{a^n} x^m = \\frac{m}{n}\\log_a x", "meaning_fa": "نتیجهٔ ۱: توان عدد و توان قاعده هر دو ضریب می‌شوند"},
+    {"latex": "\\log_{\\frac{1}{n}} \\frac{1}{x} = \\log_n x", "meaning_fa": "نتیجهٔ ۲: معکوس کردن قاعده و عدد با هم"},
+    {"latex": "\\log_{a^n} x^n = \\log_a x", "meaning_fa": "نتیجهٔ ۳: توان‌های مساوی حذف می‌شوند"}
+  ],
+  "terms": [
+    {"fa": "قاعده", "en": "base"},
+    {"fa": "ثبوت", "en": "proof"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت قانون هشتم (پایان)",
+      "problem_fa": "ادامهٔ ثبوت $\\log_{a^n} x = \\frac1n\\log_a x$ از $x = (a^n)^{\\frac{m}{n}}$ که در آن $m = \\log_a x$.",
+      "steps_fa": [
+        "از دو طرف لوگاریتم به قاعدهٔ $a^n$ می‌گیریم: $\\log_{a^n}x = \\frac{m}{n} = \\frac1n \\cdot m$",
+        "به جای m قیمت آن را می‌گذاریم: $\\log_{a^n}x = \\frac1n\\log_a x$"
+      ],
+      "answer": "$\\log_{a^n}x = \\frac1n\\log_a x$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\log_{25}125$ را حساب کنید.",
+      "steps_fa": [
+        "$25 = 5^2$ و $125 = 5^3$، پس $\\log_{25}125 = \\log_{5^2}5^3$",
+        "با نتیجهٔ ۱: $\\log_{5^2}5^3 = \\frac32\\log_5 5 = \\frac32 \\cdot 1$"
+      ],
+      "answer": "$\\frac{3}{2}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\log_{\\frac{1}{\\sqrt[3]{3}}}(27)^2$ را حساب کنید.",
+      "steps_fa": [
+        "$27^2 = (3^3)^2 = 3^6$ و $\\frac{1}{\\sqrt[3]{3}} = 3^{-\\frac13}$",
+        "با نتیجهٔ ۱: $\\log_{3^{-\\frac13}}3^6 = \\frac{6}{-\\frac13}\\log_3 3 = 6 \\cdot (-3) \\cdot 1$"
+      ],
+      "answer": "$-18$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "سه نتیجهٔ قانون هشتم را ثبوت کنید.",
+      "solution_steps_fa": [
+        "نتیجهٔ ۱: با قانون هشتم $\\log_{a^n}x^m = \\frac1n\\log_a x^m$، و چون $\\log_a x^m = m\\log_a x$، داریم $\\log_{a^n}x^m = \\frac{m}{n}\\log_a x$.",
+        "نتیجهٔ ۲: $\\frac1n = n^{-1}$ و $\\frac1x = x^{-1}$؛ با نتیجهٔ ۱: $\\log_{n^{-1}}x^{-1} = \\frac{-1}{-1}\\log_n x = \\log_n x$.",
+        "نتیجهٔ ۳: در نتیجهٔ ۱ قرار می‌دهیم $m = n$: $\\log_{a^n}x^n = \\frac{n}{n}\\log_a x = \\log_a x$."
+      ],
+      "answer": "هر سه نتیجه از قانون هشتم و قانون توان ($\\log_a x^m = m\\log_a x$) به دست می‌آیند.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲ (a)",
+      "kind": "activity",
+      "problem_fa": "$\\log_3 6$ را با خاصیت‌های لوگاریتم ساده کنید.",
+      "solution_steps_fa": [
+        "$6 = 3 \\cdot 2$، پس $\\log_3 6 = \\log_3 3 + \\log_3 2$",
+        "$\\log_3 3 = 1$، پس $\\log_3 6 = 1 + \\log_3 2$",
+        "(به قیمت تقریبی: $\\log_3 2 \\approx 0.631$، پس $\\log_3 6 \\approx 1.631$)"
+      ],
+      "answer": "$1 + \\log_3 2 \\approx 1.631$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲ (b)",
+      "kind": "activity",
+      "problem_fa": "$\\log_8\\sqrt[3]{4}$ را ساده کنید.",
+      "solution_steps_fa": [
+        "$8 = 2^3$ و $\\sqrt[3]{4} = 2^{\\frac23}$",
+        "با نتیجهٔ ۱: $\\log_{2^3}2^{\\frac23} = \\frac{\\frac23}{3}\\log_2 2 = \\frac29$"
+      ],
+      "answer": "$\\frac{2}{9}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

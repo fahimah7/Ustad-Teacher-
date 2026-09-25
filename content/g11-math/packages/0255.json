@@ -1,0 +1,176 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 255,
+  "printed_page": 246,
+  "page_kind": "review",
+  "chapter": 6,
+  "section_fa": "تمرین فصل ششم",
+  "summary_fa": "این صفحه بخش دوم تمرین فصل ششم است و هشت سوال تشریحی دارد که همهٔ فصل متریکس‌ها را مرور می‌کنند: ترکیب خطی دو متریکس ($3A - 2B$)، ضرب دو متریکس با اندازه‌های مختلف و مقایسهٔ AB با BA، نشان دادن خاصیت اشتراکی و توزیع‌پذیری ضرب متریکس‌ها، حساب یک دیترمینانت $3 \\times 3$ به روش مختصر (ساروس)، دریافت معکوس یک متریکس $2 \\times 2$، و حل سیستم معادلات با سه روش فصل: قاعدهٔ کرامر، طریقهٔ گاوس و معکوس متریکس.",
+  "key_points_fa": [
+    "جمع، تفریق و ضرب در عدد عنصر به عنصر انجام می‌شوند.",
+    "ضرب متریکس $2 \\times 3$ در $3 \\times 2$ یک متریکس $2 \\times 2$ می‌دهد و ضرب برعکس یک متریکس $3 \\times 3$؛ پس $AB \\neq BA$.",
+    "خاصیت اشتراکی: $(AB)C = A(BC)$؛ توزیع‌پذیری: $A(B + C) = AB + AC$.",
+    "سیستم متجانس با $|A| \\neq 0$ فقط حل صفر دارد.",
+    "پیش از ساختن متریکس، عددهای ثابت را به طرف راست معادله ببرید (مثلاً $3x + y + 1 = 0$ می‌شود $3x + y = -1$)."
+  ],
+  "formulas": [
+    {"latex": "A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}", "meaning_fa": "معکوس متریکس $2 \\times 2$"},
+    {"latex": "x = \\frac{|A_x|}{|A|},\\ y = \\frac{|A_y|}{|A|},\\ z = \\frac{|A_z|}{|A|}", "meaning_fa": "قاعدهٔ کرامر"},
+    {"latex": "X = A^{-1}B", "meaning_fa": "حل سیستم با معکوس متریکس"}
+  ],
+  "terms": [
+    {"fa": "خاصیت اشتراکی", "en": "associative property"},
+    {"fa": "خاصیت توزیع‌پذیری", "en": "distributive property"},
+    {"fa": "قاعدهٔ کرامر", "en": "Cramer's rule"},
+    {"fa": "طریقهٔ حذفی گاوس", "en": "Gaussian elimination"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "برای $A = \\begin{pmatrix} 1 & 3 \\\\ 0 & 4 \\end{pmatrix}$ و $B = \\begin{pmatrix} -5 & 1 \\\\ 2 & 3 \\end{pmatrix}$ حساب کنید: (a) $3A - 2B$ (b) $-4A + 3B$",
+      "solution_steps_fa": [
+        "(a) $3A = \\begin{pmatrix} 3 & 9 \\\\ 0 & 12 \\end{pmatrix}$ و $2B = \\begin{pmatrix} -10 & 2 \\\\ 4 & 6 \\end{pmatrix}$ پس $3A - 2B = \\begin{pmatrix} 13 & 7 \\\\ -4 & 6 \\end{pmatrix}$",
+        "(b) $-4A = \\begin{pmatrix} -4 & -12 \\\\ 0 & -16 \\end{pmatrix}$ و $3B = \\begin{pmatrix} -15 & 3 \\\\ 6 & 9 \\end{pmatrix}$ پس $-4A + 3B = \\begin{pmatrix} -19 & -9 \\\\ 6 & -7 \\end{pmatrix}$"
+      ],
+      "answer": "(a) $\\begin{pmatrix} 13 & 7 \\\\ -4 & 6 \\end{pmatrix}$ (b) $\\begin{pmatrix} -19 & -9 \\\\ 6 & -7 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "برای $A = \\begin{pmatrix} 1 & 0 & 2 \\\\ -1 & 0 & 3 \\end{pmatrix}$ و $B = \\begin{pmatrix} 2 & 0 \\\\ -1 & 3 \\\\ 2 & -1 \\end{pmatrix}$، AB و BA را حساب کنید. آیا $AB = BA$ است؟",
+      "solution_steps_fa": [
+        "$AB$ ($2 \\times 2$): $\\begin{pmatrix} 2 + 0 + 4 & 0 + 0 - 2 \\\\ -2 + 0 + 6 & 0 + 0 - 3 \\end{pmatrix} = \\begin{pmatrix} 6 & -2 \\\\ 4 & -3 \\end{pmatrix}$",
+        "$BA$ ($3 \\times 3$): $\\begin{pmatrix} 2 & 0 & 4 \\\\ -4 & 0 & 7 \\\\ 3 & 0 & 1 \\end{pmatrix}$",
+        "دو متریکس حتی اندازهٔ یکسان ندارند، پس مساوی نیستند."
+      ],
+      "answer": "$AB = \\begin{pmatrix} 6 & -2 \\\\ 4 & -3 \\end{pmatrix}$، $BA = \\begin{pmatrix} 2 & 0 & 4 \\\\ -4 & 0 & 7 \\\\ 3 & 0 & 1 \\end{pmatrix}$؛ $AB \\neq BA$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "برای $A = \\begin{pmatrix} 2 & 4 \\\\ 0 & 1 \\end{pmatrix}$، $B = \\begin{pmatrix} 3 & 4 \\\\ -2 & 2 \\end{pmatrix}$، $C = \\begin{pmatrix} -2 & 4 \\\\ 0 & -1 \\end{pmatrix}$ خاصیت اشتراکی و توزیع‌پذیری ضرب را نشان دهید.",
+      "solution_steps_fa": [
+        "$AB = \\begin{pmatrix} -2 & 16 \\\\ -2 & 2 \\end{pmatrix}$ و $(AB)C = \\begin{pmatrix} 4 & -24 \\\\ 4 & -10 \\end{pmatrix}$",
+        "$BC = \\begin{pmatrix} -6 & 8 \\\\ 4 & -10 \\end{pmatrix}$ و $A(BC) = \\begin{pmatrix} 4 & -24 \\\\ 4 & -10 \\end{pmatrix}$؛ پس $(AB)C = A(BC)$",
+        "$B + C = \\begin{pmatrix} 1 & 8 \\\\ -2 & 1 \\end{pmatrix}$ و $A(B + C) = \\begin{pmatrix} -6 & 20 \\\\ -2 & 1 \\end{pmatrix}$",
+        "$AC = \\begin{pmatrix} -4 & 4 \\\\ 0 & -1 \\end{pmatrix}$ و $AB + AC = \\begin{pmatrix} -6 & 20 \\\\ -2 & 1 \\end{pmatrix}$؛ پس $A(B + C) = AB + AC$"
+      ],
+      "answer": "$(AB)C = A(BC) = \\begin{pmatrix} 4 & -24 \\\\ 4 & -10 \\end{pmatrix}$ و $A(B + C) = AB + AC = \\begin{pmatrix} -6 & 20 \\\\ -2 & 1 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "دیترمینانت $\\begin{vmatrix} 1 & 2 & -1 \\\\ 1 & 0 & 2 \\\\ 2 & 1 & 1 \\end{vmatrix}$ را به شکل مختصر حساب کنید.",
+      "solution_steps_fa": [
+        "روش ساروس، قطرهای پایین‌رونده: $1 \\cdot 0 \\cdot 1 + 2 \\cdot 2 \\cdot 2 + (-1) \\cdot 1 \\cdot 1 = 0 + 8 - 1 = 7$",
+        "قطرهای بالارونده: $(-1) \\cdot 0 \\cdot 2 + 1 \\cdot 2 \\cdot 1 + 1 \\cdot 1 \\cdot 2 = 0 + 2 + 2 = 4$",
+        "$|A| = 7 - 4 = 3$"
+      ],
+      "answer": "$|A| = 3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "معکوس متریکس $M = \\begin{pmatrix} 2 & -5 \\\\ 3 & -9 \\end{pmatrix}$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$|M| = 2(-9) - (-5)(3) = -18 + 15 = -3$",
+        "$\\mathrm{Adj}\\,M = \\begin{pmatrix} -9 & 5 \\\\ -3 & 2 \\end{pmatrix}$",
+        "$M^{-1} = -\\frac{1}{3}\\begin{pmatrix} -9 & 5 \\\\ -3 & 2 \\end{pmatrix} = \\begin{pmatrix} 3 & -\\frac{5}{3} \\\\ 1 & -\\frac{2}{3} \\end{pmatrix}$",
+        "امتحان: $M \\cdot M^{-1} = \\begin{pmatrix} 6 - 5 & -\\frac{10}{3} + \\frac{10}{3} \\\\ 9 - 9 & -5 + 6 \\end{pmatrix} = I$"
+      ],
+      "answer": "$M^{-1} = \\begin{pmatrix} 3 & -\\frac{5}{3} \\\\ 1 & -\\frac{2}{3} \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶ (a)",
+      "kind": "exercise",
+      "problem_fa": "سیستم $2x + y + z = 6$، $x - 2y + 2z = 10$، $3x - y - z = 4$ را به طریقهٔ کرامر حل کنید.",
+      "solution_steps_fa": [
+        "$|A| = \\begin{vmatrix} 2 & 1 & 1 \\\\ 1 & -2 & 2 \\\\ 3 & -1 & -1 \\end{vmatrix} = (4 + 6 - 1) - (-6 - 4 - 1) = 9 + 11 = 20$",
+        "$|A_x| = \\begin{vmatrix} 6 & 1 & 1 \\\\ 10 & -2 & 2 \\\\ 4 & -1 & -1 \\end{vmatrix} = 40$ پس $x = 2$",
+        "$|A_y| = \\begin{vmatrix} 2 & 6 & 1 \\\\ 1 & 10 & 2 \\\\ 3 & 4 & -1 \\end{vmatrix} = -20$ پس $y = -1$",
+        "$|A_z| = \\begin{vmatrix} 2 & 1 & 6 \\\\ 1 & -2 & 10 \\\\ 3 & -1 & 4 \\end{vmatrix} = 60$ پس $z = 3$",
+        "امتحان: $4 - 1 + 3 = 6$، $2 + 2 + 6 = 10$، $6 + 1 - 3 = 4$"
+      ],
+      "answer": "$x = 2,\\ y = -1,\\ z = 3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶ (b)",
+      "kind": "exercise",
+      "problem_fa": "سیستم $x_1 - 2x_2 = 4$ و $2x_1 + 4x_2 = 5$ را به طریقهٔ کرامر حل کنید.",
+      "solution_steps_fa": [
+        "$|A| = \\begin{vmatrix} 1 & -2 \\\\ 2 & 4 \\end{vmatrix} = 4 + 4 = 8$",
+        "$|A_{x_1}| = \\begin{vmatrix} 4 & -2 \\\\ 5 & 4 \\end{vmatrix} = 16 + 10 = 26$ پس $x_1 = \\frac{26}{8} = \\frac{13}{4}$",
+        "$|A_{x_2}| = \\begin{vmatrix} 1 & 4 \\\\ 2 & 5 \\end{vmatrix} = 5 - 8 = -3$ پس $x_2 = -\\frac{3}{8}$",
+        "امتحان: $\\frac{13}{4} + \\frac{3}{4} = 4$ و $\\frac{13}{2} - \\frac{3}{2} = 5$"
+      ],
+      "answer": "$x_1 = \\frac{13}{4},\\ x_2 = -\\frac{3}{8}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷ (a)",
+      "kind": "exercise",
+      "problem_fa": "سیستم $2x - 3y + 3z = 0$، $3x + 2y - 5z = 0$، $5x - 4y - 2z = 0$ را به طریقهٔ گاوس حل کنید.",
+      "solution_steps_fa": [
+        "متریکس ضرایب (ستون ثابت‌ها همه صفر است): $\\begin{pmatrix} 2 & -3 & 3 \\\\ 3 & 2 & -5 \\\\ 5 & -4 & -2 \\end{pmatrix}$",
+        "$-3R_1 + 2R_2 \\to R_2$: $(0,\\ 13,\\ -19)$؛ $-5R_1 + 2R_3 \\to R_3$: $(0,\\ 7,\\ -19)$",
+        "$-7R_2 + 13R_3 \\to R_3$: $(0,\\ 0,\\ -114)$ پس $-114z = 0 \\Rightarrow z = 0$",
+        "بعد $13y = 0 \\Rightarrow y = 0$ و $2x = 0 \\Rightarrow x = 0$"
+      ],
+      "answer": "$x = y = z = 0$ (تنها حل؛ دیترمینانت $-57 \\neq 0$ است)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷ (b)",
+      "kind": "exercise",
+      "problem_fa": "سیستم $2x + 3y - 7 = 1$ و $2y + 27 = -2$ را به طریقهٔ گاوس حل کنید (همان‌طور که چاپ شده).",
+      "solution_steps_fa": [
+        "ثابت‌ها را به طرف راست می‌بریم: $2x + 3y = 8$ و $0x + 2y = -29$",
+        "متریکس افزوده $\\left(\\begin{array}{cc|c} 2 & 3 & 8 \\\\ 0 & 2 & -29 \\end{array}\\right)$ از قبل مثلثی است.",
+        "سطر دوم: $y = -\\frac{29}{2}$",
+        "سطر اول: $2x + 3\\left(-\\frac{29}{2}\\right) = 8 \\Rightarrow 2x = \\frac{103}{2} \\Rightarrow x = \\frac{103}{4}$"
+      ],
+      "answer": "$x = \\frac{103}{4},\\ y = -\\frac{29}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸ (a)",
+      "kind": "exercise",
+      "problem_fa": "سیستم $3x + y + 1 = 0$ و $4x + 3y - 2 = 0$ را با معکوس متریکس حل کنید.",
+      "solution_steps_fa": [
+        "به شکل استندرد: $3x + y = -1$ و $4x + 3y = 2$",
+        "$|A| = 9 - 4 = 5$ و $A^{-1} = \\frac{1}{5}\\begin{pmatrix} 3 & -1 \\\\ -4 & 3 \\end{pmatrix}$",
+        "$X = \\frac{1}{5}\\begin{pmatrix} 3(-1) - 1(2) \\\\ -4(-1) + 3(2) \\end{pmatrix} = \\frac{1}{5}\\begin{pmatrix} -5 \\\\ 10 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix}$",
+        "امتحان: $-3 + 2 + 1 = 0$ و $-4 + 6 - 2 = 0$"
+      ],
+      "answer": "$x = -1,\\ y = 2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸ (b)",
+      "kind": "exercise",
+      "problem_fa": "سیستم $x - y = 2$ و $x + 2y = -1$ را با معکوس متریکس حل کنید.",
+      "solution_steps_fa": [
+        "$A = \\begin{pmatrix} 1 & -1 \\\\ 1 & 2 \\end{pmatrix}$، $|A| = 2 + 1 = 3$",
+        "$A^{-1} = \\frac{1}{3}\\begin{pmatrix} 2 & 1 \\\\ -1 & 1 \\end{pmatrix}$",
+        "$X = \\frac{1}{3}\\begin{pmatrix} 2(2) + 1(-1) \\\\ -1(2) + 1(-1) \\end{pmatrix} = \\frac{1}{3}\\begin{pmatrix} 3 \\\\ -3 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$",
+        "امتحان: $1 - (-1) = 2$ و $1 + 2(-1) = -1$"
+      ],
+      "answer": "$x = 1,\\ y = -1$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "سوال ۷ (b) در کتاب به شکل «$2x + 3y - 7 = 1$، $2y + 27 = -2$» چاپ شده که به احتمال زیاد اشتباه چاپی دارد (شاید z یا x از قلم افتاده)؛ همان‌طور که چاپ شده حل شد و جواب آن اعداد کسری غیر عادی دارد. کتاب کلمهٔ «Gouse» را برای گاوس به کار برده است. بقیهٔ جواب‌ها با Python امتحان شدند."
+}

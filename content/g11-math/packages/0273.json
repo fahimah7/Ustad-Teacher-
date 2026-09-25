@@ -1,0 +1,97 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 273,
+  "printed_page": 264,
+  "page_kind": "exercises",
+  "chapter": 7,
+  "section_fa": "حاصل ضرب سکالری دو وکتور",
+  "summary_fa": "صفحه با ختم مثال ۶ آغاز می‌شود: حاصل ضرب سکالری دو ضلع $\\overrightarrow{AB}$ و $\\overrightarrow{BC}$ صفر است، پس این دو ضلع بر هم عمود هستند و مثلث در رأس B قایم‌الزاویه است. سپس تمرین درس حاصل ضرب سکالری با سه سوال آمده است: (۱) نشان دادن این‌که مرتسم (تصویر) یک وکتور روی وکتورهای واحد $\\vec{i}$، $\\vec{j}$، $\\vec{k}$ همان مؤلفه‌های آن هستند؛ (۲) ثبوت قانون کوساین و فورمول تصویر ضلع‌ها در هر مثلث با کمک وکتورها؛ (۳) ثبوت فورمول $\\cos(\\alpha - \\beta)$ با حاصل ضرب سکالری دو وکتور واحد. این تمرین‌ها نشان می‌دهند که حاصل ضرب سکالری ابزار قوی برای ثبوت قضیه‌های هندسه و مثلثات است.",
+  "key_points_fa": [
+    "اگر حاصل ضرب سکالری دو ضلع مثلث صفر باشد، زاویهٔ بین آن‌ها قایمه است.",
+    "مرتسم وکتور $\\vec{v}$ روی وکتور واحد $\\vec{e}$ برابر $\\vec{v}\\cdot\\vec{e}$ است.",
+    "$|\\vec{a} - \\vec{b}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 - 2\\,\\vec{a}\\cdot\\vec{b}$ اساس ثبوت قانون کوساین است.",
+    "دو وکتور واحد با زاویه‌های $\\alpha$ و $\\beta$ نسبت به محور x، مؤلفه‌های $(\\cos\\alpha, \\sin\\alpha)$ و $(\\cos\\beta, \\sin\\beta)$ دارند."
+  ],
+  "formulas": [
+    {"latex": "a^2 = b^2 + c^2 - 2bc\\cos A", "meaning_fa": "قانون کوساین در مثلث ABC"},
+    {"latex": "a = b\\cos C + c\\cos B", "meaning_fa": "فورمول تصویر: یک ضلع برابر مجموع تصویرهای دو ضلع دیگر روی آن"},
+    {"latex": "\\cos(\\alpha - \\beta) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta", "meaning_fa": "فورمول کوساین تفاضل دو زاویه"}
+  ],
+  "terms": [
+    {"fa": "مرتسم (تصویر) وکتور", "en": "projection of a vector"},
+    {"fa": "قانون کوساین", "en": "law of cosines"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۶ (ادامه)",
+      "problem_fa": "ختم ثبوت این‌که $\\overrightarrow{AB} = 2\\vec{i}-\\vec{j}+\\vec{k}$ و $\\overrightarrow{BC} = \\vec{i}-3\\vec{j}-5\\vec{k}$ ضلع‌های یک مثلث قایم‌الزاویه هستند.",
+      "steps_fa": [
+        "برای قایم‌الزاویه بودن، باید $\\overrightarrow{AB}\\cdot\\overrightarrow{BC} = 0$ شود.",
+        "$\\overrightarrow{AB}\\cdot\\overrightarrow{BC} = (2)(1) + (-1)(-3) + (1)(-5) = 2 + 3 - 5 = 0$",
+        "پس $\\overrightarrow{AB} \\perp \\overrightarrow{BC}$."
+      ],
+      "answer": "زاویهٔ B قایمه است؛ مثلث قایم‌الزاویه است.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید که مرتسم‌های وکتور $\\vec{v} = a\\vec{i}+b\\vec{j}+c\\vec{k}$ در امتداد وکتورهای واحد $\\vec{i}$، $\\vec{j}$ و $\\vec{k}$ به ترتیب $a$، $b$ و $c$ هستند.",
+      "solution_steps_fa": [
+        "مرتسم $\\vec{v}$ روی یک وکتور واحد $\\vec{e}$ برابر $|\\vec{v}|\\cos\\theta = \\vec{v}\\cdot\\vec{e}$ است، چون $|\\vec{e}| = 1$.",
+        "$\\vec{v}\\cdot\\vec{i} = a(\\vec{i}\\cdot\\vec{i}) + b(\\vec{j}\\cdot\\vec{i}) + c(\\vec{k}\\cdot\\vec{i}) = a \\cdot 1 + 0 + 0 = a$",
+        "به همین ترتیب $\\vec{v}\\cdot\\vec{j} = b$ و $\\vec{v}\\cdot\\vec{k} = c$."
+      ],
+      "answer": "مرتسم‌ها به ترتیب $a$، $b$ و $c$ هستند.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (i)",
+      "kind": "exercise",
+      "problem_fa": "برای هر مثلث ABC نشان دهید که $a^2 = b^2 + c^2 - 2bc\\cos A$.",
+      "solution_steps_fa": [
+        "$\\vec{b} = \\overrightarrow{AC}$ و $\\vec{c} = \\overrightarrow{AB}$ می‌گیریم؛ زاویهٔ بین آن‌ها A است و $|\\vec{b}| = b$، $|\\vec{c}| = c$.",
+        "$\\overrightarrow{BC} = \\overrightarrow{AC} - \\overrightarrow{AB} = \\vec{b} - \\vec{c}$ و $|\\overrightarrow{BC}| = a$.",
+        "$a^2 = (\\vec{b} - \\vec{c})\\cdot(\\vec{b} - \\vec{c}) = \\vec{b}\\cdot\\vec{b} - 2\\,\\vec{b}\\cdot\\vec{c} + \\vec{c}\\cdot\\vec{c}$",
+        "$= b^2 + c^2 - 2bc\\cos A$"
+      ],
+      "answer": "$a^2 = b^2 + c^2 - 2bc\\cos A$ ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (ii)",
+      "kind": "exercise",
+      "problem_fa": "برای هر مثلث ABC نشان دهید که $a = b\\cos C + c\\cos B$.",
+      "solution_steps_fa": [
+        "$\\overrightarrow{BC} = \\overrightarrow{BA} + \\overrightarrow{AC}$؛ دو طرف را در $\\overrightarrow{BC}$ ضرب سکالری می‌کنیم:",
+        "$a^2 = \\overrightarrow{BA}\\cdot\\overrightarrow{BC} + \\overrightarrow{AC}\\cdot\\overrightarrow{BC}$",
+        "زاویهٔ بین $\\overrightarrow{BA}$ و $\\overrightarrow{BC}$ زاویهٔ B است: $\\overrightarrow{BA}\\cdot\\overrightarrow{BC} = ca\\cos B$",
+        "$\\overrightarrow{AC}\\cdot\\overrightarrow{BC} = \\overrightarrow{CA}\\cdot\\overrightarrow{CB}$ (هر دو علامت منفی می‌شوند) و زاویهٔ بین آن‌ها C است: $= ba\\cos C$",
+        "$a^2 = ac\\cos B + ab\\cos C$؛ دو طرف را بر $a$ تقسیم می‌کنیم: $a = c\\cos B + b\\cos C$"
+      ],
+      "answer": "$a = b\\cos C + c\\cos B$ ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "ثبوت کنید که $\\cos(\\alpha - \\beta) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta$.",
+      "solution_steps_fa": [
+        "دو وکتور واحد در مستوی می‌گیریم که با محور x زاویه‌های $\\alpha$ و $\\beta$ می‌سازند: $\\vec{u} = \\cos\\alpha\\,\\vec{i} + \\sin\\alpha\\,\\vec{j}$ و $\\vec{v} = \\cos\\beta\\,\\vec{i} + \\sin\\beta\\,\\vec{j}$.",
+        "زاویهٔ بین آن‌ها $\\alpha - \\beta$ است و $|\\vec{u}| = |\\vec{v}| = 1$، پس از تعریف: $\\vec{u}\\cdot\\vec{v} = \\cos(\\alpha - \\beta)$.",
+        "از فورمول مؤلفه‌یی: $\\vec{u}\\cdot\\vec{v} = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta$.",
+        "دو نتیجه را مساوی قرار می‌دهیم."
+      ],
+      "answer": "$\\cos(\\alpha - \\beta) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta$ ثابت شد.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در تمرین ۲، a، b و c طول ضلع‌های مقابل رأس‌های A، B و C هستند. در تمرین ۳ اگر $\\alpha - \\beta$ از $180^\\circ$ بیشتر یا منفی باشد، زاویهٔ بین وکتورها $|\\alpha - \\beta|$ یا $360^\\circ - |\\alpha - \\beta|$ است، ولی کوساین آن‌ها برابر است، پس نتیجه عمومی است."
+}

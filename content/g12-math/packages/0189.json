@@ -1,0 +1,68 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 189,
+  "printed_page": 182,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مشتق توابع معکوس مثلثاتی",
+  "summary_fa": "این صفحه ثبوت سه قاعدهٔ اول مشتق توابع معکوس مثلثاتی را می‌آورد. روش در هر سه یکی است: تابع را به شکل معکوس آن می‌نویسیم (مثلاً $y = \\arcsin x$ یعنی $x = \\sin y$)، مشتق x نسبت به y را حساب می‌کنیم و معکوس آن را می‌گیریم. بعد جواب را که بر حسب y است، با یک اتحاد مثلثاتی به x برمی‌گردانیم: برای $\\arcsin$ و $\\arccos$ از $\\sin^2 y + \\cos^2 y = 1$، و برای $\\arctan$ از تقسیم صورت و مخرج بر $\\cos^2 y$ که $1 + \\tan^2 y$ را می‌سازد. ثبوت چهارم ($\\text{arccot}$) در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "گام ۱: تابع معکوس را بنویسید، مثلاً $x = \\sin y$.",
+    "گام ۲: $y'_x = \\frac{1}{x'_y}$",
+    "گام ۳: جواب را با اتحاد $\\sin^2 y + \\cos^2 y = 1$ به x تبدیل کنید.",
+    "برای $\\arcsin$، $y$ بین $-\\frac{\\pi}{2}$ و $\\frac{\\pi}{2}$ است، پس $\\cos y \\ge 0$ و $\\cos y = \\sqrt{1-\\sin^2 y}$.",
+    "$\\frac{1}{\\cos^2 y} = 1 + \\tan^2 y = 1 + x^2$"
+  ],
+  "formulas": [
+    {"latex": "(\\arcsin x)' = \\frac{1}{\\cos y} = \\frac{1}{\\sqrt{1-x^2}}", "meaning_fa": "نتیجهٔ ثبوت ۱"},
+    {"latex": "(\\arccos x)' = \\frac{1}{-\\sin y} = -\\frac{1}{\\sqrt{1-x^2}}", "meaning_fa": "نتیجهٔ ثبوت ۲"},
+    {"latex": "(\\arctan x)' = \\cos^2 y = \\frac{1}{1+\\tan^2 y} = \\frac{1}{1+x^2}", "meaning_fa": "نتیجهٔ ثبوت ۳"}
+  ],
+  "terms": [
+    {"fa": "معکوس ساین", "en": "arcsine"},
+    {"fa": "معکوس کوساین", "en": "arccosine"},
+    {"fa": "معکوس تانجانت", "en": "arctangent"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت ۱",
+      "problem_fa": "ثابت کنید $(\\arcsin x)' = \\frac{1}{\\sqrt{1-x^2}}$",
+      "steps_fa": [
+        "$y = \\arcsin x \\Leftrightarrow x = \\sin y$",
+        "$y'_x = \\frac{1}{(\\sin y)'} = \\frac{1}{\\cos y}$",
+        "$\\cos y = \\sqrt{1-\\sin^2 y} = \\sqrt{1-x^2}$"
+      ],
+      "answer": "$(\\arcsin x)' = \\frac{1}{\\sqrt{1-x^2}}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت ۲",
+      "problem_fa": "ثابت کنید $(\\arccos x)' = -\\frac{1}{\\sqrt{1-x^2}}$",
+      "steps_fa": [
+        "$y = \\arccos x \\Leftrightarrow x = \\cos y$",
+        "$y'_x = \\frac{1}{(\\cos y)'} = \\frac{1}{-\\sin y}$",
+        "$\\sin y = \\sqrt{1-\\cos^2 y} = \\sqrt{1-x^2}$"
+      ],
+      "answer": "$(\\arccos x)' = -\\frac{1}{\\sqrt{1-x^2}}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت ۳",
+      "problem_fa": "ثابت کنید $(\\arctan x)' = \\frac{1}{1+x^2}$",
+      "steps_fa": [
+        "$y = \\arctan x \\Leftrightarrow x = \\tan y$",
+        "$y'_x = \\frac{1}{(\\tan y)'} = \\frac{1}{\\frac{1}{\\cos^2 y}} = \\cos^2 y = \\frac{\\cos^2 y}{\\sin^2 y + \\cos^2 y}$",
+        "صورت و مخرج را بر $\\cos^2 y$ تقسیم می‌کنیم: $= \\frac{1}{\\tan^2 y + 1} = \\frac{1}{1+x^2}$"
+      ],
+      "answer": "$(\\arctan x)' = \\frac{1}{1+x^2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "علامت مثبت جذر در ثبوت ۱ و ۲ به خاطر ساحهٔ قیمت‌های اصلی $\\arcsin$ و $\\arccos$ است؛ کتاب این را صریح نگفته است."
+}

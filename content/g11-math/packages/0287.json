@@ -1,0 +1,95 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 287,
+  "printed_page": 278,
+  "page_kind": "exercises",
+  "chapter": 7,
+  "section_fa": "تمرین فصل هفتم",
+  "summary_fa": "این صفحه دو تمرین آخر فصل هفتم را دارد. در تمرین ۸ مساحت متوازی الاضلاع از روی چهار رأس آن خواسته شده است: اول باید دید کدام دو ضلع از یک رأس شروع می‌شوند (مثلاً اگر $\\vec{AB}+\\vec{AC}=\\vec{AD}$ باشد، AB و AC ضلع‌های مجاور هستند)، بعد مساحت برابر $|\\vec{AB}\\times\\vec{AC}|$ است. در تمرین ۹ باید معلوم شود کدام وکتورها بالای هم عمود و کدام موازی‌اند: دو وکتور وقتی عمودند که حاصل ضرب سکالری آن‌ها صفر باشد، و وقتی موازی‌اند که یکی مضرب عددی دیگری باشد (یا حاصل ضرب وکتوری آن‌ها صفر شود).",
+  "key_points_fa": [
+    "مساحت متوازی الاضلاع $=|\\vec{AB}\\times\\vec{AC}|$ وقتی AB و AC ضلع‌های مجاور باشند.",
+    "برای پیدا کردن ضلع‌های مجاور، بررسی کنید که $\\vec{AB}+\\vec{AC}=\\vec{AD}$ است یا نه.",
+    "شرط عمود بودن: $\\vec{u}\\cdot\\vec{v}=0$.",
+    "شرط موازی بودن: $\\vec{w}=\\lambda\\vec{u}$ یا $\\vec{u}\\times\\vec{w}=\\vec{0}$."
+  ],
+  "formulas": [
+    {"latex": "\\vec{u}\\perp\\vec{v} \\iff \\vec{u}\\cdot\\vec{v}=0", "meaning_fa": "شرط عمود بودن دو وکتور"},
+    {"latex": "\\vec{u}\\parallel\\vec{w} \\iff \\vec{u}\\times\\vec{w}=\\vec{0}", "meaning_fa": "شرط موازی بودن دو وکتور"}
+  ],
+  "terms": [
+    {"fa": "وکتورهای عمود", "en": "perpendicular (orthogonal) vectors"},
+    {"fa": "وکتورهای موازی", "en": "parallel vectors"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۸ (i)",
+      "kind": "exercise",
+      "problem_fa": "مساحت متوازی الاضلاع با رأس‌های $A(0,0,0)$، $B(1,2,3)$، $C(2,-1,1)$ و $D(3,1,4)$.",
+      "solution_steps_fa": [
+        "$\\vec{AB}=(1,2,3)$، $\\vec{AC}=(2,-1,1)$ و $\\vec{AB}+\\vec{AC}=(3,1,4)=\\vec{AD}$؛ پس AB و AC ضلع‌های مجاورند.",
+        "$\\vec{AB}\\times\\vec{AC}=(2+3)i-(1-6)j+(-1-4)k=5i+5j-5k$",
+        "مساحت $=\\sqrt{25+25+25}=5\\sqrt{3}\\approx8.66$"
+      ],
+      "answer": "$5\\sqrt{3}\\approx8.66$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸ (ii)",
+      "kind": "exercise",
+      "problem_fa": "مساحت متوازی الاضلاع با رأس‌های $A(1,2,-1)$، $B(4,2,-3)$، $C(6,-5,2)$ و $D(9,-5,0)$.",
+      "solution_steps_fa": [
+        "$\\vec{AB}=(3,0,-2)$، $\\vec{AC}=(5,-7,3)$ و $\\vec{AB}+\\vec{AC}=(8,-7,1)=\\vec{AD}$؛ پس AB و AC ضلع‌های مجاورند.",
+        "$\\vec{AB}\\times\\vec{AC}=(0-14)i-(9+10)j+(-21-0)k=-14i-19j-21k$",
+        "مساحت $=\\sqrt{196+361+441}=\\sqrt{998}\\approx31.59$"
+      ],
+      "answer": "$\\sqrt{998}\\approx31.59$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸ (iii)",
+      "kind": "exercise",
+      "problem_fa": "مساحت متوازی الاضلاع با رأس‌های $A(1,-1,1)$، $B(-1,2,2)$، $C(-3,4,-5)$ و $D(-3,5,-4)$.",
+      "solution_steps_fa": [
+        "$\\vec{AB}=(-2,3,1)$، $\\vec{AC}=(-4,5,-6)$ و $\\vec{AD}=(-4,6,-5)$.",
+        "این بار $\\vec{AB}+\\vec{AC}=(-6,8,-5)\\ne\\vec{AD}$؛ این چهار نقطه با هیچ ترتیبی متوازی الاضلاع نمی‌سازند (حتی در یک مستوی هم نیستند)، پس احتمالاً در چاپ اشتباه شده است.",
+        "با همان روش (i) و (ii)، متوازی الاضلاعی را که AB و AC ضلع‌های مجاور آن باشند می‌گیریم: $\\vec{AB}\\times\\vec{AC}=(-18-5)i-(12+4)j+(-10+12)k=-23i-16j+2k$",
+        "مساحت $=\\sqrt{529+256+4}=\\sqrt{789}\\approx28.09$"
+      ],
+      "answer": "با ضلع‌های AB و AC: $\\sqrt{789}\\approx28.09$ (نقاط داده شده دقیقاً متوازی الاضلاع نمی‌سازند)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹ (i)",
+      "kind": "exercise",
+      "problem_fa": "کدام وکتورها بالای هم عمود و کدام موازی‌اند؟ $\\vec{u}=5i-j+k$، $\\vec{v}=j-5k$، $\\vec{w}=-15i+3j-3k$.",
+      "solution_steps_fa": [
+        "$\\vec{u}\\cdot\\vec{v}=0-1-5=-6\\ne0$",
+        "$\\vec{u}\\cdot\\vec{w}=-75-3-3=-81\\ne0$",
+        "$\\vec{v}\\cdot\\vec{w}=0+3+15=18\\ne0$؛ پس هیچ دو وکتوری عمود نیستند.",
+        "$\\vec{w}=-3(5i-j+k)=-3\\vec{u}$؛ پس $\\vec{u}$ و $\\vec{w}$ موازی (با جهت مخالف) هستند. $\\vec{v}$ با هیچ‌کدام موازی نیست."
+      ],
+      "answer": "فقط $\\vec{u}\\parallel\\vec{w}$ (چون $\\vec{w}=-3\\vec{u}$)؛ هیچ جوره‌یی عمود نیست.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹ (ii)",
+      "kind": "exercise",
+      "problem_fa": "کدام وکتورها بالای هم عمود و کدام موازی‌اند؟ $\\vec{u}=i+2j-k$، $\\vec{v}=i+j+k$، $\\vec{w}=-\\frac{\\pi}{2}\\vec{i}+\\frac{\\pi}{2}\\vec{j}$.",
+      "solution_steps_fa": [
+        "$\\vec{u}\\cdot\\vec{v}=1+2-1=2\\ne0$",
+        "$\\vec{u}\\cdot\\vec{w}=-\\frac{\\pi}{2}+\\pi+0=\\frac{\\pi}{2}\\ne0$",
+        "$\\vec{v}\\cdot\\vec{w}=-\\frac{\\pi}{2}+\\frac{\\pi}{2}+0=0$؛ پس $\\vec{v}\\perp\\vec{w}$.",
+        "هیچ وکتوری مضرب عددی وکتور دیگر نیست، پس جوره‌یی موازی وجود ندارد."
+      ],
+      "answer": "$\\vec{v}\\perp\\vec{w}$؛ هیچ جوره‌یی موازی نیست.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "در تمرین ۸ (iii) چهار نقطهٔ داده شده متوازی الاضلاع نمی‌سازند (در یک مستوی هم نیستند)؛ احتمالاً مختصات D غلط چاپ شده است (برای الگوی (i) و (ii) باید $D=B+C-A=(-5,7,-4)$ باشد). جواب با ضلع‌های AB و AC داده شد."
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 415,
+  "printed_page": 408,
+  "page_kind": "content",
+  "chapter": 9,
+  "section_fa": "منطق ریاضی و استنتاج بیان",
+  "summary_fa": "این صفحه نفی بیان و جدول صحت را معرفی می‌کند. $\\sim P$ نفی بیان P است: اگر P درست باشد $\\sim P$ نادرست است و برعکس. جدولی که در آن درست یا نادرست بودن یک بیان در همهٔ حالت‌ها نوشته می‌شود، جدول صحت نام دارد. در مثال، برای بیان «مسکا شاگرد صنف دهم است» (P) جدول صحت ساخته می‌شود: نمی‌دانیم P درست است یا نه، پس هر دو حالت نوشته می‌شود؛ نفی آن «مسکا شاگرد صنف دهم نیست» است. بعد ترکیب بیان‌ها آغاز می‌شود. برای دو بیان p و q چهار ترکیب داریم: ترکیب عطفی $p \\wedge q$ (و)، ترکیب فصلی $p \\vee q$ (یا)، ترکیب مشروط $p \\Rightarrow q$ (اگر p پس q) و ترکیب مشروط دوطرفه $p \\Leftrightarrow q$ (p اگر و تنها اگر q). توضیح ترکیب دوطرفه در صفحهٔ بعد ادامه دارد.",
+  "key_points_fa": [
+    "$\\sim P$ نفی P است؛ قیمت صحت آن همیشه برعکس P است.",
+    "جدول صحت همهٔ حالت‌های درست (T) و نادرست (F) یک بیان را نشان می‌دهد.",
+    "$p \\wedge q$: ترکیب عطفی، «p و q».",
+    "$p \\vee q$: ترکیب فصلی، «p یا q».",
+    "$p \\Rightarrow q$: ترکیب مشروط، «اگر p پس q»؛ p شرط است و q از آن نتیجه می‌شود.",
+    "$p \\Leftrightarrow q$: ترکیب مشروط دوطرفه، «p اگر و تنها اگر q»."
+  ],
+  "formulas": [
+    {"latex": "P \\equiv T \\Rightarrow \\sim P \\equiv F,\\quad P \\equiv F \\Rightarrow \\sim P \\equiv T", "meaning_fa": "جدول صحت نفی یک بیان"},
+    {"latex": "p \\wedge q,\\quad p \\vee q,\\quad p \\Rightarrow q,\\quad p \\Leftrightarrow q", "meaning_fa": "چهار ترکیب اساسی دو بیان: و، یا، مشروط، مشروط دوطرفه"}
+  ],
+  "terms": [
+    {"fa": "نفی بیان", "en": "negation"},
+    {"fa": "جدول صحت", "en": "truth table"},
+    {"fa": "ترکیب بیان‌ها", "en": "compound statements"},
+    {"fa": "ترکیب عطفی", "en": "conjunction"},
+    {"fa": "ترکیب فصلی", "en": "disjunction"},
+    {"fa": "ترکیب مشروط", "en": "conditional (implication)"},
+    {"fa": "ترکیب مشروط دوطرفه", "en": "biconditional"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.17, 0.23, 0.27, 0.31], "kind": "table", "description_fa": "جدول صحت نفی: دو ستون P و $\\sim P$؛ سطر اول T و F، سطر دوم F و T. نشان می‌دهد که نفی همیشه برعکس بیان است."},
+    {"id": "fig2", "bbox": [0.36, 0.49, 0.45, 0.57], "kind": "table", "description_fa": "همان جدول صحت نفی (P: T، F و $\\sim P$: F، T) که برای بیان «مسکا شاگرد صنف دهم است» ساخته شده است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "جدول صحت بیان P = «مسکا شاگرد صنف دهم است» را ترتیب کنید.",
+      "steps_fa": [
+        "نمی‌دانیم P درست است یا نادرست، پس هر دو حالت را می‌نویسیم.",
+        "اگر $P \\equiv T$ باشد، نفی آن «مسکا شاگرد صنف دهم نیست» نادرست است: $\\sim P \\equiv F$.",
+        "اگر $P \\equiv F$ باشد، $\\sim P \\equiv T$ است.",
+        "جدول: P: T، F و $\\sim P$: F، T."
+      ],
+      "answer": "P: T، F — $\\sim P$: F، T",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب علامهٔ نفی را به شکل «~» می‌نویسد."
+}

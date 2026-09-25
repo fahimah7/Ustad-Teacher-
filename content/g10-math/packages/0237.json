@@ -1,0 +1,77 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 237,
+  "printed_page": 230,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی $2\\alpha$ از جنس $\\alpha$",
+  "summary_fa": "بالای صفحه حل مثال ۱ تمام می‌شود: با $\\sin\\theta = \\frac{4}{5}$ و $\\cos\\theta = -\\frac{3}{5}$، قیمت‌های sin، cos و tan زاویهٔ $2\\theta$ حساب می‌شوند. بعد یک فعالیت دو سوال مشابه دارد (یکی در ربع اول و یکی در ربع دوم). در مثال ۲ نسبت‌های $120^\\circ$ از روی نسبت‌های $60^\\circ$ به دست می‌آیند، چون $120^\\circ = 2 \\times 60^\\circ$. در پایان صفحه همین فورمول‌ها برای نصف زاویه بازنویسی می‌شوند: اگر $\\theta$ را دوچندِ $\\frac{\\theta}{2}$ بدانیم، $\\sin\\theta = 2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}$ است؛ ادامه در صفحهٔ بعد.",
+  "key_points_fa": [
+    "برای مسئله‌های زاویهٔ دوچند: اول نسبت دیگر ($\\sin$ یا $\\cos$) را با $\\sin^2 + \\cos^2 = 1$ و علامهٔ ربع پیدا کنید، بعد فورمول را به کار ببرید.",
+    "$\\tan 2\\theta$ را می‌توان از $\\frac{\\sin 2\\theta}{\\cos 2\\theta}$ یا از $\\frac{2\\tan\\theta}{1 - \\tan^2\\theta}$ حساب کرد.",
+    "$120^\\circ = 2 \\times 60^\\circ$، پس نسبت‌های آن از نسبت‌های $60^\\circ$ به دست می‌آیند.",
+    "هر زاویه دوچندِ نصف خودش است: $\\sin\\theta = 2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}$."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\theta = 2\\sin\\frac{\\theta}{2}\\cos\\frac{\\theta}{2}", "meaning_fa": "فورمول دوچند برای زاویهٔ $\\frac{\\theta}{2}$"},
+    {"latex": "\\tan 2\\alpha = \\frac{2\\tan\\alpha}{1 - \\tan^2\\alpha}", "meaning_fa": "tan زاویهٔ دوچند"}
+  ],
+  "terms": [
+    {"fa": "نصف زاویه", "en": "half angle"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (ادامه)",
+      "problem_fa": "$\\sin\\theta = \\frac{4}{5}$، $\\cos\\theta = -\\frac{3}{5}$ (ربع دوم). $\\sin 2\\theta$، $\\cos 2\\theta$ و $\\tan 2\\theta$ را دریابید.",
+      "steps_fa": [
+        "$\\sin 2\\theta = 2\\cdot\\frac{4}{5}\\cdot(-\\frac{3}{5}) = -\\frac{24}{25}$",
+        "$\\cos 2\\theta = (-\\frac{3}{5})^2 - (\\frac{4}{5})^2 = \\frac{9}{25} - \\frac{16}{25} = -\\frac{7}{25}$",
+        "$\\tan 2\\theta = \\frac{-\\frac{24}{25}}{-\\frac{7}{25}} = \\frac{24}{7}$"
+      ],
+      "answer": "$-\\frac{24}{25}$، $-\\frac{7}{25}$، $\\frac{24}{7}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "نسبت‌های مثلثاتی $120^\\circ$ را از جنس نسبت‌های $60^\\circ$ دریابید.",
+      "steps_fa": [
+        "$\\sin 120^\\circ = 2\\sin 60^\\circ\\cos 60^\\circ = 2\\cdot\\frac{\\sqrt{3}}{2}\\cdot\\frac{1}{2} = \\frac{\\sqrt{3}}{2}$",
+        "$\\cos 120^\\circ = \\cos^2 60^\\circ - \\sin^2 60^\\circ = \\frac{1}{4} - \\frac{3}{4} = -\\frac{1}{2}$",
+        "$\\tan 120^\\circ = \\frac{2\\tan 60^\\circ}{1 - \\tan^2 60^\\circ} = \\frac{2\\sqrt{3}}{1 - 3} = -\\sqrt{3}$"
+      ],
+      "answer": "$\\sin 120^\\circ = \\frac{\\sqrt{3}}{2}$، $\\cos 120^\\circ = -\\frac{1}{2}$، $\\tan 120^\\circ = -\\sqrt{3}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت (الف)",
+      "kind": "activity",
+      "problem_fa": "اگر $\\cos\\alpha = \\frac{4}{5}$ و ضلع دوم $\\alpha$ در ربع اول باشد، $\\tan 2\\alpha$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\sin\\alpha = \\sqrt{1 - \\frac{16}{25}} = \\frac{3}{5}$ (ربع اول، مثبت)",
+        "$\\tan\\alpha = \\frac{3/5}{4/5} = \\frac{3}{4}$",
+        "$\\tan 2\\alpha = \\frac{2\\cdot\\frac{3}{4}}{1 - \\frac{9}{16}} = \\frac{\\frac{3}{2}}{\\frac{7}{16}} = \\frac{24}{7}$"
+      ],
+      "answer": "$\\tan 2\\alpha = \\frac{24}{7}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (ب)",
+      "kind": "activity",
+      "problem_fa": "اگر $\\sin\\beta = \\frac{12}{13}$ و ضلع دوم $\\beta$ در ربع دوم باشد، $\\sin 2\\beta$ را دریابید.",
+      "solution_steps_fa": [
+        "در ربع دوم cos منفی است: $\\cos\\beta = -\\sqrt{1 - \\frac{144}{169}} = -\\frac{5}{13}$",
+        "$\\sin 2\\beta = 2\\cdot\\frac{12}{13}\\cdot(-\\frac{5}{13}) = -\\frac{120}{169}$"
+      ],
+      "answer": "$\\sin 2\\beta = -\\frac{120}{169}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

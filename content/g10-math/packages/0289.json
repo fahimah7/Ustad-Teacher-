@@ -1,0 +1,71 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 289,
+  "printed_page": 282,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "اعداد مختلط",
+  "summary_fa": "تمرین درس اول فصل اعداد مختلط. سؤال‌ها سه مهارت را تمرین می‌دهند: دریافت قیمت طاقت‌های $i$ با تقسیم توان بر ۴، نوشتن اعداد به شکل معیاری $a+bi$ و به شکل جورهٔ مرتب $(a,b)$، و شناختن قسمت حقیقی و جذر یک عدد منفی. دو سؤال آخر چهارجوابه اند.",
+  "key_points_fa": [
+    "برای $i^n$ باقی‌ماندهٔ n بر ۴ را پیدا کنید: ۰→$1$، ۱→$i$، ۲→$-1$، ۳→$-i$.",
+    "$(ki)^2=k^2i^2=-k^2$",
+    "$a+bi=(a,b)$؛ قسمت حقیقی عدد خالص موهومی صفر است."
+  ],
+  "formulas": [
+    {"latex": "i^{4n}=1,\\; i^{4n+1}=i,\\; i^{4n+2}=-1,\\; i^{4n+3}=-i", "meaning_fa": "قاعدهٔ طاقت‌های i"},
+    {"latex": "a+bi=(a,b)", "meaning_fa": "عدد مختلط به شکل جورهٔ مرتب"}
+  ],
+  "terms": [
+    {"fa": "شکل معیاری", "en": "standard form"},
+    {"fa": "جورهٔ مرتب", "en": "ordered pair"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "قیمت‌های $i^{-33}$، $i^{79}$، $i^{202}$، $(2i)^2$ و $(3i)^2$ را دریابید.",
+      "solution_steps_fa": ["$-33=4(-9)+3$ پس $i^{-33}=i^3=-i$", "$79=4\\cdot 19+3$ پس $i^{79}=-i$", "$202=4\\cdot 50+2$ پس $i^{202}=-1$", "$(2i)^2=4i^2=-4$", "$(3i)^2=9i^2=-9$"],
+      "answer": "$-i$، $-i$، $-1$، $-4$، $-9$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "به شکل معیاری بنویسید: $-i-4$، $5i$، $-4i+\\sqrt{2}$، $-3i$",
+      "solution_steps_fa": ["قسمت حقیقی را اول و قسمت موهومی را بعد می‌نویسیم؛ قسمت نبوده صفر است.", "$-i-4=-4-i$", "$5i=0+5i$", "$-4i+\\sqrt{2}=\\sqrt{2}-4i$", "$-3i=0-3i$"],
+      "answer": "$-4-i$، $0+5i$، $\\sqrt{2}-4i$، $0-3i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "اعداد مختلط $-3i$، $5+3i$، $7-i$ و $\\sqrt{5}-\\sqrt{7}i$ را به شکل جورهٔ مرتب بنویسید.",
+      "solution_steps_fa": ["$a+bi=(a,b)$", "$-3i=0-3i=(0,-3)$", "$5+3i=(5,3)$", "$7-i=(7,-1)$", "$\\sqrt{5}-\\sqrt{7}i=(\\sqrt{5},-\\sqrt{7})$"],
+      "answer": "$(0,-3)$، $(5,3)$، $(7,-1)$، $(\\sqrt{5},-\\sqrt{7})$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "question",
+      "problem_fa": "قسمت حقیقی عدد مختلط $-i$ مساوی کدام است؟ a) $1$ b) $-1$ c) $0$ d) $2$",
+      "solution_steps_fa": ["$-i=0-1i$، پس $a=0$."],
+      "answer": "c) $0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "question",
+      "problem_fa": "جذر $\\sqrt{-16}$ مساوی کدام است؟ a) $\\pm 4$ b) $-4$ c) $\\pm 4i$ d) $\\pm 2$",
+      "solution_steps_fa": ["$\\sqrt{-16}=\\sqrt{-1}\\cdot\\sqrt{16}=4i$", "مطابق مثال کتاب، هر دو جذر نوشته می‌شوند: $\\pm 4i$؛ چون $(4i)^2=(-4i)^2=-16$."],
+      "answer": "c) $\\pm 4i$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در سؤال ۳ بین $7-i$ و $\\sqrt{5}-\\sqrt{7}i$ یک علامت خراب (مربع) چاپ شده که به احتمال زیاد حرف «و» است."
+}

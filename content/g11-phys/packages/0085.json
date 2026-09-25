@@ -1,0 +1,71 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 85,
+  "printed_page": 76,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "تغییر مکان و سرعت متوسط",
+  "summary_fa": "این صفحه رابطه‌های سرعت متوسط در دو بعد را تمرین می‌کند. اول یک فعالیت گروهی از شاگردان می‌خواهد شکل (3-2) را تحلیل کنند و توضیح دهند چرا وکتور سرعت متوسط و وکتور تغییر مکان هم‌جهت اند. بعد یک مثال حل‌شده می‌آید: معادله‌های حرکت جسم $x = 2t$ و $y = -t^2 + 4t$ است؛ با گذاشتن $t = 1\\,\\mathrm{s}$ و $t = 2\\,\\mathrm{s}$ وکتورهای مکان به دست می‌آیند، بعد $\\Delta x$، $\\Delta y$ و $\\Delta t$ حساب شده، مرکبه‌های سرعت متوسط و اندازۀ آن با قضیۀ فیثاغورث پیدا می‌شود. در آخر یک تمرین مشابه برای حرکت یک خرگوش داده شده است. روش کار همیشه یکی است: مکان را در دو لحظه پیدا کن، تفاضل مرکبه‌ها را بگیر، بر مدت زمان تقسیم کن و اندازه را از جذر مجموع مربع‌ها به دست آور.",
+  "key_points_fa": [
+    "برای یافتن وکتور مکان در یک لحظه، t را در معادله‌های x و y بگذارید: $\\vec r = x\\,\\vec i + y\\,\\vec j$.",
+    "مرکبه‌های سرعت متوسط: $\\bar v_x = \\frac{\\Delta x}{\\Delta t}$ و $\\bar v_y = \\frac{\\Delta y}{\\Delta t}$.",
+    "اندازۀ سرعت متوسط: $|\\bar{\\vec v}| = \\sqrt{\\bar v_x^2 + \\bar v_y^2}$.",
+    "سرعت متوسط هم‌جهت تغییر مکان است، چون $\\Delta t$ عددی مثبت است."
+  ],
+  "formulas": [
+    {"latex": "\\bar v_x = \\frac{\\Delta x}{\\Delta t}, \\quad \\bar v_y = \\frac{\\Delta y}{\\Delta t}", "meaning_fa": "مرکبه‌های سرعت متوسط"},
+    {"latex": "|\\bar{\\vec v}| = \\sqrt{\\bar v_x^2 + \\bar v_y^2}", "meaning_fa": "اندازۀ وکتور سرعت متوسط"}
+  ],
+  "terms": [
+    {"fa": "وکتور مکان (موقعیت)", "en": "position vector"},
+    {"fa": "اندازۀ وکتور", "en": "magnitude of a vector"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "معادله‌های حرکت جسمی در دو بعد (SI): $x = 2t$ و $y = -t^2 + 4t$. a) وکتور مکان در $t_1 = 1\\,\\mathrm{s}$ و $t_2 = 2\\,\\mathrm{s}$؛ b) سرعت متوسط و اندازۀ آن بین این دو لحظه.",
+      "steps_fa": [
+        "a) در $t_1 = 1\\,\\mathrm{s}$: $x_1 = 2\\,\\mathrm{m}$ و $y_1 = -1 + 4 = 3\\,\\mathrm{m}$، پس $\\vec r_1 = 2\\,\\vec i + 3\\,\\vec j$",
+        "در $t_2 = 2\\,\\mathrm{s}$: $x_2 = 4\\,\\mathrm{m}$ و $y_2 = -4 + 8 = 4\\,\\mathrm{m}$، پس $\\vec r_2 = 4\\,\\vec i + 4\\,\\vec j$",
+        "b) $\\Delta x = 4 - 2 = 2\\,\\mathrm{m}$، $\\Delta y = 4 - 3 = 1\\,\\mathrm{m}$، $\\Delta t = 1\\,\\mathrm{s}$",
+        "$\\bar v_x = \\frac{2}{1} = 2\\,\\mathrm{m/s}$ و $\\bar v_y = \\frac{1}{1} = 1\\,\\mathrm{m/s}$، پس $\\bar{\\vec v} = 2\\,\\vec i + \\vec j$",
+        "$|\\bar{\\vec v}| = \\sqrt{2^2 + 1^2} = \\sqrt 5 \\approx 2.24\\,\\mathrm{m/s}$"
+      ],
+      "answer": "$\\vec r_1 = 2\\vec i + 3\\vec j$، $\\vec r_2 = 4\\vec i + 4\\vec j$؛ $\\bar{\\vec v} = 2\\vec i + \\vec j$، اندازه $\\sqrt 5 \\approx 2.24\\,\\mathrm{m/s}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "شکل (3-2) را در گروه‌ها تحلیل کنید و بگویید چرا وکتور سرعت متوسط با وکتور تغییر مکان هم‌جهت است.",
+      "solution_steps_fa": [
+        "طبق تعریف $\\bar{\\vec v} = \\frac{\\Delta \\vec r}{\\Delta t}$.",
+        "$\\Delta t = t_2 - t_1$ یک سکالر مثبت است (زمان همیشه پیش می‌رود).",
+        "ضرب یا تقسیم یک وکتور بر عدد مثبت فقط اندازۀ آن را تغییر می‌دهد، نه جهتش را؛ پس $\\bar{\\vec v}$ دقیقاً در جهت $\\Delta \\vec r$ (از A به B) است."
+      ],
+      "answer": "چون سرعت متوسط همان وکتور تغییر مکان تقسیم بر عدد مثبت $\\Delta t$ است و این تقسیم جهت را تغییر نمی‌دهد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین",
+      "kind": "exercise",
+      "problem_fa": "معادله‌های حرکت یک خرگوش در SI برای مدت کوتاه $x = 10t$ و $y = -2t^2$ است. سرعت متوسط آن را در انتروال ۰ تا ۲ ثانیه پیدا کنید.",
+      "solution_steps_fa": [
+        "در $t = 0$: $x = 0$ و $y = 0$؛ در $t = 2\\,\\mathrm{s}$: $x = 20\\,\\mathrm{m}$ و $y = -2(4) = -8\\,\\mathrm{m}$",
+        "$\\Delta x = 20\\,\\mathrm{m}$، $\\Delta y = -8\\,\\mathrm{m}$، $\\Delta t = 2\\,\\mathrm{s}$",
+        "$\\bar v_x = \\frac{20}{2} = 10\\,\\mathrm{m/s}$ و $\\bar v_y = \\frac{-8}{2} = -4\\,\\mathrm{m/s}$، پس $\\bar{\\vec v} = 10\\,\\vec i - 4\\,\\vec j$",
+        "اندازه: $\\sqrt{10^2 + 4^2} = \\sqrt{116} \\approx 10.8\\,\\mathrm{m/s}$"
+      ],
+      "answer": "$\\bar{\\vec v} = 10\\,\\vec i - 4\\,\\vec j\\ \\mathrm{m/s}$، اندازه حدود $10.8\\,\\mathrm{m/s}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب جواب اندازۀ سرعت متوسط در مثال را $2.23$ نوشته (قطع شده)؛ مقدار گردشده $\\sqrt 5 \\approx 2.24\\,\\mathrm{m/s}$ است."
+}

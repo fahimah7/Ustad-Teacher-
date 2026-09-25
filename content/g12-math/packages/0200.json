@@ -1,0 +1,67 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 200,
+  "printed_page": 193,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "انتیگرال‌های توابع لوگاریتمی",
+  "summary_fa": "این صفحه روش تعویض را با دو مثال نامعین و یک مثال معین ادامه می‌دهد. در مثال ۲ برای $e^{2x}$ تعویض $u = 2x$ به کار می‌رود و در آخر جواب با مشتق گرفتن امتحان می‌شود. در مثال ۳ برای $x\\ln x^2$ تعویض $u = x^2$ انتخاب می‌شود، چون $x\\,dx$ در انتیگرال موجود است و با $\\frac{1}{2}du$ عوض می‌شود؛ بعد از قاعدهٔ $\\int\\ln u\\,du = u\\ln u - u$ استفاده می‌شود. یادداشت دوم می‌گوید انتیگرال‌های معین هم با تعویض حل می‌شوند؛ نکتهٔ مهم این است که حدود انتیگرال (سرحدات) هم باید با همان تعویض به قیمت‌های u تبدیل شوند. در مثال معین، انتروال $[-1, 1]$ برای x به $[-2, 2]$ برای u تبدیل می‌شود.",
+  "key_points_fa": [
+    "تعویض خوب: u را طوری انتخاب کنید که مشتق آن (یا ضریبی از آن) در انتیگرال موجود باشد.",
+    "$\\int e^{kx}\\,dx = \\frac{1}{k}e^{kx} + C$",
+    "جواب انتیگرال نامعین را با مشتق گرفتن امتحان کنید.",
+    "در انتیگرال معین، سرحدات را هم با تعویض عوض کنید: $x = -1 \\to u = -2$ و $x = 1 \\to u = 2$"
+  ],
+  "formulas": [
+    {"latex": "\\int e^{2x}\\,dx = \\frac{1}{2}e^{2x} + C", "meaning_fa": "نتیجهٔ مثال ۲"},
+    {"latex": "\\int \\ln u\\,du = u\\ln u - u + C", "meaning_fa": "انتیگرال لوگاریتم طبیعی که در مثال ۳ به کار می‌رود"},
+    {"latex": "\\int_a^b f(g(x))g'(x)\\,dx = \\int_{g(a)}^{g(b)} f(u)\\,du", "meaning_fa": "تعویض در انتیگرال معین با تبدیل سرحدات"}
+  ],
+  "terms": [
+    {"fa": "انتیگرال معین", "en": "definite integral"},
+    {"fa": "امتحان", "en": "check"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "انتیگرال $f(x) = e^{2x}$ را پیدا کنید.",
+      "steps_fa": [
+        "$u = 2x$، $du = 2\\,dx$، پس $dx = \\frac{du}{2}$",
+        "$\\int e^{2x}\\,dx = \\frac{1}{2}\\int e^u\\,du = \\frac{1}{2}e^u + C = \\frac{1}{2}e^{2x} + C$",
+        "امتحان: $F'(x) = \\frac{1}{2}e^{2x}\\cdot 2 = e^{2x} = f(x)$"
+      ],
+      "answer": "$\\frac{1}{2}e^{2x} + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "انتیگرال $f(x) = x\\ln x^2$ را حساب کنید.",
+      "steps_fa": [
+        "$u = x^2$، $du = 2x\\,dx$، پس $x\\,dx = \\frac{1}{2}du$",
+        "$\\int x\\ln x^2\\,dx = \\frac{1}{2}\\int\\ln u\\,du = \\frac{1}{2}(u\\ln u - u) + C$",
+        "$= \\frac{1}{2}x^2\\ln x^2 - \\frac{1}{2}x^2 + C$"
+      ],
+      "answer": "$\\frac{1}{2}x^2\\ln x^2 - \\frac{1}{2}x^2 + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱ (انتیگرال معین)",
+      "problem_fa": "$\\int_{-1}^{1} e^{2x}\\,dx$",
+      "steps_fa": [
+        "$u = 2x$ و $dx = \\frac{1}{2}du$",
+        "سرحدات: $x = -1 \\Rightarrow u = -2$ و $x = 1 \\Rightarrow u = 2$",
+        "$\\int_{-1}^{1} e^{2x}\\,dx = \\frac{1}{2}\\int_{-2}^{2} e^u\\,du = \\frac{1}{2}\\left[e^u\\right]_{-2}^{2} = \\frac{1}{2}(e^2 - e^{-2})$",
+        "$\\approx \\frac{1}{2}(7.389 - 0.135) \\approx 3.627$"
+      ],
+      "answer": "$\\frac{e^2 - e^{-2}}{2} \\approx 3.627$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب قیمت عددی $\\frac{1}{2}(e^2 - e^{-2})$ را مستقیم ۳.۶۲۷ نوشته؛ گام میانی اضافه شده است."
+}

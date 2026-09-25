@@ -1,0 +1,56 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 163,
+  "printed_page": 154,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "مومنتم",
+  "summary_fa": "این صفحه حل دو تمرین صفحۀ قبل را می‌دهد. در هر دو، اول سرعت از کیلومتر فی ساعت به متر فی ثانیه تبدیل می‌شود، بعد اندازۀ مومنتم از $P = mV$ حساب می‌شود و سپس با $\\cos$ و $\\sin$ زاویه، مرکبه‌های x و y آن به دست می‌آید. در تمرین لاری، کتلۀ واگن هم به کتلۀ لاری جمع می‌شود. در تمرین طیاره، جهت جنوب شرق زاویۀ منفی (زیر محور x) دارد. نتیجۀ صفحه: مومنتم دقیقاً یک کمیت وکتوری است؛ برای شناختن کامل مومنتم یک جسم باید کتله، اندازۀ سرعت و جهت حرکت آن را بدانیم. همان‌طور که پیش از این وکتورهای تغییر مکان، سرعت، شتاب و قوه را جمع کردیم، وکتورهای مومنتم را هم می‌توان جمع کرد و وکتور محصله به دست آورد.",
+  "key_points_fa": [
+    "مراحل: تبدیل واحد سرعت ← $P = mV$ ← $P_x = P\\cos\\theta$ و $P_y = P\\sin\\theta$.",
+    "$72\\,\\mathrm{km/h} = 20\\,\\mathrm{m/s}$ و $900\\,\\mathrm{km/h} = 250\\,\\mathrm{m/s}$.",
+    "علامۀ مرکبه جهت آن را نشان می‌دهد: جنوب و غرب منفی، شمال و شرق مثبت.",
+    "برای شناختن کامل مومنتم: کتله، اندازۀ سرعت و جهت حرکت لازم است.",
+    "وکتورهای مومنتم مانند وکتورهای دیگر جمع می‌شوند و مومنتم محصله می‌دهند."
+  ],
+  "formulas": [
+    {"latex": "P_x = P\\cos\\theta,\\quad P_y = P\\sin\\theta", "meaning_fa": "مرکبه‌های مومنتم"},
+    {"latex": "1\\,\\mathrm{km/h} = \\frac{1000\\,\\mathrm{m}}{3600\\,\\mathrm{s}} = \\frac{1}{3.6}\\,\\mathrm{m/s}", "meaning_fa": "تبدیل کیلومتر فی ساعت به متر فی ثانیه"}
+  ],
+  "terms": [
+    {"fa": "وکتور محصله", "en": "resultant vector"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "حل a",
+      "problem_fa": "مرکبه‌های مومنتم لاری ($3000\\,\\mathrm{kg}$) با واگن ($1000\\,\\mathrm{kg}$) که با $72\\,\\mathrm{km/h}$ به زاویۀ $30^\\circ$ شمال شرق حرکت می‌کند.",
+      "steps_fa": [
+        "$\\theta = 30^\\circ$",
+        "$P = (3000 + 1000)\\,\\mathrm{kg}\\times 72\\,\\mathrm{km/h} = 4000\\,\\mathrm{kg}\\times 20\\,\\mathrm{m/s} = 8\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$",
+        "$P_x = 8\\times10^{4}\\times\\cos30^\\circ = 8\\times10^{4}\\times0.866 = 6.928\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$",
+        "$P_y = 8\\times10^{4}\\times\\sin30^\\circ = 8\\times10^{4}\\times0.5 = 4\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$"
+      ],
+      "answer": "$P_x = 6.928\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$، $P_y = 4\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "حل b",
+      "problem_fa": "مرکبه‌های مومنتم طیاره‌یی با کتلۀ $50000\\,\\mathrm{kg}$ و سرعت $900\\,\\mathrm{km/h}$ که به طرف جنوب شرق (سمت $135^\\circ$) پرواز می‌کند.",
+      "steps_fa": [
+        "جهت جنوب شرق با محور مثبت x (شرق) زاویۀ $-45^\\circ$ می‌سازد.",
+        "$P = 5\\times10^{4}\\,\\mathrm{kg}\\times\\frac{900\\times10^{3}\\,\\mathrm{m}}{3600\\,\\mathrm{s}} = 5\\times10^{4}\\times2.5\\times10^{2} = 1.25\\times10^{7}\\,\\mathrm{kg\\cdot m/s}$",
+        "$P_x = 1.25\\times10^{7}\\cos(-45^\\circ) = 1.25\\times10^{7}\\times0.707 \\approx 8.84\\times10^{6}\\,\\mathrm{kg\\cdot m/s}$",
+        "$P_y = 1.25\\times10^{7}\\sin(-45^\\circ) \\approx -8.84\\times10^{6}\\,\\mathrm{kg\\cdot m/s}$"
+      ],
+      "answer": "$P = 1.25\\times10^{7}\\,\\mathrm{kg\\cdot m/s}$؛ $P_x \\approx +8.84\\times10^{6}$ (شرق) و $P_y \\approx -8.84\\times10^{6}\\,\\mathrm{kg\\cdot m/s}$ (جنوب)",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "در حل b کتاب علامه‌ها برعکس چاپ شده است: کتاب $P_x = -8.84\\times10^{6}$ و $P_y = +8.84\\times10^{6}$ داده که جهت شمال غرب است. برای جنوب شرق (x شرق، y شمال) درست آن $P_x$ مثبت و $P_y$ منفی است؛ اندازه‌ها یکی است. همچنین در یک سطر کتاب «$1.2\\times10^{5}\\times10^{2}$» چاپ شده که باید $1.25\\times10^{7}$ باشد. اگر شاگرد پرسید، هر دو را توضیح دهید."
+}

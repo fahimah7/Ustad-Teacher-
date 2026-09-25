@@ -1,0 +1,296 @@
+{
+  "unit": 6,
+  "title": {
+    "en": "Staying safe",
+    "fa": "در امان ماندن"
+  },
+  "about": {
+    "en": "Protecting your phone, staying calm if it is checked, and taking care of your mind.",
+    "fa": "محافظت از موبایل، آرام ماندن اگر آن را چک کردند، و مراقبت از ذهن و دل خود."
+  },
+  "lessons": [
+    {
+      "id": "r6-1",
+      "title": {
+        "en": "Your phone",
+        "fa": "موبایل شما"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Your phone may hold your friends' names, faces and messages. Keeping it safe protects them as well as you. A few simple settings help a lot.",
+          "fa": "موبایل شما ممکن است نام، چهره و پیام‌های دوستان‌تان را در خود داشته باشد. محافظت از آن، هم شما و هم آن‌ها را در امان نگه می‌دارد. چند تنظیم ساده کمک زیادی می‌کند."
+        },
+        {
+          "en": "Set a screen lock with a PIN or pattern, so a lost phone cannot be opened easily. Then, in your phone's settings, hide message previews on the lock screen, so no one can read a new message just by glancing at your phone.",
+          "fa": "برای صفحهٔ موبایل خود قفل رمزدار بگذارید، تا اگر گم شد، کسی به آسانی آن را باز کرده نتواند. بعد در تنظیمات موبایل، نشان دادن متن پیام‌ها روی صفحهٔ قفل را خاموش کنید، تا کسی فقط با یک نگاه به موبایل شما پیام تازه‌تان را خوانده نتواند."
+        },
+        {
+          "en": "Look at your photos with fresh eyes. A photo can show a friend's face, a house, a street, or a notebook with names. Some phones also save the place where a photo was taken inside the photo; you can turn this off in your phone's settings. Ask people before you take or keep photos of them.",
+          "fa": "به عکس‌های خود با دقت نگاه کنید. یک عکس می‌تواند چهرهٔ یک دوست، یک خانه، یک کوچه یا کتابچه‌ای با نام‌ها را نشان بدهد. بعضی موبایل‌ها جایی را که عکس در آن گرفته شده، در خود عکس ذخیره می‌کنند؛ این را می‌توانید در تنظیمات موبایل خاموش کنید. پیش از گرفتن یا نگه داشتن عکس کسی، از خودش اجازه بگیرید."
+        },
+        {
+          "en": "Clean your phone often. Delete chats, photos and files you no longer need, especially ones that show other people. Many phones keep deleted photos in a 'recently deleted' folder or bin for a while, so empty it too. Leave old groups you no longer use.",
+          "fa": "موبایل خود را زود زود پاک‌کاری کنید. پیام‌ها، عکس‌ها و فایل‌هایی را که دیگر لازم ندارید پاک کنید، به‌خصوص آن‌هایی که دیگران را نشان می‌دهند. بسیاری از موبایل‌ها عکس‌های پاک‌شده را مدتی در یک پوشهٔ جداگانه (مثل «پاک‌شده‌ها» یا سطل زباله) نگه می‌دارند؛ آن را هم خالی کنید. از گروه‌های کهنه‌ای که دیگر به کار ندارید بیرون شوید."
+        },
+        {
+          "en": "In these lessons, the Exit button at the top takes you straight back to your schoolbook in one tap. Find it now and try it a few times, so your hand knows it without thinking. A lock and a quick exit help, but they cannot stop someone who makes you open your phone. The best protection is simple: keep little on it.",
+          "fa": "در این درس‌ها، دکمهٔ «خروج» در بالای صفحه، با یک بار زدن شما را فوراً به کتاب درسی‌تان برمی‌گرداند. همین حالا آن را پیدا کنید و چند بار امتحان کنید، تا دست شما بدون فکر کردن آن را بشناسد. قفل و خروج سریع کمک می‌کنند، اما اگر کسی شما را مجبور کند موبایل را باز کنید، جلوی او را نمی‌گیرند. بهترین محافظت ساده است: در موبایل خود کم نگه دارید."
+        }
+      ],
+      "reflect": {
+        "en": "If someone picked up your phone right now, what would they learn about you and your friends?",
+        "fa": "اگر همین حالا کسی موبایل شما را بردارد، دربارهٔ شما و دوستان‌تان چه چیزهایی می‌فهمد؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Why should you hide message previews on the lock screen?",
+            "fa": "چرا باید نشان دادن متن پیام‌ها را روی صفحهٔ قفل خاموش کنید؟"
+          },
+          "options": [
+            {
+              "en": "So the battery lasts longer",
+              "fa": "تا بتری موبایل بیشتر دوام کند"
+            },
+            {
+              "en": "So no one can read your new messages just by looking at the screen",
+              "fa": "تا کسی فقط با نگاه کردن به صفحه، پیام‌های تازهٔ شما را خوانده نتواند"
+            },
+            {
+              "en": "So messages arrive faster",
+              "fa": "تا پیام‌ها زودتر برسند"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Previews can show what a message says even when the phone is locked.",
+            "fa": "حتی وقتی موبایل قفل است، متن پیام‌ها ممکن است روی صفحه دیده شود."
+          }
+        },
+        {
+          "q": {
+            "en": "What is the best protection for you and your friends?",
+            "fa": "بهترین محافظت برای شما و دوستان‌تان چیست؟"
+          },
+          "options": [
+            {
+              "en": "A very long PIN",
+              "fa": "یک رمز بسیار دراز"
+            },
+            {
+              "en": "Keeping little on your phone: no lists of names, few photos of others",
+              "fa": "کم نگه داشتن چیزها در موبایل: بدون فهرست نام‌ها و با عکس‌های کم از دیگران"
+            },
+            {
+              "en": "Never letting anyone see you use your phone",
+              "fa": "هرگز نگذارید کسی ببیند که از موبایل کار می‌گیرید"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Someone can make you open a lock, but what is not on the phone cannot be found.",
+            "fa": "کسی می‌تواند شما را مجبور کند قفل را باز کنید، اما چیزی که در موبایل نیست پیدا نمی‌شود."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Android and iPhone help: screen lock; hiding notification content on the lock screen; photo location tags; recently deleted photos kept for a period (about 30 days) before removal",
+        "Front Line Defenders and Tactical Tech, Security in-a-Box (protect your device)",
+        "Ustad app: the Exit button on every rights screen returns to the schoolbook in one tap (UI Code/src/screens/Rights.tsx, useQuickExit)"
+      ]
+    },
+    {
+      "id": "r6-2",
+      "title": {
+        "en": "If your phone is checked",
+        "fa": "اگر موبایل شما را چک کردند"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Sometimes phones are checked: on the road, at a checkpoint, or even at home. If this happens, stay calm and polite. Do not argue, run, or try to delete things in front of them, because that can make things worse. You matter more than anything on your phone.",
+          "fa": "گاهی موبایل‌ها را چک می‌کنند: در راه، در پوستهٔ تلاشی، یا حتی در خانه. اگر چنین شد، آرام و با ادب بمانید. بحث نکنید، فرار نکنید و پیش چشم آن‌ها چیزی را پاک نکنید، چون این کار می‌تواند وضع را بدتر بسازد. شما از هر چیزی که در موبایل است مهم‌تر هستید."
+        },
+        {
+          "en": "Prepare before you go out, not during a check. Clean your phone as you learned in the last lesson, and keep no lists of names, group photos or notes about your study circle on it. What is not there cannot be found and cannot hurt anyone.",
+          "fa": "پیش از بیرون رفتن آماده شوید، نه در وقت چک شدن. موبایل خود را همان‌طور که در درس گذشته آموختید پاک‌کاری کنید، و هیچ فهرست نام، عکس گروهی یا یادداشتی دربارهٔ حلقهٔ درسی در آن نگه ندارید. چیزی که در آن نیست، پیدا نمی‌شود و به کسی آسیب نمی‌رساند."
+        },
+        {
+          "en": "Ustad is a school app with textbooks. If someone asks about it, you can answer simply and truthfully: 'It is my school app. I study my lessons with it.' If you see a check coming, tap Exit to go back to your schoolbook. Someone who looks carefully could still find these lessons, so preparing ahead matters most.",
+          "fa": "استاد یک برنامهٔ مکتب با کتاب‌های درسی است. اگر کسی دربارهٔ آن پرسید، می‌توانید ساده و راست جواب بدهید: «این برنامهٔ مکتب من است. با آن درس‌هایم را می‌خوانم.» اگر دیدید که چک کردن نزدیک است، دکمهٔ «خروج» را بزنید تا به کتاب درسی خود برگردید. کسی که با دقت بگردد، باز هم ممکن است این درس‌ها را پیدا کند؛ برای همین آمادگی از پیش از همه مهم‌تر است."
+        },
+        {
+          "en": "If they keep asking questions, answer simply and do not offer extra information about anyone. Afterwards, tell a trusted adult in your family what happened. If others could be affected, let your circle know in person so they can pause and change plans. Whatever happens, it is not your fault.",
+          "fa": "اگر باز هم سؤال کردند، ساده جواب بدهید و دربارهٔ هیچ کس معلومات اضافی ندهید. بعد از آن، به یکی از بزرگان خانواده که به او اعتماد دارید بگویید که چه شد. اگر ممکن است دیگران هم آسیب ببینند، رو در رو به حلقهٔ خود خبر بدهید تا مدتی جمع نشوند و برنامه را تغییر بدهند. هر چه پیش بیاید، تقصیر شما نیست."
+        },
+        {
+          "en": "Everyone has a right to privacy in their home, family and messages (Universal Declaration of Human Rights, Article 12). Where that right is not respected, preparing ahead is how you protect yourself and the people you care about.",
+          "fa": "هر انسان حق دارد که زندگی خصوصی، خانه، خانواده و نامه‌ها و پیام‌هایش محفوظ بماند (اعلامیهٔ جهانی حقوق بشر، مادهٔ ۱۲). جایی که این حق رعایت نمی‌شود، آمادگی از پیش راه محافظت از خود و از کسانی است که دوست‌شان دارید."
+        }
+      ],
+      "reflect": {
+        "en": "What could you do today so that a phone check tomorrow would be less frightening?",
+        "fa": "امروز چه کاری می‌توانید بکنید تا اگر فردا موبایل شما را چک کردند، کمتر بترسید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Someone asks to check your phone. What is the safest thing to do?",
+            "fa": "کسی می‌خواهد موبایل شما را چک کند. امن‌ترین کار چیست؟"
+          },
+          "options": [
+            {
+              "en": "Argue and refuse",
+              "fa": "بحث کنید و قبول نکنید"
+            },
+            {
+              "en": "Quickly delete things while they watch",
+              "fa": "در حالی که نگاه می‌کنند، زود چیزها را پاک کنید"
+            },
+            {
+              "en": "Stay calm and polite, and answer simply",
+              "fa": "آرام و با ادب بمانید و ساده جواب بدهید"
+            },
+            {
+              "en": "Run away",
+              "fa": "فرار کنید"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "Staying calm keeps you safer; the real protection is what you did before the check.",
+            "fa": "آرام ماندن شما را امن‌تر نگه می‌دارد؛ محافظت اصلی، کاری است که پیش از چک شدن کرده‌اید."
+          }
+        },
+        {
+          "q": {
+            "en": "When is the best time to clean your phone?",
+            "fa": "بهترین وقت برای پاک‌کاری موبایل چه وقت است؟"
+          },
+          "options": [
+            {
+              "en": "Before you go out, as a habit",
+              "fa": "پیش از بیرون رفتن، به شکل یک عادت"
+            },
+            {
+              "en": "During the check",
+              "fa": "در وقت چک شدن"
+            },
+            {
+              "en": "Only after something bad happens",
+              "fa": "فقط بعد از اینکه چیز بدی پیش آمد"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "Deleting things during a check can make things worse, so it is safer to prepare ahead.",
+            "fa": "پاک کردن چیزها در وقت چک شدن می‌تواند وضع را بدتر بسازد، پس بهتر است از پیش آماده باشید."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "UDHR, Article 12 (privacy, family, home, correspondence)",
+        "Front Line Defenders and Tactical Tech, Security in-a-Box (device searches and checkpoints)",
+        "Front Line Defenders, Workbook on Security (2011)",
+        "Ustad app: rights lessons are shown openly (not in the locked vault); Exit returns to the schoolbook (UI Code/src/screens/Rights.tsx)"
+      ]
+    },
+    {
+      "id": "r6-3",
+      "title": {
+        "en": "Taking care of your mind",
+        "fa": "مراقبت از ذهن و دل"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Since schools were closed to girls in 2021, many girls grieve for the school, the classmates and the plans they lost. Feeling sad, angry, afraid or tired is a normal reaction to a very hard situation. It does not mean you are weak.",
+          "fa": "از سال ۱۴۰۰ (۲۰۲۱) که مکتب‌ها به روی دختران بسته شد، بسیاری از دختران برای مکتب، همصنفی‌ها و آرزوهایی که از دست دادند غمگین هستند. احساس غم، خشم، ترس یا خستگی، واکنش عادی به یک وضع بسیار سخت است. این به آن معنا نیست که شما ضعیف هستید."
+        },
+        {
+          "en": "When fear rises, try this. Breathe in slowly through your nose while you count to 4, then breathe out slowly through your mouth while you count to 6. Do this five times. A long, slow breath out helps your body calm down, and you can do it anywhere without anyone noticing.",
+          "fa": "وقتی ترس بالا می‌گیرد، این را امتحان کنید. آهسته از راه بینی نفس بکشید و تا ۴ بشمارید، بعد آهسته از راه دهن نفس را بیرون بدهید و تا ۶ بشمارید. این کار را پنج بار تکرار کنید. آهسته و دراز بیرون دادن نفس به بدن کمک می‌کند آرام شود، و آن را هر جا می‌توانید انجام بدهید بدون اینکه کسی متوجه شود."
+        },
+        {
+          "en": "Keep a small daily routine. Wake up and sleep at about the same time, study a little every day, help at home, make time for prayer or quiet, and spend a few minutes in daylight, even in the yard. Small, steady habits give each day a shape when the future feels uncertain.",
+          "fa": "یک برنامهٔ کوچک روزانه داشته باشید. تقریباً در یک وقت معین بیدار شوید و بخوابید، هر روز کمی درس بخوانید، در کارهای خانه کمک کنید، برای نماز یا کمی آرامش وقت بگذارید، و چند دقیقه در روشنی آفتاب باشید، حتی در حویلی. وقتی آینده نامعلوم به نظر می‌رسد، عادت‌های کوچک و منظم به هر روز شکل می‌دهند."
+        },
+        {
+          "en": "Talk to someone you trust: your mother, a sister, an aunt, a friend or a teacher. You do not need to share everything; even saying 'I have been feeling heavy lately' can help. Listening to a friend who is struggling can help her too.",
+          "fa": "با کسی که به او اعتماد دارید گپ بزنید: مادر، خواهر، خاله یا عمه، یک دوست یا معلم‌تان. لازم نیست همه چیز را بگویید؛ حتی گفتن اینکه «این روزها دلم گرفته است» هم کمک می‌کند. گوش دادن به دوستی که سختی می‌کشد هم به او کمک می‌کند."
+        },
+        {
+          "en": "Sometimes sadness becomes very heavy and does not go away, or thoughts of hurting yourself may come. If this happens, please tell a trusted adult today and ask for help, from a doctor or health worker too if you can. Asking for help is a strong thing to do, and you deserve care.",
+          "fa": "گاهی غم بسیار سنگین می‌شود و از بین نمی‌رود، یا ممکن است فکر آسیب رساندن به خود به ذهن شما بیاید. اگر چنین شد، لطفاً همان روز به یک بزرگ مورد اعتماد بگویید و کمک بخواهید، و اگر بتوانید از داکتر یا کارمند صحی هم. کمک خواستن کار قوی است، و شما سزاوار مراقبت هستید."
+        }
+      ],
+      "reflect": {
+        "en": "What is one small thing that helps you feel a little calmer on a hard day?",
+        "fa": "یک کار کوچک که در یک روز سخت شما را کمی آرام‌تر می‌سازد، چیست؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Since leaving school, you often feel sad and afraid. What does this mean?",
+            "fa": "از وقتی از مکتب بازماندید، اکثراً غمگین هستید و می‌ترسید. معنای آن چیست؟"
+          },
+          "options": [
+            {
+              "en": "You are weak.",
+              "fa": "شما ضعیف هستید."
+            },
+            {
+              "en": "It is a normal reaction to a very hard situation.",
+              "fa": "این واکنش عادی به یک وضع بسیار سخت است."
+            },
+            {
+              "en": "You must hide it from everyone.",
+              "fa": "باید آن را از همه پنهان کنید."
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Grief and fear are normal, and talking to someone you trust can help.",
+            "fa": "غم و ترس عادی هستند، و گپ زدن با کسی که به او اعتماد دارید کمک می‌کند."
+          }
+        },
+        {
+          "q": {
+            "en": "In the breathing exercise, which part is the longest?",
+            "fa": "در تمرین نفس کشیدن، کدام بخش درازتر است؟"
+          },
+          "options": [
+            {
+              "en": "Breathing in",
+              "fa": "نفس گرفتن"
+            },
+            {
+              "en": "Holding your breath",
+              "fa": "نگه داشتن نفس"
+            },
+            {
+              "en": "Breathing out",
+              "fa": "بیرون دادن نفس"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "A long, slow breath out helps your body calm down.",
+            "fa": "آهسته و دراز بیرون دادن نفس به بدن کمک می‌کند آرام شود."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "WHO, Doing What Matters in Times of Stress: An Illustrated Guide (2020)",
+        "WHO, Psychological First Aid: Guide for Field Workers (2011)",
+        "IASC Guidelines on Mental Health and Psychosocial Support in Emergency Settings (2007)",
+        "WHO, Preventing suicide: a resource for media professionals (2017 update): safe, help-seeking wording about self-harm",
+        "UN Women and UNICEF reporting on the mental health of Afghan women and girls since 2021"
+      ]
+    }
+  ]
+}

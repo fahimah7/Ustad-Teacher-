@@ -1,0 +1,97 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 303,
+  "printed_page": 296,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "تقسیم دو عدد مختلط",
+  "summary_fa": "صفحهٔ تمرین درس تقسیم اعداد مختلط با پنج سوال. در بیشتر سوال‌ها باید خارج قسمت دو عدد مختلط پیدا شود و جواب به شکل $a+bi$ نوشته شود. یک سوال ثبوت دو خاصیت مزدوج (ضرب و تقسیم) را برای دو عدد عمومی می‌خواهد، و یک سوال چهارجوابه جذر اعداد منفی دارد. روش همهٔ سوال‌های تقسیم یکی است: صورت و مخرج را در مزدوج مخرج ضرب کنید، به جای $i^2$ عدد $-1$ بگذارید و قسمت حقیقی و موهومی را جدا بنویسید. جذر عدد منفی را اول به شکل $i\\sqrt{k}$ بنویسید.",
+  "key_points_fa": [
+    "خارج قسمت: صورت و مخرج را در مزدوج مخرج ضرب کنید.",
+    "اگر مخرج فقط موهومی باشد (مثلاً $4i$ یا $i$)، ضرب در $-i$ یا $i$ کافی است؛ $\\frac{1}{i} = -i$.",
+    "اگر مخرج حقیقی باشد، هر قسمت صورت را جداجدا بر آن تقسیم کنید.",
+    "برای $k>0$: $\\sqrt{-k} = i\\sqrt{k}$"
+  ],
+  "formulas": [
+    {"latex": "\\frac{a+bi}{c+di} = \\frac{ac+bd}{c^2+d^2} + \\frac{bc-ad}{c^2+d^2}\\,i", "meaning_fa": "قاعدهٔ تقسیم دو عدد مختلط"},
+    {"latex": "\\sqrt{-k} = i\\sqrt{k}\\quad (k>0)", "meaning_fa": "جذر عدد منفی"}
+  ],
+  "terms": [
+    {"fa": "خارج قسمت", "en": "quotient"},
+    {"fa": "مزدوج", "en": "conjugate"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "خارج قسمت‌ها را دریابید: $\\frac{1+i}{1-i}$ ، $\\frac{3-4i}{2-5i}$ ، $\\frac{5-2i}{6-i}$ ، $\\frac{7-i}{3-5i}$",
+      "solution_steps_fa": [
+        "$\\frac{(1+i)(1+i)}{(1-i)(1+i)} = \\frac{1+2i-1}{2} = i$",
+        "$\\frac{(3-4i)(2+5i)}{4+25} = \\frac{6+15i-8i+20}{29} = \\frac{26+7i}{29}$",
+        "$\\frac{(5-2i)(6+i)}{36+1} = \\frac{30+5i-12i+2}{37} = \\frac{32-7i}{37}$",
+        "$\\frac{(7-i)(3+5i)}{9+25} = \\frac{21+35i-3i+5}{34} = \\frac{26+32i}{34} = \\frac{13+16i}{17}$"
+      ],
+      "answer": "$i$ ؛ $\\frac{26}{29}+\\frac{7}{29}i$ ؛ $\\frac{32}{37}-\\frac{7}{37}i$ ؛ $\\frac{13}{17}+\\frac{16}{17}i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "اگر $z_1 = -a-3bi$ و $z_2 = 2a-3bi$ باشد ($a$ و $b$ حقیقی)، نشان دهید که $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$ و $\\overline{\\left(\\frac{z_1}{z_2}\\right)} = \\frac{\\overline{z_1}}{\\overline{z_2}}$ است.",
+      "solution_steps_fa": [
+        "$z_1 z_2 = (-a-3bi)(2a-3bi) = -2a^2+3abi-6abi+9b^2i^2 = -2a^2-9b^2-3abi$ ، پس $\\overline{z_1 z_2} = -2a^2-9b^2+3abi$",
+        "$\\overline{z_1}\\,\\overline{z_2} = (-a+3bi)(2a+3bi) = -2a^2-3abi+6abi-9b^2 = -2a^2-9b^2+3abi$ ؛ برابر است.",
+        "$\\frac{z_1}{z_2} = \\frac{(-a-3bi)(2a+3bi)}{4a^2+9b^2} = \\frac{-2a^2+9b^2-9abi}{4a^2+9b^2}$ ، پس مزدوج آن $\\frac{-2a^2+9b^2+9abi}{4a^2+9b^2}$ است.",
+        "$\\frac{\\overline{z_1}}{\\overline{z_2}} = \\frac{(-a+3bi)(2a-3bi)}{4a^2+9b^2} = \\frac{-2a^2+9b^2+9abi}{4a^2+9b^2}$ ؛ برابر است."
+      ],
+      "answer": "هر دو طرف در هر خاصیت برابر اند (به شرط $z_2 \\neq 0$).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "خارج قسمت‌ها را به شکل $a+bi$ بنویسید: a) $\\frac{2}{5-i}$ b) $\\frac{3-i}{2+i}$ c) $\\frac{2-3i}{3}$",
+      "solution_steps_fa": [
+        "a) $\\frac{2(5+i)}{25+1} = \\frac{10+2i}{26} = \\frac{5}{13}+\\frac{1}{13}i$",
+        "b) $\\frac{(3-i)(2-i)}{4+1} = \\frac{6-3i-2i+i^2}{5} = \\frac{5-5i}{5} = 1-i$",
+        "c) مخرج حقیقی است: $\\frac{2}{3}-\\frac{3}{3}i = \\frac{2}{3}-i$"
+      ],
+      "answer": "a) $\\frac{5}{13}+\\frac{1}{13}i$ b) $1-i$ c) $\\frac{2}{3}-i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "خارج قسمت $\\frac{6+\\sqrt{-36}}{3+\\sqrt{-9}}$ مساوی کدام است؟ a) 1 b) 2 c) $3i$ d) $-2$",
+      "solution_steps_fa": [
+        "$\\sqrt{-36} = 6i$ و $\\sqrt{-9} = 3i$",
+        "$\\frac{6+6i}{3+3i} = \\frac{2(3+3i)}{3+3i} = 2$"
+      ],
+      "answer": "b) 2",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "به شکل $a+bi$ بنویسید: $\\frac{3+4i}{4i}$ ، $\\frac{-5}{2-3i}$ ، $\\frac{6}{1+3i}$ ، $\\frac{7}{7-2i}$ ، $\\frac{-4+8i}{2-4i}$ ، $\\frac{3-2i}{-6+4i}$ ، $\\frac{1}{i}$",
+      "solution_steps_fa": [
+        "$\\frac{(3+4i)(-i)}{4i(-i)} = \\frac{-3i+4}{4} = 1-\\frac{3}{4}i$",
+        "$\\frac{-5(2+3i)}{4+9} = -\\frac{10}{13}-\\frac{15}{13}i$",
+        "$\\frac{6(1-3i)}{1+9} = \\frac{3}{5}-\\frac{9}{5}i$",
+        "$\\frac{7(7+2i)}{49+4} = \\frac{49}{53}+\\frac{14}{53}i$",
+        "صورت $-4+8i = -2(2-4i)$ است، پس خارج قسمت $-2$ می‌شود.",
+        "مخرج $-6+4i = -2(3-2i)$ است، پس خارج قسمت $-\\frac{1}{2}$ می‌شود.",
+        "$\\frac{1}{i} = \\frac{1\\cdot(-i)}{i\\cdot(-i)} = \\frac{-i}{1} = -i$"
+      ],
+      "answer": "$1-\\frac{3}{4}i$ ؛ $-\\frac{10}{13}-\\frac{15}{13}i$ ؛ $\\frac{3}{5}-\\frac{9}{5}i$ ؛ $\\frac{49}{53}+\\frac{14}{53}i$ ؛ $-2$ ؛ $-\\frac{1}{2}$ ؛ $-i$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "همهٔ جواب‌ها با Python امتحان شده‌اند."
+}

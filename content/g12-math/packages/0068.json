@@ -1,0 +1,56 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 68,
+  "printed_page": 61,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق تابع $\\sqrt{u}$",
+  "summary_fa": "این صفحه قانون جذر را عمومی‌تر می‌کند: وقتی زیر جذر به جای x یک تابع $u(x)$ باشد. در فعالیت، y تابعی از u و u تابعی از x گرفته می‌شود. تزاید $\\Delta y = \\sqrt{u + \\Delta u} - \\sqrt{u}$ مانند صفحهٔ قبل با ضرب در مزدوج ساده می‌شود. بعد دو طرف بر $\\Delta x$ تقسیم می‌شوند؛ چون وقتی $\\Delta x \\to 0$، $\\Delta u$ هم به صفر نزدیک می‌شود و $\\frac{\\Delta u}{\\Delta x} \\to u'$، نتیجه $y' = \\frac{u'}{2\\sqrt{u}}$ است. یعنی مشتق جذر، مشتق داخل جذر تقسیم بر دو برابر همان جذر است. در مثال ۲ این قانون با قانون حاصل ضرب برای $(x^2 + x)\\sqrt{x}$ یکجا به کار رفته است.",
+  "key_points_fa": [
+    "$(\\sqrt{u})' = \\frac{u'}{2\\sqrt{u}}$؛ مشتق عبارت زیر جذر را فراموش نکنید.",
+    "وقتی $u = x$ باشد، $u' = 1$ و همان قانون $\\frac{1}{2\\sqrt{x}}$ به دست می‌آید.",
+    "در ثبوت، از اینکه $\\Delta x \\to 0$ نتیجه می‌شود که $\\Delta u \\to 0$ (u متمادی است).",
+    "این قانون نمونهٔ ابتدایی قاعدهٔ زنجیری (مشتق تابع مرکب) است."
+  ],
+  "formulas": [
+    {"latex": "y = \\sqrt{u(x)} \\Rightarrow y' = \\frac{u'}{2\\sqrt{u}}", "meaning_fa": "مشتق جذر مربع یک تابع"},
+    {"latex": "\\frac{\\Delta y}{\\Delta x} = \\frac{\\frac{\\Delta u}{\\Delta x}}{\\sqrt{u + \\Delta u} + \\sqrt{u}}", "meaning_fa": "نسبت تزایدها پیش از گرفتن لیمت"}
+  ],
+  "terms": [
+    {"fa": "جذر مربع یک تابع", "en": "square root of a function"},
+    {"fa": "مزدوج", "en": "conjugate"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت قانون $\\sqrt{u}$",
+      "problem_fa": "ثابت کنید اگر $y = \\sqrt{u}$ و u تابع مشتق‌پذیر x باشد، $y' = \\frac{u'}{2\\sqrt{u}}$ است.",
+      "steps_fa": [
+        "$\\Delta y = \\sqrt{u + \\Delta u} - \\sqrt{u} = \\frac{\\Delta u}{\\sqrt{u + \\Delta u} + \\sqrt{u}}$ (با ضرب در مزدوج)",
+        "بر $\\Delta x$ تقسیم می‌کنیم: $\\frac{\\Delta y}{\\Delta x} = \\frac{\\Delta u / \\Delta x}{\\sqrt{u + \\Delta u} + \\sqrt{u}}$",
+        "وقتی $\\Delta x \\to 0$، $\\Delta u \\to 0$ و $\\frac{\\Delta u}{\\Delta x} \\to u'$",
+        "$y' = \\frac{u'}{\\sqrt{u} + \\sqrt{u}} = \\frac{u'}{2\\sqrt{u}}$"
+      ],
+      "answer": "$y' = \\frac{u'}{2\\sqrt{u}}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق $h(x) = (x^2 + x)\\sqrt{x}$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = x^2 + x \\Rightarrow u' = 2x + 1$ و $v = \\sqrt{x} \\Rightarrow v' = \\frac{1}{2\\sqrt{x}}$",
+        "$h'(x) = (2x + 1)\\sqrt{x} + \\frac{x^2 + x}{2\\sqrt{x}}$",
+        "مخرج مشترک $2\\sqrt{x}$: $h'(x) = \\frac{2x(2x + 1) + x^2 + x}{2\\sqrt{x}} = \\frac{4x^2 + 2x + x^2 + x}{2\\sqrt{x}}$",
+        "$h'(x) = \\frac{5x^2 + 3x}{2\\sqrt{x}}$"
+      ],
+      "answer": "$h'(x) = \\frac{5x^2 + 3x}{2\\sqrt{x}}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 3,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "صفحه عنوان داخلی کتاب: با «بسم الله الرحمن الرحیم» آغاز می‌شود، نشان وزارت معارف را دارد و نام کتاب «ریاضی صنف ۱۱» و سال چاپ ۱۳۹۸ هجری شمسی را نشان می‌دهد. درس ریاضی در آن نیست؛ درس‌ها پس از فهرست و با فصل اول (مقاطع مخروطی) آغاز می‌شوند.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ چاپی به حرف «الف» است، نه عدد."
+}

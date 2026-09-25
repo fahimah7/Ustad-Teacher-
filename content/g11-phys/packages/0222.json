@@ -1,0 +1,20 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 222,
+  "printed_page": 213,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": "منابعی که از آن استفاده شده",
+  "summary_fa": "این صفحۀ آخر کتاب فهرست منابعی است که مؤلفان در تهیۀ کتاب از آن‌ها کار گرفته‌اند. هشت منبع نام برده شده: پنج کتاب فزیک به زبان انگلیسی (از جمله کتاب‌های Giancoli، Walker و Serway، یک کتاب درسی چاپ ترکیه و یک کتاب از پوهنتون فلیپین)، یک کتاب فزیک عربی دورۀ ثانوی از وزارت تعلیم و تربیۀ اردن، و دو کتاب فزیک دورۀ متوسطه از ایران. این صفحه درس جدیدی ندارد.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "صفحۀ منابع (آخر کتاب)؛ چون نوع back_matter در فهرست page_kind نیست، front_matter انتخاب شد."
+}

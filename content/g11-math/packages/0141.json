@@ -1,0 +1,131 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 141,
+  "printed_page": 132,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "ترادف هندسی",
+  "summary_fa": "این بخش درس ترادف هندسی را با چند مثال ادامه می‌دهد. اول از فورمول وسط هندسی $M = \\sqrt{ab}$ برای دو عدد استفاده می‌شود. بعد نشان داده می‌شود که اگر حد اول و حد پنجم یک ترادف هندسی معلوم باشد، با فورمول $a_n = a\\,q^{n-1}$ اول نسبت مشترک q و سپس حدود مجهول بین آن‌ها دریافت می‌شود. در فعالیت، شاگرد باید از همین فورمول، q را بر حسب حد اول، حد n-ام و n بنویسد. در مثال بعدی، برای این‌که سه افادهٔ الجبری ترادف هندسی بسازند، مربع حد وسطی مساوی حاصل ضرب دو حد کناری گذاشته می‌شود و معادله حل می‌گردد. در پایان، پنج تمرین آمده است.",
+  "key_points_fa": [
+    "وسط هندسی دو عدد مثبت a و b برابر $M = \\sqrt{ab}$ است.",
+    "سه عدد متوالی a، M، b یک ترادف هندسی اند اگر $M^2 = a \\cdot b$ باشد.",
+    "برای پیدا کردن حدود مجهول بین دو حد معلوم، اول q را از $a_n = a_1 q^{n-1}$ دریافت کنید.",
+    "اگر توان q جفت باشد (مثلاً $q^4 = 16$)، q می‌تواند مثبت یا منفی باشد ($q = \\pm 2$)."
+  ],
+  "formulas": [
+    {"latex": "M = \\sqrt{a\\,b}", "meaning_fa": "وسط هندسی دو عدد مثبت a و b"},
+    {"latex": "a_n = a_1\\,q^{n-1}", "meaning_fa": "حد n-ام ترادف هندسی"},
+    {"latex": "q = \\sqrt[n-1]{\\frac{a_n}{a_1}}", "meaning_fa": "نسبت مشترک وقتی حد اول، حد n-ام و n معلوم باشند"}
+  ],
+  "terms": [
+    {"fa": "وسط هندسی", "en": "geometric mean"},
+    {"fa": "نسبت مشترک", "en": "common ratio"},
+    {"fa": "ترادف هندسی", "en": "geometric sequence"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "وسط هندسی اعداد ۳ و ۱۲ را دریافت کنید.",
+      "steps_fa": ["$M = \\sqrt{3 \\cdot 12} = \\sqrt{36} = 6$"],
+      "answer": "$M = 6$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "در ترادف هندسی $2, \\square, \\square, \\square, 32$ سه حد مجهول را دریافت کنید.",
+      "steps_fa": [
+        "$a_1 = 2$، $a_5 = 32$ و $n = 5$ است.",
+        "$32 = 2\\,q^{4} \\Rightarrow q^4 = 16 = 2^4 \\Rightarrow q = 2$",
+        "$a_2 = 4$، $a_3 = 8$، $a_4 = 16$",
+        "نوت: $q = -2$ هم در $q^4 = 16$ صدق می‌کند و ترادف $2, -4, 8, -16, 32$ را می‌دهد."
+      ],
+      "answer": "$2, 4, 8, 16, 32$ (یا با $q=-2$: $2, -4, 8, -16, 32$)",
+      "solution_source": "mixed"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "x را طوری تعیین کنید که $x-1$، $x+3$ و $x+1$ یک ترادف هندسی بسازند.",
+      "steps_fa": [
+        "حد وسطی $M = x+3$ است، پس $(x+3)^2 = (x-1)(x+1)$",
+        "$x^2 + 6x + 9 = x^2 - 1 \\Rightarrow 6x + 10 = 0$",
+        "$x = -\\frac{10}{6} = -\\frac{5}{3}$",
+        "امتحان: حدود $-\\frac{8}{3}, \\frac{4}{3}, -\\frac{2}{3}$ با نسبت $-\\frac{1}{2}$ می‌شوند."
+      ],
+      "answer": "$x = -\\frac{5}{3}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر در ترادف هندسی $a_n$ حد n-ام، n تعداد حدود و q نسبت مشترک باشد، فورمول عمومی q را بنویسید.",
+      "solution_steps_fa": [
+        "از $a_n = a_1 q^{n-1}$ داریم $q^{n-1} = \\frac{a_n}{a_1}$",
+        "از دو طرف جذر درجهٔ $n-1$ می‌گیریم."
+      ],
+      "answer": "$q = \\sqrt[n-1]{\\frac{a_n}{a_1}}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "۵ حد اول ترادف هندسی‌ای را بنویسید که حد اول آن ۵ و حد اخیر آن $\\frac{5}{16}$ باشد.",
+      "solution_steps_fa": [
+        "$5\\,q^4 = \\frac{5}{16} \\Rightarrow q^4 = \\frac{1}{16} \\Rightarrow q = \\pm\\frac{1}{2}$",
+        "با $q = \\frac{1}{2}$: $5, \\frac{5}{2}, \\frac{5}{4}, \\frac{5}{8}, \\frac{5}{16}$"
+      ],
+      "answer": "$5, \\frac{5}{2}, \\frac{5}{4}, \\frac{5}{8}, \\frac{5}{16}$ (یا با $q=-\\frac{1}{2}$: $5, -\\frac{5}{2}, \\frac{5}{4}, -\\frac{5}{8}, \\frac{5}{16}$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "کدام ترادف هندسی است؟ a) $\\frac{2}{3}, -\\frac{2}{3}, \\frac{2}{3}, -\\frac{2}{3}, \\dots$ b) $-4, -2, 0, 2, 4, \\dots$",
+      "solution_steps_fa": [
+        "a) نسبت هر حد بر حد قبلی همیشه $-1$ است، پس هندسی است.",
+        "b) $\\frac{-2}{-4} = \\frac{1}{2}$ ولی $\\frac{0}{-2} = 0$؛ نسبت ثابت نیست، پس هندسی نیست (ترادف حسابی با $d = 2$ است)."
+      ],
+      "answer": "فقط (a) هندسی است با $q = -1$.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "حد دوازدهم ترادف هندسی $5, \\frac{5}{2}, \\frac{5}{4}, \\dots$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$q = \\frac{1}{2}$",
+        "$a_{12} = 5 \\cdot \\left(\\frac{1}{2}\\right)^{11} = \\frac{5}{2048}$"
+      ],
+      "answer": "$\\frac{5}{2048}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "وسط هندسی $\\sqrt{3}$ و $\\frac{\\sqrt{3}}{4}$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$M = \\sqrt{\\sqrt{3} \\cdot \\frac{\\sqrt{3}}{4}} = \\sqrt{\\frac{3}{4}} = \\frac{\\sqrt{3}}{2}$"
+      ],
+      "answer": "$\\frac{\\sqrt{3}}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "سه حد مجهول ترادف هندسی $\\frac{1}{3}, ?, ?, ?, 27$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$27 = \\frac{1}{3} q^4 \\Rightarrow q^4 = 81 \\Rightarrow q = \\pm 3$",
+        "با $q = 3$: $1, 3, 9$"
+      ],
+      "answer": "$1, 3, 9$ (یا با $q=-3$: $-1, 3, -9$)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب در مثال ۴ فقط $q = 2$ را گرفته است؛ جواب $q=-2$ به عنوان نوت اضافه شد. کلمهٔ «حد» (جملهٔ ترادف) با کسره «حد» نوشته شده است."
+}

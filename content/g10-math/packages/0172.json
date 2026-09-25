@@ -1,0 +1,50 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 172,
+  "printed_page": 165,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "توابع مثلثاتی",
+  "summary_fa": "این صفحه رابطه‌های اساسی را کامل می‌کند: با تقسیم $\\frac{y}{r}$ بر $\\frac{x}{r}$ دیده می‌شود که $\\frac{\\sin\\theta}{\\cos\\theta} = \\tan\\theta$ و برعکس $\\frac{\\cos\\theta}{\\sin\\theta} = \\cot\\theta$. بعد هشت رابطهٔ مهم یک‌جا فهرست می‌شوند؛ چون برای هر قیمت θ درست‌اند، «مطابقت‌های مثلثاتی» نام دارند. پس از یک فعالیت، با سه مثلث متشابه نشان داده می‌شود که قیمت نسبت‌های مثلثاتی فقط به زاویهٔ θ بستگی دارد، نه به این که نقطهٔ P کجای ضلع دوم انتخاب شود: اگر $|OP| = 1$ باشد، کسرهای $\\frac{|OH|}{|OP|}$، $\\frac{|OH_1|}{|OP_1|}$ و $\\frac{|OH_2|}{|OP_2|}$ همه مساوی $\\cos\\theta$ هستند.",
+  "key_points_fa": [
+    "$\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ و $\\cot\\theta = \\frac{\\cos\\theta}{\\sin\\theta}$.",
+    "جوره‌های معکوس: $\\sin\\theta \\cdot \\csc\\theta = 1$، $\\cos\\theta \\cdot \\sec\\theta = 1$، $\\tan\\theta \\cdot \\cot\\theta = 1$.",
+    "رابطه‌هایی که برای هر قیمت θ درست باشند، مطابقت‌های مثلثاتی هستند.",
+    "به دلیل تشابه مثلث‌ها، نسبت‌های مثلثاتی به فاصلهٔ نقطهٔ P از مبدأ ربطی ندارند.",
+    "اگر نقطه روی دایره‌یی به شعاع ۱ باشد، $\\cos\\theta = |OH|$ و $\\sin\\theta = |PH|$."
+  ],
+  "formulas": [
+    {"latex": "\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta},\\quad \\cot\\theta = \\frac{\\cos\\theta}{\\sin\\theta}", "meaning_fa": "tan و cot برحسب sin و cos"},
+    {"latex": "\\sin\\theta\\cdot\\csc\\theta = 1,\\quad \\cos\\theta\\cdot\\sec\\theta = 1,\\quad \\tan\\theta\\cdot\\cot\\theta = 1", "meaning_fa": "حاصل‌ضرب هر نسبت در معکوس آن یک است"},
+    {"latex": "\\sin^2\\theta + \\cos^2\\theta = 1,\\quad 1 + \\tan^2\\theta = \\sec^2\\theta,\\quad 1 + \\cot^2\\theta = \\csc^2\\theta", "meaning_fa": "سه مطابقت فیثاغورثی"},
+    {"latex": "\\cos\\theta = \\frac{|OH|}{|OP|} = \\frac{|OH_1|}{|OP_1|} = \\frac{|OH_2|}{|OP_2|}", "meaning_fa": "در مثلث‌های متشابه نسبت‌ها مساوی‌اند"}
+  ],
+  "terms": [
+    {"fa": "مطابقت‌های مثلثاتی", "en": "trigonometric identities"},
+    {"fa": "مثلث‌های متشابه", "en": "similar triangles"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.46, 0.66, 0.85, 0.88], "kind": "diagram", "description_fa": "دایره‌یی به شعاع ۱ با مرکز O و نقاط A، B، A′ و B′ روی محورها. یک خط از O با زاویهٔ θ دایره را در P قطع کرده و تا نقاط دورتر $P_1$ و $P_2$ ادامه دارد. از P، $P_1$ و $P_2$ عمودهایی بر محور X در H، $H_1$ و $H_2$ فرود آمده‌اند و از P عمودی بر محور Y در K. سه مثلث قایم‌الزاویهٔ OHP، $OH_1P_1$ و $OH_2P_2$ متشابه‌اند، پس نسبت اضلاع آن‌ها یکی است."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "ضلع دوم زاویهٔ θ در حالت معیاری از نقطهٔ $(12, 5)$ می‌گذرد. نسبت‌های مثلثاتی θ را دریابید.",
+      "solution_steps_fa": [
+        "$x = 12$، $y = 5$؛ $r = \\sqrt{12^2 + 5^2} = \\sqrt{144 + 25} = \\sqrt{169} = 13$",
+        "$\\sin\\theta = \\frac{5}{13}$، $\\cos\\theta = \\frac{12}{13}$، $\\tan\\theta = \\frac{5}{12}$",
+        "$\\cot\\theta = \\frac{12}{5}$، $\\sec\\theta = \\frac{13}{12}$، $\\csc\\theta = \\frac{13}{5}$",
+        "آزمایش: $\\left(\\frac{5}{13}\\right)^2 + \\left(\\frac{12}{13}\\right)^2 = \\frac{25 + 144}{169} = 1$"
+      ],
+      "answer": "$\\sin = \\frac{5}{13}$، $\\cos = \\frac{12}{13}$، $\\tan = \\frac{5}{12}$، $\\cot = \\frac{12}{5}$، $\\sec = \\frac{13}{12}$، $\\csc = \\frac{13}{5}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

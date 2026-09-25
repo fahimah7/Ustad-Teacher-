@@ -1,0 +1,103 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 254,
+  "printed_page": 245,
+  "page_kind": "review",
+  "chapter": 6,
+  "section_fa": "تمرین فصل ششم",
+  "summary_fa": "این صفحه تمرین‌های آخر فصل ششم (متریکس‌ها) را شروع می‌کند. همهٔ سوال‌ها چهار جوابه‌اند و شاگرد باید جواب درست را پیدا کرده و دور آن حلقه بکشد. موضوع‌ها: دیترمینانت و معکوس آن، شرط معکوس‌پذیر بودن یک متریکس با پارامتر m (دیترمینانت نباید صفر باشد)، حل معادلهٔ متریکسی $Ax = A^{-1}$، تصویر یک خط زیر تبدیل با یک متریکس $2 \\times 2$، دریافت x از صفر بودن یک دیترمینانت $3 \\times 3$، و حساب یک دیترمینانت $3 \\times 3$.",
+  "key_points_fa": [
+    "متریکس مربعی فقط وقتی معکوس دارد که دیترمینانت آن صفر نباشد.",
+    "$|A^{-1}| = \\frac{1}{|A|}$",
+    "اگر $Ax = A^{-1}$ باشد، هر دو طرف را از چپ در $A^{-1}$ ضرب کنید: $x = A^{-1}A^{-1}$.",
+    "تصویر هر نقطهٔ $(x, y)$ زیر متریکس M برابر $M\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ است.",
+    "دیترمینانت $3 \\times 3$ را با روش ساروس یا بسط بر اساس سطر اول حساب کنید."
+  ],
+  "formulas": [
+    {"latex": "\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} = ad - bc", "meaning_fa": "دیترمینانت $2 \\times 2$"},
+    {"latex": "\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}", "meaning_fa": "معکوس متریکس $2 \\times 2$"},
+    {"latex": "\\begin{vmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{vmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)", "meaning_fa": "بسط دیترمینانت $3 \\times 3$ بر اساس سطر اول"}
+  ],
+  "terms": [
+    {"fa": "معکوس‌پذیر", "en": "invertible"},
+    {"fa": "دیترمینانت", "en": "determinant"},
+    {"fa": "تبدیل خطی", "en": "linear transformation"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "question",
+      "problem_fa": "اگر $|A| = 3$ باشد، $|A|^{-1}$ کدام است؟ (a) $\\frac{1}{3}$ (b) ۹ (c) $\\frac{1}{9}$ (d) ۳",
+      "solution_steps_fa": [
+        "$|A|^{-1} = \\frac{1}{|A|} = \\frac{1}{3}$ (این قیمت با $|A^{-1}|$ هم برابر است)."
+      ],
+      "answer": "(a) $\\frac{1}{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "question",
+      "problem_fa": "اگر متریکس $\\begin{pmatrix} 2m - 3 & -1 \\\\ 1 & m \\end{pmatrix}$ معکوس‌پذیر باشد، m کدام است؟ (a) $m = 1, \\frac{1}{2}$ (b) $m \\neq 1$ (c) $m = 0$ (d) $m \\neq 1, \\frac{1}{2}$",
+      "solution_steps_fa": [
+        "دیترمینانت: $(2m - 3)m - (-1)(1) = 2m^2 - 3m + 1 = (2m - 1)(m - 1)$",
+        "معکوس‌پذیر یعنی دیترمینانت صفر نباشد: $m \\neq 1$ و $m \\neq \\frac{1}{2}$"
+      ],
+      "answer": "(d) $m \\neq 1, \\frac{1}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "question",
+      "problem_fa": "اگر $A = \\begin{pmatrix} 3 & 1 \\\\ 5 & 2 \\end{pmatrix}$ باشد، متریکس x که در $Ax = A^{-1}$ صدق کند کدام است؟ (a) $\\begin{pmatrix} 9 & 5 \\\\ 25 & 14 \\end{pmatrix}$ (b) $\\begin{pmatrix} 9 & -5 \\\\ -25 & 14 \\end{pmatrix}$ (c) $\\begin{pmatrix} 9 & 5 \\\\ -25 & -16 \\end{pmatrix}$ (d) $\\begin{pmatrix} -9 & 5 \\\\ -25 & -12 \\end{pmatrix}$",
+      "solution_steps_fa": [
+        "$|A| = 6 - 5 = 1$ پس $A^{-1} = \\begin{pmatrix} 2 & -1 \\\\ -5 & 3 \\end{pmatrix}$",
+        "از $Ax = A^{-1}$ نتیجه می‌شود $x = A^{-1}A^{-1}$",
+        "$x = \\begin{pmatrix} 2 & -1 \\\\ -5 & 3 \\end{pmatrix}\\begin{pmatrix} 2 & -1 \\\\ -5 & 3 \\end{pmatrix} = \\begin{pmatrix} 4 + 5 & -2 - 3 \\\\ -10 - 15 & 5 + 9 \\end{pmatrix} = \\begin{pmatrix} 9 & -5 \\\\ -25 & 14 \\end{pmatrix}$"
+      ],
+      "answer": "(b) $\\begin{pmatrix} 9 & -5 \\\\ -25 & 14 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "question",
+      "problem_fa": "تصویر خط $y = 2x$ زیر متریکس $\\begin{pmatrix} 2 & 1 \\\\ -2 & 1 \\end{pmatrix}$ کدام است؟ (a) محور y ها (b) محور x ها (c) $y + 2x = 0$ (d) $y = 0$",
+      "solution_steps_fa": [
+        "هر نقطهٔ خط به شکل $(t, 2t)$ است.",
+        "$\\begin{pmatrix} 2 & 1 \\\\ -2 & 1 \\end{pmatrix}\\begin{pmatrix} t \\\\ 2t \\end{pmatrix} = \\begin{pmatrix} 2t + 2t \\\\ -2t + 2t \\end{pmatrix} = \\begin{pmatrix} 4t \\\\ 0 \\end{pmatrix}$",
+        "مؤلفهٔ دوم همیشه صفر است، پس همهٔ نقطه‌های تصویر روی خط $y = 0$، یعنی محور x ها، قرار دارند."
+      ],
+      "answer": "$y = 0$ یعنی محور x ها (گزینه‌های b و d هر دو همین خط را بیان می‌کنند).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "question",
+      "problem_fa": "برای کدام قیمت x دیترمینانت $\\begin{vmatrix} 1 & x & x^2 \\\\ 1 & 2 & 4 \\\\ 1 & 3 & 9 \\end{vmatrix}$ صفر می‌شود؟ (a) $x = 1, 2$ (b) $x = 3, 1$ (c) $x = \\frac{1}{2}, 3$ (d) $x = 3, 2$",
+      "solution_steps_fa": [
+        "بسط بر اساس سطر اول: $1(18 - 12) - x(9 - 4) + x^2(3 - 2) = x^2 - 5x + 6$",
+        "$x^2 - 5x + 6 = (x - 2)(x - 3) = 0 \\Rightarrow x = 2$ یا $x = 3$",
+        "دلیل ساده: اگر $x = 2$ یا $x = 3$ باشد، سطر اول با سطر دوم یا سوم مساوی می‌شود و دیترمینانت صفر است."
+      ],
+      "answer": "(d) $x = 3, 2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "question",
+      "problem_fa": "قیمت دیترمینانت $\\begin{vmatrix} 2 & -1 & 3 \\\\ 0 & 1 & -2 \\\\ 1 & 3 & 4 \\end{vmatrix}$ را دریافت کنید. (a) ۲۹ (b) ۳۹ (c) ۱۹ (d) ۹",
+      "solution_steps_fa": [
+        "بسط بر اساس سطر اول: $2(1 \\cdot 4 - (-2) \\cdot 3) - (-1)(0 \\cdot 4 - (-2) \\cdot 1) + 3(0 \\cdot 3 - 1 \\cdot 1)$",
+        "$= 2(10) + 1(2) + 3(-1) = 20 + 2 - 3 = 19$"
+      ],
+      "answer": "(c) ۱۹",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سوال ۴ گزینه‌های b (محور x ها) و d ($y = 0$) یک خط را بیان می‌کنند؛ هر دو درست‌اند. سوال ۵ نمی‌گوید دیترمینانت چند است؛ از روی گزینه‌ها فرض شده که دیترمینانت صفر است. همهٔ جواب‌ها با Python امتحان شدند."
+}

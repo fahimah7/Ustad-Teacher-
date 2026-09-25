@@ -1,0 +1,36 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 149,
+  "printed_page": 142,
+  "page_kind": "review",
+  "chapter": 3,
+  "section_fa": "خلاصهٔ فصل",
+  "summary_fa": "آخرین صفحهٔ خلاصهٔ فصل سوم. اول ناحیهٔ تعریف توابع مرکب $f \\circ g$ و $g \\circ f$ مرور می‌شود: x باید در ناحیهٔ تعریف تابع داخلی باشد و قیمت تابع داخلی هم باید در ناحیهٔ تعریف تابع بیرونی قرار گیرد. بعد تابع یک به یک و معکوس آن خلاصه شده است: معکوس تابع یک به یک هم تابع است، با آزمایش خط افقی شناخته می‌شود، برای یافتن معکوس معادله را برای x حل کرده x و y را عوض می‌کنیم، و گراف تابع و معکوس آن نسبت به خط $y=x$ متناظر هستند. در آخر قواعد مجانب افقی و مایل توابع ناطق بر اساس درجهٔ صورت (m) و مخرج (n) دوباره آمده است.",
+  "key_points_fa": [
+    "$\\operatorname{Dom}(f \\circ g)=\\{x \\mid x \\in \\operatorname{dom} g,\\ g(x) \\in \\operatorname{dom} f\\}$.",
+    "آزمایش خط افقی: هر خط موازی محور X گراف تابع یک به یک را حداکثر در یک نقطه قطع می‌کند.",
+    "یافتن معکوس: $y=f(x)$ را برای x حل کنید، بعد جای x و y را عوض کنید تا $f^{-1}(x)$ به دست آید.",
+    "گراف $f$ و $f^{-1}$ نسبت به خط $y=x$ متناظر هستند.",
+    "مجانب‌ها: $m<n$ ← $y=0$؛ $m=n$ ← $y=\\frac{a_n}{b_n}$؛ $m>n$ ← مجانب افقی ندارد؛ $m=n+1$ ← مجانب مایل.",
+    "تابع ناطق می‌تواند چند مجانب عمودی داشته باشد، ولی فقط یک مجانب افقی یا مایل."
+  ],
+  "formulas": [
+    {"latex": "\\operatorname{Dom}(f \\circ g)=\\{x \\mid x \\in \\operatorname{dom} g,\\ g(x) \\in \\operatorname{dom} f\\}", "meaning_fa": "ناحیهٔ تعریف تابع مرکب $f \\circ g$"},
+    {"latex": "\\operatorname{Dom}(g \\circ f)=\\{x \\mid x \\in \\operatorname{dom} f,\\ f(x) \\in \\operatorname{dom} g\\}", "meaning_fa": "ناحیهٔ تعریف تابع مرکب $g \\circ f$"},
+    {"latex": "f(x)=\\frac{a_n x^n+\\dots+a_0}{b_n x^n+\\dots+b_0} \\Rightarrow y=\\frac{a_n}{b_n}", "meaning_fa": "مجانب افقی وقتی درجهٔ صورت و مخرج برابر است"}
+  ],
+  "terms": [
+    {"fa": "تابع مرکب", "en": "composite function"},
+    {"fa": "تابع یک به یک", "en": "one-to-one function"},
+    {"fa": "تابع معکوس", "en": "inverse function"},
+    {"fa": "مجانب مایل", "en": "oblique asymptote"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

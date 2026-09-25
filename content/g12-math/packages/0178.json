@@ -1,0 +1,61 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 178,
+  "printed_page": 171,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "تمرینات عمومی فصل چهارم",
+  "summary_fa": "این صفحه تمرینات عمومی فصل چهارم را شروع می‌کند. سوال ۱ دوازده انتیگرال معین دارد که با پیدا کردن تابع اولیه و حساب $F(b)-F(a)$ حل می‌شوند؛ در بعضی از آن‌ها خواص کمک می‌کند، مثلاً سرحدات مساوی یا حذف قسمت طاق روی انتروال متناظر. سوال ۲ دوازده انتیگرال غیرمعین دارد؛ در چند تا باید اول کسر را ساده کرد (مثلاً $\\sin2x = 2\\sin x\\cos x$ یا حذف عامل مشترک) و بعد قاعدهٔ توان را به کار برد. سوال ۳ انتیگرال یک تابع خطی را با مساحت ذوزنقهٔ داخل شکل مقایسه می‌کند تا معنای هندسی انتیگرال معین روشن شود.",
+  "key_points_fa": [
+    "قاعدهٔ توان: $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$ برای $n \\ne -1$",
+    "پیش از انتیگرال گرفتن، کسر را تا جای ممکن ساده کنید.",
+    "روی انتروال $[-a,a]$ انتیگرال توان‌های طاق x صفر است.",
+    "$\\int_a^a f = 0$",
+    "انتیگرال معین یک تابع مثبت، مساحت زیر گراف آن است."
+  ],
+  "formulas": [
+    {"latex": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\quad n\\ne-1", "meaning_fa": "قاعدهٔ توان"},
+    {"latex": "\\int \\frac{dx}{\\cos^2 x} = \\tan x + C", "meaning_fa": "برای سوال ۱-g"},
+    {"latex": "\\sin 2x = 2\\sin x\\cos x", "meaning_fa": "برای ساده کردن سوال ۲-e"}
+  ],
+  "terms": [
+    {"fa": "تمرینات عمومی", "en": "chapter review exercises"},
+    {"fa": "ذوزنقه", "en": "trapezoid"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.32, 0.74, 0.60, 0.94], "kind": "graph", "description_fa": "گراف خط $y=2x+3$ و ناحیهٔ رنگه زیر آن از $x=-1$ تا $x=2$. نقاط A(−1,0)، B(−1,1)، C(2,7) و D(2,0) یک ذوزنقه می‌سازند که مساحتش همان قیمت انتیگرال است."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {"label_fa": "۱-a", "kind": "exercise", "problem_fa": "$\\int_0^{\\pi/4}\\frac{dx}{1+x^2}$", "solution_steps_fa": ["تابع اولیهٔ $\\frac{1}{1+x^2}$ تابع $\\arctan x$ است.", "$\\arctan\\frac{\\pi}{4} - \\arctan 0$"], "answer": "$\\arctan\\frac{\\pi}{4} \\approx 0.666$", "solution_source": "generated"},
+    {"label_fa": "۱-b", "kind": "exercise", "problem_fa": "$\\int_{-4}^{4}\\left[2x^2-\\frac18x^4\\right]dx$", "solution_steps_fa": ["تابع جفت است: $2\\left[\\frac{2x^3}{3}-\\frac{x^5}{40}\\right]_0^4$", "$= 2\\left(\\frac{128}{3}-\\frac{128}{5}\\right) = \\frac{512}{15}$"], "answer": "$\\frac{512}{15}\\approx34.13$", "solution_source": "generated"},
+    {"label_fa": "۱-c", "kind": "exercise", "problem_fa": "$\\int_2^4\\frac{1}{x^2}dx$", "solution_steps_fa": ["$\\left[-\\frac1x\\right]_2^4 = -\\frac14+\\frac12$"], "answer": "$\\frac14$", "solution_source": "generated"},
+    {"label_fa": "۱-d", "kind": "exercise", "problem_fa": "$\\int_0^3 4\\,dx$", "solution_steps_fa": ["$4(3-0)$"], "answer": "$12$", "solution_source": "generated"},
+    {"label_fa": "۱-e", "kind": "exercise", "problem_fa": "$\\int_1^3\\sqrt x\\,dx$", "solution_steps_fa": ["$\\frac23\\left[x^{3/2}\\right]_1^3 = \\frac23(3\\sqrt3-1)$"], "answer": "$2\\sqrt3-\\frac23\\approx2.80$", "solution_source": "generated"},
+    {"label_fa": "۱-f", "kind": "exercise", "problem_fa": "$\\int_1^2(x^2-x^5)dx$", "solution_steps_fa": ["$\\left[\\frac{x^3}{3}-\\frac{x^6}{6}\\right]_1^2 = \\left(\\frac83-\\frac{64}{6}\\right)-\\left(\\frac13-\\frac16\\right)$", "$= -8-\\frac16$"], "answer": "$-\\frac{49}{6}$", "solution_source": "generated"},
+    {"label_fa": "۱-g", "kind": "exercise", "problem_fa": "$\\int_{\\pi/6}^{\\pi/6}\\frac{dx}{\\cos^2x}$ (هر دو سرحد $\\frac{\\pi}{6}$ چاپ شده)", "solution_steps_fa": ["سرحدات مساوی است، پس طبق خاصیت $\\int_a^a f = 0$ جواب صفر است.", "اگر سرحد پایینی $-\\frac{\\pi}{6}$ باشد: $[\\tan x]_{-\\pi/6}^{\\pi/6} = \\frac{2}{\\sqrt3}$"], "answer": "$0$ (با سرحد پایینی $-\\frac{\\pi}{6}$: $\\frac{2\\sqrt3}{3}$)", "solution_source": "generated"},
+    {"label_fa": "۱-h", "kind": "exercise", "problem_fa": "$\\int_{-2}^{0}\\left[\\frac{x^3}{4}+\\frac{x^2}{3}\\right]dx$", "solution_steps_fa": ["$\\left[\\frac{x^4}{16}+\\frac{x^3}{9}\\right]_{-2}^{0} = 0-\\left(1-\\frac89\\right)$"], "answer": "$-\\frac19$", "solution_source": "generated"},
+    {"label_fa": "۱-i", "kind": "exercise", "problem_fa": "$\\int_2^3(x^3+x^2)dx$", "solution_steps_fa": ["$\\left[\\frac{x^4}{4}+\\frac{x^3}{3}\\right]_2^3 = \\left(\\frac{81}{4}+9\\right)-\\left(4+\\frac83\\right)$"], "answer": "$\\frac{271}{12}\\approx22.58$", "solution_source": "generated"},
+    {"label_fa": "۱-j", "kind": "exercise", "problem_fa": "$\\int_{-2}^{2}\\left[x^3-\\frac12x^2+3x-4\\right]dx$", "solution_steps_fa": ["قسمت‌های طاق ($x^3$ و $3x$) روی $[-2,2]$ صفر می‌دهند.", "$2\\int_0^2\\left(-\\frac{x^2}{2}-4\\right)dx = 2\\left(-\\frac43-8\\right)$"], "answer": "$-\\frac{56}{3}$", "solution_source": "generated"},
+    {"label_fa": "۱-k", "kind": "exercise", "problem_fa": "$\\int_0^{\\pi}\\sin x\\,dx$", "solution_steps_fa": ["$[-\\cos x]_0^{\\pi} = 1+1$"], "answer": "$2$", "solution_source": "generated"},
+    {"label_fa": "۱-l", "kind": "exercise", "problem_fa": "$\\int_1^2x^2dx$", "solution_steps_fa": ["$\\left[\\frac{x^3}{3}\\right]_1^2 = \\frac{8-1}{3}$"], "answer": "$\\frac73$", "solution_source": "generated"},
+    {"label_fa": "۲-a", "kind": "exercise", "problem_fa": "$\\int[\\sin x+8x^3]dx$", "solution_steps_fa": ["$-\\cos x + 8\\cdot\\frac{x^4}{4}$"], "answer": "$-\\cos x+2x^4+C$", "solution_source": "generated"},
+    {"label_fa": "۲-b", "kind": "exercise", "problem_fa": "$\\int\\left[x^5+\\frac{4}{x^4}+x^3+\\frac{2}{x^2}+x\\right]dx$", "solution_steps_fa": ["$\\frac4{x^4}=4x^{-4}$ و $\\frac2{x^2}=2x^{-2}$", "هر جمله با قاعدهٔ توان"], "answer": "$\\frac{x^6}{6}-\\frac{4}{3x^3}+\\frac{x^4}{4}-\\frac2x+\\frac{x^2}{2}+C$", "solution_source": "generated"},
+    {"label_fa": "۲-c", "kind": "exercise", "problem_fa": "$\\int x(1-2x^2)dx$", "solution_steps_fa": ["$\\int(x-2x^3)dx$"], "answer": "$\\frac{x^2}{2}-\\frac{x^4}{2}+C$", "solution_source": "generated"},
+    {"label_fa": "۲-d", "kind": "exercise", "problem_fa": "$\\int\\sin x\\,dx$", "solution_steps_fa": ["مشتق $-\\cos x$ برابر $\\sin x$ است."], "answer": "$-\\cos x+C$", "solution_source": "generated"},
+    {"label_fa": "۲-e", "kind": "exercise", "problem_fa": "$\\int\\frac{\\sin2x}{2\\sin x}dx$", "solution_steps_fa": ["$\\frac{2\\sin x\\cos x}{2\\sin x} = \\cos x$", "$\\int\\cos x\\,dx$"], "answer": "$\\sin x+C$", "solution_source": "generated"},
+    {"label_fa": "۲-f", "kind": "exercise", "problem_fa": "$\\int\\frac{(1-x)^2}{1-x}dx$", "solution_steps_fa": ["برای $x\\ne1$: $\\frac{(1-x)^2}{1-x} = 1-x$"], "answer": "$x-\\frac{x^2}{2}+C$", "solution_source": "generated"},
+    {"label_fa": "۲-g", "kind": "exercise", "problem_fa": "$\\int\\sqrt[5]{x^3}\\,dx$", "solution_steps_fa": ["$\\sqrt[5]{x^3}=x^{3/5}$", "$\\frac{x^{8/5}}{8/5}$"], "answer": "$\\frac58x^{8/5}+C$", "solution_source": "generated"},
+    {"label_fa": "۲-h", "kind": "exercise", "problem_fa": "$\\int\\frac{3x^2+8x}{x}dx$", "solution_steps_fa": ["$\\frac{3x^2+8x}{x} = 3x+8$"], "answer": "$\\frac32x^2+8x+C$", "solution_source": "generated"},
+    {"label_fa": "۲-i", "kind": "exercise", "problem_fa": "$\\int(2x^2+3)dx$", "solution_steps_fa": ["قاعدهٔ توان برای هر جمله"], "answer": "$\\frac23x^3+3x+C$", "solution_source": "generated"},
+    {"label_fa": "۲-j", "kind": "exercise", "problem_fa": "$\\int\\frac{x^2}{\\sqrt{x^3+2}}dx$", "solution_steps_fa": ["$u=x^3+2$، $x^2dx=\\frac{du}{3}$", "$\\frac13\\int u^{-1/2}du = \\frac23\\sqrt u$"], "answer": "$\\frac23\\sqrt{x^3+2}+C$", "solution_source": "generated"},
+    {"label_fa": "۲-k", "kind": "exercise", "problem_fa": "$\\int\\frac{(1+x)(1-x)}{x-x^3}dx$", "solution_steps_fa": ["$x-x^3 = x(1-x^2) = x(1+x)(1-x)$", "پس کسر برابر $\\frac1x$ است."], "answer": "$\\ln|x|+C$", "solution_source": "generated"},
+    {"label_fa": "۲-l", "kind": "exercise", "problem_fa": "$\\int(3x^2+4x-1)dx$", "solution_steps_fa": ["قاعدهٔ توان برای هر جمله"], "answer": "$x^3+2x^2-x+C$", "solution_source": "generated"},
+    {"label_fa": "۳", "kind": "exercise", "problem_fa": "$\\int_{-1}^{2}(2x+3)dx$ را با استفاده از شکل (مساحت) حساب کنید.", "solution_steps_fa": ["ناحیه ذوزنقه است: ضلع‌های موازی $f(-1)=1$ و $f(2)=7$، ارتفاع $2-(-1)=3$", "مساحت: $\\frac{1+7}{2}\\cdot3 = 12$", "بررسی: $[x^2+3x]_{-1}^{2} = 10-(-2) = 12$"], "answer": "$12$", "solution_source": "generated"}
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "۱-a به تابع اولیهٔ $\\arctan x$ ضرورت دارد که در این کتاب تدریس نشده؛ شاید مقصد سرحد بالایی 1 بوده (جواب $\\frac{\\pi}{4}$). در ۱-g هر دو سرحد $\\frac{\\pi}{6}$ چاپ شده (جواب 0)؛ احتمالاً سرحد پایینی $-\\frac{\\pi}{6}$ بوده است. ۲-k به $\\ln$ ضرورت دارد (فصل پنجم). همهٔ جواب‌ها با sympy بررسی شده‌اند."
+}

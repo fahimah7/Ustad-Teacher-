@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-math",
+  "chapter": 8,
+  "title": {
+    "en": "Statistics",
+    "fa": "احصائیه"
+  },
+  "questions": [
+    {
+      "pdf_page": 367,
+      "q": {
+        "en": "A frequency table has the classes $10-20$, $20-30$, $30-40$ and $40-50$. To close the frequency polygon, which two points are added on the $x$-axis?",
+        "fa": "یک جدول کثرت دسته‌های $10-20$، $20-30$، $30-40$ و $40-50$ دارد. برای بسته کردن گراف چند ضلعی کثرت، کدام دو نقطه روی محور X اضافه می‌شوند؟"
+      },
+      "options": [
+        {
+          "en": "$(5, 0)$ and $(55, 0)$",
+          "fa": "$(5, 0)$ و $(55, 0)$"
+        },
+        {
+          "en": "$(10, 0)$ and $(50, 0)$",
+          "fa": "$(10, 0)$ و $(50, 0)$"
+        },
+        {
+          "en": "$(0, 0)$ and $(60, 0)$",
+          "fa": "$(0, 0)$ و $(60, 0)$"
+        },
+        {
+          "en": "$(15, 0)$ and $(45, 0)$",
+          "fa": "$(15, 0)$ و $(45, 0)$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The class centers are 15, 25, 35 and 45, and the class width is $c = 10$, so the added points are $(x_1 - c, 0) = (5, 0)$ and $(x_n + c, 0) = (55, 0)$.",
+        "fa": "مرکز دسته‌ها 15، 25، 35 و 45 و وسعت دسته $c = 10$ است؛ پس نقطه‌های اضافه $(x_1 - c, 0) = (5, 0)$ و $(x_n + c, 0) = (55, 0)$ اند."
+      },
+      "idea": {
+        "en": "The polygon is drawn through class centers, not class limits. Go one class width beyond the first and the last center.",
+        "fa": "گراف چند ضلعی از مرکز دسته‌ها می‌گذرد، نه از سرحدهای دسته‌ها. از مرکز اول و مرکز آخر به اندازهٔ یک وسعت دسته بیرون بروید."
+      }
+    },
+    {
+      "pdf_page": 371,
+      "q": {
+        "en": "Data: 12, 15, 21, 24, 24, 27, 29, 33, 38, 41. In the stem-and-leaf plot of these data, which stem has the most leaves, and what are its leaves?",
+        "fa": "دیتا: 12، 15، 21، 24، 24، 27، 29، 33، 38، 41. در گراف ساقه و برگ این دیتا، کدام ساقه بیشترین برگ را دارد و برگ‌های آن کدام‌اند؟"
+      },
+      "options": [
+        {
+          "en": "stem 2, leaves 1, 4, 7, 9",
+          "fa": "ساقهٔ 2 با برگ‌های 1، 4، 7، 9"
+        },
+        {
+          "en": "stem 2, leaves 21, 24, 24, 27, 29",
+          "fa": "ساقهٔ 2 با برگ‌های 21، 24، 24، 27، 29"
+        },
+        {
+          "en": "stem 1, leaves 2, 5",
+          "fa": "ساقهٔ 1 با برگ‌های 2، 5"
+        },
+        {
+          "en": "stem 2, leaves 1, 4, 4, 7, 9",
+          "fa": "ساقهٔ 2 با برگ‌های 1، 4، 4، 7، 9"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The tens digit is the stem and the units digit is the leaf. Stem 2 holds 21, 24, 24, 27, 29, so its leaves are 1, 4, 4, 7, 9: five leaves, more than any other stem.",
+        "fa": "رقم ده‌ها ساقه و رقم یک‌ها برگ است. ساقهٔ 2 اعداد 21، 24، 24، 27 و 29 را دارد، پس برگ‌های آن 1، 4، 4، 7، 9 است؛ پنج برگ، بیشتر از هر ساقهٔ دیگر."
+      },
+      "idea": {
+        "en": "Write only the last digit as the leaf, and write a repeated value (24) twice.",
+        "fa": "فقط رقم آخر (یک‌ها) را به حیث برگ بنویسید و عدد تکراری (24) را دو بار بنویسید."
+      }
+    },
+    {
+      "pdf_page": 379,
+      "q": {
+        "en": "A frequency curve is skewed, with its long tail to the right. Which order of the mode, the median and the mean is correct?",
+        "fa": "یک منحنی کثرت کج است و دُم دراز آن به طرف راست است. ترتیب درست مود، میانه و اوسط کدام است؟"
+      },
+      "options": [
+        {
+          "en": "$\\bar{x} < md < mod$",
+          "fa": "$\\bar{x} < md < mod$"
+        },
+        {
+          "en": "$mod < md < \\bar{x}$",
+          "fa": "$mod < md < \\bar{x}$"
+        },
+        {
+          "en": "$\\bar{x} = md = mod$",
+          "fa": "$\\bar{x} = md = mod$"
+        },
+        {
+          "en": "$md < mod < \\bar{x}$",
+          "fa": "$md < mod < \\bar{x}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The few large values in the right tail pull the mean to the right; the mode stays under the highest point and the median lies between them: $mod < md < \\bar{x}$.",
+        "fa": "چند قیمت بزرگ در دُم راست، اوسط را به طرف راست می‌کشند؛ مود زیر بلندترین نقطهٔ منحنی می‌ماند و میانه بین آن دو است: $mod < md < \\bar{x}$."
+      },
+      "idea": {
+        "en": "Only a symmetric (normal) curve has $\\bar{x} = md = mod$. The mean moves toward the long tail.",
+        "fa": "فقط در منحنی متناظر (نارمل) $\\bar{x} = md = mod$ است. اوسط به طرف دُم دراز منحنی می‌رود."
+      }
+    },
+    {
+      "pdf_page": 382,
+      "q": {
+        "en": "For the data 3, 5, 7, 8, 10, 12, 13, 15, 18, 20, find the quartile deviation $Q = Q_3 - Q_1$ (position of a quartile: $\\frac{P \\cdot n}{4} + \\frac{1}{2}$).",
+        "fa": "برای دیتای 3، 5، 7، 8، 10، 12، 13، 15، 18، 20 انحراف چارک‌ها $Q = Q_3 - Q_1$ را دریابید (محل چارک: $\\frac{P \\cdot n}{4} + \\frac{1}{2}$)."
+      },
+      "options": [
+        {
+          "en": "$17$",
+          "fa": "$17$"
+        },
+        {
+          "en": "$11$",
+          "fa": "$11$"
+        },
+        {
+          "en": "$8$",
+          "fa": "$8$"
+        },
+        {
+          "en": "$22$",
+          "fa": "$22$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "With $n = 10$: the position of $Q_1$ is $\\frac{10}{4} + \\frac{1}{2} = 3$, so $Q_1 = 7$; the position of $Q_3$ is $\\frac{30}{4} + \\frac{1}{2} = 8$, so $Q_3 = 15$. Hence $Q = 15 - 7 = 8$.",
+        "fa": "با $n = 10$: محل $Q_1$ مساوی $\\frac{10}{4} + \\frac{1}{2} = 3$ است، پس $Q_1 = 7$؛ محل $Q_3$ مساوی $\\frac{30}{4} + \\frac{1}{2} = 8$ است، پس $Q_3 = 15$. بنابراین $Q = 15 - 7 = 8$."
+      },
+      "idea": {
+        "en": "17 is the range and 11 is the median. Find the positions of $Q_1$ and $Q_3$ in the ordered data, read their values and subtract.",
+        "fa": "۱۷ ساحهٔ تحول و ۱۱ میانه است. محل $Q_1$ و $Q_3$ را در دیتای مرتب پیدا کنید، قیمت‌های آن‌ها را بخوانید و تفریق کنید."
+      }
+    },
+    {
+      "pdf_page": 389,
+      "q": {
+        "en": "Find the standard deviation of the data 2, 4, 4, 4, 5, 5, 7, 9.",
+        "fa": "انحراف معیاری دیتای 2، 4، 4، 4، 5، 5، 7، 9 را دریابید."
+      },
+      "options": [
+        {
+          "en": "$2$",
+          "fa": "$2$"
+        },
+        {
+          "en": "$4$",
+          "fa": "$4$"
+        },
+        {
+          "en": "$1.5$",
+          "fa": "$1.5$"
+        },
+        {
+          "en": "$32$",
+          "fa": "$32$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$\\bar{x} = \\frac{40}{8} = 5$; the squared deviations are 9, 1, 1, 1, 0, 0, 4, 16, with sum 32, so $S^2 = \\frac{32}{8} = 4$ and $S = \\sqrt{4} = 2$.",
+        "fa": "$\\bar{x} = \\frac{40}{8} = 5$ است؛ مربع‌های انحراف 9، 1، 1، 1، 0، 0، 4، 16 و مجموع آن‌ها 32 است، پس $S^2 = \\frac{32}{8} = 4$ و $S = \\sqrt{4} = 2$."
+      },
+      "idea": {
+        "en": "4 is the variance; the standard deviation is its square root. 1.5 is the mean absolute deviation, which uses $|x_i - \\bar{x}|$ instead of squares.",
+        "fa": "۴ واریانس است و انحراف معیاری جذر آن است. $1.5$ اوسط قیمت مطلقهٔ انحراف‌ها است که به جای مربع‌ها از $|x_i - \\bar{x}|$ استفاده می‌کند."
+      }
+    }
+  ]
+}

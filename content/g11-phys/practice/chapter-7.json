@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-phys",
+  "chapter": 7,
+  "title": {
+    "en": "Static fluids",
+    "fa": "ستاتیک سیال‌ها (سکون نسبی سیال‌ها)"
+  },
+  "questions": [
+    {
+      "pdf_page": 180,
+      "q": {
+        "en": "A student weighing $600\\,\\mathrm{N}$ stands on the floor. The total area of the soles of both shoes is $400\\,\\mathrm{cm^2}$. What pressure does the student exert on the floor?",
+        "fa": "شاگردی به وزن $600\\,\\mathrm{N}$ روی زمین ایستاده است. مساحت مجموعی کف هر دو بوت او $400\\,\\mathrm{cm^2}$ است. فشاری که بر زمین وارد می‌کند چند است؟"
+      },
+      "options": [
+        {
+          "en": "$1.5\\,\\mathrm{Pa}$",
+          "fa": "$1.5\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$24\\,\\mathrm{Pa}$",
+          "fa": "$24\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$1.5\\times10^{4}\\,\\mathrm{Pa}$",
+          "fa": "$1.5\\times10^{4}\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$150\\,\\mathrm{Pa}$",
+          "fa": "$150\\,\\mathrm{Pa}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$A = 400\\,\\mathrm{cm^2} = 0.04\\,\\mathrm{m^2}$, so $P = \\frac{F}{A} = \\frac{600\\,\\mathrm{N}}{0.04\\,\\mathrm{m^2}} = 1.5\\times10^{4}\\,\\mathrm{Pa}$.",
+        "fa": "$A = 400\\,\\mathrm{cm^2} = 0.04\\,\\mathrm{m^2}$ است، پس $P = \\frac{F}{A} = \\frac{600\\,\\mathrm{N}}{0.04\\,\\mathrm{m^2}} = 1.5\\times10^{4}\\,\\mathrm{Pa}$."
+      },
+      "idea": {
+        "en": "Pressure is force divided by area, and $1\\,\\mathrm{Pa} = 1\\,\\mathrm{N/m^2}$. Since $1\\,\\mathrm{m^2} = 10^{4}\\,\\mathrm{cm^2}$, change the area to square metres first.",
+        "fa": "فشار قوه تقسیم بر مساحت است و $1\\,\\mathrm{Pa} = 1\\,\\mathrm{N/m^2}$. چون $1\\,\\mathrm{m^2} = 10^{4}\\,\\mathrm{cm^2}$ است، اول مساحت را به متر مربع تبدیل کنید."
+      }
+    },
+    {
+      "pdf_page": 183,
+      "q": {
+        "en": "A narrow well is $10\\,\\mathrm{m}$ deep and a wide lake is $4\\,\\mathrm{m}$ deep; both hold fresh water. Where is the water pressure at the bottom greater?",
+        "fa": "یک چاه باریک $10\\,\\mathrm{m}$ عمق و یک جهیل وسیع $4\\,\\mathrm{m}$ عمق دارد و هر دو آب صاف دارند. فشار آب در قاعدۀ کدام یک بیشتر است؟"
+      },
+      "options": [
+        {
+          "en": "At the bottom of the well, because the pressure depends on the depth",
+          "fa": "در قاعدۀ چاه، چون فشار به عمق وابسته است"
+        },
+        {
+          "en": "At the bottom of the lake, because it holds much more water",
+          "fa": "در قاعدۀ جهیل، چون آب بسیار بیشتر دارد"
+        },
+        {
+          "en": "The same in both, because it is the same liquid",
+          "fa": "در هر دو یکسان است، چون مایع یکی است"
+        },
+        {
+          "en": "At the bottom of the lake, because its bottom area is larger",
+          "fa": "در قاعدۀ جهیل، چون مساحت قاعدۀ آن بزرگ‌تر است"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$P = P_0 + \\rho g h$: the pressure depends only on the depth $h$ (and on $\\rho$ and $g$), not on the amount of water or the shape of the container. The well is deeper, so the pressure at its bottom is greater.",
+        "fa": "$P = P_0 + \\rho g h$ است: فشار فقط به عمق $h$ (و به $\\rho$ و $g$) وابسته است، نه به مقدار آب یا شکل ظرف. چاه عمیق‌تر است، پس فشار در قاعدۀ آن بیشتر است."
+      },
+      "idea": {
+        "en": "Liquid pressure comes from the weight of the column of liquid directly above a point, so only the height of that column matters.",
+        "fa": "فشار مایع از وزن ستون مایع درست بالای یک نقطه پیدا می‌شود، پس فقط ارتفاع همان ستون مهم است."
+      }
+    },
+    {
+      "pdf_page": 191,
+      "q": {
+        "en": "In a hydraulic press the small piston has a diameter of $4\\,\\mathrm{cm}$ and the large piston a diameter of $20\\,\\mathrm{cm}$. What force on the small piston holds a load of $10^{4}\\,\\mathrm{N}$ on the large piston in balance?",
+        "fa": "در یک شکنجۀ آبی قطر پستون کوچک $4\\,\\mathrm{cm}$ و قطر پستون بزرگ $20\\,\\mathrm{cm}$ است. چه قوه‌یی بر پستون کوچک لازم است تا باری به وزن $10^{4}\\,\\mathrm{N}$ را روی پستون بزرگ در توازن نگه دارد؟"
+      },
+      "options": [
+        {
+          "en": "$2000\\,\\mathrm{N}$",
+          "fa": "$2000\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$400\\,\\mathrm{N}$",
+          "fa": "$400\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$2.5\\times10^{5}\\,\\mathrm{N}$",
+          "fa": "$2.5\\times10^{5}\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$10^{4}\\,\\mathrm{N}$",
+          "fa": "$10^{4}\\,\\mathrm{N}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "By Pascal's law the pressure under both pistons is the same: $\\frac{f}{a} = \\frac{F}{A}$. Areas go as the square of the diameter, so $\\frac{a}{A} = \\left(\\frac{4}{20}\\right)^2 = \\frac{1}{25}$ and $f = \\frac{10^{4}\\,\\mathrm{N}}{25} = 400\\,\\mathrm{N}$.",
+        "fa": "طبق قانون پاسکال فشار زیر هر دو پستون مساوی است: $\\frac{f}{a} = \\frac{F}{A}$. مساحت با مربع قطر متناسب است، پس $\\frac{a}{A} = \\left(\\frac{4}{20}\\right)^2 = \\frac{1}{25}$ و $f = \\frac{10^{4}\\,\\mathrm{N}}{25} = 400\\,\\mathrm{N}$."
+      },
+      "idea": {
+        "en": "Compare areas, not diameters: a diameter 5 times larger gives an area (and a force) 25 times larger. The small piston needs the smaller force.",
+        "fa": "مساحت‌ها را مقایسه کنید نه قطرها را: قطر پنج برابر، مساحت (و قوۀ) 25 برابر می‌دهد. پستون کوچک قوۀ کمتر لازم دارد."
+      }
+    },
+    {
+      "pdf_page": 196,
+      "q": {
+        "en": "A piece of metal weighs $5.0\\,\\mathrm{N}$ in air and $3.0\\,\\mathrm{N}$ when it is completely under water ($\\rho_w = 1000\\,\\mathrm{kg/m^3}$, $g = 10\\,\\mathrm{m/s^2}$). What is the density of the metal?",
+        "fa": "یک پارچه فلز در هوا $5.0\\,\\mathrm{N}$ و وقتی کاملاً زیر آب باشد $3.0\\,\\mathrm{N}$ وزن دارد ($\\rho_w = 1000\\,\\mathrm{kg/m^3}$، $g = 10\\,\\mathrm{m/s^2}$). کثافت فلز چند است؟"
+      },
+      "options": [
+        {
+          "en": "$1500\\,\\mathrm{kg/m^3}$",
+          "fa": "$1500\\,\\mathrm{kg/m^3}$"
+        },
+        {
+          "en": "$1667\\,\\mathrm{kg/m^3}$",
+          "fa": "$1667\\,\\mathrm{kg/m^3}$"
+        },
+        {
+          "en": "$400\\,\\mathrm{kg/m^3}$",
+          "fa": "$400\\,\\mathrm{kg/m^3}$"
+        },
+        {
+          "en": "$2500\\,\\mathrm{kg/m^3}$",
+          "fa": "$2500\\,\\mathrm{kg/m^3}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Buoyant force $F_B = W - W' = 2.0\\,\\mathrm{N}$. Volume $V = \\frac{F_B}{\\rho_w g} = \\frac{2.0}{1000 \\times 10} = 2\\times10^{-4}\\,\\mathrm{m^3}$. Density $\\rho = \\frac{W}{V g} = \\frac{5.0}{2\\times10^{-4} \\times 10} = 2500\\,\\mathrm{kg/m^3}$.",
+        "fa": "قوۀ صعودی $F_B = W - W' = 2.0\\,\\mathrm{N}$ است. حجم $V = \\frac{F_B}{\\rho_w g} = \\frac{2.0}{1000 \\times 10} = 2\\times10^{-4}\\,\\mathrm{m^3}$ و کثافت $\\rho = \\frac{W}{V g} = \\frac{5.0}{2\\times10^{-4} \\times 10} = 2500\\,\\mathrm{kg/m^3}$."
+      },
+      "idea": {
+        "en": "The weight lost in water is the buoyant force, and it gives the volume of the body. Then divide the real weight (in air), not the apparent weight, by $V g$.",
+        "fa": "وزنی که جسم در آب از دست می‌دهد قوۀ صعودی است و از آن حجم جسم به دست می‌آید. بعد وزن حقیقی (در هوا)، نه وزن ظاهری، را بر $V g$ تقسیم کنید."
+      }
+    },
+    {
+      "pdf_page": 194,
+      "q": {
+        "en": "A block of wood with density $600\\,\\mathrm{kg/m^3}$ floats in fresh water ($1000\\,\\mathrm{kg/m^3}$). What fraction of its volume is under water?",
+        "fa": "یک پارچه چوب با کثافت $600\\,\\mathrm{kg/m^3}$ روی آب صاف ($1000\\,\\mathrm{kg/m^3}$) شنا می‌کند. چه کسری از حجم آن زیر آب است؟"
+      },
+      "options": [
+        {
+          "en": "$60\\%$",
+          "fa": "$60\\%$"
+        },
+        {
+          "en": "$40\\%$",
+          "fa": "$40\\%$"
+        },
+        {
+          "en": "$100\\%$",
+          "fa": "$100\\%$"
+        },
+        {
+          "en": "$50\\%$",
+          "fa": "$50\\%$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "A floating body is in equilibrium: the weight of the displaced water equals the weight of the body, $V_f\\,\\rho_f\\,g = V\\,\\rho_0\\,g$, so $\\frac{V_f}{V} = \\frac{\\rho_0}{\\rho_f} = \\frac{600}{1000} = 0.6$, that is $60\\%$.",
+        "fa": "جسم شناور در تعادل است: وزن آب بی‌جا شده مساوی وزن جسم است، $V_f\\,\\rho_f\\,g = V\\,\\rho_0\\,g$، پس $\\frac{V_f}{V} = \\frac{\\rho_0}{\\rho_f} = \\frac{600}{1000} = 0.6$، یعنی $60\\%$."
+      },
+      "idea": {
+        "en": "The fraction under water is the body's density divided by the liquid's density; $40\\%$ is the part that stays above the water.",
+        "fa": "کسر زیر آب مساوی کثافت جسم تقسیم بر کثافت مایع است؛ $40\\%$ قسمتی است که بیرون آب می‌ماند."
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 299,
+  "printed_page": 292,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "ضرب اعداد مختلط",
+  "summary_fa": "بالای صفحه خلاصهٔ درس ضرب اعداد مختلط آمده است: مزدوج با تغییر علامت قسمت موهومی به دست می‌آید و معکوس ضربی $a+bi$ مساوی $\\frac{a}{a^2+b^2}-\\frac{b}{a^2+b^2}i$ است. بعد تمرین درس با هشت سؤال می‌آید: ضرب جوره‌های اعداد مختلط (چند تا عدد در مزدوج خودش)، دریافت معکوس ضربی، تجزیهٔ افاده‌های $x^2+k$، دریافت مربع اعداد مختلط، حساب یک افاده برای $z=4-3i$، حل یک تساوی مختلط، و ثبوت این‌که یک عدد جذر مربع $i$ و عدد دیگر جذر سوم $-i$ است.",
+  "key_points_fa": [
+    "$(a+bi)(c+di)=(ac-bd)+(ad+bc)i$",
+    "$(a+bi)(a-bi)=a^2+b^2$",
+    "$\\frac{1}{a+bi}=\\frac{a-bi}{a^2+b^2}$",
+    "$x^2+k=(x-\\sqrt{k}\\,i)(x+\\sqrt{k}\\,i)$ برای $k>0$",
+    "برای ثبوت «w جذر n-ام z است» کافی است نشان دهید $w^n=z$."
+  ],
+  "formulas": [
+    {"latex": "(a+bi)(c+di)=(ac-bd)+(ad+bc)i", "meaning_fa": "ضرب اعداد مختلط"},
+    {"latex": "\\frac{1}{a+bi}=\\frac{a}{a^2+b^2}-\\frac{b}{a^2+b^2}i", "meaning_fa": "معکوس ضربی"},
+    {"latex": "(a+bi)^2=(a^2-b^2)+2abi", "meaning_fa": "مربع یک عدد مختلط"}
+  ],
+  "terms": [
+    {"fa": "مزدوج", "en": "conjugate"},
+    {"fa": "معکوس ضربی", "en": "multiplicative inverse"},
+    {"fa": "جذر مربع", "en": "square root"},
+    {"fa": "جذر سوم", "en": "cube root"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "ضرب کنید: $(2+i)(3-2i)$، $(3+i)(3-i)$، $(-2+3i)(4-2i)$، $(2-5i)(2+5i)$، $(5+2i)(5-3i)$، $(\\sqrt{6}+i)(\\sqrt{6}-i)$، $(\\sqrt{3}+\\sqrt{2}i)(\\sqrt{3}-\\sqrt{2}i)$",
+      "solution_steps_fa": ["$(2+i)(3-2i)=6-4i+3i-2i^2=8-i$", "$(3+i)(3-i)=9+1=10$", "$(-2+3i)(4-2i)=-8+4i+12i-6i^2=-2+16i$", "$(2-5i)(2+5i)=4+25=29$", "$(5+2i)(5-3i)=25-15i+10i-6i^2=31-5i$", "$(\\sqrt{6}+i)(\\sqrt{6}-i)=6+1=7$", "$(\\sqrt{3}+\\sqrt{2}i)(\\sqrt{3}-\\sqrt{2}i)=3+2=5$"],
+      "answer": "$8-i$، $10$، $-2+16i$، $29$، $31-5i$، $7$، $5$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "معکوس ضربی $1-i$، $2+4i$، $5-3i$، $3a-4bi$ و $(7,4)$ را دریابید.",
+      "solution_steps_fa": ["$\\frac{1}{1-i}=\\frac{1+i}{2}=\\frac{1}{2}+\\frac{1}{2}i$", "$\\frac{1}{2+4i}=\\frac{2-4i}{20}=\\frac{1}{10}-\\frac{1}{5}i$", "$\\frac{1}{5-3i}=\\frac{5+3i}{34}=\\frac{5}{34}+\\frac{3}{34}i$", "$\\frac{1}{3a-4bi}=\\frac{3a+4bi}{9a^2+16b^2}$", "$(7,4)=7+4i$ پس $\\frac{7-4i}{65}=\\frac{7}{65}-\\frac{4}{65}i=(\\frac{7}{65},-\\frac{4}{65})$"],
+      "answer": "$\\frac{1}{2}+\\frac{1}{2}i$، $\\frac{1}{10}-\\frac{1}{5}i$، $\\frac{5}{34}+\\frac{3}{34}i$، $\\frac{3a}{9a^2+16b^2}+\\frac{4b}{9a^2+16b^2}i$، $\\frac{7}{65}-\\frac{4}{65}i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "تجزیه کنید: $x^2+16$، $x^2+8$، $x^2+5$، $x^2+7$",
+      "solution_steps_fa": ["$x^2+16=x^2-(4i)^2=(x-4i)(x+4i)$", "$x^2+8=x^2-(2\\sqrt{2}i)^2=(x-2\\sqrt{2}i)(x+2\\sqrt{2}i)$", "$x^2+5=(x-\\sqrt{5}i)(x+\\sqrt{5}i)$", "$x^2+7=(x-\\sqrt{7}i)(x+\\sqrt{7}i)$"],
+      "answer": "$(x\\mp 4i)$، $(x\\mp 2\\sqrt{2}i)$، $(x\\mp\\sqrt{5}i)$، $(x\\mp\\sqrt{7}i)$ به ترتیب",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "قیمت $(2+i)^2$ و $(-3+2i)^2$ را دریابید.",
+      "solution_steps_fa": ["$(2+i)^2=4+4i+i^2=4+4i-1=3+4i$", "$(-3+2i)^2=9-12i+4i^2=9-12i-4=5-12i$"],
+      "answer": "$3+4i$ و $5-12i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "اگر $z=4-3i$ باشد، $8z-z^2$ را دریابید.",
+      "solution_steps_fa": ["$8z=32-24i$", "$z^2=16-24i+9i^2=7-24i$", "$8z-z^2=(32-24i)-(7-24i)=25$"],
+      "answer": "$25$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "معادلهٔ $x+yi=(2-3i)(2+3i)$ را حل کنید.",
+      "solution_steps_fa": ["$(2-3i)(2+3i)=4+9=13=13+0i$", "با تساوی دو عدد مختلط: $x=13$ و $y=0$"],
+      "answer": "$x=13$، $y=0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید که $\\frac{\\sqrt{2}}{2}+\\frac{\\sqrt{2}}{2}i$ جذر مربع $i$ است.",
+      "solution_steps_fa": ["باید نشان دهیم مربع آن $i$ است.", "$(\\frac{\\sqrt{2}}{2})^2+2\\cdot\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{2}}{2}i+(\\frac{\\sqrt{2}}{2}i)^2$", "$=\\frac{1}{2}+i-\\frac{1}{2}=i$"],
+      "answer": "مربع آن مساوی $i$ است؛ ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید که $\\frac{\\sqrt{3}}{2}-\\frac{1}{2}i$ جذر سوم $-i$ است.",
+      "solution_steps_fa": ["$w=\\frac{\\sqrt{3}}{2}-\\frac{1}{2}i$؛ اول $w^2=\\frac{3}{4}-\\frac{\\sqrt{3}}{2}i+\\frac{1}{4}i^2=\\frac{1}{2}-\\frac{\\sqrt{3}}{2}i$", "$w^3=w^2\\cdot w=(\\frac{1}{2}-\\frac{\\sqrt{3}}{2}i)(\\frac{\\sqrt{3}}{2}-\\frac{1}{2}i)$", "$=\\frac{\\sqrt{3}}{4}-\\frac{1}{4}i-\\frac{3}{4}i+\\frac{\\sqrt{3}}{4}i^2=\\frac{\\sqrt{3}}{4}-i-\\frac{\\sqrt{3}}{4}=-i$"],
+      "answer": "$w^3=-i$؛ ثابت شد.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

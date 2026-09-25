@@ -1,0 +1,38 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 171,
+  "printed_page": 164,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "انتیگرال‌گیری به طریقهٔ تعویض",
+  "summary_fa": "این صفحه تمرین درس تعویض است و هفت انتیگرال (معین و غیرمعین) دارد. در هر کدام باید قسمتی را پیدا کرد که مشتقش در انتیگرال موجود است: زاویهٔ داخل cos، افادهٔ داخل جذر یا قوس، مخرج کسر، یا خود $\\cos x$. برای انتیگرال‌های معین، سرحدات را به قیمت‌های u تبدیل کنید. در سوال b، علاوه بر تعویض $u=x-1$، باید x را هم برحسب u نوشت ($x=u+1$).",
+  "key_points_fa": [
+    "$\\int\\cos(kx)\\,dx = \\frac1k\\sin(kx) + C$",
+    "اگر x بیرون جذر باشد ولی مشتق داخل جذر نباشد، x را برحسب u بنویسید.",
+    "ریشهٔ پنجم را به شکل توان کسری بنویسید: $\\sqrt[5]{(1-4x)^2} = (1-4x)^{2/5}$",
+    "وقتی صورت کسر مشتق مخرج باشد، جواب لوگاریتمی است (در فصل پنجم کامل خوانده می‌شود)."
+  ],
+  "formulas": [
+    {"latex": "\\int f(g(x))\\,g'(x)\\,dx = \\int f(u)\\,du", "meaning_fa": "قاعدهٔ تعویض"},
+    {"latex": "\\int \\frac{du}{u} = \\ln|u| + C", "meaning_fa": "برای سوال f لازم است؛ در فصل پنجم تدریس می‌شود"}
+  ],
+  "terms": [
+    {"fa": "روش تعویضی", "en": "substitution method"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {"label_fa": "a", "kind": "exercise", "problem_fa": "$\\int\\cos 3x\\,dx$", "solution_steps_fa": ["$u=3x$، $du=3dx$", "$\\frac13\\int\\cos u\\,du = \\frac13\\sin u + C$"], "answer": "$\\frac13\\sin 3x + C$", "solution_source": "generated"},
+    {"label_fa": "b", "kind": "exercise", "problem_fa": "$\\int_1^2 x\\sqrt{x-1}\\,dx$", "solution_steps_fa": ["$u=x-1$، $x=u+1$، $dx=du$؛ سرحدات: 0 تا 1", "$\\int_0^1 (u+1)u^{1/2}du = \\int_0^1 (u^{3/2}+u^{1/2})du$", "$= \\frac25 + \\frac23 = \\frac{16}{15}$"], "answer": "$\\frac{16}{15}$", "solution_source": "generated"},
+    {"label_fa": "c", "kind": "exercise", "problem_fa": "$\\int_0^7 \\sqrt{4+3x}\\,dx$", "solution_steps_fa": ["$u=4+3x$، $dx=\\frac{du}{3}$؛ سرحدات: 4 تا 25", "$\\frac13\\cdot\\frac23\\left[u^{3/2}\\right]_4^{25} = \\frac29(125-8)$", "$= \\frac29\\cdot117 = 26$"], "answer": "$26$", "solution_source": "generated"},
+    {"label_fa": "d", "kind": "exercise", "problem_fa": "$\\int 2\\sqrt[5]{(1-4x)^2}\\,dx$", "solution_steps_fa": ["$u=1-4x$، $dx=-\\frac{du}{4}$", "$2\\cdot\\left(-\\frac14\\right)\\int u^{2/5}du = -\\frac12\\cdot\\frac57u^{7/5} + C$"], "answer": "$-\\frac{5}{14}(1-4x)^{7/5} + C$", "solution_source": "generated"},
+    {"label_fa": "e", "kind": "exercise", "problem_fa": "$\\int 2x(x^2+3)^4\\,dx$", "solution_steps_fa": ["$u=x^2+3$، $du=2x\\,dx$", "$\\int u^4du = \\frac{u^5}{5} + C$"], "answer": "$\\frac{(x^2+3)^5}{5} + C$", "solution_source": "generated"},
+    {"label_fa": "f", "kind": "exercise", "problem_fa": "$\\int_0^5 \\frac{x\\,dx}{x^2+10}$", "solution_steps_fa": ["$u=x^2+10$، $x\\,dx=\\frac{du}{2}$؛ سرحدات: 10 تا 35", "$\\frac12\\int_{10}^{35}\\frac{du}{u} = \\frac12\\left[\\ln u\\right]_{10}^{35} = \\frac12\\ln\\frac{35}{10}$"], "answer": "$\\frac12\\ln 3.5 \\approx 0.626$", "solution_source": "generated"},
+    {"label_fa": "g", "kind": "exercise", "problem_fa": "$\\int\\sqrt{\\cos x}\\,\\sin x\\,dx$", "solution_steps_fa": ["$u=\\cos x$، $du=-\\sin x\\,dx$", "$-\\int u^{1/2}du = -\\frac23u^{3/2} + C$"], "answer": "$-\\frac23(\\cos x)^{3/2} + C$", "solution_source": "generated"}
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "سوال f به انتیگرال $\\frac1u$ (لوگاریتم طبیعی) ضرورت دارد که در فصل پنجم کتاب تدریس می‌شود."
+}

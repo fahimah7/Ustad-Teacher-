@@ -1,0 +1,70 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 227,
+  "printed_page": 220,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "محاسبهٔ طول قوس",
+  "summary_fa": "بالای صفحه حل مثالی که در صفحهٔ قبل مطرح شد، آمده است: طول قوس $x=y^{3/2}$ روی $1\\le y\\le 4$. مشتق نظر به y گرفته می‌شود، مربع آن $\\frac{9}{4}y$ است و انتیگرال $\\int\\sqrt{\\frac{9}{4}y+1}\\,dy$ با تعویض متحول $u=\\frac{9}{4}y+1$ حل می‌شود. در این مثال سرحد پایین انتیگرال صفر نیست، پس هر دو قیمت در جواب باقی می‌مانند. در پایین صفحه دو تمرین آمده است: یکی طول قوس یک منحنی پارامتری و دیگری طول قوس یک تابع $y=f(x)$.",
+  "key_points_fa": [
+    "برای $x=f(y)$ مشتق نظر به y گرفته می‌شود.",
+    "بعد از تعویض متحول، جواب را دوباره بر حسب متحول اصلی نوشته و قیمت‌های سرحد را بگذارید.",
+    "برای منحنی پارامتری از $L=\\int\\sqrt{(x')^2+(y')^2}\\,dt$ استفاده کنید."
+  ],
+  "formulas": [
+    {"latex": "L=\\int_1^4\\sqrt{\\frac{9}{4}y+1}\\,dy", "meaning_fa": "انتیگرال طول قوس برای $x=y^{3/2}$"},
+    {"latex": "\\int\\sqrt{1+ky}\\,dy=\\frac{2}{3k}(1+ky)^{3/2}+C", "meaning_fa": "نتیجهٔ تعویض متحول که در این مثال‌ها به کار می‌رود"}
+  ],
+  "terms": [
+    {"fa": "طول قوس", "en": "arc length"},
+    {"fa": "منحنی پارامتری", "en": "parametric curve"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (حالت ۲)",
+      "problem_fa": "طول قوس $x=f(y)=y^{3/2}$ روی $1\\le y\\le 4$",
+      "steps_fa": [
+        "$f'(y)=\\frac{3}{2}y^{1/2}$، پس $[f'(y)]^2=\\frac{9}{4}y$",
+        "$L=\\int_1^4\\sqrt{\\frac{9}{4}y+1}\\,dy$؛ تعویض $u=\\frac{9}{4}y+1$، $dy=\\frac{4}{9}du$",
+        "$L=\\frac{8}{27}\\left[\\left(\\frac{9}{4}y+1\\right)^{3/2}\\right]_1^4=\\frac{8}{27}\\left[10^{3/2}-\\left(\\frac{13}{4}\\right)^{3/2}\\right]$",
+        "$=\\frac{8}{27}\\left[10\\sqrt{10}-\\sqrt{\\frac{2197}{64}}\\right]=\\frac{8}{27}\\left[10\\sqrt{10}-\\frac{13\\sqrt{13}}{8}\\right]$"
+      ],
+      "answer": "$L=\\frac{80\\sqrt{10}-13\\sqrt{13}}{27}\\approx 7.63$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "طول قوس منحنی پارامتری $x=t^2$، $y=t^3$ روی انتروال $1\\le t\\le 2$ (در کتاب $1\\le x\\le 2$ چاپ شده)",
+      "solution_steps_fa": [
+        "$x'=2t$ و $y'=3t^2$",
+        "$L=\\int_1^2\\sqrt{4t^2+9t^4}\\,dt=\\int_1^2 t\\sqrt{4+9t^2}\\,dt$",
+        "تعویض $u=4+9t^2$، $du=18t\\,dt$: $L=\\frac{1}{27}\\left[(4+9t^2)^{3/2}\\right]_1^2$",
+        "$=\\frac{1}{27}\\left(40^{3/2}-13^{3/2}\\right)=\\frac{80\\sqrt{10}-13\\sqrt{13}}{27}$",
+        "اگر انتروال را واقعاً $1\\le x\\le 2$ بگیریم، $t$ از ۱ تا $\\sqrt{2}$ است و جواب $\\frac{22\\sqrt{22}-13\\sqrt{13}}{27}\\approx 2.09$ می‌شود."
+      ],
+      "answer": "$L=\\frac{80\\sqrt{10}-13\\sqrt{13}}{27}\\approx 7.63$ (برای $1\\le t\\le 2$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "طول قوس $f(x)=\\frac{1}{2}x^{3/2}$ روی $0\\le x\\le 1$",
+      "solution_steps_fa": [
+        "$f'(x)=\\frac{3}{4}x^{1/2}$، پس $[f'(x)]^2=\\frac{9}{16}x$",
+        "$L=\\int_0^1\\sqrt{1+\\frac{9}{16}x}\\,dx=\\frac{16}{9}\\cdot\\frac{2}{3}\\left[\\left(1+\\frac{9}{16}x\\right)^{3/2}\\right]_0^1$",
+        "$=\\frac{32}{27}\\left[\\left(\\frac{25}{16}\\right)^{3/2}-1\\right]=\\frac{32}{27}\\left(\\frac{125}{64}-1\\right)=\\frac{32}{27}\\cdot\\frac{61}{64}$"
+      ],
+      "answer": "$L=\\frac{61}{54}\\approx 1.13$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "در تمرین ۱ انتروال به صورت $1\\le x\\le 2$ چاپ شده، ولی چون منحنی پارامتری است به احتمال زیاد منظور $1\\le t\\le 2$ است؛ جواب هر دو تعبیر داده شده است."
+}

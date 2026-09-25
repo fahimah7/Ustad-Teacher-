@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-phys",
+  "chapter": 4,
+  "title": {
+    "en": "Refraction",
+    "fa": "انکسار"
+  },
+  "questions": [
+    {
+      "pdf_page": 81,
+      "q": {
+        "en": "The refractive index of petrol is $1.50$. What is the speed of light in petrol? ($c = 3.00\\times10^{8}\\,\\mathrm{m/s}$)",
+        "fa": "ضریب انکسار پطرول $1.50$ است. سرعت نور در پطرول چند است؟ ($c = 3.00\\times10^{8}\\,\\mathrm{m/s}$)"
+      },
+      "options": [
+        {
+          "en": "$2.00\\times10^{8}\\,\\mathrm{m/s}$",
+          "fa": "$2.00\\times10^{8}\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$4.50\\times10^{8}\\,\\mathrm{m/s}$",
+          "fa": "$4.50\\times10^{8}\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$3.00\\times10^{8}\\,\\mathrm{m/s}$",
+          "fa": "$3.00\\times10^{8}\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$1.50\\times10^{8}\\,\\mathrm{m/s}$",
+          "fa": "$1.50\\times10^{8}\\,\\mathrm{m/s}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$n = \\frac{c}{v}$, so $v = \\frac{c}{n} = \\frac{3.00\\times10^{8}}{1.50} = 2.00\\times10^{8}\\,\\mathrm{m/s}$. Light is slower in a medium with a larger refractive index.",
+        "fa": "$n = \\frac{c}{v}$ است، پس $v = \\frac{c}{n} = \\frac{3.00\\times10^{8}}{1.50} = 2.00\\times10^{8}\\,\\mathrm{m/s}$. نور در محیطی که ضریب انکسار بزرگ‌تر دارد آهسته‌تر می‌رود."
+      },
+      "idea": {
+        "en": "Light is never faster in a material than in vacuum. Divide $c$ by $n$; do not multiply.",
+        "fa": "نور در هیچ ماده‌یی از خلا تیزتر نمی‌رود. $c$ را بر $n$ تقسیم کنید، ضرب نکنید."
+      }
+    },
+    {
+      "pdf_page": 84,
+      "q": {
+        "en": "Light passes from air into glass ($n = 1.52$) with an angle of incidence of $30.0^\\circ$. What is the angle of refraction?",
+        "fa": "نور از هوا با زاویهٔ واردهٔ $30.0^\\circ$ به شیشه ($n = 1.52$) داخل می‌شود. زاویهٔ انکسار چند است؟"
+      },
+      "options": [
+        {
+          "en": "$45.6^\\circ$",
+          "fa": "$45.6^\\circ$"
+        },
+        {
+          "en": "$49.5^\\circ$",
+          "fa": "$49.5^\\circ$"
+        },
+        {
+          "en": "$19.2^\\circ$",
+          "fa": "$19.2^\\circ$"
+        },
+        {
+          "en": "$30.0^\\circ$",
+          "fa": "$30.0^\\circ$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$\\sin\\theta_2 = \\frac{n_1}{n_2}\\sin\\theta_1 = \\frac{1.00}{1.52}\\times\\sin 30.0^\\circ = 0.329$, so $\\theta_2 \\approx 19.2^\\circ$. The ray bends toward the normal because glass has a larger refractive index than air.",
+        "fa": "$\\sin\\theta_2 = \\frac{n_1}{n_2}\\sin\\theta_1 = \\frac{1.00}{1.52}\\times\\sin 30.0^\\circ = 0.329$، پس $\\theta_2 \\approx 19.2^\\circ$. شعاع به نارمل نزدیک می‌شود، چون ضریب انکسار شیشه از هوا بزرگ‌تر است."
+      },
+      "idea": {
+        "en": "Snell's law uses the sines of the angles: $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$. Going into a denser medium, the angle must get smaller.",
+        "fa": "قانون سنل با ساین زاویه‌ها کار می‌کند: $n_1\\sin\\theta_1 = n_2\\sin\\theta_2$. وقتی نور به محیط غلیظ‌تر می‌رود، زاویه باید کوچک‌تر شود."
+      }
+    },
+    {
+      "pdf_page": 90,
+      "q": {
+        "en": "A ray of light passes through a thick glass block with parallel faces. How does the ray that comes out compare with the ray that went in?",
+        "fa": "شعاع نور از یک تیغهٔ متوازی‌السطوح شیشه‌یی می‌گذرد. شعاعی که خارج می‌شود با شعاع وارده چه رابطه دارد؟"
+      },
+      "options": [
+        {
+          "en": "It comes out along exactly the same line",
+          "fa": "دقیقاً در امتداد همان خط خارج می‌شود"
+        },
+        {
+          "en": "It comes out bent toward the base of the block",
+          "fa": "به طرف قاعدهٔ تیغه منحرف شده خارج می‌شود"
+        },
+        {
+          "en": "It is split into seven colours",
+          "fa": "به هفت رنگ تجزیه می‌شود"
+        },
+        {
+          "en": "It is parallel to the incident ray but shifted sideways",
+          "fa": "با شعاع وارده موازی است ولی به یک طرف لغزیده است"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The ray refracts twice. On leaving, $\\sin\\theta_3 = \\sin\\theta_1$, so $\\theta_3 = \\theta_1$ and the ray comes out parallel to the incident ray, but shifted sideways by $d = e\\,\\frac{\\sin(\\theta_1 - \\theta_2)}{\\cos\\theta_2}$.",
+        "fa": "شعاع دو بار انکسار می‌کند. هنگام خارج شدن $\\sin\\theta_3 = \\sin\\theta_1$ است، پس $\\theta_3 = \\theta_1$ و شعاع خارج‌شده با شعاع وارده موازی است، ولی به اندازهٔ $d = e\\,\\frac{\\sin(\\theta_1 - \\theta_2)}{\\cos\\theta_2}$ لغزیده است."
+      },
+      "idea": {
+        "en": "The two faces are parallel, so the bending when the ray enters is undone when it leaves. Is anything left over?",
+        "fa": "دو سطح تیغه موازی اند، پس انحرافی که هنگام داخل شدن پیدا می‌شود هنگام خارج شدن برمی‌گردد. آیا چیزی باقی می‌ماند؟"
+      }
+    },
+    {
+      "pdf_page": 92,
+      "q": {
+        "en": "What is the critical angle for light going from water ($n = 1.33$) into air?",
+        "fa": "زاویهٔ بحرانی برای نوری که از آب ($n = 1.33$) به هوا می‌رود چند است؟"
+      },
+      "options": [
+        {
+          "en": "$41.2^\\circ$",
+          "fa": "$41.2^\\circ$"
+        },
+        {
+          "en": "$48.8^\\circ$",
+          "fa": "$48.8^\\circ$"
+        },
+        {
+          "en": "$36.9^\\circ$",
+          "fa": "$36.9^\\circ$"
+        },
+        {
+          "en": "$90^\\circ$",
+          "fa": "$90^\\circ$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "At the critical angle the refracted ray makes $90^\\circ$ with the normal: $\\sin\\theta_c = \\frac{1}{n} = \\frac{1}{1.33} = 0.752$, so $\\theta_c \\approx 48.8^\\circ$.",
+        "fa": "در زاویهٔ بحرانی زاویهٔ منکسره $90^\\circ$ است: $\\sin\\theta_c = \\frac{1}{n} = \\frac{1}{1.33} = 0.752$، پس $\\theta_c \\approx 48.8^\\circ$."
+      },
+      "idea": {
+        "en": "Use $\\sin\\theta_c = \\frac{1}{n}$ and then take the inverse sine, not the inverse cosine or tangent.",
+        "fa": "از $\\sin\\theta_c = \\frac{1}{n}$ استفاده کنید و بعد معکوس ساین را بگیرید، نه معکوس کوساین یا تانجنت را."
+      }
+    },
+    {
+      "pdf_page": 100,
+      "q": {
+        "en": "When white light passes through a prism, which colour is bent (deviated) the most?",
+        "fa": "وقتی نور سفید از منشور می‌گذرد، کدام رنگ بیشتر از همه منحرف می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "violet",
+          "fa": "بنفش"
+        },
+        {
+          "en": "red",
+          "fa": "سرخ"
+        },
+        {
+          "en": "green",
+          "fa": "سبز"
+        },
+        {
+          "en": "All colours are bent equally",
+          "fa": "همهٔ رنگ‌ها به یک اندازه منحرف می‌شوند"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The prism's refractive index is different for each colour: largest for violet and smallest for red. So violet is deviated most and red least, which is why white light spreads into a spectrum.",
+        "fa": "ضریب انکسار منشور برای هر رنگ فرق دارد: برای بنفش بیشتر و برای سرخ کمتر. پس بنفش بیشتر و سرخ کمتر منحرف می‌شود؛ به همین سبب نور سفید به طیف تجزیه می‌شود."
+      },
+      "idea": {
+        "en": "If all colours bent equally, white light would not separate at all. Think of the order of the spectrum: red at one end, violet at the other.",
+        "fa": "اگر همهٔ رنگ‌ها به یک اندازه منحرف می‌شدند، نور سفید هیچ تجزیه نمی‌شد. ترتیب طیف را به یاد آورید: سرخ در یک انجام و بنفش در انجام دیگر."
+      }
+    }
+  ]
+}

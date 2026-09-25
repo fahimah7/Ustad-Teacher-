@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-phys",
+  "chapter": 4,
+  "title": {
+    "en": "Newton's laws of motion",
+    "fa": "قوانین حرکت نیوتن"
+  },
+  "questions": [
+    {
+      "pdf_page": 115,
+      "q": {
+        "en": "A book rests on a table. The Earth pulls the book down with the weight $W$. According to Newton's third law, which force is the reaction to this force?",
+        "fa": "کتابی روی میز قرار دارد. زمین کتاب را با قوۀ وزن $W$ به طرف پایین می‌کشد. طبق قانون سوم نیوتن، عکس العمل این قوه کدام است؟"
+      },
+      "options": [
+        {
+          "en": "The upward normal force of the table on the book",
+          "fa": "قوۀ عمودی تکیه‌گاه که میز به طرف بالا بر کتاب وارد می‌کند"
+        },
+        {
+          "en": "The downward push of the book on the table",
+          "fa": "فشار کتاب به طرف پایین بر میز"
+        },
+        {
+          "en": "The weight of the table",
+          "fa": "وزن میز"
+        },
+        {
+          "en": "The upward pull of the book on the Earth",
+          "fa": "کشش کتاب بر زمین به طرف بالا"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Action and reaction act between the same two bodies: the Earth pulls the book, so the book pulls the Earth upward with an equal force. The normal force also acts on the book, so it is not the reaction; it equals $W$ only because the book is in equilibrium.",
+        "fa": "عمل و عکس العمل بین همان دو جسم اند: زمین کتاب را می‌کشد، پس کتاب هم زمین را با قوۀ مساوی به طرف بالا می‌کشد. قوۀ عمودی میز هم بر خود کتاب وارد می‌شود، پس عکس العمل وزن نیست؛ فقط به سبب تعادل با $W$ مساوی است."
+      },
+      "idea": {
+        "en": "To find the reaction, swap the two bodies: 'Earth on book' becomes 'book on Earth'. Two forces acting on the same body can never be an action-reaction pair.",
+        "fa": "برای پیدا کردن عکس العمل جای دو جسم را عوض کنید: «زمین بر کتاب» می‌شود «کتاب بر زمین». دو قوه‌یی که بر یک جسم وارد می‌شوند هرگز جفت عمل و عکس العمل نیستند."
+      }
+    },
+    {
+      "pdf_page": 125,
+      "q": {
+        "en": "A $20\\,\\mathrm{kg}$ box is pulled across a horizontal floor by a horizontal force of $60\\,\\mathrm{N}$. The coefficient of kinetic friction is $\\mu_k = 0.2$ ($g = 10\\,\\mathrm{m/s^2}$). What is the acceleration of the box?",
+        "fa": "صندوقی به کتلۀ $20\\,\\mathrm{kg}$ با قوۀ افقی $60\\,\\mathrm{N}$ روی سطح افقی کش می‌شود. ضریب اصطکاک حرکی $\\mu_k = 0.2$ است ($g = 10\\,\\mathrm{m/s^2}$). شتاب صندوق چند است؟"
+      },
+      "options": [
+        {
+          "en": "$3\\,\\mathrm{m/s^2}$",
+          "fa": "$3\\,\\mathrm{m/s^2}$"
+        },
+        {
+          "en": "$1\\,\\mathrm{m/s^2}$",
+          "fa": "$1\\,\\mathrm{m/s^2}$"
+        },
+        {
+          "en": "$5\\,\\mathrm{m/s^2}$",
+          "fa": "$5\\,\\mathrm{m/s^2}$"
+        },
+        {
+          "en": "$2\\,\\mathrm{m/s^2}$",
+          "fa": "$2\\,\\mathrm{m/s^2}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Friction: $f_k = \\mu_k N = \\mu_k m g = 0.2 \\times 20 \\times 10 = 40\\,\\mathrm{N}$. Newton's second law: $a = \\frac{F - f_k}{m} = \\frac{60 - 40}{20} = 1\\,\\mathrm{m/s^2}$.",
+        "fa": "قوۀ اصطکاک: $f_k = \\mu_k N = \\mu_k m g = 0.2 \\times 20 \\times 10 = 40\\,\\mathrm{N}$. طبق قانون دوم نیوتن: $a = \\frac{F - f_k}{m} = \\frac{60 - 40}{20} = 1\\,\\mathrm{m/s^2}$."
+      },
+      "idea": {
+        "en": "Use the net force, not the applied force: friction acts against the motion, so subtract it before dividing by the mass.",
+        "fa": "قوۀ محصله را به کار ببرید نه قوۀ وارده را: اصطکاک مخالف حرکت است، پس پیش از تقسیم بر کتله آن را تفریق کنید."
+      }
+    },
+    {
+      "pdf_page": 123,
+      "q": {
+        "en": "A $5\\,\\mathrm{kg}$ box rests on a horizontal floor with $\\mu_s = 0.5$ ($g = 10\\,\\mathrm{m/s^2}$). You push it horizontally with $15\\,\\mathrm{N}$ and it does not move. What is the friction force on the box?",
+        "fa": "صندوقی به کتلۀ $5\\,\\mathrm{kg}$ روی سطح افقی با $\\mu_s = 0.5$ قرار دارد ($g = 10\\,\\mathrm{m/s^2}$). آن را با قوۀ افقی $15\\,\\mathrm{N}$ تیله می‌کنید ولی حرکت نمی‌کند. قوۀ اصطکاک بر صندوق چند است؟"
+      },
+      "options": [
+        {
+          "en": "$15\\,\\mathrm{N}$",
+          "fa": "$15\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$25\\,\\mathrm{N}$",
+          "fa": "$25\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$0$",
+          "fa": "$0$"
+        },
+        {
+          "en": "$10\\,\\mathrm{N}$",
+          "fa": "$10\\,\\mathrm{N}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The box stays at rest, so the net force is zero and the static friction equals the push: $f_s = 15\\,\\mathrm{N}$. The value $\\mu_s N = 0.5 \\times 50 = 25\\,\\mathrm{N}$ is only the largest possible static friction.",
+        "fa": "صندوق ساکن می‌ماند، پس قوۀ محصله صفر است و اصطکاک ستاتیکی با قوۀ وارده مساوی است: $f_s = 15\\,\\mathrm{N}$. قیمت $\\mu_s N = 0.5 \\times 50 = 25\\,\\mathrm{N}$ فقط بزرگ‌ترین اصطکاک ستاتیکی ممکن است."
+      },
+      "idea": {
+        "en": "Static friction is not always $\\mu_s N$: it obeys $f_s \\le \\mu_s N$ and grows with the push until the box is about to move.",
+        "fa": "اصطکاک ستاتیکی همیشه $\\mu_s N$ نیست: $f_s \\le \\mu_s N$ است و با قوۀ وارده زیاد می‌شود تا جسم در آستانۀ حرکت برسد."
+      }
+    },
+    {
+      "pdf_page": 125,
+      "q": {
+        "en": "Two bodies attract each other with a gravitational force $F$. If both masses are doubled and the distance between them is also doubled, what does the force become?",
+        "fa": "دو جسم با قوۀ جاذبۀ $F$ هم‌دیگر را جذب می‌کنند. اگر کتلۀ هر دو جسم دو برابر شود و فاصلۀ بین آن‌ها هم دو برابر گردد، قوۀ جاذبه چند می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "$4F$",
+          "fa": "$4F$"
+        },
+        {
+          "en": "$2F$",
+          "fa": "$2F$"
+        },
+        {
+          "en": "$F$",
+          "fa": "$F$"
+        },
+        {
+          "en": "$\\frac{F}{2}$",
+          "fa": "$\\frac{F}{2}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "By $F = G\\frac{m_1 m_2}{r^2}$, the product of the masses becomes 4 times larger and $r^2$ also becomes 4 times larger, so the force stays $F$.",
+        "fa": "طبق $F = G\\frac{m_1 m_2}{r^2}$، حاصل ضرب کتله‌ها چهار برابر و $r^2$ هم چهار برابر می‌شود، پس قوه همان $F$ می‌ماند."
+      },
+      "idea": {
+        "en": "Gravity depends on the square of the distance: doubling $r$ divides the force by 4, not by 2.",
+        "fa": "قوۀ جاذبه به مربع فاصله وابسته است: دو برابر شدن $r$ قوه را چهار بار کم می‌کند، نه دو بار."
+      }
+    },
+    {
+      "pdf_page": 132,
+      "q": {
+        "en": "A $50\\,\\mathrm{kg}$ person stands on a spring scale in a lift that is accelerating downward at $2\\,\\mathrm{m/s^2}$ ($g = 10\\,\\mathrm{m/s^2}$). What does the scale read?",
+        "fa": "شخصی به کتلۀ $50\\,\\mathrm{kg}$ داخل لفت روی ترازوی فنری ایستاده است و لفت با شتاب $2\\,\\mathrm{m/s^2}$ به طرف پایین حرکت می‌کند ($g = 10\\,\\mathrm{m/s^2}$). ترازو چه عددی نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "$600\\,\\mathrm{N}$",
+          "fa": "$600\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$400\\,\\mathrm{N}$",
+          "fa": "$400\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$500\\,\\mathrm{N}$",
+          "fa": "$500\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$100\\,\\mathrm{N}$",
+          "fa": "$100\\,\\mathrm{N}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The scale shows the normal force $N$. With the acceleration downward, $mg - N = ma$, so $N = m(g - a) = 50 \\times (10 - 2) = 400\\,\\mathrm{N}$.",
+        "fa": "ترازو قوۀ عمودی $N$ را نشان می‌دهد. چون شتاب به طرف پایین است، $mg - N = ma$، پس $N = m(g - a) = 50 \\times (10 - 2) = 400\\,\\mathrm{N}$."
+      },
+      "idea": {
+        "en": "What matters is the direction of the acceleration, not of the velocity: acceleration downward makes $N$ smaller than the weight ($500\\,\\mathrm{N}$), acceleration upward makes it larger.",
+        "fa": "جهت شتاب مهم است نه جهت سرعت: شتاب به طرف پایین $N$ را از وزن ($500\\,\\mathrm{N}$) کمتر و شتاب به طرف بالا آن را بیشتر می‌سازد."
+      }
+    }
+  ]
+}

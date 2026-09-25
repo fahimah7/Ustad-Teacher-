@@ -1,0 +1,24 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 140,
+  "printed_page": 133,
+  "page_kind": "chapter_title",
+  "chapter": 4,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ آغاز فصل چهارم کتاب که موضوع آن انتیگرال‌ها است. در این فصل شاگرد انتیگرال را به عنوان عمل معکوس مشتق می‌شناسد و با مجموع ریمان و پیدا کردن مساحت زیر منحنی آشنا می‌شود. این فصل صفحات ۱۳۳ تا ۱۷۲ کتاب را در بر می‌گیرد.",
+  "key_points_fa": [
+    "فصل چهارم: انتیگرال‌ها (صفحات ۱۳۳ تا ۱۷۲)"
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "انتیگرال", "en": "integral"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

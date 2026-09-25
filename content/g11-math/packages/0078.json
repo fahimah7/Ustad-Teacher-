@@ -1,0 +1,76 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 78,
+  "printed_page": 69,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مطابقت‌های مثلثاتی",
+  "summary_fa": "این صفحه حل مثال ۶ را می‌دهد و سه مثال دیگر ثبوت مطابقت را می‌آورد. در مثال ۶ صورت و مخرج با روابط اساسی به $\\sec^2 A$ و $\\csc^2 A$ تبدیل می‌شوند و نسبت آن‌ها $\\tan^2 A$ است. در مثال ۷ کوتانجنت و تانجنت به ساین و کوساین نوشته می‌شوند؛ مجموع آن‌ها $\\frac{1}{\\sin\\alpha\\cos\\alpha}$ می‌شود و ضرب در $(\\sin\\alpha + \\cos\\alpha)$ و جدا کردن کسر، جواب را می‌دهد. در مثال ۸ فورمول کوساین تفاضل دو زاویه به کار می‌رود و کسر به دو کسر جدا تقسیم می‌شود که یکی $\\cot y$ و دیگری $\\tan x$ است. مثال ۹ مطابقتی با نصف زاویه است؛ حل آن با فورمول $\\sin^2\\frac{x}{2} = \\frac{1 - \\cos x}{2}$ شروع می‌شود و در صفحه بعد ادامه دارد.",
+  "key_points_fa": [
+    "$\\cot\\alpha + \\tan\\alpha = \\frac{\\cos^2\\alpha + \\sin^2\\alpha}{\\sin\\alpha\\cos\\alpha} = \\frac{1}{\\sin\\alpha\\cos\\alpha}$",
+    "یک کسر با صورت مجموع را می‌توان به مجموع دو کسر با همان مخرج جدا کرد.",
+    "$\\cos(x - y) = \\cos x\\cos y + \\sin x\\sin y$",
+    "فورمول نصف زاویه: $\\sin^2\\frac{x}{2} = \\frac{1 - \\cos x}{2}$"
+  ],
+  "formulas": [
+    {"latex": "\\frac{1 + \\tan^2 A}{1 + \\cot^2 A} = \\frac{\\sec^2 A}{\\csc^2 A} = \\tan^2 A", "meaning_fa": "مطابقت مثال ۶"},
+    {"latex": "(\\sin\\alpha + \\cos\\alpha)(\\cot\\alpha + \\tan\\alpha) = \\frac{1}{\\cos\\alpha} + \\frac{1}{\\sin\\alpha}", "meaning_fa": "مطابقت مثال ۷"},
+    {"latex": "\\cos(x - y) = \\cos x\\cos y + \\sin x\\sin y", "meaning_fa": "کوساین تفاضل دو زاویه"},
+    {"latex": "\\sin^2\\frac{x}{2} = \\frac{1 - \\cos x}{2}", "meaning_fa": "مربع ساین نصف زاویه"}
+  ],
+  "terms": [
+    {"fa": "نصف زاویه", "en": "half angle"},
+    {"fa": "کوساین تفاضل دو زاویه", "en": "cosine of a difference"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۶ (حل)",
+      "problem_fa": "ثبوت کنید: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A} = \\tan^2 A$",
+      "steps_fa": [
+        "$1 + \\tan^2 A = \\sec^2 A$ و $1 + \\cot^2 A = \\csc^2 A$",
+        "$\\frac{\\sec^2 A}{\\csc^2 A} = \\frac{1/\\cos^2 A}{1/\\sin^2 A} = \\frac{\\sin^2 A}{\\cos^2 A} = \\left(\\frac{\\sin A}{\\cos A}\\right)^2 = \\tan^2 A$"
+      ],
+      "answer": "$\\tan^2 A$؛ مطابقت ثابت شد.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۷",
+      "problem_fa": "ثبوت کنید: $(\\sin\\alpha + \\cos\\alpha)(\\cot\\alpha + \\tan\\alpha) = \\frac{1}{\\cos\\alpha} + \\frac{1}{\\sin\\alpha}$",
+      "steps_fa": [
+        "$\\cot\\alpha + \\tan\\alpha = \\frac{\\cos\\alpha}{\\sin\\alpha} + \\frac{\\sin\\alpha}{\\cos\\alpha} = \\frac{\\cos^2\\alpha + \\sin^2\\alpha}{\\sin\\alpha\\cos\\alpha} = \\frac{1}{\\sin\\alpha\\cos\\alpha}$",
+        "$(\\sin\\alpha + \\cos\\alpha)\\cdot\\frac{1}{\\sin\\alpha\\cos\\alpha} = \\frac{\\sin\\alpha}{\\sin\\alpha\\cos\\alpha} + \\frac{\\cos\\alpha}{\\sin\\alpha\\cos\\alpha}$",
+        "$= \\frac{1}{\\cos\\alpha} + \\frac{1}{\\sin\\alpha}$"
+      ],
+      "answer": "مطابقت ثابت شد.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۸",
+      "problem_fa": "ثبوت کنید: $\\frac{\\cos(x - y)}{\\cos x\\sin y} = \\tan x + \\cot y$",
+      "steps_fa": [
+        "$\\frac{\\cos x\\cos y + \\sin x\\sin y}{\\cos x\\sin y} = \\frac{\\cos x\\cos y}{\\cos x\\sin y} + \\frac{\\sin x\\sin y}{\\cos x\\sin y}$",
+        "$= \\frac{\\cos y}{\\sin y} + \\frac{\\sin x}{\\cos x} = \\cot y + \\tan x$"
+      ],
+      "answer": "$\\tan x + \\cot y$؛ مطابقت ثابت شد.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۹ (آغاز)",
+      "problem_fa": "ثبوت کنید: $\\sin^2\\frac{x}{2} = \\frac{\\tan x - \\sin x}{2\\tan x}$",
+      "steps_fa": [
+        "می‌دانیم $\\sin\\frac{x}{2} = \\pm\\sqrt{\\frac{1 - \\cos x}{2}}$، پس $\\sin^2\\frac{x}{2} = \\frac{1 - \\cos x}{2}$.",
+        "ادامه در صفحه بعد: $\\frac{1 - \\cos x}{2}$ را در $\\frac{\\tan x}{\\tan x}$ ضرب می‌کنیم: $\\frac{\\tan x - \\tan x\\cos x}{2\\tan x}$",
+        "چون $\\tan x\\cos x = \\sin x$، نتیجه $\\frac{\\tan x - \\sin x}{2\\tan x}$ است."
+      ],
+      "answer": "مطابقت ثابت می‌شود.",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

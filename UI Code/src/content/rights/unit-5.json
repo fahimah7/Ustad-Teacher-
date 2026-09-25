@@ -1,0 +1,485 @@
+{
+  "unit": 5,
+  "title": {
+    "en": "Learning together, safely",
+    "fa": "با هم، در امان"
+  },
+  "about": {
+    "en": "How to learn, share books and speak up together while keeping yourself and others safe.",
+    "fa": "چطور با هم بیاموزیم، کتاب شریک بسازیم و صدا بلند کنیم، و خود و دیگران را در امان نگه داریم."
+  },
+  "lessons": [
+    {
+      "id": "r5-1",
+      "title": {
+        "en": "Why learning together matters",
+        "fa": "چرا با هم آموختن مهم است"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "Learning alone is hard. When you learn with others, you can explain things to each other, answer each other's questions and keep each other going. Explaining a lesson to a friend also helps you understand it better yourself.",
+          "fa": "تنها درس خواندن سخت است. وقتی با دیگران می‌آموزید، می‌توانید چیزها را برای همدیگر توضیح بدهید، به سؤال‌های همدیگر جواب بدهید و همدیگر را تشویق کنید. وقتی درسی را برای دوست خود توضیح می‌دهید، خود شما هم آن را بهتر می‌فهمید."
+        },
+        {
+          "en": "Since schools were closed to girls in 2021, many girls and women have kept learning in small groups at home. Today, these home study circles are one of the most important ways girls learn together.",
+          "fa": "از سال ۱۴۰۰ (۲۰۲۱) که مکتب‌ها به روی دختران بسته شد، بسیاری از دختران و زنان در گروه‌های کوچک در خانه به آموختن ادامه داده‌اند. امروز همین حلقه‌های درسی خانگی، یکی از مهم‌ترین راه‌هایی است که دختران با هم می‌آموزند."
+        },
+        {
+          "en": "This is not new. More than 25 years ago, when girls were also kept out of school, Afghan women taught girls in their homes. In Herat, women met in what looked like sewing classes and read literature together.",
+          "fa": "این کار تازه نیست. بیش از ۲۵ سال پیش هم که دختران از مکتب محروم بودند، زنان افغان در خانه‌های خود به دختران درس می‌دادند. در هرات، زنان در جاهایی که مثل صنف خیاطی معلوم می‌شد جمع می‌شدند و با هم ادبیات می‌خواندند."
+        },
+        {
+          "en": "Learning together also keeps hope alive. When you see other girls still studying, you remember that you are not alone and that your future is not closed. Simply by learning, you are already standing up for your right.",
+          "fa": "با هم آموختن امید را هم زنده نگه می‌دارد. وقتی می‌بینید دختران دیگر هنوز درس می‌خوانند، به یاد می‌آورید که تنها نیستید و راه آیندهٔ شما بسته نشده است. همین که درس می‌خوانید، از حق خود دفاع می‌کنید."
+        },
+        {
+          "en": "A circle does not need to be big to matter. Two or three girls reading one book together are already a small school. The next lesson shows how to start one safely, if you choose to.",
+          "fa": "یک حلقهٔ درسی لازم نیست بزرگ باشد تا ارزش داشته باشد. دو یا سه دختر که یک کتاب را با هم می‌خوانند، خودشان یک مکتب کوچک هستند. درس بعدی نشان می‌دهد که اگر خواستید، چطور یکی را با احتیاط شروع کنید."
+        }
+      ],
+      "reflect": {
+        "en": "Who is one person you trust, and what could you learn together?",
+        "fa": "به چه کسی اعتماد دارید که بتوانید با او درس بخوانید، و چه چیزی را می‌توانید با هم بیاموزید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Why does learning with others help?",
+            "fa": "چرا با دیگران آموختن کمک می‌کند؟"
+          },
+          "options": [
+            {
+              "en": "You explain lessons to each other and keep each other going.",
+              "fa": "درس‌ها را برای همدیگر توضیح می‌دهید و همدیگر را تشویق می‌کنید."
+            },
+            {
+              "en": "Someone else does the thinking for you.",
+              "fa": "کس دیگری به جای شما فکر می‌کند."
+            },
+            {
+              "en": "The bigger the group, the better.",
+              "fa": "هر قدر گروه بزرگ‌تر باشد، بهتر است."
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "Explaining and encouraging each other helps everyone learn and keeps hope alive.",
+            "fa": "توضیح دادن و تشویق کردن همدیگر به همه کمک می‌کند بیاموزند و امید را زنده نگه می‌دارد."
+          }
+        },
+        {
+          "q": {
+            "en": "Are home study circles something new in Afghanistan?",
+            "fa": "آیا حلقه‌های درسی خانگی در افغانستان چیز تازه‌ای هستند؟"
+          },
+          "options": [
+            {
+              "en": "Yes, they only started recently.",
+              "fa": "بلی، تازه شروع شده‌اند."
+            },
+            {
+              "en": "No. More than 25 years ago, Afghan women also taught girls at home.",
+              "fa": "نه. بیش از ۲۵ سال پیش هم زنان افغان در خانه به دختران درس می‌دادند."
+            },
+            {
+              "en": "No, girls have never studied at home.",
+              "fa": "نه، دختران هرگز در خانه درس نخوانده‌اند."
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "When girls were kept out of school before, women taught them at home; today's circles continue that tradition.",
+            "fa": "وقتی پیش از این هم دختران از مکتب محروم بودند، زنان در خانه به آن‌ها درس می‌دادند؛ حلقه‌های امروز همان راه را ادامه می‌دهند."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "UDHR, Article 26 (education)",
+        "Christina Lamb, The Sewing Circles of Herat (2002): women in Herat met as a sewing school to study literature, late 1990s",
+        "Reporting on home-based classes for Afghan girls, 1996-2001 and since 2021 (e.g. UNESCO, UNICEF, BBC)"
+      ]
+    },
+    {
+      "id": "r5-2",
+      "title": {
+        "en": "Starting a small study circle safely",
+        "fa": "شروع یک حلقهٔ درسی کوچک، با احتیاط"
+      },
+      "minutes": 7,
+      "steps": [
+        {
+          "en": "A study circle is your choice, never a duty. If you decide to start one, keep it small: 3 to 6 people you know well and trust. Invite them one by one, face to face, not in a group message. If a friend says no, respect it and stay friends.",
+          "fa": "حلقهٔ درسی انتخاب شماست، نه وظیفهٔ شما. اگر تصمیم گرفتید یکی را شروع کنید، آن را کوچک نگه دارید: سه تا شش نفر که آن‌ها را خوب می‌شناسید و به آن‌ها اعتماد دارید. آن‌ها را یکی‌یکی و رو در رو دعوت کنید، نه در یک گروه پیام. اگر دوستی گفت نه، به تصمیمش احترام بگذارید و دوست بمانید."
+        },
+        {
+          "en": "Meet for an ordinary reason, like sewing or a Quran class. The best reason is a true one: if you really do sew or read Quran together too, nobody has to remember a story. It is usually safer when each girl's family knows about the circle and agrees.",
+          "fa": "برای یک کار عادی جمع شوید، مثل خیاطی یا درس قرآن. بهترین دلیل، دلیل راست است: اگر واقعاً با هم خیاطی کنید یا قرآن بخوانید، کسی مجبور نیست قصه‌ای را به یاد نگه دارد. معمولاً امن‌تر است که خانوادهٔ هر دختر از حلقه خبر داشته باشد و راضی باشد."
+        },
+        {
+          "en": "Change the place and time now and then, so there is no fixed pattern for others to notice. Arrive and leave a few at a time, not all together. Carry books and notebooks in an ordinary bag.",
+          "fa": "جا و وقت جمع شدن را گاه‌گاه تغییر بدهید، تا نظم ثابتی نباشد که دیگران متوجه شوند. دو سه نفر، دو سه نفر بیایید و بروید، نه همه با هم. کتاب‌ها و کتابچه‌ها را در یک بکس عادی با خود ببرید."
+        },
+        {
+          "en": "Leave no trail. Do not write a list of members' names, and do not take photos or videos of the group. A photo can travel far and show faces, a house, or the view from a window.",
+          "fa": "ردی باقی نگذارید. فهرست نام‌های اعضا را ننویسید و از حلقه عکس یا ویدیو نگیرید. یک عکس می‌تواند به جاهای دور برسد و چهره‌ها، خانه یا منظرهٔ پشت کلکین را نشان بدهد."
+        },
+        {
+          "en": "Agree ahead of time what you will all say if someone asks what you are doing, so everyone gives the same simple answer. Also agree on a simple way to tell each other 'we will not meet for a while', without explaining why.",
+          "fa": "از پیش با هم توافق کنید که اگر کسی پرسید چه می‌کنید، چه بگویید، تا همه یک جواب ساده و یکسان بدهند. همچنان یک راه ساده پیدا کنید که به همدیگر بگویید «مدتی جمع نمی‌شویم»، بدون اینکه دلیلش را توضیح بدهید."
+        }
+      ],
+      "reflect": {
+        "en": "If someone asked your circle what you were doing, what simple and true answer could you all give?",
+        "fa": "اگر کسی از حلقهٔ شما پرسید چه می‌کنید، همهٔ شما چه جواب ساده و راستی می‌توانید بدهید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Which of these makes a study circle safer?",
+            "fa": "کدام یک از این‌ها حلقهٔ درسی را امن‌تر می‌سازد؟"
+          },
+          "options": [
+            {
+              "en": "A written list of members, so no one is forgotten",
+              "fa": "فهرست نوشته‌شدهٔ اعضا، تا کسی فراموش نشود"
+            },
+            {
+              "en": "A group photo to remember the day",
+              "fa": "یک عکس گروهی برای یادگار"
+            },
+            {
+              "en": "Changing the place and time now and then",
+              "fa": "تغییر دادن جا و وقت، گاه‌گاه"
+            },
+            {
+              "en": "Inviting everyone in a big group message",
+              "fa": "دعوت کردن همه در یک گروه پیام بزرگ"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "Changing places and times avoids a pattern, while lists, photos and group messages leave a trail.",
+            "fa": "تغییر جا و وقت نظم ثابت را از بین می‌برد، اما فهرست، عکس و گروه پیام رد باقی می‌گذارند."
+          }
+        },
+        {
+          "q": {
+            "en": "A friend says she does not want to join. What should you do?",
+            "fa": "دوستی می‌گوید نمی‌خواهد شامل شود. چه باید بکنید؟"
+          },
+          "options": [
+            {
+              "en": "Keep asking until she agrees",
+              "fa": "آن‌قدر اصرار کنید تا قبول کند"
+            },
+            {
+              "en": "Respect her choice and stay friends",
+              "fa": "به انتخابش احترام بگذارید و دوست بمانید"
+            },
+            {
+              "en": "Tell the others that she is afraid",
+              "fa": "به دیگران بگویید که او می‌ترسد"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Each person decides for herself what risks to take.",
+            "fa": "هر کس خودش تصمیم می‌گیرد که چه خطری را قبول کند."
+          }
+        }
+      ],
+      "practice": "friend-circle",
+      "sources": [
+        "UDHR, Article 20 (peaceful assembly and association)",
+        "UDHR, Article 26 (education)",
+        "Front Line Defenders, Workbook on Security: Practical Steps for Human Rights Defenders at Risk (2011)",
+        "Front Line Defenders and Tactical Tech, Security in-a-Box (guides on protecting contacts and meetings)"
+      ]
+    },
+    {
+      "id": "r5-3",
+      "title": {
+        "en": "Sharing books without leaving a trail",
+        "fa": "شریک ساختن کتاب، بدون گذاشتن رد"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "Ustad never connects to the internet, so nothing you study in it is sent anywhere. Its learning packs hold all the books of one grade in a single file, which can be passed from hand to hand on a memory card.",
+          "fa": "برنامهٔ استاد هیچ وقت به انترنت وصل نمی‌شود، پس هر چه در آن می‌خوانید به هیچ جا فرستاده نمی‌شود. بسته‌های آموزشی آن، همهٔ کتاب‌های یک صنف را در یک فایل جمع می‌کنند، و این فایل را می‌شود با کارت حافظه دست به دست داد."
+        },
+        {
+          "en": "Hand to hand is the quietest way to share. Sending a file through a messaging app is easier, but the file and the chat usually stay on both phones and show who sent what to whom. If you share by Bluetooth, phones nearby can see your phone's name, so give your phone a plain name, not your real name.",
+          "fa": "دست به دست دادن، آرام‌ترین راه شریک ساختن است. فرستادن فایل از راه برنامه‌های پیام‌رسان آسان‌تر است، اما فایل و پیام‌ها معمولاً در هر دو موبایل می‌مانند و نشان می‌دهند که چه کسی چه چیزی را به چه کسی فرستاده است. اگر با بلوتوث می‌فرستید، موبایل‌های نزدیک نام موبایل شما را می‌بینند؛ پس یک نام ساده برایش بگذارید، نه نام اصلی خود را."
+        },
+        {
+          "en": "Keep little on your phone. Textbooks are fine to keep, but delete chats and photos you no longer need, especially ones that show other people's names or faces. What is not on your phone cannot be found.",
+          "fa": "در موبایل خود کم نگه دارید. کتاب‌های درسی را می‌توانید نگه دارید، اما پیام‌ها و عکس‌هایی را که دیگر لازم ندارید پاک کنید، به‌خصوص آن‌هایی که نام یا چهرهٔ دیگران را نشان می‌دهند. چیزی که در موبایل نیست، پیدا هم نمی‌شود."
+        },
+        {
+          "en": "Share only with people you trust. You do not need to say where or from whom you got a book. The fewer names each person knows, the safer everyone is.",
+          "fa": "فقط با کسانی شریک بسازید که به آن‌ها اعتماد دارید. لازم نیست بگویید کتاب را از کجا یا از چه کسی گرفته‌اید. هر قدر هر کس نام‌های کمتری بداند، همه بیشتر در امان هستند."
+        },
+        {
+          "en": "Knowledge can also travel without any file. Explain to a friend what you learned today, or teach your younger sister to read. What you carry in your mind cannot be taken from your bag or your phone.",
+          "fa": "دانش بدون هیچ فایلی هم سفر می‌کند. آنچه امروز آموختید را برای یک دوست توضیح بدهید، یا به خواهر کوچک خود خواندن یاد بدهید. آنچه در ذهن شماست، از بکس یا موبایل شما گرفته نمی‌شود."
+        }
+      ],
+      "reflect": {
+        "en": "What is on your phone right now that you do not really need to keep?",
+        "fa": "همین حالا در موبایل شما چه چیزی هست که واقعاً به نگه داشتنش ضرورت ندارید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Which way of sharing a learning pack leaves the least trail?",
+            "fa": "کدام راه شریک ساختن بستهٔ آموزشی، کمترین رد را باقی می‌گذارد؟"
+          },
+          "options": [
+            {
+              "en": "Posting it in a big online group",
+              "fa": "گذاشتن آن در یک گروه بزرگ انترنتی"
+            },
+            {
+              "en": "Passing it hand to hand on a memory card",
+              "fa": "دست به دست دادن آن با کارت حافظه"
+            },
+            {
+              "en": "Sending it in a chat with a note saying who it is for",
+              "fa": "فرستادن آن در یک پیام، با نوشتن اینکه برای چه کسی است"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "A memory card passed by hand leaves no chat or online record.",
+            "fa": "کارت حافظه‌ای که دست به دست داده می‌شود، هیچ پیام یا ردی در انترنت باقی نمی‌گذارد."
+          }
+        },
+        {
+          "q": {
+            "en": "Why is it safer to keep little on your phone?",
+            "fa": "چرا کم نگه داشتن چیزها در موبایل امن‌تر است؟"
+          },
+          "options": [
+            {
+              "en": "What is not on your phone cannot be found.",
+              "fa": "چیزی که در موبایل نیست، پیدا نمی‌شود."
+            },
+            {
+              "en": "Phones break easily.",
+              "fa": "موبایل‌ها زود خراب می‌شوند."
+            },
+            {
+              "en": "Books are not allowed on phones.",
+              "fa": "کتاب در موبایل اجازه نیست."
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "If a phone is lost or checked, less on it means less risk for you and for others.",
+            "fa": "اگر موبایل گم شد یا چک شد، هر قدر چیز کمتری در آن باشد، خطر برای شما و دیگران کمتر است."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Ustad app design: never connects to the internet; a learning pack is one file per grade, shared by memory card, Bluetooth or share sheet (UI Code README, Packs screen)",
+        "Front Line Defenders and Tactical Tech, Security in-a-Box (protecting sensitive files and communications)",
+        "Bluetooth: a device's name is visible to nearby devices while it is discoverable; it can be changed in settings"
+      ]
+    },
+    {
+      "id": "r5-4",
+      "title": {
+        "en": "Speaking up together",
+        "fa": "با هم صدا بلند کردن"
+      },
+      "minutes": 8,
+      "steps": [
+        {
+          "en": "Gathering peacefully and speaking up together is a human right. The Universal Declaration of Human Rights says so in Article 20, and a treaty Afghanistan joined in 1983, the ICCPR, protects it in Article 21. Article 20 also says that no one may be forced to join a group.",
+          "fa": "به شکل صلح‌آمیز جمع شدن و با هم صدا بلند کردن، یک حق بشری است. اعلامیهٔ جهانی حقوق بشر در مادهٔ ۲۰ همین را می‌گوید، و میثاق بین‌المللی حقوق مدنی و سیاسی، که افغانستان در سال ۱۹۸۳ به آن پیوست، در مادهٔ ۲۱ از آن حمایت می‌کند. مادهٔ ۲۰ همچنان می‌گوید که هیچ کس را نمی‌توان مجبور کرد عضو گروهی شود."
+        },
+        {
+          "en": "Since 2021, Afghan women have found many ways to speak up. Some marched in the streets. When that became too dangerous, some gathered indoors with their faces covered and shared photos and statements. Others wrote letters, poems and articles, sometimes without their names.",
+          "fa": "از سال ۱۴۰۰ (۲۰۲۱) به این طرف، زنان افغان راه‌های زیادی برای صدا بلند کردن پیدا کرده‌اند. بعضی‌ها در سرک‌ها راهپیمایی کردند. وقتی این کار بسیار خطرناک شد، بعضی‌ها با روی پوشیده در داخل خانه جمع شدند و عکس و اعلامیه نشر کردند. دیگران نامه، شعر و مقاله نوشتند، گاهی بدون نام خود."
+        },
+        {
+          "en": "These actions have real costs. Some women who protested were arrested and held, and some of their families were threatened. Even with a covered face, a voice, clothes, a room or the view from a window can show who someone is. In writing, names, places and small details can do the same.",
+          "fa": "این کارها هزینهٔ واقعی دارند. بعضی از زنانی که اعتراض کردند بازداشت شدند، و بعضی از خانواده‌های آن‌ها تهدید شدند. حتی با روی پوشیده، صدا، لباس، اتاق یا منظرهٔ پشت کلکین می‌تواند نشان بدهد که آن شخص کیست. در نوشته هم، نام‌ها، جاها و جزئیات کوچک همین کار را می‌کنند."
+        },
+        {
+          "en": "Before you take any step, think it through with someone you trust. Who could be hurt, including your family and friends, and what is the worst thing that could happen? Who would know where you are, and is there a safer way to reach the same goal?",
+          "fa": "پیش از برداشتن هر قدمی، با کسی که به او اعتماد دارید خوب فکر کنید. چه کسی ممکن است آسیب ببیند، از جمله خانواده و دوستان شما، و بدترین چیزی که ممکن است پیش بیاید چیست؟ چه کسی خبر دارد که شما کجا هستید، و آیا راه امن‌تری برای رسیدن به همین هدف هست؟"
+        },
+        {
+          "en": "The choice is yours, and you should never act alone. Deciding to wait, or to speak up only in quiet ways, is not cowardice. Learning, writing and keeping your friends safe are ways of standing up too. No one has the right to push you into danger.",
+          "fa": "انتخاب با خود شماست، و هیچ وقت نباید تنها اقدام کنید. اینکه تصمیم بگیرید صبر کنید، یا فقط به راه‌های آرام صدا بلند کنید، ترسو بودن نیست. درس خواندن، نوشتن و در امان نگه داشتن دوستان هم راه‌های ایستادگی هستند. هیچ کس حق ندارد شما را به سوی خطر تیله کند."
+        }
+      ],
+      "reflect": {
+        "en": "What is one quiet, safe way you could stand up for something you care about?",
+        "fa": "یک راه آرام و امن که با آن بتوانید از چیزی که برای‌تان مهم است دفاع کنید، چیست؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Before taking any step to speak up, what should you do?",
+            "fa": "پیش از برداشتن هر قدمی برای صدا بلند کردن، چه باید بکنید؟"
+          },
+          "options": [
+            {
+              "en": "Act quickly, before you feel afraid",
+              "fa": "زود اقدام کنید، پیش از آنکه بترسید"
+            },
+            {
+              "en": "Think it through with someone you trust: who could be hurt, the worst case, who knows, and whether there is a safer way",
+              "fa": "با کسی که به او اعتماد دارید خوب فکر کنید: چه کسی آسیب می‌بیند، بدترین حالت چیست، چه کسی خبر دارد، و آیا راه امن‌تری هست"
+            },
+            {
+              "en": "Do it alone, so no one else is involved",
+              "fa": "تنها انجامش بدهید تا پای کس دیگری در میان نباشد"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Thinking it through with someone you trust protects you and others, and no one should act alone.",
+            "fa": "خوب فکر کردن همراه با کسی که به او اعتماد دارید، از شما و دیگران محافظت می‌کند، و هیچ کس نباید تنها اقدام کند."
+          }
+        },
+        {
+          "q": {
+            "en": "A friend calls you a coward for not joining a risky action. Which is true?",
+            "fa": "دوستی شما را ترسو می‌گوید، چون در یک کار خطرناک شامل نمی‌شوید. کدام درست است؟"
+          },
+          "options": [
+            {
+              "en": "She is right: being brave means taking the biggest risk.",
+              "fa": "حق با اوست: شجاعت یعنی بزرگ‌ترین خطر را قبول کردن."
+            },
+            {
+              "en": "Keeping yourself and others safe is not cowardice, and the choice is yours.",
+              "fa": "در امان نگه داشتن خود و دیگران ترسو بودن نیست، و انتخاب با خود شماست."
+            },
+            {
+              "en": "You must join so that she is not upset.",
+              "fa": "باید شامل شوید تا او ناراحت نشود."
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "No one has the right to push you into danger; learning and protecting others are also ways of standing up.",
+            "fa": "هیچ کس حق ندارد شما را به سوی خطر تیله کند؛ درس خواندن و محافظت از دیگران هم راه‌های ایستادگی هستند."
+          }
+        }
+      ],
+      "practice": "say-no",
+      "sources": [
+        "UDHR, Article 20 (1) peaceful assembly and association; (2) no one may be compelled to belong to an association",
+        "ICCPR, Article 21 (peaceful assembly); Afghanistan acceded 24 January 1983",
+        "Amnesty International, Death in Slow Motion (July 2022): detention of women protesters and threats to their families",
+        "Human Rights Watch and UN human rights experts' statements on detained women protesters in Afghanistan (2022)",
+        "UN Special Rapporteur on the situation of human rights in Afghanistan, reports to the Human Rights Council (2022-2024)",
+        "News reporting on women's indoor protests with covered faces and online statements, 2022-2023 (e.g. RFE/RL, The Guardian)"
+      ]
+    },
+    {
+      "id": "r5-5",
+      "title": {
+        "en": "If someone is taken",
+        "fa": "اگر کسی را بردند"
+      },
+      "minutes": 7,
+      "steps": [
+        {
+          "en": "If someone from your circle or your community is taken, it is natural to feel afraid and upset. Take a few slow breaths: staying calm helps you think clearly and protect others. It is not your fault, and it is not hers.",
+          "fa": "اگر کسی را از حلقهٔ شما یا از اطراف شما بردند، طبیعی است که بترسید و پریشان شوید. چند نفس آهسته بکشید: آرام ماندن کمک می‌کند که درست فکر کنید و از دیگران محافظت کنید. این تقصیر شما نیست، و تقصیر او هم نیست."
+        },
+        {
+          "en": "Protect others first. Pause the circle for a while and change your plans, places and times. Remove shared messages, photos and files that show names or faces. Her phone may be checked, and people who are held can be pressured, so these changes protect everyone, including her.",
+          "fa": "اول از دیگران محافظت کنید. حلقه را برای مدتی متوقف کنید و برنامه، جا و وقت خود را تغییر بدهید. پیام‌ها، عکس‌ها و فایل‌های مشترکی را که نام یا چهرهٔ کسی را نشان می‌دهند پاک کنید. ممکن است موبایل او را چک کنند و کسی که نگه داشته شده زیر فشار قرار بگیرد؛ پس این تغییرها همه را، از جمله خود او را، در امان نگه می‌دارد."
+        },
+        {
+          "en": "Support her family and let them lead: they decide what to do and whom to ask for help. Do not go alone to look for her or to ask about her. You can help in quiet ways, like bringing food, looking after the younger children, or sitting with her mother.",
+          "fa": "از خانوادهٔ او حمایت کنید و بگذارید آن‌ها راه را نشان بدهند: خود آن‌ها تصمیم می‌گیرند چه کنند و از چه کسی کمک بخواهند. به تنهایی به دنبال او نروید و جایی نروید که دربارهٔ او سؤال کنید. می‌توانید به راه‌های آرام کمک کنید، مثلاً نان بیاورید، از اطفال کوچک خانه نگهداری کنید، یا در کنار مادرش بنشینید."
+        },
+        {
+          "en": "If you saw what happened, remember the facts exactly: the day, the time, the place, and what you saw with your own eyes. Tell them only to her family or to someone they trust. Do not add guesses.",
+          "fa": "اگر دیدید چه شد، واقعیت‌ها را دقیق به یاد نگه دارید: روز، وقت، جا، و آنچه با چشم خود دیدید. این‌ها را فقط به خانوادهٔ او، یا به کسی که آن‌ها به او اعتماد دارند، بگویید. حدس و گمان خود را به آن اضافه نکنید."
+        },
+        {
+          "en": "Avoid rumours. Do not spread stories, her name or her photo without her family's agreement; rumours can frighten people, harm her reputation, and even put her in more danger. When the fear feels heavy, talk to someone you trust. You do not have to carry it alone.",
+          "fa": "از شایعه دوری کنید. قصه‌ها، نام یا عکس او را بدون رضایت خانواده‌اش پخش نکنید؛ شایعه می‌تواند مردم را بترساند، به آبروی او صدمه بزند و حتی او را در خطر بیشتر بیندازد. وقتی ترس سنگین شد، با کسی که به او اعتماد دارید گپ بزنید. لازم نیست این بار را تنها بکشید."
+        }
+      ],
+      "reflect": {
+        "en": "If your circle ever had to stop suddenly, how would you let each other know calmly?",
+        "fa": "اگر حلقهٔ شما مجبور شود ناگهان متوقف شود، چطور به آرامی به همدیگر خبر می‌دهید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Someone from your study circle has been taken. What should the circle do first?",
+            "fa": "کسی از حلقهٔ درسی شما را برده‌اند. حلقه اول چه باید بکند؟"
+          },
+          "options": [
+            {
+              "en": "Meet right away, all together, to talk about it",
+              "fa": "فوراً همه با هم جمع شوند و در این باره گپ بزنند"
+            },
+            {
+              "en": "Pause meetings, change plans, and remove shared messages and photos that show names or faces",
+              "fa": "جمع شدن را متوقف کنند، برنامه را تغییر بدهند، و پیام‌ها و عکس‌های مشترکی را که نام یا چهره نشان می‌دهند پاک کنند"
+            },
+            {
+              "en": "Post her photo online to find her",
+              "fa": "عکس او را در انترنت نشر کنند تا پیدایش کنند"
+            },
+            {
+              "en": "Go together to ask about her",
+              "fa": "با هم بروند و دربارهٔ او سؤال کنند"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Pausing and removing shared information protects everyone, including her.",
+            "fa": "متوقف کردن حلقه و پاک کردن معلومات مشترک، همه را، از جمله خود او را، در امان نگه می‌دارد."
+          }
+        },
+        {
+          "q": {
+            "en": "You hear a story about what happened, but you are not sure it is true. What should you do?",
+            "fa": "قصه‌ای دربارهٔ آنچه شد می‌شنوید، اما مطمئن نیستید که راست است. چه باید بکنید؟"
+          },
+          "options": [
+            {
+              "en": "Tell everyone, just in case",
+              "fa": "به همه بگویید، شاید به کار بیاید"
+            },
+            {
+              "en": "Don't pass it on; share only what you saw yourself, and only with her family",
+              "fa": "آن را به کسی نگویید؛ فقط آنچه خود دیدید را، و فقط به خانوادهٔ او بگویید"
+            },
+            {
+              "en": "Add details so the story is clearer",
+              "fa": "جزئیاتی اضافه کنید تا قصه روشن‌تر شود"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Rumours can frighten people and put her in more danger.",
+            "fa": "شایعه می‌تواند مردم را بترساند و او را در خطر بیشتر بیندازد."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Front Line Defenders, Workbook on Security (2011): security planning and responding to incidents such as detention",
+        "Front Line Defenders and Tactical Tech, Security in-a-Box (protecting contacts and shared data)",
+        "WHO, Psychological First Aid: Guide for Field Workers (2011): staying calm, supporting families"
+      ]
+    }
+  ]
+}

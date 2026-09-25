@@ -1,0 +1,104 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 270,
+  "printed_page": 261,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "حاصل ضرب سکالری دو وکتور",
+  "summary_fa": "این صفحه درس حاصل ضرب سکالری را آغاز می‌کند. در مقدمه گفته می‌شود که این ضرب در انجنیری و فزیک کاربرد دارد و نتیجهٔ آن یک عدد (سکالر) است، نه وکتور، و زاویهٔ بین دو وکتور در آن نقش دارد. تعریف: برای دو وکتور غیرصفری $\\vec{u}$ و $\\vec{v}$ در مستوی یا فضا، $\\vec{u} \\cdot \\vec{v} = |\\vec{u}||\\vec{v}|\\cos\\theta$ که $\\theta$ زاویهٔ بین آن‌ها و $0 \\le \\theta \\le \\pi$ است. در فعالیت، شاگرد با همین تعریف نشان می‌دهد که ضرب هر وکتور واحد در خودش ۱ و ضرب دو وکتور واحد مختلف صفر است، ترتیب ضرب مهم نیست، و اگر حاصل ضرب دو وکتور غیرصفری صفر باشد آن‌ها بر هم عمود هستند. سپس فورمول مؤلفه‌یی $a_1a_2 + b_1b_2$ در مستوی و حالت مشابه آن در فضا خواسته می‌شود.",
+  "key_points_fa": [
+    "حاصل ضرب سکالری یک عدد است: $\\vec{u} \\cdot \\vec{v} = |\\vec{u}||\\vec{v}|\\cos\\theta$ با $0 \\le \\theta \\le \\pi$.",
+    "$\\vec{i}\\cdot\\vec{i} = \\vec{j}\\cdot\\vec{j} = \\vec{k}\\cdot\\vec{k} = 1$ چون زاویه صفر و طول‌ها ۱ است.",
+    "$\\vec{i}\\cdot\\vec{j} = \\vec{j}\\cdot\\vec{k} = \\vec{k}\\cdot\\vec{i} = 0$ چون زاویه $90^\\circ$ است.",
+    "$\\vec{u}\\cdot\\vec{v} = \\vec{v}\\cdot\\vec{u}$.",
+    "دو وکتور غیرصفری عمود هستند اگر و تنها اگر حاصل ضرب سکالری آن‌ها صفر باشد.",
+    "با مؤلفه‌ها: در مستوی $a_1a_2 + b_1b_2$ و در فضا $a_1a_2 + b_1b_2 + c_1c_2$."
+  ],
+  "formulas": [
+    {"latex": "\\vec{u} \\cdot \\vec{v} = |\\vec{u}|\\,|\\vec{v}|\\cos\\theta,\\quad 0 \\le \\theta \\le \\pi", "meaning_fa": "تعریف حاصل ضرب سکالری دو وکتور"},
+    {"latex": "\\vec{i}\\cdot\\vec{i} = \\vec{j}\\cdot\\vec{j} = \\vec{k}\\cdot\\vec{k} = 1,\\quad \\vec{i}\\cdot\\vec{j} = \\vec{j}\\cdot\\vec{k} = \\vec{k}\\cdot\\vec{i} = 0", "meaning_fa": "حاصل ضرب سکالری وکتورهای واحد"},
+    {"latex": "\\vec{a} = a_1\\vec{i} + b_1\\vec{j},\\ \\vec{b} = a_2\\vec{i} + b_2\\vec{j} \\Rightarrow \\vec{a}\\cdot\\vec{b} = a_1a_2 + b_1b_2", "meaning_fa": "حاصل ضرب سکالری با مؤلفه‌ها در مستوی"}
+  ],
+  "terms": [
+    {"fa": "حاصل ضرب سکالری", "en": "dot (scalar) product"},
+    {"fa": "وکتورهای عمود", "en": "perpendicular (orthogonal) vectors"},
+    {"fa": "زاویهٔ بین دو وکتور", "en": "angle between two vectors"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.13, 0.43, 0.20], "kind": "illustration", "description_fa": "فورمول $\\vec{a}\\cdot\\vec{b} = |\\vec{a}|\\cdot|\\vec{b}|\\cdot\\cos\\theta$ به خط درشت و رنگه به حیث تصویر عنوان درس؛ فورمول اصلی این درس را برجسته می‌کند."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "فعالیت (i)",
+      "kind": "activity",
+      "problem_fa": "نشان دهید که $\\vec{i}\\cdot\\vec{i} = 1$، $\\vec{j}\\cdot\\vec{j} = 1$ و $\\vec{k}\\cdot\\vec{k} = 1$.",
+      "solution_steps_fa": [
+        "زاویهٔ هر وکتور با خودش $0^\\circ$ است و $\\cos 0^\\circ = 1$.",
+        "$\\vec{i}\\cdot\\vec{i} = |\\vec{i}||\\vec{i}|\\cos 0^\\circ = 1 \\cdot 1 \\cdot 1 = 1$؛ برای $\\vec{j}$ و $\\vec{k}$ هم همین‌طور."
+      ],
+      "answer": "هر سه برابر ۱ هستند.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (ii)",
+      "kind": "activity",
+      "problem_fa": "نشان دهید که $\\vec{i}\\cdot\\vec{j} = 0$، $\\vec{j}\\cdot\\vec{k} = 0$ و $\\vec{k}\\cdot\\vec{i} = 0$.",
+      "solution_steps_fa": [
+        "محورهای مختصات بر هم عمود هستند، پس زاویهٔ بین هر دو وکتور واحد مختلف $90^\\circ$ است.",
+        "$\\vec{i}\\cdot\\vec{j} = 1 \\cdot 1 \\cdot \\cos 90^\\circ = 0$؛ دو حالت دیگر هم مانند همین."
+      ],
+      "answer": "هر سه برابر صفر هستند.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (iii)",
+      "kind": "activity",
+      "problem_fa": "نشان دهید که $\\vec{u}\\cdot\\vec{v} = \\vec{v}\\cdot\\vec{u}$.",
+      "solution_steps_fa": [
+        "زاویهٔ بین $\\vec{u}$ و $\\vec{v}$ همان زاویهٔ بین $\\vec{v}$ و $\\vec{u}$ است.",
+        "$\\vec{u}\\cdot\\vec{v} = |\\vec{u}||\\vec{v}|\\cos\\theta = |\\vec{v}||\\vec{u}|\\cos\\theta = \\vec{v}\\cdot\\vec{u}$ چون ضرب اعداد تبدیلی است."
+      ],
+      "answer": "برابر هستند (خاصیت تبدیلی).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (iv)",
+      "kind": "activity",
+      "problem_fa": "اگر $\\vec{u}$ و $\\vec{v}$ غیرصفری باشند و $\\vec{u}\\cdot\\vec{v} = 0$، نشان دهید که بر هم عمود هستند.",
+      "solution_steps_fa": [
+        "$|\\vec{u}||\\vec{v}|\\cos\\theta = 0$ و چون $|\\vec{u}| \\ne 0$ و $|\\vec{v}| \\ne 0$، باید $\\cos\\theta = 0$ باشد.",
+        "در انتروال $0 \\le \\theta \\le \\pi$ تنها $\\theta = \\frac{\\pi}{2} = 90^\\circ$ این شرط را دارد."
+      ],
+      "answer": "$\\theta = 90^\\circ$، پس $\\vec{u} \\perp \\vec{v}$.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (مستوی)",
+      "kind": "activity",
+      "problem_fa": "برای $\\vec{a} = a_1\\vec{i} + b_1\\vec{j}$ و $\\vec{b} = a_2\\vec{i} + b_2\\vec{j}$ نشان دهید که $\\vec{a}\\cdot\\vec{b} = a_1a_2 + b_1b_2$.",
+      "solution_steps_fa": [
+        "ضرب را مانند ضرب دو افاده باز می‌کنیم: $a_1a_2(\\vec{i}\\cdot\\vec{i}) + a_1b_2(\\vec{i}\\cdot\\vec{j}) + b_1a_2(\\vec{j}\\cdot\\vec{i}) + b_1b_2(\\vec{j}\\cdot\\vec{j})$",
+        "با $\\vec{i}\\cdot\\vec{i} = \\vec{j}\\cdot\\vec{j} = 1$ و $\\vec{i}\\cdot\\vec{j} = \\vec{j}\\cdot\\vec{i} = 0$ نتیجه $a_1a_2 + b_1b_2$ است."
+      ],
+      "answer": "$\\vec{a}\\cdot\\vec{b} = a_1a_2 + b_1b_2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (فضا)",
+      "kind": "activity",
+      "problem_fa": "برای $\\vec{a} = a_1\\vec{i} + b_1\\vec{j} + c_1\\vec{k}$ و $\\vec{b} = a_2\\vec{i} + b_2\\vec{j} + c_2\\vec{k}$ قیمت $\\vec{a}\\cdot\\vec{b}$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "با باز کردن ضرب، نُه جمله به دست می‌آید؛ شش جمله‌یی که دو وکتور واحد مختلف دارند صفر می‌شوند.",
+        "سه جملهٔ باقی‌مانده: $a_1a_2 + b_1b_2 + c_1c_2$"
+      ],
+      "answer": "$\\vec{a}\\cdot\\vec{b} = a_1a_2 + b_1b_2 + c_1c_2$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "نتیجهٔ این فعالیت و ثبوت حالت فضا در صفحه بعد (مثال ۱) آمده است."
+}

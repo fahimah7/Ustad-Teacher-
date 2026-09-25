@@ -1,0 +1,76 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 194,
+  "printed_page": 187,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "رابطه بین نسبت‌های مثلثاتی زاویه‌هایی که مجموعه یا فرق شان $360^\\circ$ یا $2\\pi$ رادیان باشد",
+  "summary_fa": "درس تازه دربارهٔ زاویه‌هایی است که مجموعه یا فرق آن‌ها یک دور کامل ($360^\\circ$ یا $2\\pi$) است. اول زاویهٔ حادهٔ $\\theta$ و زاویهٔ $360^\\circ - \\theta$ مقایسه می‌شوند: ضلع دوم $\\theta$ دایره را در $P(x,y)$ در ربع اول و ضلع دوم $360^\\circ - \\theta$ آن را در $P_1(x_1,y_1)$ در ربع چهارم قطع می‌کند. از مساوی بودن مثلث‌های $OPD$ و $OP_1D$ نتیجه می‌شود که x دو نقطه یکی است ولی y قرینه است. پس sin و tan زاویهٔ $360^\\circ - \\theta$ قرینهٔ نسبت‌های $\\theta$ هستند و cos آن تغییر نمی‌کند؛ درست مانند رابطه‌های $-\\theta$. یک فعالیت سه نسبت دیگر را می‌خواهد و مقایسه با زاویهٔ $-\\theta$. در آخر مثال زاویهٔ $330^\\circ = \\frac{11\\pi}{6}$ مطرح شده و حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "زاویهٔ $360^\\circ - \\theta$ در ربع چهارم است و نقطهٔ آن $P_1(x, -y)$ است.",
+    "$\\sin(360^\\circ - \\theta) = -\\sin\\theta$ و $\\cos(360^\\circ - \\theta) = \\cos\\theta$.",
+    "$\\tan(360^\\circ - \\theta) = -\\tan\\theta$.",
+    "رابطه‌های $360^\\circ - \\theta$ با رابطه‌های $-\\theta$ یکی است، چون این دو زاویه ضلع دوم یکسان دارند (فرق آن‌ها $360^\\circ$ است).",
+    "در ربع چهارم فقط cos و sec مثبت‌اند."
+  ],
+  "formulas": [
+    {"latex": "x_1 = x,\\quad y_1 = -y", "meaning_fa": "نقطهٔ $360^\\circ - \\theta$ قرینهٔ نقطهٔ $\\theta$ نسبت به محور X است"},
+    {"latex": "\\sin(360^\\circ - \\theta) = -\\sin\\theta", "meaning_fa": "sin قرینه می‌شود"},
+    {"latex": "\\cos(360^\\circ - \\theta) = \\cos\\theta", "meaning_fa": "cos تغییر نمی‌کند"},
+    {"latex": "\\tan(360^\\circ - \\theta) = \\frac{-\\sin\\theta}{\\cos\\theta} = -\\tan\\theta", "meaning_fa": "tan قرینه می‌شود"}
+  ],
+  "terms": [
+    {"fa": "ربع چهارم", "en": "fourth quadrant"},
+    {"fa": "دایرهٔ مثلثاتی", "en": "unit circle"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "diagram", "description_fa": "دو دایرهٔ هم‌مرکز به مرکز O. نقطهٔ $P(x,y)$ در ربع اول با زاویهٔ $\\theta$ و نقطهٔ $P_1(x_1,y_1)$ در ربع چهارم رسم شده‌اند؛ قوس آبی بزرگ زاویهٔ $360^\\circ - \\theta$ را نشان می‌دهد که تقریباً یک دور کامل است. خط نقطه‌چین عمودی P را به $P_1$ وصل می‌کند و محور X را در D قطع می‌کند؛ مثلث‌های مساوی $OPD$ و $OP_1D$ نشان می‌دهند که y قرینه و x یکی است."},
+    {"id": "fig2", "bbox": [0.11, 0.69, 0.38, 0.88], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی برای مثال زاویهٔ $\\frac{11\\pi}{6}$: قوس آبی از نیمهٔ مثبت محور X تقریباً یک دور خلاف عقربهٔ ساعت می‌چرخد و ضلع دوم سرخ در ربع چهارم قرار می‌گیرد؛ زاویهٔ کوچک سبز $\\frac{\\pi}{6}$ میان این ضلع و محور X است، یعنی $\\frac{11\\pi}{6} = 2\\pi - \\frac{\\pi}{6}$."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "اثبات روابط $360^\\circ - \\theta$",
+      "problem_fa": "sin، cos و tan زاویهٔ $360^\\circ - \\theta$ را بر حسب نسبت‌های $\\theta$ بنویسید.",
+      "steps_fa": [
+        "از مساوی بودن مثلث‌های $OPD$ و $OP_1D$: $x_1 = x$ و $|y_1| = |y|$؛ چون $P_1$ زیر محور X است، $y_1 = -y$.",
+        "$\\sin(360^\\circ - \\theta) = y_1 = -y = -\\sin\\theta$",
+        "$\\cos(360^\\circ - \\theta) = x_1 = x = \\cos\\theta$",
+        "$\\tan(360^\\circ - \\theta) = \\frac{-\\sin\\theta}{\\cos\\theta} = -\\tan\\theta$"
+      ],
+      "answer": "$\\sin(360^\\circ - \\theta) = -\\sin\\theta$، $\\cos(360^\\circ - \\theta) = \\cos\\theta$، $\\tan(360^\\circ - \\theta) = -\\tan\\theta$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغاز درس",
+      "kind": "question",
+      "problem_fa": "آیا می‌توانید درستی رابطه‌های $\\sin(360^\\circ - \\theta) = -\\sin\\theta$ و $\\cos(360^\\circ - \\theta) = \\cos\\theta$ را نشان دهید؟",
+      "solution_steps_fa": [
+        "زاویهٔ $360^\\circ - \\theta$ با زاویهٔ $-\\theta$ کوترمینل است، چون $360^\\circ - \\theta = -\\theta + 360^\\circ$.",
+        "پس $\\sin(360^\\circ - \\theta) = \\sin(-\\theta) = -\\sin\\theta$ و $\\cos(360^\\circ - \\theta) = \\cos(-\\theta) = \\cos\\theta$.",
+        "کتاب همین را با مثلث‌های مساوی $OPD$ و $OP_1D$ ثابت می‌کند."
+      ],
+      "answer": "بلی؛ نقطهٔ $360^\\circ - \\theta$ همان $(x, -y)$ است.",
+      "solution_source": "mixed"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "رابطهٔ sec، cot و csc زاویه‌های $\\theta$ و $360^\\circ - \\theta$ را دریابید و با رابطه‌های $\\theta$ و $-\\theta$ مقایسه کنید.",
+      "solution_steps_fa": [
+        "$\\cot(360^\\circ - \\theta) = \\frac{\\cos\\theta}{-\\sin\\theta} = -\\cot\\theta$",
+        "$\\sec(360^\\circ - \\theta) = \\frac{1}{\\cos\\theta} = \\sec\\theta$",
+        "$\\csc(360^\\circ - \\theta) = \\frac{1}{-\\sin\\theta} = -\\csc\\theta$",
+        "مقایسه: این‌ها درست مانند $\\cot(-\\theta) = -\\cot\\theta$، $\\sec(-\\theta) = \\sec\\theta$ و $\\csc(-\\theta) = -\\csc\\theta$ هستند، چون $360^\\circ - \\theta$ و $-\\theta$ ضلع دوم یکسان دارند."
+      ],
+      "answer": "$\\cot(360^\\circ - \\theta) = -\\cot\\theta$، $\\sec(360^\\circ - \\theta) = \\sec\\theta$، $\\csc(360^\\circ - \\theta) = -\\csc\\theta$؛ همان رابطه‌های $-\\theta$.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "مثال زاویهٔ $330^\\circ = \\frac{11\\pi}{6}$ در پایین این صفحه مطرح شده و حل آن در صفحهٔ بعد (pdf 195) است."
+}

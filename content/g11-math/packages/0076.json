@@ -1,0 +1,68 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 76,
+  "printed_page": 67,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مطابقت‌های مثلثاتی",
+  "summary_fa": "این صفحه با یک فعالیت شروع می‌شود: با نسبت‌های مثلثاتی در مثلث قایم‌الزاویه، سه رابطهٔ $1 + \\cot^2\\alpha = \\csc^2\\alpha$، $\\cot\\alpha = \\frac{1}{\\tan\\alpha}$ و $\\sec\\alpha = \\frac{1}{\\cos\\alpha}$ باید ثبوت شوند. بعد روش عمومی ثبوت مطابقت‌ها شرح داده می‌شود: از یک طرف شروع می‌کنیم و با عملیه‌هایی مانند مربع کردن، تجزیه، ضرب و ساده کردن، به طرف دیگر می‌رسیم. افادهٔ مثلثاتی افادهٔ الجبری‌یی است که حدهای آن نسبت‌های مثلثاتی یک یا چند زاویه باشند و با روابط مثلثاتی ساده می‌شود. در مثال ۱ افاده‌یی کسری به $\\tan\\alpha$ ساده می‌شود و در مثال ۲ مجموع سه حد به $1 + \\tan^2\\alpha$ می‌رسد.",
+  "key_points_fa": [
+    "برای ثبوت مطابقت، معمولاً طرف پیچیده‌تر را گرفته و آن را ساده می‌کنیم تا به طرف دیگر برسیم.",
+    "یک راه مفید: همه چیز را به ساین و کوساین تبدیل کنید.",
+    "$\\tan\\alpha\\cot\\alpha = 1$ و $1 - \\sin^2\\alpha = \\cos^2\\alpha$ در ساده کردن زیاد به کار می‌آیند.",
+    "افادهٔ مثلثاتی: افادهٔ الجبری که حدهای آن نسبت‌های مثلثاتی زاویه‌ها باشند."
+  ],
+  "formulas": [
+    {"latex": "1 + \\cot^2\\alpha = \\csc^2\\alpha", "meaning_fa": "مطابقت اساسی سوم"},
+    {"latex": "\\tan\\alpha\\cot\\alpha = 1", "meaning_fa": "حاصل ضرب تانجنت و کوتانجنت یک است"},
+    {"latex": "1 - \\sin^2\\alpha = \\cos^2\\alpha", "meaning_fa": "شکل دیگر $\\sin^2\\alpha + \\cos^2\\alpha = 1$"}
+  ],
+  "terms": [
+    {"fa": "افادهٔ مثلثاتی", "en": "trigonometric expression"},
+    {"fa": "ساده کردن", "en": "simplifying"},
+    {"fa": "تجزیه کردن", "en": "factoring"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "ثبوت کنید (ساده کنید): $\\frac{\\sin\\alpha\\cos\\alpha \\cdot \\tan\\alpha\\cot\\alpha}{1 - \\sin^2\\alpha} = \\tan\\alpha$",
+      "steps_fa": [
+        "$\\tan\\alpha\\cot\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha}\\cdot\\frac{\\cos\\alpha}{\\sin\\alpha} = 1$ و $1 - \\sin^2\\alpha = \\cos^2\\alpha$",
+        "پس افاده $= \\frac{\\sin\\alpha\\cos\\alpha}{\\cos^2\\alpha} = \\frac{\\sin\\alpha}{\\cos\\alpha} = \\tan\\alpha$"
+      ],
+      "answer": "$\\tan\\alpha$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "افادهٔ $\\sin^2\\beta\\cot^2\\beta + \\cos^2\\beta\\tan^2\\beta + \\tan^2\\beta$ را ساده کنید.",
+      "steps_fa": [
+        "$\\sin^2\\beta\\cdot\\frac{\\cos^2\\beta}{\\sin^2\\beta} = \\cos^2\\beta$ و $\\cos^2\\beta\\cdot\\frac{\\sin^2\\beta}{\\cos^2\\beta} = \\sin^2\\beta$",
+        "افاده $= \\cos^2\\beta + \\sin^2\\beta + \\tan^2\\beta = 1 + \\tan^2\\beta$",
+        "و چون $1 + \\tan^2\\beta = \\sec^2\\beta$، می‌توان آن را $\\sec^2\\beta$ هم نوشت."
+      ],
+      "answer": "$1 + \\tan^2\\beta = \\sec^2\\beta$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "با نسبت‌های مثلثاتی (مثلث OMP با ضلع‌های x، y و وتر r) ثبوت کنید: $1 + \\cot^2\\alpha = \\csc^2\\alpha$، $\\cot\\alpha = \\frac{1}{\\tan\\alpha}$، $\\sec\\alpha = \\frac{1}{\\cos\\alpha}$.",
+      "solution_steps_fa": [
+        "$x^2 + y^2 = r^2$ را بر $y^2$ تقسیم می‌کنیم: $\\left(\\frac{x}{y}\\right)^2 + 1 = \\left(\\frac{r}{y}\\right)^2$، یعنی $\\cot^2\\alpha + 1 = \\csc^2\\alpha$.",
+        "$\\cot\\alpha = \\frac{x}{y} = \\frac{1}{\\frac{y}{x}} = \\frac{1}{\\tan\\alpha}$",
+        "$\\sec\\alpha = \\frac{r}{x} = \\frac{1}{\\frac{x}{r}} = \\frac{1}{\\cos\\alpha}$"
+      ],
+      "answer": "هر سه رابطه از تعریف نسبت‌ها در مثلث OMP و قضیهٔ فیثاغورث ثابت می‌شوند.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "حل مثال ۲ در کتاب به $1 + \\tan^2\\beta$ ختم می‌شود؛ شکل $\\sec^2\\beta$ اضافه شده است."
+}

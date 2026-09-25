@@ -1,0 +1,92 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 189,
+  "printed_page": 182,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "ارتباط بین نسبت‌های مثلثاتی دو زاویه که مجموعه و یا فرق شان $\\pi$ یا $180^\\circ$ باشد",
+  "summary_fa": "بالای صفحه یادداشت علامه‌ها از صفحهٔ قبل تمام می‌شود: ضلع دوم زاویهٔ $180^\\circ + \\theta$ در ربع سوم است، جایی که فقط tan و cot مثبت‌اند و چهار نسبت دیگر منفی‌اند. بعد تمرین این درس آمده است: پیدا کردن همهٔ نسبت‌های $225^\\circ$، $210^\\circ$ و $150^\\circ$، و دو سوال چهارگزینه‌ای دربارهٔ $\\cot\\frac{3\\pi}{4}$ و $\\sec 225^\\circ$. در همهٔ آن‌ها زاویه به شکل $180^\\circ \\pm$ یک زاویهٔ حاده ($30^\\circ$، $45^\\circ$ یا $60^\\circ$) نوشته می‌شود، قیمت عددی از نسبت‌های آن زاویهٔ حاده گرفته می‌شود و علامه از ربع ضلع دوم تعیین می‌گردد.",
+  "key_points_fa": [
+    "ربع دوم ($180^\\circ - \\theta$): فقط sin و csc مثبت‌اند.",
+    "ربع سوم ($180^\\circ + \\theta$): فقط tan و cot مثبت‌اند.",
+    "$225^\\circ = 180^\\circ + 45^\\circ$، $210^\\circ = 180^\\circ + 30^\\circ$، $150^\\circ = 180^\\circ - 30^\\circ$.",
+    "$\\frac{2}{\\sqrt{2}} = \\sqrt{2}$ و $\\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}$ (ناطق ساختن مخرج)."
+  ],
+  "formulas": [
+    {"latex": "\\tan(180^\\circ + \\theta) = \\tan\\theta,\\quad \\cot(180^\\circ + \\theta) = \\cot\\theta", "meaning_fa": "در ربع سوم tan و cot مثبت می‌مانند"},
+    {"latex": "\\sin(180^\\circ + \\theta) = -\\sin\\theta,\\quad \\cos(180^\\circ + \\theta) = -\\cos\\theta", "meaning_fa": "در ربع سوم sin و cos منفی‌اند"}
+  ],
+  "terms": [
+    {"fa": "ربع سوم", "en": "third quadrant"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $225^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$225^\\circ = 180^\\circ + 45^\\circ$ (ربع سوم).",
+        "$\\sin 225^\\circ = -\\sin 45^\\circ = -\\frac{\\sqrt{2}}{2}$، $\\cos 225^\\circ = -\\cos 45^\\circ = -\\frac{\\sqrt{2}}{2}$",
+        "$\\tan 225^\\circ = \\tan 45^\\circ = 1$، $\\cot 225^\\circ = \\cot 45^\\circ = 1$",
+        "$\\sec 225^\\circ = -\\sec 45^\\circ = -\\sqrt{2}$، $\\csc 225^\\circ = -\\csc 45^\\circ = -\\sqrt{2}$"
+      ],
+      "answer": "$\\sin = \\cos = -\\frac{\\sqrt{2}}{2}$، $\\tan = \\cot = 1$، $\\sec = \\csc = -\\sqrt{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $210^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$210^\\circ = 180^\\circ + 30^\\circ$ (ربع سوم).",
+        "$\\sin 210^\\circ = -\\sin 30^\\circ = -\\frac{1}{2}$، $\\cos 210^\\circ = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$",
+        "$\\tan 210^\\circ = \\tan 30^\\circ = \\frac{\\sqrt{3}}{3}$، $\\cot 210^\\circ = \\cot 30^\\circ = \\sqrt{3}$",
+        "$\\sec 210^\\circ = -\\sec 30^\\circ = -\\frac{2\\sqrt{3}}{3}$، $\\csc 210^\\circ = -\\csc 30^\\circ = -2$"
+      ],
+      "answer": "$\\sin = -\\frac{1}{2}$، $\\cos = -\\frac{\\sqrt{3}}{2}$، $\\tan = \\frac{\\sqrt{3}}{3}$، $\\cot = \\sqrt{3}$، $\\sec = -\\frac{2\\sqrt{3}}{3}$، $\\csc = -2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $150^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$150^\\circ = 180^\\circ - 30^\\circ$ (ربع دوم).",
+        "$\\sin 150^\\circ = \\sin 30^\\circ = \\frac{1}{2}$، $\\cos 150^\\circ = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$",
+        "$\\tan 150^\\circ = -\\tan 30^\\circ = -\\frac{\\sqrt{3}}{3}$، $\\cot 150^\\circ = -\\cot 30^\\circ = -\\sqrt{3}$",
+        "$\\sec 150^\\circ = -\\sec 30^\\circ = -\\frac{2\\sqrt{3}}{3}$، $\\csc 150^\\circ = \\csc 30^\\circ = 2$"
+      ],
+      "answer": "$\\sin = \\frac{1}{2}$، $\\cos = -\\frac{\\sqrt{3}}{2}$، $\\tan = -\\frac{\\sqrt{3}}{3}$، $\\cot = -\\sqrt{3}$، $\\sec = -\\frac{2\\sqrt{3}}{3}$، $\\csc = 2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "$\\cot\\frac{3\\pi}{4} = ?$ گزینه‌ها: a) $-\\frac{1}{2}$ b) $1$ c) $0$ d) $-1$",
+      "solution_steps_fa": [
+        "$\\frac{3\\pi}{4} = \\pi - \\frac{\\pi}{4}$",
+        "$\\cot\\frac{3\\pi}{4} = -\\cot\\frac{\\pi}{4} = -1$"
+      ],
+      "answer": "d) $-1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "$\\sec 225^\\circ = ?$ گزینه‌ها: a) $\\frac{2}{\\sqrt{2}}$ b) $-\\frac{2}{\\sqrt{2}}$ c) $\\frac{\\sqrt{2}}{2}$ d) $-\\frac{\\sqrt{2}}{2}$",
+      "solution_steps_fa": [
+        "$\\cos 225^\\circ = -\\cos 45^\\circ = -\\frac{\\sqrt{2}}{2}$",
+        "$\\sec 225^\\circ = \\frac{1}{\\cos 225^\\circ} = -\\frac{2}{\\sqrt{2}} = -\\sqrt{2}$"
+      ],
+      "answer": "b) $-\\frac{2}{\\sqrt{2}}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

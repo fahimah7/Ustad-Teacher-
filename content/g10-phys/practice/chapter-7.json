@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-phys",
+  "chapter": 7,
+  "title": {
+    "en": "Electric current and circuits",
+    "fa": "جریان برق و سرکت"
+  },
+  "questions": [
+    {
+      "pdf_page": 183,
+      "q": {
+        "en": "A current of $1.2\\,\\mathrm{A}$ flows in a circuit. How much charge passes a cross-section of the wire in half a minute?",
+        "fa": "در یک سرکت جریان $1.2\\,\\mathrm{A}$ جاری است. در نیم دقیقه چند کولمب چارج از مقطع عرضی سیم می‌گذرد؟"
+      },
+      "options": [
+        {
+          "en": "$0.6\\,\\mathrm{C}$",
+          "fa": "$0.6\\,\\mathrm{C}$"
+        },
+        {
+          "en": "$25\\,\\mathrm{C}$",
+          "fa": "$25\\,\\mathrm{C}$"
+        },
+        {
+          "en": "$36\\,\\mathrm{C}$",
+          "fa": "$36\\,\\mathrm{C}$"
+        },
+        {
+          "en": "$72\\,\\mathrm{C}$",
+          "fa": "$72\\,\\mathrm{C}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Half a minute is $30\\,\\mathrm{s}$. $q = I\\,t = 1.2\\,\\mathrm{A}\\times30\\,\\mathrm{s} = 36\\,\\mathrm{C}$.",
+        "fa": "نیم دقیقه $30\\,\\mathrm{s}$ است. $q = I\\,t = 1.2\\,\\mathrm{A}\\times30\\,\\mathrm{s} = 36\\,\\mathrm{C}$."
+      },
+      "idea": {
+        "en": "Change the time to seconds first, then use $q = I\\,t$ ($1\\,\\mathrm{A} = 1\\,\\mathrm{C/s}$).",
+        "fa": "اول وقت را به ثانیه تبدیل کنید، بعد از $q = I\\,t$ استفاده کنید ($1\\,\\mathrm{A} = 1\\,\\mathrm{C/s}$)."
+      }
+    },
+    {
+      "pdf_page": 187,
+      "q": {
+        "en": "A light bulb connected to $220\\,\\mathrm{V}$ carries a current of $0.44\\,\\mathrm{A}$. What is its resistance?",
+        "fa": "یک گروپ به ولتیج $220\\,\\mathrm{V}$ وصل است و جریان $0.44\\,\\mathrm{A}$ از آن می‌گذرد. مقاومت گروپ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$500\\,\\Omega$",
+          "fa": "$500\\,\\Omega$"
+        },
+        {
+          "en": "$96.8\\,\\Omega$",
+          "fa": "$96.8\\,\\Omega$"
+        },
+        {
+          "en": "$0.002\\,\\Omega$",
+          "fa": "$0.002\\,\\Omega$"
+        },
+        {
+          "en": "$50\\,\\Omega$",
+          "fa": "$50\\,\\Omega$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "By Ohm's law $R = \\frac{\\Delta v}{I} = \\frac{220\\,\\mathrm{V}}{0.44\\,\\mathrm{A}} = 500\\,\\Omega$.",
+        "fa": "طبق قانون اوم $R = \\frac{\\Delta v}{I} = \\frac{220\\,\\mathrm{V}}{0.44\\,\\mathrm{A}} = 500\\,\\Omega$ است."
+      },
+      "idea": {
+        "en": "Resistance is voltage divided by current ($1\\,\\Omega = 1\\,\\mathrm{V/A}$), not voltage times current.",
+        "fa": "مقاومت، ولتیج تقسیم بر جریان است ($1\\,\\Omega = 1\\,\\mathrm{V/A}$)، نه ولتیج ضرب جریان."
+      }
+    },
+    {
+      "pdf_page": 193,
+      "q": {
+        "en": "Two resistors are connected in parallel to an ideal battery. A third resistor is added in parallel. What happens to the current drawn from the battery?",
+        "fa": "دو مقاومت به طور موازی به یک بتری ایده‌آل وصل اند. مقاومت سوم هم به طور موازی وصل می‌شود. جریانی که از بتری گرفته می‌شود چه تغییر می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "It decreases",
+          "fa": "کم می‌شود"
+        },
+        {
+          "en": "It stays the same",
+          "fa": "ثابت می‌ماند"
+        },
+        {
+          "en": "It becomes zero",
+          "fa": "صفر می‌شود"
+        },
+        {
+          "en": "It increases",
+          "fa": "زیاد می‌شود"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Each new parallel branch opens another path for the current, so the equivalent resistance becomes smaller. With the same battery voltage, a smaller $R_{eq}$ means a larger current $I = \\frac{\\Delta v}{R_{eq}}$.",
+        "fa": "هر شاخهٔ موازی تازه یک راه دیگر برای جریان باز می‌کند، پس مقاومت معادل کوچک‌تر می‌شود. با همان ولتیج بتری، $R_{eq}$ کوچک‌تر یعنی جریان بزرگ‌تر: $I = \\frac{\\Delta v}{R_{eq}}$."
+      },
+      "idea": {
+        "en": "Adding a resistor in series makes the total resistance bigger, but adding one in parallel makes it smaller. Think of opening one more exit from a crowded schoolyard.",
+        "fa": "افزودن مقاومت به شکل مسلسل مقاومت کل را زیاد می‌کند، ولی افزودن آن به شکل موازی مقاومت کل را کم می‌کند. به باز کردن یک راه دیگر برای بیرون رفتن از صحن مکتب فکر کنید."
+      }
+    },
+    {
+      "pdf_page": 197,
+      "q": {
+        "en": "A battery has an emf of $12\\,\\mathrm{V}$ and an internal resistance of $0.05\\,\\Omega$. It is connected to a $3\\,\\Omega$ load. What is the voltage across the battery's terminals?",
+        "fa": "قوهٔ محرکهٔ برقی یک بتری $12\\,\\mathrm{V}$ و مقاومت داخلی آن $0.05\\,\\Omega$ است. بتری به یک مقاومت مصرف‌کنندهٔ $3\\,\\Omega$ وصل شده است. ولتیج بین ترمینل‌های بتری چند است؟"
+      },
+      "options": [
+        {
+          "en": "$12.0\\,\\mathrm{V}$",
+          "fa": "$12.0\\,\\mathrm{V}$"
+        },
+        {
+          "en": "$11.8\\,\\mathrm{V}$",
+          "fa": "$11.8\\,\\mathrm{V}$"
+        },
+        {
+          "en": "$12.2\\,\\mathrm{V}$",
+          "fa": "$12.2\\,\\mathrm{V}$"
+        },
+        {
+          "en": "$0.2\\,\\mathrm{V}$",
+          "fa": "$0.2\\,\\mathrm{V}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$I = \\frac{\\varepsilon}{R + r} = \\frac{12}{3.05} \\approx 3.93\\,\\mathrm{A}$. Terminal voltage $= \\varepsilon - I\\,r = 12 - 3.93\\times0.05 \\approx 11.8\\,\\mathrm{V}$ (the same as $I\\,R$).",
+        "fa": "$I = \\frac{\\varepsilon}{R + r} = \\frac{12}{3.05} \\approx 3.93\\,\\mathrm{A}$. ولتیج ترمینل‌ها $= \\varepsilon - I\\,r = 12 - 3.93\\times0.05 \\approx 11.8\\,\\mathrm{V}$ است (مساوی $I\\,R$)."
+      },
+      "idea": {
+        "en": "When current flows, part of the emf is used up inside the battery ($I\\,r$), so the terminal voltage is a little less than the emf.",
+        "fa": "وقتی جریان جاری است، قسمتی از قوهٔ محرکه در داخل بتری ($I\\,r$) مصرف می‌شود، پس ولتیج ترمینل‌ها کمی از قوهٔ محرکه کمتر است."
+      }
+    },
+    {
+      "pdf_page": 201,
+      "q": {
+        "en": "At a junction, currents of $3.0\\,\\mathrm{A}$ and $2.0\\,\\mathrm{A}$ flow in. One wire carries $1.5\\,\\mathrm{A}$ out. What current flows out through the only other wire?",
+        "fa": "به یک نقطهٔ انشعاب جریان‌های $3.0\\,\\mathrm{A}$ و $2.0\\,\\mathrm{A}$ داخل می‌شوند. از یک سیم $1.5\\,\\mathrm{A}$ خارج می‌شود. از تنها سیم دیگر چند امپیر خارج می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "$6.5\\,\\mathrm{A}$",
+          "fa": "$6.5\\,\\mathrm{A}$"
+        },
+        {
+          "en": "$5.0\\,\\mathrm{A}$",
+          "fa": "$5.0\\,\\mathrm{A}$"
+        },
+        {
+          "en": "$3.5\\,\\mathrm{A}$",
+          "fa": "$3.5\\,\\mathrm{A}$"
+        },
+        {
+          "en": "$0.5\\,\\mathrm{A}$",
+          "fa": "$0.5\\,\\mathrm{A}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "By Kirchhoff's first law $\\sum I_{in} = \\sum I_{out}$: $3.0 + 2.0 = 1.5 + I$, so $I = 3.5\\,\\mathrm{A}$. Charge is not created or lost at the junction.",
+        "fa": "طبق قانون اول کرشهوف $\\sum I_{in} = \\sum I_{out}$: $3.0 + 2.0 = 1.5 + I$، پس $I = 3.5\\,\\mathrm{A}$. در نقطهٔ انشعاب چارج نه خلق می‌شود و نه از بین می‌رود."
+      },
+      "idea": {
+        "en": "Everything that flows into the junction must flow out. Add the incoming currents, then subtract the outgoing current you already know.",
+        "fa": "هر قدر جریان به نقطهٔ انشعاب داخل شود، همان قدر خارج می‌شود. جریان‌های داخل‌شونده را جمع کنید و جریان خارج‌شوندهٔ معلوم را از آن تفریق کنید."
+      }
+    }
+  ]
+}

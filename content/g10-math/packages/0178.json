@@ -1,0 +1,60 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 178,
+  "printed_page": 171,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "نسبت‌های مثلثاتی بعضی زوایای خاص",
+  "summary_fa": "با همان مثلث قایم‌الزاویهٔ صفحهٔ قبل (اضلاع ۱، $\\sqrt{3}$ و ۲)، این بار از دید زاویهٔ $60^\\circ$ نسبت‌ها خوانده می‌شوند. بعد با مقایسهٔ نتیجه‌های $30^\\circ$ و $60^\\circ$ دیده می‌شود که چون مجموع این دو زاویه $90^\\circ$ است، sin یکی برابر cos دیگری است و همچنین tan با cot و sec با csc عوض می‌شوند. این نتیجه به طور عمومی ثابت می‌شود: در مثلث قایم‌الزاویهٔ OCA، اگر یک زاویه θ باشد، زاویهٔ دیگر $90^\\circ - \\theta$ است و ضلع مقابل یکی، ضلع مجاور دیگری است؛ پس $\\sin(90^\\circ - \\theta) = \\cos\\theta$ و روابط مشابه.",
+  "key_points_fa": [
+    "$\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$، $\\cos 60^\\circ = \\frac{1}{2}$، $\\tan 60^\\circ = \\sqrt{3}$.",
+    "$\\cot 60^\\circ = \\frac{\\sqrt{3}}{3}$، $\\sec 60^\\circ = 2$، $\\csc 60^\\circ = \\frac{2}{\\sqrt{3}} = \\frac{2\\sqrt{3}}{3}$.",
+    "دو زاویه با مجموع $90^\\circ$ (متمم): sin یکی = cos دیگری، tan یکی = cot دیگری، sec یکی = csc دیگری.",
+    "$\\sin(90^\\circ - \\theta) = \\cos\\theta$ و $\\cos(90^\\circ - \\theta) = \\sin\\theta$."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2},\\ \\cos\\frac{\\pi}{3} = \\frac{1}{2},\\ \\tan\\frac{\\pi}{3} = \\sqrt{3}", "meaning_fa": "سه نسبت اصلی $60^\\circ$"},
+    {"latex": "\\cot\\frac{\\pi}{3} = \\frac{\\sqrt{3}}{3},\\ \\sec\\frac{\\pi}{3} = 2,\\ \\csc\\frac{\\pi}{3} = \\frac{2\\sqrt{3}}{3}", "meaning_fa": "سه نسبت معکوس $60^\\circ$"},
+    {"latex": "\\sin(90^\\circ - \\theta) = \\cos\\theta,\\quad \\cos(90^\\circ - \\theta) = \\sin\\theta", "meaning_fa": "sin و cos زاویه‌های متمم"},
+    {"latex": "\\tan(90^\\circ - \\theta) = \\cot\\theta", "meaning_fa": "tan و cot زاویه‌های متمم"},
+    {"latex": "\\sec(90^\\circ - \\theta) = \\csc\\theta,\\quad \\csc(90^\\circ - \\theta) = \\sec\\theta", "meaning_fa": "sec و csc زاویه‌های متمم"}
+  ],
+  "terms": [
+    {"fa": "زوایای متمم", "en": "complementary angles"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.48, 0.67, 0.83, 0.87], "kind": "diagram", "description_fa": "مثلث قایم‌الزاویهٔ سرخ OCA روی محورهای X و Y: رأس O در مبدأ با زاویهٔ θ، زاویهٔ قایم در C روی محور X، و رأس $A(x, y)$ با زاویهٔ $90^\\circ - \\theta$. ضلع افقی OC = x، ضلع عمودی CA = y و وتر OA = r. نشان می‌دهد که ضلع مقابل θ (یعنی y) ضلع مجاور زاویهٔ $90^\\circ - \\theta$ است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "نسبت‌های مثلثاتی $60^\\circ$",
+      "problem_fa": "با مثلث اضلاع ۱، $\\sqrt{3}$ و ۲، نسبت‌های $60^\\circ = \\frac{\\pi}{3}$ را دریابید.",
+      "steps_fa": [
+        "برای $60^\\circ$: ضلع مقابل $\\sqrt{3}$، ضلع مجاور ۱، وتر ۲.",
+        "$\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$، $\\cos 60^\\circ = \\frac{1}{2}$، $\\tan 60^\\circ = \\sqrt{3}$",
+        "$\\cot 60^\\circ = \\frac{1}{\\sqrt{3}} = \\frac{\\sqrt{3}}{3}$، $\\sec 60^\\circ = 2$، $\\csc 60^\\circ = \\frac{2}{\\sqrt{3}}$"
+      ],
+      "answer": "$\\frac{\\sqrt{3}}{2}, \\frac{1}{2}, \\sqrt{3}, \\frac{\\sqrt{3}}{3}, 2, \\frac{2\\sqrt{3}}{3}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "رابطهٔ زوایای متمم",
+      "problem_fa": "نشان دهید که اگر مجموع دو زاویه $90^\\circ$ باشد، نسبت‌های آن‌ها با هم عوض می‌شوند.",
+      "steps_fa": [
+        "مقایسه: $\\sin 30^\\circ = \\cos 60^\\circ$، $\\cos 30^\\circ = \\sin 60^\\circ$، $\\tan 30^\\circ = \\cot 60^\\circ$، $\\sec 30^\\circ = \\csc 60^\\circ$.",
+        "در مثلث OCA برای زاویهٔ $90^\\circ - \\theta$ در رأس A، ضلع مقابل x و ضلع مجاور y است.",
+        "$\\sin(90^\\circ - \\theta) = \\frac{x}{r} = \\cos\\theta$ و $\\cos(90^\\circ - \\theta) = \\frac{y}{r} = \\sin\\theta$",
+        "$\\tan(90^\\circ - \\theta) = \\frac{x}{y} = \\cot\\theta$",
+        "$\\sec(90^\\circ - \\theta) = \\frac{r}{y} = \\csc\\theta$ و $\\csc(90^\\circ - \\theta) = \\frac{r}{x} = \\sec\\theta$"
+      ],
+      "answer": "هر نسبتِ $90^\\circ - \\theta$ برابر «هم‌نام» آن برای θ است (sin↔cos، tan↔cot، sec↔csc).",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

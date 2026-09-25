@@ -1,0 +1,226 @@
+{
+  "book_id": "g12-eng",
+  "terms": [
+    {
+      "book": "فصل",
+      "avoid": [],
+      "en": "unit"
+    },
+    {
+      "book": "مباحثه",
+      "avoid": [],
+      "en": "discussion"
+    },
+    {
+      "book": "تمرین مکالمه",
+      "avoid": [],
+      "en": "conversation practice"
+    },
+    {
+      "book": "گرامر",
+      "avoid": [],
+      "en": "grammar"
+    },
+    {
+      "book": "خواندن",
+      "avoid": [],
+      "en": "reading"
+    },
+    {
+      "book": "مطالعهٔ لغات",
+      "avoid": [],
+      "en": "word study"
+    },
+    {
+      "book": "لغات جدید",
+      "avoid": [
+        "واژگان"
+      ],
+      "en": "new words / vocabulary"
+    },
+    {
+      "book": "مرور",
+      "avoid": [],
+      "en": "revision"
+    },
+    {
+      "book": "قاموس",
+      "avoid": [
+        "واژه‌نامه"
+      ],
+      "en": "dictionary"
+    },
+    {
+      "book": "کار جوره‌یی",
+      "avoid": [
+        "کار دونفره"
+      ],
+      "en": "pair work (with your partner)"
+    },
+    {
+      "book": "فعل",
+      "avoid": [],
+      "en": "verb"
+    },
+    {
+      "book": "فعل کمکی",
+      "avoid": [],
+      "en": "helping verb"
+    },
+    {
+      "book": "فعل اصلی",
+      "avoid": [],
+      "en": "main verb"
+    },
+    {
+      "book": "فعل باقاعده",
+      "avoid": [],
+      "en": "regular verb"
+    },
+    {
+      "book": "فعل بی‌قاعده",
+      "avoid": [],
+      "en": "irregular verb"
+    },
+    {
+      "book": "شکل سوم فعل",
+      "avoid": [],
+      "en": "past participle"
+    },
+    {
+      "book": "فعل متعدی",
+      "avoid": [
+        "فعل گذرا"
+      ],
+      "en": "transitive verb"
+    },
+    {
+      "book": "فعل لازم",
+      "avoid": [
+        "فعل ناگذر"
+      ],
+      "en": "intransitive verb"
+    },
+    {
+      "book": "اسم",
+      "avoid": [],
+      "en": "noun"
+    },
+    {
+      "book": "اسم قابل شمارش",
+      "avoid": [],
+      "en": "countable noun"
+    },
+    {
+      "book": "اسم غیرقابل شمارش",
+      "avoid": [],
+      "en": "uncountable noun"
+    },
+    {
+      "book": "صفت",
+      "avoid": [],
+      "en": "adjective"
+    },
+    {
+      "book": "صفت مرکب",
+      "avoid": [],
+      "en": "adjective made from more than one word (compound adjective)"
+    },
+    {
+      "book": "صفت تفضیلی",
+      "avoid": [
+        "صفت برتر"
+      ],
+      "en": "comparative"
+    },
+    {
+      "book": "صفت عالی",
+      "avoid": [
+        "صفت برترین"
+      ],
+      "en": "superlative"
+    },
+    {
+      "book": "قید",
+      "avoid": [],
+      "en": "adverb"
+    },
+    {
+      "book": "حرف اضافه",
+      "avoid": [],
+      "en": "preposition"
+    },
+    {
+      "book": "جملهٔ فرعی",
+      "avoid": [
+        "جمله‌واره"
+      ],
+      "en": "clause"
+    },
+    {
+      "book": "کامه",
+      "avoid": [
+        "ویرگول"
+      ],
+      "en": "comma"
+    },
+    {
+      "book": "سوال بلی/نخیر",
+      "avoid": [
+        "سوال بله/خیر"
+      ],
+      "en": "yes/no question"
+    },
+    {
+      "book": "سوال ضمیمه",
+      "avoid": [],
+      "en": "tag question"
+    },
+    {
+      "book": "معلوم",
+      "avoid": [],
+      "en": "active (voice)"
+    },
+    {
+      "book": "مجهول",
+      "avoid": [],
+      "en": "passive (voice)"
+    },
+    {
+      "book": "زمان حال ساده",
+      "avoid": [],
+      "en": "simple present tense"
+    },
+    {
+      "book": "زمان گذشتهٔ ساده",
+      "avoid": [],
+      "en": "simple past tense"
+    },
+    {
+      "book": "زمان گذشتهٔ استمراری",
+      "avoid": [],
+      "en": "past continuous tense"
+    },
+    {
+      "book": "زمان حال کامل",
+      "avoid": [],
+      "en": "present perfect tense"
+    },
+    {
+      "book": "زمان گذشتهٔ کامل",
+      "avoid": [],
+      "en": "past perfect tense"
+    },
+    {
+      "book": "جملهٔ شرطی",
+      "avoid": [],
+      "en": "if clause / conditional sentence"
+    },
+    {
+      "book": "هجا",
+      "avoid": [],
+      "en": "syllable"
+    }
+  ],
+  "style_notes_fa": "کتاب دوازده فصل (Unit) دارد و هر فصل با صفحهٔ عنوان و اهداف «At the end of this unit, students will be able to» شروع می‌شود؛ هر فصل شش درس دارد: درس ۱ مباحثه (Discussion)، درس ۲ تمرین مکالمه (Conversation Practice)، درس ۳ گرامر (Grammar)، درس ۴ خواندن (Reading)، درس ۵ مطالعهٔ لغات (Word Study) با تعریف قاموسی، تقسیم هجا و نوع کلمه مانند (n)، (adj)، (v-reg)، و درس ۶ مرور (Revision). متن درس‌ها انگلیسی است؛ یادداشت‌ها باید به دری افغانستان توضیح دهند و اصطلاحات انگلیسی کتاب را در قوس نگه دارند."
+}

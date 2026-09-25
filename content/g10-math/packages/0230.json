@@ -1,0 +1,54 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 230,
+  "printed_page": 223,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "فورمول‌های جمع و تفاضل",
+  "summary_fa": "درس اول فصل پنجم با این پرسش شروع می‌شود: آیا می‌توانید درستی $\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ را نشان دهید؟ برای ثبوت، دو زاویهٔ مجاور $\\alpha = X\\hat{O}Z$ و $\\beta = Z\\hat{O}T$ رسم می‌شوند تا زاویهٔ $X\\hat{O}T = \\alpha + \\beta$ ساخته شود. روی ضلع OT نقطهٔ B طوری انتخاب می‌شود که $OB = 1$ باشد. از B عمود BA بر OZ، از A عمود AH بر OX، و از B عمود BK بر OX رسم می‌شود. چون وتر OB یک واحد است، در مثلث‌های قایم‌الزاویه طول ضلع‌ها مستقیماً قیمت نسبت‌ها را می‌دهند: $AB = \\sin\\beta$ و $OA = \\cos\\beta$. از مثلث OHA به دست می‌آید $HA = \\sin\\alpha\\cos\\beta$ و $OH = \\cos\\alpha\\cos\\beta$، و از مثلث OKB: $KB = \\sin(\\alpha+\\beta)$ و $OK = \\cos(\\alpha+\\beta)$. بقیهٔ ثبوت در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "زاویهٔ مرکب یعنی زاویه‌ای که از جمع یا تفاضل دو زاویه ساخته شده است، مانند $\\alpha + \\beta$.",
+    "اگر وتر یک مثلث قایم‌الزاویه ۱ باشد، ضلع مقابل زاویه برابر sin و ضلع مجاور برابر cos آن زاویه است.",
+    "$\\sin(\\alpha + \\beta)$ برابر $\\sin\\alpha + \\sin\\beta$ نیست؛ فورمول آن باید ثبوت شود.",
+    "در شکل: $AB = \\sin\\beta$، $OA = \\cos\\beta$، $HA = \\sin\\alpha\\cos\\beta$، $OH = \\cos\\alpha\\cos\\beta$، $KB = \\sin(\\alpha+\\beta)$، $OK = \\cos(\\alpha+\\beta)$."
+  ],
+  "formulas": [
+    {"latex": "\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta", "meaning_fa": "فورمولی که در این درس ثبوت می‌شود"},
+    {"latex": "HA = \\sin\\alpha\\cos\\beta,\\quad OH = \\cos\\alpha\\cos\\beta", "meaning_fa": "از مثلث قایم‌الزاویهٔ OHA با وتر $OA = \\cos\\beta$"},
+    {"latex": "KB = \\sin(\\alpha+\\beta),\\quad OK = \\cos(\\alpha+\\beta)", "meaning_fa": "از مثلث قایم‌الزاویهٔ OKB با وتر $OB = 1$"}
+  ],
+  "terms": [
+    {"fa": "زوایای مرکب", "en": "compound angles"},
+    {"fa": "فورمول‌های جمع و تفاضل", "en": "sum and difference formulas"},
+    {"fa": "زاویهٔ مجاور", "en": "adjacent angle"}
+  ],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [0.08, 0.05, 0.47, 0.32],
+      "kind": "diagram",
+      "description_fa": "در یک دایرهٔ سفید: از O سه نیم‌خط OX (افقی)، OZ و OT رسم شده است. زاویهٔ بین OX و OZ برابر $\\alpha$ و بین OZ و OT برابر $\\beta$ است؛ زاویهٔ کل $\\alpha + \\beta$ است. B روی OT است، A پای عمود از B بر OZ، H پای عمود از A بر OX، K پای عمود از B بر OX، و M پای عمود از A بر BK. زاویهٔ $\\alpha$ در رأس B (زاویهٔ MBA) هم نشان داده شده است. این شکل اساس ثبوت فورمول‌های $\\sin(\\alpha+\\beta)$ و $\\cos(\\alpha+\\beta)$ است."
+    }
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغاز درس",
+      "kind": "question",
+      "problem_fa": "آیا درستی رابطهٔ $\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$ را نشان داده می‌توانید؟",
+      "solution_steps_fa": [
+        "با شکل درس: $\\sin(\\alpha+\\beta) = KB = KM + MB$.",
+        "$KM = HA = \\sin\\alpha\\cos\\beta$ (چون KHAM مستطیل است).",
+        "در مثلث BMA زاویهٔ B برابر $\\alpha$ است، پس $MB = AB\\cos\\alpha = \\cos\\alpha\\sin\\beta$.",
+        "بنابراین $\\sin(\\alpha+\\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$."
+      ],
+      "answer": "بلی؛ ثبوت در این صفحه و صفحهٔ بعد کامل می‌شود.",
+      "solution_source": "mixed"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "عنوان صفحه سه سطر دارد: «قوانین نسبت‌های مثلثاتی زوایای مرکب»، «فورمول‌های جمع و تفاضل» و «نسبت‌های مثلثاتی مجموع دو زاویه»؛ سطر دوم به عنوان section_fa برای کل درس (صفحه‌های ۲۳۰ تا ۲۳۵ پی‌دی‌اف) انتخاب شد."
+}

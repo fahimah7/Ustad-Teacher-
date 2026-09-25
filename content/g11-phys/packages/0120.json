@@ -1,0 +1,39 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 120,
+  "printed_page": 111,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "تطبیق قوانین نیوتن",
+  "summary_fa": "این صفحه رابطۀ شتاب الی المرکز را با استفاده از شکل (4-15) ثابت می‌کند. اول شتاب متوسط بین نقطه‌های 1 و 2 نوشته می‌شود: $\\vec a_{av} = \\Delta\\vec v/\\Delta t$. دو وکتور سرعت اندازۀ مساوی v دارند؛ $\\vec v_1$ با زاویۀ θ بالای افق و $\\vec v_2$ با همان زاویه زیر افق است. پس مرکبه‌های x آن‌ها مساوی ($v\\cos\\theta$) اند و مرکبه‌های y قرینه ($\\pm v\\sin\\theta$). با تفریق، تغییر سرعت فقط مرکبۀ y دارد: $-2v\\sin\\theta$، یعنی در نقطۀ P به طرف پایین و به سوی مرکز دایره. زمان رفتن از 1 به 2 از طول قوس $d = r(2\\theta)$ و سرعت v به دست می‌آید: $\\Delta t = 2r\\theta/v$. با جاگزین کردن آن، $\\vec a_{av} = -\\frac{v^2}{r}\\frac{\\sin\\theta}{\\theta}\\,\\hat y$ حاصل می‌شود. برای شتاب لحظه‌یی در P، نقطه‌های 1 و 2 را به P نزدیک می‌کنیم تا θ به صفر برسد؛ چون لیمت $\\sin\\theta/\\theta$ مساوی 1 است، شتاب در P برابر $\\vec a = -\\frac{v^2}{r}\\hat y = -a_{cp}\\hat y$ می‌شود: اندازۀ آن $v^2/r$ و جهتش به طرف مرکز است.",
+  "key_points_fa": [
+    "$\\vec v_1 = v\\cos\\theta\\,\\hat x + v\\sin\\theta\\,\\hat y$ و $\\vec v_2 = v\\cos\\theta\\,\\hat x - v\\sin\\theta\\,\\hat y$.",
+    "تغییر سرعت فقط مرکبۀ y دارد: $\\vec v_2 - \\vec v_1 = -2v\\sin\\theta\\,\\hat y$، یعنی به طرف مرکز.",
+    "زمان حرکت از 1 به 2: طول قوس تقسیم بر سرعت، $\\Delta t = \\frac{2r\\theta}{v}$ (θ به رادیان).",
+    "با $\\lim_{\\theta\\to0}\\frac{\\sin\\theta}{\\theta} = 1$، اندازۀ شتاب لحظه‌یی $a_{cp} = \\frac{v^2}{r}$ است.",
+    "علامت منفی نشان می‌دهد که در نقطۀ P (بالای دایره) شتاب به طرف پایین، یعنی به سوی مرکز است."
+  ],
+  "formulas": [
+    {"latex": "\\vec a_{av} = \\frac{\\Delta\\vec v}{\\Delta t} = \\frac{\\vec v_2 - \\vec v_1}{\\Delta t}", "meaning_fa": "شتاب متوسط بین نقطه‌های 1 و 2"},
+    {"latex": "\\vec v_2 - \\vec v_1 = -2v\\sin\\theta\\,\\hat y", "meaning_fa": "تغییر سرعت که به طرف مرکز است"},
+    {"latex": "d = r(2\\theta), \\quad \\Delta t = \\frac{d}{v} = \\frac{2r\\theta}{v}", "meaning_fa": "طول قوس و زمان حرکت از 1 به 2"},
+    {"latex": "\\vec a_{av} = -\\frac{v^2}{r}\\left(\\frac{\\sin\\theta}{\\theta}\\right)\\hat y", "meaning_fa": "شتاب متوسط پس از جاگزینی Δt"},
+    {"latex": "\\lim_{\\theta\\to0}\\frac{\\sin\\theta}{\\theta} = 1", "meaning_fa": "لیمت مورد استفاده (θ به رادیان)"},
+    {"latex": "\\vec a = -\\frac{v^2}{r}\\hat y = -a_{cp}\\,\\hat y, \\quad a_{cp} = \\frac{v^2}{r}", "meaning_fa": "شتاب لحظه‌یی در نقطۀ P: اندازۀ آن v²/r و جهتش به طرف مرکز"}
+  ],
+  "terms": [
+    {"fa": "شتاب متوسط", "en": "average acceleration"},
+    {"fa": "شتاب لحظه‌یی", "en": "instantaneous acceleration"},
+    {"fa": "شتاب الی المرکز", "en": "centripetal acceleration"},
+    {"fa": "طول قوس", "en": "arc length"},
+    {"fa": "رادیان", "en": "radian"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب وکتورهای واحد را با x و y (بدون کلاه) نوشته است؛ این‌جا $\\hat x$ و $\\hat y$ نوشته شد. در یک سطر کتاب صورت کسر به شکل $\\vec v_1 - \\vec v_2$ چاپ شده، در حالی که برای رسیدن به $-2v\\sin\\theta$ باید $\\vec v_2 - \\vec v_1$ باشد؛ شکل درست این‌جا نوشته شد. نتیجه‌گیری ($a_{cp} = v^2/r$ و قوۀ الی المرکز) در صفحۀ بعد آمده است."
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-math",
+  "chapter": 2,
+  "title": {
+    "en": "Relations",
+    "fa": "رابطه"
+  },
+  "questions": [
+    {
+      "pdf_page": 60,
+      "q": {
+        "en": "If $(2x + 1,\\ y - 3) = (7,\\ x)$, find $x$ and $y$.",
+        "fa": "اگر $(2x + 1,\\ y - 3) = (7,\\ x)$ باشد، $x$ و $y$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "$x = 3,\\ y = 0$",
+          "fa": "$x = 3,\\ y = 0$"
+        },
+        {
+          "en": "$x = 4,\\ y = 7$",
+          "fa": "$x = 4,\\ y = 7$"
+        },
+        {
+          "en": "$x = 3,\\ y = 6$",
+          "fa": "$x = 3,\\ y = 6$"
+        },
+        {
+          "en": "$x = 6,\\ y = 3$",
+          "fa": "$x = 6,\\ y = 3$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Equal ordered pairs have equal first elements and equal second elements: $2x + 1 = 7$ gives $x = 3$, and $y - 3 = x = 3$ gives $y = 6$.",
+        "fa": "دو جورهٔ مرتب وقتی مساوی‌اند که عناصر اول با هم و عناصر دوم با هم مساوی باشند: از $2x + 1 = 7$ داریم $x = 3$ و از $y - 3 = x = 3$ داریم $y = 6$."
+      },
+      "idea": {
+        "en": "Write two equations: first element = first element and second element = second element. Find $x$ first, then use it in the second equation.",
+        "fa": "دو معادله بنویسید: عنصر اول مساوی عنصر اول و عنصر دوم مساوی عنصر دوم. اول $x$ را پیدا کنید و بعد آن را در معادلهٔ دوم بگذارید."
+      }
+    },
+    {
+      "pdf_page": 61,
+      "q": {
+        "en": "In which quadrant of the Cartesian plane does the point $P(3, -5)$ lie?",
+        "fa": "نقطهٔ $P(3, -5)$ در کدام ربع مستوی کارتیزینی قرار دارد؟"
+      },
+      "options": [
+        {
+          "en": "Quadrant I",
+          "fa": "ربع اول"
+        },
+        {
+          "en": "Quadrant II",
+          "fa": "ربع دوم"
+        },
+        {
+          "en": "Quadrant III",
+          "fa": "ربع سوم"
+        },
+        {
+          "en": "Quadrant IV",
+          "fa": "ربع چهارم"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$x = 3 > 0$ puts the point to the right of the $y$-axis and $y = -5 < 0$ puts it below the $x$-axis: that is quadrant IV.",
+        "fa": "چون $x = 3$ مثبت است نقطه طرف راست محور Y و چون $y = -5$ منفی است پایین محور X قرار دارد؛ این ربع چهارم است."
+      },
+      "idea": {
+        "en": "Quadrants are numbered counterclockwise starting at the top right: I $(+,+)$, II $(-,+)$, III $(-,-)$, IV $(+,-)$.",
+        "fa": "ربع‌ها از بالا-راست و خلاف حرکت عقربهٔ ساعت شماره می‌شوند: اول $(+,+)$، دوم $(-,+)$، سوم $(-,-)$ و چهارم $(+,-)$."
+      }
+    },
+    {
+      "pdf_page": 68,
+      "q": {
+        "en": "Set $A$ has 3 elements and set $B$ has 4 elements. How many different relations from $A$ to $B$ are there?",
+        "fa": "ست $A$ سه عنصر و ست $B$ چهار عنصر دارد. از $A$ در $B$ چند رابطهٔ مختلف وجود دارد؟"
+      },
+      "options": [
+        {
+          "en": "$2^{12}$",
+          "fa": "$2^{12}$"
+        },
+        {
+          "en": "$12$",
+          "fa": "$12$"
+        },
+        {
+          "en": "$2^{7}$",
+          "fa": "$2^{7}$"
+        },
+        {
+          "en": "$7$",
+          "fa": "$7$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$A \\times B$ has $3 \\times 4 = 12$ ordered pairs, and every subset of $A \\times B$ is a relation, so there are $2^{12} = 4096$ relations.",
+        "fa": "$A \\times B$ دارای $3 \\times 4 = 12$ جورهٔ مرتب است و هر ست فرعی $A \\times B$ یک رابطه است؛ پس $2^{12} = 4096$ رابطه وجود دارد."
+      },
+      "idea": {
+        "en": "12 is only the number of pairs in $A \\times B$. Count the subsets of a 12-element set (including $\\phi$ and $A \\times B$ itself).",
+        "fa": "عدد ۱۲ فقط تعداد جوره‌های $A \\times B$ است. تعداد ست‌های فرعی یک ست ۱۲ عنصری را بشمارید (با $\\phi$ و خود $A \\times B$)."
+      }
+    },
+    {
+      "pdf_page": 70,
+      "q": {
+        "en": "For the relation $R = \\{(1,3),(2,5),(4,5)\\}$, what is the domain of $R^{-1}$?",
+        "fa": "برای رابطهٔ $R = \\{(1,3),(2,5),(4,5)\\}$، ناحیهٔ تعریف $R^{-1}$ کدام است؟"
+      },
+      "options": [
+        {
+          "en": "$\\{1, 2, 4\\}$",
+          "fa": "$\\{1, 2, 4\\}$"
+        },
+        {
+          "en": "$\\{3, 5\\}$",
+          "fa": "$\\{3, 5\\}$"
+        },
+        {
+          "en": "$\\{1, 2, 3, 4, 5\\}$",
+          "fa": "$\\{1, 2, 3, 4, 5\\}$"
+        },
+        {
+          "en": "$\\{(3,1),(5,2),(5,4)\\}$",
+          "fa": "$\\{(3,1),(5,2),(5,4)\\}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$R^{-1} = \\{(3,1),(5,2),(5,4)\\}$ is made by swapping each pair, so its domain is the set of its first elements, $\\{3, 5\\}$, which is the range of $R$.",
+        "fa": "$R^{-1} = \\{(3,1),(5,2),(5,4)\\}$ با عوض کردن جای عناصر هر جوره ساخته می‌شود؛ پس ناحیهٔ تعریف آن ست عناصر اول یعنی $\\{3, 5\\}$ است که همان ناحیهٔ قیمت‌های $R$ است."
+      },
+      "idea": {
+        "en": "The domain of $R^{-1}$ equals the range of $R$ (the second elements of $R$); a repeated element is written only once.",
+        "fa": "ناحیهٔ تعریف $R^{-1}$ مساوی ناحیهٔ قیمت‌های $R$ (عناصر دوم $R$) است و عنصر تکراری فقط یک بار نوشته می‌شود."
+      }
+    },
+    {
+      "pdf_page": 71,
+      "q": {
+        "en": "In $A = \\{1, 2, 3\\}$ the relation $R = \\{(1,1),(2,2),(3,3),(1,2)\\}$ is given. Which property of an equivalence relation does $R$ lack?",
+        "fa": "در ست $A = \\{1, 2, 3\\}$ رابطهٔ $R = \\{(1,1),(2,2),(3,3),(1,2)\\}$ داده شده است. $R$ کدام خاصیت رابطهٔ معادل را ندارد؟"
+      },
+      "options": [
+        {
+          "en": "The reflexive property",
+          "fa": "خاصیت انعکاسی"
+        },
+        {
+          "en": "The symmetric property",
+          "fa": "خاصیت تناظری"
+        },
+        {
+          "en": "The transitive property",
+          "fa": "خاصیت انتقالی"
+        },
+        {
+          "en": "None: $R$ is an equivalence relation",
+          "fa": "هیچ‌کدام؛ $R$ رابطهٔ معادل است"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$(1,2) \\in R$ but $(2,1) \\notin R$, so $R$ is not symmetric. It is reflexive (it contains $(1,1)$, $(2,2)$ and $(3,3)$) and it is transitive.",
+        "fa": "$(1,2) \\in R$ است ولی $(2,1) \\notin R$؛ پس $R$ خاصیت تناظری ندارد. خاصیت انعکاسی (جوره‌های $(1,1)$، $(2,2)$ و $(3,3)$) و خاصیت انتقالی را دارد."
+      },
+      "idea": {
+        "en": "Check each property separately: reflexive needs every $(x,x)$; symmetric needs $(y,x)$ for every $(x,y)$; transitive needs $(x,z)$ whenever $(x,y)$ and $(y,z)$ are in $R$.",
+        "fa": "هر خاصیت را جدا امتحان کنید: انعکاسی یعنی هر $(x,x)$ موجود باشد؛ تناظری یعنی برای هر $(x,y)$ جورهٔ $(y,x)$ هم موجود باشد؛ انتقالی یعنی اگر $(x,y)$ و $(y,z)$ در $R$ باشند، $(x,z)$ هم باشد."
+      }
+    }
+  ]
+}

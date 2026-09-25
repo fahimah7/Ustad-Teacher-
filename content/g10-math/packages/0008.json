@@ -1,0 +1,24 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 8,
+  "printed_page": null,
+  "page_kind": "chapter_title",
+  "chapter": 1,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ عنوان فصل اول کتاب: «پولینوم» (Polynome یا Polynomial). در این فصل شاگرد با افاده‌های الجبری، اقسام پولینوم و درجهٔ آن، قیمت و مجموع ضرایب یک پولینوم، عملیه‌های چهارگانه بر پولینوم‌ها، قضیهٔ باقی‌مانده، قضیهٔ فکتور و تقسیم ترکیبی آشنا می‌شود.",
+  "key_points_fa": [
+    "فصل اول: پولینوم"
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "پولینوم", "en": "polynomial"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه چاپ نشده است (صفحهٔ ۱ کتاب)."
+}

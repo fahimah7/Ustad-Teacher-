@@ -1,0 +1,66 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 58,
+  "printed_page": 51,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "تعبیر هندسی مشتق",
+  "summary_fa": "این صفحه مثال ۳ را تمام می‌کند و دو مثال دیگر را با همان روش (نسبت تزایدها و بعد لیمت) حل می‌کند. در مثال ۳ لیمت $2x_0 + \\Delta x$ برابر $2x_0$ است، پس مشتق $x^2$ در $x_0 = 2$ عدد ۴ است؛ یعنی میل مماس در آن نقطه ۴ است. در مثال ۴ مکعب $(x_0 + \\Delta x)^3$ باز می‌شود، $\\Delta x$ فاکتور گرفته و حذف می‌شود و مشتق $x^3$ در $x_0$ برابر $3x_0^2$ به دست می‌آید. در مثال ۵ برای $f(x) = \\frac{1}{x}$ دو کسر $\\frac{1}{x_0 + \\Delta x}$ و $\\frac{1}{x_0}$ با مخرج مشترک از هم کم می‌شوند؛ صورت $-\\Delta x$ می‌شود و بعد از حذف $\\Delta x$ و گرفتن لیمت، مشتق $-\\frac{1}{x_0^2}$ به دست می‌آید.",
+  "key_points_fa": [
+    "$(x^2)'$ در $x_0$ برابر $2x_0$ است؛ در $x_0 = 2$ میل مماس ۴ است.",
+    "$(x^3)'$ در $x_0$ برابر $3x_0^2$ است.",
+    "$\\left(\\frac{1}{x}\\right)'$ در $x_0$ برابر $-\\frac{1}{x_0^2}$ است ($x_0 \\neq 0$).",
+    "برای توابع کسری، دو کسر را با مخرج مشترک تفریق کنید تا $\\Delta x$ در صورت ظاهر شود."
+  ],
+  "formulas": [
+    {"latex": "f'(x_0) = \\lim_{\\Delta x \\to 0}\\frac{f(x_0 + \\Delta x) - f(x_0)}{\\Delta x}", "meaning_fa": "مشتق در نقطهٔ $x_0$"},
+    {"latex": "(x^3)' = 3x^2", "meaning_fa": "مشتق مکعب"},
+    {"latex": "\\left(\\frac{1}{x}\\right)' = -\\frac{1}{x^2}", "meaning_fa": "مشتق معکوس x"},
+    {"latex": "\\frac{1}{x_0 + \\Delta x} - \\frac{1}{x_0} = \\frac{-\\Delta x}{x_0(x_0 + \\Delta x)}", "meaning_fa": "گام اصلی در مثال ۵"}
+  ],
+  "terms": [
+    {"fa": "مشتق در یک نقطه", "en": "derivative at a point"},
+    {"fa": "ثبوت", "en": "proof"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳ (ادامه)",
+      "problem_fa": "مشتق $y = x^2$ در $x_0$ و در $x_0 = 2$",
+      "steps_fa": [
+        "$f'(x_0) = \\lim_{\\Delta x \\to 0}(2x_0 + \\Delta x) = 2x_0$",
+        "$f'(2) = 2 \\cdot 2 = 4$؛ یعنی میل مماس در $x_0 = 2$ عدد ۴ است."
+      ],
+      "answer": "$f'(x_0) = 2x_0$ و $f'(2) = 4$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "مشتق $f(x) = x^3$ را پیدا کنید.",
+      "steps_fa": [
+        "$\\frac{\\Delta y}{\\Delta x} = \\frac{(x_0 + \\Delta x)^3 - x_0^3}{\\Delta x} = \\frac{3x_0^2\\Delta x + 3x_0(\\Delta x)^2 + (\\Delta x)^3}{\\Delta x}$",
+        "$= 3x_0^2 + 3x_0\\Delta x + (\\Delta x)^2$",
+        "وقتی $\\Delta x \\to 0$: $3x_0^2$"
+      ],
+      "answer": "$f'(x_0) = 3x_0^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "مشتق $f(x) = \\frac{1}{x}$ را در نقطهٔ $x_0$ پیدا کنید.",
+      "steps_fa": [
+        "$\\Delta y = \\frac{1}{x_0 + \\Delta x} - \\frac{1}{x_0} = \\frac{x_0 - (x_0 + \\Delta x)}{x_0(x_0 + \\Delta x)} = \\frac{-\\Delta x}{x_0(x_0 + \\Delta x)}$",
+        "تقسیم بر $\\Delta x$: $\\frac{\\Delta y}{\\Delta x} = \\frac{-1}{x_0(x_0 + \\Delta x)}$",
+        "وقتی $\\Delta x \\to 0$: $\\frac{-1}{x_0 \\cdot x_0} = -\\frac{1}{x_0^2}$"
+      ],
+      "answer": "$f'(x_0) = -\\frac{1}{x_0^2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

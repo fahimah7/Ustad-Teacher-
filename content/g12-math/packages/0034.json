@@ -1,0 +1,79 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 34,
+  "printed_page": 27,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "لیمت توابع مثلثاتی",
+  "summary_fa": "این صفحه چهار مثال حل‌شده از لیمت توابع مثلثاتی دارد که همه وقتی $x \\to 0$ شکل $\\frac{0}{0}$ دارند. فکر مشترک همهٔ آن‌ها این است که عبارت را طوری بازنویسی کنیم که کسر $\\frac{\\sin(\\ldots)}{(\\ldots)}$ با زاویهٔ یکسان در صورت و مخرج پیدا شود، چون لیمت آن ۱ است. برای این کار: تانجانت به $\\frac{\\sin}{\\cos}$ تبدیل می‌شود، صورت و مخرج در عدد مناسب ضرب و تقسیم می‌شوند، از رابطهٔ $1 - \\cos 2x = 2\\sin^2 x$ استفاده می‌شود، و تفاضل دو کوساین با فورمول تبدیل تفاضل به حاصل ضرب نوشته می‌شود. مثال ۵ در این صفحه شروع و در صفحهٔ بعد تمام می‌شود.",
+  "key_points_fa": [
+    "$\\tan x = \\frac{\\sin x}{\\cos x}$ و $\\lim_{x \\to 0} \\cos x = 1$",
+    "برای $\\frac{\\sin ax}{bx}$: در a ضرب و تقسیم کنید تا $\\frac{\\sin ax}{ax}$ پیدا شود؛ جواب $\\frac{a}{b}$.",
+    "$1 - \\cos 2x = 2\\sin^2 x$",
+    "$\\cos\\alpha - \\cos\\beta = -2\\sin\\frac{\\alpha+\\beta}{2}\\sin\\frac{\\alpha-\\beta}{2}$"
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to 0} \\frac{\\tan ax}{bx} = \\frac{a}{b}", "meaning_fa": "نتیجهٔ مثال ۲ به شکل عمومی"},
+    {"latex": "1 - \\cos 2x = 2\\sin^2 x", "meaning_fa": "رابطهٔ نصف زاویه برای ساده کردن"},
+    {"latex": "\\cos\\alpha - \\cos\\beta = -2\\sin\\frac{\\alpha+\\beta}{2}\\sin\\frac{\\alpha-\\beta}{2}", "meaning_fa": "تبدیل تفاضل کوساین‌ها به حاصل ضرب"},
+    {"latex": "\\lim_{x \\to 0} \\frac{\\sin ax}{\\sin bx} = \\frac{a}{b}", "meaning_fa": "نتیجهٔ کلی مثال‌هایی مانند مثال ۴"}
+  ],
+  "terms": [
+    {"fa": "تانجانت", "en": "tangent"},
+    {"fa": "کوساین", "en": "cosine"},
+    {"fa": "ساین", "en": "sine"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{5\\tan 2x}{7x}$",
+      "steps_fa": [
+        "$\\frac{5\\tan 2x}{7x} = \\frac{5\\sin 2x}{7x\\cos 2x} = \\frac{10}{7} \\cdot \\frac{\\sin 2x}{2x} \\cdot \\frac{1}{\\cos 2x}$",
+        "$\\frac{\\sin 2x}{2x} \\to 1$ و $\\cos 2x \\to 1$",
+        "جواب: $\\frac{10}{7}$"
+      ],
+      "answer": "$\\frac{10}{7}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{1 - \\cos 2x}{x}$",
+      "steps_fa": [
+        "$1 - \\cos 2x = 2\\sin^2 x$",
+        "$\\frac{2\\sin^2 x}{x} = 2 \\cdot \\frac{\\sin x}{x} \\cdot \\sin x$",
+        "$2 \\cdot 1 \\cdot 0 = 0$"
+      ],
+      "answer": "$0$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\tan 3x}{\\sin 5x}$",
+      "steps_fa": [
+        "$\\frac{\\tan 3x}{\\sin 5x} = \\frac{\\sin 3x}{\\cos 3x \\cdot \\sin 5x} = \\frac{3x \\cdot \\frac{\\sin 3x}{3x}}{\\cos 3x \\cdot 5x \\cdot \\frac{\\sin 5x}{5x}}$",
+        "هر کسر $\\frac{\\sin}{\\ldots}$ به ۱ و $\\cos 3x$ به ۱ می‌رود.",
+        "جواب: $\\frac{3}{5}$"
+      ],
+      "answer": "$\\frac{3}{5}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\cos 4x - \\cos 6x}{x^2}$",
+      "steps_fa": [
+        "با فورمول تفاضل کوساین‌ها: $\\cos 4x - \\cos 6x = -2\\sin 5x \\sin(-x) = 2\\sin 5x \\sin x$",
+        "$\\frac{2\\sin 5x \\sin x}{x^2} = 10 \\cdot \\frac{\\sin 5x}{5x} \\cdot \\frac{\\sin x}{x}$",
+        "$10 \\cdot 1 \\cdot 1 = 10$"
+      ],
+      "answer": "$10$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "گام آخر مثال ۵ (با تعویض $y = 5x$) در صفحهٔ بعد آمده و اینجا کامل شده است."
+}

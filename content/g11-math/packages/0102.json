@@ -1,0 +1,154 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 102,
+  "printed_page": 93,
+  "page_kind": "exercises",
+  "chapter": 2,
+  "section_fa": "تمرین فصل دوم",
+  "summary_fa": "تمرین‌های مرور فصل دوم (مثلثات). بخش اول پنج سؤال چهارجوابه است: دریافت یک ضلع یا یک زاویهٔ مثلث با قانون کوساین و قانون ساین، ناحیهٔ قیمت‌های تابع arc sec و ساده کردن یک مطابقت مثلثاتی. بخش دوم پنج سؤال تشریحی دارد: حل مثلث با دو ضلع و زاویهٔ بین آن‌ها، دریافت زاویه‌ها از سه ضلع، یک مثلث که نسبت دو ضلع آن داده شده، مسئلهٔ فاصلهٔ دو کشتی (با شکل) و افادهٔ $\\cot^2\\beta$ به کمک ساین و کوساین. کلید حل: اگر دو ضلع و زاویهٔ بین آن‌ها یا هر سه ضلع معلوم باشد قانون کوساین، و اگر دو زاویه و یک ضلع معلوم باشد قانون ساین به کار می‌رود.",
+  "key_points_fa": [
+    "دو ضلع و زاویهٔ بین آن‌ها معلوم ← ضلع سوم با قانون کوساین.",
+    "سه ضلع معلوم ← هر زاویه با $\\cos A = \\frac{b^2+c^2-a^2}{2bc}$.",
+    "دو زاویه و یک ضلع معلوم ← ضلع دیگر با قانون ساین.",
+    "$\\sec^2 x - 1 = \\tan^2 x$ و $\\cot\\beta = \\frac{\\cos\\beta}{\\sin\\beta}$."
+  ],
+  "formulas": [
+    {"latex": "a^2 = b^2 + c^2 - 2bc\\cos A", "meaning_fa": "قانون کوساین"},
+    {"latex": "\\frac{\\sin A}{a} = \\frac{\\sin B}{b} = \\frac{\\sin C}{c}", "meaning_fa": "قانون ساین"},
+    {"latex": "1 + \\tan^2 x = \\sec^2 x", "meaning_fa": "مطابقت مثلثاتی که در سؤال ۵ به کار می‌رود"}
+  ],
+  "terms": [
+    {"fa": "قانون ساین", "en": "law of sines"},
+    {"fa": "قانون کوساین", "en": "law of cosines"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.65, 0.37, 0.77], "kind": "diagram", "description_fa": "مثلث ABC برای مسئلهٔ دو کشتی: از رأس A دو ضلع بیرون می‌آید، AB به طول 60km (قاعدهٔ افقی) و AC به طول 40km، و زاویهٔ بین آن‌ها در A برابر ۳۰ درجه است. ضلع BC با خط‌چین سرخ و علامت سؤال نشان داده شده؛ همین فاصلهٔ دو کشتی است که باید دریافت شود."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "چهارجوابه ۱",
+      "kind": "exercise",
+      "problem_fa": "$A = 20^\\circ$ زاویهٔ بین $b = 10\\,cm$ و $c = 7\\,cm$ است. طول a کدام است؟ (a) 16.4 (b) 16 (c) 15.9 (d) 4.176",
+      "solution_steps_fa": [
+        "قانون کوساین: $a^2 = 10^2 + 7^2 - 2(10)(7)\\cos 20^\\circ$",
+        "$a^2 = 149 - 140(0.9397) \\approx 149 - 131.56 = 17.44$",
+        "$a \\approx 4.176\\,cm$"
+      ],
+      "answer": "(d) $4.176\\,cm$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "چهارجوابه ۲",
+      "kind": "exercise",
+      "problem_fa": "اگر $a = 8\\,ft$، $b = 5\\,ft$ و $c = 10\\,ft$ باشد، زاویهٔ B چند است؟ (a) 28.5° (b) 29.4° (c) 29° (d) 28°",
+      "solution_steps_fa": [
+        "$\\cos B = \\frac{a^2 + c^2 - b^2}{2ac} = \\frac{64 + 100 - 25}{160} = \\frac{139}{160} = 0.86875$",
+        "$B \\approx 29.69^\\circ$ یعنی تقریباً $29^\\circ 41'$",
+        "نزدیک‌ترین گزینه (b) است؛ احتمالاً کتاب $29^\\circ 41'$ را به شکل 29.4 نوشته است."
+      ],
+      "answer": "(b)، زیرا $B \\approx 29.7^\\circ \\approx 29^\\circ 41'$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "چهارجوابه ۳",
+      "kind": "exercise",
+      "problem_fa": "اگر $A = 48^\\circ$، $B = 22^\\circ$ و $a = 5\\,ft$ باشد، ضلع b کدام است؟ (a) 8 (b) 2.52 (c) 9 (d) −9.5",
+      "solution_steps_fa": [
+        "قانون ساین: $b = \\frac{a\\sin B}{\\sin A} = \\frac{5 \\times 0.3746}{0.7431}$",
+        "$b \\approx 2.52\\,ft$ (طول منفی ممکن نیست، پس گزینهٔ d از اول رد است.)"
+      ],
+      "answer": "(b) $2.52\\,ft$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "چهارجوابه ۴",
+      "kind": "exercise",
+      "problem_fa": "ناحیهٔ قیمت‌های تابع $x = \\operatorname{arcsec} y$ کدام است؟ (a) $IR^-$ (b) $IR$ (c) $IR - \\{0\\}$ (d) $IR^+$",
+      "solution_steps_fa": [
+        "$x = \\operatorname{arcsec} y$ یعنی $y = \\sec x = \\frac{1}{\\cos x}$.",
+        "چون صورت کسر ۱ است، $\\sec x$ هیچ‌گاه صفر نمی‌شود؛ پس از میان گزینه‌ها فقط (c) ممکن است.",
+        "به طور دقیق: y فقط قیمت‌های $|y| \\ge 1$ را می‌گیرد و قیمت‌های x (قیمت‌های اصلی) در $[0, \\pi]$ به جز $\\frac{\\pi}{2}$ هستند؛ هیچ گزینه دقیقاً این مجموعه‌ها نیست."
+      ],
+      "answer": "گزینهٔ مورد نظر کتاب احتمالاً (c) $IR - \\{0\\}$ است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "چهارجوابه ۵",
+      "kind": "exercise",
+      "problem_fa": "$\\sec x(\\sec x - \\cos x)$ مساوی کدام است؟ (a) $\\tan x$ (b) $\\frac{1}{\\tan x}$ (c) $\\cot x$ (d) $\\tan^2 x$",
+      "solution_steps_fa": [
+        "ضرب می‌کنیم: $\\sec^2 x - \\sec x\\cos x = \\sec^2 x - 1$",
+        "از مطابقت $1 + \\tan^2 x = \\sec^2 x$: $\\sec^2 x - 1 = \\tan^2 x$"
+      ],
+      "answer": "(d) $\\tan^2 x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۱",
+      "kind": "exercise",
+      "problem_fa": "$A = 30^\\circ$ زاویهٔ بین $c = 8\\,ft$ و $b = 5\\,ft$ است. ضلع a و $\\sin C$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$a^2 = 25 + 64 - 2(5)(8)\\cos 30^\\circ = 89 - 80(0.866) \\approx 19.72$",
+        "$a \\approx 4.44\\,ft$",
+        "قانون ساین: $\\sin C = \\frac{c\\sin A}{a} = \\frac{8 \\times 0.5}{4.44} \\approx 0.90$",
+        "چون c بزرگ‌ترین ضلع است، C منفرجه است: $C \\approx 115.7^\\circ$ (نه 64.3°)."
+      ],
+      "answer": "$a \\approx 4.44\\,ft$ و $\\sin C \\approx 0.90$ ($C \\approx 115.7^\\circ$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۲",
+      "kind": "exercise",
+      "problem_fa": "سه ضلع مثلث $a = 8\\,cm$، $b = 5\\,cm$ و $c = 10\\,cm$ است. زاویهٔ A و زاویهٔ B (مقابل ضلع b) را دریافت کنید.",
+      "solution_steps_fa": [
+        "$\\cos A = \\frac{b^2 + c^2 - a^2}{2bc} = \\frac{25 + 100 - 64}{100} = 0.61 \\Rightarrow A \\approx 52.4^\\circ$",
+        "$\\cos B = \\frac{a^2 + c^2 - b^2}{2ac} = \\frac{139}{160} \\approx 0.869 \\Rightarrow B \\approx 29.7^\\circ$",
+        "امتحان: $C = 180^\\circ - 52.4^\\circ - 29.7^\\circ \\approx 97.9^\\circ$ که با $\\cos C = \\frac{64+25-100}{80} < 0$ هم می‌خواند."
+      ],
+      "answer": "$A \\approx 52.4^\\circ$ و $B \\approx 29.7^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۳",
+      "kind": "exercise",
+      "problem_fa": "در مثلث ABC، $\\frac{c}{b} = \\frac{\\sqrt{3}}{2}$ و $A = 30^\\circ$ است. زاویه‌های B و C را دریافت کنید.",
+      "solution_steps_fa": [
+        "فرض کنید $b = 2k$ و $c = \\sqrt{3}k$.",
+        "قانون کوساین: $a^2 = 4k^2 + 3k^2 - 2(2k)(\\sqrt{3}k)\\frac{\\sqrt{3}}{2} = 7k^2 - 6k^2 = k^2$، پس $a = k$.",
+        "$a^2 + c^2 = k^2 + 3k^2 = 4k^2 = b^2$، پس مثلث در B قایم است: $B = 90^\\circ$.",
+        "$C = 180^\\circ - 90^\\circ - 30^\\circ = 60^\\circ$"
+      ],
+      "answer": "$B = 90^\\circ$ و $C = 60^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۴",
+      "kind": "exercise",
+      "problem_fa": "دو کشتی از نقطهٔ A در دو جهت با زاویهٔ ۳۰ درجه بین مسیرها حرکت می‌کنند. بعد از یک ساعت یکی 40km و دیگری 60km رفته است. فاصلهٔ آن‌ها چند است؟",
+      "solution_steps_fa": [
+        "در مثلث شکل: $AC = 40$، $AB = 60$ و $A = 30^\\circ$.",
+        "$BC^2 = 40^2 + 60^2 - 2(40)(60)\\cos 30^\\circ = 5200 - 4800(0.866) \\approx 1043.1$",
+        "$BC \\approx 32.3\\,km$"
+      ],
+      "answer": "تقریباً $32.3\\,km$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۵",
+      "kind": "exercise",
+      "problem_fa": "$\\cot^2\\beta$ را به کمک $\\sin\\beta$ و $\\cos\\beta$ افاده کنید.",
+      "solution_steps_fa": [
+        "$\\cot\\beta = \\frac{\\cos\\beta}{\\sin\\beta}$، پس $\\cot^2\\beta = \\frac{\\cos^2\\beta}{\\sin^2\\beta}$",
+        "به شکل دیگر: $\\cot^2\\beta = \\frac{1 - \\sin^2\\beta}{\\sin^2\\beta} = \\frac{1}{\\sin^2\\beta} - 1$"
+      ],
+      "answer": "$\\cot^2\\beta = \\frac{\\cos^2\\beta}{\\sin^2\\beta}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "در چهارجوابهٔ ۲ جواب دقیق $29.69^\\circ$ است که با هیچ گزینه کاملاً برابر نیست؛ (b) نزدیک‌ترین است. در چهارجوابهٔ ۴ هیچ گزینه از نظر ریاضی دقیق نیست؛ (c) به دلیل اینکه sec صفر نمی‌شود انتخاب شده است. متن سؤال ۲ (بخش دوم) کمی مبهم است («زاویهٔ A و B که مقابل ضلع b است»)؛ هر دو زاویه حساب شده است."
+}

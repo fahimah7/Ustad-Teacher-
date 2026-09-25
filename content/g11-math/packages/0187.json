@@ -1,0 +1,95 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 187,
+  "printed_page": 178,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "کرکترستیک و مانتیس",
+  "summary_fa": "تمرین پایانی درس کرکترستیک و مانتیس. شاگرد باید کرکترستیک شش لوگاریتم را بدون نوشتن و به شکل شفاهی بگوید. برای این کار از دو قاعدهٔ صفحه قبل استفاده می‌شود: برای عدد ۱ یا بزرگ‌تر، تعداد رقم‌های قسمت صحیح منهای یک؛ و برای عدد کوچک‌تر از ۱، منفیِ (تعداد صفرهای بعد از اعشاریه به اضافهٔ یک). همهٔ اعداد تمرین رقم‌های مشابه (مانند 956) دارند تا نشان دهد کرکترستیک فقط به جای علامت اعشاری بستگی دارد. بقیهٔ صفحه خالی است.",
+  "key_points_fa": [
+    "عدد ۱ یا بزرگ‌تر: کرکترستیک = تعداد رقم‌های صحیح − ۱.",
+    "عدد بین ۰ و ۱: کرکترستیک = −(تعداد صفرهای بعد از اعشاریه + ۱).",
+    "اعداد 0.9560، 956.0 و 9560 رقم‌های یکسان و مانتیس یکسان دارند؛ فقط کرکترستیک آن‌ها فرق می‌کند."
+  ],
+  "formulas": [
+    {"latex": "x = a \\cdot 10^n,\\ 1 \\le a < 10 \\ \\Rightarrow\\ \\text{characteristic} = n", "meaning_fa": "کرکترستیک همان توان ۱۰ در شکل علمی عدد است"}
+  ],
+  "terms": [
+    {"fa": "کرکترستیک", "en": "characteristic"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "کرکترستیک $\\log 0.9560$ را بگویید.",
+      "solution_steps_fa": [
+        "عدد کوچک‌تر از ۱ است و بعد از اعشاریه صفری پیش از رقم ۹ نیست.",
+        "$0.9560 = 9.560 \\cdot 10^{-1}$"
+      ],
+      "answer": "$-1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "کرکترستیک $\\log 956.0$ را بگویید.",
+      "solution_steps_fa": [
+        "قسمت صحیح 956 سه رقم دارد: $3 - 1 = 2$.",
+        "$956.0 = 9.560 \\cdot 10^{2}$"
+      ],
+      "answer": "$2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "کرکترستیک $\\log 9560$ را بگویید.",
+      "solution_steps_fa": [
+        "عدد چهار رقم صحیح دارد: $4 - 1 = 3$.",
+        "$9560 = 9.560 \\cdot 10^{3}$"
+      ],
+      "answer": "$3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین d",
+      "kind": "exercise",
+      "problem_fa": "کرکترستیک $\\log 0.0009560$ را بگویید.",
+      "solution_steps_fa": [
+        "بعد از اعشاریه سه صفر پیش از رقم ۹ آمده است: $-(3 + 1) = -4$.",
+        "$0.0009560 = 9.560 \\cdot 10^{-4}$"
+      ],
+      "answer": "$-4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین e",
+      "kind": "exercise",
+      "problem_fa": "کرکترستیک $\\log 3.875$ را بگویید.",
+      "solution_steps_fa": [
+        "قسمت صحیح یک رقم دارد: $1 - 1 = 0$.",
+        "$3.875 = 3.875 \\cdot 10^{0}$"
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین f",
+      "kind": "exercise",
+      "problem_fa": "کرکترستیک $\\log 2345$ را بگویید.",
+      "solution_steps_fa": [
+        "عدد چهار رقم صحیح دارد: $4 - 1 = 3$.",
+        "$2345 = 2.345 \\cdot 10^{3}$"
+      ],
+      "answer": "$3$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

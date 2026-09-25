@@ -1,0 +1,84 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 179,
+  "printed_page": 172,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "نسبت‌های مثلثاتی بعضی زوایای خاص",
+  "summary_fa": "این صفحه کاربرد رابطهٔ زوایای متمم را نشان می‌دهد. در فعالیت اول باید ثابت شود که $\\cot(90^\\circ - \\theta) = \\tan\\theta$. بعد یادآوری می‌شود که جدول نسبت‌های مثلثاتی (که در صنف نهم دیده شده) بر همین اساس ساخته شده است: کافی است نسبت‌های زاویه‌های تا $45^\\circ$ معلوم باشند. در مثال، نسبت‌های $39^\\circ$ داده شده و نسبت‌های $51^\\circ$ پیدا می‌شوند، چون $39^\\circ + 51^\\circ = 90^\\circ$. تمرین درس دو سؤال دارد: یافتن نسبت‌های $73^\\circ$ از روی نسبت‌های داده‌شدهٔ $17^\\circ$، و پیدا کردن تساوی غلط در میان چهار تساوی.",
+  "key_points_fa": [
+    "برای زاویه‌های متمم: $\\cot(90^\\circ - \\theta) = \\tan\\theta$ و بقیهٔ رابطه‌ها به همین شکل.",
+    "اگر $\\alpha + \\beta = 90^\\circ$ باشد: $\\sin\\beta = \\cos\\alpha$، $\\tan\\beta = \\cot\\alpha$، $\\sec\\beta = \\csc\\alpha$.",
+    "برای آزمایش یک تساوی مانند $\\sin A = \\cos B$ ببینید که $A + B = 90^\\circ$ است یا نه.",
+    "در جمع زاویه‌ها با دقیقه و ثانیه: $60'' = 1'$ و $60' = 1^\\circ$."
+  ],
+  "formulas": [
+    {"latex": "\\cot(90^\\circ - \\theta) = \\tan\\theta", "meaning_fa": "رابطهٔ cot و tan زوایای متمم"},
+    {"latex": "\\sin(90^\\circ - \\theta) = \\cos\\theta,\\ \\sec(90^\\circ - \\theta) = \\csc\\theta", "meaning_fa": "رابطه‌های دیگر زوایای متمم"}
+  ],
+  "terms": [
+    {"fa": "زوایای متمم", "en": "complementary angles"},
+    {"fa": "جدول نسبت‌های مثلثاتی", "en": "table of trigonometric ratios"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "نسبت‌های $39^\\circ$ داده شده‌اند: $\\sin 39^\\circ = 0.6293$، $\\cos 39^\\circ = 0.7771$، $\\tan 39^\\circ = 0.8098$، $\\cot 39^\\circ = 1.235$، $\\sec 39^\\circ = 1.287$، $\\csc 39^\\circ = 1.589$. نسبت‌های $51^\\circ$ را دریابید.",
+      "steps_fa": [
+        "چون $39^\\circ + 51^\\circ = 90^\\circ$ است، $51^\\circ = 90^\\circ - 39^\\circ$.",
+        "$\\sin 51^\\circ = \\cos 39^\\circ = 0.7771$ و $\\cos 51^\\circ = \\sin 39^\\circ = 0.6293$",
+        "$\\tan 51^\\circ = \\cot 39^\\circ = 1.235$ و $\\cot 51^\\circ = \\tan 39^\\circ = 0.8098$",
+        "$\\sec 51^\\circ = \\csc 39^\\circ = 1.589$ و $\\csc 51^\\circ = \\sec 39^\\circ = 1.287$"
+      ],
+      "answer": "$\\sin 51^\\circ = 0.7771$، $\\cos 51^\\circ = 0.6293$، $\\tan 51^\\circ = 1.235$، $\\cot 51^\\circ = 0.8098$، $\\sec 51^\\circ = 1.589$، $\\csc 51^\\circ = 1.287$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "نشان دهید که $\\cot(90^\\circ - \\theta) = \\tan\\theta$ است.",
+      "solution_steps_fa": [
+        "در مثلث قایم‌الزاویهٔ OCA با زاویهٔ θ در O، زاویهٔ A برابر $90^\\circ - \\theta$ است.",
+        "برای زاویهٔ A: ضلع مجاور $CA = y$ و ضلع مقابل $OC = x$ است.",
+        "$\\cot(90^\\circ - \\theta) = \\frac{\\text{مجاور}}{\\text{مقابل}} = \\frac{y}{x}$",
+        "و $\\tan\\theta = \\frac{y}{x}$؛ پس $\\cot(90^\\circ - \\theta) = \\tan\\theta$."
+      ],
+      "answer": "$\\cot(90^\\circ - \\theta) = \\frac{y}{x} = \\tan\\theta$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\sin 17^\\circ = 0.2927$، $\\cos 17^\\circ = 0.9563$، $\\sec 17^\\circ = 1.046$، $\\csc 17^\\circ = 3.420$، $\\tan 17^\\circ = 0.3057$ و $\\cot 17^\\circ = 3.271$ باشد، نسبت‌های مثلثاتی $73^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$17^\\circ + 73^\\circ = 90^\\circ$، پس نسبت‌های هم‌نام عوض می‌شوند.",
+        "$\\sin 73^\\circ = \\cos 17^\\circ = 0.9563$ و $\\cos 73^\\circ = \\sin 17^\\circ = 0.2927$",
+        "$\\tan 73^\\circ = \\cot 17^\\circ = 3.271$ و $\\cot 73^\\circ = \\tan 17^\\circ = 0.3057$",
+        "$\\sec 73^\\circ = \\csc 17^\\circ = 3.420$ و $\\csc 73^\\circ = \\sec 17^\\circ = 1.046$"
+      ],
+      "answer": "$\\sin 73^\\circ = 0.9563$، $\\cos 73^\\circ = 0.2927$، $\\tan 73^\\circ = 3.271$، $\\cot 73^\\circ = 0.3057$، $\\sec 73^\\circ = 3.420$، $\\csc 73^\\circ = 1.046$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "کدام یک از این تساوی‌ها درست نیست؟ $\\sin 28^\\circ = \\cos 62^\\circ$، $\\cos 12^\\circ 10' 20'' = \\sin 77^\\circ 49' 40''$، $\\sec 12^\\circ = \\sec 88^\\circ$، $\\tan 70^\\circ = \\cot 20^\\circ$",
+      "solution_steps_fa": [
+        "$28^\\circ + 62^\\circ = 90^\\circ$ ← درست.",
+        "$12^\\circ 10' 20'' + 77^\\circ 49' 40'' = 89^\\circ 59' 60'' = 90^\\circ$ ← درست.",
+        "$70^\\circ + 20^\\circ = 90^\\circ$ و tan با cot جوره است ← درست.",
+        "$\\sec 12^\\circ = \\sec 88^\\circ$ غلط است: sec با sec جوره نمی‌شود و $12^\\circ + 88^\\circ = 100^\\circ$؛ رابطهٔ درست $\\sec 12^\\circ = \\csc 78^\\circ$ است."
+      ],
+      "answer": "$\\sec 12^\\circ = \\sec 88^\\circ$ درست نیست.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "قیمت $\\sin 17^\\circ$ در کتاب 0.2927 چاپ شده، در حالی که قیمت دقیق حدود 0.2924 است؛ جواب‌ها با قیمت‌های داده‌شدهٔ کتاب نوشته شدند."
+}

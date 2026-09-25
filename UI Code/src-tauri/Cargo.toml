@@ -1,0 +1,30 @@
+[package]
+name = "ustad"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "ustad_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+# No plugins on purpose: no http, no updater, no shell. The app never goes online.
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# Plain-HTTP client for the teacher model on 127.0.0.1 only. Built without TLS, so it cannot
+# even speak to an https server.
+ureq = { version = "2", default-features = false }
+# Learning packs (books moved phone to phone as one file).
+zip = { version = "2", default-features = false, features = ["deflate"] }
+fs2 = "0.4"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = true

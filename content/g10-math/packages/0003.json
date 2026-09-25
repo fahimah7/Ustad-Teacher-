@@ -1,0 +1,20 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 3,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ عنوان کتاب: در بالا «بسم الله الرحمن الرحیم» و در وسط عنوان «ریاضی صنف دهم» و سال چاپ ۱۳۹۸ هجری شمسی نوشته شده است. این صفحه با حرف «الف» شماره‌گذاری شده و درس ندارد.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه به حرف «الف» است، نه عدد."
+}

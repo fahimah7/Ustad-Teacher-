@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-math",
+  "chapter": 2,
+  "title": {
+    "en": "Trigonometry",
+    "fa": "مثلثات"
+  },
+  "questions": [
+    {
+      "pdf_page": 63,
+      "q": {
+        "en": "In triangle $ABC$, $A = 30^\\circ$, $B = 45^\\circ$ and $a = 10$. Find side $b$.",
+        "fa": "در مثلث $ABC$، $A = 30^\\circ$، $B = 45^\\circ$ و $a = 10$ است. ضلع $b$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$5\\sqrt{2}$",
+          "fa": "$5\\sqrt{2}$"
+        },
+        {
+          "en": "$20$",
+          "fa": "$20$"
+        },
+        {
+          "en": "$10\\sqrt{3}$",
+          "fa": "$10\\sqrt{3}$"
+        },
+        {
+          "en": "$10\\sqrt{2}$",
+          "fa": "$10\\sqrt{2}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "By the law of sines, $b = \\frac{a\\sin B}{\\sin A} = \\frac{10 \\cdot \\frac{\\sqrt{2}}{2}}{\\frac{1}{2}} = 10\\sqrt{2} \\approx 14.14$.",
+        "fa": "طبق قانون ساین، $b = \\frac{a\\sin B}{\\sin A} = \\frac{10 \\cdot \\frac{\\sqrt{2}}{2}}{\\frac{1}{2}} = 10\\sqrt{2} \\approx 14.14$ است."
+      },
+      "idea": {
+        "en": "Write $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$, with each side over the sine of its opposite angle, then solve for $b$.",
+        "fa": "تناسب $\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$ را بنویسید (هر ضلع بر ساین زاویهٔ مقابل خودش) و بعد $b$ را دریافت کنید."
+      }
+    },
+    {
+      "pdf_page": 68,
+      "q": {
+        "en": "In triangle $ABC$, $b = 3$, $c = 5$ and the angle between them is $A = 120^\\circ$. Find side $a$.",
+        "fa": "در مثلث $ABC$، $b = 3$، $c = 5$ و زاویهٔ میان آن‌ها $A = 120^\\circ$ است. ضلع $a$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$7$",
+          "fa": "$7$"
+        },
+        {
+          "en": "$\\sqrt{19}$",
+          "fa": "$\\sqrt{19}$"
+        },
+        {
+          "en": "$8$",
+          "fa": "$8$"
+        },
+        {
+          "en": "$\\sqrt{34}$",
+          "fa": "$\\sqrt{34}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$a^2 = b^2 + c^2 - 2bc\\cos A = 9 + 25 - 2 \\cdot 3 \\cdot 5 \\cdot \\left(-\\frac{1}{2}\\right) = 34 + 15 = 49$, so $a = 7$.",
+        "fa": "$a^2 = b^2 + c^2 - 2bc\\cos A = 9 + 25 - 2 \\cdot 3 \\cdot 5 \\cdot \\left(-\\frac{1}{2}\\right) = 34 + 15 = 49$، پس $a = 7$ است."
+      },
+      "idea": {
+        "en": "Two sides and the angle between them call for the law of cosines; remember that $\\cos 120^\\circ = -\\frac{1}{2}$ is negative.",
+        "fa": "وقتی دو ضلع و زاویهٔ میان آن‌ها معلوم باشد، قانون کوساین به کار می‌رود؛ به یاد داشته باشید که $\\cos 120^\\circ = -\\frac{1}{2}$ منفی است."
+      }
+    },
+    {
+      "pdf_page": 76,
+      "q": {
+        "en": "Simplify $\\sin^2\\alpha\\cot^2\\alpha + \\sin^2\\alpha$.",
+        "fa": "افادهٔ $\\sin^2\\alpha\\cot^2\\alpha + \\sin^2\\alpha$ را ساده کنید."
+      },
+      "options": [
+        {
+          "en": "$\\sin^2\\alpha$",
+          "fa": "$\\sin^2\\alpha$"
+        },
+        {
+          "en": "$\\sec^2\\alpha$",
+          "fa": "$\\sec^2\\alpha$"
+        },
+        {
+          "en": "$1$",
+          "fa": "$1$"
+        },
+        {
+          "en": "$\\cos^2\\alpha$",
+          "fa": "$\\cos^2\\alpha$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$\\sin^2\\alpha\\cot^2\\alpha = \\sin^2\\alpha \\cdot \\frac{\\cos^2\\alpha}{\\sin^2\\alpha} = \\cos^2\\alpha$, so the expression equals $\\cos^2\\alpha + \\sin^2\\alpha = 1$.",
+        "fa": "$\\sin^2\\alpha\\cot^2\\alpha = \\sin^2\\alpha \\cdot \\frac{\\cos^2\\alpha}{\\sin^2\\alpha} = \\cos^2\\alpha$، پس افاده مساوی $\\cos^2\\alpha + \\sin^2\\alpha = 1$ است."
+      },
+      "idea": {
+        "en": "Change everything to sine and cosine: $\\cot\\alpha = \\frac{\\cos\\alpha}{\\sin\\alpha}$; then use $\\sin^2\\alpha + \\cos^2\\alpha = 1$.",
+        "fa": "همه چیز را به ساین و کوساین تبدیل کنید: $\\cot\\alpha = \\frac{\\cos\\alpha}{\\sin\\alpha}$؛ بعد از $\\sin^2\\alpha + \\cos^2\\alpha = 1$ کار بگیرید."
+      }
+    },
+    {
+      "pdf_page": 81,
+      "q": {
+        "en": "Find the solution set of $2\\sin x - \\sqrt{3} = 0$ ($k \\in \\mathbb{Z}$).",
+        "fa": "ست حل معادلهٔ $2\\sin x - \\sqrt{3} = 0$ را دریافت کنید ($k \\in \\mathbb{Z}$)."
+      },
+      "options": [
+        {
+          "en": "$x = 2k\\pi \\pm \\frac{\\pi}{3}$",
+          "fa": "$x = 2k\\pi \\pm \\frac{\\pi}{3}$"
+        },
+        {
+          "en": "$x = 2k\\pi + \\frac{\\pi}{3}$ or $x = 2k\\pi + \\frac{2\\pi}{3}$",
+          "fa": "$x = 2k\\pi + \\frac{\\pi}{3}$ یا $x = 2k\\pi + \\frac{2\\pi}{3}$"
+        },
+        {
+          "en": "$x = k\\pi + \\frac{\\pi}{3}$",
+          "fa": "$x = k\\pi + \\frac{\\pi}{3}$"
+        },
+        {
+          "en": "$x = 2k\\pi + \\frac{\\pi}{6}$ or $x = 2k\\pi + \\frac{5\\pi}{6}$",
+          "fa": "$x = 2k\\pi + \\frac{\\pi}{6}$ یا $x = 2k\\pi + \\frac{5\\pi}{6}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$\\sin x = \\frac{\\sqrt{3}}{2} = \\sin\\frac{\\pi}{3}$. So $x = 2k\\pi + \\frac{\\pi}{3}$ or $x = (2k+1)\\pi - \\frac{\\pi}{3} = 2k\\pi + \\frac{2\\pi}{3}$.",
+        "fa": "$\\sin x = \\frac{\\sqrt{3}}{2} = \\sin\\frac{\\pi}{3}$ است. پس $x = 2k\\pi + \\frac{\\pi}{3}$ یا $x = (2k+1)\\pi - \\frac{\\pi}{3} = 2k\\pi + \\frac{2\\pi}{3}$."
+      },
+      "idea": {
+        "en": "For $\\sin x = \\sin\\theta$ the two families are $2k\\pi + \\theta$ and $(2k+1)\\pi - \\theta$; the form $2k\\pi \\pm \\theta$ belongs to cosine.",
+        "fa": "برای $\\sin x = \\sin\\theta$ دو خانوادهٔ جواب $2k\\pi + \\theta$ و $(2k+1)\\pi - \\theta$ اند؛ شکل $2k\\pi \\pm \\theta$ مربوط به کوساین است."
+      }
+    },
+    {
+      "pdf_page": 86,
+      "q": {
+        "en": "Solve $3\\cos^2 x + 2\\cos x - 5 = 0$ ($k \\in \\mathbb{Z}$).",
+        "fa": "معادلهٔ $3\\cos^2 x + 2\\cos x - 5 = 0$ را حل کنید ($k \\in \\mathbb{Z}$)."
+      },
+      "options": [
+        {
+          "en": "$x = 2k\\pi$",
+          "fa": "$x = 2k\\pi$"
+        },
+        {
+          "en": "$x = 2k\\pi$, and also the angles with $\\cos x = -\\frac{5}{3}$",
+          "fa": "$x = 2k\\pi$، و همچنان زاویه‌هایی که $\\cos x = -\\frac{5}{3}$ دارند"
+        },
+        {
+          "en": "$x = k\\pi$",
+          "fa": "$x = k\\pi$"
+        },
+        {
+          "en": "$x = \\frac{\\pi}{2} + k\\pi$",
+          "fa": "$x = \\frac{\\pi}{2} + k\\pi$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "With $y = \\cos x$: $3y^2 + 2y - 5 = (y - 1)(3y + 5) = 0$, so $y = 1$ or $y = -\\frac{5}{3}$. Since $-1 \\le \\cos x \\le 1$, only $\\cos x = 1$ is accepted, which gives $x = 2k\\pi$.",
+        "fa": "با $y = \\cos x$: $3y^2 + 2y - 5 = (y - 1)(3y + 5) = 0$، پس $y = 1$ یا $y = -\\frac{5}{3}$. چون $-1 \\le \\cos x \\le 1$ است، فقط $\\cos x = 1$ قبول است که $x = 2k\\pi$ را می‌دهد."
+      },
+      "idea": {
+        "en": "After solving the quadratic equation, check each root: a value of $\\cos x$ outside $[-1, 1]$ gives no angle.",
+        "fa": "بعد از حل معادلهٔ درجه دوم هر جذر را امتحان کنید: قیمت $\\cos x$ بیرون از $[-1, 1]$ هیچ زاویه نمی‌دهد."
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 191,
+  "printed_page": 184,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "نسبت‌های مثلثاتی دو زاویه‌یی که مجموعه‌شان $90^\\circ$ یا $\\frac{\\pi}{2}$ رادیان باشد",
+  "summary_fa": "در مثال ۱ قیمت‌های اعشاری شش نسبت زاویهٔ $23^\\circ$ داده شده و نسبت‌های $67^\\circ$ از آن‌ها به دست می‌آیند، چون $23^\\circ + 67^\\circ = 90^\\circ$؛ هر نسبت $67^\\circ$ برابر نسبت هم‌نام $23^\\circ$ است. فعالیت بعدی همین کار را با زاویه‌های دقیقه‌دار می‌خواهد: از نسبت‌های $8^\\circ 10'$ نسبت‌های $81^\\circ 50'$ پیدا شوند. بعد حالت تازه‌ای شروع می‌شود: دو زاویه که فرق آن‌ها $\\frac{\\pi}{2}$ (یا $90^\\circ$) است. کتاب $\\frac{\\pi}{2} + \\theta$ را به شکل $\\frac{\\pi}{2} - (-\\theta)$ می‌نویسد و با ترکیب قاعدهٔ زوایای متمم و قاعدهٔ زاویهٔ منفی ثابت می‌کند که sin آن برابر $\\cos\\theta$، و cos، tan و cot آن به ترتیب منفی sin، cot و tan زاویهٔ $\\theta$ هستند. شکل کنار آن این دو زاویه را در دایرهٔ مثلثاتی نشان می‌دهد.",
+  "key_points_fa": [
+    "برای زوایای متمم، هر نسبت با نسبت هم‌نام زاویهٔ دیگر برابر است: $\\sin 67^\\circ = \\cos 23^\\circ$ و مانند آن.",
+    "$90^\\circ - 8^\\circ 10' = 81^\\circ 50'$ (یک درجه = ۶۰ دقیقه).",
+    "$\\frac{\\pi}{2} + \\theta = \\frac{\\pi}{2} - (-\\theta)$؛ پس رابطه‌های متمم را با $-\\theta$ به کار می‌بریم.",
+    "$\\sin(\\frac{\\pi}{2} + \\theta) = \\cos\\theta$ و $\\cos(\\frac{\\pi}{2} + \\theta) = -\\sin\\theta$.",
+    "$\\tan(\\frac{\\pi}{2} + \\theta) = -\\cot\\theta$ و $\\cot(\\frac{\\pi}{2} + \\theta) = -\\tan\\theta$."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\left(\\frac{\\pi}{2} + \\theta\\right) = \\sin\\left[\\frac{\\pi}{2} - (-\\theta)\\right] = \\cos(-\\theta) = \\cos\\theta", "meaning_fa": "sin زاویه‌ای که $90^\\circ$ از $\\theta$ بیشتر است"},
+    {"latex": "\\cos\\left(\\frac{\\pi}{2} + \\theta\\right) = \\sin(-\\theta) = -\\sin\\theta", "meaning_fa": "cos آن منفی sin زاویه است"},
+    {"latex": "\\tan\\left(\\frac{\\pi}{2} + \\theta\\right) = \\frac{\\cos\\theta}{-\\sin\\theta} = -\\cot\\theta", "meaning_fa": "tan آن منفی cot زاویه است"},
+    {"latex": "\\cot\\left(\\frac{\\pi}{2} + \\theta\\right) = \\frac{-\\sin\\theta}{\\cos\\theta} = -\\tan\\theta", "meaning_fa": "cot آن منفی tan زاویه است"}
+  ],
+  "terms": [
+    {"fa": "زوایای متمم", "en": "complementary angles"},
+    {"fa": "دقیقه", "en": "minute (of angle)"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.60, 0.66, 0.89, 0.88], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی با مرکز O. نقطهٔ M در ربع اول با زاویهٔ $\\theta$ و نقطهٔ $M'$ در ربع دوم با زاویهٔ $\\frac{\\pi}{2} + \\theta$ از محور X رسم شده‌اند. H و $H'$ پای عمودهای این دو نقطه روی محور X هستند؛ شکل نشان می‌دهد که $OM'$ نسبت به $OM$ یک ربع دور ($90^\\circ$) چرخیده و x نقطهٔ $M'$ منفی شده است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "اگر $\\sin 23^\\circ = 0.3907$، $\\cos 23^\\circ = 0.9205$، $\\tan 23^\\circ = 0.4245$، $\\cot 23^\\circ = 2.356$، $\\sec 23^\\circ = 1.086$ و $\\csc 23^\\circ = 2.559$ باشند، نسبت‌های $67^\\circ$ را دریابید.",
+      "steps_fa": [
+        "$67^\\circ = 90^\\circ - 23^\\circ$",
+        "$\\sin 67^\\circ = \\cos 23^\\circ = 0.9205$، $\\cos 67^\\circ = \\sin 23^\\circ = 0.3907$",
+        "$\\tan 67^\\circ = \\cot 23^\\circ = 2.356$، $\\cot 67^\\circ = \\tan 23^\\circ = 0.4245$",
+        "$\\sec 67^\\circ = \\csc 23^\\circ = 2.559$، $\\csc 67^\\circ = \\sec 23^\\circ = 1.086$"
+      ],
+      "answer": "$\\sin 67^\\circ = 0.9205$، $\\cos 67^\\circ = 0.3907$، $\\tan 67^\\circ = 2.356$، $\\cot 67^\\circ = 0.4245$، $\\sec 67^\\circ = 2.559$، $\\csc 67^\\circ = 1.086$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "اثبات روابط $\\frac{\\pi}{2} + \\theta$",
+      "problem_fa": "sin، cos، tan و cot زاویهٔ $\\frac{\\pi}{2} + \\theta$ را بر حسب نسبت‌های $\\theta$ بنویسید.",
+      "steps_fa": [
+        "$\\frac{\\pi}{2} + \\theta = \\frac{\\pi}{2} - (-\\theta)$",
+        "$\\sin(\\frac{\\pi}{2} + \\theta) = \\cos(-\\theta) = \\cos\\theta$",
+        "$\\cos(\\frac{\\pi}{2} + \\theta) = \\sin(-\\theta) = -\\sin\\theta$",
+        "$\\tan(\\frac{\\pi}{2} + \\theta) = \\frac{\\cos\\theta}{-\\sin\\theta} = -\\cot\\theta$ و $\\cot(\\frac{\\pi}{2} + \\theta) = \\frac{-\\sin\\theta}{\\cos\\theta} = -\\tan\\theta$"
+      ],
+      "answer": "$\\cos\\theta$، $-\\sin\\theta$، $-\\cot\\theta$، $-\\tan\\theta$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر $\\sin 8^\\circ 10' = 0.1421$، $\\cos 8^\\circ 10' = 0.9899$، $\\tan 8^\\circ 10' = 0.1435$، $\\cot 8^\\circ 10' = 6.968$، $\\sec 8^\\circ 10' = 1.010$ و $\\csc 8^\\circ 10' = 7.040$ باشند، نسبت‌های $81^\\circ 50'$ را دریابید.",
+      "solution_steps_fa": [
+        "$90^\\circ - 8^\\circ 10' = 89^\\circ 60' - 8^\\circ 10' = 81^\\circ 50'$؛ پس این دو زاویه متمم‌اند.",
+        "$\\sin 81^\\circ 50' = \\cos 8^\\circ 10' = 0.9899$، $\\cos 81^\\circ 50' = \\sin 8^\\circ 10' = 0.1421$",
+        "$\\tan 81^\\circ 50' = \\cot 8^\\circ 10' = 6.968$، $\\cot 81^\\circ 50' = \\tan 8^\\circ 10' = 0.1435$",
+        "$\\sec 81^\\circ 50' = \\csc 8^\\circ 10' = 7.040$، $\\csc 81^\\circ 50' = \\sec 8^\\circ 10' = 1.010$"
+      ],
+      "answer": "$\\sin = 0.9899$، $\\cos = 0.1421$، $\\tan = 6.968$، $\\cot = 0.1435$، $\\sec = 7.040$، $\\csc = 1.010$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "زیرعنوان پایین صفحه در کتاب: «رابطه بین نسبت‌های مثلثاتی زاویه‌هایی که فرق شان $\\frac{\\pi}{2}$ رادیان یا $90^\\circ$ باشد». در کتاب $\\csc 67^\\circ$ به اشتباه «csct» چاپ شده است."
+}

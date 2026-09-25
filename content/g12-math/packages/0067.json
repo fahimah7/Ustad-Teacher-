@@ -1,0 +1,57 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 67,
+  "printed_page": 60,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق جذر مربع یک تابع",
+  "summary_fa": "این صفحه قانون هفتم مشتق را معرفی می‌کند: مشتق $y = \\sqrt{x}$. در فعالیت، به x تزاید $\\Delta x$ داده می‌شود و $\\Delta y = \\sqrt{x + \\Delta x} - \\sqrt{x}$ نوشته می‌شود. چون مستقیم گرفتن لیمت شکل مبهم می‌دهد، صورت و مخرج در مزدوج $\\sqrt{x + \\Delta x} + \\sqrt{x}$ ضرب می‌شوند تا جذرها از صورت حذف شوند. بعد از ساده کردن $\\Delta x$ و گرفتن لیمت، نتیجه $y' = \\frac{1}{2\\sqrt{x}}$ است. در مثال ۱، این قانون همراه با قانون حاصل ضرب برای $\\sqrt{x}(x^2 - 1)$ به کار رفته و جواب با مخرج مشترک ساده شده است.",
+  "key_points_fa": [
+    "مشتق $\\sqrt{x}$ برابر $\\frac{1}{2\\sqrt{x}}$ است (برای $x > 0$).",
+    "روش ثبوت: ضرب صورت و مخرج در مزدوج برای حذف جذر از صورت.",
+    "این نتیجه با قانون طاقت هم می‌خواند: $\\sqrt{x} = x^{\\frac{1}{2}}$ و مشتق آن $\\frac{1}{2}x^{-\\frac{1}{2}}$ است.",
+    "برای ساده کردن جواب از $(\\sqrt{x})^2 = x$ استفاده کنید."
+  ],
+  "formulas": [
+    {"latex": "y = \\sqrt{x} \\Rightarrow y' = \\frac{1}{2\\sqrt{x}}", "meaning_fa": "قانون مشتق جذر مربع"},
+    {"latex": "(\\sqrt{a} - \\sqrt{b})(\\sqrt{a} + \\sqrt{b}) = a - b", "meaning_fa": "ضرب در مزدوج که در ثبوت به کار رفته است"},
+    {"latex": "\\frac{\\Delta y}{\\Delta x} = \\frac{1}{\\sqrt{x + \\Delta x} + \\sqrt{x}}", "meaning_fa": "نسبت تزایدها پس از ساده شدن"}
+  ],
+  "terms": [
+    {"fa": "جذر مربع", "en": "square root"},
+    {"fa": "مزدوج", "en": "conjugate"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت قانون جذر",
+      "problem_fa": "ثابت کنید اگر $y = \\sqrt{x}$ باشد، $y' = \\frac{1}{2\\sqrt{x}}$ است.",
+      "steps_fa": [
+        "$\\Delta y = \\sqrt{x + \\Delta x} - \\sqrt{x}$",
+        "ضرب در مزدوج: $\\Delta y = \\frac{(x + \\Delta x) - x}{\\sqrt{x + \\Delta x} + \\sqrt{x}} = \\frac{\\Delta x}{\\sqrt{x + \\Delta x} + \\sqrt{x}}$",
+        "$\\frac{\\Delta y}{\\Delta x} = \\frac{1}{\\sqrt{x + \\Delta x} + \\sqrt{x}}$",
+        "وقتی $\\Delta x \\to 0$: $y' = \\frac{1}{\\sqrt{x} + \\sqrt{x}} = \\frac{1}{2\\sqrt{x}}$"
+      ],
+      "answer": "$y' = \\frac{1}{2\\sqrt{x}}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مشتق $f(x) = \\sqrt{x}(x^2 - 1)$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = \\sqrt{x} \\Rightarrow u' = \\frac{1}{2\\sqrt{x}}$ و $v = x^2 - 1 \\Rightarrow v' = 2x$",
+        "$f'(x) = \\frac{x^2 - 1}{2\\sqrt{x}} + 2x\\sqrt{x}$",
+        "مخرج مشترک: $f'(x) = \\frac{x^2 - 1 + 4x(\\sqrt{x})^2}{2\\sqrt{x}} = \\frac{x^2 - 1 + 4x^2}{2\\sqrt{x}}$",
+        "$f'(x) = \\frac{5x^2 - 1}{2\\sqrt{x}}$"
+      ],
+      "answer": "$f'(x) = \\frac{5x^2 - 1}{2\\sqrt{x}}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

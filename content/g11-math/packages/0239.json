@@ -1,0 +1,114 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 239,
+  "printed_page": 230,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "معکوس ضربی متریکس‌های 2×2",
+  "summary_fa": "این صفحه طریقهٔ دریافت معکوس متریکس $2 \\times 2$ را با متریکس متوصله (الحاقی) می‌آموزد. متوصلهٔ یک متریکس $2 \\times 2$ چنین ساخته می‌شود: جای دو عنصر قطر اصلی را عوض می‌کنیم و علامت دو عنصر قطر فرعی را تغییر می‌دهیم؛ آن را با $\\mathrm{Adj}\\,A$ نشان می‌دهند. اگر دیترمینانت صفر نباشد، معکوس برابر است با متوصله تقسیم بر دیترمینانت. در مثال ۱ برای یک متریکس $2 \\times 2$ اول دیترمینانت ($-8$) حساب می‌شود، سپس متوصله نوشته و بر $-8$ تقسیم می‌شود، و در آخر با ضرب A در $A^{-1}$ و رسیدن به متریکس واحد جواب امتحان می‌شود. در تمرین باید تشخیص داد کدام متریکس‌ها معکوس دارند و معکوس سه متریکس را دریافت و امتحان کرد.",
+  "key_points_fa": [
+    "متوصله (الحاقی) برای $2 \\times 2$: جای a و d عوض، b و c با علامت مخالف.",
+    "$A^{-1} = \\frac{1}{|A|}\\,\\mathrm{Adj}\\,A$ فقط وقتی $|A| \\neq 0$ باشد.",
+    "اول همیشه دیترمینانت را حساب کنید؛ اگر صفر بود، متریکس معکوس ندارد.",
+    "برای امتحان: $A \\cdot A^{-1}$ باید متریکس واحد $I$ شود.",
+    "در تقسیم بر دیترمینانت منفی، علامت همهٔ عناصر عوض می‌شود."
+  ],
+  "formulas": [
+    {"latex": "A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} \\Rightarrow \\mathrm{Adj}\\,A = \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}", "meaning_fa": "متریکس متوصله (الحاقی) برای $2 \\times 2$"},
+    {"latex": "A^{-1} = \\frac{1}{|A|}\\,\\mathrm{Adj}\\,A = \\frac{1}{|A|} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix},\\quad |A| \\neq 0", "meaning_fa": "فورمول معکوس متریکس $2 \\times 2$"}
+  ],
+  "terms": [
+    {"fa": "متریکس متوصله (الحاقی)", "en": "adjoint (adjugate) matrix"},
+    {"fa": "معکوس‌پذیر", "en": "invertible"},
+    {"fa": "امتحان", "en": "check (verification)"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (متوصله)",
+      "problem_fa": "متوصلهٔ $K = \\begin{pmatrix} 1 & 2 \\\\ 5 & 7 \\end{pmatrix}$ را بنویسید.",
+      "steps_fa": [
+        "جای ۱ و ۷ را عوض می‌کنیم؛ علامت ۲ و ۵ را منفی می‌کنیم."
+      ],
+      "answer": "$\\mathrm{Adj}\\,K = \\begin{pmatrix} 7 & -2 \\\\ -5 & 1 \\end{pmatrix}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "معکوس ضربی $A = \\begin{pmatrix} -3 & -2 \\\\ 5 & 6 \\end{pmatrix}$ را دریابید.",
+      "steps_fa": [
+        "$|A| = (-3)(6) - (5)(-2) = -18 + 10 = -8 \\neq 0$، پس معکوس دارد.",
+        "$\\mathrm{Adj}\\,A = \\begin{pmatrix} 6 & 2 \\\\ -5 & -3 \\end{pmatrix}$",
+        "$A^{-1} = \\frac{1}{-8} \\begin{pmatrix} 6 & 2 \\\\ -5 & -3 \\end{pmatrix} = \\begin{pmatrix} -\\frac{3}{4} & -\\frac{1}{4} \\\\ \\frac{5}{8} & \\frac{3}{8} \\end{pmatrix}$",
+        "امتحان: $\\begin{pmatrix} -3 & -2 \\\\ 5 & 6 \\end{pmatrix} \\begin{pmatrix} -\\frac{3}{4} & -\\frac{1}{4} \\\\ \\frac{5}{8} & \\frac{3}{8} \\end{pmatrix} = \\begin{pmatrix} \\frac{9}{4} - \\frac{5}{4} & \\frac{3}{4} - \\frac{3}{4} \\\\ -\\frac{15}{4} + \\frac{15}{4} & -\\frac{5}{4} + \\frac{9}{4} \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
+      ],
+      "answer": "$A^{-1} = \\begin{pmatrix} -\\frac{3}{4} & -\\frac{1}{4} \\\\ \\frac{5}{8} & \\frac{3}{8} \\end{pmatrix}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱ (a)",
+      "kind": "exercise",
+      "problem_fa": "آیا $A = \\begin{pmatrix} 5 & 1 \\\\ -10 & -2 \\end{pmatrix}$ معکوس دارد؟",
+      "solution_steps_fa": [
+        "$|A| = 5(-2) - (-10)(1) = -10 + 10 = 0$",
+        "دیترمینانت صفر است، پس A منفرد است."
+      ],
+      "answer": "خیر، معکوس ندارد ($|A| = 0$).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (b)",
+      "kind": "exercise",
+      "problem_fa": "آیا $B = \\begin{pmatrix} 5 & 19 \\\\ 4 & 15 \\end{pmatrix}$ معکوس دارد؟",
+      "solution_steps_fa": [
+        "$|B| = 5 \\cdot 15 - 4 \\cdot 19 = 75 - 76 = -1 \\neq 0$",
+        "پس معکوس دارد: $B^{-1} = \\frac{1}{-1} \\begin{pmatrix} 15 & -19 \\\\ -4 & 5 \\end{pmatrix}$"
+      ],
+      "answer": "بلی؛ $B^{-1} = \\begin{pmatrix} -15 & 19 \\\\ 4 & -5 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (1)",
+      "kind": "exercise",
+      "problem_fa": "معکوس $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 1 \\end{pmatrix}$ را به دست آورده امتحان کنید.",
+      "solution_steps_fa": [
+        "$|A| = 1 \\cdot 1 - 3 \\cdot 2 = -5$",
+        "$A^{-1} = \\frac{1}{-5} \\begin{pmatrix} 1 & -2 \\\\ -3 & 1 \\end{pmatrix} = \\begin{pmatrix} -\\frac{1}{5} & \\frac{2}{5} \\\\ \\frac{3}{5} & -\\frac{1}{5} \\end{pmatrix}$",
+        "امتحان: سطر اول $-\\frac{1}{5} + \\frac{6}{5} = 1$ و $\\frac{2}{5} - \\frac{2}{5} = 0$؛ سطر دوم $-\\frac{3}{5} + \\frac{3}{5} = 0$ و $\\frac{6}{5} - \\frac{1}{5} = 1$؛ پس $AA^{-1} = I$."
+      ],
+      "answer": "$A^{-1} = \\begin{pmatrix} -\\frac{1}{5} & \\frac{2}{5} \\\\ \\frac{3}{5} & -\\frac{1}{5} \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (2)",
+      "kind": "exercise",
+      "problem_fa": "معکوس $B = \\begin{pmatrix} -1 & 2 \\\\ 1 & 3 \\end{pmatrix}$ را به دست آورده امتحان کنید.",
+      "solution_steps_fa": [
+        "$|B| = (-1)(3) - (1)(2) = -5$",
+        "$B^{-1} = \\frac{1}{-5} \\begin{pmatrix} 3 & -2 \\\\ -1 & -1 \\end{pmatrix} = \\begin{pmatrix} -\\frac{3}{5} & \\frac{2}{5} \\\\ \\frac{1}{5} & \\frac{1}{5} \\end{pmatrix}$",
+        "امتحان: سطر اول $\\frac{3}{5} + \\frac{2}{5} = 1$ و $-\\frac{2}{5} + \\frac{2}{5} = 0$؛ سطر دوم $-\\frac{3}{5} + \\frac{3}{5} = 0$ و $\\frac{2}{5} + \\frac{3}{5} = 1$."
+      ],
+      "answer": "$B^{-1} = \\begin{pmatrix} -\\frac{3}{5} & \\frac{2}{5} \\\\ \\frac{1}{5} & \\frac{1}{5} \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (3)",
+      "kind": "exercise",
+      "problem_fa": "معکوس $C = \\begin{pmatrix} -1 & -3 \\\\ 1 & 1 \\end{pmatrix}$ را به دست آورده امتحان کنید.",
+      "solution_steps_fa": [
+        "$|C| = (-1)(1) - (1)(-3) = -1 + 3 = 2$",
+        "$C^{-1} = \\frac{1}{2} \\begin{pmatrix} 1 & 3 \\\\ -1 & -1 \\end{pmatrix} = \\begin{pmatrix} \\frac{1}{2} & \\frac{3}{2} \\\\ -\\frac{1}{2} & -\\frac{1}{2} \\end{pmatrix}$",
+        "امتحان: سطر اول $-\\frac{1}{2} + \\frac{3}{2} = 1$ و $-\\frac{3}{2} + \\frac{3}{2} = 0$؛ سطر دوم $\\frac{1}{2} - \\frac{1}{2} = 0$ و $\\frac{3}{2} - \\frac{1}{2} = 1$."
+      ],
+      "answer": "$C^{-1} = \\begin{pmatrix} \\frac{1}{2} & \\frac{3}{2} \\\\ -\\frac{1}{2} & -\\frac{1}{2} \\end{pmatrix}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در حل مثال ۱، کتاب دیترمینانت را «$-18 + 10 = 8$» چاپ کرده؛ درست آن $-8$ است و کتاب در سطر بعد هم با $\\frac{1}{-8}$ کار می‌کند، پس جواب نهایی درست است."
+}

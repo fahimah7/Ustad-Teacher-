@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-math",
+  "chapter": 6,
+  "title": {
+    "en": "Matrices",
+    "fa": "متریکس‌ها"
+  },
+  "questions": [
+    {
+      "pdf_page": 226,
+      "q": {
+        "en": "$A$ is a $2 \\times 3$ matrix and $B$ is a $3 \\times 4$ matrix. What is the order of $AB$?",
+        "fa": "متریکس $A$ از مرتبهٔ $2 \\times 3$ و متریکس $B$ از مرتبهٔ $3 \\times 4$ است. مرتبهٔ $AB$ چیست؟"
+      },
+      "options": [
+        {
+          "en": "$3 \\times 3$",
+          "fa": "$3 \\times 3$"
+        },
+        {
+          "en": "$4 \\times 2$",
+          "fa": "$4 \\times 2$"
+        },
+        {
+          "en": "$2 \\times 4$",
+          "fa": "$2 \\times 4$"
+        },
+        {
+          "en": "$AB$ is not defined",
+          "fa": "$AB$ تعریف نمی‌شود"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The number of columns of $A$ ($3$) equals the number of rows of $B$ ($3$), so the product exists; its order is (rows of $A$) $\\times$ (columns of $B$) $= 2 \\times 4$.",
+        "fa": "تعداد ستون‌های $A$ ($3$) با تعداد سطرهای $B$ ($3$) مساوی است، پس ضرب ممکن است؛ مرتبهٔ آن (سطرهای $A$) $\\times$ (ستون‌های $B$) $= 2 \\times 4$ است."
+      },
+      "idea": {
+        "en": "Use $A_{m \\times n} \\cdot B_{n \\times p} = C_{m \\times p}$: the inner numbers must match and the outer numbers give the order.",
+        "fa": "از $A_{m \\times n} \\cdot B_{n \\times p} = C_{m \\times p}$ کار بگیرید: اعداد داخلی باید مساوی باشند و اعداد بیرونی مرتبه را می‌دهند."
+      }
+    },
+    {
+      "pdf_page": 232,
+      "q": {
+        "en": "Find the determinant of $\\begin{pmatrix} 5 & 3 \\\\ 4 & 2 \\end{pmatrix}$.",
+        "fa": "دیترمینانت $\\begin{pmatrix} 5 & 3 \\\\ 4 & 2 \\end{pmatrix}$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$-2$",
+          "fa": "$-2$"
+        },
+        {
+          "en": "$22$",
+          "fa": "$22$"
+        },
+        {
+          "en": "$2$",
+          "fa": "$2$"
+        },
+        {
+          "en": "$0$",
+          "fa": "$0$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$|A| = ad - bc = 5 \\cdot 2 - 3 \\cdot 4 = 10 - 12 = -2$.",
+        "fa": "$|A| = ad - bc = 5 \\cdot 2 - 3 \\cdot 4 = 10 - 12 = -2$ است."
+      },
+      "idea": {
+        "en": "Take the product of the main diagonal minus the product of the other diagonal; a determinant can be negative.",
+        "fa": "حاصل ضرب قطر اصلی منفی حاصل ضرب قطر فرعی را حساب کنید؛ دیترمینانت می‌تواند منفی باشد."
+      }
+    },
+    {
+      "pdf_page": 237,
+      "q": {
+        "en": "$|A| = 5$. Matrix $B$ is made by swapping two rows of $A$. What is $|B|$?",
+        "fa": "$|A| = 5$ است. متریکس $B$ از عوض کردن جای دو سطر $A$ ساخته شده است. $|B|$ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$5$",
+          "fa": "$5$"
+        },
+        {
+          "en": "$0$",
+          "fa": "$0$"
+        },
+        {
+          "en": "$\\frac{1}{5}$",
+          "fa": "$\\frac{1}{5}$"
+        },
+        {
+          "en": "$-5$",
+          "fa": "$-5$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Swapping two rows (or two columns) changes the sign of a determinant but not its size, so $|B| = -|A| = -5$.",
+        "fa": "عوض کردن جای دو سطر (یا دو ستون) علامت دیترمینانت را عوض می‌کند ولی اندازهٔ آن را نه، پس $|B| = -|A| = -5$."
+      },
+      "idea": {
+        "en": "A determinant becomes $0$ only when a row is zero or two rows are equal or proportional; a swap only flips the sign.",
+        "fa": "دیترمینانت فقط وقتی صفر می‌شود که یک سطر صفر باشد یا دو سطر مساوی یا متناسب باشند؛ جابه‌جا کردن سطرها فقط علامت را عوض می‌کند."
+      }
+    },
+    {
+      "pdf_page": 239,
+      "q": {
+        "en": "Find the inverse of $A = \\begin{pmatrix} 4 & 3 \\\\ 1 & 1 \\end{pmatrix}$.",
+        "fa": "معکوس ضربی $A = \\begin{pmatrix} 4 & 3 \\\\ 1 & 1 \\end{pmatrix}$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$\\begin{pmatrix} -1 & 3 \\\\ 1 & -4 \\end{pmatrix}$",
+          "fa": "$\\begin{pmatrix} -1 & 3 \\\\ 1 & -4 \\end{pmatrix}$"
+        },
+        {
+          "en": "$\\begin{pmatrix} 1 & -3 \\\\ -1 & 4 \\end{pmatrix}$",
+          "fa": "$\\begin{pmatrix} 1 & -3 \\\\ -1 & 4 \\end{pmatrix}$"
+        },
+        {
+          "en": "$\\begin{pmatrix} 1 & -1 \\\\ -3 & 4 \\end{pmatrix}$",
+          "fa": "$\\begin{pmatrix} 1 & -1 \\\\ -3 & 4 \\end{pmatrix}$"
+        },
+        {
+          "en": "$\\begin{pmatrix} 4 & -3 \\\\ -1 & 1 \\end{pmatrix}$",
+          "fa": "$\\begin{pmatrix} 4 & -3 \\\\ -1 & 1 \\end{pmatrix}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$|A| = 4 \\cdot 1 - 3 \\cdot 1 = 1$. Swap $a$ and $d$ and change the signs of $b$ and $c$: $A^{-1} = \\frac{1}{1}\\begin{pmatrix} 1 & -3 \\\\ -1 & 4 \\end{pmatrix}$.",
+        "fa": "$|A| = 4 \\cdot 1 - 3 \\cdot 1 = 1$ است. جای $a$ و $d$ را عوض و علامت $b$ و $c$ را برعکس کنید: $A^{-1} = \\frac{1}{1}\\begin{pmatrix} 1 & -3 \\\\ -1 & 4 \\end{pmatrix}$."
+      },
+      "idea": {
+        "en": "Use $A^{-1} = \\frac{1}{|A|}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$ and check that $A \\cdot A^{-1} = I$.",
+        "fa": "از $A^{-1} = \\frac{1}{|A|}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$ کار بگیرید و امتحان کنید که $A \\cdot A^{-1} = I$ شود."
+      }
+    },
+    {
+      "pdf_page": 245,
+      "q": {
+        "en": "The system $2x + y = 7$, $x - y = 2$ is solved by Cramer's rule. What are $|A_x|$ and $x$?",
+        "fa": "سیستم $2x + y = 7$ و $x - y = 2$ با قاعدهٔ کرامر حل می‌شود. $|A_x|$ و $x$ چند اند؟"
+      },
+      "options": [
+        {
+          "en": "$|A_x| = -3$, $x = 1$",
+          "fa": "$|A_x| = -3$، $x = 1$"
+        },
+        {
+          "en": "$|A_x| = 9$, $x = -3$",
+          "fa": "$|A_x| = 9$، $x = -3$"
+        },
+        {
+          "en": "$|A_x| = -9$, $x = 3$",
+          "fa": "$|A_x| = -9$، $x = 3$"
+        },
+        {
+          "en": "$|A_x| = -9$, $x = -3$",
+          "fa": "$|A_x| = -9$، $x = -3$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$|A| = 2(-1) - 1 \\cdot 1 = -3$. Putting the constants in the x-column: $|A_x| = \\begin{vmatrix} 7 & 1 \\\\ 2 & -1 \\end{vmatrix} = -7 - 2 = -9$, so $x = \\frac{-9}{-3} = 3$ (and $y = 1$).",
+        "fa": "$|A| = 2(-1) - 1 \\cdot 1 = -3$ است. با گذاشتن حدود ثابت به جای ستون x: $|A_x| = \\begin{vmatrix} 7 & 1 \\\\ 2 & -1 \\end{vmatrix} = -7 - 2 = -9$، پس $x = \\frac{-9}{-3} = 3$ (و $y = 1$)."
+      },
+      "idea": {
+        "en": "For $|A_x|$ replace the coefficients of $x$ by the constants, then divide by $|A|$ and keep track of the signs.",
+        "fa": "برای $|A_x|$ ضرایب $x$ را با حدود ثابت عوض کنید، بعد بر $|A|$ تقسیم کنید و به علامت‌ها دقت کنید."
+      }
+    }
+  ]
+}

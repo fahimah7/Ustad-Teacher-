@@ -1,0 +1,106 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 39,
+  "printed_page": 32,
+  "page_kind": "exercises",
+  "chapter": 1,
+  "section_fa": "قضیهٔ باقی‌مانده",
+  "summary_fa": "این صفحه «تمرین» درس قضیهٔ باقی‌مانده است و چهار سوال دارد. در سوال ۱ باید باقی‌ماندهٔ چهار تقسیم را با قضیه پیدا کنید؛ بعضی مقسوم علیه‌ها کسری یا اعشاری هستند ($p - \\frac{1}{2}$، $y - 1.6$) و یکی به شکل $4x + 9$ است که باید اول ریشهٔ آن را پیدا کرد. در سوال‌های ۲ تا ۴ باقی‌مانده داده شده و یک ضریب نامعلوم ($k$ یا $m$) خواسته شده است: $P(a)$ را حساب کرده و مساوی باقی‌ماندهٔ داده شده قرار می‌دهیم؛ معادلهٔ حاصل گاهی درجه دوم است و دو جواب دارد.",
+  "key_points_fa": [
+    "برای مقسوم علیه $ax + b$ قیمت $x = -\\frac{b}{a}$ را وضع کنید.",
+    "اگر باقی‌مانده معلوم باشد: $P(a) = R$ یک معادله برای ضریب نامعلوم می‌دهد.",
+    "معادلهٔ درجه دوم حاصل را با تجزیه حل کنید؛ ممکن است دو جواب داشته باشد."
+  ],
+  "formulas": [
+    {"latex": "R = P(a)", "meaning_fa": "قضیهٔ باقی‌مانده برای تقسیم بر $x - a$"}
+  ],
+  "terms": [
+    {"fa": "قضیهٔ باقی‌مانده", "en": "remainder theorem"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱ (الف)",
+      "kind": "exercise",
+      "problem_fa": "باقی‌ماندهٔ $(5x^3 - x^2 + 4x + 1) \\div (x - 3)$",
+      "solution_steps_fa": [
+        "$P(3) = 5 \\cdot 27 - 9 + 12 + 1 = 135 - 9 + 12 + 1 = 139$"
+      ],
+      "answer": "$139$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱ (ب)",
+      "kind": "exercise",
+      "problem_fa": "باقی‌ماندهٔ $(6p^3 + 2p^2 - p + 20) \\div (p - \\frac{1}{2})$",
+      "solution_steps_fa": [
+        "$P(\\frac{1}{2}) = 6 \\cdot \\frac{1}{8} + 2 \\cdot \\frac{1}{4} - \\frac{1}{2} + 20$",
+        "$= \\frac{3}{4} + \\frac{1}{2} - \\frac{1}{2} + 20 = \\frac{83}{4}$"
+      ],
+      "answer": "$\\frac{83}{4} = 20.75$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱ (ج)",
+      "kind": "exercise",
+      "problem_fa": "باقی‌ماندهٔ $(6x^2 + 15) \\div (4x + 9)$",
+      "solution_steps_fa": [
+        "$4x + 9 = 0 \\Rightarrow x = -\\frac{9}{4}$",
+        "$P(-\\frac{9}{4}) = 6 \\cdot \\frac{81}{16} + 15 = \\frac{243}{8} + \\frac{120}{8} = \\frac{363}{8}$"
+      ],
+      "answer": "$\\frac{363}{8} = 45.375$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱ (د)",
+      "kind": "exercise",
+      "problem_fa": "باقی‌ماندهٔ $(4y^2 - y - 6) \\div (y - 1.6)$",
+      "solution_steps_fa": [
+        "$P(1.6) = 4(2.56) - 1.6 - 6 = 10.24 - 7.6 = 2.64$"
+      ],
+      "answer": "$2.64$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "اگر $5x^3 - k^2x^2 + 3kx - 6$ بر $x + 2$ تقسیم شود، به کدام قیمت $k$ باقی‌مانده $-44$ می‌شود؟",
+      "solution_steps_fa": [
+        "$P(-2) = 5(-8) - 4k^2 - 6k - 6 = -46 - 4k^2 - 6k$",
+        "$-46 - 4k^2 - 6k = -44 \\Rightarrow 4k^2 + 6k + 2 = 0 \\Rightarrow 2k^2 + 3k + 1 = 0$",
+        "$(2k + 1)(k + 1) = 0 \\Rightarrow k = -\\frac{1}{2}$ یا $k = -1$"
+      ],
+      "answer": "$k = -1$ یا $k = -\\frac{1}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "اگر $2k^2y^4 - ky^2 + 1$ بر $y - \\frac{1}{2}$ تقسیم شود، به کدام قیمت $k$ باقی‌مانده ۲ است؟",
+      "solution_steps_fa": [
+        "$P(\\frac{1}{2}) = 2k^2 \\cdot \\frac{1}{16} - k \\cdot \\frac{1}{4} + 1 = \\frac{k^2}{8} - \\frac{k}{4} + 1$",
+        "$\\frac{k^2}{8} - \\frac{k}{4} + 1 = 2$ ← دو طرف را در ۸ ضرب می‌کنیم: $k^2 - 2k + 8 = 16$",
+        "$k^2 - 2k - 8 = 0 \\Rightarrow (k - 4)(k + 2) = 0$"
+      ],
+      "answer": "$k = 4$ یا $k = -2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "اگر $m^2x^4 - 10x^2 + 2$ بر $x - 1$ تقسیم شود، به کدام قیمت $m$ باقی‌مانده ۱۷ می‌شود؟",
+      "solution_steps_fa": [
+        "$P(1) = m^2 - 10 + 2 = m^2 - 8$",
+        "$m^2 - 8 = 17 \\Rightarrow m^2 = 25$"
+      ],
+      "answer": "$m = 5$ یا $m = -5$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "نیمهٔ پایین صفحه خالی است."
+}

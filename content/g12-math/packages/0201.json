@@ -1,0 +1,107 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 201,
+  "printed_page": 194,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "انتیگرال‌های معین از طریق تعویض",
+  "summary_fa": "این صفحه نشان می‌دهد که روش تعویض در انتیگرال معین هم کار می‌کند، به شرطی که سرحدات انتیگرال هم به متحول جدید تبدیل شوند. در مثال ۲، با گرفتن $u = x^2$ انتیگرال $\\int_1^2 2x\\ln x^2\\,dx$ به $\\int_1^4 \\ln u\\,du$ تبدیل می‌شود؛ سرحدات ۱ و ۲ برای x به ۱ و ۴ برای u تغییر می‌کنند. بعد با فورمول $\\int \\ln u\\,du = u\\ln u - u$ جواب تقریباً ۲.۵۴۵ به دست می‌آید. در پایان صفحه یک تمرین با پنج انتیگرال لوگارتمی و اکسپوننشیل آمده است که با خواص لوگارتم، تعویض و فورمول $\\int \\ln x\\,dx$ حل می‌شوند.",
+  "key_points_fa": [
+    "در تعویض برای انتیگرال معین، سرحدات را هم با رابطهٔ $u = g(x)$ تبدیل کنید؛ بعد از آن لازم نیست به x برگردید.",
+    "$\\int \\ln u\\,du = u\\ln u - u + C$",
+    "پیش از انتیگرال گرفتن، لوگارتم را با خواص آن ساده کنید: $\\ln(ab) = \\ln a + \\ln b$ و $\\ln a^n = n\\ln a$.",
+    "$\\log x = \\frac{\\ln x}{\\ln 10}$؛ پس انتیگرال $\\log$ به انتیگرال $\\ln$ برمی‌گردد."
+  ],
+  "formulas": [
+    {"latex": "\\int_a^b f(g(x))\\,g'(x)\\,dx = \\int_{g(a)}^{g(b)} f(u)\\,du", "meaning_fa": "تعویض در انتیگرال معین با تبدیل سرحدات"},
+    {"latex": "\\int \\ln x\\,dx = x\\ln x - x + C", "meaning_fa": "انتیگرال لوگارتم طبیعی"},
+    {"latex": "\\int e^{kx}\\,dx = \\frac{1}{k}e^{kx} + C", "meaning_fa": "انتیگرال تابع اکسپوننشیل با ضریب k"}
+  ],
+  "terms": [
+    {"fa": "تعویض", "en": "substitution"},
+    {"fa": "سرحدات انتیگرال", "en": "limits of integration"},
+    {"fa": "انتیگرال معین", "en": "definite integral"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "قیمت $\\int_1^2 2x\\ln x^2\\,dx$ را پیدا کنید.",
+      "steps_fa": [
+        "$u = x^2 \\Rightarrow du = 2x\\,dx$",
+        "سرحدات: وقتی $x = 1$ است $u = 1$، و وقتی $x = 2$ است $u = 4$.",
+        "$\\int_1^2 2x\\ln x^2\\,dx = \\int_1^4 \\ln u\\,du$",
+        "$= [u\\ln u - u]_1^4 = (4\\ln 4 - 4) - (1\\cdot\\ln 1 - 1) = 4\\ln 4 - 3$",
+        "$\\approx 5.545 - 3 = 2.545$"
+      ],
+      "answer": "$4\\ln 4 - 3 \\approx 2.545$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\ln 2x^3\\,dx$",
+      "solution_steps_fa": [
+        "$\\ln 2x^3 = \\ln 2 + 3\\ln x$",
+        "$\\int \\ln 2\\,dx = x\\ln 2$ و $\\int 3\\ln x\\,dx = 3(x\\ln x - x)$",
+        "جمع: $x\\ln 2 + 3x\\ln x - 3x = x\\ln 2x^3 - 3x$"
+      ],
+      "answer": "$x\\ln 2x^3 - 3x + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\ln\\sqrt{x}\\,dx$",
+      "solution_steps_fa": [
+        "$\\ln\\sqrt{x} = \\frac{1}{2}\\ln x$",
+        "$\\frac{1}{2}\\int \\ln x\\,dx = \\frac{1}{2}(x\\ln x - x)$"
+      ],
+      "answer": "$\\frac{1}{2}x\\ln x - \\frac{x}{2} + C = x\\ln\\sqrt{x} - \\frac{x}{2} + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\log\\frac{x}{2}\\,dx$",
+      "solution_steps_fa": [
+        "$\\log\\frac{x}{2} = \\frac{\\ln x - \\ln 2}{\\ln 10}$",
+        "$\\int (\\ln x - \\ln 2)\\,dx = x\\ln x - x - x\\ln 2 = x\\ln\\frac{x}{2} - x$",
+        "تقسیم بر $\\ln 10$: $x\\log\\frac{x}{2} - \\frac{x}{\\ln 10}$"
+      ],
+      "answer": "$x\\log\\frac{x}{2} - \\frac{x}{\\ln 10} + C = x\\log\\frac{x}{2e} + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین d",
+      "kind": "exercise",
+      "problem_fa": "$\\int 3\\log\\frac{1}{x}\\,dx$",
+      "solution_steps_fa": [
+        "$\\log\\frac{1}{x} = -\\log x = -\\frac{\\ln x}{\\ln 10}$",
+        "$-\\frac{3}{\\ln 10}\\int \\ln x\\,dx = -\\frac{3}{\\ln 10}(x\\ln x - x)$",
+        "$= -3x\\log x + \\frac{3x}{\\ln 10}$"
+      ],
+      "answer": "$-3x\\log x + \\frac{3x}{\\ln 10} + C = 3x\\log\\frac{e}{x} + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین e",
+      "kind": "exercise",
+      "problem_fa": "$\\int_1^2 \\frac{4}{e^{2x-4}}\\,dx$",
+      "solution_steps_fa": [
+        "$\\frac{4}{e^{2x-4}} = 4e^{4-2x}$",
+        "تابع اولیه: $\\int 4e^{4-2x}\\,dx = -2e^{4-2x}$",
+        "$[-2e^{4-2x}]_1^2 = -2e^{0} + 2e^{2} = 2e^2 - 2$"
+      ],
+      "answer": "$2e^2 - 2 \\approx 12.78$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در تمرین c و d فرض شده که log لوگارتم بر اساس ۱۰ است. در کتاب در سطر dx یک علامت مساوی چاپ نشده است ($dx = \\frac{1}{2x}du$)."
+}

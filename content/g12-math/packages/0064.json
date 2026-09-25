@@ -1,0 +1,68 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 64,
+  "printed_page": 57,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق حاصل ضرب؛ مشتق حاصل تقسیم",
+  "summary_fa": "این صفحه با دو مثال قانون حاصل ضرب را تمرین می‌کند. در مثال ۱، تابع $x^3(x^2 - 3)$ به دو عامل u و v جدا می‌شود، مشتق هر عامل حساب می‌شود و در فورمول $y' = u'v + uv'$ گذاشته می‌شود. در مثال ۲، مربع $(5x - 1)^2$ به شکل ضرب دو عامل مساوی نوشته می‌شود تا باز هم قانون حاصل ضرب به کار رود. بعد قانون ششم، یعنی مشتق حاصل تقسیم $y = \\frac{u}{v}$ با شرط $v \\neq 0$، با یک فعالیت شروع می‌شود: به u و v تزاید بدهید، $\\Delta y$ را پیدا کنید، بر $\\Delta x$ تقسیم کنید و لیمت بگیرید. ثبوت و نتیجهٔ آن در صفحهٔ بعد آمده است.",
+  "key_points_fa": [
+    "برای مشتق حاصل ضرب، اول عامل‌ها را u و v نام بگذارید و مشتق هر کدام را جدا حساب کنید.",
+    "نتیجه را می‌توان با ضرب کردن و مشتق گرفتن مستقیم هم امتحان کرد: $x^3(x^2-3) = x^5 - 3x^3$.",
+    "مربع یک عبارت را می‌توان به شکل ضرب دو عامل مساوی نوشت.",
+    "قانون حاصل تقسیم فقط وقتی معنا دارد که مخرج صفر نباشد: $v \\neq 0$."
+  ],
+  "formulas": [
+    {"latex": "y = u \\cdot v \\Rightarrow y' = u'v + uv'", "meaning_fa": "قانون مشتق حاصل ضرب"},
+    {"latex": "y = \\frac{u}{v},\\quad v \\neq 0", "meaning_fa": "تابع حاصل تقسیم که مشتق آن در صفحهٔ بعد ثابت می‌شود"}
+  ],
+  "terms": [
+    {"fa": "مشتق حاصل تقسیم", "en": "quotient rule"},
+    {"fa": "فکتور (عامل)", "en": "factor"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مشتق $y = x^3(x^2 - 3)$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = x^3 \\Rightarrow u' = 3x^2$ و $v = x^2 - 3 \\Rightarrow v' = 2x$",
+        "$y' = u'v + uv' = 3x^2(x^2 - 3) + 2x \\cdot x^3$",
+        "$y' = 3x^4 - 9x^2 + 2x^4 = 5x^4 - 9x^2$"
+      ],
+      "answer": "$y' = 5x^4 - 9x^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق $y = (5x - 1)^2$ را دریافت کنید.",
+      "steps_fa": [
+        "$y = (5x - 1)(5x - 1)$؛ پس $u = v = 5x - 1$ و $u' = v' = 5$",
+        "$y' = 5(5x - 1) + 5(5x - 1)$",
+        "$y' = 25x - 5 + 25x - 5 = 50x - 10$"
+      ],
+      "answer": "$y' = 50x - 10$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت (مشتق حاصل تقسیم)",
+      "kind": "activity",
+      "problem_fa": "برای $y = \\frac{u}{v}$ ($v \\neq 0$) به u و v تزایدهای $\\Delta u$ و $\\Delta v$ بدهید، $\\Delta y$ را پیدا کنید، بر $\\Delta x$ تقسیم کنید و لیمت را وقتی $\\Delta x \\to 0$ دریافت کنید.",
+      "solution_steps_fa": [
+        "$\\Delta y = \\frac{u + \\Delta u}{v + \\Delta v} - \\frac{u}{v} = \\frac{v\\Delta u - u\\Delta v}{v(v + \\Delta v)}$",
+        "$\\frac{\\Delta y}{\\Delta x} = \\frac{v\\frac{\\Delta u}{\\Delta x} - u\\frac{\\Delta v}{\\Delta x}}{v(v + \\Delta v)}$",
+        "وقتی $\\Delta x \\to 0$، $\\Delta v \\to 0$ و کسرها به $u'$ و $v'$ نزدیک می‌شوند.",
+        "$y' = \\frac{u'v - uv'}{v^2}$"
+      ],
+      "answer": "$y' = \\frac{u'v - uv'}{v^2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "ثبوت کتاب برای قانون حاصل تقسیم در صفحهٔ بعد (۵۸) آمده است."
+}

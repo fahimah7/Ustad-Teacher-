@@ -1,0 +1,104 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 269,
+  "printed_page": 260,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "زوایای جهت و کوساین‌های جهت یک وکتور",
+  "summary_fa": "این صفحه فعالیت صفحه قبل را با چهار سوال دربارهٔ زوایای جهت ادامه می‌دهد: این زاویه‌ها در کدام انتروال تغییر می‌کنند، آیا منفی شده می‌توانند، صفر بودن یکی از آن‌ها چه معنا دارد، و چه رابطه‌یی بین کوساین‌های آن‌ها هست. نتیجه این است که برای هر وکتور غیرصفری $\\vec{v} = (x,y,z)$، مجموع مربع‌های سه کوساین جهت برابر ۱ است. برای ثبوت، طول وکتور $\\sqrt{x^2+y^2+z^2}$ نوشته می‌شود و وکتور واحد هم‌جهت $\\frac{\\vec{v}}{|\\vec{v}|}$ ساخته می‌شود؛ مؤلفه‌های این وکتور واحد همان کوساین‌های جهت هستند و چون طول آن ۱ است، مجموع مربع‌های آن‌ها ۱ می‌شود. در آخر دو تمرین دربارهٔ عملیه‌های وکتوری و طول وکتور آمده است.",
+  "key_points_fa": [
+    "هر زاویهٔ جهت بین $0^\\circ$ و $180^\\circ$ است و منفی نمی‌شود.",
+    "اگر یک زاویهٔ جهت صفر باشد، وکتور در جهت مثبت همان محور است و دو زاویهٔ دیگر $90^\\circ$ هستند.",
+    "وکتور واحد هم‌جهت با $\\vec{v}$ برابر $\\frac{\\vec{v}}{|\\vec{v}|} = (\\cos\\alpha, \\cos\\beta, \\cos\\gamma)$ است.",
+    "نتیجه: $\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$."
+  ],
+  "formulas": [
+    {"latex": "|\\vec{v}| = |x\\vec{i} + y\\vec{j} + z\\vec{k}| = \\sqrt{x^2 + y^2 + z^2}", "meaning_fa": "طول وکتور سه‌بعدی"},
+    {"latex": "\\frac{\\vec{v}}{|\\vec{v}|} = \\begin{pmatrix} \\frac{v_x}{|\\vec{v}|} \\\\ \\frac{v_y}{|\\vec{v}|} \\\\ \\frac{v_z}{|\\vec{v}|} \\end{pmatrix} = \\begin{pmatrix} \\cos\\alpha \\\\ \\cos\\beta \\\\ \\cos\\gamma \\end{pmatrix}", "meaning_fa": "وکتور واحد جهت؛ مؤلفه‌های آن کوساین‌های جهت هستند"},
+    {"latex": "\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1", "meaning_fa": "رابطهٔ کوساین‌های جهت هر وکتور غیرصفری"}
+  ],
+  "terms": [
+    {"fa": "وکتور واحد جهت", "en": "direction unit vector"},
+    {"fa": "کوساین‌های جهت", "en": "direction cosines"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "زوایای $\\alpha$، $\\beta$ و $\\gamma$ در کدام انتروال تغییر می‌کنند؟",
+      "solution_steps_fa": [
+        "زاویه بین دو وکتور (اینجا بین $\\vec{v}$ و یکی از $\\vec{i}$، $\\vec{j}$، $\\vec{k}$) همیشه زاویهٔ کوچک‌تر بین آن‌ها گرفته می‌شود.",
+        "پس از $0^\\circ$ (هم‌جهت) تا $180^\\circ$ (مخالف‌جهت) تغییر می‌کند."
+      ],
+      "answer": "$[0^\\circ, 180^\\circ]$ یعنی $0 \\le \\alpha, \\beta, \\gamma \\le \\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "آیا یکی از این زاویه‌ها منفی شده می‌تواند؟",
+      "solution_steps_fa": [
+        "زاویهٔ بین دو وکتور یک اندازهٔ بی‌جهت است و در انتروال $[0^\\circ, 180^\\circ]$ قرار دارد.",
+        "اگر یک مختصه منفی باشد، کوساین آن منفی می‌شود (زاویه بین $90^\\circ$ و $180^\\circ$)، نه خود زاویه."
+      ],
+      "answer": "نخیر؛ زوایای جهت منفی نمی‌شوند، فقط کوساین آن‌ها منفی شده می‌تواند.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۳",
+      "kind": "activity",
+      "problem_fa": "اگر یکی از زاویه‌ها صفر باشد، دربارهٔ موقعیت وکتور چه گفته می‌توانید؟",
+      "solution_steps_fa": [
+        "مثلاً اگر $\\alpha = 0$ باشد، $\\cos\\alpha = 1$ پس $\\cos^2\\beta + \\cos^2\\gamma = 0$.",
+        "یعنی $\\cos\\beta = \\cos\\gamma = 0$ و $\\beta = \\gamma = 90^\\circ$.",
+        "پس وکتور روی محور x و در جهت مثبت آن قرار دارد: $\\vec{v} = x\\vec{i}$ با $x > 0$."
+      ],
+      "answer": "وکتور روی همان محور و در جهت مثبت آن است؛ دو زاویهٔ دیگر $90^\\circ$ هستند.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۴",
+      "kind": "activity",
+      "problem_fa": "برای کوساین‌های زوایای جهت وکتور $\\vec{v}$ یک رابطهٔ مشترک دریافت کنید.",
+      "solution_steps_fa": [
+        "$\\cos\\alpha = \\frac{x}{|\\vec{v}|}$، $\\cos\\beta = \\frac{y}{|\\vec{v}|}$، $\\cos\\gamma = \\frac{z}{|\\vec{v}|}$",
+        "مربع‌ها را جمع می‌کنیم: $\\frac{x^2 + y^2 + z^2}{|\\vec{v}|^2} = \\frac{|\\vec{v}|^2}{|\\vec{v}|^2} = 1$"
+      ],
+      "answer": "$\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$",
+      "solution_source": "mixed"
+    },
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\vec{u} = \\vec{i}+2\\vec{j}-\\vec{k}$، $\\vec{v} = 3\\vec{i}-2\\vec{j}+2\\vec{k}$ و $\\vec{w} = 5\\vec{i}-\\vec{j}+3\\vec{k}$ باشند: (a) $\\vec{u}+2\\vec{v}+\\vec{w}$، (b) $\\vec{v}-3\\vec{w}$، (c) $|3\\vec{v}+\\vec{w}|$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "(a) $(1+6+5)\\vec{i} + (2-4-1)\\vec{j} + (-1+4+3)\\vec{k} = 12\\vec{i} - 3\\vec{j} + 6\\vec{k}$",
+        "(b) $(3-15)\\vec{i} + (-2+3)\\vec{j} + (2-9)\\vec{k} = -12\\vec{i} + \\vec{j} - 7\\vec{k}$",
+        "(c) $3\\vec{v}+\\vec{w} = (9+5)\\vec{i} + (-6-1)\\vec{j} + (6+3)\\vec{k} = 14\\vec{i} - 7\\vec{j} + 9\\vec{k}$",
+        "$|3\\vec{v}+\\vec{w}| = \\sqrt{196 + 49 + 81} = \\sqrt{326}$"
+      ],
+      "answer": "(a) $12\\vec{i}-3\\vec{j}+6\\vec{k}$؛ (b) $-12\\vec{i}+\\vec{j}-7\\vec{k}$؛ (c) $\\sqrt{326} \\approx 18.06$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "قیمت $\\alpha$ را طوری دریافت کنید که طول وکتور $\\alpha\\vec{i} + (\\alpha+1)\\vec{j} + 2\\vec{k}$ مساوی ۳ باشد.",
+      "solution_steps_fa": [
+        "$\\alpha^2 + (\\alpha+1)^2 + 2^2 = 3^2$",
+        "$2\\alpha^2 + 2\\alpha + 5 = 9 \\Rightarrow \\alpha^2 + \\alpha - 2 = 0$",
+        "$(\\alpha + 2)(\\alpha - 1) = 0 \\Rightarrow \\alpha = 1$ یا $\\alpha = -2$",
+        "امتحان: برای $\\alpha = 1$: $\\sqrt{1+4+4} = 3$؛ برای $\\alpha = -2$: $\\sqrt{4+1+4} = 3$"
+      ],
+      "answer": "$\\alpha = 1$ یا $\\alpha = -2$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "فعالیت ۴ را خود کتاب در «نتیجه» و ثبوت آن جواب داده است؛ بنابراین mixed علامه شد."
+}

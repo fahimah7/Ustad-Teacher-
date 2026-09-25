@@ -1,0 +1,64 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 75,
+  "printed_page": 66,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مطابقت‌های مثلثاتی",
+  "summary_fa": "این صفحه مطابقت $\\sin^2\\alpha + \\cos^2\\alpha = 1$ را ثبوت می‌کند و فهرست روابط مثلثاتی را می‌دهد. در دایره‌یی به مرکز مبدأ و شعاع r، از نقطهٔ P روی دایره عمودی بر محور x رسم می‌شود تا مثلث قایم‌الزاویهٔ OMP ساخته شود؛ ضلع افقی x، ضلع عمودی y و وتر r است. ساین و کوساین زاویه نسبت y و x بر r هستند. طبق قضیهٔ فیثاغورث $x^2 + y^2 = r^2$؛ با تقسیم دو طرف بر $r^2$ و گذاشتن ساین و کوساین، مطابقت به دست می‌آید. سپس سه رابطهٔ اساسی و چند رابطهٔ فرعی (معکوس‌ها و نسبت‌ها) نوشته شده‌اند. در آخر، با تقسیم همان رابطهٔ فیثاغورث بر $x^2$، مطابقت $1 + \\tan^2\\alpha = \\sec^2\\alpha$ ثبوت می‌شود.",
+  "key_points_fa": [
+    "در مثلث OMP: $\\sin\\alpha = \\frac{y}{r}$، $\\cos\\alpha = \\frac{x}{r}$، $\\tan\\alpha = \\frac{y}{x}$، $\\sec\\alpha = \\frac{r}{x}$.",
+    "همهٔ روابط اساسی از $x^2 + y^2 = r^2$ به دست می‌آیند؛ فقط دو طرف را بر $r^2$، $x^2$ یا $y^2$ تقسیم می‌کنیم.",
+    "تقسیم بر $r^2$ ← $\\sin^2\\alpha + \\cos^2\\alpha = 1$؛ تقسیم بر $x^2$ ← $1 + \\tan^2\\alpha = \\sec^2\\alpha$؛ تقسیم بر $y^2$ ← $1 + \\cot^2\\alpha = \\csc^2\\alpha$.",
+    "سیکانت معکوس کوساین، کوسیکانت معکوس ساین و کوتانجنت معکوس تانجنت است."
+  ],
+  "formulas": [
+    {"latex": "\\sin^2\\alpha + \\cos^2\\alpha = 1", "meaning_fa": "رابطهٔ اساسی اول"},
+    {"latex": "1 + \\tan^2\\alpha = \\sec^2\\alpha", "meaning_fa": "رابطهٔ اساسی دوم"},
+    {"latex": "1 + \\cot^2\\alpha = \\csc^2\\alpha", "meaning_fa": "رابطهٔ اساسی سوم"},
+    {"latex": "\\cos\\alpha\\sec\\alpha = 1,\\quad \\sin\\alpha\\csc\\alpha = 1,\\quad \\tan\\alpha\\cot\\alpha = 1", "meaning_fa": "روابط فرعی: حاصل ضرب هر نسبت در معکوس آن یک است"},
+    {"latex": "\\sec\\alpha = \\frac{1}{\\cos\\alpha},\\quad \\csc\\alpha = \\frac{1}{\\sin\\alpha},\\quad \\cot\\alpha = \\frac{1}{\\tan\\alpha}", "meaning_fa": "روابط فرعی معکوس"},
+    {"latex": "\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha},\\quad \\cot\\alpha = \\frac{\\cos\\alpha}{\\sin\\alpha}", "meaning_fa": "روابط فرعی نسبتی"}
+  ],
+  "terms": [
+    {"fa": "روابط اساسی مثلثاتی", "en": "Pythagorean identities"},
+    {"fa": "روابط فرعی مثلثاتی", "en": "reciprocal and quotient identities"},
+    {"fa": "قضیهٔ فیثاغورث", "en": "Pythagorean theorem"},
+    {"fa": "سیکانت", "en": "secant (sec)"},
+    {"fa": "ثبوت", "en": "proof"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.09, 0.07, 0.42, 0.29], "kind": "diagram", "description_fa": "دایره‌یی به مرکز O (مبدأ) در سیستم کمیات وضعیه. نقطهٔ P روی دایره است و از آن خط عمودی به نقطهٔ M روی محور X رسم شده؛ مثلث قایم‌الزاویهٔ OMP با ضلع افقی x، ضلع عمودی y، وتر r و زاویهٔ $\\alpha$ در رأس O دیده می‌شود. این مثلث اساس ثبوت همهٔ روابط این صفحه است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت $\\sin^2\\alpha + \\cos^2\\alpha = 1$",
+      "problem_fa": "مطابقت $\\sin^2\\alpha + \\cos^2\\alpha = 1$ را ثبوت کنید.",
+      "steps_fa": [
+        "در مثلث قایم‌الزاویهٔ OMP: $\\sin\\alpha = \\frac{y}{r}$ و $\\cos\\alpha = \\frac{x}{r}$.",
+        "قضیهٔ فیثاغورث: $x^2 + y^2 = r^2$",
+        "دو طرف را بر $r^2$ تقسیم می‌کنیم: $\\left(\\frac{x}{r}\\right)^2 + \\left(\\frac{y}{r}\\right)^2 = 1$",
+        "با گذاشتن ساین و کوساین: $\\cos^2\\alpha + \\sin^2\\alpha = 1$"
+      ],
+      "answer": "$\\sin^2\\alpha + \\cos^2\\alpha = 1$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت $1 + \\tan^2\\alpha = \\sec^2\\alpha$",
+      "problem_fa": "با استفاده از شکل و روابط بالا، مطابقت $1 + \\tan^2\\alpha = \\sec^2\\alpha$ را ثبوت کنید.",
+      "steps_fa": [
+        "از شکل: $x^2 + y^2 = r^2$",
+        "دو طرف را بر $x^2$ تقسیم می‌کنیم: $1 + \\left(\\frac{y}{x}\\right)^2 = \\left(\\frac{r}{x}\\right)^2$",
+        "چون $\\frac{y}{x} = \\tan\\alpha$ و $\\frac{r}{x} = \\sec\\alpha$، نتیجه $1 + \\tan^2\\alpha = \\sec^2\\alpha$ است."
+      ],
+      "answer": "$1 + \\tan^2\\alpha = \\sec^2\\alpha$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در فهرست روابط فرعی، کتاب $\\sin\\alpha\\cdot\\sec\\alpha = 1$ چاپ کرده که اشتباه چاپی است؛ درست آن $\\sin\\alpha\\cdot\\csc\\alpha = 1$ است و در این بسته به شکل درست آمده است."
+}

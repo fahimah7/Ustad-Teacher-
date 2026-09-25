@@ -1,0 +1,79 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 199,
+  "printed_page": 192,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "انتیگرال‌های توابع لوگاریتمی",
+  "summary_fa": "این صفحه اول ثبوت دوم قاعدهٔ $\\int\\log_a x\\,dx$ را با انتیگرال قسمی می‌آورد: $u = \\log_a x$ و $dv = dx$ انتخاب می‌شود، پس $v = x$ و انتیگرال باقی‌مانده فقط یک عدد ثابت است. بعد یک مثال نشان می‌دهد که $\\ln 3x$ را با خاصیت لوگاریتم به $\\ln 3 + \\ln x$ تبدیل کنیم و هر قسمت را جدا انتیگرال بگیریم. سپس یادداشت اول می‌گوید که انتیگرال‌های نامعین را می‌توان با روش تعویض حل کرد و مثال ۱ دو نمونه دارد: یک اکسپوننشیل با توان خطی و یک کسر که مخرج آن خطی است؛ جواب دومی لوگاریتم طبیعی است. مثال‌های بعدی در صفحهٔ بعد ادامه دارد.",
+  "key_points_fa": [
+    "انتیگرال قسمی: $\\int u\\,dv = uv - \\int v\\,du$",
+    "برای $\\int\\log_a x\\,dx$: $u = \\log_a x$، $du = \\frac{1}{x}\\log_a e\\,dx$، $v = x$",
+    "$\\ln 3x = \\ln 3 + \\ln x$ و $\\ln 3$ عدد ثابت است.",
+    "در روش تعویض، $dx$ را هم بر حسب $du$ بنویسید.",
+    "$\\int\\frac{du}{u} = \\ln|u| + C$"
+  ],
+  "formulas": [
+    {"latex": "\\int u\\,dv = uv - \\int v\\,du", "meaning_fa": "قاعدهٔ انتیگرال قسمی"},
+    {"latex": "\\int \\log_a x\\,dx = x\\log_a\\frac{x}{e} + C", "meaning_fa": "انتیگرال لوگاریتم با قاعدهٔ a"},
+    {"latex": "\\int \\frac{du}{u} = \\ln|u| + C", "meaning_fa": "انتیگرال یک تقسیم بر u"},
+    {"latex": "\\int e^u\\,du = e^u + C", "meaning_fa": "انتیگرال اکسپوننشیل طبیعی"}
+  ],
+  "terms": [
+    {"fa": "انتیگرال قسمی", "en": "integration by parts"},
+    {"fa": "روش تعویض", "en": "substitution"},
+    {"fa": "انتیگرال نامعین", "en": "indefinite integral"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت ۲",
+      "problem_fa": "ثابت کنید $\\int\\log_a x\\,dx = x\\log_a\\frac{x}{e} + C$",
+      "steps_fa": [
+        "$u = \\log_a x$ و $du = \\frac{1}{x}\\log_a e\\,dx$؛ $dv = dx$ و $v = x$",
+        "$\\int\\log_a x\\,dx = x\\log_a x - \\int x\\cdot\\frac{1}{x}\\log_a e\\,dx = x\\log_a x - \\log_a e\\int dx$",
+        "$= x\\log_a x - x\\log_a e = x(\\log_a x - \\log_a e) = x\\log_a\\frac{x}{e} + C$"
+      ],
+      "answer": "$x\\log_a\\frac{x}{e} + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال",
+      "problem_fa": "$\\int \\ln 3x\\,dx$",
+      "steps_fa": [
+        "$\\ln 3x = \\ln 3 + \\ln x$",
+        "$\\int\\ln 3\\,dx + \\int\\ln x\\,dx = x\\ln 3 + x\\ln x - x$",
+        "$= x(\\ln 3 + \\ln x) - x = x(\\ln 3x - 1) + C$"
+      ],
+      "answer": "$x(\\ln 3x - 1) + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱-a",
+      "problem_fa": "$I = \\int \\frac{1}{2}e^{-2x-3}\\,dx$",
+      "steps_fa": [
+        "$u = -2x - 3$، $du = -2\\,dx$، پس $dx = -\\frac{1}{2}du$",
+        "$I = \\int\\frac{1}{2}e^u\\left(-\\frac{1}{2}\\right)du = -\\frac{1}{4}\\int e^u\\,du = -\\frac{1}{4}e^u + C$",
+        "$= -\\frac{1}{4}e^{-2x-3} + C$"
+      ],
+      "answer": "$-\\frac{1}{4}e^{-2x-3} + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱-b",
+      "problem_fa": "$I = \\int \\frac{2\\,dx}{x+2}$",
+      "steps_fa": [
+        "$u = x + 2$ و $dx = du$",
+        "$I = 2\\int\\frac{du}{u} = 2\\ln|u| + C = 2\\ln|x+2| + C$"
+      ],
+      "answer": "$2\\ln|x+2| + C$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در مثال $\\int\\ln 3x\\,dx$ کتاب ثابت C را در جواب آخر ننوشته است."
+}

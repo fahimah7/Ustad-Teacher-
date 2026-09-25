@@ -1,0 +1,53 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-phys",
+  "pdf_page": 23,
+  "printed_page": 14,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "معادلهٔ حرکت سادهٔ هارمونیکی",
+  "summary_fa": "در این صفحه فورمول پیریود رقاصهٔ ساده به دست می‌آید. وزن گلوله ($mg$) دو مرکبه دارد: مرکبهٔ $mg\\cos\\varphi$ در امتداد تار که با قوهٔ کشش تار خنثا می‌شود، و مرکبهٔ $mg\\sin\\varphi$ در امتداد مسیر که همیشه به طرف مخالف بی‌جاشدن است و کار قوهٔ برگرداننده را می‌کند: $F_r = -mg\\sin\\varphi$. برای زاویه‌های بسیار کوچک (به رادیان) $\\sin\\varphi \\approx \\varphi$، و چون طول قوس $s = L\\varphi$ است، $F_r = -\\frac{mg}{L}s$ می‌شود. این رابطه مانند قانون فنر $F_r = -kx$ است، پس در رقاصه $\\frac{mg}{L}$ نقش $k$ را دارد. با گذاشتن آن در $k = \\omega^2 m$ نتیجه می‌شود $\\omega = \\sqrt{\\frac{g}{L}}$ و با $\\omega = \\frac{2\\pi}{T}$ فورمول مشهور $T = 2\\pi\\sqrt{\\frac{L}{g}}$ به دست می‌آید. پس پیریود رقاصهٔ ساده تنها به طول تار و شتاب جاذبه بسته‌گی دارد، نه به کتلهٔ گلوله.",
+  "key_points_fa": [
+    "قوهٔ برگرداننده در رقاصه، مرکبهٔ مماسی وزن است: $F_r = -mg\\sin\\varphi$.",
+    "برای زاویهٔ کوچک (به رادیان) $\\sin\\varphi \\approx \\varphi$ و $\\varphi = \\frac{s}{L}$؛ پس $F_r = -\\frac{mg}{L}s$.",
+    "در رقاصهٔ ساده $\\frac{mg}{L}$ مانند ثابت فنر $k$ عمل می‌کند.",
+    "$\\omega = \\sqrt{\\frac{g}{L}}$ و $T = 2\\pi\\sqrt{\\frac{L}{g}}$.",
+    "پیریود رقاصه به کتلهٔ گلوله بسته‌گی ندارد؛ با زیاد شدن طول، پیریود زیاد می‌شود."
+  ],
+  "formulas": [
+    {"latex": "F_r = -mg\\sin\\varphi \\approx -mg\\varphi", "meaning_fa": "قوهٔ برگرداننده در رقاصهٔ ساده (برای زاویهٔ کوچک)"},
+    {"latex": "s = L\\varphi", "meaning_fa": "طول قوس مسیر گلوله؛ $\\varphi$ به رادیان"},
+    {"latex": "F_r = -\\left(\\frac{mg}{L}\\right)s", "meaning_fa": "قوهٔ برگرداننده متناسب با بی‌جاشدن و مخالف آن است، پس حرکت سادهٔ هارمونیکی است"},
+    {"latex": "\\omega = \\sqrt{\\frac{g}{L}}", "meaning_fa": "فریکونسی زاویه‌یی رقاصهٔ ساده"},
+    {"latex": "T = 2\\pi\\sqrt{\\frac{L}{g}}", "meaning_fa": "پیریود رقاصهٔ ساده؛ $L$ طول تار ($\\mathrm{m}$) و $g$ شتاب جاذبه ($\\approx 9.8\\,\\mathrm{m/s^2}$)"}
+  ],
+  "terms": [
+    {"fa": "رقاصهٔ ساده", "en": "simple pendulum"},
+    {"fa": "قوهٔ کشش تار", "en": "tension"},
+    {"fa": "قوهٔ برگرداننده", "en": "restoring force"},
+    {"fa": "رادیان", "en": "radian"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.11, 0.40, 0.39], "kind": "diagram", "description_fa": "شکل (1-10): رقاصهٔ ساده با تار به طول $L$ که از سقف آویزان است و به اندازهٔ زاویهٔ $\\varphi$ از خط عمودی (نقطه‌چین) دور شده است. بالای تار تیر $T$ (قوهٔ کشش تار) رسم شده است. وزن $mg$ به طرف پایین است و به دو مرکبه تجزیه شده: $mg\\cos\\varphi$ در امتداد تار به طرف بیرون، و $mg\\sin\\varphi$ مماس بر قوس، به طرف موقعیت تعادل. قوس پایین با $s = L\\varphi$ نشان داده شده است. این شکل نشان می‌دهد که کدام مرکبهٔ وزن قوهٔ برگرداننده است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "به دست آوردن پیریود رقاصهٔ ساده",
+      "problem_fa": "نشان دهید که پیریود رقاصهٔ ساده برای زاویه‌های کوچک $T = 2\\pi\\sqrt{\\frac{L}{g}}$ است.",
+      "steps_fa": [
+        "قوهٔ برگرداننده: $F_r = -mg\\sin\\varphi$؛ برای زاویهٔ کوچک $\\sin\\varphi \\approx \\varphi$، پس $F_r \\approx -mg\\varphi$.",
+        "با $\\varphi = \\frac{s}{L}$: $F_r = -\\left(\\frac{mg}{L}\\right)s$.",
+        "مقایسه با فنر $F_r = -kx$ نشان می‌دهد که $k = \\frac{mg}{L}$.",
+        "در سیستم کتله ـ فنر $\\omega = \\sqrt{\\frac{k}{m}}$، یعنی $k = \\omega^2 m$؛ پس $\\frac{mg}{L} = \\omega^2 m$ و $\\omega = \\sqrt{\\frac{g}{L}}$.",
+        "با $\\omega = \\frac{2\\pi}{T}$: $\\frac{2\\pi}{T} = \\sqrt{\\frac{g}{L}}$، پس $T = 2\\pi\\sqrt{\\frac{L}{g}}$."
+      ],
+      "answer": "$T = 2\\pi\\sqrt{\\frac{L}{g}}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در شکل، حرف $T$ روی تار قوهٔ کشش است نه پیریود؛ در متن این قوه $f_t$ نامیده شده است. کتاب زاویهٔ رقاصه را هم با $\\varphi$ نشان می‌دهد که با فاز آغاز فرق دارد."
+}

@@ -1,0 +1,168 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 360,
+  "printed_page": 353,
+  "page_kind": "exercises",
+  "chapter": 7,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "این صفحه آغاز تمرین فصل هفتم (هندسهٔ تحلیلی) است و سوال‌های ۱ تا ۱۰ را دارد. سوال‌ها موضوعات اول فصل را تکرار می‌کنند: فاصلهٔ دو نقطه و نقطهٔ وسطی، شرط عمود بودن دو ضلع در مثلث قایم‌الزاویه، نقطه‌یی که یک قطعه خط را به نسبت معلوم تقسیم می‌کند، معادلهٔ خط از روی میل و نقطهٔ تقاطع با محور Y، میل خطوط افقی و عمودی، میل خط عمود، میل خط از روی دو نقطه، تشخیص موازی یا عمود بودن دو خط، و فاصلهٔ بین دو خط موازی. چند سوال چهارجوابه (a، b، c، d) هم در میان آن‌ها است.",
+  "key_points_fa": [
+    "دو خط عمود: حاصل‌ضرب میل‌های شان $-1$ است ($m_2 = -\\frac{1}{m_1}$).",
+    "دو خط موازی: میل‌های شان مساوی است.",
+    "خط عمودی ($x = $ عدد) میل تعریف‌نشده و خط افقی ($y = $ عدد) میل صفر دارد.",
+    "فاصلهٔ دو خط موازی $ax + by + c_1 = 0$ و $ax + by + c_2 = 0$: $\\frac{|c_2 - c_1|}{\\sqrt{a^2 + b^2}}$"
+  ],
+  "formulas": [
+    {"latex": "d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}", "meaning_fa": "فاصلهٔ دو نقطه"},
+    {"latex": "m_1 \\cdot m_2 = -1", "meaning_fa": "شرط عمود بودن دو خط"},
+    {"latex": "d = \\frac{|c_2 - c_1|}{\\sqrt{a^2 + b^2}}", "meaning_fa": "فاصلهٔ بین دو خط موازی"}
+  ],
+  "terms": [
+    {"fa": "خطوط موازی", "en": "parallel lines"},
+    {"fa": "خطوط عمود", "en": "perpendicular lines"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱ (الف)",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ $A(3,1)$ و $B(-2,-4)$ و نقطهٔ وسطی AB.",
+      "solution_steps_fa": [
+        "$d = \\sqrt{(-5)^2 + (-5)^2} = \\sqrt{50} = 5\\sqrt{2}$",
+        "نقطهٔ وسطی: $(\\frac{3-2}{2}, \\frac{1-4}{2}) = (\\frac{1}{2}, -\\frac{3}{2})$"
+      ],
+      "answer": "$5\\sqrt{2} \\approx 7.07$ ؛ نقطهٔ وسطی $(\\frac{1}{2}, -\\frac{3}{2})$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱ (ب)",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ $A(-8,3)$ و $B(2,-1)$ و نقطهٔ وسطی AB.",
+      "solution_steps_fa": [
+        "$d = \\sqrt{10^2 + (-4)^2} = \\sqrt{116} = 2\\sqrt{29}$",
+        "نقطهٔ وسطی: $(\\frac{-8+2}{2}, \\frac{3-1}{2}) = (-3, 1)$"
+      ],
+      "answer": "$2\\sqrt{29} \\approx 10.77$ ؛ نقطهٔ وسطی $(-3,1)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱ (ج)",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ $A(-\\sqrt{5}, -\\frac{1}{3})$ و $B(-3\\sqrt{5}, 5)$ و نقطهٔ وسطی AB.",
+      "solution_steps_fa": [
+        "$\\Delta x = -2\\sqrt{5}$ پس $(\\Delta x)^2 = 20$ ؛ $\\Delta y = \\frac{16}{3}$ پس $(\\Delta y)^2 = \\frac{256}{9}$",
+        "$d^2 = \\frac{180}{9} + \\frac{256}{9} = \\frac{436}{9}$ پس $d = \\frac{\\sqrt{436}}{3} = \\frac{2\\sqrt{109}}{3}$",
+        "نقطهٔ وسطی: $(\\frac{-4\\sqrt{5}}{2}, \\frac{-\\frac{1}{3} + 5}{2}) = (-2\\sqrt{5}, \\frac{7}{3})$"
+      ],
+      "answer": "$\\frac{2\\sqrt{109}}{3} \\approx 6.96$ ؛ نقطهٔ وسطی $(-2\\sqrt{5}, \\frac{7}{3})$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "$A(\\sqrt{3},-1)$، $B(0,2)$ و $C(h,-2)$ رأس‌های مثلث قایم‌الزاویه با $\\hat{A} = 90^\\circ$ اند. h را دریابید.",
+      "solution_steps_fa": [
+        "میل AB: $\\frac{2+1}{0-\\sqrt{3}} = -\\sqrt{3}$",
+        "میل AC: $\\frac{-2+1}{h-\\sqrt{3}} = \\frac{-1}{h-\\sqrt{3}}$",
+        "چون AB بر AC عمود است: $-\\sqrt{3} \\cdot \\frac{-1}{h-\\sqrt{3}} = -1$",
+        "$\\sqrt{3} = -(h - \\sqrt{3})$ پس $h = 0$",
+        "امتحان: میل AC $= \\frac{1}{\\sqrt{3}}$ و $(-\\sqrt{3})(\\frac{1}{\\sqrt{3}}) = -1$"
+      ],
+      "answer": "$h = 0$ یعنی $C(0,-2)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "نقطهٔ P را طوری دریابید که خط AB را با $A(1,4)$ و $B(5,6)$ به نسبت $\\frac{AP}{PB} = 2$ تقسیم کند.",
+      "solution_steps_fa": [
+        "$r = 2$: $x = \\frac{rx_2 + x_1}{1+r} = \\frac{2 \\cdot 5 + 1}{3} = \\frac{11}{3}$",
+        "$y = \\frac{2 \\cdot 6 + 4}{3} = \\frac{16}{3}$"
+      ],
+      "answer": "$P(\\frac{11}{3}, \\frac{16}{3})$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "معادلهٔ خطی که میل آن $-2$ است و محور Y را در ۳ قطع می‌کند.",
+      "solution_steps_fa": [
+        "$y = mx + b$ با $m = -2$ و $b = 3$"
+      ],
+      "answer": "$y = -2x + 3$ یا $2x + y - 3 = 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "میل خطوط $x = \\sqrt{7}$ و $y = -\\sqrt{7}$ را دریابید.",
+      "solution_steps_fa": [
+        "$x = \\sqrt{7}$ یک خط عمودی (موازی محور Y) است؛ میل آن تعریف نشده است.",
+        "$y = -\\sqrt{7}$ یک خط افقی (موازی محور X) است؛ میل آن صفر است."
+      ],
+      "answer": "$x = \\sqrt{7}$: میل تعریف نشده ؛ $y = -\\sqrt{7}$: میل $0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "question",
+      "problem_fa": "میل محور Y مساوی است به: (a) $-1$ (b) $1$ (c) $0$ (d) تعریف نشده است.",
+      "solution_steps_fa": [
+        "محور Y عمودی است و برای آن $x_2 - x_1 = 0$، پس کسر میل تعریف نمی‌شود."
+      ],
+      "answer": "(d) تعریف نشده است",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "question",
+      "problem_fa": "میل یک خط $m = \\frac{2}{3}$ است. میل خط عمود بر آن: (a) $\\frac{2}{3}$ (b) $-\\frac{2}{3}$ (c) $\\frac{3}{2}$ (d) $-\\frac{3}{2}$",
+      "solution_steps_fa": [
+        "$m_2 = -\\frac{1}{m_1} = -\\frac{3}{2}$"
+      ],
+      "answer": "(d) $-\\frac{3}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "میل خطی که از هر جوره نقطه می‌گذرد: $(-2,4)$ و $(5,11)$ ؛ $(3,-2)$ و $(2,7)$ ؛ $(4,6)$ و $(4,8)$.",
+      "solution_steps_fa": [
+        "$m = \\frac{11 - 4}{5 + 2} = \\frac{7}{7} = 1$",
+        "$m = \\frac{7 + 2}{2 - 3} = \\frac{9}{-1} = -9$",
+        "$m = \\frac{8 - 6}{4 - 4} = \\frac{2}{0}$ ؛ خط عمودی است و میل تعریف نشده است."
+      ],
+      "answer": "$1$ ؛ $-9$ ؛ تعریف نشده",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹",
+      "kind": "question",
+      "problem_fa": "خطوط $4x - y + 2 = 0$ و $12x - 3y + 1 = 0$ باهم: (a) موازی اند (b) عمود اند (c) نه موازی اند و نه عمود.",
+      "solution_steps_fa": [
+        "میل خط اول: $y = 4x + 2$ پس $m_1 = 4$",
+        "میل خط دوم: $y = 4x + \\frac{1}{3}$ پس $m_2 = 4$",
+        "میل‌ها مساوی و نقاط تقاطع با محور Y متفاوت اند ($2$ و $\\frac{1}{3}$)؛ پس موازی اند."
+      ],
+      "answer": "(a) موازی اند",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ بین خطوط $3x - 4y + 3 = 0$ و $3x - 4y + 7 = 0$.",
+      "solution_steps_fa": [
+        "دو خط موازی اند (ضرایب x و y یکی است).",
+        "$d = \\frac{|7 - 3|}{\\sqrt{3^2 + (-4)^2}} = \\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{4}{5} = 0.8$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

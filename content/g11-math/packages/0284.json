@@ -1,0 +1,37 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 284,
+  "printed_page": 275,
+  "page_kind": "review",
+  "chapter": 7,
+  "section_fa": "نکات مهم فصل هفتم",
+  "summary_fa": "این صفحه آغاز خلاصهٔ مهم‌ترین مطالب فصل هفتم (وکتورها) است. اول تعریف وکتور در سیستم مختصات قایم مرور می‌شود: وکتور مجموعهٔ همهٔ تیرهای هم‌طول، موازی و هم‌جهت است؛ وکتورهای هم‌طول و هم‌جهت را وکتورهای مساوی (ممثل همدیگر) و وکتوری را که از مبدأ شروع شود شعاع وکتور می‌گویند. بعد فورمول‌های فاصله و نقطهٔ وسطی بین دو نقطه، تعریف وکتور واحد و وکتورهای واحد $\\vec{i}$، $\\vec{j}$ در مستوی و $\\vec{i}$، $\\vec{j}$، $\\vec{k}$ در فضا یادآوری می‌شوند. در آخر تعریف حاصل ضرب سکالری دو وکتور با کوساین زاویهٔ بین آن‌ها آمده است که در صفحه بعد با حاصل ضرب وکتوری ادامه می‌یابد.",
+  "key_points_fa": [
+    "وکتور: مجموعهٔ تیرهای هم‌طول، موازی و هم‌جهت؛ وکتوری که از مبدأ شروع شود شعاع وکتور (position vector) است.",
+    "وکتور مستوی: $\\vec{a}=\\begin{pmatrix} a_x \\\\ a_y \\end{pmatrix}$ که $a_x$ فاصله روی محور x و $a_y$ فاصله روی محور y است.",
+    "برای $P(x_1,y_1)$ و $Q(x_2,y_2)$: $\\vec{PQ}=\\begin{pmatrix} x_2-x_1 \\\\ y_2-y_1 \\end{pmatrix}$.",
+    "وکتور واحد: وکتوری به طول ۱ در جهت یک وکتور داده شده.",
+    "حاصل ضرب سکالری: $\\vec{u}\\cdot\\vec{v}=|\\vec{u}||\\vec{v}|\\cos\\theta$ و نتیجهٔ آن یک عدد است."
+  ],
+  "formulas": [
+    {"latex": "\\vec{a}=\\vec{PQ}=\\begin{pmatrix} x_2-x_1 \\\\ y_2-y_1 \\end{pmatrix}", "meaning_fa": "وکتوری که از P شروع و به Q ختم می‌شود"},
+    {"latex": "|\\vec{a}|=\\sqrt{a_x^2+a_y^2}=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}", "meaning_fa": "طول وکتور و فاصلهٔ بین دو نقطه"},
+    {"latex": "M=\\begin{pmatrix} \\frac{x_1+x_2}{2} \\\\ \\frac{y_1+y_2}{2} \\end{pmatrix}", "meaning_fa": "مختصات نقطهٔ وسطی PQ"},
+    {"latex": "\\vec{i}=\\begin{pmatrix} 1 \\\\ 0 \\\\ 0 \\end{pmatrix},\\ \\vec{j}=\\begin{pmatrix} 0 \\\\ 1 \\\\ 0 \\end{pmatrix},\\ \\vec{k}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}", "meaning_fa": "وکتورهای واحد در جهت محورهای x، y و z در فضا"},
+    {"latex": "\\vec{u}\\cdot\\vec{v}=|\\vec{u}|\\,|\\vec{v}|\\cos\\theta", "meaning_fa": "حاصل ضرب سکالری دو وکتور خلاف صفر"}
+  ],
+  "terms": [
+    {"fa": "شعاع وکتور", "en": "position vector"},
+    {"fa": "وکتور واحد", "en": "unit vector"},
+    {"fa": "نقطهٔ وسطی", "en": "midpoint"},
+    {"fa": "حاصل ضرب سکالری", "en": "dot (scalar) product"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب حاصل ضرب سکالری را به اشتباه با علامهٔ × چاپ کرده است ($\\vec{u}\\times\\vec{v}=|\\vec{u}||\\vec{v}|\\cos\\theta$)؛ درست آن $\\vec{u}\\cdot\\vec{v}$ است. در وکتور $\\vec{PQ}$ علامهٔ منفی بین $x_2$ و $x_1$ چاپ نشده است. عنوان روی صفحه «نکات مهم فصل» است و در فهرست «نکات مهم فصل هفتم»."
+}

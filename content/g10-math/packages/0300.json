@@ -1,0 +1,59 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 300,
+  "printed_page": 293,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "تقسیم دو عدد مختلط",
+  "summary_fa": "این درس تقسیم دو عدد مختلط را نشان می‌دهد. در کسر $\\frac{a+bi}{c+di}$ مخرج یک قسمت موهومی دارد، پس جواب به شکل معیاری نیست. برای این‌که مخرج حقیقی شود، صورت و مخرج را در مزدوج مخرج ($c-di$) ضرب می‌کنیم؛ کتاب این کار را «گویا کردن» (Rationalization) می‌نامد. مخرج به $c^2+d^2$ تبدیل می‌شود و بعد قسمت حقیقی و موهومی جواب از هم جدا نوشته می‌شوند. مثال ۱ کسر $\\frac{4+3i}{2+5i}$ را قدم به قدم حل می‌کند. پرسش آغاز درس $\\frac{-2-2i}{-5+6i}$ و یک فعالیت $\\frac{1+i}{1-i}$ را می‌خواهند.",
+  "key_points_fa": [
+    "برای تقسیم، صورت و مخرج را در مزدوج مخرج ضرب کنید.",
+    "مخرج به عدد حقیقی $c^2+d^2$ تبدیل می‌شود.",
+    "صورت را ضرب کنید، $i^2=-1$ بگذارید و جواب را به شکل $\\frac{p}{q}+\\frac{r}{q}i$ جدا کنید.",
+    "$\\frac{a+bi}{c+di}=\\frac{(ac+bd)+(bc-ad)i}{c^2+d^2}$"
+  ],
+  "formulas": [
+    {"latex": "\\frac{a+bi}{c+di}=\\frac{(a+bi)(c-di)}{(c+di)(c-di)}=\\frac{(ac+bd)+(bc-ad)i}{c^2+d^2}", "meaning_fa": "تقسیم دو عدد مختلط با ضرب در مزدوج مخرج"}
+  ],
+  "terms": [
+    {"fa": "تقسیم دو عدد مختلط", "en": "division of two complex numbers"},
+    {"fa": "خارج قسمت", "en": "quotient"},
+    {"fa": "گویا کردن (حقیقی ساختن مخرج)", "en": "rationalization"},
+    {"fa": "مزدوج مخرج", "en": "conjugate of the denominator"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "illustration", "description_fa": "دایرهٔ آبی با کسر $\\frac{-2-2i}{-5+6i}=?$؛ همان پرسش آغاز درس که با ضرب صورت و مخرج در $-5-6i$ حل می‌شود و جواب آن $-\\frac{2}{61}+\\frac{22}{61}i$ است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "حاصل تقسیم $\\frac{4+3i}{2+5i}$ را به دست آرید.",
+      "steps_fa": ["مزدوج مخرج $2-5i$ است؛ صورت و مخرج را در آن ضرب می‌کنیم.", "صورت: $(4+3i)(2-5i)=8-20i+6i-15i^2=8-14i+15=23-14i$", "مخرج: $(2+5i)(2-5i)=4-25i^2=4+25=29$", "$\\frac{23-14i}{29}=\\frac{23}{29}-\\frac{14}{29}i$"],
+      "answer": "$\\frac{23}{29}-\\frac{14}{29}i$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغاز درس",
+      "kind": "question",
+      "problem_fa": "خارج قسمت $\\frac{-2-2i}{-5+6i}$ را به دست آرید.",
+      "solution_steps_fa": ["مزدوج مخرج: $-5-6i$", "صورت: $(-2-2i)(-5-6i)=10+12i+10i+12i^2=10+22i-12=-2+22i$", "مخرج: $(-5)^2+6^2=25+36=61$", "$\\frac{-2+22i}{61}=-\\frac{2}{61}+\\frac{22}{61}i$"],
+      "answer": "$-\\frac{2}{61}+\\frac{22}{61}i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "خارج قسمت $\\frac{1+i}{1-i}$ را به دست آرید و به شکل معیاری بنویسید.",
+      "solution_steps_fa": ["صورت و مخرج را در $1+i$ ضرب می‌کنیم.", "صورت: $(1+i)^2=1+2i+i^2=2i$", "مخرج: $(1-i)(1+i)=1+1=2$", "$\\frac{2i}{2}=i$"],
+      "answer": "$0+1i=i$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

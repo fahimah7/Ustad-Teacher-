@@ -1,0 +1,79 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 85,
+  "printed_page": 78,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "یافتن ناحیهٔ تعریف یک تابع",
+  "summary_fa": "این صفحه حل مثال ۱ را تمام می‌کند و روش یافتن ناحیهٔ تعریف را با چند مثال دیگر تمرین می‌دهد. برای $g(x)=\\sqrt{x}$ زیر جذر باید غیر منفی باشد، پس ناحیهٔ تعریف $[0,\\infty)$ است. تابع پولینومی $h(x)=x^2-7x$ برای هر عدد حقیقی تعریف است. در $k(x)=\\frac{6x}{x^2-9}$ مخرج را تجزیه می‌کنیم: $(x-3)(x+3)$، پس ۳ و ۳- حذف می‌شوند. در $R(x)=\\sqrt{3x+12}$ نامساوات $3x+12 \\geq 0$ را حل می‌کنیم و $x \\geq -4$ به دست می‌آید. بعد یک فعالیت و مثال‌های ۲ و ۳ آمده‌اند؛ در آخرین مثال زیر جذر یک افادهٔ درجه دوم است و ناحیهٔ تعریف دو قسمت جدا دارد. جواب‌ها به دو شکل ست و انتروال نوشته می‌شوند.",
+  "key_points_fa": [
+    "تابع پولینومی ناحیهٔ تعریف $\\mathbb{R}=(-\\infty,\\infty)$ دارد.",
+    "تابع کسری: مخرج را تجزیه کنید و صفرهای آن را از $\\mathbb{R}$ حذف کنید.",
+    "تابع جذری: نامساوات «زیر جذر $\\geq 0$» را حل کنید.",
+    "ناحیهٔ تعریف را می‌توان به شکل ست، مثلاً $\\{x \\in \\mathbb{R} \\mid x \\geq 3\\}$، یا انتروال $[3,\\infty)$ نوشت."
+  ],
+  "formulas": [
+    {"latex": "\\mathrm{Dom}\\,\\sqrt{x} = [0, \\infty)", "meaning_fa": "ناحیهٔ تعریف تابع جذر مربع"},
+    {"latex": "\\mathrm{Dom}\\,\\frac{6x}{x^2-9} = \\{x \\in \\mathbb{R} \\mid x \\neq 3,\\ x \\neq -3\\}", "meaning_fa": "صفرهای مخرج حذف می‌شوند"},
+    {"latex": "\\mathrm{Dom}\\,\\sqrt{3x+12} = [-4, \\infty)", "meaning_fa": "از $3x+12 \\geq 0$ به دست می‌آید"}
+  ],
+  "terms": [
+    {"fa": "انتروال", "en": "interval"},
+    {"fa": "ناحیهٔ تعریف", "en": "domain"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (ادامه)",
+      "problem_fa": "ناحیهٔ تعریف $g(x)=\\sqrt{x}$، $h(x)=x^2-7x$، $k(x)=\\frac{6x}{x^2-9}$ و $R(x)=\\sqrt{3x+12}$.",
+      "steps_fa": [
+        "$g$: باید $x \\geq 0$ باشد، پس $\\mathrm{Dom}\\, g = [0, \\infty)$",
+        "$h$: برای هر x تعریف است، پس $\\mathrm{Dom}\\, h = \\mathbb{R} = (-\\infty, \\infty)$",
+        "$k(x) = \\frac{6x}{(x-3)(x+3)}$، پس $\\mathrm{Dom}\\, k = \\{x \\in \\mathbb{R} \\mid x \\neq 3,\\ x \\neq -3\\}$",
+        "$R$: $3x + 12 \\geq 0 \\Rightarrow x \\geq -4$، پس $\\mathrm{Dom}\\, R = [-4, \\infty)$"
+      ],
+      "answer": "$[0,\\infty)$ ، $\\mathbb{R}$ ، $\\mathbb{R}-\\{-3,3\\}$ ، $[-4,\\infty)$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "ناحیهٔ تعریف $y=\\sqrt{x-3}$ را دریابید.",
+      "steps_fa": [
+        "$x - 3 \\geq 0 \\Rightarrow x \\geq 3$"
+      ],
+      "answer": "$\\mathrm{Dom}\\, y = \\{x \\in \\mathbb{R} \\mid x \\geq 3\\} = [3, \\infty)$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "ناحیهٔ تعریف $f(x)=\\sqrt{x-2}$، $g(x)=\\frac{2x+3}{x-4}$ و $h(x)=\\sqrt{x^2-2x-3}$ را دریابید.",
+      "steps_fa": [
+        "$f$: $x - 2 \\geq 0 \\Rightarrow x \\geq 2$، پس $[2, \\infty)$",
+        "$g$: $x - 4 \\neq 0$، پس $\\mathbb{R} - \\{4\\} = (-\\infty, 4) \\cup (4, \\infty)$",
+        "$h$: $x^2 - 2x - 3 = (x-3)(x+1) \\geq 0$؛ حاصل‌ضرب وقتی غیر منفی است که $x \\leq -1$ یا $x \\geq 3$ باشد.",
+        "پس $\\mathrm{Dom}\\, h = (-\\infty, -1] \\cup [3, \\infty)$"
+      ],
+      "answer": "$[2,\\infty)$ ، $\\mathbb{R}-\\{4\\}$ ، $(-\\infty,-1]\\cup[3,\\infty)$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "ناحیهٔ تعریف $f(x)=x^2+3x-17$، $g(x)=\\frac{5x}{x^2-49}$ و $h(x)=\\sqrt{9x-27}$ را دریابید.",
+      "solution_steps_fa": [
+        "$f$ پولینوم است، پس $\\mathrm{Dom}\\, f = \\mathbb{R}$",
+        "$g$: $x^2 - 49 = (x-7)(x+7) \\neq 0$، پس $x \\neq 7$ و $x \\neq -7$",
+        "$h$: $9x - 27 \\geq 0 \\Rightarrow x \\geq 3$"
+      ],
+      "answer": "$\\mathbb{R}$ ، $\\mathbb{R}-\\{-7,7\\}$ ، $[3,\\infty)$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در مثال ۳ کتاب ناحیهٔ تعریف f را $[2,\\infty]$ چاپ کرده است؛ شکل درست $[2,\\infty)$ است، چون بی‌نهایت هیچ‌گاه با قوس بسته نوشته نمی‌شود."
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 183,
+  "printed_page": 176,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مشتق توابع اکسپوننشیل و لوگاریتمی",
+  "summary_fa": "این صفحه دو ثبوت با تعریف مشتق (لیمت) دارد. ثبوت دوم نشان می‌دهد که مشتق $\\ln x$ برابر $\\frac{1}{x}$ است: کسر تفاضلی را با خواص لوگاریتم ساده می‌کنیم، $\\frac{1}{x}$ را بیرون می‌آوریم، متحول $u = \\frac{x}{h}$ را وضع می‌کنیم که با $h \\to 0$ به بی‌نهایت می‌رود، و از لیمت مشهور $\\lim_{u\\to\\infty}(1+\\frac{1}{u})^u = e$ استفاده می‌کنیم. بعد یک قضیه با دو حکم بیان می‌شود: مشتق $\\log_a x$ و مشتق $\\log_a g(x)$. ثبوت حکم اول با همان روش (وضع $u = \\frac{x}{h}$) در همین صفحه آمده و ثبوت حکم دوم در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "برای ثبوت از تعریف مشتق استفاده می‌شود: $f'(x) = \\lim_{h\\to 0}\\frac{f(x+h)-f(x)}{h}$",
+    "گام کلیدی: $\\ln(x+h) - \\ln x = \\ln(1 + \\frac{h}{x})$",
+    "با وضع $u = \\frac{x}{h}$، وقتی $h \\to 0$ می‌شود $u \\to \\infty$",
+    "$\\lim_{u\\to\\infty}(1+\\frac{1}{u})^u = e$ و $\\ln e = 1$",
+    "$(\\log_a x)' = \\frac{1}{x}\\log_a e$"
+  ],
+  "formulas": [
+    {"latex": "(\\ln x)' = \\frac{1}{x}\\ln e = \\frac{1}{x}", "meaning_fa": "مشتق لوگاریتم طبیعی"},
+    {"latex": "\\lim_{u \\to \\infty}\\left(1 + \\frac{1}{u}\\right)^u = e", "meaning_fa": "لیمتی که در ثبوت از آن استفاده می‌شود"},
+    {"latex": "f(x) = \\log_a x \\Rightarrow f'(x) = \\frac{1}{x}\\log_a e", "meaning_fa": "قضیه ۱: مشتق لوگاریتم با قاعدهٔ a"},
+    {"latex": "(\\log_a g(x))' = \\frac{g'(x)}{g(x)}\\log_a e", "meaning_fa": "قضیه ۲: مشتق لوگاریتم یک تابع"}
+  ],
+  "terms": [
+    {"fa": "قضیه", "en": "theorem"},
+    {"fa": "مشتق‌پذیر", "en": "differentiable"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت ۲: مشتق $\\ln x$",
+      "problem_fa": "ثابت کنید $(\\ln x)' = \\frac{1}{x}$.",
+      "steps_fa": [
+        "$(\\ln x)' = \\lim_{h\\to 0}\\frac{\\ln(x+h) - \\ln x}{h} = \\lim_{h\\to 0}\\frac{1}{h}\\ln\\left(1+\\frac{h}{x}\\right)$",
+        "$\\frac{1}{h} = \\frac{1}{x}\\cdot\\frac{x}{h}$، پس: $= \\frac{1}{x}\\lim_{h\\to 0}\\ln\\left(1+\\frac{h}{x}\\right)^{\\frac{x}{h}}$",
+        "وضع می‌کنیم $u = \\frac{x}{h}$؛ پس $\\frac{h}{x} = \\frac{1}{u}$ و وقتی $h \\to 0$، $u \\to \\infty$",
+        "$= \\frac{1}{x}\\ln\\lim_{u\\to\\infty}\\left(1+\\frac{1}{u}\\right)^u = \\frac{1}{x}\\ln e = \\frac{1}{x}$"
+      ],
+      "answer": "$(\\ln x)' = \\frac{1}{x}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت قضیهٔ ۱",
+      "problem_fa": "ثابت کنید اگر $f(x) = \\log_a x$ باشد، $f'(x) = \\frac{1}{x}\\log_a e$ است.",
+      "steps_fa": [
+        "$f'(x) = \\lim_{h\\to 0}\\frac{\\log_a(x+h) - \\log_a x}{h} = \\lim_{h\\to 0}\\frac{1}{h}\\log_a\\left(1+\\frac{h}{x}\\right)$",
+        "$= \\frac{1}{x}\\lim_{h\\to 0}\\log_a\\left(1+\\frac{h}{x}\\right)^{\\frac{x}{h}}$",
+        "با وضع $u = \\frac{x}{h}$ ($u \\to \\infty$): $= \\frac{1}{x}\\log_a\\lim_{u\\to\\infty}\\left(1+\\frac{1}{u}\\right)^u = \\frac{1}{x}\\log_a e$"
+      ],
+      "answer": "$(\\log_a x)' = \\frac{1}{x}\\log_a e$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب دو اشتباه چاپی کوچک هست: در تعریف مشتق زیر lim به جای $h \\to 0$ نوشته شده $x \\to 0$، و در سطر آخر به جای $u \\to \\infty$ نوشته شده $h \\to 0$. در یادداشت‌ها شکل درست آمده است."
+}

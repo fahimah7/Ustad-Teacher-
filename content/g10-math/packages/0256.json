@@ -1,0 +1,60 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 256,
+  "printed_page": 249,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "طول قوس (Arc length)",
+  "summary_fa": "درس تازه: طول قوس دایره. پرسش آغازین: اگر شعاع دایره ۵ سانتی‌متر باشد، طول قوس مقابل زاویهٔ مرکزی $45^\\circ$ چند است؟ ایدهٔ اصلی: در دایره‌های هم‌شعاع، طول قوس با اندازهٔ قوس (زاویهٔ مرکزی) متناسب است؛ اگر زاویه دو برابر شود، طول قوس هم دو برابر می‌شود. پس نسبت طول قوس به زاویه‌اش با نسبت محیط کامل دایره به $360^\\circ$ برابر است. با گذاشتن محیط $C = 2\\pi R$ فورمول $L = \\pi R\\frac{\\theta}{180^\\circ}$ برای زاویهٔ درجه‌ای به دست می‌آید. اگر زاویه به رادیان باشد فورمول ساده‌تر می‌شود: $L = R\\theta$. در پایان صفحه مثال ۱ مطرح می‌شود (قوس مقابل $45^\\circ$ در دایرهٔ ۱۴ سانتی‌متری) که حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "طول قوس با زاویهٔ مرکزی متناسب است (در شعاع ثابت).",
+    "زاویه به درجه: $L = \\frac{\\theta}{360^\\circ}\\cdot 2\\pi R = \\pi R\\frac{\\theta}{180^\\circ}$",
+    "زاویه به رادیان: $L = R\\theta$",
+    "پیش از استفاده از $L = R\\theta$، زاویهٔ درجه‌ای را به رادیان بدل کنید: $\\theta_{rad} = \\theta^\\circ\\cdot\\frac{\\pi}{180^\\circ}$."
+  ],
+  "formulas": [
+    {"latex": "\\frac{\\overset{\\frown}{AB}}{m\\overset{\\frown}{AB}} = \\frac{\\overset{\\frown}{A'B'}}{m\\overset{\\frown}{A'B'}}", "meaning_fa": "در دایره‌های هم‌شعاع نسبت طول قوس به اندازهٔ آن ثابت است"},
+    {"latex": "\\frac{L}{\\theta^\\circ} = \\frac{C}{360^\\circ} = \\frac{2\\pi R}{360^\\circ}", "meaning_fa": "تناسب طول قوس و محیط دایره"},
+    {"latex": "L = \\pi R\\frac{\\theta^\\circ}{180^\\circ}", "meaning_fa": "طول قوس وقتی زاویه به درجه است"},
+    {"latex": "L = R\\theta", "meaning_fa": "طول قوس وقتی زاویه به رادیان است"}
+  ],
+  "terms": [
+    {"fa": "طول قوس", "en": "arc length"},
+    {"fa": "زاویهٔ مرکزی", "en": "central angle"},
+    {"fa": "رادیان", "en": "radian"},
+    {"fa": "محیط دایره", "en": "circumference"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.08, 0.47, 0.32], "kind": "diagram", "description_fa": "دو قطاع با شعاع مساوی $R$: قطاع کوچک آبی با مرکز $O$ و قوس $AB$، و قطاع بزرگ بنفش با مرکز $O'$ و قوس بزرگ $A'B'$. نشان می‌دهد که با شعاع یکسان، قوسی که زاویهٔ مرکزی بزرگ‌تر دارد طولانی‌تر است؛ یعنی طول قوس با زاویه متناسب است."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغازین",
+      "kind": "question",
+      "problem_fa": "اگر شعاع دایره $5\\,cm$ باشد، طول قوس مقابل زاویهٔ مرکزی $45^\\circ$ چند سانتی‌متر است؟",
+      "solution_steps_fa": [
+        "$45^\\circ = \\frac{\\pi}{4}$ رادیان",
+        "$L = R\\theta = 5\\cdot\\frac{\\pi}{4} = \\frac{5\\pi}{4}\\,cm \\approx 3.93\\,cm$"
+      ],
+      "answer": "$\\frac{5\\pi}{4}\\,cm \\approx 3.93\\,cm$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "kind": "question",
+      "problem_fa": "طول قوسی را که مقابل زاویهٔ مرکزی $45^\\circ$ است دریابید، اگر شعاع دایره $14\\,cm$ باشد.",
+      "solution_steps_fa": [
+        "$L = \\frac{45^\\circ}{180^\\circ}\\cdot\\pi\\cdot 14\\,cm = \\frac{14}{4}\\pi\\,cm$",
+        "با $\\pi \\approx \\frac{22}{7}$: $L \\approx \\frac{14}{4}\\cdot\\frac{22}{7} = 11\\,cm$ (حل کتاب در صفحهٔ بعد)"
+      ],
+      "answer": "$3.5\\pi\\,cm \\approx 11\\,cm$",
+      "solution_source": "book"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

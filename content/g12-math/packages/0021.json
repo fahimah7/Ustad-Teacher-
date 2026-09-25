@@ -1,0 +1,131 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 21,
+  "printed_page": 14,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "شکل مبهم $\\frac{0}{0}$",
+  "summary_fa": "این صفحه روش رفع شکل مبهم $\\frac{0}{0}$ را کامل می‌کند: اگر با وضع کردن قیمت، صورت و مخرج هر دو صفر شوند، اول تابع را تجزیه می‌کنیم تا عاملی که صفر می‌سازد (فکتور خبیثه) پیدا شود، آن را از صورت و مخرج حذف می‌کنیم و بعد قیمت را وضع می‌کنیم. سه مثال حل شده است: در دو مثال اول صورت با تجزیه ساده می‌شود و در مثال سوم که جذر دارد، صورت و مخرج در مزدوج صورت ضرب می‌شوند. در پایان صفحه یک تمرین با پنج لیمت آمده است که همه شکل $\\frac{0}{0}$ دارند و با تجزیه، مزدوج یا یک‌جا کردن کسرها حل می‌شوند.",
+  "key_points_fa": [
+    "اول قیمت را وضع کنید؛ اگر نتیجه $\\frac{0}{0}$ شد، لیمت مبهم است.",
+    "با تجزیه، عامل مشترک (فکتور خبیثه) را پیدا و حذف کنید، بعد دوباره قیمت را وضع کنید.",
+    "اگر جذر در صورت یا مخرج باشد، صورت و مخرج را در مزدوج ضرب کنید.",
+    "اگر کسرهای کوچک در صورت باشند، اول آن‌ها را با مخرج مشترک یک‌جا کنید."
+  ],
+  "formulas": [
+    {"latex": "a^2 - b^2 = (a-b)(a+b)", "meaning_fa": "تجزیهٔ تفاضل مربعات؛ برای حذف فکتور خبیثه"},
+    {"latex": "(\\sqrt{x} - a)(\\sqrt{x} + a) = x - a^2", "meaning_fa": "ضرب در مزدوج، جذر را از بین می‌برد"}
+  ],
+  "terms": [
+    {"fa": "شکل مبهم", "en": "indeterminate form"},
+    {"fa": "فکتور خبیثه (عامل ابهام)", "en": "common vanishing factor"},
+    {"fa": "مزدوج", "en": "conjugate"},
+    {"fa": "تجزیه", "en": "factorization"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\lim_{x \\to -2} \\frac{x^2 - 4}{x + 2}$",
+      "steps_fa": [
+        "با وضع $x = -2$ نتیجه $\\frac{0}{0}$ است.",
+        "$x^2 - 4 = (x-2)(x+2)$، پس $\\frac{(x-2)(x+2)}{x+2} = x - 2$",
+        "$\\lim_{x \\to -2} (x-2) = -4$"
+      ],
+      "answer": "$-4$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\lim_{x \\to 2} \\frac{x^2 - 6x + 8}{x - 2}$",
+      "steps_fa": [
+        "با وضع $x = 2$: $\\frac{4 - 12 + 8}{0} = \\frac{0}{0}$",
+        "$x^2 - 6x + 8 = (x-2)(x-4)$",
+        "$\\lim_{x \\to 2} (x - 4) = -2$"
+      ],
+      "answer": "$-2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "$\\lim_{x \\to 16} \\frac{\\sqrt{x} - 4}{x - 16}$",
+      "steps_fa": [
+        "با وضع $x = 16$ نتیجه $\\frac{0}{0}$ است.",
+        "صورت و مخرج را در $\\sqrt{x} + 4$ ضرب می‌کنیم: $\\frac{x - 16}{(x-16)(\\sqrt{x}+4)} = \\frac{1}{\\sqrt{x}+4}$",
+        "$\\frac{1}{\\sqrt{16} + 4} = \\frac{1}{8}$"
+      ],
+      "answer": "$\\frac{1}{8}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 3} \\frac{3 - x}{\\sqrt{x+1} - 2}$",
+      "solution_steps_fa": [
+        "با وضع $x = 3$ نتیجه $\\frac{0}{0}$ است.",
+        "صورت و مخرج را در $\\sqrt{x+1} + 2$ ضرب می‌کنیم؛ مخرج می‌شود $(x+1) - 4 = x - 3$",
+        "$\\frac{(3-x)(\\sqrt{x+1}+2)}{x-3} = -(\\sqrt{x+1} + 2)$",
+        "با وضع $x = 3$: $-(2 + 2) = -4$"
+      ],
+      "answer": "$-4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 1} \\frac{\\frac{5}{2x-3} + 5}{x^2 - 1}$",
+      "solution_steps_fa": [
+        "صورت را یک‌جا می‌کنیم: $\\frac{5 + 5(2x-3)}{2x-3} = \\frac{10x - 10}{2x-3} = \\frac{10(x-1)}{2x-3}$",
+        "مخرج: $x^2 - 1 = (x-1)(x+1)$",
+        "بعد از حذف $(x-1)$: $\\frac{10}{(2x-3)(x+1)}$",
+        "با وضع $x = 1$: $\\frac{10}{(-1)(2)} = -5$"
+      ],
+      "answer": "$-5$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 4} \\frac{x - 4}{\\sqrt{x} - 2}$",
+      "solution_steps_fa": [
+        "$x - 4 = (\\sqrt{x} - 2)(\\sqrt{x} + 2)$",
+        "بعد از حذف $(\\sqrt{x} - 2)$ باقی می‌ماند $\\sqrt{x} + 2$",
+        "با وضع $x = 4$: $2 + 2 = 4$"
+      ],
+      "answer": "$4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 2} \\frac{\\frac{2x}{x^2+1} - \\frac{4}{5}}{x - 2}$",
+      "solution_steps_fa": [
+        "صورت را یک‌جا می‌کنیم: $\\frac{10x - 4(x^2+1)}{5(x^2+1)} = \\frac{-2(2x^2 - 5x + 2)}{5(x^2+1)}$",
+        "$2x^2 - 5x + 2 = (2x-1)(x-2)$",
+        "بعد از حذف $(x-2)$: $\\frac{-2(2x-1)}{5(x^2+1)}$",
+        "با وضع $x = 2$: $\\frac{-2 \\cdot 3}{5 \\cdot 5} = -\\frac{6}{25}$"
+      ],
+      "answer": "$-\\frac{6}{25}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\frac{1}{x+3} - \\frac{1}{3}}{x}$",
+      "solution_steps_fa": [
+        "صورت را یک‌جا می‌کنیم: $\\frac{3 - (x+3)}{3(x+3)} = \\frac{-x}{3(x+3)}$",
+        "تقسیم بر $x$: $\\frac{-1}{3(x+3)}$",
+        "با وضع $x = 0$: $-\\frac{1}{9}$"
+      ],
+      "answer": "$-\\frac{1}{9}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 188,
+  "printed_page": 181,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مشتق توابع معکوس",
+  "summary_fa": "این صفحه قاعدهٔ مشتق تابع معکوس را معرفی می‌کند. اگر $y = f(x)$ و $x = g(y)$ معکوس هم باشند، مشتق y نسبت به x برابر معکوس (یک تقسیم بر) مشتق x نسبت به y است. دلیل آن از قاعدهٔ زنجیری می‌آید: حاصل ضرب $y'_x$ و $x'_y$ مساوی ۱ است. در مثال، مشتق $y = a^x$ از راه تابع معکوس آن $x = \\log_a y$ دوباره به دست می‌آید و همان جواب $a^x\\ln a$ حاصل می‌شود. بعد بخش مشتق توابع معکوس مثلثاتی شروع می‌شود و چهار قاعده برای مشتق $\\arcsin$، $\\arccos$، $\\arctan$ و $\\text{arccot}$ داده می‌شود؛ ثبوت آن‌ها در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "اگر $y = f(x) \\Leftrightarrow x = g(y)$، آنگاه $y'_x = \\frac{1}{x'_y}$ یعنی $\\frac{dy}{dx} = \\frac{1}{dx/dy}$",
+    "دلیل: $y'_x\\cdot x'_y = 1$ (قاعدهٔ زنجیری)",
+    "مشتق $\\arcsin$ و $\\arccos$ فقط در علامت فرق دارند؛ همین‌طور $\\arctan$ و $\\text{arccot}$.",
+    "شکل آغاز درس گراف $y = \\arctan x$ است که بین دو خط افقی $y = \\pm\\frac{\\pi}{2}$ قرار دارد."
+  ],
+  "formulas": [
+    {"latex": "\\frac{dy}{dx} = \\frac{1}{\\frac{dx}{dy}},\\quad y'_x = \\frac{1}{x'_y}", "meaning_fa": "مشتق تابع معکوس"},
+    {"latex": "(\\arcsin x)' = \\frac{1}{\\sqrt{1-x^2}}", "meaning_fa": "مشتق معکوس ساین"},
+    {"latex": "(\\arccos x)' = \\frac{-1}{\\sqrt{1-x^2}}", "meaning_fa": "مشتق معکوس کوساین"},
+    {"latex": "(\\arctan x)' = \\frac{1}{1+x^2}", "meaning_fa": "مشتق معکوس تانجانت"},
+    {"latex": "(\\text{arccot}\\, x)' = \\frac{-1}{1+x^2}", "meaning_fa": "مشتق معکوس کوتانجانت"}
+  ],
+  "terms": [
+    {"fa": "تابع معکوس", "en": "inverse function"},
+    {"fa": "توابع معکوس مثلثاتی", "en": "inverse trigonometric functions"},
+    {"fa": "تابع ضمنی", "en": "implicit function"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.14, 0.10, 0.45, 0.27], "kind": "graph", "description_fa": "منحنی S شکلی که از مبدأ می‌گذرد و بین دو خط افقی نقطه‌چین سرخ (بالا و پایین) محدود است؛ این گراف $y = \\arctan x$ با خطوط مجانب $y = \\pm\\frac{\\pi}{2}$ است. سوال آغاز درس دربارهٔ همین شکل است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "مشتق $y = a^x$ را با استفاده از مشتق تابع معکوس آن پیدا کنید.",
+      "steps_fa": [
+        "تابع معکوس: $x = \\log_a y$",
+        "$x'_y = \\frac{1}{y}\\log_a e$",
+        "$y'_x = \\frac{1}{x'_y} = \\frac{y}{\\log_a e} = y\\ln a$، چون $\\frac{1}{\\log_a e} = \\ln a$",
+        "$y' = a^x\\ln a$"
+      ],
+      "answer": "$y' = a^x\\ln a$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "شکل مقابل چه نوع تابعی را نشان می‌دهد؟",
+      "solution_steps_fa": [
+        "منحنی از مبدأ می‌گذرد، همیشه صعودی است و برای همهٔ x تعریف است.",
+        "قیمت‌های y هرگز از دو خط افقی بالا و پایین عبور نمی‌کنند؛ این خطوط $y = \\frac{\\pi}{2}$ و $y = -\\frac{\\pi}{2}$ هستند.",
+        "این ویژگی‌ها مربوط به تابع معکوس تانجانت است."
+      ],
+      "answer": "تابع $y = \\arctan x$ (معکوس تانجانت)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "نام تابع و قیمت خطوط افقی در شکل چاپ نشده؛ از روی شکل منحنی تشخیص داده شده است."
+}

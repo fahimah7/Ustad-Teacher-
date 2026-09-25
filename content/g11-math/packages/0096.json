@@ -1,0 +1,59 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 96,
+  "printed_page": 87,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم معادلات دو مجهولهٔ مثلثاتی",
+  "summary_fa": "سطر اول این صفحه حل مثال ۴ را تمام می‌کند: از $\\tan x = -\\sqrt{3}$ زاویهٔ $x = \\frac{2\\pi}{3}$ دریافت می‌شود. سپس نوع پنجم معرفی می‌شود: یک معادله $x \\pm y = \\alpha$ و معادلهٔ دیگر حاصل ضرب دو تانجنت $\\tan x\\tan y = a$ است؛ این نوع دو سیستم دارد. شرط امکان حل آن $-1 \\le \\frac{1+a}{1-a}\\cos\\alpha \\le 1$ داده شده است. مثال ۵ سیستم $x + y = \\frac{7\\pi}{6}$ و $\\tan x\\tan y = 0$ را شروع می‌کند. راه حل: تانجنت را به شکل ساین بر کوساین می‌نویسیم، حاصل ضرب $\\sin x\\sin y$ و $\\cos x\\cos y$ را با فورمول‌های تبدیل حاصل ضرب به مجموع باز می‌کنیم و به کسری می‌رسیم که فقط $x - y$ و $x + y$ در آن است. با گذاشتن قیمت معلوم $x + y$، کسر مساوی صفر قرار داده می‌شود؛ ادامه در صفحه بعد.",
+  "key_points_fa": [
+    "نوع پنجم: $x \\pm y = \\alpha$ همراه با $\\tan x\\tan y = a$.",
+    "شرط حل (برای $x + y = \\alpha$): $-1 \\le \\frac{1+a}{1-a}\\cos\\alpha \\le 1$، چون این عبارت همان $\\cos(x - y)$ است.",
+    "کلید حل: $\\tan x\\tan y = \\frac{\\cos(x-y) - \\cos(x+y)}{\\cos(x-y) + \\cos(x+y)}$؛ پس معادله فقط به $x - y$ و $x + y$ وابسته می‌شود.",
+    "در کتاب $7\\frac{\\pi}{6}$ یعنی $\\frac{7\\pi}{6}$ (هفت ضرب $\\frac{\\pi}{6}$)، نه عدد مخلوط.",
+    "یک کسر وقتی صفر است که صورت آن صفر و مخرج آن غیر صفر باشد."
+  ],
+  "formulas": [
+    {"latex": "\\begin{cases} x \\pm y = \\alpha \\\\ \\tan x\\tan y = a \\end{cases}", "meaning_fa": "شکل سیستم نوع پنجم ($\\alpha$ زاویهٔ معلوم، $a$ عدد معلوم)"},
+    {"latex": "-1 \\le \\frac{1+a}{1-a}\\cos\\alpha \\le 1", "meaning_fa": "شرط امکان حل نوع پنجم"},
+    {"latex": "\\sin x\\sin y = \\tfrac{1}{2}[\\cos(x-y) - \\cos(x+y)]", "meaning_fa": "تبدیل حاصل ضرب ساین‌ها به مجموع (I)"},
+    {"latex": "\\cos x\\cos y = \\tfrac{1}{2}[\\cos(x-y) + \\cos(x+y)]", "meaning_fa": "تبدیل حاصل ضرب کوساین‌ها به مجموع (II)"},
+    {"latex": "\\tan x\\tan y = \\frac{\\cos(x-y) - \\cos(x+y)}{\\cos(x-y) + \\cos(x+y)}", "meaning_fa": "نتیجهٔ تقسیم (I) بر (II)"}
+  ],
+  "terms": [
+    {"fa": "شرط امکان حل", "en": "condition for solvability"},
+    {"fa": "قوس", "en": "arc"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۴ (قدم آخر)",
+      "problem_fa": "تعیین x از $\\tan x = -\\sqrt{3}$ در سیستم $x - y = \\frac{\\pi}{3}$ و $\\tan x - \\tan y = -2\\sqrt{3}$",
+      "steps_fa": [
+        "$\\tan x = -\\sqrt{3} \\Rightarrow x = \\frac{2\\pi}{3}$",
+        "با $y = \\frac{\\pi}{3}$ (از صفحه قبل): $x - y = \\frac{\\pi}{3}$ درست است."
+      ],
+      "answer": "$x = \\frac{2\\pi}{3}$، $y = \\frac{\\pi}{3}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "سیستم $x + y = \\frac{7\\pi}{6}$ و $\\tan x\\tan y = 0$ را حل کنید.",
+      "steps_fa": [
+        "این سیستم از نوع پنجم است. $\\tan x\\tan y = \\frac{\\sin x\\sin y}{\\cos x\\cos y}$",
+        "با فورمول‌های (I) و (II): $\\tan x\\tan y = \\frac{\\frac{1}{2}[\\cos(x-y) - \\cos(x+y)]}{\\frac{1}{2}[\\cos(x-y) + \\cos(x+y)]}$",
+        "قیمت $x + y = \\frac{7\\pi}{6}$ را می‌گذاریم: $\\frac{\\cos(x-y) - \\cos\\frac{7\\pi}{6}}{\\cos(x-y) + \\cos\\frac{7\\pi}{6}} = 0$",
+        "(صفحه بعد) صورت باید صفر باشد: $\\cos(x-y) = \\cos\\frac{7\\pi}{6} = -\\frac{\\sqrt{3}}{2} \\Rightarrow x - y = \\frac{5\\pi}{6}$",
+        "از $x + y = \\frac{7\\pi}{6}$ و $x - y = \\frac{5\\pi}{6}$: $x = \\pi$ و $y = \\frac{\\pi}{6}$"
+      ],
+      "answer": "$x = \\pi$، $y = \\frac{\\pi}{6}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب $\\frac{7\\pi}{6}$ را به شکل $7\\frac{\\pi}{6}$ چاپ کرده است. دو قدم آخر مثال ۵ در صفحه بعد آمده‌اند. شرط چاپ‌شده برای حالت $x + y = \\alpha$ است (از آن $\\cos(x-y) = \\frac{1+a}{1-a}\\cos\\alpha$ به دست می‌آید)؛ برای $x - y = \\alpha$ رابطه $\\cos(x+y) = \\frac{1-a}{1+a}\\cos\\alpha$ می‌شود. این توضیح از ما است."
+}

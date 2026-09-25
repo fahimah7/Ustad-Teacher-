@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-math",
+  "chapter": 5,
+  "title": {
+    "en": "Logarithms",
+    "fa": "لوگاریتم"
+  },
+  "questions": [
+    {
+      "pdf_page": 170,
+      "q": {
+        "en": "Find $\\log_2 \\frac{1}{16}$.",
+        "fa": "قیمت $\\log_2 \\frac{1}{16}$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$-4$",
+          "fa": "$-4$"
+        },
+        {
+          "en": "$4$",
+          "fa": "$4$"
+        },
+        {
+          "en": "$\\frac{1}{4}$",
+          "fa": "$\\frac{1}{4}$"
+        },
+        {
+          "en": "$-8$",
+          "fa": "$-8$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$\\frac{1}{16} = 2^{-4}$ and $\\log_a a^k = k$, so $\\log_2 \\frac{1}{16} = -4$.",
+        "fa": "$\\frac{1}{16} = 2^{-4}$ است و $\\log_a a^k = k$، پس $\\log_2 \\frac{1}{16} = -4$."
+      },
+      "idea": {
+        "en": "Write the number as a power of the base; a fraction $\\frac{1}{a^k}$ equals $a^{-k}$, so its logarithm is negative.",
+        "fa": "عدد را به شکل توانی از قاعده بنویسید؛ کسر $\\frac{1}{a^k}$ مساوی $a^{-k}$ است، پس لوگاریتم آن منفی است."
+      }
+    },
+    {
+      "pdf_page": 178,
+      "q": {
+        "en": "Given $\\log 2 = 0.3010$ and $\\log 3 = 0.4771$, find $\\log 12$.",
+        "fa": "اگر $\\log 2 = 0.3010$ و $\\log 3 = 0.4771$ باشد، $\\log 12$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$0.7781$",
+          "fa": "$0.7781$"
+        },
+        {
+          "en": "$0.1436$",
+          "fa": "$0.1436$"
+        },
+        {
+          "en": "$1.0791$",
+          "fa": "$1.0791$"
+        },
+        {
+          "en": "$1.2040$",
+          "fa": "$1.2040$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$12 = 2^2 \\cdot 3$, so $\\log 12 = 2\\log 2 + \\log 3 = 0.6020 + 0.4771 = 1.0791$.",
+        "fa": "$12 = 2^2 \\cdot 3$ است، پس $\\log 12 = 2\\log 2 + \\log 3 = 0.6020 + 0.4771 = 1.0791$."
+      },
+      "idea": {
+        "en": "The logarithm of a product is the sum of the logarithms, and a power comes out as a factor: $\\log x^n = n\\log x$. Do not multiply the logarithms.",
+        "fa": "لوگاریتم حاصل ضرب مساوی مجموع لوگاریتم‌ها است و توان به شکل ضریب بیرون می‌آید: $\\log x^n = n\\log x$. لوگاریتم‌ها را با هم ضرب نکنید."
+      }
+    },
+    {
+      "pdf_page": 182,
+      "q": {
+        "en": "Find $\\log_8 32$.",
+        "fa": "قیمت $\\log_8 32$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{3}{5}$",
+          "fa": "$\\frac{3}{5}$"
+        },
+        {
+          "en": "$4$",
+          "fa": "$4$"
+        },
+        {
+          "en": "$2$",
+          "fa": "$2$"
+        },
+        {
+          "en": "$\\frac{5}{3}$",
+          "fa": "$\\frac{5}{3}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$8 = 2^3$ and $32 = 2^5$, so $\\log_8 32 = \\log_{2^3} 2^5 = \\frac{5}{3}\\log_2 2 = \\frac{5}{3}$.",
+        "fa": "$8 = 2^3$ و $32 = 2^5$ است، پس $\\log_8 32 = \\log_{2^3} 2^5 = \\frac{5}{3}\\log_2 2 = \\frac{5}{3}$."
+      },
+      "idea": {
+        "en": "Write the base and the number as powers of the same number; the power of the number goes on top and the power of the base goes below: $\\log_{a^n} x^m = \\frac{m}{n}\\log_a x$.",
+        "fa": "قاعده و عدد را به شکل توان‌هایی از یک عدد بنویسید؛ توان عدد به صورت و توان قاعده به مخرج می‌رود: $\\log_{a^n} x^m = \\frac{m}{n}\\log_a x$."
+      }
+    },
+    {
+      "pdf_page": 186,
+      "q": {
+        "en": "What is the characteristic of $\\log 0.00352$?",
+        "fa": "کرکترستیک $\\log 0.00352$ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$-2$",
+          "fa": "$-2$"
+        },
+        {
+          "en": "$-3$",
+          "fa": "$-3$"
+        },
+        {
+          "en": "$2$",
+          "fa": "$2$"
+        },
+        {
+          "en": "$-4$",
+          "fa": "$-4$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In scientific form $0.00352 = 3.52 \\cdot 10^{-3}$, so the characteristic is $-3$ (two zeros after the decimal point, plus one).",
+        "fa": "به شکل علمی $0.00352 = 3.52 \\cdot 10^{-3}$ است، پس کرکترستیک $-3$ است (دو صفر بعد از اعشاریه، به اضافهٔ یک)."
+      },
+      "idea": {
+        "en": "Write the number as $a \\cdot 10^n$ with $1 \\le a < 10$; the power $n$ is the characteristic.",
+        "fa": "عدد را به شکل $a \\cdot 10^n$ با $1 \\le a < 10$ بنویسید؛ توان $n$ همان کرکترستیک است."
+      }
+    },
+    {
+      "pdf_page": 198,
+      "q": {
+        "en": "Solve $4^{x+1} = 8$.",
+        "fa": "معادلهٔ $4^{x+1} = 8$ را حل کنید."
+      },
+      "options": [
+        {
+          "en": "$x = \\frac{1}{2}$",
+          "fa": "$x = \\frac{1}{2}$"
+        },
+        {
+          "en": "$x = 1$",
+          "fa": "$x = 1$"
+        },
+        {
+          "en": "$x = 2$",
+          "fa": "$x = 2$"
+        },
+        {
+          "en": "$x = -\\frac{1}{2}$",
+          "fa": "$x = -\\frac{1}{2}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "With base $2$: $2^{2(x+1)} = 2^3$, so $2x + 2 = 3$ and $x = \\frac{1}{2}$ (check: $4^{1.5} = 8$).",
+        "fa": "با قاعدهٔ $2$: $2^{2(x+1)} = 2^3$، پس $2x + 2 = 3$ و $x = \\frac{1}{2}$ است (امتحان: $4^{1.5} = 8$)."
+      },
+      "idea": {
+        "en": "Write both sides as powers of the same base, then set the exponents equal.",
+        "fa": "هر دو طرف را به شکل توان‌هایی از یک قاعدهٔ مشترک بنویسید و بعد توان‌ها را مساوی قرار دهید."
+      }
+    }
+  ]
+}

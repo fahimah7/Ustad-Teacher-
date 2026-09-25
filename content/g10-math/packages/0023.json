@@ -1,0 +1,124 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 23,
+  "printed_page": 16,
+  "page_kind": "exercises",
+  "chapter": 1,
+  "section_fa": "دریافت قیمت و مجموع ضرایب یک پولینوم",
+  "summary_fa": "این صفحه تمرین درس «دریافت قیمت و مجموع ضرایب یک پولینوم» است و هشت سوال دارد. در بیشتر سوال‌ها باید یک عدد را به جای $x$ وضع کرده و قیمت پولینوم را حساب کنید؛ در بعضی سوال‌ها قیمت پولینوم یا مجموع ضرایب داده شده و باید ضریب نامعلوم ($k$ یا $m$) را با حل یک معادلهٔ ساده پیدا کنید. سوال ۵ و ۶ چند گزینه‌ای هستند و باید قیمت چند پولینوم را برای یک $x$ مقایسه کنید. در کار با کسرها دقت کنید که توان جفت یک عدد منفی مثبت و توان تاق آن منفی است.",
+  "key_points_fa": [
+    "قیمت پولینوم: عدد داده شده را به جای $x$ وضع کنید.",
+    "مجموع ضرایب: به جای $x$ عدد ۱ را وضع کنید.",
+    "اگر قیمت داده شده باشد، با وضع کردن آن یک معادله برای ضریب نامعلوم به دست می‌آید.",
+    "$(-\\frac{1}{2})^2 = \\frac{1}{4}$ ولی $(-\\frac{1}{2})^3 = -\\frac{1}{8}$"
+  ],
+  "formulas": [
+    {"latex": "\\text{مجموع ضرایب} = p(1)", "meaning_fa": "مجموع ضرایب یک پولینوم"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "برای $p(x) = -x^4 - x^3 - x^2 - x - 1$ قیمت‌های $p(-1)$ و $p(\\frac{1}{2})$ را دریابید.",
+      "solution_steps_fa": [
+        "$p(-1) = -1 + 1 - 1 + 1 - 1 = -1$",
+        "$p(\\frac{1}{2}) = -\\frac{1}{16} - \\frac{1}{8} - \\frac{1}{4} - \\frac{1}{2} - 1 = \\frac{-1 - 2 - 4 - 8 - 16}{16} = -\\frac{31}{16}$"
+      ],
+      "answer": "$p(-1) = -1$ و $p(\\frac{1}{2}) = -\\frac{31}{16}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "در $p(x) = kx^3 - x^2 + 3x - 1$ اگر $p(2) = 17$ باشد، $k$ را دریابید.",
+      "solution_steps_fa": [
+        "$p(2) = 8k - 4 + 6 - 1 = 8k + 1$",
+        "$8k + 1 = 17 \\Rightarrow 8k = 16 \\Rightarrow k = 2$"
+      ],
+      "answer": "$k = 2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "اگر مجموع ضرایب $mx^2 - 2x + 1$ برابر ۱۸ باشد، $m$ را دریابید.",
+      "solution_steps_fa": [
+        "مجموع ضرایب $= m - 2 + 1 = m - 1$",
+        "$m - 1 = 18 \\Rightarrow m = 19$"
+      ],
+      "answer": "$m = 19$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "قیمت $p(x) = \\frac{1}{2}x^2 - \\frac{1}{2}x - \\frac{1}{2}$ را برای $x = -\\frac{1}{2}$ دریابید.",
+      "solution_steps_fa": [
+        "$p(-\\frac{1}{2}) = \\frac{1}{2} \\cdot \\frac{1}{4} + \\frac{1}{2} \\cdot \\frac{1}{2} - \\frac{1}{2}$",
+        "$= \\frac{1}{8} + \\frac{2}{8} - \\frac{4}{8} = -\\frac{1}{8}$"
+      ],
+      "answer": "$-\\frac{1}{8}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "question",
+      "problem_fa": "برای $x = 4$ قیمت کدام پولینوم از ۱۰۰ بیشتر است؟ $A = x^2 - 4x + 4$، $B = -4x^3 + 10x^2$، $C = -x + 3x^4 - 6x^3$، $D = x^2 + 4x - 4$. گزینه‌ها: a) C  b) D  c) A  d) B",
+      "solution_steps_fa": [
+        "$A = 16 - 16 + 4 = 4$",
+        "$B = -256 + 160 = -96$",
+        "$C = -4 + 768 - 384 = 380$",
+        "$D = 16 + 16 - 4 = 28$",
+        "تنها $C$ از ۱۰۰ بیشتر است."
+      ],
+      "answer": "گزینهٔ a) C",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "question",
+      "problem_fa": "برای $x = 5$ کدام پولینوم بزرگ‌ترین قیمت را دارد؟ a) $x^2 - 2x + 6$  b) $3x^4 + 6x + 12$  c) $-x^3 - 40x - 300$  d) $x^5 - 120x^4 + 10$",
+      "solution_steps_fa": [
+        "a) $25 - 10 + 6 = 21$",
+        "b) $3 \\cdot 625 + 30 + 12 = 1917$",
+        "c) $-125 - 200 - 300 = -625$",
+        "d) $3125 - 75000 + 10 = -71865$",
+        "بزرگ‌ترین قیمت ۱۹۱۷ است."
+      ],
+      "answer": "گزینهٔ b) با قیمت ۱۹۱۷",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "برای $p(x) = x^4 - x^3 - x^2 - x - 1$ قیمت‌های $p(-1)$، $p(0)$، $p(\\frac{1}{2})$ و $p(-\\frac{1}{2})$ را دریابید.",
+      "solution_steps_fa": [
+        "$p(-1) = 1 + 1 - 1 + 1 - 1 = 1$",
+        "$p(0) = -1$",
+        "$p(\\frac{1}{2}) = \\frac{1}{16} - \\frac{1}{8} - \\frac{1}{4} - \\frac{1}{2} - 1 = \\frac{1 - 2 - 4 - 8 - 16}{16} = -\\frac{29}{16}$",
+        "$p(-\\frac{1}{2}) = \\frac{1}{16} + \\frac{1}{8} - \\frac{1}{4} + \\frac{1}{2} - 1 = \\frac{1 + 2 - 4 + 8 - 16}{16} = -\\frac{9}{16}$"
+      ],
+      "answer": "$p(-1) = 1$، $p(0) = -1$، $p(\\frac{1}{2}) = -\\frac{29}{16}$، $p(-\\frac{1}{2}) = -\\frac{9}{16}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "قیمت $\\frac{1}{4}x^4 + \\frac{1}{8}x^3 + \\frac{3}{8}x^2 + \\frac{5}{8}x + \\frac{7}{8}$ را برای $x = 2$ دریابید.",
+      "solution_steps_fa": [
+        "$\\frac{1}{4} \\cdot 16 + \\frac{1}{8} \\cdot 8 + \\frac{3}{8} \\cdot 4 + \\frac{5}{8} \\cdot 2 + \\frac{7}{8}$",
+        "$= 4 + 1 + \\frac{3}{2} + \\frac{5}{4} + \\frac{7}{8} = \\frac{32 + 8 + 12 + 10 + 7}{8} = \\frac{69}{8}$"
+      ],
+      "answer": "$\\frac{69}{8} = 8\\frac{5}{8}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

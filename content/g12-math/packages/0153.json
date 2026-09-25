@@ -1,0 +1,50 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 153,
+  "printed_page": 146,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "خواص انتیگرال غیرمعین",
+  "summary_fa": "بالای این صفحه حل ب مثال خاصیت ۷ تمام می‌شود: انتیگرال صورت ($x^2 + 2x$) و مخرج ($x$) جدا حساب و بر هم تقسیم می‌شوند و جواب با حل الف ($\\frac{x^2}{2} + 2x + C$) فرق دارد؛ پس انتیگرال کسر برابر کسر انتیگرال‌ها نیست. بعد یک تمرین با هشت انتیگرال غیرمعین آمده که با خواص ثابت، توان، جمع و تفریق حل می‌شوند. در چند سؤال باید اول کسر را ساده کرد، و در سؤال f توان یک دوجمله‌ای خواسته شده که با امتحان مشتق حل می‌شود.",
+  "key_points_fa": [
+    "$\\frac{\\int (x^2 + 2x)dx}{\\int x\\,dx} = \\frac{\\frac{1}{3}x^3 + x^2}{\\frac{1}{2}x^2} = \\frac{2}{3}x + 2$ که با $\\frac{x^2}{2} + 2x + C$ برابر نیست.",
+    "پیش از انتیگرال گرفتن، کسرها را ساده و ضرب‌ها را باز کنید.",
+    "هر جواب را می‌توان با مشتق گرفتن امتحان کرد."
+  ],
+  "formulas": [
+    {"latex": "\\int \\frac{f(x)}{g(x)}dx \\ne \\frac{\\int f(x)\\,dx}{\\int g(x)\\,dx}", "meaning_fa": "نتیجهٔ مثال خاصیت ۷"},
+    {"latex": "\\int (ax + b)^n dx = \\frac{(ax + b)^{n+1}}{a(n+1)} + C", "meaning_fa": "انتیگرال توان یک عبارت خطی (با امتحان مشتق)"}
+  ],
+  "terms": [
+    {"fa": "صورت و مخرج", "en": "numerator and denominator"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (خاصیت ۷) - حل ب",
+      "problem_fa": "$\\frac{\\int (x^2 + 2x)dx}{\\int x\\,dx}$ را حساب و با حل الف مقایسه کنید.",
+      "steps_fa": [
+        "$\\int (x^2 + 2x)dx = \\frac{1}{3}x^3 + x^2$ و $\\int x\\,dx = \\frac{1}{2}x^2$",
+        "$\\frac{\\frac{1}{3}x^3 + x^2}{\\frac{1}{2}x^2} = \\frac{2}{3}x + 2$",
+        "این جواب با $\\frac{x^2}{2} + 2x + C$ برابر نیست."
+      ],
+      "answer": "$\\int \\frac{f}{g}dx \\ne \\frac{\\int f\\,dx}{\\int g\\,dx}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {"label_fa": "a", "kind": "exercise", "problem_fa": "$\\int -17\\,dx$", "solution_steps_fa": ["$\\int k\\,dx = kx + C$ با $k = -17$"], "answer": "$-17x + C$", "solution_source": "generated"},
+    {"label_fa": "b", "kind": "exercise", "problem_fa": "$\\int \\frac{(1 + x)^2}{1 + x}dx$", "solution_steps_fa": ["برای $x \\ne -1$: $\\frac{(1 + x)^2}{1 + x} = 1 + x$", "$\\int (1 + x)dx = x + \\frac{x^2}{2} + C$"], "answer": "$x + \\frac{x^2}{2} + C$", "solution_source": "generated"},
+    {"label_fa": "c", "kind": "exercise", "problem_fa": "$\\int 2x^4\\,dx$", "solution_steps_fa": ["$2\\int x^4 dx = 2\\cdot\\frac{x^5}{5} + C$"], "answer": "$\\frac{2}{5}x^5 + C$", "solution_source": "generated"},
+    {"label_fa": "d", "kind": "exercise", "problem_fa": "$\\int \\frac{1}{x^5}dx$", "solution_steps_fa": ["$\\int x^{-5}dx = \\frac{x^{-4}}{-4} + C$"], "answer": "$-\\frac{1}{4x^4} + C$", "solution_source": "generated"},
+    {"label_fa": "e", "kind": "exercise", "problem_fa": "$\\int (2x^2 + 4x^3 - 5x + 9)\\,dx$", "solution_steps_fa": ["جمله به جمله: $\\frac{2x^3}{3} + \\frac{4x^4}{4} - \\frac{5x^2}{2} + 9x + C$"], "answer": "$x^4 + \\frac{2}{3}x^3 - \\frac{5}{2}x^2 + 9x + C$", "solution_source": "generated"},
+    {"label_fa": "f", "kind": "exercise", "problem_fa": "$\\int (2x + 3)^6\\,dx$", "solution_steps_fa": ["حدس: جواب شبیه $(2x + 3)^7$ است.", "$\\frac{d}{dx}(2x + 3)^7 = 7(2x + 3)^6\\cdot 2 = 14(2x + 3)^6$", "پس باید بر ۱۴ تقسیم کنیم: $\\frac{(2x + 3)^7}{14}$؛ مشتق آن دقیقاً $(2x + 3)^6$ است."], "answer": "$\\frac{(2x + 3)^7}{14} + C$", "solution_source": "generated"},
+    {"label_fa": "g", "kind": "exercise", "problem_fa": "$\\int \\frac{x^3 + 2x^2}{x^2}dx$", "solution_steps_fa": ["$\\frac{x^3 + 2x^2}{x^2} = x + 2$ (برای $x \\ne 0$)", "$\\int (x + 2)dx = \\frac{x^2}{2} + 2x + C$"], "answer": "$\\frac{x^2}{2} + 2x + C$", "solution_source": "generated"},
+    {"label_fa": "h", "kind": "exercise", "problem_fa": "$\\int (2 + x)\\,dx$", "solution_steps_fa": ["$\\int 2\\,dx + \\int x\\,dx = 2x + \\frac{x^2}{2} + C$"], "answer": "$2x + \\frac{x^2}{2} + C$", "solution_source": "generated"}
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "سؤال f با خواص همین درس به‌طور مستقیم حل نمی‌شود (یا باید توان ۶ را باز کرد)؛ حل با حدس و امتحان مشتق داده شد."
+}

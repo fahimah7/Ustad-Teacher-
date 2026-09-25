@@ -1,0 +1,60 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 202,
+  "printed_page": 195,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "محاسبهٔ انتیگرال توسط کسور قسمی",
+  "summary_fa": "این صفحه روش کسور قسمی را برای انتیگرال گرفتن از توابع نسبتی به کار می‌برد. اول یک سوال کوتاه می‌خواهد که کسر $\\frac{5}{x^2-3x+2}$ به دو کسر ساده با مخرج‌های $x-2$ و $x-1$ جدا شود. بعد در مثال ۱ مخرج $x^2 - 6x + 8$ به $(x-2)(x-4)$ تجزیه می‌شود، کسر به شکل $\\frac{A}{x-2} + \\frac{B}{x-4}$ نوشته می‌شود و با مقایسهٔ ضریب‌ها $A = -1$ و $B = 8$ به دست می‌آید. در آخر، انتیگرال هر کسر ساده یک لوگارتم طبیعی می‌شود و جواب با خواص لوگارتم به شکل یک لوگارتم واحد نوشته می‌شود.",
+  "key_points_fa": [
+    "مخرج را به عوامل درجهٔ اول تجزیه کنید و برای هر عامل یک کسر ساده بنویسید.",
+    "ضریب‌های مجهول A و B را با مقایسهٔ ضریب‌ها یا با گذاشتن ریشه‌های مخرج به جای x پیدا کنید.",
+    "$\\int \\frac{1}{x-a}\\,dx = \\ln|x-a| + C$",
+    "جواب را می‌توان با $n\\ln u = \\ln u^n$ و $\\ln u + \\ln v = \\ln uv$ در یک لوگارتم جمع کرد."
+  ],
+  "formulas": [
+    {"latex": "\\frac{px+q}{(x-a)(x-b)} = \\frac{A}{x-a} + \\frac{B}{x-b}", "meaning_fa": "تجزیهٔ کسر به کسور قسمی وقتی مخرج دو عامل جدا دارد"},
+    {"latex": "\\int \\frac{dx}{x-a} = \\ln|x-a| + C", "meaning_fa": "انتیگرال هر کسر ساده"}
+  ],
+  "terms": [
+    {"fa": "کسور قسمی", "en": "partial fractions"},
+    {"fa": "تابع نسبتی", "en": "rational function"},
+    {"fa": "تجزیه به فکتور", "en": "factorization"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\int \\frac{7x-12}{x^2-6x+8}\\,dx$",
+      "steps_fa": [
+        "$x^2 - 6x + 8 = (x-2)(x-4)$ پس $\\frac{7x-12}{x^2-6x+8} = \\frac{A}{x-2} + \\frac{B}{x-4}$",
+        "$A(x-4) + B(x-2) = (A+B)x - 4A - 2B = 7x - 12$",
+        "$A + B = 7$ و $-4A - 2B = -12$",
+        "با $A = 7 - B$: $-28 + 4B - 2B = -12 \\Rightarrow B = 8,\\ A = -1$",
+        "$\\int \\frac{7x-12}{x^2-6x+8}\\,dx = -\\int \\frac{dx}{x-2} + 8\\int \\frac{dx}{x-4}$",
+        "$= -\\ln|x-2| + 8\\ln|x-4| + C = \\ln\\left|\\frac{(x-4)^8}{x-2}\\right| + C$"
+      ],
+      "answer": "$\\ln\\left|\\frac{(x-4)^8}{x-2}\\right| + C$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "کسور قسمی $\\frac{5}{x^2-3x+2} = \\frac{?}{x-2} + \\frac{?}{x-1}$ را پیدا کنید.",
+      "solution_steps_fa": [
+        "$x^2 - 3x + 2 = (x-2)(x-1)$",
+        "$5 = A(x-1) + B(x-2)$",
+        "با $x = 2$: $5 = A$؛ با $x = 1$: $5 = -B \\Rightarrow B = -5$"
+      ],
+      "answer": "$\\frac{5}{x-2} - \\frac{5}{x-1}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب در جواب نهایی علامت قیمت مطلقه را داخل لوگارتم ننوشته است؛ در این یادداشت‌ها قیمت مطلقه اضافه شده است."
+}

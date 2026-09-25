@@ -1,0 +1,133 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 167,
+  "printed_page": 158,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "لوگاریتم",
+  "summary_fa": "این صفحه درس لوگاریتم را ادامه می‌دهد. توضیح می‌دهد که در جدول صفحه قبل، توان‌های ۱۰ همان لوگاریتم اعداد به قاعدهٔ ۱۰ اند؛ مثلاً $\\log_{10} 0.001 = -3$. هر عدد مثبت غیر از ۱ می‌تواند قاعدهٔ لوگاریتم باشد. در مثال، دو رابطهٔ لوگاریتمی به شکل توانی (اکسپوننشیل) برگردانده می‌شوند. سپس تمرین درس دو قسمت دارد: در قسمت اول چهار رابطهٔ لوگاریتمی باید به شکل توانی نوشته شوند و در قسمت دوم شش رابطهٔ توانی باید به شکل لوگاریتمی نوشته شوند. کلید همهٔ آن‌ها یک قاعده است: قاعدهٔ لوگاریتم، قاعدهٔ توان است و جواب لوگاریتم، خود توان است.",
+  "key_points_fa": [
+    "$\\log_a y = x$ را به صورت $a^x = y$ بخوانید: قاعده در هر دو شکل یکی است.",
+    "قاعدهٔ لوگاریتم باید شرط $a > 0$ و $a \\neq 1$ را داشته باشد.",
+    "لوگاریتم می‌تواند منفی باشد، مانند $\\log_{10} 0.001 = -3$.",
+    "$\\log_a a = 1$، زیرا $a^1 = a$."
+  ],
+  "formulas": [
+    {"latex": "\\log_a y = x \\iff a^x = y", "meaning_fa": "تبدیل شکل لوگاریتمی به شکل توانی و برعکس"},
+    {"latex": "\\log_{10} 0.001 = \\log_{10} 10^{-3} = -3", "meaning_fa": "نمونهٔ لوگاریتم منفی"}
+  ],
+  "terms": [
+    {"fa": "افادهٔ معادل", "en": "equivalent expression"},
+    {"fa": "شکل توانی", "en": "exponential form"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "$\\log_2 8 = 3$ و $\\log_{10} 1000 = 3$ را به شکل توانی بنویسید.",
+      "steps_fa": [
+        "قاعدهٔ لوگاریتم، قاعدهٔ توان و جواب لوگاریتم، توان می‌شود.",
+        "$\\log_2 8 = 3 \\iff 2^3 = 8$",
+        "$\\log_{10} 1000 = 3 \\iff 10^3 = 1000$"
+      ],
+      "answer": "$2^3 = 8$ و $10^3 = 1000$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱ (a)",
+      "kind": "exercise",
+      "problem_fa": "$\\log_{10} N = x$ را به شکل توانی بنویسید.",
+      "solution_steps_fa": ["قاعده ۱۰ و توان x است."],
+      "answer": "$10^x = N$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (b)",
+      "kind": "exercise",
+      "problem_fa": "$\\log_{\\frac{1}{6}} 36 = -2$ را به شکل توانی بنویسید.",
+      "solution_steps_fa": [
+        "قاعده $\\frac{1}{6}$ و توان $-2$ است: $(\\frac{1}{6})^{-2} = 36$.",
+        "بررسی: $(\\frac{1}{6})^{-2} = 6^2 = 36$ ✓"
+      ],
+      "answer": "$\\left(\\frac{1}{6}\\right)^{-2} = 36$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (c)",
+      "kind": "exercise",
+      "problem_fa": "$\\log_9 81 = 2$ را به شکل توانی بنویسید.",
+      "solution_steps_fa": ["قاعده ۹ و توان ۲ است."],
+      "answer": "$9^2 = 81$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (d)",
+      "kind": "exercise",
+      "problem_fa": "$\\log_5 5 = 1$ را به شکل توانی بنویسید.",
+      "solution_steps_fa": ["قاعده ۵ و توان ۱ است."],
+      "answer": "$5^1 = 5$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (a)",
+      "kind": "exercise",
+      "problem_fa": "$4^3 = 256$ را به شکل لوگاریتمی بنویسید.",
+      "solution_steps_fa": [
+        "شکل لوگاریتمی آن طبق قاعده $\\log_4 256 = 3$ می‌شود.",
+        "ولی بررسی کنید: $4^3 = 64$ و $4^4 = 256$ است؛ پس رابطهٔ درست $\\log_4 256 = 4$ (یا $\\log_4 64 = 3$) است."
+      ],
+      "answer": "$\\log_4 256 = 4$ (رابطهٔ چاپ‌شده اشتباه دارد؛ $4^3 = 64$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (b)",
+      "kind": "exercise",
+      "problem_fa": "$2^5 = 32$ را به شکل لوگاریتمی بنویسید.",
+      "solution_steps_fa": ["قاعده ۲، عدد ۳۲ و توان ۵ است."],
+      "answer": "$\\log_2 32 = 5$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (c)",
+      "kind": "exercise",
+      "problem_fa": "$10^4 = 10000$ را به شکل لوگاریتمی بنویسید.",
+      "solution_steps_fa": ["قاعده ۱۰، عدد ۱۰۰۰۰ و توان ۴ است."],
+      "answer": "$\\log_{10} 10000 = 4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (d)",
+      "kind": "exercise",
+      "problem_fa": "$10^{-1} = 10^y$ را به شکل لوگاریتمی بنویسید.",
+      "solution_steps_fa": [
+        "عدد $10^{-1} = 0.1$ است و توان مجهول y است: $\\log_{10} 0.1 = y$.",
+        "چون $10^{-1} = 10^y$، پس $y = -1$."
+      ],
+      "answer": "$\\log_{10} 10^{-1} = y$، یعنی $y = -1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (e)",
+      "kind": "exercise",
+      "problem_fa": "$y = 2^1$ را به شکل لوگاریتمی بنویسید.",
+      "solution_steps_fa": ["قاعده ۲ و توان ۱ است: $\\log_2 y = 1$؛ در نتیجه $y = 2$."],
+      "answer": "$\\log_2 y = 1$ ($y = 2$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (f)",
+      "kind": "exercise",
+      "problem_fa": "$y = 3^x$ را به شکل لوگاریتمی بنویسید.",
+      "solution_steps_fa": ["قاعده ۳ و توان x است."],
+      "answer": "$\\log_3 y = x$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در تمرین ۲ (a) کتاب $4^3 = 256$ نوشته که نادرست است ($4^3 = 64$، $4^4 = 256$)؛ معلم باید این را به شاگرد بگوید."
+}

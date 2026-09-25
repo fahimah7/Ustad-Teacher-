@@ -1,0 +1,39 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 45,
+  "printed_page": 38,
+  "page_kind": "review",
+  "chapter": 1,
+  "section_fa": "نکات مهم فصل اول",
+  "summary_fa": "این صفحه جمع‌بندی فصل لیمت را ادامه می‌دهد. توابع بی‌نهایت کوچک (توابعی که لیمت آن‌ها صفر است) و قضیهٔ ساندویچ (تابعی که بین دو تابع با لیمت مساوی قرار دارد، همان لیمت را دارد) مرور می‌شوند. بعد روش‌های حل اشکال مبهم یادآوری می‌شود: برای $\\frac{0}{0}$ تجزیه و ساده کردن، برای توابع نسبتی در بی‌نهایت مقایسهٔ درجهٔ صورت و مخرج، برای $\\infty - \\infty$ و $0 \\cdot \\infty$ ضرب در مزدوج و تبدیل به $\\frac{0}{0}$ یا $\\frac{\\infty}{\\infty}$، و برای $1^\\infty$ فورمول $e^P$. در آخر لیمت مهم مثلثاتی $\\frac{\\sin\\theta}{\\theta}$ و سه شرط متمادیت تابع در یک نقطه تکرار شده است.",
+  "key_points_fa": [
+    "$\\varepsilon(x)$ در $x \\to a$ بی‌نهایت کوچک است اگر $\\lim_{x \\to a}\\varepsilon(x) = 0$.",
+    "قضیهٔ ساندویچ: اگر $f \\le g \\le h$ و لیمت f و h هر دو b باشد، لیمت g هم b است.",
+    "شکل $\\frac{0}{0}$: تابع را تجزیه و ساده کنید، بعد لیمت را حساب کنید.",
+    "توابع نسبتی وقتی $x \\to \\infty$: درجه‌ها مساوی ← نسبت ضریب‌های اول؛ درجهٔ صورت کمتر ← صفر؛ درجهٔ صورت بیشتر ← $\\pm\\infty$.",
+    "اشکال $\\infty - \\infty$ و $0 \\cdot \\infty$ را با مزدوج به $\\frac{0}{0}$ یا $\\frac{\\infty}{\\infty}$ تبدیل کنید.",
+    "متمادیت در $x = a$: a در ساحهٔ تعریف باشد، لیمت موجود باشد، و $\\lim_{x \\to a} f(x) = f(a)$."
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to a}\\varepsilon(x) = 0", "meaning_fa": "تعریف تابع بی‌نهایت کوچک"},
+    {"latex": "f(x) \\le g(x) \\le h(x),\\ \\lim_{x \\to a} f(x) = \\lim_{x \\to a} h(x) = b \\Rightarrow \\lim_{x \\to a} g(x) = b", "meaning_fa": "قضیهٔ ساندویچ"},
+    {"latex": "\\lim_{x \\to \\infty}\\frac{a_0x^m + \\dots + a_m}{b_0x^n + \\dots + b_n} = \\begin{cases} \\frac{a_0}{b_0} & m = n \\\\ 0 & m < n \\\\ \\pm\\infty & m > n \\end{cases}", "meaning_fa": "لیمت تابع نسبتی در بی‌نهایت با مقایسهٔ درجه‌ها"},
+    {"latex": "\\lim_{x \\to a}[u(x)]^{v(x)} = e^P,\\quad P = \\lim_{x \\to a}[v(u - 1)]", "meaning_fa": "فورمول حل شکل مبهم $1^\\infty$"},
+    {"latex": "\\lim_{\\theta \\to 0}\\frac{\\sin\\theta}{\\theta} = 1", "meaning_fa": "لیمت نسبت ساین زاویه به خود زاویه وقتی زاویه به صفر نزدیک شود"}
+  ],
+  "terms": [
+    {"fa": "تابع بی‌نهایت کوچک", "en": "infinitesimal function"},
+    {"fa": "قضیهٔ ساندویچ", "en": "squeeze (sandwich) theorem"},
+    {"fa": "شکل مبهم", "en": "indeterminate form"},
+    {"fa": "مزدوج", "en": "conjugate"},
+    {"fa": "متمادیت", "en": "continuity"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در کتاب شکل مبهم $\\infty - \\infty$ به صورت $(\\infty, -\\infty)$ چاپ شده است."
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 228,
+  "printed_page": null,
+  "page_kind": "chapter_title",
+  "chapter": 5,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ عنوان فصل پنجم: «تطبیقات مثلثات». در این فصل شاگرد یاد می‌گیرد نسبت‌های مثلثاتی زاویه‌های مرکب را حساب کند: اول فورمول‌های مجموع و تفاضل دو زاویه (مانند $\\sin(\\alpha + \\beta)$ و $\\cos(\\alpha - \\beta)$)، و بعد نسبت‌های مثلثاتی دوچند و نصف یک زاویه. این فورمول‌ها کمک می‌کنند قیمت دقیق نسبت‌های زاویه‌هایی مانند $15^\\circ$ و $105^\\circ$ را از زاویه‌های مشهور به دست آوریم.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [
+    {"fa": "تطبیقات مثلثات", "en": "applications of trigonometry"}
+  ],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [0.14, 0.26, 0.79, 0.71],
+      "kind": "illustration",
+      "description_fa": "دایرهٔ نارنجی بزرگ روی زمینهٔ طلایی که در آن «فصل پنجم – تطبیقات مثلثات» نوشته شده است. فقط تزئینی است."
+    }
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه چاپ نشده است (طبق book.json صفحهٔ چاپی ۲۲۱ است). صفحهٔ بعد ادامهٔ همین صفحهٔ عنوان است."
+}

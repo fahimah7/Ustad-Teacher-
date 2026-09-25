@@ -1,0 +1,101 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 27,
+  "printed_page": 20,
+  "page_kind": "exercises",
+  "chapter": 1,
+  "section_fa": "اشکال مبهم $(\\infty - \\infty)$ و $(0 \\cdot \\infty)$",
+  "summary_fa": "بالای این صفحه مثال ۲ از صفحهٔ قبل حل می‌شود: حاصل ضرب $(x-1)$ در یک کسر، وقتی $x \\to 1$، شکل $0 \\cdot \\infty$ پیدا می‌کند. با نوشتن حاصل ضرب به شکل یک کسر و تجزیهٔ مخرج، عامل $(x-1)$ حذف و لیمت $\\frac{1}{4}$ به دست می‌آید. بعد یک تمرین با پنج لیمت آمده است که شاگرد باید با روش‌های این بخش حل کند: برای تفاضل جذرها در بی‌نهایت از مزدوج، برای تفاضل کسرها از مخرج مشترک، و برای حاصل ضرب از تجزیه استفاده می‌شود. یک پولینوم در بی‌نهایت هم با بیرون کشیدن بزرگ‌ترین توان حل می‌شود.",
+  "key_points_fa": [
+    "برای $0 \\cdot \\infty$ حاصل ضرب را یک کسر بنویسید و تجزیه کنید.",
+    "تفاضل دو جذر در بی‌نهایت: در مزدوج ضرب کنید؛ جواب اغلب صفر می‌شود.",
+    "پولینوم در بی‌نهایت: بزرگ‌ترین توان را بیرون بکشید."
+  ],
+  "formulas": [
+    {"latex": "\\sqrt{x+a} - \\sqrt{x} = \\frac{a}{\\sqrt{x+a} + \\sqrt{x}}", "meaning_fa": "نتیجهٔ ضرب در مزدوج؛ در بی‌نهایت به صفر می‌رود"}
+  ],
+  "terms": [
+    {"fa": "شکل مبهم", "en": "indeterminate form"},
+    {"fa": "مزدوج", "en": "conjugate"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\lim_{x \\to 1} (x-1) \\cdot \\frac{1}{x^2 + 2x - 3}$",
+      "steps_fa": [
+        "با وضع $x = 1$: $0 \\cdot \\frac{1}{0}$، یعنی شکل $0 \\cdot \\infty$",
+        "به شکل کسر: $\\frac{x-1}{x^2 + 2x - 3} = \\frac{x-1}{(x-1)(x+3)}$",
+        "$\\frac{1}{x+3} \\to \\frac{1}{4}$"
+      ],
+      "answer": "$\\frac{1}{4}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} (\\sqrt{x+1} - \\sqrt{x})$",
+      "solution_steps_fa": [
+        "شکل $\\infty - \\infty$؛ در مزدوج ضرب و تقسیم می‌کنیم.",
+        "$\\frac{(x+1) - x}{\\sqrt{x+1} + \\sqrt{x}} = \\frac{1}{\\sqrt{x+1} + \\sqrt{x}}$",
+        "مخرج بی‌نهایت بزرگ می‌شود، پس لیمت صفر است."
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 1} \\left(\\frac{1}{1-x} - \\frac{1}{1-x^2}\\right)$",
+      "solution_steps_fa": [
+        "مخرج مشترک $1 - x^2 = (1-x)(1+x)$ است: $\\frac{(1+x) - 1}{1-x^2} = \\frac{x}{1-x^2}$",
+        "با وضع $x = 1$ صورت ۱ و مخرج صفر می‌شود؛ یعنی شکل $\\frac{1}{0}$ که مبهم نیست و لیمت محدود ندارد.",
+        "از طرف چپ ($x < 1$) مخرج مثبت است و کسر به $+\\infty$ می‌رود؛ از طرف راست به $-\\infty$ می‌رود.",
+        "پس لیمت وجود ندارد. (اگر کسر دوم $\\frac{2}{1-x^2}$ باشد: $\\frac{(1+x) - 2}{(1-x)(1+x)} = \\frac{-1}{1+x} \\to -\\frac{1}{2}$)"
+      ],
+      "answer": "لیمت وجود ندارد (لیمت طرف چپ $+\\infty$ و طرف راست $-\\infty$)؛ با $\\frac{2}{1-x^2}$ جواب $-\\frac{1}{2}$ می‌شود.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} (x^5 - 8x^3)$",
+      "solution_steps_fa": [
+        "$x^5 - 8x^3 = x^5\\left(1 - \\frac{8}{x^2}\\right)$",
+        "داخل قوس به ۱ نزدیک می‌شود و $x^5$ بی‌نهایت بزرگ می‌شود."
+      ],
+      "answer": "$+\\infty$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 5} \\left[(x^2 - 25) \\cdot \\frac{1}{x-5}\\right]$",
+      "solution_steps_fa": [
+        "شکل $0 \\cdot \\infty$ است.",
+        "$\\frac{(x-5)(x+5)}{x-5} = x + 5$",
+        "با وضع $x = 5$: $10$"
+      ],
+      "answer": "$10$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} (\\sqrt{x+a} - \\sqrt{x})$",
+      "solution_steps_fa": [
+        "در مزدوج ضرب و تقسیم می‌کنیم: $\\frac{(x+a) - x}{\\sqrt{x+a} + \\sqrt{x}} = \\frac{a}{\\sqrt{x+a} + \\sqrt{x}}$",
+        "صورت ثابت و مخرج بی‌نهایت بزرگ است، پس لیمت صفر است."
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "تمرین ۲ همان‌طور که چاپ شده ($\\frac{1}{1-x} - \\frac{1}{1-x^2}$) لیمت محدود ندارد؛ احتمالاً منظور کتاب $\\frac{2}{1-x^2}$ بوده که جواب آن $-\\frac{1}{2}$ است. هر دو حالت در حل آمده است."
+}

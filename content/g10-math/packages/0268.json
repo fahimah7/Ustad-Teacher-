@@ -1,0 +1,75 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 268,
+  "printed_page": 261,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مساحت مثلث از روی سه ضلع آن (فورمول هیرون)",
+  "summary_fa": "این صفحه فورمول هیرون را کامل می‌کند. قیمت $\\sin A = \\frac{2}{bc}\\sqrt{p(p-a)(p-b)(p-c)}$ در $S = \\frac{1}{2}bc\\sin A$ گذاشته می‌شود؛ bc ساده می‌شود و $S = \\sqrt{p(p-a)(p-b)(p-c)}$ باقی می‌ماند. پس اگر سه ضلع معلوم باشد، مساحت بدون دانستن هیچ زاویه‌ای حساب می‌شود. از مقایسهٔ دو فورمول مساحت هم نتیجه می‌شود: $\\sin A = \\frac{2S}{bc}$ و مانند آن برای B و C. بعد دو مثال حل می‌شود: مثلث 3، 4، 5 سانتی‌متری با مساحت 6cm² و مثلث 18، 24، 30 سانتی‌متری با مساحت 216cm². در میان آن‌ها یک فعالیت مساحت مثلث با ضلع‌های 4، 5 و 6 سانتی‌متر را می‌خواهد. روش همیشه یکی است: اول p را پیدا کنید، بعد سه تفاضل $p-a$، $p-b$، $p-c$ را، و در آخر جذر حاصل‌ضرب را.",
+  "key_points_fa": [
+    "فورمول هیرون: $S = \\sqrt{p(p-a)(p-b)(p-c)}$ که $p = \\frac{a+b+c}{2}$.",
+    "برای فورمول هیرون فقط سه ضلع لازم است، زاویه لازم نیست.",
+    "$\\sin A = \\frac{2S}{bc}$، $\\sin B = \\frac{2S}{ac}$، $\\sin C = \\frac{2S}{ab}$.",
+    "قدم‌ها: p ← تفاضل‌ها ← حاصل‌ضرب ← جذر."
+  ],
+  "formulas": [
+    {"latex": "S_{ABC} = \\sqrt{p(p-a)(p-b)(p-c)}", "meaning_fa": "فورمول هیرون: مساحت مثلث از روی سه ضلع"},
+    {"latex": "\\sin A = \\frac{2S}{bc},\\quad \\sin B = \\frac{2S}{ac},\\quad \\sin C = \\frac{2S}{ab}", "meaning_fa": "sin زاویه‌ها از روی مساحت و ضلع‌ها"}
+  ],
+  "terms": [
+    {"fa": "فورمول هیرون", "en": "Heron's formula"},
+    {"fa": "نصف محیط", "en": "semi-perimeter"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت فورمول هیرون",
+      "problem_fa": "با گذاشتن قیمت sin A در $S = \\frac{1}{2}bc\\sin A$ فورمول مساحت را از روی ضلع‌ها بنویسید.",
+      "steps_fa": [
+        "$S = \\frac{1}{2}bc \\cdot \\frac{2}{bc}\\sqrt{p(p-a)(p-b)(p-c)}$",
+        "$S = \\sqrt{p(p-a)(p-b)(p-c)}$"
+      ],
+      "answer": "$S = \\sqrt{p(p-a)(p-b)(p-c)}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "مساحت مثلثی را دریابید که $a = 5\\,\\text{cm}$، $b = 4\\,\\text{cm}$ و $c = 3\\,\\text{cm}$ باشد.",
+      "steps_fa": [
+        "$p = \\frac{5+4+3}{2} = 6\\,\\text{cm}$",
+        "$S = \\sqrt{6(6-5)(6-4)(6-3)} = \\sqrt{6 \\cdot 1 \\cdot 2 \\cdot 3} = \\sqrt{36} = 6\\,\\text{cm}^2$"
+      ],
+      "answer": "$6\\,\\text{cm}^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "ضلع‌های یک مثلث $a = 18\\,\\text{cm}$، $b = 24\\,\\text{cm}$ و $c = 30\\,\\text{cm}$ است. مساحت آن را دریابید.",
+      "steps_fa": [
+        "$p = \\frac{18+24+30}{2} = 36\\,\\text{cm}$",
+        "$S = \\sqrt{36(36-18)(36-24)(36-30)} = \\sqrt{36 \\cdot 18 \\cdot 12 \\cdot 6} = \\sqrt{46656} = 216\\,\\text{cm}^2$"
+      ],
+      "answer": "$216\\,\\text{cm}^2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "مساحت مثلثی را دریابید که ضلع‌های آن $c = 6\\,\\text{cm}$، $b = 5\\,\\text{cm}$ و $a = 4\\,\\text{cm}$ باشد.",
+      "solution_steps_fa": [
+        "$p = \\frac{4+5+6}{2} = 7.5\\,\\text{cm}$",
+        "$p-a = 3.5$، $p-b = 2.5$، $p-c = 1.5$",
+        "$S = \\sqrt{7.5 \\cdot 3.5 \\cdot 2.5 \\cdot 1.5} = \\sqrt{98.4375} = \\frac{15\\sqrt{7}}{4} \\approx 9.92\\,\\text{cm}^2$"
+      ],
+      "answer": "$\\frac{15\\sqrt{7}}{4}\\,\\text{cm}^2 \\approx 9.92\\,\\text{cm}^2$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "مثلث 3، 4، 5 و مثلث 18، 24، 30 هر دو قایم‌الزاویه‌اند؛ مساحت را می‌توان با نصف حاصل‌ضرب دو ضلع قایم هم کنترول کرد ($\\frac{3 \\cdot 4}{2} = 6$ و $\\frac{18 \\cdot 24}{2} = 216$)."
+}

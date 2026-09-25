@@ -1,0 +1,67 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 116,
+  "printed_page": 109,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "ترکیب توابع یا توابع مرکب",
+  "summary_fa": "این صفحه مثال ۳ را تمام می‌کند: برای $f(x) = \\sqrt{x}$ و $g(x) = 1 - x$، تابع $f \\circ g = \\sqrt{1-x}$ فقط برای $x \\le 1$ تعریف است و $g \\circ f = 1 - \\sqrt{x}$ برای $x \\ge 0$. یک شکل با دایره‌ها نشان می‌دهد که $x$ از ناحیهٔ تعریف $g$ شروع می‌کند، $g(x)$ باید در قسمت مشترک ناحیهٔ قیمت‌های $g$ و ناحیهٔ تعریف $f$ بیفتد و در پایان $f(g(x))$ در ناحیهٔ قیمت‌های $f$ قرار می‌گیرد. مثال ۴ کار برعکس را نشان می‌دهد: یک تابع داده شده ($\\sqrt{3x^2 + 1}$) را به دو شکل مختلف به ترکیب دو تابع ساده‌تر تجزیه می‌کند. مثال ۵ ترکیب یک تابع کسری با خودش را شروع می‌کند و $(f \\circ f)(x) = \\frac{x}{3x + 4}$ به دست می‌آید.",
+  "key_points_fa": [
+    "$\\mathrm{Dom}(f \\circ g)$ برای $\\sqrt{1 - x}$: $1 - x \\ge 0 \\Rightarrow x \\le 1$، یعنی $(-\\infty, 1]$.",
+    "$\\mathrm{Dom}(g \\circ f)$ برای $1 - \\sqrt{x}$: $x \\ge 0$، یعنی $[0, \\infty)$.",
+    "یک تابع را می‌توان به چند شکل به ترکیب دو تابع تجزیه کرد؛ جواب یگانه نیست.",
+    "برای ترکیب یک کسر با خودش، کسر مرکب را با ضرب صورت و مخرج در مخرج کوچک ساده کنید."
+  ],
+  "formulas": [
+    {"latex": "h(x) = \\sqrt{3x^2 + 1} = (g \\circ f)(x),\\quad f(x) = 3x^2 + 1,\\ g(x) = \\sqrt{x}", "meaning_fa": "تجزیهٔ اول تابع $h$"},
+    {"latex": "h(x) = (j \\circ k)(x),\\quad k(x) = 3x^2,\\ j(x) = \\sqrt{x + 1}", "meaning_fa": "تجزیهٔ دوم همان تابع"},
+    {"latex": "f(x) = \\frac{x}{x+2} \\Rightarrow (f \\circ f)(x) = \\frac{x}{3x + 4}", "meaning_fa": "ترکیب تابع کسری با خودش"}
+  ],
+  "terms": [
+    {"fa": "تابع مرکب", "en": "composite function"},
+    {"fa": "ناحیهٔ قیمت‌ها", "en": "range"},
+    {"fa": "ناحیهٔ تعریف", "en": "domain"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.16, 0.30, 0.83, 0.44], "kind": "diagram", "description_fa": "چهار دایرهٔ بنفش: دایرهٔ چپ «ناحیهٔ تعریف g» (داخل آن نقطهٔ $x$ و قسمت کوچک‌تر «ناحیهٔ تعریف fog»)؛ دو دایرهٔ وسط که روی هم افتاده‌اند: «ناحیهٔ قیمت‌های g» و «ناحیهٔ تعریف f» و نقطهٔ $g(x)$ در قسمت مشترک آن‌ها؛ دایرهٔ راست «ناحیهٔ قیمت‌های f» با قسمت داخلی «ناحیهٔ قیمت‌های fog» و نقطهٔ $(f \\circ g)(x) = f[g(x)]$. تیرهای g، f و یک تیر بزرگ fog مسیر را نشان می‌دهند. پیام شکل: فقط $x$هایی که $g(x)$ شان در ناحیهٔ تعریف f بیفتد، در ناحیهٔ تعریف تابع مرکب هستند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳ (ادامه)",
+      "problem_fa": "ناحیهٔ تعریف و افادهٔ $f \\circ g$ و $g \\circ f$ برای $f(x) = \\sqrt{x}$ و $g(x) = 1 - x$.",
+      "steps_fa": [
+        "$\\mathrm{Dom}(f \\circ g) = \\{x \\in \\mathbb{R} \\mid 1 - x \\ge 0\\}$؛ $-x \\ge -1 \\Rightarrow x \\le 1$، یعنی $(-\\infty, 1]$.",
+        "$\\mathrm{Dom}(g \\circ f) = \\{x \\mid x \\ge 0,\\ \\sqrt{x} \\in \\mathbb{R}\\} = [0, \\infty)$.",
+        "$(f \\circ g)(x) = f(1 - x) = \\sqrt{1 - x}$ و $(g \\circ f)(x) = g(\\sqrt{x}) = 1 - \\sqrt{x}$."
+      ],
+      "answer": "$\\sqrt{1-x}$ روی $(-\\infty,1]$؛ $1 - \\sqrt{x}$ روی $[0, \\infty)$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "اگر $h(x) = \\sqrt{3x^2 + 1}$ باشد، به دو طریق نشان دهید که $h$ از ترکیب کدام دو تابع به دست آمده است.",
+      "steps_fa": [
+        "طریق اول: $f(x) = 3x^2 + 1$ و $g(x) = \\sqrt{x}$؛ $(g \\circ f)(x) = g(3x^2 + 1) = \\sqrt{3x^2 + 1}$.",
+        "طریق دوم: $k(x) = 3x^2$ و $j(x) = \\sqrt{x + 1}$؛ $(j \\circ k)(x) = j(3x^2) = \\sqrt{3x^2 + 1}$."
+      ],
+      "answer": "$h = g \\circ f$ با $f = 3x^2 + 1$، $g = \\sqrt{x}$؛ یا $h = j \\circ k$ با $k = 3x^2$، $j = \\sqrt{x+1}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "اگر $f(x) = \\frac{x}{x+2}$ ($x \\ne -2$) باشد، $f(f(x))$، $(f \\circ f)(2)$ و $(f \\circ f \\circ f)(x)$ را دریابید.",
+      "steps_fa": [
+        "$(f \\circ f)(x) = \\dfrac{\\frac{x}{x+2}}{\\frac{x}{x+2} + 2} = \\dfrac{\\frac{x}{x+2}}{\\frac{x + 2x + 4}{x+2}} = \\frac{x}{x+2} \\cdot \\frac{x+2}{3x+4} = \\frac{x}{3x+4}$",
+        "(ادامه در صفحهٔ بعد:) $(f \\circ f)(2) = \\frac{2}{10} = \\frac{1}{5}$ و $(f \\circ f \\circ f)(x) = \\frac{x}{7x + 8}$."
+      ],
+      "answer": "$f \\circ f = \\frac{x}{3x+4}$؛ $(f \\circ f)(2) = \\frac{1}{5}$؛ $f \\circ f \\circ f = \\frac{x}{7x+8}$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب ناحیهٔ تعریف $g \\circ f$ را به اشتباه «$(0, \\infty]$» چاپ کرده؛ درست آن $[0, \\infty)$ است (صفر شامل است). مربع خالی در سطر پرسش مثال ۵ به جای «و» است. حل مثال ۵ در صفحهٔ بعد تمام می‌شود."
+}

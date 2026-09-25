@@ -1,0 +1,60 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 65,
+  "printed_page": 56,
+  "page_kind": "exercises",
+  "chapter": 2,
+  "section_fa": "قانون ساین",
+  "summary_fa": "این بخش درس قانون ساین را جمع‌بندی می‌کند و دو تمرین می‌دهد. در قسمت «به یاد داشته باشید» گفته می‌شود که قانون ساین در دو حالت به کار می‌رود: وقتی دو زاویه و یک ضلع معلوم باشد (AAS) و وقتی دو ضلع و زاویهٔ مقابل یکی از آن‌ها معلوم باشد (SSA). حرف A به معنای زاویه (Angle) و S به معنای ضلع (Side) است. تمرین ۱ یک مثلث قایم‌الزاویه با ضلع‌های 8، 6 و 10 متر است که باید زاویه‌هایش پیدا شود. تمرین ۲ فاصلهٔ دو شهر را می‌خواهد: دو ضلع و زاویهٔ مقابل یکی از آن‌ها معلوم است (حالت SSA)؛ اول با قانون ساین زاویهٔ A، بعد زاویهٔ C و در آخر ضلع مطلوب پیدا می‌شود.",
+  "key_points_fa": [
+    "AAS: دو زاویه و یک ضلع معلوم ← قانون ساین.",
+    "SSA: دو ضلع و زاویهٔ مقابل یکی از آن‌ها معلوم ← قانون ساین.",
+    "A = Angle (زاویه) و S = Side (ضلع).",
+    "در حالت SSA اول زاویهٔ مقابل ضلع معلوم دوم را با $\\sin$ پیدا کنید، بعد زاویهٔ سوم و بعد ضلع سوم را."
+  ],
+  "formulas": [
+    {"latex": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}", "meaning_fa": "قانون ساین"},
+    {"latex": "\\sin A = \\frac{a\\sin B}{b}", "meaning_fa": "دریافت یک زاویه در حالت SSA"}
+  ],
+  "terms": [
+    {"fa": "زاویه، زاویه، ضلع", "en": "AAS (angle-angle-side)"},
+    {"fa": "ضلع، ضلع، زاویه", "en": "SSA (side-side-angle)"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.21, 0.49, 0.80, 0.61], "kind": "diagram", "description_fa": "مثلث ABC برای تمرین ۲: رأس B در بالا چپ، A در پایین چپ و C در پایین راست. زاویهٔ B برابر 114.2 علامت شده (در کتاب به اشتباه با km نوشته شده؛ منظور $114.2^\\circ$ است). ضلع BC برابر 650.5 km و ضلع AC برابر 775.8 km است. فاصلهٔ AB (شهر A تا شهر B) خواسته شده."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "در یک مثلث قایم‌الزاویه $a = 8\\,\\text{m}$، $b = 6\\,\\text{m}$ و $c = 10\\,\\text{m}$ است. زاویه‌های آن را دریافت کنید.",
+      "solution_steps_fa": [
+        "$6^2 + 8^2 = 36 + 64 = 100 = 10^2$؛ پس c وتر است و $C = 90^\\circ$.",
+        "از قانون ساین: $\\frac{a}{\\sin A} = \\frac{c}{\\sin C} \\Rightarrow \\sin A = \\frac{8 \\cdot 1}{10} = 0.8$، پس $A \\approx 53.13^\\circ$.",
+        "$\\sin B = \\frac{6}{10} = 0.6$، پس $B \\approx 36.87^\\circ$.",
+        "امتحان: $53.13^\\circ + 36.87^\\circ + 90^\\circ = 180^\\circ$."
+      ],
+      "answer": "$C = 90^\\circ$، $A \\approx 53.13^\\circ$ (حدوداً $53^\\circ 8'$)، $B \\approx 36.87^\\circ$ (حدوداً $36^\\circ 52'$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "در شکل، $B = 114.2^\\circ$، $a = BC = 650.5\\,\\text{km}$ و $b = AC = 775.8\\,\\text{km}$ است. فاصلهٔ شهر A تا شهر B (ضلع c) را دریافت کنید.",
+      "solution_steps_fa": [
+        "از قانون ساین: $\\sin A = \\frac{a\\sin B}{b} = \\frac{650.5 \\cdot \\sin 114.2^\\circ}{775.8}$",
+        "$\\sin 114.2^\\circ \\approx 0.9121$، پس $\\sin A \\approx \\frac{593.3}{775.8} \\approx 0.7648$ و $A \\approx 49.89^\\circ$ (زاویهٔ A حاده است، چون B منفرجه است).",
+        "$C = 180^\\circ - (114.2^\\circ + 49.89^\\circ) \\approx 15.91^\\circ$",
+        "$c = \\frac{b\\sin C}{\\sin B} = \\frac{775.8 \\cdot \\sin 15.91^\\circ}{\\sin 114.2^\\circ} \\approx \\frac{775.8 \\cdot 0.2741}{0.9121} \\approx 233.2\\,\\text{km}$"
+      ],
+      "answer": "$AB \\approx 233.2\\,\\text{km}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "در شکل تمرین ۲ کنار زاویهٔ B عدد «114.2km» نوشته شده که به احتمال زیاد اشتباه چاپی است و منظور $114.2^\\circ$ است؛ حل بر همین فرض است."
+}

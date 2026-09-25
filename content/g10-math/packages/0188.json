@@ -1,0 +1,71 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 188,
+  "printed_page": 181,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "ارتباط بین نسبت‌های مثلثاتی دو زاویه که مجموعه و یا فرق شان $\\pi$ یا $180^\\circ$ باشد",
+  "summary_fa": "بالای صفحه مثال ۱ صفحهٔ قبل تمام می‌شود ($\\cos 240^\\circ$ و $\\tan 240^\\circ$) و یک فعالیت سه نسبت دیگر $120^\\circ$ و $240^\\circ$ را می‌خواهد. مثال ۲ همین روش را با رادیان نشان می‌دهد: برای $\\frac{3\\pi}{4}$ اول فرق آن با $\\pi$ حساب می‌شود ($\\frac{\\pi}{4}$) و از رابطه‌های $\\pi - \\theta$ استفاده می‌شود؛ برای $\\frac{4\\pi}{3}$ مقدار اضافه بر $\\pi$ یعنی $\\frac{\\pi}{3}$ پیدا شده و رابطه‌های $\\pi + \\theta$ به کار می‌روند. دو شکل کنار مثال این زاویه‌ها و زاویهٔ حادهٔ مربوط به آن‌ها را نشان می‌دهند. در پایین صفحه یادداشتی دربارهٔ علامه‌ها شروع می‌شود: ضلع دوم $180^\\circ - \\theta$ در ربع دوم است، جایی که فقط sin و csc مثبت‌اند (ادامه در صفحهٔ بعد).",
+  "key_points_fa": [
+    "روش: زاویه را به شکل $\\pi - \\alpha$ یا $\\pi + \\alpha$ بنویسید که $\\alpha$ حاده باشد.",
+    "قیمت عددی نسبت همان قیمت نسبت $\\alpha$ است؛ فقط علامه را از ربعی که ضلع دوم در آن است تعیین کنید.",
+    "$\\frac{3\\pi}{4} = \\pi - \\frac{\\pi}{4}$ در ربع دوم است: sin مثبت، cos و tan منفی.",
+    "$\\frac{4\\pi}{3} = \\pi + \\frac{\\pi}{3}$ در ربع سوم است: sin و cos منفی، tan مثبت.",
+    "در ربع دوم فقط sin و csc مثبت‌اند."
+  ],
+  "formulas": [
+    {"latex": "\\sin(\\pi - \\alpha) = \\sin\\alpha,\\ \\cos(\\pi - \\alpha) = -\\cos\\alpha,\\ \\tan(\\pi - \\alpha) = -\\tan\\alpha", "meaning_fa": "برای زاویه‌های ربع دوم"},
+    {"latex": "\\sin(\\pi + \\alpha) = -\\sin\\alpha,\\ \\cos(\\pi + \\alpha) = -\\cos\\alpha,\\ \\tan(\\pi + \\alpha) = \\tan\\alpha", "meaning_fa": "برای زاویه‌های ربع سوم"}
+  ],
+  "terms": [
+    {"fa": "ربع دوم", "en": "second quadrant"},
+    {"fa": "ربع سوم", "en": "third quadrant"},
+    {"fa": "رادیان", "en": "radian"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.57, 0.37, 0.84, 0.56], "kind": "diagram", "description_fa": "محورهای X و Y با مبدأ O. قوس آبی زاویهٔ $\\frac{3\\pi}{4}$ را از نیمهٔ مثبت محور X تا ضلع دوم سرخ در ربع دوم نشان می‌دهد؛ قوس سبز کوچک زاویهٔ $\\frac{\\pi}{4}$ را میان این ضلع و نیمهٔ منفی محور X نشان می‌دهد، یعنی $\\frac{3\\pi}{4} = \\pi - \\frac{\\pi}{4}$."},
+    {"id": "fig2", "bbox": [0.57, 0.59, 0.84, 0.77], "kind": "diagram", "description_fa": "محورهای X و Y با مبدأ O. قوس آبی زاویهٔ $\\frac{4\\pi}{3}$ را از نیمهٔ مثبت محور X تا ضلع دوم سرخ در ربع سوم نشان می‌دهد؛ زاویهٔ کوچک $\\frac{\\pi}{3}$ میان نیمهٔ منفی محور X و این ضلع مشخص است، یعنی $\\frac{4\\pi}{3} = \\pi + \\frac{\\pi}{3}$."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (ادامه)",
+      "problem_fa": "cos و tan زاویهٔ $240^\\circ$",
+      "steps_fa": [
+        "$\\cos 240^\\circ = \\cos(180^\\circ + 60^\\circ) = -\\cos 60^\\circ = -\\frac{1}{2}$",
+        "$\\tan 240^\\circ = \\tan(180^\\circ + 60^\\circ) = \\tan 60^\\circ = \\sqrt{3}$"
+      ],
+      "answer": "$\\cos 240^\\circ = -\\frac{1}{2}$، $\\tan 240^\\circ = \\sqrt{3}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "sin، cos و tan زاویه‌های $\\frac{3\\pi}{4}$ و $\\frac{4\\pi}{3}$ رادیان را دریابید.",
+      "steps_fa": [
+        "$\\pi - \\frac{3\\pi}{4} = \\frac{\\pi}{4}$، پس $\\frac{3\\pi}{4} = \\pi - \\frac{\\pi}{4}$.",
+        "$\\sin\\frac{3\\pi}{4} = \\sin\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}$، $\\cos\\frac{3\\pi}{4} = -\\cos\\frac{\\pi}{4} = -\\frac{\\sqrt{2}}{2}$، $\\tan\\frac{3\\pi}{4} = -\\tan\\frac{\\pi}{4} = -1$",
+        "$\\frac{4\\pi}{3} - \\pi = \\frac{\\pi}{3}$، پس $\\frac{4\\pi}{3} = \\pi + \\frac{\\pi}{3}$.",
+        "$\\sin\\frac{4\\pi}{3} = -\\sin\\frac{\\pi}{3} = -\\frac{\\sqrt{3}}{2}$، $\\cos\\frac{4\\pi}{3} = -\\cos\\frac{\\pi}{3} = -\\frac{1}{2}$، $\\tan\\frac{4\\pi}{3} = \\tan\\frac{\\pi}{3} = \\sqrt{3}$"
+      ],
+      "answer": "$\\frac{3\\pi}{4}$: $\\frac{\\sqrt{2}}{2}$، $-\\frac{\\sqrt{2}}{2}$، $-1$؛ $\\frac{4\\pi}{3}$: $-\\frac{\\sqrt{3}}{2}$، $-\\frac{1}{2}$، $\\sqrt{3}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "سه نسبت باقی‌ماندهٔ زاویه‌های $120^\\circ$ و $240^\\circ$ (یعنی cot، sec و csc) را دریابید.",
+      "solution_steps_fa": [
+        "$120^\\circ = 180^\\circ - 60^\\circ$: $\\cot 120^\\circ = -\\cot 60^\\circ = -\\frac{\\sqrt{3}}{3}$، $\\sec 120^\\circ = -\\sec 60^\\circ = -2$، $\\csc 120^\\circ = \\csc 60^\\circ = \\frac{2\\sqrt{3}}{3}$",
+        "$240^\\circ = 180^\\circ + 60^\\circ$: $\\cot 240^\\circ = \\cot 60^\\circ = \\frac{\\sqrt{3}}{3}$، $\\sec 240^\\circ = -\\sec 60^\\circ = -2$، $\\csc 240^\\circ = -\\csc 60^\\circ = -\\frac{2\\sqrt{3}}{3}$"
+      ],
+      "answer": "$120^\\circ$: $\\cot = -\\frac{\\sqrt{3}}{3}$، $\\sec = -2$، $\\csc = \\frac{2\\sqrt{3}}{3}$؛ $240^\\circ$: $\\cot = \\frac{\\sqrt{3}}{3}$، $\\sec = -2$، $\\csc = -\\frac{2\\sqrt{3}}{3}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

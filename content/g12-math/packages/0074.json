@@ -1,0 +1,74 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 74,
+  "printed_page": 67,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق توابع مثلثاتی",
+  "summary_fa": "این صفحه بخش مشتق توابع مثلثاتی را آغاز می‌کند. در بالای صفحه گراف یک موج نشان داده شده و پرسیده می‌شود که چه نوع تابعی است. در فعالیت، شاگرد دایرهٔ مثلثاتی و رادیان را به یاد می‌آورد، رابطهٔ $-1 \\le \\sin x \\le 1$ را بررسی می‌کند و به $y = \\sin x$ تزاید می‌دهد. در ثبوت، تفاضل $\\sin(x + \\Delta x) - \\sin x$ با فورمول تبدیل تفاضل به حاصل ضرب به شکل $2\\cos\\frac{2x + \\Delta x}{2}\\sin\\frac{\\Delta x}{2}$ نوشته می‌شود. بعد از تقسیم بر $\\Delta x$، از لیمت مشهور $\\lim_{t \\to 0}\\frac{\\sin t}{t} = 1$ (با $t = \\frac{\\Delta x}{2}$) استفاده می‌شود و نتیجه $(\\sin x)' = \\cos x$ است.",
+  "key_points_fa": [
+    "مشتق $\\sin x$ برابر $\\cos x$ است (x به رادیان).",
+    "در ثبوت از فورمول $\\sin a - \\sin b = 2\\cos\\frac{a + b}{2}\\sin\\frac{a - b}{2}$ استفاده می‌شود.",
+    "لیمت کلیدی: $\\lim_{t \\to 0}\\frac{\\sin t}{t} = 1$",
+    "برای همیشه $-1 \\le \\sin x \\le 1$ است."
+  ],
+  "formulas": [
+    {"latex": "y = \\sin x \\Rightarrow y' = \\cos x", "meaning_fa": "مشتق تابع ساین"},
+    {"latex": "\\sin a - \\sin b = 2\\cos\\frac{a + b}{2}\\,\\sin\\frac{a - b}{2}", "meaning_fa": "تبدیل تفاضل ساین‌ها به حاصل ضرب"},
+    {"latex": "\\lim_{\\Delta x \\to 0}\\frac{\\sin\\frac{\\Delta x}{2}}{\\frac{\\Delta x}{2}} = 1", "meaning_fa": "لیمت مثلثاتی که در ثبوت به کار رفته است"}
+  ],
+  "terms": [
+    {"fa": "توابع مثلثاتی", "en": "trigonometric functions"},
+    {"fa": "دایرهٔ مثلثاتی", "en": "unit circle"},
+    {"fa": "رادیان", "en": "radian"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.12, 0.10, 0.50, 0.27], "kind": "graph", "description_fa": "گراف موجی $y = \\sin x$ از مبدأ تا $3\\pi$؛ منحنی بین خط‌چین‌های $y = 1$ و $y = -1$ بالا و پایین می‌رود و در $0$، $\\pi$، $2\\pi$ و $3\\pi$ محور x را قطع می‌کند. این گراف تابع مثلثاتی را معرفی می‌کند که مشتق آن در همین صفحه ثابت می‌شود."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت مشتق $\\sin x$",
+      "problem_fa": "ثابت کنید اگر $y = \\sin x$ باشد، $y' = \\cos x$ است.",
+      "steps_fa": [
+        "$\\Delta y = \\sin(x + \\Delta x) - \\sin x = 2\\cos\\frac{2x + \\Delta x}{2}\\sin\\frac{\\Delta x}{2}$",
+        "$\\frac{\\Delta y}{\\Delta x} = \\cos(x + \\frac{\\Delta x}{2}) \\cdot \\frac{\\sin\\frac{\\Delta x}{2}}{\\frac{\\Delta x}{2}}$",
+        "وقتی $\\Delta x \\to 0$: عامل اول به $\\cos x$ و عامل دوم به ۱ نزدیک می‌شود.",
+        "$y' = \\cos x \\cdot 1 = \\cos x$"
+      ],
+      "answer": "$(\\sin x)' = \\cos x$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغاز درس",
+      "kind": "question",
+      "problem_fa": "گراف بالای صفحه چه نوع تابعی را نشان می‌دهد؟",
+      "solution_steps_fa": [
+        "منحنی از مبدأ شروع می‌شود، به ۱ می‌رسد، در $\\pi$ صفر می‌شود، به ۱- می‌رسد و در $2\\pi$ دوباره صفر می‌شود.",
+        "این شکل هر $2\\pi$ تکرار می‌شود و قیمت آن بین ۱- و ۱ است."
+      ],
+      "answer": "تابع مثلثاتی $y = \\sin x$ (تابع متناوب با دورهٔ $2\\pi$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "(۱) دایرهٔ مثلثاتی و رادیان را تعریف کنید. (۲) آیا $-1 \\le \\sin x \\le 1$ درست است؟ (۳) به $y = \\sin x$ تزاید $\\Delta x$ بدهید. (۴) $\\sin(x + \\Delta x) - \\sin x$ را انکشاف دهید. (۵) $\\frac{\\Delta y}{\\Delta x}$ را بسازید و لیمت آن را وقتی $\\Delta x \\to 0$ بگیرید.",
+      "solution_steps_fa": [
+        "(۱) دایرهٔ مثلثاتی دایره‌ای به شعاع ۱ با مرکز مبدأ است. یک رادیان زاویهٔ مرکزی‌ای است که قوس مقابل آن مساوی شعاع باشد ($\\pi$ رادیان = ۱۸۰ درجه).",
+        "(۲) بلی؛ $\\sin x$ عرض یک نقطه روی دایرهٔ به شعاع ۱ است، پس از ۱- کمتر و از ۱ بیشتر نمی‌شود.",
+        "(۳) $\\Delta y = \\sin(x + \\Delta x) - \\sin x$",
+        "(۴) $\\Delta y = 2\\cos(x + \\frac{\\Delta x}{2})\\sin\\frac{\\Delta x}{2}$",
+        "(۵) $\\lim_{\\Delta x \\to 0}\\frac{\\Delta y}{\\Delta x} = \\cos x$"
+      ],
+      "answer": "$(\\sin x)' = \\cos x$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

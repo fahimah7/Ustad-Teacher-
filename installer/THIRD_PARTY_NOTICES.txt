@@ -1,0 +1,27 @@
+Ustad includes the following third-party software and content.
+
+Teacher model: Gemma 4 E2B (instruction-tuned), quantized to GGUF (Q4_K_M)
+  Copyright Google LLC. Licensed under the Apache License, Version 2.0.
+  License terms: https://ai.google.dev/gemma/docs/gemma_4_license
+  You may obtain a copy of the Apache License at http://www.apache.org/licenses/LICENSE-2.0
+  Quantized file by Unsloth (https://huggingface.co/unsloth).
+
+llama.cpp (llama-server and the ggml libraries)
+  Copyright (c) 2023-2026 The ggml authors. MIT License.
+  https://github.com/ggml-org/llama.cpp
+
+LLVM OpenMP runtime (libomp.dll)
+  Apache License v2.0 with LLVM Exceptions. See llama\LICENSE-LLVM-OpenMP.
+
+NVIDIA CUDA runtime and cuBLAS (cudart64_12.dll, cublas64_12.dll, cublasLt64_12.dll)
+  Copyright NVIDIA Corporation. Redistributed under the NVIDIA CUDA Toolkit End User
+  License Agreement (redistributable components). Used only on computers with an NVIDIA GPU.
+
+Microsoft Edge WebView2 Runtime (installed only if Windows does not already have it)
+  Copyright Microsoft Corporation. Microsoft Software License Terms.
+
+Tauri, React, KaTeX and other libraries in the app: MIT or Apache-2.0 licenses.
+Fonts: Rubik and Vazirmatn, SIL Open Font License 1.1.
+
+Textbooks: Ministry of Education of Afghanistan, grades 10–12. Study notes and practice
+questions were prepared with AI from the textbooks and checked by script, not yet by teachers.

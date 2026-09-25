@@ -1,0 +1,40 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 106,
+  "printed_page": 97,
+  "page_kind": "review",
+  "chapter": 3,
+  "section_fa": "خلاصۀ فصل سوم",
+  "summary_fa": "ادامۀ «خلاصۀ فصل سوم». اول سه رابطۀ مهم پرتاب مایل مرور می‌شوند: رنج (Range)، یعنی فاصلۀ افقی که جسم تا برگشتن به ارتفاع اولیه طی می‌کند، $R = v_0^2\\sin2\\alpha/g$؛ ارتفاع نقطۀ اوج (بلندترین نقطۀ مسیر) $H = v_0^2\\sin^2\\alpha/(2g)$؛ و زمان رسیدن به نقطۀ اوج $t = v_0\\sin\\alpha/g$. بعد مفاهیم حرکت دایره‌یی جمع‌بندی می‌شوند: سرعت زاویه‌یی متوسط نسبت تغییر موقعیت زاویه‌یی به زمان است و سرعت زاویه‌یی لحظه‌یی لیمت آن یا مشتق θ نسبت به زمان است. در حرکت دایره‌یی یکنواخت سرعت زاویه‌یی ثابت می‌ماند. پریود (T) زمان یک دور کامل است و فریکونسی (ν) تعداد دورها در واحد زمان است که واحد آن $1/\\mathrm{s}$ یا هرتز (Hz) است؛ این دو معکوس یکدیگر اند.",
+  "key_points_fa": [
+    "رنج پرتاب مایل: $R = \\frac{v_0^2\\sin2\\alpha}{g}$؛ بیشترین رنج در زاویۀ 45° به دست می‌آید.",
+    "ارتفاع اعظمی (نقطۀ اوج): $H = \\frac{v_0^2\\sin^2\\alpha}{2g}$.",
+    "زمان رسیدن به نقطۀ اوج: $t = \\frac{v_0\\sin\\alpha}{g}$.",
+    "سرعت زاویه‌یی: $\\bar\\omega = \\frac{\\Delta\\theta}{\\Delta t}$ و $\\omega = \\frac{d\\theta}{dt}$؛ در حرکت دایره‌یی یکنواخت ω ثابت است.",
+    "پریود زمان یک دور کامل است و فریکونسی تعداد دورها در یک ثانیه: $T = \\frac{1}{\\nu}$."
+  ],
+  "formulas": [
+    {"latex": "R = \\frac{v_0^2\\sin2\\alpha}{g}", "meaning_fa": "رنج (فاصلۀ افقی) در پرتاب مایل"},
+    {"latex": "H = \\frac{v_0^2\\sin^2\\alpha}{2g}", "meaning_fa": "ارتفاع نقطۀ اوج"},
+    {"latex": "t = \\frac{v_0\\sin\\alpha}{g}", "meaning_fa": "زمان رسیدن به نقطۀ اوج"},
+    {"latex": "\\bar\\omega = \\frac{\\Delta\\theta}{\\Delta t}", "meaning_fa": "سرعت زاویه‌یی متوسط"},
+    {"latex": "\\omega = \\lim_{\\Delta t\\to0}\\frac{\\Delta\\theta}{\\Delta t} = \\frac{d\\theta}{dt}", "meaning_fa": "سرعت زاویه‌یی لحظه‌یی"},
+    {"latex": "T = \\frac{1}{\\nu}", "meaning_fa": "رابطۀ پریود و فریکونسی (واحد فریکونسی $\\mathrm{1/s}$ یا $\\mathrm{Hz}$)"}
+  ],
+  "terms": [
+    {"fa": "رنج", "en": "range"},
+    {"fa": "نقطۀ اوج (ارتفاع اعظمی)", "en": "maximum height (apex)"},
+    {"fa": "سرعت زاویه‌یی", "en": "angular velocity"},
+    {"fa": "پریود", "en": "period"},
+    {"fa": "فریکونسی", "en": "frequency"},
+    {"fa": "هرتز", "en": "hertz (Hz)"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب فریکونسی را با حرف ν نشان می‌دهد و واحد آن را HZ نوشته است (شکل معیاری: Hz)."
+}

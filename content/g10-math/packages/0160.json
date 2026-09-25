@@ -1,0 +1,69 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 160,
+  "printed_page": 153,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "زاویه و واحدهای اندازه‌گیری یک زاویه",
+  "summary_fa": "این صفحه رابطهٔ رادیان و درجه را به دست می‌آورد. چون محیط دایره $C=2\\pi r$ است، یک دور کامل برابر $\\frac{2\\pi r}{r}=2\\pi$ رادیان است؛ پس $2\\pi^R=360^\\circ$. از اینجا یک رادیان تقریباً $57.3^\\circ$ (دقیق‌تر $57^\\circ 17' 45''$) و یک درجه تقریباً $0.01745$ رادیان است. در مثال ۴ طول قوس مقابل زاویهٔ مرکزی $\\frac{\\pi}{3}$ رادیان در دایره‌ای به قطر ۳۰ متر با فورمول $s=r\\theta$ حساب می‌شود. بعد یک فعالیت دربارهٔ طول قوس یک رادیان آمده است. در آخر، زیر عنوان تبدیل درجه و گراد به رادیان و برعکس، تناسب عمومی $\\frac{d}{180}=\\frac{g}{200}=\\frac{R}{\\pi}$ معرفی می‌شود که در صفحهٔ بعد ادامه دارد.",
+  "key_points_fa": [
+    "یک دور کامل: $360^\\circ=400^g=2\\pi$ رادیان.",
+    "$1^R=\\frac{180^\\circ}{\\pi} \\approx 57.3^\\circ$.",
+    "$1^\\circ=\\frac{\\pi}{180} \\approx 0.01745$ رادیان.",
+    "در دایرهٔ واحد، اندازهٔ زاویه به رادیان همان طول قوس است.",
+    "برای استفاده از $s=r\\theta$ زاویه باید به رادیان باشد و اگر قطر داده شده، اول شعاع را حساب کنید."
+  ],
+  "formulas": [
+    {"latex": "2\\pi^R=360^\\circ", "meaning_fa": "یک دور کامل به رادیان و درجه"},
+    {"latex": "1^R=\\frac{180^\\circ}{\\pi} \\approx 57.29578^\\circ \\approx 57^\\circ 17' 45''", "meaning_fa": "اندازهٔ یک رادیان به درجه"},
+    {"latex": "1^\\circ=\\frac{\\pi}{180} \\approx 0.01745\\ \\text{rad}", "meaning_fa": "اندازهٔ یک درجه به رادیان"},
+    {"latex": "\\frac{d}{180}=\\frac{g}{200}=\\frac{R}{\\pi}", "meaning_fa": "تناسب تبدیل بین درجه (d)، گراد (g) و رادیان (R)"}
+  ],
+  "terms": [
+    {"fa": "رادیان", "en": "radian"},
+    {"fa": "محیط دایره", "en": "circumference"},
+    {"fa": "طول قوس", "en": "arc length"},
+    {"fa": "قطر", "en": "diameter"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "دایرهٔ واحد",
+      "problem_fa": "نشان دهید که در دایرهٔ واحد اندازهٔ زاویه به رادیان با طول قوس برابر است.",
+      "steps_fa": [
+        "$\\theta=\\frac{\\overset{\\frown}{AB}}{r}=\\frac{\\overset{\\frown}{AB}}{1}=\\overset{\\frown}{AB}=S$ رادیان."
+      ],
+      "answer": "$\\theta=S$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "طول قوس مقابل زاویهٔ مرکزی $\\frac{\\pi}{3}$ رادیان را در دایره‌ای به قطر $30\\,\\mathrm{m}$ دریابید.",
+      "steps_fa": [
+        "شعاع: $r=\\frac{d}{2}=\\frac{30}{2}=15\\,\\mathrm{m}$.",
+        "$s=r\\theta=15 \\cdot \\frac{\\pi}{3}=5\\pi\\,\\mathrm{m}$.",
+        "$5\\pi \\approx 15.7\\,\\mathrm{m}$."
+      ],
+      "answer": "$s=5\\pi \\approx 15.7\\,\\mathrm{m}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر شعاع دایره $10\\,\\mathrm{cm}$ باشد، طول قوس مقابل زاویهٔ مرکزی یک رادیان چند سانتی‌متر است؟",
+      "solution_steps_fa": [
+        "$s=r\\theta=10 \\cdot 1=10\\,\\mathrm{cm}$.",
+        "این همان تعریف رادیان است: قوس مقابل یک رادیان با شعاع برابر است."
+      ],
+      "answer": "$10\\,\\mathrm{cm}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "بخش «تبدیل درجه و گراد به رادیان و تبدیل رادیان به درجه و گراد» در پایین این صفحه آغاز می‌شود و در صفحهٔ بعد ادامه دارد."
+}

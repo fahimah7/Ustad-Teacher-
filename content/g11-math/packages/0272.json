@@ -1,0 +1,78 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 272,
+  "printed_page": 263,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "حاصل ضرب سکالری دو وکتور",
+  "summary_fa": "این صفحه چهار مثال دربارهٔ حاصل ضرب سکالری با مؤلفه‌ها دارد. در مثال ۳ یک وکتور در خودش ضرب می‌شود؛ نتیجه مجموع مربع‌های مؤلفه‌ها، یعنی مربع طول وکتور است. در مثال ۴ با صفر شدن حاصل ضرب سکالری، عمود بودن دو وکتور نشان داده می‌شود. در مثال ۵ یک پارامتر مجهول $\\alpha$ طوری دریافت می‌شود که حاصل ضرب دو وکتور صفر و در نتیجه وکتورها عمود شوند. مثال ۶ آغاز می‌شود: باید نشان داده شود که سه وکتور داده‌شده ضلع‌های یک مثلث قایم‌الزاویه هستند؛ دو وکتور $\\overrightarrow{AB}$ و $\\overrightarrow{BC}$ ضلع‌ها گرفته می‌شوند و مجموع آن‌ها ضلع سوم $\\overrightarrow{AC}$ است. ادامهٔ حل در صفحه بعد است.",
+  "key_points_fa": [
+    "$\\vec{u}\\cdot\\vec{u} = |\\vec{u}|^2$ (مجموع مربع‌های مؤلفه‌ها).",
+    "برای امتحان عمود بودن، حاصل ضرب سکالری را حساب کنید؛ اگر صفر شد، وکتورها عمود هستند.",
+    "برای دریافت پارامتر مجهول در شرط عمود بودن، حاصل ضرب سکالری را مساوی صفر قرار داده معادله را حل کنید.",
+    "در مثلث وکتوری: $\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}$؛ اگر حاصل ضرب دو ضلع صفر باشد، مثلث قایم‌الزاویه است."
+  ],
+  "formulas": [
+    {"latex": "\\vec{u}\\cdot\\vec{u} = |\\vec{u}|^2", "meaning_fa": "حاصل ضرب سکالری یک وکتور در خودش"},
+    {"latex": "\\vec{u}\\cdot\\vec{v} = 0 \\Leftrightarrow \\vec{u} \\perp \\vec{v}", "meaning_fa": "شرط عمود بودن"},
+    {"latex": "\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}", "meaning_fa": "قاعدهٔ مثلث برای جمع وکتورها"}
+  ],
+  "terms": [
+    {"fa": "مثلث قایم‌الزاویه", "en": "right triangle"},
+    {"fa": "عمود بودن دو وکتور", "en": "orthogonality"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.73, 0.30, 0.89], "kind": "diagram", "description_fa": "مثلث قایم‌الزاویهٔ ABC با زاویهٔ قایمه در رأس B (نشانهٔ مربع کوچک). وکتور $\\overrightarrow{AB}$ روی قاعده از A به B، وکتور $\\overrightarrow{BC}$ عمودی از B به C، و وکتور $\\overrightarrow{AC}$ وتر از A به C است. نشان می‌دهد که مجموع دو ضلع وکتوری، ضلع سوم است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "حاصل ضرب سکالری $\\vec{u} = \\vec{i}+2\\vec{j}-\\vec{k}$ و $\\vec{v} = \\vec{i}+2\\vec{j}-\\vec{k}$ را دریافت کنید.",
+      "steps_fa": [
+        "$\\vec{u}\\cdot\\vec{v} = (1)(1) + (2)(2) + (-1)(-1) = 1 + 4 + 1 = 6$",
+        "چون دو وکتور یکی هستند، این همان $|\\vec{u}|^2$ است."
+      ],
+      "answer": "$6$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "نشان دهید که $\\vec{u} = 2\\vec{i}-4\\vec{j}+5\\vec{k}$ و $\\vec{v}$ بر هم عمود هستند (کتاب $\\vec{v} = -4\\vec{i}-3\\vec{j}-4\\vec{k}$ چاپ کرده، ولی در حل $\\vec{v} = 4\\vec{i}-3\\vec{j}-4\\vec{k}$ به کار رفته است).",
+      "steps_fa": [
+        "با $\\vec{v} = 4\\vec{i}-3\\vec{j}-4\\vec{k}$: $\\vec{u}\\cdot\\vec{v} = (2)(4) + (-4)(-3) + (5)(-4) = 8 + 12 - 20 = 0$",
+        "حاصل ضرب صفر است، پس $\\vec{u} \\perp \\vec{v}$.",
+        "توجه: با وکتور چاپ‌شده $-4\\vec{i}-3\\vec{j}-4\\vec{k}$ نتیجه $-8 + 12 - 20 = -16$ می‌شود و وکتورها عمود نیستند."
+      ],
+      "answer": "با $\\vec{v} = 4\\vec{i}-3\\vec{j}-4\\vec{k}$ حاصل ضرب صفر است، پس عمود هستند.",
+      "solution_source": "mixed"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "قیمت $\\alpha$ را طوری دریافت کنید که $2\\vec{i}+\\alpha\\vec{j}+5\\vec{k}$ و $3\\vec{i}+\\vec{j}+\\alpha\\vec{k}$ بر هم عمود باشند.",
+      "steps_fa": [
+        "شرط عمود بودن: حاصل ضرب سکالری صفر است.",
+        "$(2)(3) + (\\alpha)(1) + (5)(\\alpha) = 6 + 6\\alpha = 0$",
+        "$\\alpha = -1$"
+      ],
+      "answer": "$\\alpha = -1$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۶",
+      "problem_fa": "نشان دهید که وکتورهای $2\\vec{i}-\\vec{j}+\\vec{k}$، $\\vec{i}-3\\vec{j}-5\\vec{k}$ و $3\\vec{i}-4\\vec{j}-4\\vec{k}$ ضلع‌های یک مثلث قایم‌الزاویه هستند.",
+      "steps_fa": [
+        "$\\overrightarrow{AB} = 2\\vec{i}-\\vec{j}+\\vec{k}$ و $\\overrightarrow{BC} = \\vec{i}-3\\vec{j}-5\\vec{k}$ را دو ضلع می‌گیریم.",
+        "$\\overrightarrow{AB} + \\overrightarrow{BC} = 3\\vec{i}-4\\vec{j}-4\\vec{k} = \\overrightarrow{AC}$، پس سه وکتور یک مثلث می‌سازند.",
+        "(صفحه بعد) $\\overrightarrow{AB}\\cdot\\overrightarrow{BC} = 2 + 3 - 5 = 0$، پس زاویهٔ B قایمه است."
+      ],
+      "answer": "مثلث در رأس B قایم‌الزاویه است.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "مثال ۴ در کتاب غلط چاپی دارد: صورت مسئله $\\vec{v} = -4\\vec{i}-3\\vec{j}-4\\vec{k}$ است، در سطر حل $\\vec{u}$ به شکل $2\\vec{i}-4\\vec{j}-5\\vec{k}$ نوشته شده، ولی ضرب‌ها $(2)(4)+(-4)(-3)+(5)(-4)$ هستند. تنها با $\\vec{v} = 4\\vec{i}-3\\vec{j}-4\\vec{k}$ حاصل ضرب صفر می‌شود؛ با وکتورهای چاپ‌شده نتیجه $-16$ است. در مثال ۳ کتاب ضرب را به شکل $i^2 + 4j^2 + k^2$ نوشته است."
+}

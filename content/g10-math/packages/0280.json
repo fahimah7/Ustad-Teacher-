@@ -1,0 +1,141 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 280,
+  "printed_page": 273,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "ادامهٔ تمرین فصل پنجم (سوال‌های ۲۰ تا ۲۹). بیشتر سوال‌ها چندجوابه‌اند و با شناختن شکل فورمول‌های مجموع و تفاضل زود حل می‌شوند: مثلاً عبارت $\\cos x\\cos y - \\sin x\\sin y$ همان $\\cos(x+y)$ است و $\\cos x\\cos y + \\sin x\\sin y$ همان $\\cos(x-y)$. سوال ۲۱ فورمول‌های دو چند زاویه را با $\\sin\\theta = \\frac{3}{5}$ می‌خواهد. سوال‌های ۲۷ و ۲۸ باید اول نسبت‌های دیگر را با $\\sin^2 + \\cos^2 = 1$ و علامهٔ ربع پیدا کرد و بعد $\\cos(\\alpha - \\beta)$ را حساب کرد. سوال‌های ۲۲ و ۲۹ ثبوت اتحاد می‌خواهند. تمرین در صفحهٔ بعد ادامه دارد.",
+  "key_points_fa": [
+    "$\\cos\\alpha\\cos\\beta \\mp \\sin\\alpha\\sin\\beta = \\cos(\\alpha \\pm \\beta)$ را در چندجوابه‌ها بشناسید.",
+    "$\\frac{\\tan\\alpha - \\tan\\beta}{1 + \\tan\\alpha\\tan\\beta} = \\tan(\\alpha - \\beta)$.",
+    "در ربع اول sin و cos مثبت‌اند؛ در ربع سوم هر دو منفی‌اند.",
+    "$\\tan 45^\\circ = 1$ در ثبوت $\\tan(45^\\circ + \\theta)$ کمک می‌کند."
+  ],
+  "formulas": [
+    {"latex": "\\cos(\\alpha - \\beta) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta", "meaning_fa": "برای سوال‌های ۲۴، ۲۶، ۲۷ و ۲۸"},
+    {"latex": "\\tan(45^\\circ + \\theta) = \\frac{1 + \\tan\\theta}{1 - \\tan\\theta}", "meaning_fa": "برای سوال ۲۲"}
+  ],
+  "terms": [
+    {"fa": "ربع اول", "en": "first quadrant"},
+    {"fa": "ربع سوم", "en": "third quadrant"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۲۰",
+      "kind": "exercise",
+      "problem_fa": "$\\frac{\\tan 60^\\circ - \\tan 30^\\circ}{1 + \\tan 60^\\circ\\tan 30^\\circ} = ?$ a) $-\\frac{1}{\\sqrt{3}}$ b) $\\frac{1}{\\sqrt{3}}$ c) $\\sqrt{3}$ d) $-\\sqrt{3}$",
+      "solution_steps_fa": [
+        "این $\\tan(60^\\circ - 30^\\circ) = \\tan 30^\\circ = \\frac{1}{\\sqrt{3}}$ است."
+      ],
+      "answer": "b",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۱",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\sin\\theta = \\frac{3}{5}$ و ضلع دوم $\\theta$ در ربع اول باشد، $\\sin 2\\theta$، $\\cos 2\\theta$ و $\\tan 2\\theta$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\cos\\theta = \\frac{4}{5}$ (ربع اول)",
+        "$\\sin 2\\theta = 2 \\cdot \\frac{3}{5} \\cdot \\frac{4}{5} = \\frac{24}{25}$",
+        "$\\cos 2\\theta = \\frac{16}{25} - \\frac{9}{25} = \\frac{7}{25}$",
+        "$\\tan 2\\theta = \\frac{24/25}{7/25} = \\frac{24}{7}$"
+      ],
+      "answer": "$\\frac{24}{25}$، $\\frac{7}{25}$، $\\frac{24}{7}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۲",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $\\tan(45^\\circ + \\theta) = \\frac{\\cos\\theta + \\sin\\theta}{\\cos\\theta - \\sin\\theta}$",
+      "solution_steps_fa": [
+        "$\\tan(45^\\circ + \\theta) = \\frac{1 + \\tan\\theta}{1 - \\tan\\theta}$",
+        "صورت و مخرج را ضرب $\\cos\\theta$ کنید: $\\frac{\\cos\\theta + \\sin\\theta}{\\cos\\theta - \\sin\\theta}$"
+      ],
+      "answer": "ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۳",
+      "kind": "exercise",
+      "problem_fa": "$\\cos 37^\\circ\\cos 53^\\circ - \\sin 37^\\circ\\sin 53^\\circ$ مساوی است به: a) 1 b) −1 c) 0 d) هر سه درست نیست",
+      "solution_steps_fa": [
+        "$= \\cos(37^\\circ + 53^\\circ) = \\cos 90^\\circ = 0$"
+      ],
+      "answer": "c",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۴",
+      "kind": "exercise",
+      "problem_fa": "$\\cos 60^\\circ\\cos 14^\\circ + \\sin 60^\\circ\\sin 14^\\circ = ?$ a) $\\cos 74^\\circ$ b) $\\cos 46^\\circ$ c) $\\sin 74^\\circ$ d) $\\sin 46^\\circ$",
+      "solution_steps_fa": [
+        "$= \\cos(60^\\circ - 14^\\circ) = \\cos 46^\\circ$"
+      ],
+      "answer": "b",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۵",
+      "kind": "exercise",
+      "problem_fa": "$\\cos 14^\\circ\\cos 31^\\circ - \\sin 14^\\circ\\sin 31^\\circ = ?$ a) $\\cos 17^\\circ$ b) $\\cos 45^\\circ$ c) $\\sin 17^\\circ$ d) $-\\sin 17^\\circ$",
+      "solution_steps_fa": [
+        "$= \\cos(14^\\circ + 31^\\circ) = \\cos 45^\\circ$"
+      ],
+      "answer": "b",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۶",
+      "kind": "exercise",
+      "problem_fa": "$\\cos 80^\\circ\\cos 35^\\circ + \\sin 80^\\circ\\sin 35^\\circ = ?$ a) $\\cos 115^\\circ$ b) $\\sin 115^\\circ$ c) $\\cos 45^\\circ$ d) $\\sin 45^\\circ$",
+      "solution_steps_fa": [
+        "$= \\cos(80^\\circ - 35^\\circ) = \\cos 45^\\circ$",
+        "(چون $\\cos 45^\\circ = \\sin 45^\\circ$، گزینهٔ d هم از نظر قیمت مساوی است؛ ولی شکل مستقیم فورمول c است.)"
+      ],
+      "answer": "c",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۷",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\cos\\alpha = \\frac{3}{5}$ و $\\sin\\beta = \\frac{5}{13}$ و هر دو زاویه در ربع اول باشند، $\\cos(\\alpha - \\beta)$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\sin\\alpha = \\frac{4}{5}$ و $\\cos\\beta = \\frac{12}{13}$",
+        "$\\cos(\\alpha - \\beta) = \\frac{3}{5} \\cdot \\frac{12}{13} + \\frac{4}{5} \\cdot \\frac{5}{13} = \\frac{36}{65} + \\frac{20}{65} = \\frac{56}{65}$"
+      ],
+      "answer": "$\\frac{56}{65}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۸",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\cos\\theta = -\\frac{8}{17}$ و cos زاویهٔ دوم (در کتاب نشانهٔ آن ناخوانا است؛ این‌جا $\\varphi$) $-\\frac{3}{5}$ باشد و ضلع دوم هر دو زاویه در ربع سوم باشد، $\\cos(\\theta - \\varphi)$ را دریابید.",
+      "solution_steps_fa": [
+        "در ربع سوم sin منفی است: $\\sin\\theta = -\\frac{15}{17}$ و $\\sin\\varphi = -\\frac{4}{5}$",
+        "$\\cos(\\theta - \\varphi) = \\left(-\\frac{8}{17}\\right)\\left(-\\frac{3}{5}\\right) + \\left(-\\frac{15}{17}\\right)\\left(-\\frac{4}{5}\\right) = \\frac{24}{85} + \\frac{60}{85} = \\frac{84}{85}$"
+      ],
+      "answer": "$\\frac{84}{85}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۹",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $\\frac{\\cos(x-y) - \\cos(x+y)}{\\cos(x-y) + \\cos(x+y)} = \\tan x\\tan y$",
+      "solution_steps_fa": [
+        "صورت: $(\\cos x\\cos y + \\sin x\\sin y) - (\\cos x\\cos y - \\sin x\\sin y) = 2\\sin x\\sin y$",
+        "مخرج: $2\\cos x\\cos y$",
+        "$\\frac{2\\sin x\\sin y}{2\\cos x\\cos y} = \\tan x\\tan y$"
+      ],
+      "answer": "ثابت شد.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سوال ۲۸ نشانهٔ زاویهٔ دوم به شکل مربع چاپ شده (احتمالاً $\\beta$ یا $\\varphi$)؛ این مسأله بر جواب اثر ندارد."
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 203,
+  "printed_page": 196,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "محاسبهٔ انتیگرال توسط کسور قسمی",
+  "summary_fa": "این صفحه یک مثال دیگر از انتیگرال با کسور قسمی و یک تمرین دارد. در مثال ۲ مخرج $x^2 + x - 6$ به $(x-2)(x+3)$ تجزیه می‌شود. با برابر گذاشتن ضریب‌ها دو معادله به دست می‌آید که از حل آن‌ها $A = -\\frac{1}{5}$ و $B = -\\frac{24}{5}$ پیدا می‌شود. انتیگرال هر کسر ساده یک لوگارتم طبیعی است و جواب با خواص لوگارتم در یک لوگارتم جمع می‌شود. تمرین آخر صفحه سه انتیگرال دارد: در یکی مخرج درجهٔ سوم است، در یکی درجهٔ دوم، و در سومی درجهٔ صورت از مخرج بزرگ‌تر است، پس اول باید تقسیم پولینوم انجام شود.",
+  "key_points_fa": [
+    "اگر درجهٔ صورت کوچک‌تر از درجهٔ مخرج باشد، مستقیماً به کسور قسمی تجزیه کنید.",
+    "اگر درجهٔ صورت مساوی یا بزرگ‌تر باشد، اول صورت را بر مخرج تقسیم کنید.",
+    "راه سریع پیدا کردن ضریب: ریشهٔ هر عامل را در بقیهٔ کسر بگذارید (مثلاً برای $\\frac{A}{x-2}$، قیمت $x = 2$).",
+    "ضریب‌ها ممکن است کسری باشند؛ جواب را همیشه با مشتق گرفتن امتحان کنید."
+  ],
+  "formulas": [
+    {"latex": "\\int \\frac{k}{x-a}\\,dx = k\\ln|x-a| + C", "meaning_fa": "انتیگرال کسر ساده با ضریب k"},
+    {"latex": "k\\ln u = \\ln u^k", "meaning_fa": "خاصیت لوگارتم برای جمع کردن جواب"}
+  ],
+  "terms": [
+    {"fa": "کسور قسمی", "en": "partial fractions"},
+    {"fa": "قیمت‌های عددی", "en": "numerical values (of coefficients)"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\int \\frac{-5x+9}{x^2+x-6}\\,dx$",
+      "steps_fa": [
+        "$x^2 + x - 6 = (x-2)(x+3)$ پس $\\frac{-5x+9}{x^2+x-6} = \\frac{A}{x-2} + \\frac{B}{x+3}$",
+        "$(A+B)x + 3A - 2B = -5x + 9$ پس $A + B = -5$ و $3A - 2B = 9$",
+        "$3(-5-B) - 2B = 9 \\Rightarrow -5B = 24 \\Rightarrow B = -\\frac{24}{5}$ و $A = -\\frac{1}{5}$",
+        "$\\int = -\\frac{1}{5}\\ln|x-2| - \\frac{24}{5}\\ln|x+3| + C$",
+        "$= \\ln\\left[|x-2|^{-\\frac{1}{5}}\\cdot|x+3|^{-\\frac{24}{5}}\\right] + C$"
+      ],
+      "answer": "$-\\frac{1}{5}\\ln|x-2| - \\frac{24}{5}\\ln|x+3| + C$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\frac{x+2}{x^3-3x^2-x+3}\\,dx$",
+      "solution_steps_fa": [
+        "$x^3 - 3x^2 - x + 3 = x^2(x-3) - (x-3) = (x-3)(x-1)(x+1)$",
+        "$\\frac{x+2}{(x-3)(x-1)(x+1)} = \\frac{A}{x-3} + \\frac{B}{x-1} + \\frac{C}{x+1}$",
+        "$x = 3$: $A = \\frac{5}{2\\cdot 4} = \\frac{5}{8}$؛ $x = 1$: $B = \\frac{3}{(-2)(2)} = -\\frac{3}{4}$؛ $x = -1$: $C = \\frac{1}{(-4)(-2)} = \\frac{1}{8}$",
+        "هر کسر ساده را انتیگرال می‌گیریم."
+      ],
+      "answer": "$\\frac{5}{8}\\ln|x-3| - \\frac{3}{4}\\ln|x-1| + \\frac{1}{8}\\ln|x+1| + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\frac{x-2}{x^2-6x+5}\\,dx$",
+      "solution_steps_fa": [
+        "$x^2 - 6x + 5 = (x-1)(x-5)$",
+        "$x = 1$: $A = \\frac{1-2}{1-5} = \\frac{1}{4}$؛ $x = 5$: $B = \\frac{5-2}{5-1} = \\frac{3}{4}$",
+        "$\\frac{x-2}{x^2-6x+5} = \\frac{1/4}{x-1} + \\frac{3/4}{x-5}$"
+      ],
+      "answer": "$\\frac{1}{4}\\ln|x-1| + \\frac{3}{4}\\ln|x-5| + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "$\\int \\frac{x^6}{x^4+3x^2+2}\\,dx$",
+      "solution_steps_fa": [
+        "درجهٔ صورت بزرگ‌تر است، پس تقسیم می‌کنیم: $x^6 = (x^4+3x^2+2)(x^2-3) + 7x^2 + 6$",
+        "$x^4 + 3x^2 + 2 = (x^2+1)(x^2+2)$؛ با $t = x^2$: $\\frac{7t+6}{(t+1)(t+2)} = \\frac{-1}{t+1} + \\frac{8}{t+2}$",
+        "پس $\\frac{x^6}{x^4+3x^2+2} = x^2 - 3 - \\frac{1}{x^2+1} + \\frac{8}{x^2+2}$",
+        "با فورمول $\\int \\frac{dx}{x^2+k^2} = \\frac{1}{k}\\arctan\\frac{x}{k}$ هر جز را انتیگرال می‌گیریم."
+      ],
+      "answer": "$\\frac{x^3}{3} - 3x - \\arctan x + 4\\sqrt{2}\\arctan\\frac{x}{\\sqrt{2}} + C$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "حل تمرین c به فورمول $\\int \\frac{dx}{x^2+k^2}$ (تابع arctan) نیاز دارد که در این فصل تدریس نشده است؛ جواب با مشتق گرفتن امتحان شده است. کتاب در مثال ۲ قیمت مطلقه و C را در سطر اول جواب ننوشته است."
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 72,
+  "printed_page": 63,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "قانون تانجنت",
+  "summary_fa": "این صفحه حل مثال ۱ قانون تانجنت را تمام می‌کند و مثال ۲ را شروع می‌کند. در مثال ۱ زاویهٔ A قایمه است، پس مجموع B و C برابر $90^\\circ$ و نصف آن $45^\\circ$ است. با گذاشتن نسبت داده‌شدهٔ ضلع‌ها در قانون تانجنت و دانستن $\\tan 45^\\circ = 1$، قیمت $\\tan\\frac{B-C}{2}$ برابر $\\frac{\\sqrt{3}}{3}$ می‌شود که تانجنت $30^\\circ$ است؛ پس تفاضل B و C برابر $60^\\circ$ است. با جمع و تفریق دو رابطهٔ مجموع و تفاضل، هر دو زاویه به دست می‌آیند. در مثال ۲ دو ضلع a و c و زاویهٔ بین آن‌ها (B) داده شده‌اند؛ اول مجموع A و C و نصف آن حساب می‌شود و بعد قانون تانجنت برای جورهٔ (a, c) نوشته می‌شود. ادامهٔ حل در صفحه بعد است.",
+  "key_points_fa": [
+    "وقتی مجموع دو زاویه معلوم باشد، قانون تانجنت تانجنت نصف تفاضل آن‌ها را می‌دهد.",
+    "با داشتن $B + C$ و $B - C$، جمع دو رابطه $2B$ و تفریق آن‌ها $2C$ را می‌دهد.",
+    "$\\frac{\\sqrt{3}}{3} = \\frac{1}{\\sqrt{3}} = \\tan 30^\\circ$",
+    "قانون تانجنت برای حالتی مناسب است که دو ضلع و زاویهٔ بین آن‌ها معلوم باشد.",
+    "برای تقسیم زاویه بر ۲، اگر درجه طاق باشد یک درجه را به ۶۰ دقیقه تبدیل کنید: $137^\\circ 30' = 136^\\circ 90'$."
+  ],
+  "formulas": [
+    {"latex": "\\frac{b - c}{b + c} = \\frac{\\tan\\frac{B-C}{2}}{\\tan\\frac{B+C}{2}}", "meaning_fa": "قانون تانجنت برای جورهٔ ضلع‌های b و c (شکل معکوس)"},
+    {"latex": "\\frac{a + c}{a - c} = \\frac{\\tan\\frac{A+C}{2}}{\\tan\\frac{A-C}{2}}", "meaning_fa": "قانون تانجنت برای جورهٔ ضلع‌های a و c"},
+    {"latex": "A + B + C = 180^\\circ", "meaning_fa": "مجموع زاویه‌های هر مثلث"}
+  ],
+  "terms": [
+    {"fa": "قانون تانجنت", "en": "law of tangents"},
+    {"fa": "اجزای نامعلوم مثلث", "en": "unknown parts of a triangle"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (حل)",
+      "problem_fa": "در مثلث ABC: $\\hat{A} = 90^\\circ$ و $\\frac{b - c}{b + c} = \\frac{1}{\\sqrt{3}}$. زاویه‌های B و C را دریافت کنید.",
+      "steps_fa": [
+        "$B + C = 180^\\circ - 90^\\circ = 90^\\circ$، پس $\\frac{B+C}{2} = 45^\\circ$.",
+        "قانون تانجنت: $\\frac{\\sqrt{3}}{3} = \\frac{\\tan\\frac{B-C}{2}}{\\tan 45^\\circ}$ و چون $\\tan 45^\\circ = 1$، $\\tan\\frac{B-C}{2} = \\frac{\\sqrt{3}}{3}$.",
+        "$\\frac{\\sqrt{3}}{3} = \\tan 30^\\circ$، پس $\\frac{B-C}{2} = 30^\\circ$ و $B - C = 60^\\circ$.",
+        "جمع $B - C = 60^\\circ$ و $B + C = 90^\\circ$: $2B = 150^\\circ$ پس $B = 75^\\circ$.",
+        "$C = 75^\\circ - 60^\\circ = 15^\\circ$"
+      ],
+      "answer": "$B = 75^\\circ$ و $C = 15^\\circ$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲ (آغاز)",
+      "problem_fa": "در مثلث ABC: $a = 925\\,cm$، $c = 432\\,cm$ و $B = 42^\\circ 30'$. با قانون تانجنت اجزای نامعلوم مثلث را دریافت کنید.",
+      "steps_fa": [
+        "$A + C = 180^\\circ - 42^\\circ 30' = 179^\\circ 60' - 42^\\circ 30' = 137^\\circ 30'$",
+        "$\\frac{A+C}{2} = \\frac{136^\\circ 90'}{2} = 68^\\circ 45'$",
+        "قانون تانجنت: $\\frac{925 + 432}{925 - 432} = \\frac{1357}{493} = \\frac{\\tan 68^\\circ 45'}{\\tan\\frac{A-C}{2}}$",
+        "ادامه در صفحه بعد: $\\tan\\frac{A-C}{2} \\approx 0.933$، پس $A - C \\approx 86^\\circ$؛ از آن $A \\approx 111^\\circ 45'$، $C \\approx 25^\\circ 45'$ و با قانون ساین $b \\approx 673\\,cm$."
+      ],
+      "answer": "$A \\approx 111^\\circ 45'$، $C \\approx 25^\\circ 45'$، $b \\approx 673\\,cm$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سطر آخر مثال ۲، کتاب در مخرج $\\tan\\frac{A-B}{2}$ نوشته که اشتباه چاپی است؛ درست آن $\\tan\\frac{A-C}{2}$ است."
+}

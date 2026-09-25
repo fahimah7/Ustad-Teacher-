@@ -1,0 +1,34 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 239,
+  "printed_page": 232,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی $2\\alpha$ از جنس $\\alpha$",
+  "summary_fa": "این صفحه ادامهٔ ثبوت‌هاست و مثال یا تمرین ندارد. اول نشان داده می‌شود که sin، cos و tan یک زاویه را می‌توان فقط با $\\tan\\frac{\\theta}{2}$ نوشت: در هر کسر، مخرج ۱ به شکل $\\sin^2\\frac{\\theta}{2} + \\cos^2\\frac{\\theta}{2}$ نوشته و صورت و مخرج بر $\\cos^2\\frac{\\theta}{2}$ تقسیم می‌شود؛ هر $\\frac{\\sin}{\\cos}$ به tan تبدیل می‌شود. tan هم از تقسیم این دو نتیجه به دست می‌آید. در بخش دوم، مسیر برعکس طی می‌شود: از $\\cos 2\\theta = 2\\cos^2\\theta - 1$، قیمت $\\cos^2\\theta$ و سپس $\\cos\\theta$ از جنس $\\cos 2\\theta$ به دست می‌آید. اگر به جای $\\theta$، $\\frac{\\theta}{2}$ بگذاریم، فورمول cos نصف زاویه حاصل می‌شود. علامهٔ ± با ربع زاویه تعیین می‌شود.",
+  "key_points_fa": [
+    "$\\sin\\theta = \\frac{2\\tan\\frac{\\theta}{2}}{1 + \\tan^2\\frac{\\theta}{2}}$",
+    "$\\cos\\theta = \\frac{1 - \\tan^2\\frac{\\theta}{2}}{1 + \\tan^2\\frac{\\theta}{2}}$",
+    "$\\tan\\theta = \\frac{2\\tan\\frac{\\theta}{2}}{1 - \\tan^2\\frac{\\theta}{2}}$",
+    "$\\cos^2\\theta = \\frac{1 + \\cos 2\\theta}{2}$",
+    "$\\cos\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1 + \\cos\\theta}{2}}$؛ علامه از ربعی که $\\frac{\\theta}{2}$ در آن است تعیین می‌شود."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\theta = \\frac{2\\tan\\frac{\\theta}{2}}{1 + \\tan^2\\frac{\\theta}{2}}", "meaning_fa": "sin از جنس tan نصف زاویه"},
+    {"latex": "\\cos\\theta = \\frac{1 - \\tan^2\\frac{\\theta}{2}}{1 + \\tan^2\\frac{\\theta}{2}}", "meaning_fa": "cos از جنس tan نصف زاویه"},
+    {"latex": "\\tan\\theta = \\frac{2\\tan\\frac{\\theta}{2}}{1 - \\tan^2\\frac{\\theta}{2}}", "meaning_fa": "tan از جنس tan نصف زاویه"},
+    {"latex": "\\cos^2\\theta = \\frac{1 + \\cos 2\\theta}{2}", "meaning_fa": "از $2\\cos^2\\theta - 1 = \\cos 2\\theta$"},
+    {"latex": "\\cos\\theta = \\pm\\sqrt{\\frac{1 + \\cos 2\\theta}{2}},\\quad \\cos\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1 + \\cos\\theta}{2}}", "meaning_fa": "cos زاویه از جنس cos دوچند آن؛ و cos نصف زاویه"}
+  ],
+  "terms": [
+    {"fa": "نصف زاویه", "en": "half angle"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

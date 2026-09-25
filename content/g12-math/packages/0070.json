@@ -1,0 +1,75 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 70,
+  "printed_page": 63,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق تابع مرکب (قاعدهٔ زنجیری)",
+  "summary_fa": "این صفحه قاعدهٔ زنجیری را معرفی می‌کند. در شکل بالای صفحه، x اول با تابع f به $u = f(x)$ و بعد با تابع g به $y = g(f(x))$ تبدیل می‌شود؛ یعنی y به طور غیرمستقیم، از راه u، به x وابسته است. فعالیت از شاگرد می‌خواهد که $\\Delta y$ را در کسر $\\frac{\\Delta u}{\\Delta u}$ ضرب کند، بر $\\Delta x$ تقسیم کند، جای مخرج‌ها را عوض کند و لیمت بگیرد. در ثبوت، $\\frac{\\Delta y}{\\Delta x} = \\frac{\\Delta y}{\\Delta u} \\cdot \\frac{\\Delta u}{\\Delta x}$ نوشته می‌شود؛ وقتی $\\Delta x \\to 0$، $\\Delta u$ هم به صفر می‌رود و نتیجه $y'_x = y'_u \\cdot u'_x$ است. در آخر صفحه اولین نتیجهٔ این قاعده آمده است: اگر $y = u^n$ باشد، $y' = nu^{n-1} \\cdot u'$.",
+  "key_points_fa": [
+    "تابع مرکب: خروجی یک تابع، ورودی تابع دیگر است: $y = g(f(x))$.",
+    "قاعدهٔ زنجیری: مشتق بیرونی (نظر به u) ضرب در مشتق درونی (نظر به x).",
+    "به شکل لایبنیتز: $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$",
+    "مساوات $\\Delta y = \\Delta y \\cdot \\frac{\\Delta u}{\\Delta u}$ فقط وقتی درست است که $\\Delta u \\neq 0$ باشد.",
+    "نتیجهٔ اول: $(u^n)' = nu^{n-1}u'$"
+  ],
+  "formulas": [
+    {"latex": "\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}", "meaning_fa": "قاعدهٔ زنجیری به شکل لایبنیتز"},
+    {"latex": "y'_{(x)} = y'_{(u)} \\cdot u'_{(x)}", "meaning_fa": "قاعدهٔ زنجیری با علامهٔ پرایم"},
+    {"latex": "y = u^n \\Rightarrow y' = nu^{n-1} \\cdot u'", "meaning_fa": "قانون طاقت برای یک تابع (نتیجهٔ قاعدهٔ زنجیری)"}
+  ],
+  "terms": [
+    {"fa": "تابع مرکب", "en": "composite function"},
+    {"fa": "قاعدهٔ زنجیری", "en": "chain rule"},
+    {"fa": "اشتقاق‌پذیر (مشتق‌پذیر)", "en": "differentiable"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.11, 0.10, 0.54, 0.25], "kind": "diagram", "description_fa": "سه خانهٔ پیوسته: x با تابع f به $f(x)$ و بعد با تابع g به $g(f(x))$ می‌رود؛ زیر آن‌ها زنجیرهٔ $x \\to u \\to y$ نوشته شده و بالای آن فورمول $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$ آمده است. شکل نشان می‌دهد که تغییر x از راه u به y می‌رسد، پس نرخ‌های تغییر با هم ضرب می‌شوند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت قاعدهٔ زنجیری",
+      "problem_fa": "اگر y تابع u و u تابع x باشد و هر دو مشتق‌پذیر باشند، ثابت کنید $y'_x = y'_u \\cdot u'_x$.",
+      "steps_fa": [
+        "$\\Delta y = \\Delta y \\cdot \\frac{\\Delta u}{\\Delta u}$ (با فرض $\\Delta u \\neq 0$)",
+        "بر $\\Delta x$ تقسیم و مخرج‌ها را جابجا می‌کنیم: $\\frac{\\Delta y}{\\Delta x} = \\frac{\\Delta y}{\\Delta u} \\cdot \\frac{\\Delta u}{\\Delta x}$",
+        "وقتی $\\Delta x \\to 0$، $\\Delta u \\to 0$؛ پس $\\lim \\frac{\\Delta y}{\\Delta u} = y'_u$ و $\\lim \\frac{\\Delta u}{\\Delta x} = u'_x$",
+        "$y'_x = y'_u \\cdot u'_x$"
+      ],
+      "answer": "$y'_{(x)} = y'_{(u)} \\cdot u'_{(x)}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغاز درس",
+      "kind": "question",
+      "problem_fa": "دربارهٔ رابطهٔ $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$ و شکل زنجیرهٔ $x \\to u \\to y$ نظر خود را بگویید.",
+      "solution_steps_fa": [
+        "x اول به $u = f(x)$ تبدیل می‌شود و بعد u به $y = g(u)$.",
+        "اگر u نسبت به x با نرخ $\\frac{du}{dx}$ تغییر کند و y نسبت به u با نرخ $\\frac{dy}{du}$، پس نرخ تغییر y نسبت به x حاصل ضرب این دو نرخ است.",
+        "مثلاً اگر u دو برابر سریع‌تر از x و y سه برابر سریع‌تر از u تغییر کند، y شش برابر سریع‌تر از x تغییر می‌کند."
+      ],
+      "answer": "مشتق تابع مرکب برابر حاصل ضرب مشتق‌های حلقه‌های زنجیر است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "y تابع u و u تابع x است. (۱) رابطهٔ y با u و u با x چیست؟ (۲) آیا $\\Delta y = \\Delta y \\cdot \\frac{\\Delta u}{\\Delta u}$ درست است؟ (۳) دو طرف را بر $\\Delta x$ تقسیم کنید و مخرج‌ها را جابجا کنید. (۴) لیمت را وقتی $\\Delta x \\to 0$ بگیرید.",
+      "solution_steps_fa": [
+        "(۱) y به u وابسته است و u به x؛ پس y از راه u تابع x است: $y = g(f(x))$.",
+        "(۲) بلی، به شرطی که $\\Delta u \\neq 0$ باشد، چون $\\frac{\\Delta u}{\\Delta u} = 1$.",
+        "(۳) $\\frac{\\Delta y}{\\Delta x} = \\frac{\\Delta y}{\\Delta x} \\cdot \\frac{\\Delta u}{\\Delta u} = \\frac{\\Delta y}{\\Delta u} \\cdot \\frac{\\Delta u}{\\Delta x}$",
+        "(۴) $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$"
+      ],
+      "answer": "$y'_x = y'_u \\cdot u'_x$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

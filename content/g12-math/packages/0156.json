@@ -1,0 +1,91 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 156,
+  "printed_page": 149,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "خواص انتیگرال معین",
+  "summary_fa": "این صفحه بخش خواص انتیگرال معین را شروع می‌کند. سؤال آغاز درس می‌پرسد آیا با خواص انتیگرال غیرمعین می‌توان قیمت $\\int_a^b c\\,dx$، $\\int_a^b [f \\pm g]dx$ و $\\int_a^a f\\,dx$ را پیدا کرد. در فعالیت، یک مجموع با علامهٔ سیگما و دو انتیگرال معین ساده حساب می‌شوند. نتیجه این است که بعضی انتیگرال‌ها با گذاشتن مستقیم قیمت‌ها حل می‌شوند ولی برای بقیه به خواص عمومی نیاز داریم، و این خواص باید ثبوت شوند. خاصیت ۱: انتیگرال یک تابع ثابت C روی $[a, b]$ برابر $C(b - a)$ است. ثبوت آن با مجموع ریمان است: چون همهٔ ارتفاع‌ها C هستند، مجموع عرض‌ها همان طول انتروال $b - a$ می‌شود.",
+  "key_points_fa": [
+    "خاصیت ۱: $\\int_a^b C\\,dx = C(b - a)$",
+    "از نظر هندسی (برای $C > 0$) این مساحت یک مستطیل به ارتفاع C و عرض $b - a$ است.",
+    "در ثبوت: $\\Delta x_1 + \\Delta x_2 + \\dots + \\Delta x_n = b - a$",
+    "خواص انتیگرال معین با تعریف مجموع ریمان ثبوت می‌شوند."
+  ],
+  "formulas": [
+    {"latex": "\\int_a^b C\\,dx = C\\int_a^b dx = C[x]_a^b = C(b - a)", "meaning_fa": "انتیگرال معین یک عدد ثابت"},
+    {"latex": "S_n = \\sum_{i=1}^{n} C\\,\\Delta x_i = C\\cdot n\\cdot\\frac{b - a}{n} = C(b - a)", "meaning_fa": "مجموع ریمان تابع ثابت (ثبوت خاصیت ۱)"}
+  ],
+  "terms": [
+    {"fa": "خواص انتیگرال معین", "en": "properties of the definite integral"},
+    {"fa": "ثبوت", "en": "proof"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.11, 0.40, 0.30], "kind": "illustration", "description_fa": "سه انتیگرال $\\int_a^b c\\,dx$، $\\int_a^b [f(x) \\pm g(x)]dx$ و $\\int_a^a f(x)dx$ که با یک قوس به علامهٔ سؤال وصل شده‌اند؛ پرسش آغاز درس برای کشف خواص انتیگرال معین."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت خاصیت ۱",
+      "problem_fa": "نشان دهید $\\int_a^b C\\,dx = C(b - a)$",
+      "steps_fa": [
+        "$[a, b]$ را به n قسمت مساوی تقسیم کنید: $\\Delta x_i = \\frac{b - a}{n}$",
+        "برای هر نقطه $f(x_i) = C$",
+        "$S_n = \\sum_{i=1}^{n} C\\,\\Delta x_i = C\\left(\\frac{b - a}{n} + \\dots + \\frac{b - a}{n}\\right) = C(b - a)\\cdot\\frac{n}{n} = C(b - a)$",
+        "این قیمت به n وابسته نیست، پس لیمت آن هم $C(b - a)$ است."
+      ],
+      "answer": "$\\int_a^b C\\,dx = C(b - a)$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغاز درس",
+      "kind": "question",
+      "problem_fa": "$\\int_a^b c\\,dx$، $\\int_a^b [f(x) \\pm g(x)]dx$ و $\\int_a^a f(x)dx$ را تکمیل کنید.",
+      "solution_steps_fa": [
+        "$\\int_a^b c\\,dx = c(b - a)$",
+        "$\\int_a^b [f \\pm g]dx = \\int_a^b f\\,dx \\pm \\int_a^b g\\,dx$",
+        "$\\int_a^a f\\,dx = F(a) - F(a) = 0$"
+      ],
+      "answer": "$c(b - a)$؛ $\\int_a^b f\\,dx \\pm \\int_a^b g\\,dx$؛ $0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "$\\sum_{k=1}^{4} 3k^2$ را حساب کنید.",
+      "solution_steps_fa": [
+        "$3(1 + 4 + 9 + 16) = 3 \\cdot 30 = 90$"
+      ],
+      "answer": "$90$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "قیمت $\\int x\\,dx$ را در انتروال $[-1, 1]$ دریابید.",
+      "solution_steps_fa": [
+        "$\\int_{-1}^{1} x\\,dx = \\left[\\frac{x^2}{2}\\right]_{-1}^{1} = \\frac{1}{2} - \\frac{1}{2} = 0$",
+        "قسمت زیر محور x (از ۱- تا ۰) و قسمت بالای آن (از ۰ تا ۱) هم‌اندازه‌اند و یکدیگر را خنثی می‌کنند."
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۳",
+      "kind": "activity",
+      "problem_fa": "$\\int_0^2 (1 + 3x)\\,dx$",
+      "solution_steps_fa": [
+        "تابع اولیه: $x + \\frac{3x^2}{2}$",
+        "$\\left[x + \\frac{3x^2}{2}\\right]_0^2 = 2 + 6 - 0 = 8$"
+      ],
+      "answer": "$8$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

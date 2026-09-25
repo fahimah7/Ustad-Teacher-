@@ -1,0 +1,22 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 155,
+  "printed_page": null,
+  "page_kind": "photo",
+  "chapter": 4,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ تزئینی آغاز فصل چهارم (توابع مثلثاتی) که تصویر سه چرخ‌دندهٔ گلابی را روی زمینهٔ زرد نشان می‌دهد. چرخ‌دنده‌ها با دوران کار می‌کنند و می‌توانند یادآور مفهوم دوران و زاویه باشند که موضوع درس اول این فصل است. متن درسی یا تمرین ندارد.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [
+    {"id": "fig1", "bbox": [0.0, 0.3, 1.0, 1.0], "kind": "illustration", "description_fa": "سه چرخ‌دندهٔ بزرگ گلابی که دندانه‌های آن‌ها در هم رفته است؛ تصویر تزئینی برای شروع فصل و اشاره به دوران."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه چاپ نشده است."
+}

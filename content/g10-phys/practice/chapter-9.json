@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-phys",
+  "chapter": 9,
+  "title": {
+    "en": "Electromagnetic induction and alternating current",
+    "fa": "القای الکترومقناطیسی و برق متناوب"
+  },
+  "questions": [
+    {
+      "pdf_page": 228,
+      "q": {
+        "en": "A coil is connected to a galvanometer. In which case does the galvanometer show NO current?",
+        "fa": "یک کوایل به گلوانومتر وصل است. در کدام حالت گلوانومتر هیچ جریان نشان نمی‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "A magnet is pushed toward the coil",
+          "fa": "مقناطیس به طرف کوایل نزدیک ساخته می‌شود"
+        },
+        {
+          "en": "A magnet is pulled away from the coil",
+          "fa": "مقناطیس از کوایل دور ساخته می‌شود"
+        },
+        {
+          "en": "A magnet is held still next to the coil",
+          "fa": "مقناطیس ساکن در کنار کوایل نگه داشته می‌شود"
+        },
+        {
+          "en": "The coil is moved toward a magnet that is held still",
+          "fa": "کوایل به طرف مقناطیس ساکن حرکت داده می‌شود"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "A current is induced only while the magnetic field (flux) through the coil is changing. A magnet at rest relative to the coil causes no change, so there is no induced current. What matters is relative motion.",
+        "fa": "جریان القایی فقط وقتی پیدا می‌شود که ساحهٔ مقناطیسی (فلکس) داخل کوایل تغییر کند. مقناطیسی که نسبت به کوایل ساکن است هیچ تغییر نمی‌سازد، پس جریان القایی نیست. حرکت نسبی مهم است."
+      },
+      "idea": {
+        "en": "It is not the strength of the magnet that matters, but whether the field through the coil is changing.",
+        "fa": "قوت مقناطیس مهم نیست؛ مهم این است که آیا ساحهٔ داخل کوایل تغییر می‌کند یا نه."
+      }
+    },
+    {
+      "pdf_page": 234,
+      "q": {
+        "en": "A rectangular loop $20\\,\\mathrm{cm}\\times30\\,\\mathrm{cm}$ is in a uniform field of $100\\,\\mathrm{G}$ ($1\\,\\mathrm{G} = 10^{-4}\\,\\mathrm{T}$). The normal to the loop makes $60^\\circ$ with the field. What is the magnetic flux through the loop?",
+        "fa": "یک حلقهٔ مستطیلی $20\\,\\mathrm{cm}\\times30\\,\\mathrm{cm}$ در ساحهٔ منظم $100\\,\\mathrm{G}$ ($1\\,\\mathrm{G} = 10^{-4}\\,\\mathrm{T}$) قرار دارد. عمودِ سطح حلقه با ساحه زاویهٔ $60^\\circ$ می‌سازد. فلکس مقناطیسی که از حلقه می‌گذرد چند است؟"
+      },
+      "options": [
+        {
+          "en": "$3.0\\times10^{-4}\\,\\mathrm{Wb}$",
+          "fa": "$3.0\\times10^{-4}\\,\\mathrm{Wb}$"
+        },
+        {
+          "en": "$5.2\\times10^{-4}\\,\\mathrm{Wb}$",
+          "fa": "$5.2\\times10^{-4}\\,\\mathrm{Wb}$"
+        },
+        {
+          "en": "$6.0\\times10^{-4}\\,\\mathrm{Wb}$",
+          "fa": "$6.0\\times10^{-4}\\,\\mathrm{Wb}$"
+        },
+        {
+          "en": "$3.0\\,\\mathrm{Wb}$",
+          "fa": "$3.0\\,\\mathrm{Wb}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$A = 0.20\\times0.30 = 0.060\\,\\mathrm{m^2}$ and $B = 100\\times10^{-4} = 1.0\\times10^{-2}\\,\\mathrm{T}$. $\\phi = B\\,A\\cos\\theta = (1.0\\times10^{-2})(0.060)\\cos60^\\circ = 3.0\\times10^{-4}\\,\\mathrm{Wb}$.",
+        "fa": "$A = 0.20\\times0.30 = 0.060\\,\\mathrm{m^2}$ و $B = 100\\times10^{-4} = 1.0\\times10^{-2}\\,\\mathrm{T}$. $\\phi = B\\,A\\cos\\theta = (1.0\\times10^{-2})(0.060)\\cos60^\\circ = 3.0\\times10^{-4}\\,\\mathrm{Wb}$."
+      },
+      "idea": {
+        "en": "Change gauss to tesla and centimetres to metres first. $\\theta$ is the angle between the field and the normal, so use $\\cos\\theta$.",
+        "fa": "اول گوس را به تسلا و سانتی‌متر را به متر تبدیل کنید. $\\theta$ زاویه بین ساحه و عمودِ سطح است، پس $\\cos\\theta$ را به کار ببرید."
+      }
+    },
+    {
+      "pdf_page": 239,
+      "q": {
+        "en": "A coil with inductance $0.4\\,\\mathrm{H}$ and resistance $100\\,\\Omega$ is connected to a $6\\,\\mathrm{V}$ battery. Once the current is steady, how much energy is stored in the coil?",
+        "fa": "کوایلی با اندکتیویتی $0.4\\,\\mathrm{H}$ و مقاومت $100\\,\\Omega$ به بتری $6\\,\\mathrm{V}$ وصل است. بعد از ثابت شدن جریان، چه اندازه انرژی در کوایل ذخیره شده است؟"
+      },
+      "options": [
+        {
+          "en": "$7.2\\,\\mathrm{J}$",
+          "fa": "$7.2\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$1.44\\times10^{-3}\\,\\mathrm{J}$",
+          "fa": "$1.44\\times10^{-3}\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$1.2\\times10^{-2}\\,\\mathrm{J}$",
+          "fa": "$1.2\\times10^{-2}\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$7.2\\times10^{-4}\\,\\mathrm{J}$",
+          "fa": "$7.2\\times10^{-4}\\,\\mathrm{J}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Steady current: $I = \\frac{V}{R} = \\frac{6\\,\\mathrm{V}}{100\\,\\Omega} = 0.06\\,\\mathrm{A}$. $U = \\frac{1}{2}L\\,I^2 = \\frac{1}{2}\\times0.4\\times(0.06)^2 = 7.2\\times10^{-4}\\,\\mathrm{J}$.",
+        "fa": "جریان ثابت: $I = \\frac{V}{R} = \\frac{6\\,\\mathrm{V}}{100\\,\\Omega} = 0.06\\,\\mathrm{A}$. $U = \\frac{1}{2}L\\,I^2 = \\frac{1}{2}\\times0.4\\times(0.06)^2 = 7.2\\times10^{-4}\\,\\mathrm{J}$."
+      },
+      "idea": {
+        "en": "First find the steady current with Ohm's law (it is not $6\\,\\mathrm{A}$), then use $U = \\frac{1}{2}L\\,I^2$ with the current squared.",
+        "fa": "اول جریان ثابت را با قانون اوم پیدا کنید (جریان $6\\,\\mathrm{A}$ نیست)، بعد از $U = \\frac{1}{2}L\\,I^2$ با مربع جریان استفاده کنید."
+      }
+    },
+    {
+      "pdf_page": 246,
+      "q": {
+        "en": "A step-up transformer changes $120\\,\\mathrm{V}$ into $2400\\,\\mathrm{V}$. The primary coil has 75 turns. How many turns does the secondary coil need?",
+        "fa": "یک ترانسفارمر افزاینده ولتیج $120\\,\\mathrm{V}$ را به $2400\\,\\mathrm{V}$ می‌رساند. کوایل اولی 75 حلقه دارد. کوایل دومی چند حلقه لازم دارد؟"
+      },
+      "options": [
+        {
+          "en": "$3.75$",
+          "fa": "$3.75$"
+        },
+        {
+          "en": "$1500$",
+          "fa": "$1500$"
+        },
+        {
+          "en": "$20$",
+          "fa": "$20$"
+        },
+        {
+          "en": "$3000$",
+          "fa": "$3000$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$\\frac{\\Delta v_2}{\\Delta v_1} = \\frac{N_2}{N_1}$, so $N_2 = \\frac{2400}{120}\\times75 = 20\\times75 = 1500$ turns.",
+        "fa": "$\\frac{\\Delta v_2}{\\Delta v_1} = \\frac{N_2}{N_1}$ است، پس $N_2 = \\frac{2400}{120}\\times75 = 20\\times75 = 1500$ حلقه."
+      },
+      "idea": {
+        "en": "In a step-up transformer the secondary coil has more turns than the primary, in the same ratio as the voltages.",
+        "fa": "در ترانسفارمر افزاینده کوایل دومی از کوایل اولی حلقه‌های بیشتر دارد، به همان نسبتی که ولتیج‌ها دارند."
+      }
+    },
+    {
+      "pdf_page": 248,
+      "q": {
+        "en": "In a generator a loop rotates in a uniform magnetic field. At which position is the induced emf largest?",
+        "fa": "در یک جنراتور یک حلقه در ساحهٔ منظم مقناطیسی می‌چرخد. در کدام موقعیت emf القا شده از همه بیشتر است؟"
+      },
+      "options": [
+        {
+          "en": "When the plane of the loop is perpendicular to the field",
+          "fa": "وقتی مستوی حلقه عمود بر ساحه باشد"
+        },
+        {
+          "en": "The emf is the same at every position",
+          "fa": "emf در همه موقعیت‌ها یکسان است"
+        },
+        {
+          "en": "When the plane of the loop is parallel to the field",
+          "fa": "وقتی مستوی حلقه موازی ساحه باشد"
+        },
+        {
+          "en": "Only when the loop stops turning",
+          "fa": "فقط وقتی حلقه از چرخیدن بایستد"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "When the plane of the loop is parallel to the field, its sides cut across the field lines at right angles and the flux changes fastest, so the emf is largest. When the plane is perpendicular to the field, the sides move along the lines and the emf is zero.",
+        "fa": "وقتی مستوی حلقه موازی ساحه باشد، ضلع‌های آن خطوط ساحه را عمودی قطع می‌کنند و فلکس از همه تیزتر تغییر می‌کند، پس emf اعظمی است. وقتی مستوی حلقه عمود بر ساحه باشد، ضلع‌ها موازی خطوط حرکت می‌کنند و emf صفر است."
+      },
+      "idea": {
+        "en": "The emf depends on how fast the flux changes, not on how large the flux is. The flux is largest when the loop faces the field, but at that moment it is hardly changing.",
+        "fa": "emf به سرعت تغییر فلکس بسته‌گی دارد، نه به اندازهٔ خود فلکس. فلکس وقتی اعظمی است که سطح حلقه رو به ساحه باشد، ولی در همان لحظه تقریباً تغییر نمی‌کند."
+      }
+    }
+  ]
+}

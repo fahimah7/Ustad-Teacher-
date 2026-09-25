@@ -1,0 +1,174 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 103,
+  "printed_page": 94,
+  "page_kind": "exercises",
+  "chapter": 2,
+  "section_fa": "تمرین فصل دوم",
+  "summary_fa": "ادامهٔ تمرین‌های مرور فصل دوم. سؤال ۶ ثبوت شش مطابقت مثلثاتی است (با فورمول‌های زاویهٔ دو چند، نیم زاویه و تبدیل مجموع به حاصل ضرب). سؤال ۷ ساده کردن چهار افادهٔ مثلثاتی است. سؤال ۸ می‌پرسد که یک مساوات، مطابقت است یا معادله؛ برای رد مطابقت کافی است یک قیمت پیدا کنیم که دو طرف را نامساوی سازد. سؤال ۹ پنج معادلهٔ مثلثاتی (درجه دوم نسبت به یک تابع، معادلهٔ خطی در ساین و کوساین، و معادلهٔ متجانس) و سؤال ۱۰ دو سیستم معادلات مثلثاتی است که با تبدیل به $x+y$ و $x-y$ یا تجزیه حل می‌شوند.",
+  "key_points_fa": [
+    "$\\sin 2A = 2\\sin A\\cos A$، $1 + \\cos 2A = 2\\cos^2 A$ و $1 - \\cos 2A = 2\\sin^2 A$ کلید بیشتر ثبوت‌ها است.",
+    "مطابقت برای همهٔ قیمت‌ها درست است؛ معادله فقط برای بعضی قیمت‌ها. یک مثال نقض کافی است تا ثابت شود مساوات مطابقت نیست.",
+    "$a\\cos x + b\\sin x = c$ را به شکل $R\\cos(x - \\varphi) = c$ یا $R\\cos(x + \\varphi) = c$ می‌آوریم.",
+    "در معادلهٔ متجانس درجه دوم در $\\sin x$ و $\\cos x$، بر $\\cos^2 x$ تقسیم می‌کنیم تا معادله‌ای در $\\tan x$ به دست آید.",
+    "همیشه جواب عمومی را با $k \\in \\mathbb{Z}$ بنویسید."
+  ],
+  "formulas": [
+    {"latex": "\\cos 3\\alpha = 4\\cos^3\\alpha - 3\\cos\\alpha", "meaning_fa": "فورمول زاویهٔ سه چند که در ثبوت 6f به کار می‌رود"},
+    {"latex": "\\tan 2A = \\frac{2\\tan A}{1 - \\tan^2 A}", "meaning_fa": "فورمول تانجنت زاویهٔ دو چند (سؤال 7a)"},
+    {"latex": "\\cos x - \\sqrt{3}\\sin x = 2\\cos\\left(x + \\frac{\\pi}{3}\\right)", "meaning_fa": "تبدیل مجموع ساین و کوساین به یک کوساین (سؤال 9d)"}
+  ],
+  "terms": [
+    {"fa": "مطابقت مثلثاتی", "en": "trigonometric identity"},
+    {"fa": "معادلهٔ مثلثاتی", "en": "trigonometric equation"},
+    {"fa": "ثبوت", "en": "proof"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۶ (a، b، c)",
+      "kind": "exercise",
+      "problem_fa": "ثبوت کنید: (a) $\\frac{\\sin 2A}{1 + \\cos 2A} = \\tan A$ (b) $\\frac{1 - \\cos 2A}{1 + \\cos 2A} = \\tan^2 A$ (c) $\\tan A + \\cot A = 2\\csc 2A$",
+      "solution_steps_fa": [
+        "(a) $\\frac{2\\sin A\\cos A}{2\\cos^2 A} = \\frac{\\sin A}{\\cos A} = \\tan A$",
+        "(b) $\\frac{2\\sin^2 A}{2\\cos^2 A} = \\tan^2 A$",
+        "(c) $\\frac{\\sin A}{\\cos A} + \\frac{\\cos A}{\\sin A} = \\frac{\\sin^2 A + \\cos^2 A}{\\sin A\\cos A} = \\frac{1}{\\sin A\\cos A} = \\frac{2}{\\sin 2A} = 2\\csc 2A$"
+      ],
+      "answer": "هر سه مطابقت ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶ (d)",
+      "kind": "exercise",
+      "problem_fa": "ثبوت کنید: $\\frac{1 - \\cos A + \\cos B - \\cos(A+B)}{1 + \\cos A - \\cos B - \\cos(A+B)} = \\tan\\frac{A}{2}\\cot\\frac{B}{2}$",
+      "solution_steps_fa": [
+        "صورت: $1 - \\cos A = 2\\sin^2\\frac{A}{2}$ و $\\cos B - \\cos(A+B) = 2\\sin\\left(\\frac{A}{2} + B\\right)\\sin\\frac{A}{2}$",
+        "پس صورت $= 2\\sin\\frac{A}{2}\\left[\\sin\\frac{A}{2} + \\sin\\left(\\frac{A}{2} + B\\right)\\right] = 4\\sin\\frac{A}{2}\\sin\\frac{A+B}{2}\\cos\\frac{B}{2}$",
+        "مخرج همین شکل را دارد با جای A و B عوض شده: $4\\sin\\frac{B}{2}\\sin\\frac{A+B}{2}\\cos\\frac{A}{2}$",
+        "با تقسیم: $\\frac{\\sin\\frac{A}{2}\\cos\\frac{B}{2}}{\\cos\\frac{A}{2}\\sin\\frac{B}{2}} = \\tan\\frac{A}{2}\\cot\\frac{B}{2}$"
+      ],
+      "answer": "مطابقت ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶ (e)",
+      "kind": "exercise",
+      "problem_fa": "ثبوت کنید: $\\frac{\\cos A}{1 - \\sin A} = \\tan\\left(45^\\circ + \\frac{A}{2}\\right)$",
+      "solution_steps_fa": [
+        "طرف چپ را در $1 + \\sin A$ ضرب و تقسیم می‌کنیم: $\\frac{\\cos A(1 + \\sin A)}{1 - \\sin^2 A} = \\frac{1 + \\sin A}{\\cos A}$",
+        "طرف راست: $\\tan(45^\\circ + \\frac{A}{2}) = \\frac{\\cos\\frac{A}{2} + \\sin\\frac{A}{2}}{\\cos\\frac{A}{2} - \\sin\\frac{A}{2}}$؛ صورت و مخرج را در $\\cos\\frac{A}{2} + \\sin\\frac{A}{2}$ ضرب می‌کنیم.",
+        "صورت می‌شود $1 + \\sin A$ و مخرج $\\cos^2\\frac{A}{2} - \\sin^2\\frac{A}{2} = \\cos A$؛ پس هر دو طرف $\\frac{1 + \\sin A}{\\cos A}$ اند."
+      ],
+      "answer": "مطابقت ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶ (f)",
+      "kind": "exercise",
+      "problem_fa": "ثبوت کنید: $\\cos\\alpha\\cos(60^\\circ - \\alpha)\\cos(60^\\circ + \\alpha) = \\frac{1}{4}\\cos 3\\alpha$",
+      "solution_steps_fa": [
+        "$\\cos(60^\\circ - \\alpha)\\cos(60^\\circ + \\alpha) = \\cos^2 60^\\circ - \\sin^2\\alpha = \\frac{1}{4} - (1 - \\cos^2\\alpha) = \\cos^2\\alpha - \\frac{3}{4}$",
+        "ضرب در $\\cos\\alpha$: $\\cos^3\\alpha - \\frac{3}{4}\\cos\\alpha = \\frac{1}{4}(4\\cos^3\\alpha - 3\\cos\\alpha)$",
+        "$= \\frac{1}{4}\\cos 3\\alpha$"
+      ],
+      "answer": "مطابقت ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "ساده کنید: (a) $\\frac{2\\tan 15^\\circ}{1 - \\tan^2 15^\\circ}$ (b) $1 - 2\\sin^2\\alpha + \\cos 2\\alpha$ (c) $\\cos 4x + 2\\sin^2 2x$ (d) $(\\cos^2 x + 2\\sin x\\cos x - \\sin^2 x)^2$",
+      "solution_steps_fa": [
+        "(a) این همان $\\tan(2 \\cdot 15^\\circ) = \\tan 30^\\circ = \\frac{\\sqrt{3}}{3}$ است.",
+        "(b) $1 - 2\\sin^2\\alpha = \\cos 2\\alpha$، پس جواب $2\\cos 2\\alpha$",
+        "(c) $\\cos 4x = 1 - 2\\sin^2 2x$، پس جواب $1$",
+        "(d) داخل قوس $\\cos 2x + \\sin 2x$ است؛ مربع آن $\\cos^2 2x + \\sin^2 2x + 2\\sin 2x\\cos 2x = 1 + \\sin 4x$"
+      ],
+      "answer": "(a) $\\frac{\\sqrt{3}}{3}$ (b) $2\\cos 2\\alpha$ (c) $1$ (d) $1 + \\sin 4x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "آیا $2\\sin^2 x - \\cos x = 2\\cos 2x + \\sin x$ مطابقت است یا معادله؟ دلیل بیاورید.",
+      "solution_steps_fa": [
+        "$x = 0$ را امتحان می‌کنیم: طرف چپ $0 - 1 = -1$ و طرف راست $2 + 0 = 2$ است.",
+        "دو طرف برای $x = 0$ برابر نیستند، پس مطابقت نیست.",
+        "ولی برای بعضی قیمت‌ها برابر می‌شوند (مثلاً تفاضل دو طرف در $x = 0$ منفی و در $x = \\frac{\\pi}{2}$ مثبت است، پس بین آن‌ها صفر می‌شود)؛ بنابرین معادلهٔ مثلثاتی است."
+      ],
+      "answer": "معادلهٔ مثلثاتی است، نه مطابقت.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹ (a، b، c)",
+      "kind": "exercise",
+      "problem_fa": "حل کنید: (a) $\\cos^2 x + \\cos^4 x = 0$ (b) $\\tan^2 x - 4\\tan x + 3 = 0$ (c) $4\\cos\\beta - 2 = 0$",
+      "solution_steps_fa": [
+        "(a) $\\cos^2 x(1 + \\cos^2 x) = 0$؛ قوس دوم هرگز صفر نیست، پس $\\cos x = 0 \\Rightarrow x = \\frac{\\pi}{2} + k\\pi$",
+        "(b) $(\\tan x - 1)(\\tan x - 3) = 0 \\Rightarrow \\tan x = 1$ یا $\\tan x = 3$",
+        "پس $x = \\frac{\\pi}{4} + k\\pi$ یا $x = \\arctan 3 + k\\pi \\approx 71.57^\\circ + k \\cdot 180^\\circ$",
+        "(c) $\\cos\\beta = \\frac{1}{2} \\Rightarrow \\beta = \\pm\\frac{\\pi}{3} + 2k\\pi$"
+      ],
+      "answer": "(a) $x = \\frac{\\pi}{2} + k\\pi$ (b) $x = \\frac{\\pi}{4} + k\\pi$ یا $x = \\arctan 3 + k\\pi$ (c) $\\beta = \\pm\\frac{\\pi}{3} + 2k\\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹ (d)",
+      "kind": "exercise",
+      "problem_fa": "حل کنید: $\\cos x - \\sqrt{3}\\sin x = 1$",
+      "solution_steps_fa": [
+        "دو طرف را بر ۲ تقسیم می‌کنیم: $\\frac{1}{2}\\cos x - \\frac{\\sqrt{3}}{2}\\sin x = \\frac{1}{2}$",
+        "طرف چپ $\\cos\\frac{\\pi}{3}\\cos x - \\sin\\frac{\\pi}{3}\\sin x = \\cos\\left(x + \\frac{\\pi}{3}\\right)$ است.",
+        "$\\cos\\left(x + \\frac{\\pi}{3}\\right) = \\frac{1}{2} \\Rightarrow x + \\frac{\\pi}{3} = \\pm\\frac{\\pi}{3} + 2k\\pi$",
+        "پس $x = 2k\\pi$ یا $x = -\\frac{2\\pi}{3} + 2k\\pi$ (امتحان: $x = -120^\\circ$ می‌دهد $-\\frac{1}{2} + \\frac{3}{2} = 1$)."
+      ],
+      "answer": "$x = 2k\\pi$ یا $x = -\\frac{2\\pi}{3} + 2k\\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹ (e)",
+      "kind": "exercise",
+      "problem_fa": "حل کنید: $\\cos^2 x + 3\\sin x\\cos x = -1$",
+      "solution_steps_fa": [
+        "به جای $-1$ می‌نویسیم $-(\\sin^2 x + \\cos^2 x)$: $2\\cos^2 x + 3\\sin x\\cos x + \\sin^2 x = 0$",
+        "$\\cos x = 0$ جواب نیست (آنگاه $\\sin^2 x = 1 \\ne 0$)، پس بر $\\cos^2 x$ تقسیم می‌کنیم: $\\tan^2 x + 3\\tan x + 2 = 0$",
+        "$(\\tan x + 1)(\\tan x + 2) = 0 \\Rightarrow \\tan x = -1$ یا $\\tan x = -2$",
+        "$x = -\\frac{\\pi}{4} + k\\pi$ یا $x = -\\arctan 2 + k\\pi \\approx -63.43^\\circ + k \\cdot 180^\\circ$"
+      ],
+      "answer": "$x = -\\frac{\\pi}{4} + k\\pi$ یا $x = -\\arctan 2 + k\\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰ (a)",
+      "kind": "exercise",
+      "problem_fa": "سیستم را حل کنید: $\\tan x + \\tan y = 1$ و $\\cos x\\cos y = \\frac{\\sqrt{2}}{2}$",
+      "solution_steps_fa": [
+        "$\\tan x + \\tan y = \\frac{\\sin(x+y)}{\\cos x\\cos y}$، پس $\\sin(x+y) = \\frac{\\sqrt{2}}{2}$",
+        "از معادلهٔ دوم: $\\cos(x-y) + \\cos(x+y) = 2\\cos x\\cos y = \\sqrt{2}$",
+        "اگر $x + y = \\frac{3\\pi}{4}$ باشد، $\\cos(x-y) = \\sqrt{2} + \\frac{\\sqrt{2}}{2} > 1$ که ناممکن است؛ پس $x + y = \\frac{\\pi}{4} + 2k\\pi$ و $\\cos(x-y) = \\frac{\\sqrt{2}}{2}$، یعنی $x - y = \\pm\\frac{\\pi}{4} + 2m\\pi$",
+        "با حل سیستم خطی: $x = \\frac{\\pi}{4}, y = 0$ یا $x = 0, y = \\frac{\\pi}{4}$ (به اضافهٔ دوره‌ها). امتحان: $1 + 0 = 1$ و $\\frac{\\sqrt{2}}{2} \\cdot 1 = \\frac{\\sqrt{2}}{2}$"
+      ],
+      "answer": "جواب‌های اصلی: $(x, y) = (\\frac{\\pi}{4}, 0)$ و $(0, \\frac{\\pi}{4})$؛ به طور عمومی $x + y = \\frac{\\pi}{4} + 2k\\pi$ و $x - y = \\pm\\frac{\\pi}{4} + 2m\\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰ (b)",
+      "kind": "exercise",
+      "problem_fa": "سیستم را حل کنید: $\\sin(x+y) = \\cos(x-y)$ و $\\tan x - \\tan y = 1$",
+      "solution_steps_fa": [
+        "معادلهٔ اول را باز می‌کنیم: $\\sin x\\cos y + \\cos x\\sin y = \\cos x\\cos y + \\sin x\\sin y$",
+        "همه را یک طرف آورده تجزیه می‌کنیم: $(\\sin x - \\cos x)(\\cos y - \\sin y) = 0$، پس $\\tan x = 1$ یا $\\tan y = 1$",
+        "حالت اول: $\\tan x = 1 \\Rightarrow \\tan y = 0$، یعنی $x = \\frac{\\pi}{4} + k\\pi$ و $y = m\\pi$",
+        "حالت دوم: $\\tan y = 1 \\Rightarrow \\tan x = 2$، یعنی $y = \\frac{\\pi}{4} + m\\pi$ و $x = \\arctan 2 + k\\pi$"
+      ],
+      "answer": "$x = \\frac{\\pi}{4} + k\\pi, y = m\\pi$ یا $x = \\arctan 2 + k\\pi, y = \\frac{\\pi}{4} + m\\pi$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "همهٔ مطابقت‌ها و جواب‌ها با Python به طور عددی امتحان شده‌اند. در ۶f زاویهٔ ۶۰ درجه است."
+}

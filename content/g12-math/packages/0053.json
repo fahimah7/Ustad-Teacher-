@@ -1,0 +1,94 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 53,
+  "printed_page": 46,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "تغییر اوسط یا تغییر متوسط",
+  "summary_fa": "این صفحه مفهوم تغییر متوسط را با مثال حرکت توضیح می‌دهد. اگر جسمی روی خط مستقیم حرکت کند، فاصلهٔ طی‌شده تابعی از زمان است: $S = f(t)$. تقسیم تغییر فاصله بر تغییر زمان بین $t_1$ و $t_2$ سرعت وسطی (اوسط) را می‌دهد و لیمت همین نسبت وقتی $t \\to t_0$ سرعت لحظه‌ای در زمان $t_0$ است. پس تغییر متوسط یک تابع یعنی نسبت تزاید تابع ($\\Delta y$) به تزاید متحول ($\\Delta x$). در مثال، تغییر متوسط $y = x^2$ روی انتروال $[2, 5]$ برابر ۷ به دست می‌آید. در آخر صفحه تمرین آمده است: ساختن $\\frac{\\Delta y}{\\Delta x}$ و میل منحنی برای سه تابع و تغییر متوسط یک تابع درجهٔ سه.",
+  "key_points_fa": [
+    "تغییر متوسط = $\\frac{\\Delta y}{\\Delta x} = \\frac{f(x_2) - f(x_1)}{x_2 - x_1}$ (میل قاطع بین دو نقطه).",
+    "سرعت وسطی = تغییر فاصله تقسیم بر تغییر زمان.",
+    "سرعت لحظه‌ای = لیمت سرعت وسطی وقتی فاصلهٔ زمانی به صفر نزدیک شود.",
+    "میل منحنی در یک نقطه = لیمت $\\frac{\\Delta y}{\\Delta x}$ وقتی $\\Delta x \\to 0$."
+  ],
+  "formulas": [
+    {"latex": "\\frac{\\Delta s}{\\Delta t} = \\frac{f(t_2) - f(t_1)}{t_2 - t_1}", "meaning_fa": "سرعت وسطی بین زمان‌های $t_1$ و $t_2$"},
+    {"latex": "\\lim_{t \\to t_0}\\frac{f(t) - f(t_0)}{t - t_0}", "meaning_fa": "سرعت لحظه‌ای در زمان $t_0$"},
+    {"latex": "\\frac{\\Delta y}{\\Delta x} = \\frac{f(x_2) - f(x_1)}{x_2 - x_1}", "meaning_fa": "تغییر متوسط تابع روی انتروال $[x_1, x_2]$"}
+  ],
+  "terms": [
+    {"fa": "تغییر متوسط (اوسط)", "en": "average rate of change"},
+    {"fa": "سرعت وسطی", "en": "average velocity"},
+    {"fa": "سرعت لحظه‌ای", "en": "instantaneous velocity"},
+    {"fa": "تزاید", "en": "increment"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "تغییر متوسط $y = f(x) = x^2$ را روی انتروال $[2, 5]$ پیدا کنید.",
+      "steps_fa": [
+        "$x_1 = 2$ و $x_2 = 5$",
+        "$\\frac{\\Delta y}{\\Delta x} = \\frac{f(5) - f(2)}{5 - 2} = \\frac{25 - 4}{3} = \\frac{21}{3}$"
+      ],
+      "answer": "$7$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱ (۱)",
+      "kind": "exercise",
+      "problem_fa": "برای $f(x) = 2x^2 - 4$، نسبت $\\frac{\\Delta y}{\\Delta x}$ و میل منحنی را در $x = 0$ پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\Delta y = 2(x + \\Delta x)^2 - 4 - (2x^2 - 4) = 4x\\Delta x + 2(\\Delta x)^2$",
+        "$\\frac{\\Delta y}{\\Delta x} = 4x + 2\\Delta x$",
+        "میل: $\\lim_{\\Delta x \\to 0}(4x + 2\\Delta x) = 4x$؛ در $x = 0$ میل ۰ است."
+      ],
+      "answer": "$\\frac{\\Delta y}{\\Delta x} = 4x + 2\\Delta x$؛ میل در $x = 0$ برابر $0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (۲)",
+      "kind": "exercise",
+      "problem_fa": "برای $f(x) = 2x - x^2$، نسبت $\\frac{\\Delta y}{\\Delta x}$ و میل منحنی را در $x = 3$ پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\Delta y = 2\\Delta x - [(x + \\Delta x)^2 - x^2] = 2\\Delta x - 2x\\Delta x - (\\Delta x)^2$",
+        "$\\frac{\\Delta y}{\\Delta x} = 2 - 2x - \\Delta x$",
+        "میل: $2 - 2x$؛ در $x = 3$: $2 - 6 = -4$"
+      ],
+      "answer": "$\\frac{\\Delta y}{\\Delta x} = 2 - 2x - \\Delta x$؛ میل در $x = 3$ برابر $-4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (۳)",
+      "kind": "exercise",
+      "problem_fa": "برای $f(x) = 3x^2 - 5x + 4$، نسبت $\\frac{\\Delta y}{\\Delta x}$ و میل منحنی را در نقاط $x = 2$ و $x = -1$ پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\Delta y = 3[(x + \\Delta x)^2 - x^2] - 5\\Delta x = 6x\\Delta x + 3(\\Delta x)^2 - 5\\Delta x$",
+        "$\\frac{\\Delta y}{\\Delta x} = 6x - 5 + 3\\Delta x$",
+        "میل: $6x - 5$؛ در $x = 2$: $12 - 5 = 7$؛ در $x = -1$: $-6 - 5 = -11$"
+      ],
+      "answer": "$\\frac{\\Delta y}{\\Delta x} = 6x - 5 + 3\\Delta x$؛ میل در $x = 2$ برابر $7$ و در $x = -1$ برابر $-11$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "تغییر متوسط $f(t) = 5t^3 - 3t + 1$ را روی انتروال $[2, 4]$ پیدا کنید.",
+      "solution_steps_fa": [
+        "$f(4) = 5(64) - 12 + 1 = 309$",
+        "$f(2) = 5(8) - 6 + 1 = 35$",
+        "$\\frac{f(4) - f(2)}{4 - 2} = \\frac{274}{2}$"
+      ],
+      "answer": "$137$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "در تمرین ۱ (۳) نقطه به شکل $(2, -1)$ چاپ شده است؛ چون این نقطه روی منحنی نیست ($f(2) = 6$)، آن را دو قیمت x یعنی ۲ و $-1$ فرض کردیم. اگر منظور چیز دیگری باشد، رابطهٔ عمومی میل $6x - 5$ برای هر نقطه کار می‌دهد."
+}

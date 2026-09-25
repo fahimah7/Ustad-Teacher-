@@ -1,0 +1,60 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 93,
+  "printed_page": 84,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "پرتاب مایل",
+  "summary_fa": "این صفحه از چهار معادلۀ حرکت پرتاب مایل (3-27 تا 3-30) دو نتیجۀ مهم می‌گیرد. اول، معادلۀ مسیر: اگر زمان را حذف کنیم، یعنی t را از معادلۀ x ($t = \\frac{x}{v_0\\cos\\alpha}$) پیدا کرده در معادلۀ y بگذاریم، y به شکل یک تابع درجۀ دوم از x به دست می‌آید. چون ضریب $x^2$ منفی است، مسیر یک پارابول رو به پایین است. دوم، رنج (Range): فاصلۀ افقی که جسم طی می‌کند تا دوباره به ارتفاع نقطۀ پرتاب ($y = 0$) برگردد و با R نشان داده می‌شود. با گذاشتن $x = R$ و $y = 0$ در معادلۀ مسیر و ساده کردن، و با استفاده از قاعدۀ مثلثاتی $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha$، رابطۀ $R = \\frac{v_0^2 \\sin 2\\alpha}{g}$ به دست می‌آید. رنج به مربع سرعت اولیه و به زاویۀ پرتاب بستگی دارد.",
+  "key_points_fa": [
+    "برای معادلۀ مسیر، t را بین معادله‌های x و y حذف کنید.",
+    "معادلۀ مسیر: $y = x\\tan\\alpha - \\frac{g}{2v_0^2\\cos^2\\alpha}\\,x^2$، یک پارابول رو به پایین.",
+    "رنج (R): فاصلۀ افقی از نقطۀ پرتاب تا جایی که جسم دوباره به همان ارتفاع ($y = 0$) می‌رسد.",
+    "$R = \\frac{v_0^2 \\sin 2\\alpha}{g}$؛ با دو برابر شدن $v_0$، رنج چهار برابر می‌شود.",
+    "در اشتقاق از $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha$ استفاده می‌شود."
+  ],
+  "formulas": [
+    {"latex": "t = \\frac{x}{v_0 \\cos\\alpha}", "meaning_fa": "زمان از معادلۀ افقی"},
+    {"latex": "y = -\\frac{g\\,x^2}{2v_0^2\\cos^2\\alpha} + x\\tan\\alpha", "meaning_fa": "معادلۀ مسیر حرکت پرتابی (3-31)"},
+    {"latex": "\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha", "meaning_fa": "قاعدۀ مثلثاتی زاویۀ دو برابر"},
+    {"latex": "R = \\frac{v_0^2 \\sin 2\\alpha}{g}", "meaning_fa": "رنج (فاصلۀ افقی تا برگشت به ارتفاع اولیه) (3-32)"}
+  ],
+  "terms": [
+    {"fa": "رنج", "en": "range"},
+    {"fa": "معادلۀ مسیر", "en": "trajectory equation"},
+    {"fa": "حذف زمان", "en": "eliminating time"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "اشتقاق رنج",
+      "problem_fa": "با گذاشتن $x = R$ و $y = 0$ در معادلۀ مسیر (3-31)، رابطۀ رنج را به دست آورید.",
+      "steps_fa": [
+        "$0 = -\\frac{g R^2}{2v_0^2\\cos^2\\alpha} + R\\tan\\alpha$، پس $\\frac{g R^2}{2v_0^2\\cos^2\\alpha} = R\\tan\\alpha$",
+        "هر دو طرف را بر R (غیر صفر) تقسیم می‌کنیم: $R = \\frac{2v_0^2\\cos^2\\alpha}{g}\\cdot\\frac{\\sin\\alpha}{\\cos\\alpha} = \\frac{v_0^2 \\cdot 2\\sin\\alpha\\cos\\alpha}{g}$",
+        "با $2\\sin\\alpha\\cos\\alpha = \\sin 2\\alpha$: $R = \\frac{v_0^2\\sin 2\\alpha}{g}$"
+      ],
+      "answer": "$R = \\frac{v_0^2 \\sin 2\\alpha}{g}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال (چرا؟)",
+      "kind": "question",
+      "problem_fa": "چرا رابطۀ (3-31) نشان می‌دهد که مسیر حرکت پرتابی پارابول است؟",
+      "solution_steps_fa": [
+        "در رابطۀ (3-31)، y یک تابع درجۀ دوم از x است: $y = a x^2 + b x$ با $a = -\\frac{g}{2v_0^2\\cos^2\\alpha}$ و $b = \\tan\\alpha$.",
+        "گراف هر تابع درجۀ دوم یک پارابول است.",
+        "چون $a$ منفی است، پارابول رو به پایین باز می‌شود و از مبدأ (نقطۀ پرتاب) می‌گذرد."
+      ],
+      "answer": "چون y تابع درجۀ دوم x با ضریب منفی $x^2$ است، مسیر یک پارابول رو به پایین است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب واژۀ انگلیسی را «Rang» چاپ کرده که درست آن Range است."
+}

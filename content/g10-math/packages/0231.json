@@ -1,0 +1,47 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 231,
+  "printed_page": 224,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "فورمول‌های جمع و تفاضل",
+  "summary_fa": "این صفحه ثبوت فورمول‌های مجموع دو زاویه را تمام می‌کند. از A عمود AM بر KB رسم می‌شود؛ چهارضلعی KHAM مستطیل است، پس $KM = HA$ و $MA = KH$. زاویهٔ MBA برابر $\\alpha$ است، چون اضلاع آن بر اضلاع زاویهٔ $\\alpha$ عمودند. در مثلث قایم‌الزاویهٔ BMA با وتر $AB = \\sin\\beta$: $MB = \\cos\\alpha\\sin\\beta$ و $MA = KH = \\sin\\alpha\\sin\\beta$. با گذاشتن این قیمت‌ها در $KB = KM + MB$ فورمول sin مجموع، و در $OK = OH - KH$ فورمول cos مجموع به دست می‌آید. برای tan، sin مجموع بر cos مجموع تقسیم و صورت و مخرج بر $\\cos\\alpha\\cos\\beta$ تقسیم می‌شود. در آخر یک مثال طرح شده که حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "زاویه‌هایی که اضلاعشان دو به دو بر هم عمود باشند، مساوی‌اند؛ پس $M\\hat{B}A = \\alpha$.",
+    "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$",
+    "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta$ (دقت: علامهٔ منفی)",
+    "$\\tan(\\alpha + \\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha\\tan\\beta}$",
+    "برای استفاده: زاویهٔ ناآشنا را به مجموع دو زاویهٔ مشهور ($30^\\circ$، $45^\\circ$، $60^\\circ$، $90^\\circ$) بشکنید."
+  ],
+  "formulas": [
+    {"latex": "\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta", "meaning_fa": "sin مجموع دو زاویه"},
+    {"latex": "\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta", "meaning_fa": "cos مجموع دو زاویه"},
+    {"latex": "\\tan(\\alpha + \\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha\\tan\\beta}", "meaning_fa": "tan مجموع دو زاویه (از تقسیم صورت و مخرج بر $\\cos\\alpha\\cos\\beta$)"},
+    {"latex": "MB = \\cos\\alpha\\sin\\beta,\\quad KH = MA = \\sin\\alpha\\sin\\beta", "meaning_fa": "طول‌ها در مثلث BMA"}
+  ],
+  "terms": [
+    {"fa": "مستطیل", "en": "rectangle"},
+    {"fa": "مثلث قایم‌الزاویه", "en": "right triangle"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "$\\sin\\frac{7\\pi}{12}$، $\\sin 120^\\circ$، $\\cos 120^\\circ$ و $\\tan\\frac{5\\pi}{12}$ را دریابید.",
+      "steps_fa": [
+        "$\\sin\\frac{7\\pi}{12} = \\sin(\\frac{\\pi}{3} + \\frac{\\pi}{4}) = \\frac{\\sqrt{3}}{2}\\cdot\\frac{\\sqrt{2}}{2} + \\frac{1}{2}\\cdot\\frac{\\sqrt{2}}{2} = \\frac{\\sqrt{6} + \\sqrt{2}}{4}$",
+        "$\\sin 120^\\circ = \\sin(90^\\circ + 30^\\circ) = 1\\cdot\\frac{\\sqrt{3}}{2} + 0\\cdot\\frac{1}{2} = \\frac{\\sqrt{3}}{2}$",
+        "$\\cos 120^\\circ = \\cos 90^\\circ\\cos 30^\\circ - \\sin 90^\\circ\\sin 30^\\circ = 0 - \\frac{1}{2} = -\\frac{1}{2}$",
+        "$\\tan\\frac{5\\pi}{12} = \\tan(\\frac{\\pi}{4} + \\frac{\\pi}{6}) = \\frac{1 + \\frac{\\sqrt{3}}{3}}{1 - \\frac{\\sqrt{3}}{3}} = \\frac{3 + \\sqrt{3}}{3 - \\sqrt{3}} = 2 + \\sqrt{3}$"
+      ],
+      "answer": "$\\frac{\\sqrt{6}+\\sqrt{2}}{4}$، $\\frac{\\sqrt{3}}{2}$، $-\\frac{1}{2}$، $\\frac{3+\\sqrt{3}}{3-\\sqrt{3}} = 2+\\sqrt{3}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "حل مثال در صفحهٔ بعد چاپ شده است؛ ساده‌سازی $\\frac{3+\\sqrt{3}}{3-\\sqrt{3}} = 2+\\sqrt{3}$ از طرف ما افزوده شد."
+}

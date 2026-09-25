@@ -1,0 +1,126 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 254,
+  "printed_page": 247,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "تبدیل حاصل‌ضرب نسبت‌های مثلثاتی زوایا به مجموع و تفاضل",
+  "summary_fa": "صفحهٔ تمرین برای دو درس تبدیل (مجموع به حاصل‌ضرب و حاصل‌ضرب به مجموع). سوال ۱ یک اتحاد با $37^\\circ$ و $8^\\circ$ است. سوال ۲ یازده حاصل‌ضرب را می‌دهد که باید به جمع یا تفاضل بدل شوند؛ سوال ۳ دوازده مجموع یا تفاضل را می‌دهد که باید به حاصل‌ضرب بدل شوند. سوال ۴ چهار اتحاد را می‌خواهد: دو کسر که به $\\tan A$ و $\\cot 5\\beta$ ساده می‌شوند، و دو حاصل‌ضرب چهار نسبت که هر کدام $\\frac{1}{16}$ می‌شوند. کلید کار: شناختن نوع جمله و انتخاب فورمول درست، و دقت در علامه‌ها.",
+  "key_points_fa": [
+    "برای حاصل‌ضرب به مجموع: نصف (یا بدون نصف اگر ضریب ۲ باشد) مجموع/تفاضل نسبت‌های $A+B$ و $A-B$.",
+    "برای مجموع به حاصل‌ضرب: نصف مجموع و نصف تفاضل زاویه‌ها را حساب کنید.",
+    "$\\sin(-x) = -\\sin x$ و $\\cos(-x) = \\cos x$ برای مرتب کردن جواب.",
+    "$4\\sin\\theta\\sin(60^\\circ-\\theta)\\sin(60^\\circ+\\theta) = \\sin 3\\theta$ و $4\\cos\\theta\\cos(60^\\circ-\\theta)\\cos(60^\\circ+\\theta) = \\cos 3\\theta$ برای سوال ۴ مفیدند."
+  ],
+  "formulas": [
+    {"latex": "\\sin A\\cos B = \\tfrac{1}{2}[\\sin(A+B)+\\sin(A-B)],\\ \\cos A\\cos B = \\tfrac{1}{2}[\\cos(A+B)+\\cos(A-B)],\\ \\sin A\\sin B = \\tfrac{1}{2}[\\cos(A-B)-\\cos(A+B)]", "meaning_fa": "تبدیل حاصل‌ضرب به مجموع"},
+    {"latex": "\\sin p \\pm \\sin q,\\ \\cos p \\pm \\cos q \\to \\frac{p+q}{2},\\ \\frac{p-q}{2}", "meaning_fa": "تبدیل مجموع به حاصل‌ضرب با نصف مجموع و نصف تفاضل زاویه‌ها"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید $\\frac{\\cos 37^\\circ + \\sin 37^\\circ}{\\cos 37^\\circ - \\sin 37^\\circ} = \\cot 8^\\circ$.",
+      "solution_steps_fa": [
+        "$\\sin 37^\\circ = \\cos 53^\\circ$",
+        "صورت: $\\cos 37^\\circ + \\cos 53^\\circ = 2\\cos 45^\\circ\\cos 8^\\circ$",
+        "مخرج: $\\cos 37^\\circ - \\cos 53^\\circ = -2\\sin 45^\\circ\\sin(-8^\\circ) = 2\\sin 45^\\circ\\sin 8^\\circ$",
+        "چون $\\cos 45^\\circ = \\sin 45^\\circ$، کسر $= \\frac{\\cos 8^\\circ}{\\sin 8^\\circ} = \\cot 8^\\circ$"
+      ],
+      "answer": "$\\cot 8^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (ردیف ۱ و ۲)",
+      "kind": "exercise",
+      "problem_fa": "به جمع یا تفاضل بدل کنید: $\\sin 5x\\cos 8x$، $\\sin 3\\theta\\cos 5\\theta$، $\\cos 30^\\circ\\cos 60^\\circ$، $\\sin 32^\\circ\\cos 24^\\circ$، $\\cos 5x\\sin 8x$، $\\cos 7\\theta\\sin 5\\theta$",
+      "solution_steps_fa": [
+        "$\\sin 5x\\cos 8x = \\frac{1}{2}[\\sin 13x + \\sin(-3x)] = \\frac{1}{2}(\\sin 13x - \\sin 3x)$",
+        "$\\sin 3\\theta\\cos 5\\theta = \\frac{1}{2}(\\sin 8\\theta - \\sin 2\\theta)$",
+        "$\\cos 30^\\circ\\cos 60^\\circ = \\frac{1}{2}(\\cos 90^\\circ + \\cos 30^\\circ) = \\frac{\\sqrt{3}}{4}$",
+        "$\\sin 32^\\circ\\cos 24^\\circ = \\frac{1}{2}(\\sin 56^\\circ + \\sin 8^\\circ)$",
+        "$\\cos 5x\\sin 8x = \\frac{1}{2}[\\sin 13x - \\sin(-3x)] = \\frac{1}{2}(\\sin 13x + \\sin 3x)$",
+        "$\\cos 7\\theta\\sin 5\\theta = \\frac{1}{2}(\\sin 12\\theta - \\sin 2\\theta)$"
+      ],
+      "answer": "به ترتیب: $\\frac{1}{2}(\\sin 13x - \\sin 3x)$، $\\frac{1}{2}(\\sin 8\\theta - \\sin 2\\theta)$، $\\frac{\\sqrt{3}}{4}$، $\\frac{1}{2}(\\sin 56^\\circ + \\sin 8^\\circ)$، $\\frac{1}{2}(\\sin 13x + \\sin 3x)$، $\\frac{1}{2}(\\sin 12\\theta - \\sin 2\\theta)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (ردیف ۳ و ۴)",
+      "kind": "exercise",
+      "problem_fa": "به جمع یا تفاضل بدل کنید: $\\sin 88^\\circ\\sin 12^\\circ$، $2\\sin 60^\\circ\\sin 20^\\circ$، $2\\cos 8\\theta\\sin 4\\theta$، $2\\cos 75\\alpha\\sin 25\\alpha$، $\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}$",
+      "solution_steps_fa": [
+        "$\\sin 88^\\circ\\sin 12^\\circ = \\frac{1}{2}(\\cos 76^\\circ - \\cos 100^\\circ)$",
+        "$2\\sin 60^\\circ\\sin 20^\\circ = \\cos 40^\\circ - \\cos 80^\\circ$",
+        "$2\\cos 8\\theta\\sin 4\\theta = \\sin 12\\theta - \\sin 4\\theta$",
+        "$2\\cos 75\\alpha\\sin 25\\alpha = \\sin 100\\alpha - \\sin 50\\alpha$",
+        "$\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2} = \\frac{1}{2}(\\sin A + \\sin B)$ (مجموع زاویه‌ها $A$ و تفاضل آن‌ها $B$ است)"
+      ],
+      "answer": "$\\frac{1}{2}(\\cos 76^\\circ - \\cos 100^\\circ)$، $\\cos 40^\\circ - \\cos 80^\\circ$، $\\sin 12\\theta - \\sin 4\\theta$، $\\sin 100\\alpha - \\sin 50\\alpha$، $\\frac{1}{2}(\\sin A + \\sin B)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳ (عددی)",
+      "kind": "exercise",
+      "problem_fa": "به حاصل‌ضرب بدل کنید: $\\cos 56^\\circ + \\cos 22^\\circ$، $\\sin 84^\\circ - \\sin 76^\\circ$، $\\sin 94^\\circ - \\sin 86^\\circ$، $\\cos 86^\\circ + \\cos 22^\\circ$، $\\cos 84^\\circ - \\cos 76^\\circ$، $\\cos 95^\\circ - \\cos 41^\\circ$، $\\cos 84^\\circ + \\cos 76^\\circ$",
+      "solution_steps_fa": [
+        "$\\cos 56^\\circ + \\cos 22^\\circ = 2\\cos 39^\\circ\\cos 17^\\circ$",
+        "$\\sin 84^\\circ - \\sin 76^\\circ = 2\\cos 80^\\circ\\sin 4^\\circ$",
+        "$\\sin 94^\\circ - \\sin 86^\\circ = 2\\cos 90^\\circ\\sin 4^\\circ = 0$",
+        "$\\cos 86^\\circ + \\cos 22^\\circ = 2\\cos 54^\\circ\\cos 32^\\circ$",
+        "$\\cos 84^\\circ - \\cos 76^\\circ = -2\\sin 80^\\circ\\sin 4^\\circ$",
+        "$\\cos 95^\\circ - \\cos 41^\\circ = -2\\sin 68^\\circ\\sin 27^\\circ$",
+        "$\\cos 84^\\circ + \\cos 76^\\circ = 2\\cos 80^\\circ\\cos 4^\\circ$"
+      ],
+      "answer": "$2\\cos 39^\\circ\\cos 17^\\circ$، $2\\cos 80^\\circ\\sin 4^\\circ$، $0$، $2\\cos 54^\\circ\\cos 32^\\circ$، $-2\\sin 80^\\circ\\sin 4^\\circ$، $-2\\sin 68^\\circ\\sin 27^\\circ$، $2\\cos 80^\\circ\\cos 4^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳ (با متحول)",
+      "kind": "exercise",
+      "problem_fa": "به حاصل‌ضرب بدل کنید: $\\sin 8\\theta + \\sin 4\\theta$، $\\sin\\frac{P+Q}{2} - \\sin\\frac{P-Q}{2}$، $\\sin\\frac{5x}{3} - \\sin\\frac{5x}{6}$، $\\cos\\frac{3A}{4} + \\cos\\frac{4A}{3}$، $\\cos\\frac{A+B}{2} + \\cos\\frac{A-B}{2}$",
+      "solution_steps_fa": [
+        "$\\sin 8\\theta + \\sin 4\\theta = 2\\sin 6\\theta\\cos 2\\theta$",
+        "نصف مجموع $\\frac{P+Q}{2}$ و $\\frac{P-Q}{2}$ برابر $\\frac{P}{2}$ و نصف تفاضل آن‌ها $\\frac{Q}{2}$ است: $2\\cos\\frac{P}{2}\\sin\\frac{Q}{2}$",
+        "$\\frac{5x}{3} + \\frac{5x}{6} = \\frac{5x}{2}$ و $\\frac{5x}{3} - \\frac{5x}{6} = \\frac{5x}{6}$؛ پس $2\\cos\\frac{5x}{4}\\sin\\frac{5x}{12}$",
+        "$\\frac{3A}{4} + \\frac{4A}{3} = \\frac{25A}{12}$ و تفاضل $-\\frac{7A}{12}$؛ پس $2\\cos\\frac{25A}{24}\\cos\\frac{7A}{24}$",
+        "$\\cos\\frac{A+B}{2} + \\cos\\frac{A-B}{2} = 2\\cos\\frac{A}{2}\\cos\\frac{B}{2}$"
+      ],
+      "answer": "$2\\sin 6\\theta\\cos 2\\theta$، $2\\cos\\frac{P}{2}\\sin\\frac{Q}{2}$، $2\\cos\\frac{5x}{4}\\sin\\frac{5x}{12}$، $2\\cos\\frac{25A}{24}\\cos\\frac{7A}{24}$، $2\\cos\\frac{A}{2}\\cos\\frac{B}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴ (کسرها)",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید $\\frac{\\sin 4A - \\sin 2A}{\\cos 4A + \\cos 2A} = \\tan A$ و $\\frac{\\cos\\beta + \\cos 9\\beta}{\\sin\\beta + \\sin 9\\beta} = \\cot 5\\beta$.",
+      "solution_steps_fa": [
+        "$\\frac{2\\cos 3A\\sin A}{2\\cos 3A\\cos A} = \\tan A$",
+        "$\\frac{2\\cos 5\\beta\\cos 4\\beta}{2\\sin 5\\beta\\cos 4\\beta} = \\cot 5\\beta$ (با $\\cos(-4\\beta) = \\cos 4\\beta$)"
+      ],
+      "answer": "هر دو اتحاد ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴ (حاصل‌ضرب‌ها)",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید $\\sin 10^\\circ\\sin 30^\\circ\\sin 50^\\circ\\sin 70^\\circ = \\frac{1}{16}$ و $\\cos 20^\\circ\\cos 40^\\circ\\cos 60^\\circ\\cos 80^\\circ = \\frac{1}{16}$.",
+      "solution_steps_fa": [
+        "$\\sin 50^\\circ\\sin 70^\\circ = \\frac{1}{2}(\\cos 20^\\circ - \\cos 120^\\circ) = \\frac{1}{2}\\cos 20^\\circ + \\frac{1}{4}$",
+        "$\\sin 10^\\circ(\\frac{1}{2}\\cos 20^\\circ + \\frac{1}{4}) = \\frac{1}{4}(\\sin 30^\\circ - \\sin 10^\\circ) + \\frac{1}{4}\\sin 10^\\circ = \\frac{1}{8}$",
+        "ضرب در $\\sin 30^\\circ = \\frac{1}{2}$: جواب $\\frac{1}{16}$",
+        "به همین ترتیب: $\\cos 40^\\circ\\cos 80^\\circ = \\frac{1}{2}(\\cos 120^\\circ + \\cos 40^\\circ) = \\frac{1}{2}\\cos 40^\\circ - \\frac{1}{4}$",
+        "$\\cos 20^\\circ(\\frac{1}{2}\\cos 40^\\circ - \\frac{1}{4}) = \\frac{1}{4}(\\cos 60^\\circ + \\cos 20^\\circ) - \\frac{1}{4}\\cos 20^\\circ = \\frac{1}{8}$؛ ضرب در $\\cos 60^\\circ = \\frac{1}{2}$ می‌شود $\\frac{1}{16}$"
+      ],
+      "answer": "هر دو حاصل‌ضرب $\\frac{1}{16}$ است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "تمرین در صفحهٔ بعد (سوال‌های ۵ تا ۸) ادامه دارد. همهٔ جواب‌ها با Python به شکل عددی بررسی شد."
+}

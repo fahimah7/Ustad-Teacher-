@@ -1,0 +1,74 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 229,
+  "printed_page": 220,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "ضرب دو متریکس",
+  "summary_fa": "این صفحه تمرین درس ضرب دو متریکس است و چهار حاصل ضرب کوتاه می‌خواهد: ضرب دو متریکس $2 \\times 2$، ضرب یک متریکس $2 \\times 2$ در یک متریکس ستونی، ضرب یک متریکس سطری $1 \\times 3$ در یک متریکس ستونی $3 \\times 1$ (که جواب آن یک متریکس $1 \\times 1$ است)، و باز ضرب یک متریکس $2 \\times 2$ در یک ستون. در هر مورد اول مرتبه‌ها را بررسی کنید، بعد هر سطر متریکس اول را با هر ستون متریکس دوم ضرب و جمع کنید. در قسمت a متریکس دوم قطری است، پس ستون اول متریکس اول در ۵ ضرب می‌شود و ستون دوم تغییر نمی‌کند.",
+  "key_points_fa": [
+    "$2 \\times 2$ ضرب در $2 \\times 1$ جواب $2 \\times 1$ می‌دهد.",
+    "یک سطر $1 \\times 3$ ضرب در یک ستون $3 \\times 1$ فقط یک عدد (متریکس $1 \\times 1$) می‌دهد.",
+    "ضرب از راست در یک متریکس قطری، هر ستون متریکس اول را در عدد قطری همان ستون ضرب می‌کند."
+  ],
+  "formulas": [
+    {"latex": "c_{ij} = \\sum_{k} a_{ik} b_{kj}", "meaning_fa": "هر عنصر جواب = سطر i متریکس اول ضرب در ستون j متریکس دوم"}
+  ],
+  "terms": [
+    {"fa": "متریکس سطری", "en": "row matrix"},
+    {"fa": "متریکس ستونی", "en": "column matrix"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "a",
+      "kind": "exercise",
+      "problem_fa": "$\\begin{pmatrix} 0 & 1 \\\\ 2 & 0 \\end{pmatrix} \\begin{pmatrix} 5 & 0 \\\\ 0 & 1 \\end{pmatrix} = ?$",
+      "solution_steps_fa": [
+        "سطر اول: $0 \\cdot 5 + 1 \\cdot 0 = 0$، $0 \\cdot 0 + 1 \\cdot 1 = 1$",
+        "سطر دوم: $2 \\cdot 5 + 0 \\cdot 0 = 10$، $2 \\cdot 0 + 0 \\cdot 1 = 0$"
+      ],
+      "answer": "$\\begin{pmatrix} 0 & 1 \\\\ 10 & 0 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "b",
+      "kind": "exercise",
+      "problem_fa": "$\\begin{pmatrix} -2 & 3 \\\\ -1 & 2 \\end{pmatrix} \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} = ?$",
+      "solution_steps_fa": [
+        "سطر اول: $(-2) \\cdot 3 + 3 \\cdot 4 = -6 + 12 = 6$",
+        "سطر دوم: $(-1) \\cdot 3 + 2 \\cdot 4 = -3 + 8 = 5$"
+      ],
+      "answer": "$\\begin{pmatrix} 6 \\\\ 5 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "c",
+      "kind": "exercise",
+      "problem_fa": "$\\begin{pmatrix} 3 & -2 & 1 \\end{pmatrix} \\begin{pmatrix} -2 \\\\ 1 \\\\ 1 \\end{pmatrix} = ?$",
+      "solution_steps_fa": [
+        "مرتبه‌ها: $1 \\times 3$ ضرب در $3 \\times 1$، جواب $1 \\times 1$ است.",
+        "$3(-2) + (-2)(1) + 1 \\cdot 1 = -6 - 2 + 1 = -7$"
+      ],
+      "answer": "$\\begin{pmatrix} -7 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "d",
+      "kind": "exercise",
+      "problem_fa": "$\\begin{pmatrix} 2 & 3 \\\\ 4 & 2 \\end{pmatrix} \\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix} = ?$",
+      "solution_steps_fa": [
+        "سطر اول: $2(-3) + 3 \\cdot 2 = -6 + 6 = 0$",
+        "سطر دوم: $4(-3) + 2 \\cdot 2 = -12 + 4 = -8$"
+      ],
+      "answer": "$\\begin{pmatrix} 0 \\\\ -8 \\end{pmatrix}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,144 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 208,
+  "printed_page": 199,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "تمرین فصل پنجم",
+  "summary_fa": "این صفحه آغاز «تمرین فصل پنجم» است و ده سوال چهارجوابه دارد؛ شاگرد باید جواب درست را انتخاب کند. سوال‌ها همهٔ موضوعات فصل لوگاریتم را مرور می‌کنند: دریافت لوگاریتم با قاعده‌های $\\sqrt{2}$، $\\frac{1}{5}$ و $\\frac{1}{2}$، دریافت قاعده از یک رابطهٔ لوگاریتمی، قیمت یک افادهٔ لوگاریتمی، حل یک معادلهٔ لوگاریتمی و یک معادلهٔ اکسپوننشیل، کرکترستیک (مشخصه) یک عدد و قانون معکوس لوگاریتم. راه اصلی در بیشتر سوال‌ها این است که عدد و قاعده را به شکل طاقت‌های یک عدد اساسی بنویسیم و نماها را مقایسه کنیم.",
+  "key_points_fa": [
+    "$\\log_a x = y$ یعنی $a^y = x$؛ برای دریافت لوگاریتم، عدد و قاعده را طاقت یک عدد مشترک بنویسید.",
+    "$\\log_a a = 1$ برای هر قاعدهٔ مجاز، حتی قاعدهٔ کسری مانند $\\frac{1}{2}$.",
+    "تفریق لوگاریتم‌ها ← لوگاریتم خارج قسمت: $\\log 18 - \\log 2x = \\log\\frac{18}{2x}$.",
+    "کرکترستیک عدد بزرگ‌تر از ۱ یکی کمتر از تعداد رقم‌های قسمت تام آن است.",
+    "معکوس لوگاریتم: $\\frac{1}{\\log_a m} = \\log_m a$."
+  ],
+  "formulas": [
+    {"latex": "\\log_a x = y \\iff a^y = x", "meaning_fa": "تعریف لوگاریتم"},
+    {"latex": "\\log_a x - \\log_a y = \\log_a \\frac{x}{y}", "meaning_fa": "لوگاریتم خارج قسمت"},
+    {"latex": "\\log_m a = \\frac{1}{\\log_a m}", "meaning_fa": "معکوس لوگاریتم یک عدد"}
+  ],
+  "terms": [
+    {"fa": "کرکترستیک (مشخصه)", "en": "characteristic"},
+    {"fa": "معادلهٔ اکسپوننشیل", "en": "exponential equation"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "question",
+      "problem_fa": "$\\log_{\\sqrt{2}}\\left(\\frac{1}{4}\\right)$ مساوی کدام است؟ a) 4  b) −4  c) 3  d) −3",
+      "solution_steps_fa": [
+        "فرض کنید $(\\sqrt{2})^y = \\frac{1}{4}$؛ یعنی $2^{\\frac{y}{2}} = 2^{-2}$.",
+        "$\\frac{y}{2} = -2$ پس $y = -4$."
+      ],
+      "answer": "b) $-4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "question",
+      "problem_fa": "اگر $\\log_b \\sqrt[4]{81} = \\frac{1}{4}$ باشد، b کدام است؟ a) $\\frac{1}{4}$  b) 81  c) $\\sqrt{81}$  d) −4",
+      "solution_steps_fa": [
+        "از تعریف: $b^{\\frac{1}{4}} = \\sqrt[4]{81} = 81^{\\frac{1}{4}}$.",
+        "دو طرف را به طاقت ۴ می‌رسانیم: $b = 81$."
+      ],
+      "answer": "b) $81$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "question",
+      "problem_fa": "قیمت $\\log_3 81 - \\log 0.01$ کدام است؟ a) 0  b) 4  c) 6  d) 9",
+      "solution_steps_fa": [
+        "$\\log_3 81 = 4$ چون $3^4 = 81$.",
+        "$\\log 0.01 = \\log 10^{-2} = -2$.",
+        "$4 - (-2) = 6$"
+      ],
+      "answer": "c) $6$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "question",
+      "problem_fa": "در معادلهٔ $\\log 18 - \\log 2x = \\log 3$ قیمت x کدام است؟ a) 2  b) 3  c) 4  d) 13.5",
+      "solution_steps_fa": [
+        "$\\log \\frac{18}{2x} = \\log 3$ پس $\\frac{18}{2x} = 3$.",
+        "$2x = 6$ و $x = 3$ (برای x = 3 لوگاریتم‌ها تعریف شده‌اند)."
+      ],
+      "answer": "b) $3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "question",
+      "problem_fa": "$\\log_2 16$ کدام است؟ a) 4  b) 3  c) 5  d) −4",
+      "solution_steps_fa": [
+        "$2^4 = 16$ پس $\\log_2 16 = 4$."
+      ],
+      "answer": "a) $4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "question",
+      "problem_fa": "$\\log_{\\frac{1}{5}} 125$ کدام است؟ a) 3  b) −3  c) 4  d) 5",
+      "solution_steps_fa": [
+        "$\\left(\\frac{1}{5}\\right)^y = 125$ یعنی $5^{-y} = 5^3$.",
+        "$-y = 3$ پس $y = -3$."
+      ],
+      "answer": "b) $-3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "question",
+      "problem_fa": "$\\log_{\\frac{1}{2}} \\frac{1}{2}$ کدام است؟ a) $\\frac{1}{2}$  b) $-\\frac{1}{2}$  c) 1  d) −1",
+      "solution_steps_fa": [
+        "عدد و قاعده یکی‌اند و $\\log_a a = 1$."
+      ],
+      "answer": "c) $1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "question",
+      "problem_fa": "در معادلهٔ $3^{x-1} = 9$ قیمت x کدام است؟ a) −3  b) 9  c) −9  d) 3",
+      "solution_steps_fa": [
+        "$9 = 3^2$ پس $3^{x-1} = 3^2$.",
+        "نماها مساوی‌اند: $x - 1 = 2$ و $x = 3$."
+      ],
+      "answer": "d) $x = 3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹",
+      "kind": "question",
+      "problem_fa": "کرکترستیک (مشخصهٔ) $\\log 234.21$ کدام است؟ a) 0  b) 1  c) 2  d) 3",
+      "solution_steps_fa": [
+        "$234.21 = 2.3421 \\cdot 10^2$",
+        "توان ۱۰ کرکترستیک است؛ یا: قسمت تام سه رقم دارد، پس کرکترستیک $3 - 1 = 2$."
+      ],
+      "answer": "c) $2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰",
+      "kind": "question",
+      "problem_fa": "معکوس لوگاریتم یک عدد مساوی کدام است؟ a) $\\log_a m = \\frac{1}{\\log_a m}$  b) $\\log_a m\\,\\frac{1}{\\log_a m}$ (علامت مساوی در کتاب چاپ نشده)  c) $\\log_a m = -\\frac{1}{\\log_a m}$  d) هیچ کدام",
+      "solution_steps_fa": [
+        "قانون درست: معکوس $\\log_a m$ مساوی $\\log_m a$ است، یعنی $\\log_m a = \\frac{1}{\\log_a m}$ (جای قاعده و عدد عوض می‌شود).",
+        "جواب a و c درست نیستند، چون $\\log_a m$ به طور عموم با معکوس خودش (یا منفی معکوسش) مساوی نیست.",
+        "جواب b ظاهراً غلط چاپی دارد و منظور آن احتمالاً همین قانون $\\log_m a = \\frac{1}{\\log_a m}$ است؛ اگر سوال را همان‌طور که چاپ شده بخوانیم، هیچ کدام درست نیست."
+      ],
+      "answer": "قانون درست $\\log_m a = \\frac{1}{\\log_a m}$ است؛ جواب مورد نظر کتاب احتمالاً b است (با غلط چاپی)، و به شکل چاپ‌شده d) هیچ کدام.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "در سوال ۱۰ گزینه‌ها غلط چاپی دارند (گزینهٔ b علامت مساوی ندارد و قاعده و عدد در طرف چپ جابجا نشده‌اند)؛ قانون درست توضیح داده شد. بقیهٔ سوال‌ها روشن و حساب‌شده‌اند."
+}

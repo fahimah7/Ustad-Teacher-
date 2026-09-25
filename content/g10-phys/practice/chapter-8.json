@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-phys",
+  "chapter": 8,
+  "title": {
+    "en": "Magnetism",
+    "fa": "مقناطیس"
+  },
+  "questions": [
+    {
+      "pdf_page": 208,
+      "q": {
+        "en": "A bar magnet is cut into two halves. What does each half have?",
+        "fa": "یک میلهٔ مقناطیس را دو نصف می‌کنیم. هر نصف چه دارد؟"
+      },
+      "options": [
+        {
+          "en": "A north pole and a south pole",
+          "fa": "یک قطب شمال و یک قطب جنوب"
+        },
+        {
+          "en": "Only a north pole or only a south pole",
+          "fa": "فقط قطب شمال یا فقط قطب جنوب"
+        },
+        {
+          "en": "No poles; it is no longer a magnet",
+          "fa": "هیچ قطب ندارد؛ دیگر مقناطیس نیست"
+        },
+        {
+          "en": "Two north poles",
+          "fa": "دو قطب شمال"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Magnetic poles always come in pairs. However many times a magnet is cut, each piece again has both an N and an S pole; a single pole cannot be obtained.",
+        "fa": "قطب‌های مقناطیس همیشه جوره اند. هر قدر یک مقناطیس را قطع کنیم، هر پارچه باز هم یک قطب N و یک قطب S دارد؛ یک قطب تنها به دست نمی‌آید."
+      },
+      "idea": {
+        "en": "Unlike electric charges, magnetic poles cannot be separated. What does the book say happens each time a magnet is cut?",
+        "fa": "برخلاف چارج‌های برقی، قطب‌های مقناطیس از هم جدا نمی‌شوند. کتاب می‌گوید هر بار که مقناطیس قطع شود چه می‌شود؟"
+      }
+    },
+    {
+      "pdf_page": 213,
+      "q": {
+        "en": "A wire carrying $10.0\\,\\mathrm{A}$ lies perpendicular to a magnetic field. A $50\\,\\mathrm{m}$ length of the wire feels a force of $15.0\\,\\mathrm{N}$. What is the magnetic field strength?",
+        "fa": "سیمی که جریان $10.0\\,\\mathrm{A}$ دارد عمود بر یک ساحهٔ مقناطیسی قرار دارد. بالای $50\\,\\mathrm{m}$ این سیم قوهٔ $15.0\\,\\mathrm{N}$ وارد می‌شود. شدت ساحهٔ مقناطیسی چند است؟"
+      },
+      "options": [
+        {
+          "en": "$7500\\,\\mathrm{T}$",
+          "fa": "$7500\\,\\mathrm{T}$"
+        },
+        {
+          "en": "$33\\,\\mathrm{T}$",
+          "fa": "$33\\,\\mathrm{T}$"
+        },
+        {
+          "en": "$0.30\\,\\mathrm{T}$",
+          "fa": "$0.30\\,\\mathrm{T}$"
+        },
+        {
+          "en": "$0.030\\,\\mathrm{T}$",
+          "fa": "$0.030\\,\\mathrm{T}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "From $F = B\\,I\\,l$: $B = \\frac{F}{I\\,l} = \\frac{15.0\\,\\mathrm{N}}{(10.0\\,\\mathrm{A})(50\\,\\mathrm{m})} = 0.030\\,\\mathrm{T}$.",
+        "fa": "از $F = B\\,I\\,l$ داریم: $B = \\frac{F}{I\\,l} = \\frac{15.0\\,\\mathrm{N}}{(10.0\\,\\mathrm{A})(50\\,\\mathrm{m})} = 0.030\\,\\mathrm{T}$."
+      },
+      "idea": {
+        "en": "Rearrange $F = B\\,I\\,l$ for $B$: divide the force by the product of current and length. Check the unit: $1\\,\\mathrm{T} = 1\\,\\mathrm{N/(A\\cdot m)}$.",
+        "fa": "$F = B\\,I\\,l$ را برای $B$ حل کنید: قوه را بر حاصل ضرب جریان و طول تقسیم کنید. واحد را ببینید: $1\\,\\mathrm{T} = 1\\,\\mathrm{N/(A\\cdot m)}$."
+      }
+    },
+    {
+      "pdf_page": 216,
+      "q": {
+        "en": "What is the job of the commutator in an electric motor?",
+        "fa": "کار کموتیتر در موتور برقی چیست؟"
+      },
+      "options": [
+        {
+          "en": "To turn mechanical energy into electrical energy",
+          "fa": "انرژی میخانیکی را به انرژی برقی تبدیل می‌کند"
+        },
+        {
+          "en": "To reverse the current in the coil every half turn, so the coil keeps turning the same way",
+          "fa": "جهت جریان کوایل را در هر نیم دور عوض می‌کند تا کوایل همیشه به یک طرف بچرخد"
+        },
+        {
+          "en": "To make the magnetic field stronger",
+          "fa": "ساحهٔ مقناطیسی را قوی‌تر می‌سازد"
+        },
+        {
+          "en": "To stop the current when the motor gets hot",
+          "fa": "وقتی موتور گرم شود، جریان را قطع می‌کند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Without a commutator the torque would reverse after each half turn and the coil would only rock back and forth. The commutator and brushes reverse the current every half turn, so the torque always turns the coil the same way.",
+        "fa": "بدون کموتیتر، مومنت بعد از هر نیم دور جهت عوض می‌کند و کوایل فقط پس و پیش می‌جنبد. کموتیتر و برس‌ها جهت جریان را در هر نیم دور عوض می‌کنند تا مومنت کوایل را همیشه به یک طرف بچرخاند."
+      },
+      "idea": {
+        "en": "Think about what would happen without it: the book says the coil would turn half a turn, swing back and stop.",
+        "fa": "فکر کنید بدون آن چه می‌شود: کتاب می‌گوید کوایل نیم دور می‌چرخد، پس و پیش می‌جنبد و می‌ایستد."
+      }
+    },
+    {
+      "pdf_page": 219,
+      "q": {
+        "en": "A long straight wire carries a current of $5.0\\,\\mathrm{A}$. What is the magnetic field $2.0\\,\\mathrm{cm}$ from the wire? ($\\mu_0 = 4\\pi\\times10^{-7}\\,\\mathrm{T\\cdot m/A}$)",
+        "fa": "یک سیم مستقیم طویل جریان $5.0\\,\\mathrm{A}$ دارد. ساحهٔ مقناطیسی در فاصلهٔ $2.0\\,\\mathrm{cm}$ از سیم چند است؟ ($\\mu_0 = 4\\pi\\times10^{-7}\\,\\mathrm{T\\cdot m/A}$)"
+      },
+      "options": [
+        {
+          "en": "$5.0\\times10^{-7}\\,\\mathrm{T}$",
+          "fa": "$5.0\\times10^{-7}\\,\\mathrm{T}$"
+        },
+        {
+          "en": "$3.1\\times10^{-4}\\,\\mathrm{T}$",
+          "fa": "$3.1\\times10^{-4}\\,\\mathrm{T}$"
+        },
+        {
+          "en": "$5.0\\times10^{-5}\\,\\mathrm{T}$",
+          "fa": "$5.0\\times10^{-5}\\,\\mathrm{T}$"
+        },
+        {
+          "en": "$1.6\\times10^{-4}\\,\\mathrm{T}$",
+          "fa": "$1.6\\times10^{-4}\\,\\mathrm{T}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$B = \\frac{\\mu_0}{2\\pi}\\,\\frac{I}{r} = \\frac{4\\pi\\times10^{-7}}{2\\pi}\\times\\frac{5.0}{0.020} = 2\\times10^{-7}\\times250 = 5.0\\times10^{-5}\\,\\mathrm{T}$.",
+        "fa": "$B = \\frac{\\mu_0}{2\\pi}\\,\\frac{I}{r} = \\frac{4\\pi\\times10^{-7}}{2\\pi}\\times\\frac{5.0}{0.020} = 2\\times10^{-7}\\times250 = 5.0\\times10^{-5}\\,\\mathrm{T}$."
+      },
+      "idea": {
+        "en": "Write the distance in metres ($2.0\\,\\mathrm{cm} = 0.020\\,\\mathrm{m}$) and note that $\\frac{\\mu_0}{2\\pi} = 2\\times10^{-7}\\,\\mathrm{T\\cdot m/A}$.",
+        "fa": "فاصله را به متر بنویسید ($2.0\\,\\mathrm{cm} = 0.020\\,\\mathrm{m}$) و توجه کنید که $\\frac{\\mu_0}{2\\pi} = 2\\times10^{-7}\\,\\mathrm{T\\cdot m/A}$ است."
+      }
+    },
+    {
+      "pdf_page": 222,
+      "q": {
+        "en": "A solenoid $0.25\\,\\mathrm{m}$ long has 500 turns and carries $2.0\\,\\mathrm{A}$. What is the magnetic field inside it? ($\\mu_0 = 4\\pi\\times10^{-7}\\,\\mathrm{T\\cdot m/A}$)",
+        "fa": "یک سولینویید به طول $0.25\\,\\mathrm{m}$، 500 حلقه دارد و جریان $2.0\\,\\mathrm{A}$ از آن می‌گذرد. ساحهٔ مقناطیسی داخل آن چند است؟ ($\\mu_0 = 4\\pi\\times10^{-7}\\,\\mathrm{T\\cdot m/A}$)"
+      },
+      "options": [
+        {
+          "en": "$5.0\\times10^{-3}\\,\\mathrm{T}$",
+          "fa": "$5.0\\times10^{-3}\\,\\mathrm{T}$"
+        },
+        {
+          "en": "$1.3\\times10^{-3}\\,\\mathrm{T}$",
+          "fa": "$1.3\\times10^{-3}\\,\\mathrm{T}$"
+        },
+        {
+          "en": "$1.0\\times10^{-5}\\,\\mathrm{T}$",
+          "fa": "$1.0\\times10^{-5}\\,\\mathrm{T}$"
+        },
+        {
+          "en": "$4.0\\times10^{3}\\,\\mathrm{T}$",
+          "fa": "$4.0\\times10^{3}\\,\\mathrm{T}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Turns per metre: $n = \\frac{N}{l} = \\frac{500}{0.25\\,\\mathrm{m}} = 2000\\,\\mathrm{m^{-1}}$. $B = n\\,\\mu_0\\,I = 2000\\times4\\pi\\times10^{-7}\\times2.0 \\approx 5.0\\times10^{-3}\\,\\mathrm{T}$.",
+        "fa": "تعداد حلقه‌ها در یک متر: $n = \\frac{N}{l} = \\frac{500}{0.25\\,\\mathrm{m}} = 2000\\,\\mathrm{m^{-1}}$. $B = n\\,\\mu_0\\,I = 2000\\times4\\pi\\times10^{-7}\\times2.0 \\approx 5.0\\times10^{-3}\\,\\mathrm{T}$."
+      },
+      "idea": {
+        "en": "In $B = n\\,\\mu_0\\,I$, $n$ is the number of turns per metre, not the total number of turns. Divide 500 by the length first.",
+        "fa": "در $B = n\\,\\mu_0\\,I$، $n$ تعداد حلقه‌ها در واحد طول است، نه تعداد مجموعی حلقه‌ها. اول 500 را بر طول تقسیم کنید."
+      }
+    }
+  ]
+}

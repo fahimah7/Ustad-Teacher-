@@ -1,0 +1,116 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 31,
+  "printed_page": 24,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "شکل عمومی مبهم $1^\\infty$",
+  "summary_fa": "این صفحه کاربرد فورمول $\\lim u^v = e^P$ با $P = \\lim v(u-1)$ را در دو مثال دیگر نشان می‌دهد. مثال ۲ که از صفحهٔ قبل آمده، با حساب کردن $P = \\frac{1}{2}$ به جواب $\\sqrt{e}$ می‌رسد. در مثال ۳، قاعده $\\cos x$ است که وقتی $x \\to 0$ به ۱ نزدیک می‌شود؛ برای حساب P، کسر $\\frac{\\cos x - 1}{x}$ در مزدوج $\\cos x + 1$ ضرب می‌شود، رابطهٔ $\\cos^2 x - 1 = -\\sin^2 x$ به کار می‌رود و با لیمت $\\frac{\\sin x}{x} = 1$ نتیجه $P = 0$ و جواب $e^0 = 1$ می‌شود. در پایان صفحه تمرینی با پنج لیمت آمده که همه با فورمول e یا لیمت‌های مهم صفحات قبل حل می‌شوند.",
+  "key_points_fa": [
+    "برای هر سؤال $1^\\infty$: u و v را پیدا کنید، بعد $P = \\lim v(u-1)$ و جواب $e^P$.",
+    "اگر $P = 0$ شود، جواب $e^0 = 1$ است.",
+    "در سؤال‌های مثلثاتی از $\\cos^2 x - 1 = -\\sin^2 x$ و $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$ استفاده کنید."
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to a} u^v = e^P,\\quad P = \\lim_{x \\to a} v(u - 1)", "meaning_fa": "فورمول حل شکل $1^\\infty$"},
+    {"latex": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1", "meaning_fa": "لیمت مثلثاتی مهم که در مثال ۳ به کار رفته"},
+    {"latex": "\\cos^2 x - 1 = -\\sin^2 x", "meaning_fa": "رابطهٔ مثلثاتی برای ساده کردن"}
+  ],
+  "terms": [
+    {"fa": "شکل مبهم", "en": "indeterminate form"},
+    {"fa": "مزدوج", "en": "conjugate"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲ (ادامه)",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^{\\frac{x-5}{2}}$",
+      "steps_fa": [
+        "$u = 1 + \\frac{1}{x}$، $v = \\frac{x-5}{2}$",
+        "$P = \\lim \\frac{x-5}{2} \\cdot \\frac{1}{x} = \\lim \\frac{x-5}{2x} = \\frac{1}{2}$",
+        "جواب: $e^{\\frac{1}{2}} = \\sqrt{e}$"
+      ],
+      "answer": "$\\sqrt{e}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "$\\lim_{x \\to 0} (\\cos x)^{\\frac{1}{x}}$",
+      "steps_fa": [
+        "شکل $1^\\infty$ است؛ $u = \\cos x$ و $v = \\frac{1}{x}$",
+        "$P = \\lim \\frac{\\cos x - 1}{x} = \\lim \\frac{\\cos^2 x - 1}{x(\\cos x + 1)} = \\lim \\frac{-\\sin^2 x}{x(\\cos x + 1)}$",
+        "$P = -\\lim \\frac{\\sin x}{x} \\cdot \\lim \\frac{\\sin x}{\\cos x + 1} = -1 \\cdot \\frac{0}{2} = 0$",
+        "جواب: $e^0 = 1$"
+      ],
+      "answer": "$1$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^{x+2}$",
+      "solution_steps_fa": [
+        "شکل $1^\\infty$؛ $u = 1 + \\frac{1}{x}$، $v = x + 2$",
+        "$P = \\lim \\frac{x+2}{x} = 1$",
+        "جواب: $e^1 = e$"
+      ],
+      "answer": "$e$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 1} \\frac{x - 1}{\\ln x}$",
+      "solution_steps_fa": [
+        "شکل $\\frac{0}{0}$ است. می‌گذاریم $t = x - 1$؛ وقتی $x \\to 1$، $t \\to 0$",
+        "$\\frac{t}{\\ln(1+t)} = \\frac{1}{\\frac{\\ln(1+t)}{t}}$",
+        "طبق لیمت مهم $\\frac{\\ln(1+t)}{t} \\to 1$، پس جواب $1$"
+      ],
+      "answer": "$1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to \\infty} \\left(\\frac{x+3}{x-1}\\right)^{x+2}$",
+      "solution_steps_fa": [
+        "قاعده به ۱ و توان به بی‌نهایت می‌رود: شکل $1^\\infty$",
+        "$u - 1 = \\frac{x+3}{x-1} - 1 = \\frac{4}{x-1}$",
+        "$P = \\lim \\frac{4(x+2)}{x-1} = 4$",
+        "جواب: $e^4$"
+      ],
+      "answer": "$e^4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n^2}\\right)^{n^2}$",
+      "solution_steps_fa": [
+        "می‌گذاریم $m = n^2$؛ وقتی $n \\to \\infty$، $m \\to \\infty$",
+        "$(1 + \\frac{1}{m})^m \\to e$ (یا با فورمول: $P = n^2 \\cdot \\frac{1}{n^2} = 1$)"
+      ],
+      "answer": "$e$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "$\\lim_{x \\to 0} (\\cos 2x)^{\\frac{1}{x}}$",
+      "solution_steps_fa": [
+        "شکل $1^\\infty$؛ $u = \\cos 2x$، $v = \\frac{1}{x}$",
+        "$\\cos 2x - 1 = -2\\sin^2 x$، پس $P = \\lim \\frac{-2\\sin^2 x}{x} = -2 \\lim \\frac{\\sin x}{x} \\cdot \\lim \\sin x = -2 \\cdot 1 \\cdot 0 = 0$",
+        "جواب: $e^0 = 1$"
+      ],
+      "answer": "$1$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 59,
+  "printed_page": 52,
+  "page_kind": "exercises",
+  "chapter": 2,
+  "section_fa": "تعبیر هندسی مشتق",
+  "summary_fa": "این صفحه تمرین درس مشتق در یک نقطه را دارد. در سؤال اول باید مشتق دو تابع ($5x^2 - 2$ و $\\frac{2}{x}$) با تعریف پیدا شود، و در سؤال دوم مشتق دو تابع در نقطه‌های معین حساب شود. روش همه یکی است: $f(x + \\Delta x) - f(x)$ را بسازید، بر $\\Delta x$ تقسیم و ساده کنید، و لیمت را وقتی $\\Delta x \\to 0$ بگیرید؛ برای مشتق در یک نقطه، در آخر قیمت نقطه را جاگذاری کنید. قیمت مشتق در یک نقطه همان میل مماس بر منحنی در آن نقطه است.",
+  "key_points_fa": [
+    "مشتق را اول به صورت عمومی پیدا کنید، بعد قیمت نقطه را بگذارید.",
+    "مشتق تابع خطی $ax + b$ عدد ثابت a است.",
+    "برای $\\frac{c}{x}$، کسرها را با مخرج مشترک تفریق کنید."
+  ],
+  "formulas": [
+    {"latex": "f'(x) = \\lim_{\\Delta x \\to 0}\\frac{f(x + \\Delta x) - f(x)}{\\Delta x}", "meaning_fa": "تعریف مشتق"}
+  ],
+  "terms": [
+    {"fa": "مشتق", "en": "derivative"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱ (۱)",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = 5x^2 - 2$ را پیدا کنید.",
+      "solution_steps_fa": [
+        "$f(x + \\Delta x) - f(x) = 5(x + \\Delta x)^2 - 2 - (5x^2 - 2) = 10x\\Delta x + 5(\\Delta x)^2$",
+        "تقسیم بر $\\Delta x$: $10x + 5\\Delta x$",
+        "وقتی $\\Delta x \\to 0$: $10x$"
+      ],
+      "answer": "$f'(x) = 10x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (۲)",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = \\frac{2}{x}$ را پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\frac{2}{x + \\Delta x} - \\frac{2}{x} = \\frac{2x - 2(x + \\Delta x)}{x(x + \\Delta x)} = \\frac{-2\\Delta x}{x(x + \\Delta x)}$",
+        "تقسیم بر $\\Delta x$: $\\frac{-2}{x(x + \\Delta x)}$",
+        "وقتی $\\Delta x \\to 0$: $-\\frac{2}{x^2}$"
+      ],
+      "answer": "$f'(x) = -\\frac{2}{x^2}$ ($x \\neq 0$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (۱)",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = 4x^2$ را در $x_0 = \\frac{1}{2}$ پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\frac{4(x_0 + \\Delta x)^2 - 4x_0^2}{\\Delta x} = 8x_0 + 4\\Delta x$",
+        "وقتی $\\Delta x \\to 0$: $f'(x_0) = 8x_0$",
+        "$f'\\left(\\frac{1}{2}\\right) = 8 \\cdot \\frac{1}{2} = 4$"
+      ],
+      "answer": "$f'\\left(\\frac{1}{2}\\right) = 4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (۲)",
+      "kind": "exercise",
+      "problem_fa": "مشتق $f(x) = 3x - 1$ را در $x_0 = -1$ پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\frac{3(x_0 + \\Delta x) - 1 - (3x_0 - 1)}{\\Delta x} = \\frac{3\\Delta x}{\\Delta x} = 3$",
+        "مشتق در همه نقاط ۳ است، پس $f'(-1) = 3$."
+      ],
+      "answer": "$f'(-1) = 3$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

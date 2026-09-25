@@ -1,0 +1,25 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 312,
+  "printed_page": 303,
+  "page_kind": "chapter_title",
+  "chapter": 9,
+  "section_fa": null,
+  "summary_fa": "صفحه عنوان فصل نهم: «احتمالات». روی یک ده‌ضلعی آبی رنگ فقط نام فصل نوشته شده است. در این فصل شاگرد روش‌های شمارش را می‌آموزد: ترتیب (پرموتیشن) و فکتوریل، ترکیب، تبدیل‌ها، قضیهٔ بینوم و احتمال دو جمله‌یی، و فصل با نکات مهم و تمرین فصل ختم می‌شود.",
+  "key_points_fa": [
+    "فصل نهم: احتمالات (صفحه‌های چاپی ۳۰۳ تا ۳۲۳).",
+    "موضوعات اصلی: ترتیب، ترکیب، تبدیل‌ها، قضیهٔ بینوم، احتمال دو جمله‌یی."
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "احتمالات", "en": "probability"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

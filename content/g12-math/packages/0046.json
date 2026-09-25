@@ -1,0 +1,49 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 46,
+  "printed_page": 39,
+  "page_kind": "exercises",
+  "chapter": 1,
+  "section_fa": "تمرینات عمومی فصل اول",
+  "summary_fa": "این صفحه آغاز تمرین‌های عمومی فصل لیمت است. سؤال‌های ۱ تا ۶ چهارجوابه‌اند و شاگرد باید جواب درست را انتخاب کند؛ این سؤال‌ها از لیمت‌های مثلثاتی ($\\frac{\\sin x}{x}$)، شکل مبهم $\\frac{0}{0}$ با تجزیه یا مزدوج، و جاگذاری مستقیم استفاده می‌کنند. سؤال ۷ ده لیمت دیگر را می‌خواهد (ادامهٔ آن در صفحهٔ بعد است) که با جاگذاری مستقیم، مقایسهٔ درجه‌ها در بی‌نهایت، تجزیه، ضرب در مزدوج و لیمت‌های مثلثاتی حل می‌شوند. قبل از هر کار، اول قیمت را جاگذاری کنید تا معلوم شود شکل مبهم است یا نه.",
+  "key_points_fa": [
+    "اول جاگذاری کنید؛ اگر $\\frac{0}{0}$ شد، تجزیه یا مزدوج یا لیمت مثلثاتی را به کار ببرید.",
+    "$\\lim_{x \\to 0}\\frac{\\sin kx}{x} = k$ و $\\lim_{x \\to 0}\\frac{\\tan kx}{x} = k$",
+    "در بی‌نهایت، درجهٔ صورت و مخرج را مقایسه کنید.",
+    "$1 + \\cos 2x = 2\\cos^2 x$ و $1 - \\cos^2 x = \\sin^2 x$"
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to 0}\\frac{\\sin x}{x} = 1", "meaning_fa": "لیمت اساسی مثلثاتی"},
+    {"latex": "\\lim_{x \\to 0}\\frac{\\sin ax}{\\tan bx} = \\frac{a}{b}", "meaning_fa": "نتیجهٔ لیمت اساسی برای ساین و تانجانت"},
+    {"latex": "1 + \\cos 2x = 2\\cos^2 x", "meaning_fa": "اتحاد مثلثاتی برای ساده کردن سؤال ۶"}
+  ],
+  "terms": [
+    {"fa": "شکل مبهم", "en": "indeterminate form"},
+    {"fa": "مزدوج", "en": "conjugate"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {"label_fa": "۱", "kind": "question", "problem_fa": "$\\lim_{x \\to 0}\\frac{3x - \\sin x}{x}$ = ? گزینه‌ها: a) 2 b) -2 c) 1 d) 3", "solution_steps_fa": ["کسر را جدا می‌کنیم: $3 - \\frac{\\sin x}{x}$", "$\\frac{\\sin x}{x} \\to 1$، پس لیمت $3 - 1 = 2$"], "answer": "a) 2", "solution_source": "generated"},
+    {"label_fa": "۲", "kind": "question", "problem_fa": "$\\lim_{x \\to -2}\\frac{x^2 - x - 6}{x^2 + x - 2}$ = ? گزینه‌ها: a) $-\\frac{5}{3}$ b) $\\frac{5}{3}$ c) 0 d) 1", "solution_steps_fa": ["جاگذاری $\\frac{0}{0}$ می‌دهد.", "$\\frac{(x-3)(x+2)}{(x+2)(x-1)} = \\frac{x-3}{x-1}$", "در $x = -2$: $\\frac{-5}{-3} = \\frac{5}{3}$"], "answer": "b) $\\frac{5}{3}$", "solution_source": "generated"},
+    {"label_fa": "۳", "kind": "question", "problem_fa": "$\\lim_{x \\to 1.4}(2x + 0.3)$ = ? گزینه‌ها: a) 1 b) 3 c) 0 d) هیچ کدام", "solution_steps_fa": ["تابع خطی و متمادی است، پس جاگذاری می‌کنیم.", "$2(1.4) + 0.3 = 2.8 + 0.3 = 3.1$", "۳.۱ در گزینه‌های a تا c نیست."], "answer": "d) هیچ کدام (لیمت ۳.۱ است)", "solution_source": "generated"},
+    {"label_fa": "۴", "kind": "question", "problem_fa": "$\\lim_{x \\to 0}\\frac{\\sin 3x}{\\tan 2x}$ = ? گزینه‌ها: a) 1 b) 0 c) $\\frac{3}{2}$ d) $\\frac{2}{3}$", "solution_steps_fa": ["صورت و مخرج را بر x تقسیم می‌کنیم: $\\frac{\\sin 3x / x}{\\tan 2x / x}$", "$\\frac{\\sin 3x}{x} \\to 3$ و $\\frac{\\tan 2x}{x} \\to 2$", "لیمت: $\\frac{3}{2}$"], "answer": "c) $\\frac{3}{2}$", "solution_source": "generated"},
+    {"label_fa": "۵", "kind": "question", "problem_fa": "$\\lim_{x \\to 4}\\frac{x - 4}{\\sqrt{x} - 2}$ = ? گزینه‌ها: a) $2 + \\sqrt{2}$ b) 2 c) $\\sqrt{2}$ d) 4", "solution_steps_fa": ["$x - 4 = (\\sqrt{x} - 2)(\\sqrt{x} + 2)$", "بعد از ساده کردن: $\\sqrt{x} + 2$", "در $x = 4$: $2 + 2 = 4$"], "answer": "d) 4", "solution_source": "generated"},
+    {"label_fa": "۶", "kind": "question", "problem_fa": "$\\lim_{x \\to \\frac{\\pi}{2}}\\frac{1 - \\sin x}{1 + \\cos 2x}$ = ? گزینه‌ها: a) 1 b) $\\frac{1}{2}$ c) $\\frac{1}{4}$ d) 4", "solution_steps_fa": ["$1 + \\cos 2x = 2\\cos^2 x = 2(1 - \\sin x)(1 + \\sin x)$", "بعد از ساده کردن: $\\frac{1}{2(1 + \\sin x)}$", "در $x = \\frac{\\pi}{2}$: $\\frac{1}{2 \\cdot 2} = \\frac{1}{4}$"], "answer": "c) $\\frac{1}{4}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 3}\\frac{x^2 - 2x + 5}{2x^2 + 1}$", "solution_steps_fa": ["مخرج در ۳ صفر نیست؛ جاگذاری: $\\frac{9 - 6 + 5}{18 + 1}$"], "answer": "$\\frac{8}{19}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۲)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to -1}\\sqrt{3 + x}$", "solution_steps_fa": ["زیر جذر در $-1$ مثبت است؛ جاگذاری: $\\sqrt{3 - 1}$"], "answer": "$\\sqrt{2}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۳)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to +\\infty}\\frac{6}{x^2 - 7}$", "solution_steps_fa": ["صورت ثابت است و مخرج بی‌نهایت بزرگ می‌شود."], "answer": "$0$", "solution_source": "generated"},
+    {"label_fa": "۷ (۴)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to \\infty}\\frac{x^4 + x^2 + x + 6}{x^3 - 3x + 4}$", "solution_steps_fa": ["درجهٔ صورت (۴) از درجهٔ مخرج (۳) بیشتر است.", "بعد از تقسیم بر $x^3$، صورت مانند x بزرگ می‌شود و مخرج به ۱ نزدیک می‌شود."], "answer": "$+\\infty$", "solution_source": "generated"},
+    {"label_fa": "۷ (۵)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to \\infty}\\frac{3x^2 - 2}{x + 1}$", "solution_steps_fa": ["درجهٔ صورت (۲) از درجهٔ مخرج (۱) بیشتر است.", "بعد از تقسیم بر x: $\\frac{3x - \\frac{2}{x}}{1 + \\frac{1}{x}} \\to \\infty$"], "answer": "$+\\infty$", "solution_source": "generated"},
+    {"label_fa": "۷ (۶)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 2}\\frac{x^3 + 5x - 18}{x^2 + 3x - 10}$", "solution_steps_fa": ["جاگذاری $\\frac{0}{0}$ می‌دهد.", "$x^3 + 5x - 18 = (x - 2)(x^2 + 2x + 9)$ و $x^2 + 3x - 10 = (x - 2)(x + 5)$", "بعد از ساده کردن: $\\frac{x^2 + 2x + 9}{x + 5}$؛ در $x = 2$: $\\frac{17}{7}$"], "answer": "$\\frac{17}{7}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۷)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 2}\\frac{x^3 - 2x - 4}{x - \\sqrt{3x - 2}}$", "solution_steps_fa": ["جاگذاری $\\frac{0}{0}$ می‌دهد.", "صورت: $(x - 2)(x^2 + 2x + 2)$", "صورت و مخرج را در مزدوج $x + \\sqrt{3x - 2}$ ضرب می‌کنیم؛ مخرج می‌شود $x^2 - 3x + 2 = (x - 1)(x - 2)$", "بعد از حذف $(x - 2)$: $\\frac{(x^2 + 2x + 2)(x + \\sqrt{3x - 2})}{x - 1}$", "در $x = 2$: $\\frac{10 \\cdot 4}{1} = 40$"], "answer": "$40$", "solution_source": "generated"},
+    {"label_fa": "۷ (۸)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 2}\\frac{x^2 - 3x + 2}{x^2 + 3x - 10}$", "solution_steps_fa": ["$\\frac{(x - 1)(x - 2)}{(x - 2)(x + 5)} = \\frac{x - 1}{x + 5}$", "در $x = 2$: $\\frac{1}{7}$"], "answer": "$\\frac{1}{7}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۹)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 0}\\frac{ax}{\\tan bx}$", "solution_steps_fa": ["صورت و مخرج را بر x تقسیم می‌کنیم: $\\frac{a}{\\tan bx / x}$", "$\\frac{\\tan bx}{x} \\to b$"], "answer": "$\\frac{a}{b}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱۰)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 0}\\frac{1 - \\cos^2 x}{x\\cos x}$", "solution_steps_fa": ["$1 - \\cos^2 x = \\sin^2 x$", "$\\frac{\\sin^2 x}{x\\cos x} = \\frac{\\sin x}{x} \\cdot \\tan x$", "$\\frac{\\sin x}{x} \\to 1$ و $\\tan x \\to 0$"], "answer": "$0$", "solution_source": "generated"}
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سؤال ۳، عدد $1{,}4$ به صورت اعشاری (۱.۴) خوانده شده است؛ جواب ۳.۱ در گزینه‌های عددی نیست، پس گزینهٔ «هیچ کدام» درست است."
+}

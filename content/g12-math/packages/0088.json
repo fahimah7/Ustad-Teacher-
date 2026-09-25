@@ -1,0 +1,141 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 88,
+  "printed_page": 81,
+  "page_kind": "exercises",
+  "chapter": 2,
+  "section_fa": "تمرینات عمومی فصل دوم",
+  "summary_fa": "این صفحه ده سوال چهارجوابه برای مرور فصل مشتق دارد. سوال‌ها میل مماس، تغییر متوسط یک تابع در یک انتروال، معادلهٔ خط مماس و مشتق انواع توابع را می‌پرسند: توان منفی، جذر، خارج قسمت، توان یک تابع (قاعدهٔ زنجیره‌ای) و توابع مثلثاتی. برای هر سوال اول خودتان مشتق را حساب کنید و بعد با جواب‌ها مقایسه کنید. در سوال ۷ و ۹ جواب (a) با یک اشتباه چاپی آمده است؛ مشتق درست در حل نوشته شده است.",
+  "key_points_fa": [
+    "میل مماس در $x = a$ همان $f'(a)$ است.",
+    "تغییر متوسط در $[a, b]$: $\\frac{f(b) - f(a)}{b - a}$",
+    "معادلهٔ مماس: $y - f(a) = f'(a)(x - a)$",
+    "برای توان یک تابع: $(u^n)' = n u^{n-1} u'$"
+  ],
+  "formulas": [
+    {"latex": "\\frac{f(b) - f(a)}{b - a}", "meaning_fa": "تغییر متوسط تابع در انتروال $[a, b]$"},
+    {"latex": "(u^n)' = n u^{n-1}\\,u'", "meaning_fa": "مشتق توان یک تابع (قاعدهٔ زنجیره‌ای)"}
+  ],
+  "terms": [
+    {"fa": "تغییر متوسط", "en": "average rate of change"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "question",
+      "problem_fa": "میل خط مماس بر $f(x) = x^2 - x$ در $x = 3$ (نقطهٔ P) کدام است؟ (a) ۳ (b) $-3$ (c) ۵ (d) $-5$",
+      "solution_steps_fa": [
+        "$f'(x) = 2x - 1$",
+        "$f'(3) = 6 - 1 = 5$"
+      ],
+      "answer": "(c) ۵",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "question",
+      "problem_fa": "تغییر متوسط $f(x) = 2x^2$ در انتروال $[3, 4]$؟ (a) ۱۸ (b) ۱۴ (c) $-14$ (d) ۳۲",
+      "solution_steps_fa": [
+        "$f(4) = 32$ و $f(3) = 18$",
+        "$\\frac{32 - 18}{4 - 3} = 14$"
+      ],
+      "answer": "(b) ۱۴",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "question",
+      "problem_fa": "مشتق $y = 2x^2 - 3x^{-1}$ کدام است؟",
+      "solution_steps_fa": [
+        "$(2x^2)' = 4x$",
+        "$(-3x^{-1})' = 3x^{-2} = \\frac{3}{x^2}$"
+      ],
+      "answer": "(c) $y' = 4x + \\frac{3}{x^2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "question",
+      "problem_fa": "مشتق $f(x) = \\sqrt{x - 1}$ کدام است؟",
+      "solution_steps_fa": [
+        "$(\\sqrt{u})' = \\frac{u'}{2\\sqrt{u}}$ با $u = x - 1$ و $u' = 1$"
+      ],
+      "answer": "(b) $\\frac{1}{2\\sqrt{x - 1}}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "question",
+      "problem_fa": "معادلهٔ خط مماس بر $f(x) = 2x^2 + x$ در $x = 1$ کدام است؟",
+      "solution_steps_fa": [
+        "$f(1) = 3$ و $f'(x) = 4x + 1 \\Rightarrow f'(1) = 5$",
+        "$y - 3 = 5(x - 1) \\Rightarrow y = 5x - 2$"
+      ],
+      "answer": "(a) $y = 5x - 2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "question",
+      "problem_fa": "مشتق $y = \\frac{2x}{-x + 4}$ کدام است؟",
+      "solution_steps_fa": [
+        "$y' = \\frac{2(-x + 4) - 2x(-1)}{(-x + 4)^2}$",
+        "$= \\frac{-2x + 8 + 2x}{(-x + 4)^2} = \\frac{8}{(-x + 4)^2}$"
+      ],
+      "answer": "(d) $\\frac{8}{(-x + 4)^2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "question",
+      "problem_fa": "مشتق $y = (2 - x^2)^3$ کدام است؟",
+      "solution_steps_fa": [
+        "$y' = 3(2 - x^2)^2\\cdot(-2x) = -6x(2 - x^2)^2$",
+        "با باز کردن: $-6x(4 - 4x^2 + x^4) = -6x^5 + 24x^3 - 24x$",
+        "در جواب (a) ضریب $x^3$ به شکل ۲ چاپ شده که باید ۲۴ باشد؛ (b) و (c) ضریب $-2x$ قاعدهٔ زنجیره‌ای را ندارند."
+      ],
+      "answer": "$y' = -6x^5 + 24x^3 - 24x$ — منظور کتاب جواب (a) است (با اشتباه چاپی)؛ به شکل چاپ‌شده، هیچ‌کدام کاملاً درست نیست.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "question",
+      "problem_fa": "مشتق $y = \\sin x$ کدام است؟",
+      "solution_steps_fa": [
+        "قاعدهٔ پایه: $(\\sin x)' = \\cos x$"
+      ],
+      "answer": "(b) $y' = \\cos x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹",
+      "kind": "question",
+      "problem_fa": "مشتق $y = (1 + x^4)^{-\\frac{1}{5}}$ کدام است؟",
+      "solution_steps_fa": [
+        "$y' = -\\frac{1}{5}(1 + x^4)^{-\\frac{6}{5}}\\cdot 4x^3$",
+        "$= -\\frac{4}{5}x^3(1 + x^4)^{-\\frac{6}{5}}$",
+        "در جواب (a) داخل قوس $x^2$ چاپ شده که باید $x^4$ باشد."
+      ],
+      "answer": "$y' = -\\frac{4}{5}x^3(1 + x^4)^{-\\frac{6}{5}}$ — منظور کتاب جواب (a) است (با اشتباه چاپی).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰",
+      "kind": "question",
+      "problem_fa": "مشتق $y = \\frac{\\cos x}{1 - \\cos x}$ کدام است؟",
+      "solution_steps_fa": [
+        "$y' = \\frac{(-\\sin x)(1 - \\cos x) - \\cos x(\\sin x)}{(1 - \\cos x)^2}$",
+        "$= \\frac{-\\sin x + \\sin x\\cos x - \\sin x\\cos x}{(1 - \\cos x)^2} = \\frac{-\\sin x}{(1 - \\cos x)^2}$"
+      ],
+      "answer": "(c) $\\frac{-\\sin x}{(1 - \\cos x)^2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "در سوال ۱ نقطهٔ چاپ‌شده $P(3, 0)$ بالای منحنی نیست ($f(3) = 6$)؛ میل مماس در $x = 3$ حساب شده است. در سوال ۷ و ۹ جواب (a) اشتباه چاپی دارد ($2x^3$ به جای $24x^3$ و $1 + x^2$ به جای $1 + x^4$)."
+}

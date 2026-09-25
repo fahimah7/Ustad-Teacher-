@@ -1,0 +1,53 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 170,
+  "printed_page": 163,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "انتیگرال‌گیری به طریقهٔ تعویض",
+  "summary_fa": "این صفحه نتیجهٔ فعالیت قبلی را به شکل قاعدهٔ عمومی تعویض برای انتیگرال غیرمعین می‌نویسد: اگر F تابع اولیهٔ f باشد و $u=g(x)$ مشتق متمادی داشته باشد، انتیگرال $f(g(x))g'(x)$ نسبت به x با انتیگرال $f(u)$ نسبت به u برابر است. در انتیگرال غیرمعین، بعد از حل، جواب را دوباره برحسب x می‌نویسیم. دو مثال حل شده است: در مثال ۱ داخل جذر $1-4x^2$ را u می‌گیریم و با قاعدهٔ توان برای $u^{-1/2}$ جواب را پیدا می‌کنیم. در مثال ۲ داخل cos را u می‌گیریم؛ چون $x^3dx$ یک‌چهارم du است، انتیگرال به $\\frac14\\int\\cos u\\,du$ تبدیل می‌شود.",
+  "key_points_fa": [
+    "قاعدهٔ تعویض برای انتیگرال غیرمعین: $\\int f(g(x))g'(x)dx = \\int f(u)du$",
+    "در انتیگرال غیرمعین، در آخر u را دوباره با $g(x)$ عوض کنید و C را فراموش نکنید.",
+    "$\\int u^{-1/2}du = 2\\sqrt{u} + C$",
+    "در توابع مثلثاتی هم زاویهٔ داخل تابع را می‌توان u گرفت."
+  ],
+  "formulas": [
+    {"latex": "\\int f(g(x))\\,g'(x)\\,dx = \\int f(u)\\,du,\\quad u=g(x)", "meaning_fa": "قاعدهٔ تعویض در انتیگرال غیرمعین"}
+  ],
+  "terms": [
+    {"fa": "متحول مستقل", "en": "independent variable"},
+    {"fa": "انتیگرال غیرمعین", "en": "indefinite integral"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\int \\frac{x}{\\sqrt{1-4x^2}}\\,dx$",
+      "steps_fa": [
+        "$u = 1-4x^2$، $du = -8x\\,dx \\Rightarrow x\\,dx = -\\frac18du$",
+        "$-\\frac18\\int u^{-1/2}du = -\\frac18\\cdot\\frac{u^{1/2}}{1/2} + C = -\\frac18(2\\sqrt u) + C$",
+        "$= -\\frac14\\sqrt{1-4x^2} + C$"
+      ],
+      "answer": "$-\\frac14\\sqrt{1-4x^2} + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\int x^3\\cos(x^4+2)\\,dx$",
+      "steps_fa": [
+        "$u = x^4+2$، $du = 4x^3dx \\Rightarrow x^3dx = \\frac14du$",
+        "$\\frac14\\int\\cos u\\,du = \\frac14\\sin u + C$",
+        "$= \\frac14\\sin(x^4+2) + C$"
+      ],
+      "answer": "$\\frac14\\sin(x^4+2) + C$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

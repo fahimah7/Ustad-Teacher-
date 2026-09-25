@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-math",
+  "chapter": 3,
+  "title": {
+    "en": "Solid geometry",
+    "fa": "هندسهٔ فضایی"
+  },
+  "questions": [
+    {
+      "pdf_page": 110,
+      "q": {
+        "en": "How many planes pass through two different points $A$ and $B$?",
+        "fa": "از دو نقطهٔ مختلف $A$ و $B$ چند مستوی می‌گذرد؟"
+      },
+      "options": [
+        {
+          "en": "Exactly one",
+          "fa": "فقط یک مستوی"
+        },
+        {
+          "en": "Exactly two",
+          "fa": "فقط دو مستوی"
+        },
+        {
+          "en": "None",
+          "fa": "هیچ مستوی"
+        },
+        {
+          "en": "Infinitely many",
+          "fa": "بی‌شمار مستوی"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Two points fix only one line $AB$, and infinitely many planes pass through this line. A single plane needs three points that are not on one line.",
+        "fa": "دو نقطه فقط یک خط $AB$ را معین می‌کنند و بی‌شمار مستوی از این خط می‌گذرد. برای یک مستوی یگانه سه نقطهٔ غیر هم‌خط لازم است."
+      },
+      "idea": {
+        "en": "Do not mix up lines and planes: two points give exactly one line, but a unique plane needs three non-collinear points.",
+        "fa": "خط و مستوی را با هم خلط نکنید: دو نقطه دقیقاً یک خط می‌دهند، ولی مستوی یگانه به سه نقطهٔ غیر هم‌خط ضرورت دارد."
+      }
+    },
+    {
+      "pdf_page": 112,
+      "q": {
+        "en": "Two lines in space have no common point. When are they parallel?",
+        "fa": "دو خط در فضا نقطهٔ مشترک ندارند. در کدام حالت این دو خط موازی اند؟"
+      },
+      "options": [
+        {
+          "en": "Always, because they never meet",
+          "fa": "همیشه، چون یکدیگر را قطع نمی‌کنند"
+        },
+        {
+          "en": "Only when both lie in one plane",
+          "fa": "فقط وقتی هر دو در یک مستوی باشند"
+        },
+        {
+          "en": "Never",
+          "fa": "هیچ‌گاه"
+        },
+        {
+          "en": "Only when they are skew",
+          "fa": "فقط وقتی متنافر باشند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In space, lines with no common point can be parallel or skew. They are parallel only if they also lie in one plane.",
+        "fa": "در فضا خطوطی که نقطهٔ مشترک ندارند، یا موازی اند یا متنافر. آن‌ها فقط وقتی موازی اند که در یک مستوی هم قرار داشته باشند."
+      },
+      "idea": {
+        "en": "Not meeting is not enough in space: skew lines also never meet, but they do not lie in one plane.",
+        "fa": "در فضا تنها قطع نکردن کافی نیست: خطوط متنافر هم یکدیگر را قطع نمی‌کنند، ولی در یک مستوی نیستند."
+      }
+    },
+    {
+      "pdf_page": 115,
+      "q": {
+        "en": "The sides of angles $\\alpha$ and $\\beta$ are parallel: one pair of sides has the same direction and the other pair has opposite directions. If $\\alpha = 70^\\circ$, what is $\\beta$?",
+        "fa": "اضلاع زاویه‌های $\\alpha$ و $\\beta$ موازی اند: یک جوره ضلع هم‌جهت و جورهٔ دیگر مخالف‌الجهت است. اگر $\\alpha = 70^\\circ$ باشد، $\\beta$ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$110^\\circ$",
+          "fa": "$110^\\circ$"
+        },
+        {
+          "en": "$70^\\circ$",
+          "fa": "$70^\\circ$"
+        },
+        {
+          "en": "$20^\\circ$",
+          "fa": "$20^\\circ$"
+        },
+        {
+          "en": "$290^\\circ$",
+          "fa": "$290^\\circ$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "When one pair of parallel sides has the same direction and the other pair opposite directions, the two angles add up to $180^\\circ$, so $\\beta = 180^\\circ - 70^\\circ = 110^\\circ$.",
+        "fa": "وقتی یک جوره ضلع موازی هم‌جهت و جورهٔ دیگر مخالف‌الجهت باشد، مجموع دو زاویه $180^\\circ$ است، پس $\\beta = 180^\\circ - 70^\\circ = 110^\\circ$."
+      },
+      "idea": {
+        "en": "The angles are equal only when both pairs of sides point the same way; if one pair is reversed, the angles are supplementary.",
+        "fa": "زاویه‌ها فقط وقتی مساوی اند که هر دو جوره ضلع هم‌جهت باشند؛ اگر یک جوره برعکس باشد، مجموع زاویه‌ها $180^\\circ$ است."
+      }
+    },
+    {
+      "pdf_page": 118,
+      "q": {
+        "en": "When is a line $\\Delta$ perpendicular to a plane $P$ at the point $O$?",
+        "fa": "خط $\\Delta$ در نقطهٔ $O$ چه وقت بر مستوی $P$ عمود است؟"
+      },
+      "options": [
+        {
+          "en": "When it is perpendicular to one line of $P$ through $O$",
+          "fa": "وقتی بر یک خط مستوی $P$ که از $O$ می‌گذرد عمود باشد"
+        },
+        {
+          "en": "When it is perpendicular to two parallel lines of $P$",
+          "fa": "وقتی بر دو خط موازی مستوی $P$ عمود باشد"
+        },
+        {
+          "en": "When it is perpendicular to two intersecting lines of $P$ through $O$",
+          "fa": "وقتی بر دو خط متقاطع مستوی $P$ که از $O$ می‌گذرند عمود باشد"
+        },
+        {
+          "en": "Whenever it meets $P$ only at $O$",
+          "fa": "هر وقت که فقط در نقطهٔ $O$ با $P$ مشترک باشد"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "If $\\Delta$ is perpendicular to two intersecting lines of the plane through its foot $O$, it is perpendicular to every line of the plane through $O$, so $\\Delta \\perp P$.",
+        "fa": "اگر $\\Delta$ بر دو خط متقاطع مستوی که از پای عمود $O$ می‌گذرند عمود باشد، بر هر خط مستوی که از $O$ بگذرد عمود است؛ پس $\\Delta \\perp P$."
+      },
+      "idea": {
+        "en": "One line is not enough, and two parallel lines tell no more than one line; you need two lines that cross at $O$.",
+        "fa": "یک خط کافی نیست و دو خط موازی هم بیشتر از یک خط معلومات نمی‌دهند؛ دو خطی لازم است که در $O$ یکدیگر را قطع کنند."
+      }
+    },
+    {
+      "pdf_page": 121,
+      "q": {
+        "en": "Planes $P$ and $Q$ are parallel. Line $a$ lies in $P$ and line $b$ lies in $Q$. Which statement is true?",
+        "fa": "مستوی‌های $P$ و $Q$ موازی اند. خط $a$ در $P$ و خط $b$ در $Q$ قرار دارد. کدام گفته درست است؟"
+      },
+      "options": [
+        {
+          "en": "$a$ and $b$ are always parallel",
+          "fa": "$a$ و $b$ همیشه موازی اند"
+        },
+        {
+          "en": "$a$ and $b$ never meet; they are either parallel or skew",
+          "fa": "$a$ و $b$ هرگز یکدیگر را قطع نمی‌کنند؛ یا موازی اند یا متنافر"
+        },
+        {
+          "en": "$a$ and $b$ always intersect",
+          "fa": "$a$ و $b$ همیشه متقاطع اند"
+        },
+        {
+          "en": "$a$ and $b$ are always perpendicular",
+          "fa": "$a$ و $b$ همیشه بر هم عمود اند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Parallel planes have no common point, so lines lying in them cannot meet. Such lines may be parallel, but they can also be skew.",
+        "fa": "مستوی‌های موازی نقطهٔ مشترک ندارند، پس خطوطی که در آن‌ها قرار دارند یکدیگر را قطع نمی‌کنند. این خطوط ممکن موازی باشند، ولی ممکن متنافر هم باشند."
+      },
+      "idea": {
+        "en": "Picture the floor and the ceiling of a room: a line on the floor and a line on the ceiling can point in different directions without ever meeting.",
+        "fa": "کف و سقف یک اتاق را در نظر بگیرید: یک خط روی کف و یک خط روی سقف می‌توانند جهت‌های مختلف داشته باشند و باز هم یکدیگر را قطع نکنند."
+      }
+    }
+  ]
+}

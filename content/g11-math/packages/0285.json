@@ -1,0 +1,37 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 285,
+  "printed_page": 276,
+  "page_kind": "review",
+  "chapter": 7,
+  "section_fa": "نکات مهم فصل هفتم",
+  "summary_fa": "ادامهٔ خلاصهٔ فصل هفتم. حاصل ضرب وکتوری دو وکتور یک وکتور است (نه یک عدد): طول آن $|\\vec{u}||\\vec{v}|\\sin\\theta$ است و جهت آن در امتداد وکتور واحد $\\vec{n}$ است که بالای هر دو وکتور عمود است. جهت $\\vec{n}$ را با قاعدهٔ دست راست تعیین می‌کنیم: انگشتان دست راست از $\\vec{u}$ به طرف $\\vec{v}$ قات می‌شوند و شست کلان جهت $\\vec{u}\\times\\vec{v}$ را نشان می‌دهد. برای وکتورهایی که با مؤلفه‌ها در فضا داده شده‌اند، حاصل ضرب وکتوری با یک دیترمینانت $3\\times3$ حساب می‌شود که به سه دیترمینانت $2\\times2$ باز می‌شود. در آخر یادآوری می‌شود که طول حاصل ضرب وکتوری دو وکتور برابر مساحت متوازی الاضلاعی است که آن دو وکتور می‌سازند.",
+  "key_points_fa": [
+    "حاصل ضرب وکتوری $\\vec{u}\\times\\vec{v}$ یک وکتور عمود بر $\\vec{u}$ و $\\vec{v}$ است.",
+    "طول آن: $|\\vec{u}\\times\\vec{v}|=|\\vec{u}||\\vec{v}|\\sin\\theta$.",
+    "قاعدهٔ دست راست: انگشتان از $\\vec{u}$ به طرف $\\vec{v}$ دور می‌خورند و شست جهت $\\vec{u}\\times\\vec{v}$ را نشان می‌دهد.",
+    "در فضا، حاصل ضرب وکتوری با دیترمینانتی که سطر اول آن $\\vec{i}, \\vec{j}, \\vec{k}$ است حساب می‌شود.",
+    "مساحت متوازی الاضلاع ساخته شده از $\\vec{u}$ و $\\vec{v}$ برابر $|\\vec{u}\\times\\vec{v}|$ است."
+  ],
+  "formulas": [
+    {"latex": "\\vec{u}\\times\\vec{v}=|\\vec{u}|\\,|\\vec{v}|\\sin\\theta\\;\\vec{n}", "meaning_fa": "تعریف حاصل ضرب وکتوری؛ $\\vec{n}$ وکتور واحد عمود بر هر دو وکتور است"},
+    {"latex": "\\vec{a}\\times\\vec{b}=\\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\\\ a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\end{vmatrix}=\\begin{vmatrix} b_1 & c_1 \\\\ b_2 & c_2 \\end{vmatrix}\\vec{i}-\\begin{vmatrix} a_1 & c_1 \\\\ a_2 & c_2 \\end{vmatrix}\\vec{j}+\\begin{vmatrix} a_1 & b_1 \\\\ a_2 & b_2 \\end{vmatrix}\\vec{k}", "meaning_fa": "حاصل ضرب وکتوری برای $\\vec{a}=a_1\\vec{i}+b_1\\vec{j}+c_1\\vec{k}$ و $\\vec{b}=a_2\\vec{i}+b_2\\vec{j}+c_2\\vec{k}$"},
+    {"latex": "S=|\\vec{u}\\times\\vec{v}|", "meaning_fa": "مساحت متوازی الاضلاع"}
+  ],
+  "terms": [
+    {"fa": "حاصل ضرب وکتوری", "en": "cross (vector) product"},
+    {"fa": "قاعدهٔ دست راست", "en": "right-hand rule"},
+    {"fa": "دیترمینانت", "en": "determinant"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.26, 0.38, 0.46], "kind": "illustration", "description_fa": "دست راست روی سه محور: وکتور $\\vec{u}$ به طرف پایین-چپ، وکتور $\\vec{V}$ به طرف راست، و شست کلان رو به بالا در امتداد $\\vec{u}\\times\\vec{v}$. نشان می‌دهد که جهت حاصل ضرب وکتوری چگونه با قاعدهٔ دست راست تعیین می‌شود."},
+    {"id": "fig2", "bbox": [0.20, 0.80, 0.45, 0.89], "kind": "diagram", "description_fa": "متوازی الاضلاعی با ضلع‌های $\\vec{u}$ و $\\vec{v}$ و ارتفاع $h=|\\vec{u}|\\sin\\theta$؛ نشان می‌دهد که مساحت آن برابر $|\\vec{u}\\times\\vec{v}|$ است."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 4,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ مشخصات کتاب: مضمون ریاضی، صنف دهم، به زبان دری. کتاب را گروه مؤلفان دیپارتمنت ریاضیات نوشته و دیپارتمنت ویراستاری آن را ویرایش کرده است. انکشاف آن کار ریاست عمومی انکشاف نصاب تعلیمی است و در سال ۱۳۹۸ در کابل چاپ شده است. در پایین آمده که حق چاپ و توزیع از وزارت معارف است و خرید و فروش کتاب در بازار ممنوع است. این صفحه درس ندارد.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه به حرف «ب» است."
+}

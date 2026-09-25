@@ -1,0 +1,292 @@
+{
+  "book_id": "g12-chem",
+  "terms": [
+    {
+      "book": "کیمیا",
+      "avoid": [
+        "شیمی"
+      ],
+      "en": "Chemistry"
+    },
+    {
+      "book": "کیمیای عضوی",
+      "avoid": [
+        "شیمی آلی"
+      ],
+      "en": "Organic chemistry"
+    },
+    {
+      "book": "مرکبات عضوی",
+      "avoid": [
+        "ترکیبات آلی",
+        "ترکیب‌های آلی"
+      ],
+      "en": "Organic compounds"
+    },
+    {
+      "book": "مالیکول",
+      "avoid": [
+        "مولکول"
+      ],
+      "en": "Molecule"
+    },
+    {
+      "book": "اتوم",
+      "avoid": [
+        "اتم"
+      ],
+      "en": "Atom"
+    },
+    {
+      "book": "کاربن",
+      "avoid": [
+        "کربن"
+      ],
+      "en": "Carbon"
+    },
+    {
+      "book": "هایدروجن",
+      "avoid": [
+        "هیدروژن"
+      ],
+      "en": "Hydrogen"
+    },
+    {
+      "book": "آکسیجن",
+      "avoid": [
+        "اکسیژن"
+      ],
+      "en": "Oxygen"
+    },
+    {
+      "book": "نایتروجن",
+      "avoid": [
+        "نیتروژن"
+      ],
+      "en": "Nitrogen"
+    },
+    {
+      "book": "هلوجن",
+      "avoid": [
+        "هالوژن"
+      ],
+      "en": "Halogen"
+    },
+    {
+      "book": "رابطه",
+      "avoid": [
+        "پیوند"
+      ],
+      "en": "Chemical bond (رابطهٔ یگانه، دوگانه، سه‌گانه = single, double, triple bond; رابطهٔ سگما / پای = sigma / pi bond)"
+    },
+    {
+      "book": "رابطهٔ اشتراکی",
+      "avoid": [
+        "پیوند کووالانسی",
+        "پیوند اشتراکی"
+      ],
+      "en": "Covalent bond"
+    },
+    {
+      "book": "هایبریدیزیشن",
+      "avoid": [
+        "هیبریداسیون",
+        "هیبرید شدن"
+      ],
+      "en": "Hybridization (sp3, sp2, sp)"
+    },
+    {
+      "book": "اوربیتال",
+      "avoid": [],
+      "en": "Orbital"
+    },
+    {
+      "book": "ولانس",
+      "avoid": [
+        "ظرفیت"
+      ],
+      "en": "Valence"
+    },
+    {
+      "book": "فورمول مالیکولی",
+      "avoid": [
+        "فرمول مولکولی"
+      ],
+      "en": "Molecular formula"
+    },
+    {
+      "book": "فورمول ساختمانی",
+      "avoid": [
+        "فرمول ساختاری",
+        "فرمول گسترده"
+      ],
+      "en": "Structural formula"
+    },
+    {
+      "book": "ایزومیر",
+      "avoid": [
+        "ایزومر"
+      ],
+      "en": "Isomer (ایزومیری = isomerism)"
+    },
+    {
+      "book": "هایدروکاربن",
+      "avoid": [
+        "هیدروکربن"
+      ],
+      "en": "Hydrocarbon"
+    },
+    {
+      "book": "مشبوع / غیر مشبوع",
+      "avoid": [
+        "سیرشده",
+        "سیرنشده"
+      ],
+      "en": "Saturated / unsaturated"
+    },
+    {
+      "book": "الکان",
+      "avoid": [
+        "آلکان"
+      ],
+      "en": "Alkane"
+    },
+    {
+      "book": "الکین",
+      "avoid": [
+        "آلکن"
+      ],
+      "en": "Alkene (NOT alkyne: in this book الکین = alkene)"
+    },
+    {
+      "book": "الکاین",
+      "avoid": [
+        "آلکین"
+      ],
+      "en": "Alkyne"
+    },
+    {
+      "book": "سایکلو الکان",
+      "avoid": [
+        "سیکلوآلکان"
+      ],
+      "en": "Cycloalkane"
+    },
+    {
+      "book": "مرکبات اروماتیک",
+      "avoid": [
+        "ترکیبات آروماتیک",
+        "ترکیب‌های آروماتیک"
+      ],
+      "en": "Aromatic compounds (arenes)"
+    },
+    {
+      "book": "بنزین",
+      "avoid": [
+        "بنزن"
+      ],
+      "en": "Benzene, C6H6 (the book's word for benzene, not petrol)"
+    },
+    {
+      "book": "الکایل هلاید",
+      "avoid": [
+        "آلکیل هالید",
+        "هالوآلکان"
+      ],
+      "en": "Alkyl halide"
+    },
+    {
+      "book": "الکول",
+      "avoid": [
+        "الکل"
+      ],
+      "en": "Alcohol"
+    },
+    {
+      "book": "ایتر",
+      "avoid": [
+        "اتر"
+      ],
+      "en": "Ether"
+    },
+    {
+      "book": "الدیهاید",
+      "avoid": [
+        "آلدهید"
+      ],
+      "en": "Aldehyde"
+    },
+    {
+      "book": "کیتون",
+      "avoid": [
+        "کتون"
+      ],
+      "en": "Ketone"
+    },
+    {
+      "book": "کاربوکسلیک اسید",
+      "avoid": [
+        "کربوکسیلیک اسید",
+        "اسید کربوکسیلیک"
+      ],
+      "en": "Carboxylic acid"
+    },
+    {
+      "book": "امین",
+      "avoid": [
+        "آمین"
+      ],
+      "en": "Amine (اماید = amide)"
+    },
+    {
+      "book": "گروپ وظیفه‌یی",
+      "avoid": [
+        "گروه عاملی"
+      ],
+      "en": "Functional group"
+    },
+    {
+      "book": "سلسلهٔ هومولوگ",
+      "avoid": [
+        "سری همولوگ",
+        "سری همانند"
+      ],
+      "en": "Homologous series"
+    },
+    {
+      "book": "تعامل",
+      "avoid": [
+        "واکنش"
+      ],
+      "en": "Chemical reaction (تعامل جمعی = addition reaction, تعامل تعویضی = substitution reaction)"
+    },
+    {
+      "book": "تیزاب",
+      "avoid": [],
+      "en": "Acid (general word; specific names use اسید, e.g. استیک اسید; تیزاب گوگرد = sulfuric acid, تیزاب شوره = nitric acid)"
+    },
+    {
+      "book": "کتلست",
+      "avoid": [
+        "کاتالیزگر",
+        "کاتالیزور"
+      ],
+      "en": "Catalyst"
+    },
+    {
+      "book": "پولیمیر",
+      "avoid": [
+        "پلیمر"
+      ],
+      "en": "Polymer (also written پولی میر)"
+    },
+    {
+      "book": "پروتین",
+      "avoid": [
+        "پروتئین"
+      ],
+      "en": "Protein"
+    }
+  ],
+  "style_notes_fa": "کتاب از سیزده «فصل» ساخته شده که بخش‌های آن به شکل «۴-۱: ...» شماره‌گذاری شده و در متن «فعالیت»، «بیشتر بدانید» (گاهی «زیادتر بدانید») و «مثال» با «حل» آمده است؛ در پایان هر فصل «خلاصهٔ فصل» و «تمرین فصل» با «سؤالات چهار جوابه» و «سؤالات تشریحی» می‌آید. نام مرکبات اکثراً به انگلیسی (نامگذاری آیوپک) نوشته می‌شود، و در این کتاب «الکین» یعنی alkene، «الکاین» یعنی alkyne و «بنزین» یعنی benzene است."
+}

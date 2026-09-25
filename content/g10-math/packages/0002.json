@@ -1,0 +1,27 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 2,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "این صفحه بیرق افغانستان (سه رنگ سیاه، سرخ و سبز با نشان ملی در وسط) و متن سرود ملی را به زبان پښتو نشان می‌دهد. سرود از وطن و از اقوام مختلف افغانستان یاد می‌کند. این صفحه بخشی از مقدمهٔ کتاب است و درس ریاضی ندارد.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [0.06, 0.08, 0.33, 0.74],
+      "kind": "photo",
+      "description_fa": "عکس بیرق سه‌رنگ افغانستان (سیاه، سرخ، سبز) با نشان ملی بر روی پایه."
+    }
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "متن سرود ملی عمداً نقل نشده است."
+}

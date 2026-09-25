@@ -1,0 +1,48 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 47,
+  "printed_page": 40,
+  "page_kind": "exercises",
+  "chapter": 1,
+  "section_fa": "تمرینات عمومی فصل اول",
+  "summary_fa": "این صفحه ادامهٔ سؤال ۷ تمرین‌های عمومی فصل لیمت است و لیمت‌های ۱۱ تا ۲۶ را دارد. انواع آن‌ها: شکل $\\frac{0}{0}$ در توابع نسبتی که با تجزیه حل می‌شود (۱۱، ۱۲)، لیمت‌های مثلثاتی که با $\\frac{\\sin x}{x} \\to 1$ یا اتحادهای مثلثاتی حل می‌شوند (۱۳، ۱۵ تا ۱۹، ۲۱، ۲۲)، لیمت در بی‌نهایت با مقایسهٔ درجه‌ها (۱۴، ۲۳، ۲۴)، لیمت با جذر (۲۰) و جاگذاری مستقیم (۲۵). این صفحه آخرین صفحهٔ فصل اول است.",
+  "key_points_fa": [
+    "برای $\\sin(k\\pi + u)$ از دوره‌ای بودن ساین استفاده کنید: $\\sin(3\\pi + 3u) = -\\sin 3u$ و $\\sin(8\\pi + 8u) = \\sin 8u$.",
+    "نزدیک صفر: $\\sin kx \\approx kx$، $\\tan kx \\approx kx$ و $1 - \\cos kx \\approx \\frac{k^2x^2}{2}$.",
+    "برای جمع دو کسر، اول مخرج مشترک بگیرید و بعد تجزیه کنید.",
+    "اگر یک جمله به عدد و جملهٔ دیگر به بی‌نهایت برود، لیمت بی‌نهایت است."
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to 0}\\frac{\\sin kx}{x} = k", "meaning_fa": "نتیجهٔ لیمت اساسی مثلثاتی"},
+    {"latex": "\\cos A - \\cos B = -2\\sin\\frac{A+B}{2}\\sin\\frac{A-B}{2}", "meaning_fa": "اتحاد تفاضل کوساین‌ها (برای سؤال ۱۶)"}
+  ],
+  "terms": [
+    {"fa": "شکل مبهم", "en": "indeterminate form"},
+    {"fa": "لیمت یک‌طرفه", "en": "one-sided limit"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {"label_fa": "۷ (۱۱)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 2}\\frac{x^2 + 3x - 10}{x^2 - x - 2}$", "solution_steps_fa": ["$\\frac{(x - 2)(x + 5)}{(x - 2)(x + 1)} = \\frac{x + 5}{x + 1}$", "در $x = 2$: $\\frac{7}{3}$"], "answer": "$\\frac{7}{3}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱۲)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to -2}\\left(\\frac{x + 3}{x + 2} + \\frac{2}{x^2 + 2x}\\right)$", "solution_steps_fa": ["مخرج مشترک $x(x + 2)$: $\\frac{x(x + 3) + 2}{x(x + 2)} = \\frac{x^2 + 3x + 2}{x(x + 2)}$", "$= \\frac{(x + 1)(x + 2)}{x(x + 2)} = \\frac{x + 1}{x}$", "در $x = -2$: $\\frac{-1}{-2} = \\frac{1}{2}$"], "answer": "$\\frac{1}{2}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱۳)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 0}\\frac{\\sin(a + x) + \\sin(a - x)}{\\tan(a + x) + \\tan(a - x)}$", "solution_steps_fa": ["با جاگذاری $x = 0$: $\\frac{2\\sin a}{2\\tan a}$ (وقتی $\\sin a \\neq 0$)", "$\\frac{\\sin a}{\\tan a} = \\cos a$"], "answer": "$\\cos a$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱۴)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to +\\infty}\\left(\\frac{x^2}{2x^2 - 1} - \\frac{x^2}{2x + 2}\\right)$", "solution_steps_fa": ["$\\frac{x^2}{2x^2 - 1} \\to \\frac{1}{2}$ (درجه‌ها مساوی)", "$\\frac{x^2}{2x + 2} \\to +\\infty$ (درجهٔ صورت بیشتر)", "$\\frac{1}{2} - \\infty = -\\infty$"], "answer": "$-\\infty$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱۵)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 0}\\frac{\\cos x\\sin x - \\tan x}{x^2\\sin x}$", "solution_steps_fa": ["صورت: $\\sin x\\left(\\cos x - \\frac{1}{\\cos x}\\right) = \\sin x \\cdot \\frac{\\cos^2 x - 1}{\\cos x} = -\\frac{\\sin^3 x}{\\cos x}$", "کسر: $-\\frac{\\sin^2 x}{x^2\\cos x}$", "$\\left(\\frac{\\sin x}{x}\\right)^2 \\to 1$ و $\\cos x \\to 1$"], "answer": "$-1$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱۶)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 0}\\frac{\\cos x - \\cos 3x + \\sin^2 x}{ax^2}$", "solution_steps_fa": ["$\\cos x - \\cos 3x = 2\\sin 2x\\sin x$", "$\\frac{2\\sin 2x\\sin x}{x^2} \\to 2 \\cdot 2 \\cdot 1 = 4$ و $\\frac{\\sin^2 x}{x^2} \\to 1$", "لیمت: $\\frac{4 + 1}{a}$"], "answer": "$\\frac{5}{a}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱۷)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 0}\\frac{2\\sin 2x\\sin x + \\sin^2 x}{x^2}$", "solution_steps_fa": ["$2 \\cdot \\frac{\\sin 2x}{x} \\cdot \\frac{\\sin x}{x} \\to 2 \\cdot 2 \\cdot 1 = 4$", "$\\frac{\\sin^2 x}{x^2} \\to 1$", "جمع: $4 + 1$"], "answer": "$5$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱۸)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 0}\\frac{x - \\sin 2x}{x + \\sin 3x}$", "solution_steps_fa": ["صورت و مخرج را بر x تقسیم می‌کنیم: $\\frac{1 - \\frac{\\sin 2x}{x}}{1 + \\frac{\\sin 3x}{x}}$", "$\\to \\frac{1 - 2}{1 + 3}$"], "answer": "$-\\frac{1}{4}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۱۹)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 0}\\frac{-2\\sin 3x\\sin 2x}{x\\tan 3x}$", "solution_steps_fa": ["صورت و مخرج را بر $x^2$ تقسیم می‌کنیم.", "صورت: $-2 \\cdot \\frac{\\sin 3x}{x} \\cdot \\frac{\\sin 2x}{x} \\to -2 \\cdot 3 \\cdot 2 = -12$", "مخرج: $\\frac{\\tan 3x}{x} \\to 3$", "$\\frac{-12}{3} = -4$"], "answer": "$-4$", "solution_source": "generated"},
+    {"label_fa": "۷ (۲۰)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 2}\\left(\\frac{\\sqrt{x} - \\sqrt{2}}{\\sqrt{x - 2}\\cdot\\sqrt{x + 2}} + \\frac{1}{\\sqrt{x + 2}}\\right)$", "solution_steps_fa": ["تابع فقط برای $x > 2$ تعریف است، پس لیمت از راست است.", "$\\sqrt{x} - \\sqrt{2} = \\frac{x - 2}{\\sqrt{x} + \\sqrt{2}}$، پس کسر اول $= \\frac{\\sqrt{x - 2}}{(\\sqrt{x} + \\sqrt{2})\\sqrt{x + 2}} \\to 0$", "کسر دوم: $\\frac{1}{\\sqrt{4}} = \\frac{1}{2}$"], "answer": "$\\frac{1}{2}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۲۱)", "kind": "exercise", "problem_fa": "$\\lim_{u \\to 0}\\frac{\\sin 3(\\pi + u)}{\\sin 8(\\pi + u)}$", "solution_steps_fa": ["$\\sin(3\\pi + 3u) = -\\sin 3u$ و $\\sin(8\\pi + 8u) = \\sin 8u$", "$-\\frac{\\sin 3u}{\\sin 8u} \\to -\\frac{3}{8}$"], "answer": "$-\\frac{3}{8}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۲۲)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 1}\\frac{1 - x^2}{\\sin \\pi x}$", "solution_steps_fa": ["فرض کنید $t = x - 1$، پس $t \\to 0$.", "$\\sin(\\pi + \\pi t) = -\\sin \\pi t$ و $1 - x^2 = -t(t + 2)$", "کسر: $\\frac{t(t + 2)}{\\sin \\pi t} \\to \\frac{2}{\\pi}$"], "answer": "$\\frac{2}{\\pi}$", "solution_source": "generated"},
+    {"label_fa": "۷ (۲۳)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to \\infty}\\frac{2x^2 - x + 3}{x^2 - 8x + 5}$", "solution_steps_fa": ["درجه‌ها مساوی (۲)؛ نسبت ضریب‌های $x^2$: $\\frac{2}{1}$"], "answer": "$2$", "solution_source": "generated"},
+    {"label_fa": "۷ (۲۴)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to \\infty}\\frac{8x + 4}{4x + \\sqrt{x}}$", "solution_steps_fa": ["صورت و مخرج را بر x تقسیم می‌کنیم: $\\frac{8 + \\frac{4}{x}}{4 + \\frac{1}{\\sqrt{x}}}$", "$\\to \\frac{8}{4}$"], "answer": "$2$", "solution_source": "generated"},
+    {"label_fa": "۷ (۲۵)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 2}\\frac{9x^2 - x + 5}{\\sqrt{9x^4 + 1}}$", "solution_steps_fa": ["مخرج در $x = 2$ صفر نیست؛ جاگذاری مستقیم.", "صورت: $36 - 2 + 5 = 39$؛ مخرج: $\\sqrt{144 + 1} = \\sqrt{145}$"], "answer": "$\\frac{39}{\\sqrt{145}} \\approx 3.24$", "solution_source": "generated"},
+    {"label_fa": "۷ (۲۶)", "kind": "exercise", "problem_fa": "$\\lim_{x \\to 1}\\left(\\frac{1}{1 - x} - \\frac{1}{1 - x^2}\\right)$", "solution_steps_fa": ["مخرج مشترک $1 - x^2$: $\\frac{(1 + x) - 1}{1 - x^2} = \\frac{x}{(1 - x)(1 + x)}$", "صورت به ۱ نزدیک می‌شود ولی مخرج به صفر.", "از چپ ($x < 1$) کسر به $+\\infty$ و از راست به $-\\infty$ می‌رود."], "answer": "لیمت موجود نیست (از چپ $+\\infty$، از راست $-\\infty$)", "solution_source": "generated"}
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "همهٔ جواب‌ها با sympy بررسی شده‌اند. چند سؤال به شکل چاپ‌شده جواب غیرمعمول دارند و شاید در چاپ اشتباه شده باشد: در ۲۵ شاید منظور $x \\to \\infty$ بوده (جواب ۱)؛ در ۲۶ اگر صورت کسر دوم ۲ بود جواب $-\\frac{1}{2}$ می‌شد؛ در ۱۴ جواب $-\\infty$ است. جواب‌ها برای شکل چاپ‌شده داده شده‌اند."
+}

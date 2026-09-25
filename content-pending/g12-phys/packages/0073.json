@@ -1,0 +1,47 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-phys",
+  "pdf_page": 73,
+  "printed_page": 64,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "فشار تراکمی یا تنش (Stress)",
+  "summary_fa": "در بعضی کتاب‌ها نسبت قوهٔ عامل بر مساحت مقطع سیم را فشار تراکمی یا تنش (stress) می‌گویند و با سمبول δ نشان می‌دهند: $\\delta = \\frac{F}{A}$؛ واحد آن پاسکال است. سپس یک مثال حل می‌شود: قطر مقطع یک سیم مسی $0.003\\,\\mathrm{m}$ است و یک جسم $100\\,\\mathrm{kg}$ از آن آویزان می‌شود؛ تنش را به کیلوپاسکال پیدا کنید. در حل، اول قوه (وزن جسم) با $F = m\\,g$ حساب می‌شود، بعد مساحت مقطع دایره‌یی با $A = \\pi\\left(\\frac{d}{2}\\right)^2$، و در آخر تنش با تقسیم قوه بر مساحت. جواب حدود $1.39\\times10^{8}\\,\\mathrm{Pa}$ یا $1.39\\times10^{5}\\,\\mathrm{kPa}$ است.",
+  "key_points_fa": [
+    "تنش (stress): $\\delta = \\frac{F}{A}$، واحد پاسکال ($\\mathrm{N/m^2}$).",
+    "برای سیم با مقطع دایره‌یی: $A = \\pi\\left(\\frac{d}{2}\\right)^2 = \\frac{\\pi d^2}{4}$.",
+    "قوهٔ وزن جسم آویزان: $F = m\\,g$ با $g = 9.81\\,\\mathrm{m/s^2}$.",
+    "پیش از حساب، همهٔ طول‌ها را به متر بنویسید تا جواب به پاسکال باشد؛ برای کیلوپاسکال بر 1000 تقسیم کنید."
+  ],
+  "formulas": [
+    {"latex": "\\delta = \\frac{F}{A}", "meaning_fa": "تنش: قوهٔ عامل تقسیم بر مساحت مقطع سیم؛ به پاسکال"},
+    {"latex": "A = \\pi\\left(\\frac{d}{2}\\right)^2", "meaning_fa": "مساحت مقطع دایره‌یی سیم به قطر d"},
+    {"latex": "F = m\\,g", "meaning_fa": "وزن جسمی به کتلهٔ m"}
+  ],
+  "terms": [
+    {"fa": "فشار تراکمی یا تنش", "en": "stress"},
+    {"fa": "قوهٔ عامل", "en": "applied force"},
+    {"fa": "مساحت مقطع", "en": "cross-sectional area"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "قطر مقطع یک سیم مسی $0.003\\,\\mathrm{m}$ است. در لابراتوار یک جسم $100\\,\\mathrm{kg}$ را از آن آویزان می‌کنند. تنش (فشار قوه بر مقطع سیم) را به کیلوپاسکال حساب کنید.",
+      "steps_fa": [
+        "معلومات: $d = 0.003\\,\\mathrm{m}$، $m = 100\\,\\mathrm{kg}$.",
+        "قوه: $F = 100 \\times 9.81 = 981\\,\\mathrm{N}$",
+        "مساحت: $A = \\pi\\left(\\frac{d}{2}\\right)^2 = 3.14 \\times (0.0015\\,\\mathrm{m})^2 = 3.14 \\times 2.25\\times10^{-6}\\,\\mathrm{m^2} \\approx 7.065\\times10^{-6}\\,\\mathrm{m^2}$",
+        "تنش: $\\delta = \\frac{F}{A} = \\frac{981\\,\\mathrm{N}}{7.065\\times10^{-6}\\,\\mathrm{m^2}} \\approx 1.3885\\times10^{8}\\,\\mathrm{Pa}$",
+        "به کیلوپاسکال: $\\delta \\approx 1.3885\\times10^{5}\\,\\mathrm{kPa} \\approx 138854\\,\\mathrm{kPa}$"
+      ],
+      "answer": "$\\delta \\approx 1.39\\times10^{5}\\,\\mathrm{kPa}$ (کتاب: $138853.5\\,\\mathrm{kPa}$)",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "حساب کتاب درست است ($138853503\\,\\mathrm{Pa}$ با $\\pi = 3.14$؛ با π دقیق حدود $138783\\,\\mathrm{kPa}$). مخرج در یک سطر کتاب به شکل نامرتب «$(0.000225)(3.14)\\times10m^2\\times10^{-6}$» نوشته شده؛ مقدار درست مساحت $7.065\\times10^{-6}\\,\\mathrm{m^2}$ است. کتاب «kpa» نوشته که درست آن kPa است. سمبول معمول تنش در کتاب‌های دیگر σ است، این کتاب δ به کار می‌برد."
+}

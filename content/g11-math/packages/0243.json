@@ -1,0 +1,74 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 243,
+  "printed_page": 234,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "حل سیستم معادلات خطی با استفاده از معکوس متریکس",
+  "summary_fa": "این صفحه تمرین درس «حل سیستم معادلات خطی با استفاده از معکوس متریکس» است. سه سیستم دو معادله‌یی دو مجهوله داده شده و باید هر کدام با روش معکوس متریکس حل و جواب امتحان شود. قدم‌ها برای هر سیستم یکی است: متریکس ضرایب A، متریکس مجهول‌ها X و متریکس حدود ثابت B را بنویسید؛ $|A|$ را حساب کنید؛ معکوس را با فورمول $A^{-1} = \\frac{1}{|A|}\\mathrm{Adj}\\,A$ بسازید؛ بعد $X = A^{-1}B$ را ضرب کنید و در آخر جواب را در هر دو معادله بگذارید.",
+  "key_points_fa": [
+    "قدم‌ها: نوشتن A، X، B ← حساب $|A|$ ← ساختن $A^{-1}$ ← ضرب $A^{-1}B$ ← امتحان.",
+    "برای $\\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$ ادجاینت برابر $\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$ است.",
+    "نام مجهول‌ها (x, y یا p, q یا a, b) در روش هیچ فرقی نمی‌آورد.",
+    "اگر $|A|$ منفی باشد، علامهٔ آن را در همهٔ عناصر معکوس با دقت وارد کنید."
+  ],
+  "formulas": [
+    {"latex": "X = A^{-1}B", "meaning_fa": "حل سیستم با معکوس متریکس ضرایب"},
+    {"latex": "A^{-1} = \\frac{1}{ad - bc}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}", "meaning_fa": "معکوس متریکس $2 \\times 2$"}
+  ],
+  "terms": [
+    {"fa": "معکوس متریکس", "en": "inverse matrix"},
+    {"fa": "متریکس حدود ثابت", "en": "constant matrix"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "سیستم $2x - y = 1$ و $5x - 2y = 2$ را با معکوس متریکس حل و امتحان کنید.",
+      "solution_steps_fa": [
+        "$A = \\begin{pmatrix} 2 & -1 \\\\ 5 & -2 \\end{pmatrix}$، $B = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$",
+        "$|A| = 2(-2) - (-1)(5) = -4 + 5 = 1$",
+        "$A^{-1} = \\begin{pmatrix} -2 & 1 \\\\ -5 & 2 \\end{pmatrix}$",
+        "$X = \\begin{pmatrix} -2(1) + 1(2) \\\\ -5(1) + 2(2) \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ -1 \\end{pmatrix}$",
+        "امتحان: $2(0) - (-1) = 1$ و $5(0) - 2(-1) = 2$"
+      ],
+      "answer": "$x = 0,\\ y = -1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "سیستم $3p - 5q = 7$ و $2p - 4q = 6$ را با معکوس متریکس حل و امتحان کنید.",
+      "solution_steps_fa": [
+        "$A = \\begin{pmatrix} 3 & -5 \\\\ 2 & -4 \\end{pmatrix}$، $B = \\begin{pmatrix} 7 \\\\ 6 \\end{pmatrix}$",
+        "$|A| = 3(-4) - (-5)(2) = -12 + 10 = -2$",
+        "$A^{-1} = \\frac{1}{-2}\\begin{pmatrix} -4 & 5 \\\\ -2 & 3 \\end{pmatrix} = \\begin{pmatrix} 2 & -\\frac{5}{2} \\\\ 1 & -\\frac{3}{2} \\end{pmatrix}$",
+        "$X = \\begin{pmatrix} 2(7) - \\frac{5}{2}(6) \\\\ 1(7) - \\frac{3}{2}(6) \\end{pmatrix} = \\begin{pmatrix} 14 - 15 \\\\ 7 - 9 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ -2 \\end{pmatrix}$",
+        "امتحان: $3(-1) - 5(-2) = -3 + 10 = 7$ و $2(-1) - 4(-2) = -2 + 8 = 6$"
+      ],
+      "answer": "$p = -1,\\ q = -2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "سیستم $a + b = 11$ و $4a - b = 9$ را با معکوس متریکس حل و امتحان کنید.",
+      "solution_steps_fa": [
+        "$A = \\begin{pmatrix} 1 & 1 \\\\ 4 & -1 \\end{pmatrix}$، $B = \\begin{pmatrix} 11 \\\\ 9 \\end{pmatrix}$",
+        "$|A| = 1(-1) - 1(4) = -5$",
+        "$A^{-1} = \\frac{1}{-5}\\begin{pmatrix} -1 & -1 \\\\ -4 & 1 \\end{pmatrix} = \\begin{pmatrix} \\frac{1}{5} & \\frac{1}{5} \\\\ \\frac{4}{5} & -\\frac{1}{5} \\end{pmatrix}$",
+        "$X = \\begin{pmatrix} \\frac{11 + 9}{5} \\\\ \\frac{44 - 9}{5} \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ 7 \\end{pmatrix}$",
+        "امتحان: $4 + 7 = 11$ و $4(4) - 7 = 9$"
+      ],
+      "answer": "$a = 4,\\ b = 7$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

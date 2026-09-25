@@ -1,0 +1,75 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 292,
+  "printed_page": 285,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "جمع و تفریق اعداد مختلط",
+  "summary_fa": "این درس با دو پرسش شروع می‌شود: از تساوی $3x-2yi=6+i$ قیمت x و y را چطور پیدا کنیم، و کدام عدد مختلط عنصر عینیت جمع است. اول تساوی دو عدد مختلط تعریف می‌شود: $a+bi$ و $x+yi$ وقتی مساوی اند که قسمت‌های حقیقی با هم و قسمت‌های موهومی با هم مساوی باشند. پس یک تساوی مختلط به دو معادلهٔ حقیقی تبدیل می‌شود. مثال ۱ و یک فعالیت دوقسمته این روش را تمرین می‌دهند. بعد عملیهٔ جمع تعریف می‌شود: قسمت‌های حقیقی را با هم و قسمت‌های موهومی را با هم جمع می‌کنیم.",
+  "key_points_fa": [
+    "$a+bi=x+yi$ فقط وقتی که $a=x$ و $b=y$ باشد.",
+    "یک تساوی بین دو عدد مختلط، دو معادلهٔ حقیقی می‌دهد: یکی برای قسمت حقیقی و یکی برای ضریب $i$.",
+    "جمع: $(a+bi)+(c+di)=(a+c)+(b+d)i$.",
+    "عنصر عینیت جمع $0+0i$ است؛ مثلاً $(1+2i)+(-1-2i)=0$."
+  ],
+  "formulas": [
+    {"latex": "a+bi=x+yi \\iff a=x,\\; b=y", "meaning_fa": "شرط تساوی دو عدد مختلط"},
+    {"latex": "(a+bi)+(c+di)=(a+c)+(b+d)i", "meaning_fa": "تعریف جمع اعداد مختلط"}
+  ],
+  "terms": [
+    {"fa": "اعداد مساوی مختلط", "en": "equal complex numbers"},
+    {"fa": "عملیهٔ جمع", "en": "addition"},
+    {"fa": "عنصر عینیت جمع", "en": "additive identity"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "illustration", "description_fa": "دایرهٔ خاکستری با تساوی $(1+2i)+(-1-2i)=0$. نشان می‌دهد که جمع یک عدد مختلط با معکوس جمعی آن صفر می‌شود و به عنصر عینیت جمع اشاره می‌کند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "اگر $z_1=x_1+2y_1i$ و $z_2=3-5i$ و $z_1=z_2$ باشد، $x_1$ و $y_1$ را دریابید.",
+      "steps_fa": ["قسمت‌های حقیقی: $x_1=3$", "ضریب‌های $i$: $2y_1=-5$ پس $y_1=-\\frac{5}{2}$"],
+      "answer": "$x_1=3$ و $y_1=-\\frac{5}{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغاز درس ۱",
+      "kind": "question",
+      "problem_fa": "از تساوی $3x-2yi=6+i$ قیمت‌های x و y را به دست آرید.",
+      "solution_steps_fa": ["قسمت حقیقی: $3x=6$ پس $x=2$", "ضریب $i$: $-2y=1$ پس $y=-\\frac{1}{2}$"],
+      "answer": "$x=2$ و $y=-\\frac{1}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "پرسش آغاز درس ۲",
+      "kind": "question",
+      "problem_fa": "کدام عدد مختلط عنصر عینیت عملیهٔ جمع است؟",
+      "solution_steps_fa": ["عددی که با هر $a+bi$ جمع شود و آن را تغییر ندهد.", "$(a+bi)+(0+0i)=a+bi$"],
+      "answer": "$0+0i$ (یعنی صفر)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "اگر $z_1=\\sqrt{2}x+\\sqrt{3}yi$ و $z_2=-5-6i$ و $z_1=z_2$ باشد، x و y را دریابید.",
+      "solution_steps_fa": ["قسمت حقیقی: $\\sqrt{2}x=-5$ پس $x=-\\frac{5}{\\sqrt{2}}=-\\frac{5\\sqrt{2}}{2}$", "ضریب $i$: $\\sqrt{3}y=-6$ پس $y=-\\frac{6}{\\sqrt{3}}=-2\\sqrt{3}$"],
+      "answer": "$x=-\\frac{5\\sqrt{2}}{2}\\approx -3.54$ و $y=-2\\sqrt{3}\\approx -3.46$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "اگر $2+mi=k+3i$ باشد، اعداد حقیقی m و k را پیدا کنید.",
+      "solution_steps_fa": ["قسمت‌های حقیقی: $k=2$", "ضریب‌های $i$: $m=3$"],
+      "answer": "$k=2$ و $m=3$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب به جای «و» بین شرط‌ها علامت خراب (مربع) چاپ شده است."
+}

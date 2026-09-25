@@ -1,0 +1,22 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 154,
+  "printed_page": null,
+  "page_kind": "chapter_title",
+  "chapter": 4,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ عنوان فصل چهارم: «توابع مثلثاتی». در این فصل زاویه و واحدهای اندازه‌گیری آن (درجه، گراد و رادیان)، حالت معیاری یک زاویه و زوایای کوترمینل، توابع و نسبت‌های مثلثاتی، ارتباط نسبت‌های مثلثاتی زوایای مختلف و گراف‌های توابع مثلثاتی خوانده می‌شوند. روی صفحه فقط عنوان فصل در یک دایرهٔ نارنجی و تصویر تزئینی چرخ‌دنده دیده می‌شود.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [
+    {"fa": "توابع مثلثاتی", "en": "trigonometric functions"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه روی این صفحه چاپ نشده است."
+}

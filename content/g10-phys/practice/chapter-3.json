@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-phys",
+  "chapter": 3,
+  "title": {
+    "en": "Light",
+    "fa": "نور"
+  },
+  "questions": [
+    {
+      "pdf_page": 39,
+      "q": {
+        "en": "A candle, two cards with small holes and a third card are placed in a row. Light from the flame reaches the third card only when the flame and both holes are on one straight line. What does this show?",
+        "fa": "یک شمع، دو مقوای سوراخ‌دار و یک مقوای سوم پشت سر هم گذاشته شده‌اند. نور شعله فقط وقتی به مقوای سوم می‌رسد که شعله و هر دو سوراخ روی یک خط مستقیم باشند. این تجربه چه چیز را نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "Light is reflected by the cards",
+          "fa": "نور از مقواها منعکس می‌شود"
+        },
+        {
+          "en": "Light is refracted in air",
+          "fa": "نور در هوا انکسار می‌کند"
+        },
+        {
+          "en": "Light travels in straight lines",
+          "fa": "نور به خط مستقیم انتشار می‌کند"
+        },
+        {
+          "en": "White light is made of seven colours",
+          "fa": "نور سفید از هفت رنگ ساخته شده است"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "If the holes are not lined up, a card blocks the light. Light gets through only along a straight line, so in a uniform medium light travels in straight lines.",
+        "fa": "اگر سوراخ‌ها روی یک خط نباشند، مقوا جلو نور را می‌گیرد. نور فقط در امتداد خط مستقیم می‌گذرد؛ پس نور در یک محیط یکنواخت به خط مستقیم انتشار می‌کند."
+      },
+      "idea": {
+        "en": "Think about moving one card a little sideways: why does the light stop reaching the last card?",
+        "fa": "فکر کنید اگر یک مقوا را کمی به پهلو ببرید چه می‌شود: چرا نور دیگر به مقوای آخر نمی‌رسد؟"
+      }
+    },
+    {
+      "pdf_page": 43,
+      "q": {
+        "en": "A ray strikes a plane mirror making an angle of $70^\\circ$ with the mirror's surface. What is the angle of reflection?",
+        "fa": "شعاعی به یک آیینهٔ مستوی می‌رسد و با سطح آیینه زاویهٔ $70^\\circ$ می‌سازد. زاویهٔ منعکسه چند است؟"
+      },
+      "options": [
+        {
+          "en": "$20^\\circ$",
+          "fa": "$20^\\circ$"
+        },
+        {
+          "en": "$70^\\circ$",
+          "fa": "$70^\\circ$"
+        },
+        {
+          "en": "$140^\\circ$",
+          "fa": "$140^\\circ$"
+        },
+        {
+          "en": "$35^\\circ$",
+          "fa": "$35^\\circ$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Angles are measured from the normal: $\\hat{i} = 90^\\circ - 70^\\circ = 20^\\circ$. By the law of reflection $\\hat{r} = \\hat{i} = 20^\\circ$.",
+        "fa": "زاویه‌ها از نارمل اندازه می‌شوند: $\\hat{i} = 90^\\circ - 70^\\circ = 20^\\circ$. طبق قانون انعکاس $\\hat{r} = \\hat{i} = 20^\\circ$ است."
+      },
+      "idea": {
+        "en": "The angle of incidence is between the ray and the normal, not the mirror. Subtract the given angle from $90^\\circ$ first.",
+        "fa": "زاویهٔ وارده بین شعاع و نارمل است، نه بین شعاع و آیینه. اول زاویهٔ داده‌شده را از $90^\\circ$ تفریق کنید."
+      }
+    },
+    {
+      "pdf_page": 67,
+      "q": {
+        "en": "An object is $20\\,\\mathrm{cm}$ from a concave mirror whose radius of curvature is $30\\,\\mathrm{cm}$. Where is the image?",
+        "fa": "شیئی در فاصلهٔ $20\\,\\mathrm{cm}$ از یک آیینهٔ مقعر است که شعاع انحنای آن $30\\,\\mathrm{cm}$ است. تصویر در کجا تشکیل می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "$8.6\\,\\mathrm{cm}$ in front of the mirror, real",
+          "fa": "$8.6\\,\\mathrm{cm}$ پیش روی آیینه، حقیقی"
+        },
+        {
+          "en": "$60\\,\\mathrm{cm}$ behind the mirror, virtual",
+          "fa": "$60\\,\\mathrm{cm}$ عقب آیینه، مجازی"
+        },
+        {
+          "en": "$12\\,\\mathrm{cm}$ in front of the mirror, real",
+          "fa": "$12\\,\\mathrm{cm}$ پیش روی آیینه، حقیقی"
+        },
+        {
+          "en": "$60\\,\\mathrm{cm}$ in front of the mirror, real",
+          "fa": "$60\\,\\mathrm{cm}$ پیش روی آیینه، حقیقی"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$f = \\frac{R}{2} = 15\\,\\mathrm{cm}$. Then $\\frac{1}{q} = \\frac{1}{f} - \\frac{1}{p} = \\frac{1}{15} - \\frac{1}{20} = \\frac{1}{60}$, so $q = 60\\,\\mathrm{cm}$. $q$ is positive, so the image is real and in front of the mirror.",
+        "fa": "$f = \\frac{R}{2} = 15\\,\\mathrm{cm}$ است. بعد $\\frac{1}{q} = \\frac{1}{f} - \\frac{1}{p} = \\frac{1}{15} - \\frac{1}{20} = \\frac{1}{60}$، پس $q = 60\\,\\mathrm{cm}$. چون $q$ مثبت است، تصویر حقیقی و پیش روی آیینه است."
+      },
+      "idea": {
+        "en": "Find the focal length first ($f = \\frac{R}{2}$), then use $\\frac{1}{p} + \\frac{1}{q} = \\frac{1}{f}$ and look at the sign of $q$.",
+        "fa": "اول فاصلهٔ محراقی را پیدا کنید ($f = \\frac{R}{2}$)، بعد از $\\frac{1}{p} + \\frac{1}{q} = \\frac{1}{f}$ استفاده کنید و علامهٔ $q$ را ببینید."
+      }
+    },
+    {
+      "pdf_page": 70,
+      "q": {
+        "en": "An object is $15\\,\\mathrm{cm}$ in front of a convex mirror, and its virtual image forms $6\\,\\mathrm{cm}$ behind the mirror. What is the focal length of the mirror?",
+        "fa": "شیئی $15\\,\\mathrm{cm}$ پیش روی یک آیینهٔ محدب است و تصویر مجازی آن $6\\,\\mathrm{cm}$ عقب آیینه تشکیل می‌شود. فاصلهٔ محراقی آیینه چند است؟"
+      },
+      "options": [
+        {
+          "en": "$+10\\,\\mathrm{cm}$",
+          "fa": "$+10\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$-10\\,\\mathrm{cm}$",
+          "fa": "$-10\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$+4.3\\,\\mathrm{cm}$",
+          "fa": "$+4.3\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$-4.3\\,\\mathrm{cm}$",
+          "fa": "$-4.3\\,\\mathrm{cm}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "A virtual image is behind the mirror, so $q = -6\\,\\mathrm{cm}$. $\\frac{1}{f} = \\frac{1}{15} + \\frac{1}{-6} = \\frac{2 - 5}{30} = -\\frac{1}{10}$, so $f = -10\\,\\mathrm{cm}$; the negative sign fits a convex mirror.",
+        "fa": "تصویر مجازی در عقب آیینه است، پس $q = -6\\,\\mathrm{cm}$. $\\frac{1}{f} = \\frac{1}{15} + \\frac{1}{-6} = \\frac{2 - 5}{30} = -\\frac{1}{10}$، پس $f = -10\\,\\mathrm{cm}$؛ علامهٔ منفی با آیینهٔ محدب مطابقت دارد."
+      },
+      "idea": {
+        "en": "Distances behind the mirror are negative. Put $q = -6\\,\\mathrm{cm}$ into the mirror equation, not $+6\\,\\mathrm{cm}$.",
+        "fa": "فاصله‌های عقب آیینه منفی اند. در معادلهٔ آیینه $q = -6\\,\\mathrm{cm}$ بگذارید، نه $+6\\,\\mathrm{cm}$."
+      }
+    },
+    {
+      "pdf_page": 60,
+      "q": {
+        "en": "An object is placed between the focal point and a concave mirror (as with a shaving or make-up mirror). What kind of image is formed?",
+        "fa": "شیئی بین محراق و یک آیینهٔ مقعر گذاشته شده است (مانند آیینهٔ ریش‌تراشی یا آرایش). چه نوع تصویر تشکیل می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Real, inverted and smaller",
+          "fa": "حقیقی، سرچپه و کوچک‌تر"
+        },
+        {
+          "en": "Real, inverted and larger",
+          "fa": "حقیقی، سرچپه و بزرگ‌تر"
+        },
+        {
+          "en": "Virtual, upright and larger",
+          "fa": "مجازی، راسته و بزرگ‌تر"
+        },
+        {
+          "en": "Virtual, upright and smaller",
+          "fa": "مجازی، راسته و کوچک‌تر"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "When the object is inside the focal length, the reflected rays spread apart and their extensions meet behind the mirror. The image is virtual, upright and larger, which is why these mirrors enlarge your face.",
+        "fa": "وقتی شی داخل فاصلهٔ محراقی باشد، شعاع‌های منعکسه از هم دور می‌شوند و امتداد آن‌ها در عقب آیینه به هم می‌رسند. تصویر مجازی، راسته و بزرگ‌تر است؛ به همین سبب این آیینه‌ها روی را بزرگ نشان می‌دهند."
+      },
+      "idea": {
+        "en": "'Virtual, upright and smaller' is the image of a convex mirror. For a concave mirror, think about what a shaving mirror does to your face.",
+        "fa": "«مجازی، راسته و کوچک‌تر» تصویر آیینهٔ محدب است. برای آیینهٔ مقعر فکر کنید که آیینهٔ ریش‌تراشی روی شما را چگونه نشان می‌دهد."
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 258,
+  "printed_page": 251,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "طول قوس (Arc length)",
+  "summary_fa": "زیرعنوان این صفحه «مساحت قطاع دایره» است. مساحت قطاع با زاویهٔ آن متناسب است: تمام دایره (زاویهٔ $2\\pi$ رادیان یا $360^\\circ$) مساحت $\\pi R^2$ دارد، پس قطاعی با زاویهٔ $\\theta$ بخشی به همان نسبت از این مساحت را دارد. با تناسب ساده (قاعدهٔ سه) دو فورمول به دست می‌آید: $S = \\frac{1}{2}R^2\\theta$ وقتی زاویه به رادیان است و $S = \\pi R^2\\frac{\\theta}{360^\\circ}$ وقتی به درجه است. مثال ۱ و ۲ مساحت قطاع دایرهٔ ۱۰ سانتی‌متری را برای زاویه‌های $90^\\circ$ و $72^\\circ$ حساب می‌کنند (اول زاویه به رادیان بدل می‌شود). مثال ۳ برعکس است: از روی مساحت و شعاع، زاویه و بعد طول قوس پیدا می‌شود؛ حل آن در صفحهٔ بعد ادامه دارد.",
+  "key_points_fa": [
+    "مساحت قطاع با زاویهٔ مرکزی متناسب است.",
+    "رادیان: $S = \\frac{1}{2}R^2\\theta$؛ درجه: $S = \\pi R^2\\frac{\\theta}{360^\\circ}$",
+    "بدل کردن درجه به رادیان: ضرب در $\\frac{\\pi}{180^\\circ}$؛ مثلاً $90^\\circ = \\frac{\\pi}{2}$ و $72^\\circ = \\frac{2\\pi}{5}$.",
+    "اگر مساحت معلوم باشد: $\\theta = \\frac{2S}{R^2}$."
+  ],
+  "formulas": [
+    {"latex": "S = \\frac{1}{2}R^2\\theta", "meaning_fa": "مساحت قطاع وقتی زاویه به رادیان است"},
+    {"latex": "S = \\pi R^2\\frac{\\theta^\\circ}{360^\\circ}", "meaning_fa": "مساحت قطاع وقتی زاویه به درجه است"},
+    {"latex": "\\frac{S}{\\pi R^2} = \\frac{\\theta}{2\\pi}", "meaning_fa": "تناسبی که فورمول از آن به دست می‌آید"}
+  ],
+  "terms": [
+    {"fa": "مساحت قطاع", "en": "area of a sector"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "شعاع دایره $10\\,cm$ و زاویهٔ قطاع $\\theta = 90^\\circ$ است. مساحت قطاع را دریابید.",
+      "steps_fa": [
+        "$90^\\circ = \\frac{\\pi}{2}$ رادیان",
+        "$S = \\frac{1}{2}(10\\,cm)^2\\cdot\\frac{\\pi}{2} = \\frac{1}{2}\\cdot 100\\cdot\\frac{\\pi}{2} = 25\\pi\\,cm^2$"
+      ],
+      "answer": "$25\\pi\\,cm^2 \\approx 78.5\\,cm^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "شعاع دایره $10\\,cm$ و زاویهٔ قطاع $72^\\circ$ است. مساحت قطاع را دریابید.",
+      "steps_fa": [
+        "$72^\\circ = 72\\cdot\\frac{\\pi}{180^\\circ} = \\frac{2\\pi}{5}$ رادیان",
+        "$S = \\frac{1}{2}\\cdot 100\\,cm^2\\cdot\\frac{2\\pi}{5} = 20\\pi\\,cm^2$"
+      ],
+      "answer": "$20\\pi\\,cm^2 \\approx 62.8\\,cm^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "شعاع دایره $6\\,cm$ و مساحت قطاع $15\\pi\\,cm^2$ است. طول قوس این قطاع را دریابید.",
+      "steps_fa": [
+        "$S = \\frac{1}{2}R^2\\theta$ پس $15\\pi = \\frac{1}{2}\\cdot 36\\cdot\\theta = 18\\theta$",
+        "$\\theta = \\frac{15\\pi}{18} = \\frac{5\\pi}{6}$ رادیان",
+        "$L = R\\theta = 6\\cdot\\frac{5\\pi}{6} = 5\\pi\\,cm \\approx 15.7\\,cm$ (ادامهٔ حل در صفحهٔ بعد)"
+      ],
+      "answer": "$5\\pi\\,cm \\approx 15.7\\,cm$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در تناسب اول کتاب، علامهٔ □ پیش از $R^2$ همان $\\pi$ است ($\\pi R^2$) که در چاپ از بین رفته است."
+}

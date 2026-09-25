@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-math",
+  "chapter": 5,
+  "title": {
+    "en": "Applications of trigonometry",
+    "fa": "تطبیقات مثلثات"
+  },
+  "questions": [
+    {
+      "pdf_page": 233,
+      "q": {
+        "en": "Using a difference formula, find the exact value of $\\sin 15^\\circ$.",
+        "fa": "با فورمول تفاضل دو زاویه، قیمت دقیق $\\sin 15^\\circ$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{\\sqrt{6} + \\sqrt{2}}{4}$",
+          "fa": "$\\frac{\\sqrt{6} + \\sqrt{2}}{4}$"
+        },
+        {
+          "en": "$\\frac{\\sqrt{2} - 1}{2}$",
+          "fa": "$\\frac{\\sqrt{2} - 1}{2}$"
+        },
+        {
+          "en": "$\\frac{\\sqrt{6} - \\sqrt{2}}{4}$",
+          "fa": "$\\frac{\\sqrt{6} - \\sqrt{2}}{4}$"
+        },
+        {
+          "en": "$\\frac{\\sqrt{3} - 1}{4}$",
+          "fa": "$\\frac{\\sqrt{3} - 1}{4}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$\\sin(45^\\circ - 30^\\circ) = \\sin 45^\\circ\\cos 30^\\circ - \\cos 45^\\circ\\sin 30^\\circ = \\frac{\\sqrt{2}}{2} \\cdot \\frac{\\sqrt{3}}{2} - \\frac{\\sqrt{2}}{2} \\cdot \\frac{1}{2} = \\frac{\\sqrt{6} - \\sqrt{2}}{4}$.",
+        "fa": "$\\sin(45^\\circ - 30^\\circ) = \\sin 45^\\circ\\cos 30^\\circ - \\cos 45^\\circ\\sin 30^\\circ = \\frac{\\sqrt{2}}{2} \\cdot \\frac{\\sqrt{3}}{2} - \\frac{\\sqrt{2}}{2} \\cdot \\frac{1}{2} = \\frac{\\sqrt{6} - \\sqrt{2}}{4}$ است."
+      },
+      "idea": {
+        "en": "$\\sin(\\alpha - \\beta)$ is not $\\sin\\alpha - \\sin\\beta$. Use $\\sin\\alpha\\cos\\beta - \\cos\\alpha\\sin\\beta$; note that $\\frac{\\sqrt{6} + \\sqrt{2}}{4}$ is $\\cos 15^\\circ$.",
+        "fa": "$\\sin(\\alpha - \\beta)$ مساوی $\\sin\\alpha - \\sin\\beta$ نیست. از $\\sin\\alpha\\cos\\beta - \\cos\\alpha\\sin\\beta$ استفاده کنید؛ $\\frac{\\sqrt{6} + \\sqrt{2}}{4}$ قیمت $\\cos 15^\\circ$ است."
+      }
+    },
+    {
+      "pdf_page": 236,
+      "q": {
+        "en": "The terminal side of $\\theta$ is in quadrant II and $\\sin\\theta = \\frac{3}{5}$. What is $\\sin 2\\theta$?",
+        "fa": "ضلع دوم زاویهٔ $\\theta$ در ربع دوم است و $\\sin\\theta = \\frac{3}{5}$. قیمت $\\sin 2\\theta$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "$-\\frac{24}{25}$",
+          "fa": "$-\\frac{24}{25}$"
+        },
+        {
+          "en": "$\\frac{24}{25}$",
+          "fa": "$\\frac{24}{25}$"
+        },
+        {
+          "en": "$\\frac{7}{25}$",
+          "fa": "$\\frac{7}{25}$"
+        },
+        {
+          "en": "$\\frac{6}{5}$",
+          "fa": "$\\frac{6}{5}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "In quadrant II $\\cos\\theta = -\\sqrt{1 - \\frac{9}{25}} = -\\frac{4}{5}$, so $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta = 2 \\cdot \\frac{3}{5} \\cdot \\left(-\\frac{4}{5}\\right) = -\\frac{24}{25}$.",
+        "fa": "در ربع دوم $\\cos\\theta = -\\sqrt{1 - \\frac{9}{25}} = -\\frac{4}{5}$ است، پس $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta = 2 \\cdot \\frac{3}{5} \\cdot \\left(-\\frac{4}{5}\\right) = -\\frac{24}{25}$."
+      },
+      "idea": {
+        "en": "$\\sin 2\\theta \\neq 2\\sin\\theta$. Find $\\cos\\theta$ first and give it the sign of quadrant II (negative); $\\frac{7}{25}$ is $\\cos 2\\theta$.",
+        "fa": "$\\sin 2\\theta$ مساوی $2\\sin\\theta$ نیست. اول $\\cos\\theta$ را پیدا کنید و علامهٔ ربع دوم (منفی) را به آن بدهید؛ $\\frac{7}{25}$ قیمت $\\cos 2\\theta$ است."
+      }
+    },
+    {
+      "pdf_page": 248,
+      "q": {
+        "en": "Using the sum-to-product formula, find $\\sin 75^\\circ + \\sin 15^\\circ$.",
+        "fa": "با فورمول تبدیل مجموع به حاصل‌ضرب، قیمت $\\sin 75^\\circ + \\sin 15^\\circ$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "$1$",
+          "fa": "$1$"
+        },
+        {
+          "en": "$\\frac{\\sqrt{2}}{2}$",
+          "fa": "$\\frac{\\sqrt{2}}{2}$"
+        },
+        {
+          "en": "$\\frac{\\sqrt{6}}{4}$",
+          "fa": "$\\frac{\\sqrt{6}}{4}$"
+        },
+        {
+          "en": "$\\frac{\\sqrt{6}}{2}$",
+          "fa": "$\\frac{\\sqrt{6}}{2}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$\\sin p + \\sin q = 2\\sin\\frac{p + q}{2}\\cos\\frac{p - q}{2} = 2\\sin 45^\\circ\\cos 30^\\circ = 2 \\cdot \\frac{\\sqrt{2}}{2} \\cdot \\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{6}}{2}$.",
+        "fa": "$\\sin p + \\sin q = 2\\sin\\frac{p + q}{2}\\cos\\frac{p - q}{2} = 2\\sin 45^\\circ\\cos 30^\\circ = 2 \\cdot \\frac{\\sqrt{2}}{2} \\cdot \\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{6}}{2}$ است."
+      },
+      "idea": {
+        "en": "$\\sin 75^\\circ + \\sin 15^\\circ$ is not $\\sin 90^\\circ$. Take half the sum ($45^\\circ$) and half the difference ($30^\\circ$) of the angles, and keep the factor 2.",
+        "fa": "$\\sin 75^\\circ + \\sin 15^\\circ$ مساوی $\\sin 90^\\circ$ نیست. نصف مجموع ($45^\\circ$) و نصف تفاضل ($30^\\circ$) زاویه‌ها را بگیرید و ضریب ۲ را فراموش نکنید."
+      }
+    },
+    {
+      "pdf_page": 258,
+      "q": {
+        "en": "What is the area of a sector with radius $6\\,\\mathrm{cm}$ and central angle $60^\\circ$?",
+        "fa": "مساحت قطاعی را دریابید که شعاع آن $6\\,\\mathrm{cm}$ و زاویهٔ مرکزی آن $60^\\circ$ است."
+      },
+      "options": [
+        {
+          "en": "$2\\pi\\,\\mathrm{cm^2}$",
+          "fa": "$2\\pi\\,\\mathrm{cm^2}$"
+        },
+        {
+          "en": "$6\\pi\\,\\mathrm{cm^2}$",
+          "fa": "$6\\pi\\,\\mathrm{cm^2}$"
+        },
+        {
+          "en": "$12\\pi\\,\\mathrm{cm^2}$",
+          "fa": "$12\\pi\\,\\mathrm{cm^2}$"
+        },
+        {
+          "en": "$1080\\,\\mathrm{cm^2}$",
+          "fa": "$1080\\,\\mathrm{cm^2}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$60^\\circ = \\frac{\\pi}{3}$ radians, so $S = \\frac{1}{2}R^2\\theta = \\frac{1}{2} \\cdot 36 \\cdot \\frac{\\pi}{3} = 6\\pi\\,\\mathrm{cm^2}$ (the same as $\\pi R^2 \\cdot \\frac{60^\\circ}{360^\\circ}$).",
+        "fa": "$60^\\circ = \\frac{\\pi}{3}$ رادیان است، پس $S = \\frac{1}{2}R^2\\theta = \\frac{1}{2} \\cdot 36 \\cdot \\frac{\\pi}{3} = 6\\pi\\,\\mathrm{cm^2}$ (مانند $\\pi R^2 \\cdot \\frac{60^\\circ}{360^\\circ}$)."
+      },
+      "idea": {
+        "en": "In $S = \\frac{1}{2}R^2\\theta$ the angle must be in radians. $2\\pi\\,\\mathrm{cm}$ is the arc length, not the area.",
+        "fa": "در فورمول $S = \\frac{1}{2}R^2\\theta$ زاویه باید به رادیان باشد. $2\\pi\\,\\mathrm{cm}$ طول قوس است، نه مساحت."
+      }
+    },
+    {
+      "pdf_page": 271,
+      "q": {
+        "en": "A triangle has sides $5\\,\\mathrm{cm}$, $5\\,\\mathrm{cm}$ and $6\\,\\mathrm{cm}$. What is the radius of its inscribed circle?",
+        "fa": "ضلع‌های یک مثلث $5\\,\\mathrm{cm}$، $5\\,\\mathrm{cm}$ و $6\\,\\mathrm{cm}$ است. شعاع دایرهٔ محاطی آن را دریابید."
+      },
+      "options": [
+        {
+          "en": "$0.75\\,\\mathrm{cm}$",
+          "fa": "$0.75\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$3.125\\,\\mathrm{cm}$",
+          "fa": "$3.125\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$1.5\\,\\mathrm{cm}$",
+          "fa": "$1.5\\,\\mathrm{cm}$"
+        },
+        {
+          "en": "$12\\,\\mathrm{cm}$",
+          "fa": "$12\\,\\mathrm{cm}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$p = \\frac{5 + 5 + 6}{2} = 8$ and by Heron's formula $S = \\sqrt{8 \\cdot 3 \\cdot 3 \\cdot 2} = 12\\,\\mathrm{cm^2}$; then $r = \\frac{S}{p} = \\frac{12}{8} = 1.5\\,\\mathrm{cm}$.",
+        "fa": "$p = \\frac{5 + 5 + 6}{2} = 8$ است و با فورمول هیرون $S = \\sqrt{8 \\cdot 3 \\cdot 3 \\cdot 2} = 12\\,\\mathrm{cm^2}$؛ پس $r = \\frac{S}{p} = \\frac{12}{8} = 1.5\\,\\mathrm{cm}$."
+      },
+      "idea": {
+        "en": "Use the semi-perimeter $p$, not the whole perimeter, in both Heron's formula and $r = \\frac{S}{p}$. $3.125\\,\\mathrm{cm}$ is $R = \\frac{abc}{4S}$, the radius of the circumscribed circle.",
+        "fa": "هم در فورمول هیرون و هم در $r = \\frac{S}{p}$ نصف محیط $p$ را به کار ببرید، نه تمام محیط را. $3.125\\,\\mathrm{cm}$ شعاع دایرهٔ محیطی $R = \\frac{abc}{4S}$ است."
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 176,
+  "printed_page": 169,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "نسبت‌های مثلثاتی بعضی زوایای خاص",
+  "summary_fa": "درس تازه با این پرسش شروع می‌شود که آیا $\\sin 30^\\circ = \\cos 60^\\circ$ است. شکل عنوان، نقاط زاویه‌های $\\frac{\\pi}{6}$، $\\frac{\\pi}{4}$ و $\\frac{\\pi}{3}$ را روی دایرهٔ مثلثاتی با کمیات وضعیهٔ آن‌ها نشان می‌دهد. بعد نسبت‌های مثلثاتی زاویهٔ $45^\\circ = \\frac{\\pi}{4}$ حساب می‌شوند: یک مثلث قایم‌الزاویهٔ متساوی‌الساقین با دو ضلع قایم به طول ۱ گرفته می‌شود؛ وتر آن از قضیهٔ فیثاغورث $\\sqrt{2}$ است. با تعریف نسبت‌ها (ضلع مقابل، ضلع مجاور و وتر) هر شش نسبت $45^\\circ$ به دست می‌آیند.",
+  "key_points_fa": [
+    "در مثلث قایم‌الزاویهٔ متساوی‌الساقین هر دو زاویهٔ حاده $45^\\circ$ است و اگر ساق‌ها ۱ باشند، وتر $\\sqrt{2}$ است.",
+    "$\\sin 45^\\circ = \\cos 45^\\circ = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$",
+    "$\\tan 45^\\circ = \\cot 45^\\circ = 1$",
+    "$\\sec 45^\\circ = \\csc 45^\\circ = \\sqrt{2}$",
+    "برای ناطق ساختن مخرج: $\\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\theta = \\frac{\\text{opp}}{\\text{hyp}},\\ \\cos\\theta = \\frac{\\text{adj}}{\\text{hyp}},\\ \\tan\\theta = \\frac{\\text{opp}}{\\text{adj}}", "meaning_fa": "sin = ضلع مقابل بر وتر، cos = ضلع مجاور بر وتر، tan = ضلع مقابل بر ضلع مجاور"},
+    {"latex": "\\sin\\frac{\\pi}{4} = \\cos\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}", "meaning_fa": "sin و cos زاویهٔ $45^\\circ$"},
+    {"latex": "\\tan\\frac{\\pi}{4} = \\cot\\frac{\\pi}{4} = 1,\\quad \\sec\\frac{\\pi}{4} = \\csc\\frac{\\pi}{4} = \\sqrt{2}", "meaning_fa": "نسبت‌های دیگر زاویهٔ $45^\\circ$"}
+  ],
+  "terms": [
+    {"fa": "ضلع مقابل", "en": "opposite side"},
+    {"fa": "ضلع مجاور", "en": "adjacent side"},
+    {"fa": "وتر", "en": "hypotenuse"},
+    {"fa": "مثلث قایم‌الزاویهٔ متساوی‌الساقین", "en": "isosceles right triangle"},
+    {"fa": "زوایای خاص", "en": "special angles"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "diagram", "description_fa": "شکل عنوان درس: دایرهٔ مثلثاتی با نقاط $(1,0)$ و $(0,1)$. سه شعاع زاویه‌های $\\frac{\\pi}{6}$ (نقطهٔ $(\\frac{\\sqrt{3}}{2}, \\frac{1}{2})$)، $\\frac{\\pi}{4}$ (نقطهٔ $(\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2})$) و $\\frac{\\pi}{3}$ (نقطهٔ $(\\frac{1}{2}, \\frac{\\sqrt{3}}{2})$) را نشان می‌دهند. مستطیل‌های نقطه‌چین نقاط قرینهٔ این‌ها را در سه ربع دیگر به هم وصل می‌کنند؛ یعنی همین قیمت‌ها با علامه‌های مختلف در ربع‌های دیگر هم تکرار می‌شوند."},
+    {"id": "fig2", "bbox": [0.58, 0.69, 0.83, 0.88], "kind": "diagram", "description_fa": "مثلث قایم‌الزاویهٔ متساوی‌الساقین با دو ضلع قایم به طول ۱، وتر $\\sqrt{2}$ و دو زاویهٔ حادهٔ $45^\\circ$؛ از این مثلث نسبت‌های $45^\\circ$ خوانده می‌شوند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "نسبت‌های مثلثاتی $45^\\circ$",
+      "problem_fa": "در مثلث قایم‌الزاویهٔ متساوی‌الساقین با ساق‌های ۱، نسبت‌های مثلثاتی $45^\\circ$ را دریابید.",
+      "steps_fa": [
+        "$r^2 = 1^2 + 1^2 = 2 \\Rightarrow r = \\sqrt{2}$",
+        "$\\sin 45^\\circ = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$ و $\\cos 45^\\circ = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$",
+        "$\\tan 45^\\circ = \\frac{1}{1} = 1$ و $\\cot 45^\\circ = 1$",
+        "$\\sec 45^\\circ = \\frac{\\sqrt{2}}{1} = \\sqrt{2}$ و $\\csc 45^\\circ = \\sqrt{2}$"
+      ],
+      "answer": "$\\sin = \\cos = \\frac{\\sqrt{2}}{2}$، $\\tan = \\cot = 1$، $\\sec = \\csc = \\sqrt{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغاز درس",
+      "kind": "question",
+      "problem_fa": "آیا می‌توانید بگویید که $\\sin 30^\\circ = \\cos 60^\\circ$ است؟",
+      "solution_steps_fa": [
+        "در یک مثلث قایم‌الزاویه با زاویه‌های $30^\\circ$ و $60^\\circ$، ضلعی که مقابل $30^\\circ$ است همان ضلع مجاور $60^\\circ$ است.",
+        "پس $\\sin 30^\\circ = \\frac{\\text{مقابل}}{\\text{وتر}} = \\cos 60^\\circ = \\frac{1}{2}$."
+      ],
+      "answer": "بلی، هر دو $\\frac{1}{2}$ هستند، چون $30^\\circ + 60^\\circ = 90^\\circ$.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

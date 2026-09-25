@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-phys",
+  "chapter": 6,
+  "title": {
+    "en": "Linear momentum and impulse",
+    "fa": "مومنتم خطی و امپولس"
+  },
+  "questions": [
+    {
+      "pdf_page": 158,
+      "q": {
+        "en": "Which unit is equal to the unit of impulse, $\\mathrm{N\\cdot s}$?",
+        "fa": "کدام واحد با واحد امپولس، یعنی $\\mathrm{N\\cdot s}$، مساوی است؟"
+      },
+      "options": [
+        {
+          "en": "$\\mathrm{kg\\cdot m/s^2}$",
+          "fa": "$\\mathrm{kg\\cdot m/s^2}$"
+        },
+        {
+          "en": "$\\mathrm{kg\\cdot m/s}$",
+          "fa": "$\\mathrm{kg\\cdot m/s}$"
+        },
+        {
+          "en": "$\\mathrm{N\\cdot m}$",
+          "fa": "$\\mathrm{N\\cdot m}$"
+        },
+        {
+          "en": "$\\mathrm{N/s}$",
+          "fa": "$\\mathrm{N/s}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$1\\,\\mathrm{N} = 1\\,\\mathrm{kg\\cdot m/s^2}$, so $1\\,\\mathrm{N\\cdot s} = 1\\,\\mathrm{kg\\cdot m/s}$, the unit of momentum. This fits $F\\,\\Delta t = m\\,\\Delta v$: impulse equals the change in momentum.",
+        "fa": "$1\\,\\mathrm{N} = 1\\,\\mathrm{kg\\cdot m/s^2}$ است، پس $1\\,\\mathrm{N\\cdot s} = 1\\,\\mathrm{kg\\cdot m/s}$ که واحد مومنتم است. این با $F\\,\\Delta t = m\\,\\Delta v$ جور می‌آید: امپولس مساوی تغییر مومنتم است."
+      },
+      "idea": {
+        "en": "Write the newton in base units and multiply by seconds. $\\mathrm{kg\\cdot m/s^2}$ is the newton itself and $\\mathrm{N\\cdot m}$ is the joule.",
+        "fa": "نیوتن را به واحدهای اساسی بنویسید و در ثانیه ضرب کنید. $\\mathrm{kg\\cdot m/s^2}$ خود نیوتن و $\\mathrm{N\\cdot m}$ ژول است."
+      }
+    },
+    {
+      "pdf_page": 165,
+      "q": {
+        "en": "A $3000\\,\\mathrm{kg}$ lorry moves at $10\\,\\mathrm{m/s}$ and a $1000\\,\\mathrm{kg}$ car moves at $30\\,\\mathrm{m/s}$ in the same direction. How do their momenta compare?",
+        "fa": "یک لاری به کتلۀ $3000\\,\\mathrm{kg}$ با سرعت $10\\,\\mathrm{m/s}$ و یک موتر به کتلۀ $1000\\,\\mathrm{kg}$ با سرعت $30\\,\\mathrm{m/s}$ در یک جهت حرکت می‌کنند. مومنتم آن‌ها چه رابطه‌یی دارد؟"
+      },
+      "options": [
+        {
+          "en": "The lorry has more momentum because it is heavier",
+          "fa": "مومنتم لاری بیشتر است، چون کتلۀ آن بیشتر است"
+        },
+        {
+          "en": "The car has more momentum because it is faster",
+          "fa": "مومنتم موتر بیشتر است، چون سرعت آن بیشتر است"
+        },
+        {
+          "en": "They are equal, each $3\\times10^{3}\\,\\mathrm{kg\\cdot m/s}$",
+          "fa": "مساوی اند، هر کدام $3\\times10^{3}\\,\\mathrm{kg\\cdot m/s}$"
+        },
+        {
+          "en": "They are equal, each $3\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$",
+          "fa": "مساوی اند، هر کدام $3\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$P = mv$: lorry $3000 \\times 10 = 3\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$ and car $1000 \\times 30 = 3\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$. The lighter car makes up for its smaller mass by moving 3 times faster.",
+        "fa": "$P = mv$: لاری $3000 \\times 10 = 3\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$ و موتر $1000 \\times 30 = 3\\times10^{4}\\,\\mathrm{kg\\cdot m/s}$. موتر سبک‌تر کتلۀ کمتر خود را با سرعت سه برابر جبران می‌کند."
+      },
+      "idea": {
+        "en": "Momentum depends on both mass and velocity; multiply them for each body before comparing.",
+        "fa": "مومنتم هم به کتله و هم به سرعت وابسته است؛ پیش از مقایسه، برای هر جسم آن دو را ضرب کنید."
+      }
+    },
+    {
+      "pdf_page": 166,
+      "q": {
+        "en": "A $0.4\\,\\mathrm{kg}$ ball moving at $20\\,\\mathrm{m/s}$ is caught and stopped in $0.05\\,\\mathrm{s}$. What average force does the catcher exert on the ball?",
+        "fa": "توپی به کتلۀ $0.4\\,\\mathrm{kg}$ که با سرعت $20\\,\\mathrm{m/s}$ حرکت می‌کند، در مدت $0.05\\,\\mathrm{s}$ گرفته و متوقف می‌شود. قوۀ اوسطی که گیرنده بر توپ وارد می‌کند چند است؟"
+      },
+      "options": [
+        {
+          "en": "$160\\,\\mathrm{N}$",
+          "fa": "$160\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$8\\,\\mathrm{N}$",
+          "fa": "$8\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$400\\,\\mathrm{N}$",
+          "fa": "$400\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$0.4\\,\\mathrm{N}$",
+          "fa": "$0.4\\,\\mathrm{N}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$\\Delta P = m\\,\\Delta v = 0.4 \\times (0 - 20) = -8\\,\\mathrm{kg\\cdot m/s}$, so $F = \\frac{\\Delta P}{\\Delta t} = \\frac{-8}{0.05} = -160\\,\\mathrm{N}$: a force of $160\\,\\mathrm{N}$ opposite to the ball's motion.",
+        "fa": "$\\Delta P = m\\,\\Delta v = 0.4 \\times (0 - 20) = -8\\,\\mathrm{kg\\cdot m/s}$ است، پس $F = \\frac{\\Delta P}{\\Delta t} = \\frac{-8}{0.05} = -160\\,\\mathrm{N}$؛ یعنی قوۀ $160\\,\\mathrm{N}$ مخالف جهت حرکت توپ."
+      },
+      "idea": {
+        "en": "Force is the rate of change of momentum, $F = \\frac{\\Delta P}{\\Delta t}$: find the change in momentum ($m\\,\\Delta v$) and divide it by the time.",
+        "fa": "قوه درجۀ زمانی تغییر مومنتم است، $F = \\frac{\\Delta P}{\\Delta t}$: تغییر مومنتم ($m\\,\\Delta v$) را پیدا کنید و بر زمان تقسیم کنید."
+      }
+    },
+    {
+      "pdf_page": 169,
+      "q": {
+        "en": "A $2\\,\\mathrm{kg}$ trolley moving at $6\\,\\mathrm{m/s}$ hits a $4\\,\\mathrm{kg}$ trolley at rest, and they stick together. What is their common velocity just after the collision?",
+        "fa": "موترکی به کتلۀ $2\\,\\mathrm{kg}$ با سرعت $6\\,\\mathrm{m/s}$ به موترک ساکن دیگری به کتلۀ $4\\,\\mathrm{kg}$ می‌خورد و هر دو به هم می‌چسپند. سرعت مشترک آن‌ها درست بعد از تصادم چند است؟"
+      },
+      "options": [
+        {
+          "en": "$3\\,\\mathrm{m/s}$",
+          "fa": "$3\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$6\\,\\mathrm{m/s}$",
+          "fa": "$6\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$2\\,\\mathrm{m/s}$",
+          "fa": "$2\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$4\\,\\mathrm{m/s}$",
+          "fa": "$4\\,\\mathrm{m/s}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Momentum is conserved: $m_1 v_1 = (m_1 + m_2)V$, so $V = \\frac{2 \\times 6}{2 + 4} = 2\\,\\mathrm{m/s}$.",
+        "fa": "مومنتم تحفظ می‌شود: $m_1 v_1 = (m_1 + m_2)V$، پس $V = \\frac{2 \\times 6}{2 + 4} = 2\\,\\mathrm{m/s}$."
+      },
+      "idea": {
+        "en": "After sticking together the two trolleys move as one body, so divide the total momentum by the total mass $m_1 + m_2$.",
+        "fa": "بعد از چسپیدن، دو موترک مانند یک جسم حرکت می‌کنند؛ پس مومنتم کل را بر کتلۀ کل $m_1 + m_2$ تقسیم کنید."
+      }
+    },
+    {
+      "pdf_page": 173,
+      "q": {
+        "en": "In an inelastic collision with no external force (for example two bodies that stick together), which quantity is conserved?",
+        "fa": "در یک تصادم غیر ارتجاعی که قوۀ خارجی بر سیستم عمل نمی‌کند (مثلاً دو جسمی که به هم می‌چسپند)، کدام کمیت تحفظ می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Kinetic energy only",
+          "fa": "فقط انرژی حرکی"
+        },
+        {
+          "en": "Linear momentum only",
+          "fa": "فقط مومنتم خطی"
+        },
+        {
+          "en": "Both linear momentum and kinetic energy",
+          "fa": "هم مومنتم خطی و هم انرژی حرکی"
+        },
+        {
+          "en": "Neither of them",
+          "fa": "هیچ کدام"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Without an external force the total momentum is always conserved. In an inelastic collision part of the kinetic energy turns into heat, sound and the work of deforming the bodies, so kinetic energy is not conserved.",
+        "fa": "بدون قوۀ خارجی مومنتم کل همیشه تحفظ می‌شود. در تصادم غیر ارتجاعی قسمتی از انرژی حرکی به حرارت، صوت و کار تغییر شکل اجسام تبدیل می‌شود، پس انرژی حرکی تحفظ نمی‌شود."
+      },
+      "idea": {
+        "en": "Momentum is conserved in every collision without external force; kinetic energy is conserved only in an elastic collision.",
+        "fa": "مومنتم در هر تصادم بدون قوۀ خارجی تحفظ می‌شود؛ انرژی حرکی فقط در تصادم ارتجاعی تحفظ می‌شود."
+      }
+    }
+  ]
+}

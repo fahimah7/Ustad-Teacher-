@@ -1,0 +1,116 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 185,
+  "printed_page": 178,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "ارتباط بین نسبت‌های مثلثاتی یک زاویه حاده با زوایای دیگر",
+  "summary_fa": "این صفحه موضوع رابطهٔ $\\theta$ و $-\\theta$ را تمام می‌کند. اول چهار نسبت باقی‌ماندهٔ مثال ۱ (زاویهٔ $-30^\\circ$) نوشته می‌شوند. بعد در یک فعالیت باید نشان داده شود که sec زاویهٔ منفی تغییر نمی‌کند و csc آن علامه عوض می‌کند. مثال ۲ با همین قاعده‌ها sin و cos زاویهٔ $-\\frac{3\\pi}{2}$ را از قیمت‌های $\\frac{3\\pi}{2}$ حساب می‌کند و فعالیت بعدی چهار نسبت دیگر آن را می‌خواهد. سپس هر شش رابطه یک‌جا خلاصه شده‌اند: cos و sec «جفت» هستند (با منفی شدن زاویه تغییر نمی‌کنند) و چهار نسبت دیگر علامه عوض می‌کنند. در آخر صفحه یک تمرین سه‌سواله برای زاویه‌های $-360^\\circ$، $-45^\\circ$، $-30^\\circ$، $-60^\\circ$ و $-90^\\circ$ آمده است.",
+  "key_points_fa": [
+    "$\\sec(-\\theta) = \\sec\\theta$ و $\\csc(-\\theta) = -\\csc\\theta$.",
+    "فقط cos و sec با منفی شدن زاویه تغییر نمی‌کنند؛ sin، tan، cot و csc قرینه می‌شوند.",
+    "برای زاویهٔ منفی: اول نسبت زاویهٔ مثبت را پیدا کنید، بعد قاعدهٔ علامه را به کار ببرید.",
+    "اگر نسبتی برای $\\theta$ تعریف نشده باشد، برای $-\\theta$ هم تعریف نشده است."
+  ],
+  "formulas": [
+    {"latex": "\\sin(-\\theta) = -\\sin\\theta,\\quad \\cos(-\\theta) = \\cos\\theta", "meaning_fa": "خلاصهٔ روابط sin و cos"},
+    {"latex": "\\tan(-\\theta) = -\\tan\\theta,\\quad \\cot(-\\theta) = -\\cot\\theta", "meaning_fa": "خلاصهٔ روابط tan و cot"},
+    {"latex": "\\sec(-\\theta) = \\sec\\theta,\\quad \\csc(-\\theta) = -\\csc\\theta", "meaning_fa": "خلاصهٔ روابط sec و csc"}
+  ],
+  "terms": [
+    {"fa": "زاویهٔ منفی", "en": "negative angle"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (ادامه)",
+      "problem_fa": "چهار نسبت دیگر زاویهٔ $-30^\\circ$",
+      "steps_fa": [
+        "$\\tan(-30^\\circ) = -\\tan 30^\\circ = -\\frac{1}{\\sqrt{3}}$",
+        "$\\cot(-30^\\circ) = -\\cot 30^\\circ = -\\sqrt{3}$",
+        "$\\sec(-30^\\circ) = \\sec 30^\\circ = \\frac{2}{\\sqrt{3}}$",
+        "$\\csc(-30^\\circ) = -\\csc 30^\\circ = -2$"
+      ],
+      "answer": "$\\tan = -\\frac{1}{\\sqrt{3}}$، $\\cot = -\\sqrt{3}$، $\\sec = \\frac{2}{\\sqrt{3}}$، $\\csc = -2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $-\\frac{3\\pi}{2}$ را دریابید.",
+      "steps_fa": [
+        "$\\sin\\left(-\\frac{3\\pi}{2}\\right) = -\\sin\\frac{3\\pi}{2} = -(-1) = 1$",
+        "$\\cos\\left(-\\frac{3\\pi}{2}\\right) = \\cos\\frac{3\\pi}{2} = 0$"
+      ],
+      "answer": "$\\sin\\left(-\\frac{3\\pi}{2}\\right) = 1$، $\\cos\\left(-\\frac{3\\pi}{2}\\right) = 0$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "نشان دهید که $\\sec(-\\theta) = \\sec\\theta$ و $\\csc(-\\theta) = -\\csc\\theta$.",
+      "solution_steps_fa": [
+        "$\\sec(-\\theta) = \\frac{1}{\\cos(-\\theta)} = \\frac{1}{\\cos\\theta} = \\sec\\theta$",
+        "$\\csc(-\\theta) = \\frac{1}{\\sin(-\\theta)} = \\frac{1}{-\\sin\\theta} = -\\csc\\theta$",
+        "یا با نقطه‌ها: $\\sec(-\\theta) = \\frac{r}{x_1} = \\frac{r}{x}$ و $\\csc(-\\theta) = \\frac{r}{y_1} = \\frac{r}{-y}$"
+      ],
+      "answer": "$\\sec(-\\theta) = \\sec\\theta$ و $\\csc(-\\theta) = -\\csc\\theta$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "چهار نسبت مثلثاتی باقی‌ماندهٔ زاویهٔ $-\\frac{3\\pi}{2}$ را دریابید.",
+      "solution_steps_fa": [
+        "از مثال ۲: $\\sin\\left(-\\frac{3\\pi}{2}\\right) = 1$ و $\\cos\\left(-\\frac{3\\pi}{2}\\right) = 0$",
+        "$\\tan = \\frac{\\sin}{\\cos} = \\frac{1}{0}$ تعریف نشده است.",
+        "$\\cot = \\frac{\\cos}{\\sin} = \\frac{0}{1} = 0$",
+        "$\\sec = \\frac{1}{\\cos} = \\frac{1}{0}$ تعریف نشده است؛ $\\csc = \\frac{1}{\\sin} = \\frac{1}{1} = 1$"
+      ],
+      "answer": "$\\tan$ و $\\sec$ تعریف نشده‌اند؛ $\\cot\\left(-\\frac{3\\pi}{2}\\right) = 0$ و $\\csc\\left(-\\frac{3\\pi}{2}\\right) = 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی $-360^\\circ$ یا $-2\\pi$ رادیان را دریابید.",
+      "solution_steps_fa": [
+        "نسبت‌های $360^\\circ$: $\\sin = 0$، $\\cos = 1$، $\\tan = 0$، $\\sec = 1$؛ cot و csc تعریف نشده‌اند.",
+        "$\\sin(-360^\\circ) = -0 = 0$، $\\cos(-360^\\circ) = 1$، $\\tan(-360^\\circ) = 0$، $\\sec(-360^\\circ) = 1$",
+        "$\\cot(-360^\\circ)$ و $\\csc(-360^\\circ)$ تعریف نشده‌اند (مخرج $\\sin = 0$ است)."
+      ],
+      "answer": "$\\sin = 0$، $\\cos = 1$، $\\tan = 0$، $\\sec = 1$؛ $\\cot$ و $\\csc$ تعریف نشده",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی $-45^\\circ$ (یا $-\\frac{\\pi}{4}$ رادیان)، $-30^\\circ$ و $-60^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$-45^\\circ$: $\\sin = -\\frac{\\sqrt{2}}{2}$، $\\cos = \\frac{\\sqrt{2}}{2}$، $\\tan = -1$، $\\cot = -1$، $\\sec = \\sqrt{2}$، $\\csc = -\\sqrt{2}$",
+        "$-30^\\circ$: $\\sin = -\\frac{1}{2}$، $\\cos = \\frac{\\sqrt{3}}{2}$، $\\tan = -\\frac{\\sqrt{3}}{3}$، $\\cot = -\\sqrt{3}$، $\\sec = \\frac{2\\sqrt{3}}{3}$، $\\csc = -2$",
+        "$-60^\\circ$: $\\sin = -\\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = -\\sqrt{3}$، $\\cot = -\\frac{\\sqrt{3}}{3}$، $\\sec = 2$، $\\csc = -\\frac{2\\sqrt{3}}{3}$"
+      ],
+      "answer": "در هر زاویه cos و sec مثبت و مساوی قیمت زاویهٔ مثبت‌اند؛ sin، tan، cot و csc منفی نسبت زاویهٔ مثبت‌اند (قیمت‌ها در مراحل).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی $-90^\\circ$ یا $-\\frac{\\pi}{2}$ رادیان را دریابید.",
+      "solution_steps_fa": [
+        "نسبت‌های $90^\\circ$: $\\sin = 1$، $\\cos = 0$، $\\cot = 0$، $\\csc = 1$؛ tan و sec تعریف نشده‌اند.",
+        "$\\sin(-90^\\circ) = -1$، $\\cos(-90^\\circ) = 0$، $\\cot(-90^\\circ) = -0 = 0$، $\\csc(-90^\\circ) = -1$",
+        "$\\tan(-90^\\circ)$ و $\\sec(-90^\\circ)$ تعریف نشده‌اند (مخرج $\\cos = 0$ است)."
+      ],
+      "answer": "$\\sin = -1$، $\\cos = 0$، $\\cot = 0$، $\\csc = -1$؛ $\\tan$ و $\\sec$ تعریف نشده",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در فعالیت اول کتاب به جای csc به اشتباه «cec» چاپ شده است."
+}

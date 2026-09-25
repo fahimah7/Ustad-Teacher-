@@ -1,0 +1,22 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 268,
+  "printed_page": null,
+  "page_kind": "photo",
+  "chapter": 8,
+  "section_fa": null,
+  "summary_fa": "این صفحه یک نقاشی تمام‌صفحه (به شکل ایستاده چرخانده شده) از یک قلعهٔ تاریخی با برج‌های گرد، دیوارهای خشتی، درختان سبز و آسمان آبی است. به نظر می‌رسد قلعهٔ اختیارالدین هرات باشد. این صفحه درس ریاضی ندارد و فقط آغاز فصل احتمالات را تزئین می‌کند.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [
+    {"id": "fig1", "bbox": [0.0, 0.0, 1.0, 1.0], "kind": "photo", "description_fa": "نقاشی آبرنگ یک قلعهٔ قدیمی با برج‌های گرد و درختان پیش روی آن؛ تصویر ۹۰ درجه چرخانده شده است. محتوای ریاضی ندارد."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "نام قلعه در صفحه نوشته نشده؛ شناسایی آن به عنوان قلعهٔ اختیارالدین هرات حدس است."
+}

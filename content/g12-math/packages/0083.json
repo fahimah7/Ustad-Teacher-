@@ -1,0 +1,94 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 83,
+  "printed_page": 76,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتقات ضمنی",
+  "summary_fa": "این صفحه کاربرد مشتق ضمنی را در پیدا کردن خط مماس نشان می‌دهد. در مثال ۲ برای منحنی $x^2 + xy + y^2 - 3 = 0$ اول $y'$ با فورمول مشتق ضمنی و بعد با مشتق گرفتن مستقیم از دو طرف به دست می‌آید. چون نقطهٔ $(1, 1)$ در معادله صدق می‌کند، بالای منحنی است؛ قیمت $y'$ در این نقطه میل مماس است و با فورمول نقطه‌ـ‌میل معادلهٔ مماس نوشته می‌شود. مثال ۳ مشتق ضمنی $x^2y^3 = 5y^3 + x$ را حساب می‌کند. در آخر صفحه سه تمرین برای مشتق ضمنی آمده است.",
+  "key_points_fa": [
+    "پیش از حساب میل، امتحان کنید که نقطه در معادلهٔ منحنی صدق کند.",
+    "میل مماس در نقطهٔ $(x_1, y_1)$ همان قیمت $y'$ در آن نقطه است.",
+    "معادلهٔ مماس: $y - y_1 = m(x - x_1)$",
+    "مشتق ضمنی فقط وقتی تعریف است که مخرج صفر نباشد (مثلاً $x + 2y \\neq 0$)."
+  ],
+  "formulas": [
+    {"latex": "y - y_1 = m(x - x_1)", "meaning_fa": "معادلهٔ خط مماس با میل m از نقطهٔ $(x_1, y_1)$"},
+    {"latex": "y' = -\\frac{2x + y}{x + 2y}", "meaning_fa": "مشتق ضمنی منحنی $x^2 + xy + y^2 = 3$"}
+  ],
+  "terms": [
+    {"fa": "میل مماس", "en": "slope of the tangent"},
+    {"fa": "خط مماس", "en": "tangent line"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق ضمنی $x^2 + xy + y^2 - 3 = 0$ را پیدا کنید، بعد میل مماس و معادلهٔ مماس را در نقطهٔ $(1, 1)$ بنویسید.",
+      "steps_fa": [
+        "امتحان نقطه: $1 + 1 + 1 - 3 = 0$، پس $(1, 1)$ بالای منحنی است.",
+        "$f'_{(x)} = 2x + y$ و $f'_{(y)} = x + 2y$، پس $y' = -\\frac{2x + y}{x + 2y}$ با شرط $x + 2y \\neq 0$",
+        "در $(1, 1)$: $m = -\\frac{2 + 1}{1 + 2} = -1$",
+        "$y - 1 = -(x - 1) \\Rightarrow y = -x + 2$",
+        "راه دوم: $2x + y + xy' + 2yy' = 0 \\Rightarrow (x + 2y)y' = -2x - y$ که همان جواب را می‌دهد."
+      ],
+      "answer": "میل $-1$ و معادلهٔ مماس $y = -x + 2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "مشتق ضمنی $x^2y^3 = 5y^3 + x$ را دریافت کنید.",
+      "steps_fa": [
+        "$f(x, y) = x^2y^3 - 5y^3 - x = 0$",
+        "$f'_{(x)} = 2xy^3 - 1$ و $f'_{(y)} = 3x^2y^2 - 15y^2$",
+        "$y' = -\\frac{2xy^3 - 1}{3x^2y^2 - 15y^2} = \\frac{1 - 2xy^3}{3x^2y^2 - 15y^2}$"
+      ],
+      "answer": "$y' = \\frac{1 - 2xy^3}{3x^2y^2 - 15y^2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "مشتق ضمنی $x\\sin y + y\\cos x = 5$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$f(x, y) = x\\sin y + y\\cos x - 5$",
+        "$f'_{(x)} = \\sin y - y\\sin x$ (y ثابت)",
+        "$f'_{(y)} = x\\cos y + \\cos x$ (x ثابت)",
+        "$y' = -\\frac{\\sin y - y\\sin x}{x\\cos y + \\cos x}$"
+      ],
+      "answer": "$y' = \\frac{y\\sin x - \\sin y}{x\\cos y + \\cos x}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "از رابطهٔ $x^3 + xy^2 + y = 3$ مشتق ضمنی بگیرید.",
+      "solution_steps_fa": [
+        "$f(x, y) = x^3 + xy^2 + y - 3$",
+        "$f'_{(x)} = 3x^2 + y^2$ و $f'_{(y)} = 2xy + 1$",
+        "$y' = -\\frac{3x^2 + y^2}{2xy + 1}$"
+      ],
+      "answer": "$y' = -\\frac{3x^2 + y^2}{2xy + 1}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "از رابطهٔ $x^2 + y^2 = 4x + 4y$ مشتق ضمنی بگیرید.",
+      "solution_steps_fa": [
+        "$f(x, y) = x^2 + y^2 - 4x - 4y$",
+        "$f'_{(x)} = 2x - 4$ و $f'_{(y)} = 2y - 4$",
+        "$y' = -\\frac{2x - 4}{2y - 4} = -\\frac{x - 2}{y - 2}$"
+      ],
+      "answer": "$y' = \\frac{2 - x}{y - 2}$ با شرط $y \\neq 2$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

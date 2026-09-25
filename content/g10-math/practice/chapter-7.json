@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-math",
+  "chapter": 7,
+  "title": {
+    "en": "Analytic geometry",
+    "fa": "هندسهٔ تحلیلی"
+  },
+  "questions": [
+    {
+      "pdf_page": 318,
+      "q": {
+        "en": "Point $P$ divides the segment from $P_1(1, 2)$ to $P_2(7, 8)$ internally so that $\\frac{P_1P}{PP_2} = \\frac{1}{2}$. Find $P$.",
+        "fa": "نقطهٔ $P$ قطعه خط بین $P_1(1, 2)$ و $P_2(7, 8)$ را داخلاً به نسبت $\\frac{P_1P}{PP_2} = \\frac{1}{2}$ تقسیم می‌کند. کمیات وضعیهٔ $P$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "$P(4, 5)$",
+          "fa": "$P(4, 5)$"
+        },
+        {
+          "en": "$P(3, 4)$",
+          "fa": "$P(3, 4)$"
+        },
+        {
+          "en": "$P(5, 6)$",
+          "fa": "$P(5, 6)$"
+        },
+        {
+          "en": "$P(-5, -4)$",
+          "fa": "$P(-5, -4)$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "With $r = \\frac{1}{2}$: $x = \\frac{x_1 + rx_2}{1 + r} = \\frac{1 + 3.5}{1.5} = 3$ and $y = \\frac{y_1 + ry_2}{1 + r} = \\frac{2 + 4}{1.5} = 4$, so $P(3, 4)$.",
+        "fa": "با $r = \\frac{1}{2}$: $x = \\frac{x_1 + rx_2}{1 + r} = \\frac{1 + 3.5}{1.5} = 3$ و $y = \\frac{y_1 + ry_2}{1 + r} = \\frac{2 + 4}{1.5} = 4$؛ پس $P(3, 4)$ است."
+      },
+      "idea": {
+        "en": "In $x = \\frac{x_1 + rx_2}{1 + r}$ the ratio $r$ multiplies the coordinate of $P_2$. $(4, 5)$ is the midpoint ($r = 1$) and $(5, 6)$ comes from $r = 2$.",
+        "fa": "در $x = \\frac{x_1 + rx_2}{1 + r}$ نسبت $r$ در کمیت وضعیهٔ $P_2$ ضرب می‌شود. $(4, 5)$ نقطهٔ وسطی ($r = 1$) است و $(5, 6)$ از $r = 2$ به دست می‌آید."
+      }
+    },
+    {
+      "pdf_page": 324,
+      "q": {
+        "en": "A line passes through $(1, 2)$ and $(3, 8)$. What is the slope of a line perpendicular to it?",
+        "fa": "یک خط مستقیم از نقاط $(1, 2)$ و $(3, 8)$ می‌گذرد. میل خطی که بر آن عمود است چند است؟"
+      },
+      "options": [
+        {
+          "en": "$3$",
+          "fa": "$3$"
+        },
+        {
+          "en": "$\\frac{1}{3}$",
+          "fa": "$\\frac{1}{3}$"
+        },
+        {
+          "en": "$-\\frac{1}{3}$",
+          "fa": "$-\\frac{1}{3}$"
+        },
+        {
+          "en": "$-3$",
+          "fa": "$-3$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The slope of the line is $\\frac{8 - 2}{3 - 1} = 3$. Perpendicular slopes satisfy $m_1 m_2 = -1$, so $m_2 = -\\frac{1}{3}$.",
+        "fa": "میل خط $\\frac{8 - 2}{3 - 1} = 3$ است. میل‌های دو خط عمود شرط $m_1 m_2 = -1$ را دارند، پس $m_2 = -\\frac{1}{3}$."
+      },
+      "idea": {
+        "en": "First find the slope from the two points, then take its negative reciprocal (flip it and change the sign). Slope 3 belongs to a parallel line.",
+        "fa": "اول میل خط را از روی دو نقطه پیدا کنید، بعد معکوس منفی آن را بگیرید (کسر را چپه و علامه را عوض کنید). میل ۳ مربوط به خط موازی است."
+      }
+    },
+    {
+      "pdf_page": 329,
+      "q": {
+        "en": "Find the equation of the line through $(-1, 5)$ and $(2, -1)$.",
+        "fa": "معادلهٔ خط مستقیمی را دریابید که از نقاط $(-1, 5)$ و $(2, -1)$ می‌گذرد."
+      },
+      "options": [
+        {
+          "en": "$y = 2x + 7$",
+          "fa": "$y = 2x + 7$"
+        },
+        {
+          "en": "$y = -2x + 7$",
+          "fa": "$y = -2x + 7$"
+        },
+        {
+          "en": "$y = -\\frac{1}{2}x + \\frac{9}{2}$",
+          "fa": "$y = -\\frac{1}{2}x + \\frac{9}{2}$"
+        },
+        {
+          "en": "$y = -2x + 3$",
+          "fa": "$y = -2x + 3$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$m = \\frac{-1 - 5}{2 - (-1)} = \\frac{-6}{3} = -2$, and $y - 5 = -2(x + 1)$ gives $y = -2x + 3$. Check: $x = 2$ gives $y = -1$.",
+        "fa": "$m = \\frac{-1 - 5}{2 - (-1)} = \\frac{-6}{3} = -2$ است و از $y - 5 = -2(x + 1)$ معادلهٔ $y = -2x + 3$ به دست می‌آید. امتحان: با $x = 2$ قیمت $y = -1$ می‌شود."
+      },
+      "idea": {
+        "en": "Slope is (change in $y$) divided by (change in $x$), with the points in the same order. In $y - y_1 = m(x - x_1)$ with $x_1 = -1$ the bracket is $(x + 1)$. Check both points at the end.",
+        "fa": "میل = تفاضل yها تقسیم بر تفاضل xها، با ترتیب یکسان نقطه‌ها. در $y - y_1 = m(x - x_1)$ با $x_1 = -1$ قوس $(x + 1)$ می‌شود. در آخر هر دو نقطه را امتحان کنید."
+      }
+    },
+    {
+      "pdf_page": 341,
+      "q": {
+        "en": "What is the distance from the point $(1, 2)$ to the line $3x + 4y - 1 = 0$?",
+        "fa": "فاصلهٔ نقطهٔ $(1, 2)$ از خط $3x + 4y - 1 = 0$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "$2$",
+          "fa": "$2$"
+        },
+        {
+          "en": "$10$",
+          "fa": "$10$"
+        },
+        {
+          "en": "$\\frac{12}{5}$",
+          "fa": "$\\frac{12}{5}$"
+        },
+        {
+          "en": "$\\frac{2}{5}$",
+          "fa": "$\\frac{2}{5}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$d = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}} = \\frac{|3 + 8 - 1|}{\\sqrt{9 + 16}} = \\frac{10}{5} = 2$.",
+        "fa": "$d = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}} = \\frac{|3 + 8 - 1|}{\\sqrt{9 + 16}} = \\frac{10}{5} = 2$ است."
+      },
+      "idea": {
+        "en": "Put the point into $ax + by + c$ together with $c = -1$, take the absolute value, and divide by $\\sqrt{a^2 + b^2} = 5$ (not by $a^2 + b^2$).",
+        "fa": "نقطه را در $ax + by + c$ همراه با $c = -1$ بگذارید، قیمت مطلقه بگیرید و بر $\\sqrt{a^2 + b^2} = 5$ تقسیم کنید (نه بر $a^2 + b^2$)."
+      }
+    },
+    {
+      "pdf_page": 345,
+      "q": {
+        "en": "Find the center and the radius of the circle $x^2 + y^2 - 6x + 4y - 3 = 0$.",
+        "fa": "مرکز و شعاع دایرهٔ $x^2 + y^2 - 6x + 4y - 3 = 0$ را دریابید."
+      },
+      "options": [
+        {
+          "en": "center $(-3, 2)$, radius $4$",
+          "fa": "مرکز $(-3, 2)$ و شعاع $4$"
+        },
+        {
+          "en": "center $(3, -2)$, radius $\\sqrt{10}$",
+          "fa": "مرکز $(3, -2)$ و شعاع $\\sqrt{10}$"
+        },
+        {
+          "en": "center $(3, -2)$, radius $4$",
+          "fa": "مرکز $(3, -2)$ و شعاع $4$"
+        },
+        {
+          "en": "center $(-6, 4)$, radius $\\sqrt{3}$",
+          "fa": "مرکز $(-6, 4)$ و شعاع $\\sqrt{3}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Comparing with $x^2 + y^2 + 2gx + 2fy + c = 0$: $g = -3$, $f = 2$, $c = -3$. The center is $(-g, -f) = (3, -2)$ and $r = \\sqrt{g^2 + f^2 - c} = \\sqrt{9 + 4 + 3} = 4$; indeed $(x - 3)^2 + (y + 2)^2 = 16$.",
+        "fa": "با مقایسه با $x^2 + y^2 + 2gx + 2fy + c = 0$: $g = -3$، $f = 2$ و $c = -3$. مرکز $(-g, -f) = (3, -2)$ و $r = \\sqrt{g^2 + f^2 - c} = \\sqrt{9 + 4 + 3} = 4$ است؛ یعنی $(x - 3)^2 + (y + 2)^2 = 16$."
+      },
+      "idea": {
+        "en": "The center has the opposite signs of $g$ and $f$ (half the coefficients of $x$ and $y$), and $r = \\sqrt{g^2 + f^2 - c}$: with $c = -3$ this adds 3.",
+        "fa": "مرکز علامه‌های مخالف $g$ و $f$ (نصف ضریب‌های $x$ و $y$) را دارد و $r = \\sqrt{g^2 + f^2 - c}$ است؛ با $c = -3$ عدد ۳ جمع می‌شود."
+      }
+    }
+  ]
+}

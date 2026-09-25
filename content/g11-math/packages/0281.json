@@ -1,0 +1,63 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 281,
+  "printed_page": 272,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "حاصل ضرب وکتوری دو وکتور",
+  "summary_fa": "این صفحه دو کاربرد حاصل ضرب وکتوری را در ثبوت فورمول‌های مثلثات نشان می‌دهد. اول، ثبوت فورمول $\\sin(\\alpha+\\beta)$ که از صفحه قبل شروع شده بود تمام می‌شود: دو وکتور واحد $\\vec{OA}$ و $\\vec{OB}$ با محور x زاویه‌های $\\alpha$ و $-\\beta$ می‌سازند، پس زاویهٔ بین آن‌ها $\\alpha+\\beta$ است. حاصل ضرب وکتوری آن‌ها با دیترمینانت حساب می‌شود و طول آن هم برابر $\\sin(\\alpha+\\beta)$ است؛ از مقایسهٔ این دو، فورمول به دست می‌آید. دوم، ثبوت قانون ساین آغاز می‌شود: سه ضلع مثلث ABC را وکتورهای $\\vec{a}$، $\\vec{b}$ و $\\vec{c}$ در نظر می‌گیریم که جمع آن‌ها صفر است. با ضرب وکتوری دو طرف در $\\vec{c}$ و استفاده از $\\vec{c}\\times\\vec{c}=0$ نتیجه می‌شود $\\vec{b}\\times\\vec{c} = \\vec{c}\\times\\vec{a}$ و طول‌های آن‌ها مساوی‌اند. ادامهٔ این ثبوت در صفحه بعد است.",
+  "key_points_fa": [
+    "طول حاصل ضرب وکتوری دو وکتور واحد برابر ساین زاویهٔ بین آن‌هاست.",
+    "$\\vec{OA}=\\cos\\alpha\\,\\vec{i}+\\sin\\alpha\\,\\vec{j}$ و $\\vec{OB}=\\cos\\beta\\,\\vec{i}-\\sin\\beta\\,\\vec{j}$ وکتورهای واحد هستند.",
+    "اگر سه ضلع مثلث را به شکل وکتورهای پی‌درپی بگیریم، $\\vec{a}+\\vec{b}+\\vec{c}=\\vec{0}$.",
+    "حاصل ضرب وکتوری هر وکتور با خودش صفر است: $\\vec{c}\\times\\vec{c}=\\vec{0}$.",
+    "$-\\vec{a}\\times\\vec{c} = \\vec{c}\\times\\vec{a}$، چون ترتیب ضرب وکتوری علامه را عوض می‌کند."
+  ],
+  "formulas": [
+    {"latex": "\\vec{OA}\\times\\vec{OB} = \\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\\\ \\cos\\alpha & \\sin\\alpha & 0 \\\\ \\cos\\beta & -\\sin\\beta & 0 \\end{vmatrix} = -\\vec{k}\\,(\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta)", "meaning_fa": "حاصل ضرب وکتوری دو وکتور واحد با دیترمینانت"},
+    {"latex": "|\\vec{OA}\\times\\vec{OB}| = |\\vec{OA}|\\,|\\vec{OB}|\\sin(\\alpha+\\beta) = \\sin(\\alpha+\\beta)", "meaning_fa": "طول حاصل ضرب وکتوری دو وکتور واحد با زاویهٔ $\\alpha+\\beta$"},
+    {"latex": "\\sin(\\alpha+\\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta", "meaning_fa": "فورمول ساین مجموع دو زاویه که ثبوت شد"},
+    {"latex": "\\vec{a}+\\vec{b}+\\vec{c}=\\vec{0} \\Rightarrow \\vec{b}\\times\\vec{c} = \\vec{c}\\times\\vec{a}", "meaning_fa": "نتیجهٔ ضرب وکتوری در $\\vec{c}$ برای وکتورهای اضلاع مثلث"}
+  ],
+  "terms": [
+    {"fa": "حاصل ضرب وکتوری", "en": "cross (vector) product"},
+    {"fa": "وکتور واحد", "en": "unit vector"},
+    {"fa": "قانون ساین", "en": "law of sines"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.53, 0.42, 0.67], "kind": "diagram", "description_fa": "مثلث ABC که روی هر ضلع آن یک وکتور رسم شده است: $\\vec{a}$ روی BC، $\\vec{b}$ روی CA و $\\vec{c}$ روی AB؛ امتداد اضلاع در هر رأس زاویه‌های بیرونی $\\pi-A$، $\\pi-B$ و $\\pi-C$ را نشان می‌دهد. این زاویه‌ها زاویه‌های بین وکتورهای اضلاع هستند و در ثبوت قانون ساین به کار می‌روند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مسئلهٔ تطبیقاتی ۲ (ادامه)",
+      "problem_fa": "ثبوت کنید که $\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta$.",
+      "steps_fa": [
+        "$\\vec{OA}$ و $\\vec{OB}$ دو وکتور واحد در مستوی xy هستند که با محور x زاویه‌های $\\alpha$ و $-\\beta$ می‌سازند؛ پس $\\widehat{AOB}=\\alpha+\\beta$.",
+        "$\\vec{OA}=\\cos\\alpha\\,\\vec{i}+\\sin\\alpha\\,\\vec{j}$ و $\\vec{OB}=\\cos(-\\beta)\\vec{i}+\\sin(-\\beta)\\vec{j}=\\cos\\beta\\,\\vec{i}-\\sin\\beta\\,\\vec{j}$.",
+        "با دیترمینانت: $\\vec{OA}\\times\\vec{OB}=\\vec{k}(-\\sin\\beta\\cos\\alpha-\\sin\\alpha\\cos\\beta)$.",
+        "از طرف دیگر طول این حاصل ضرب $|\\vec{OA}||\\vec{OB}|\\sin(\\alpha+\\beta)=1\\cdot1\\cdot\\sin(\\alpha+\\beta)$ است.",
+        "با مقایسهٔ این دو: $\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta$."
+      ],
+      "answer": "$\\sin(\\alpha+\\beta)=\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مسئلهٔ تطبیقاتی ۳ (آغاز)",
+      "problem_fa": "برای هر مثلث ABC نشان دهید که $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$.",
+      "steps_fa": [
+        "وکتورهای $\\vec{a}$، $\\vec{b}$ و $\\vec{c}$ را در امتداد اضلاع BC، CA و AB می‌گیریم؛ چون مسیر بسته است: $\\vec{a}+\\vec{b}+\\vec{c}=\\vec{0}$، پس $\\vec{b}+\\vec{c}=-\\vec{a}$ ... (i).",
+        "دو طرف (i) را در $\\vec{c}$ ضرب وکتوری می‌کنیم: $(\\vec{b}+\\vec{c})\\times\\vec{c}=-\\vec{a}\\times\\vec{c}$.",
+        "$\\vec{b}\\times\\vec{c}+\\vec{c}\\times\\vec{c}=\\vec{c}\\times\\vec{a}$ و چون $\\vec{c}\\times\\vec{c}=\\vec{0}$، داریم $\\vec{b}\\times\\vec{c}=\\vec{c}\\times\\vec{a}$.",
+        "پس طول‌های آن‌ها هم مساوی است: $|\\vec{b}\\times\\vec{c}|=|\\vec{c}\\times\\vec{a}|$. (ادامه در صفحه بعد)"
+      ],
+      "answer": "$|\\vec{b}\\times\\vec{c}|=|\\vec{c}\\times\\vec{a}|$ (ادامهٔ ثبوت در صفحه بعد)",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب در سطر آخر ثبوت اول نوشته است $|\\vec{OA}|\\times|\\vec{OB}|$؛ مقصد طول حاصل ضرب وکتوری $|\\vec{OA}\\times\\vec{OB}|$ است."
+}

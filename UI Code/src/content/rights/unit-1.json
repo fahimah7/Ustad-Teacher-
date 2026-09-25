@@ -1,0 +1,480 @@
+{
+  "unit": 1,
+  "title": {
+    "en": "My rights",
+    "fa": "حقوق من"
+  },
+  "about": {
+    "en": "The rights that belong to you as a person: dignity, learning, your mind and voice, your life choices, and gathering peacefully.",
+    "fa": "حقوقی که به حیث یک انسان مال شماست: کرامت، تعلیم، فکر و صدا، انتخاب‌های زندگی و جمع شدن به شکل صلح‌آمیز."
+  },
+  "lessons": [
+    {
+      "id": "r1-1",
+      "title": {
+        "en": "Rights belong to every person",
+        "fa": "حقوق به هر انسان تعلق دارد"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "A right is something every person should have simply because they are human. You do not have to earn it, and no one gives it to you as a gift. It is yours from the start.",
+          "fa": "حق چیزی است که هر انسان، تنها به خاطر انسان بودنش، باید داشته باشد. لازم نیست آن را به دست بیاورید و کسی آن را به شما تحفه نمی‌دهد. حق از همان اول مال شماست."
+        },
+        {
+          "en": "In 1948, after the Second World War had brought great suffering, the countries of the United Nations wrote down the rights of every person. This is the Universal Declaration of Human Rights. Afghanistan was one of the 48 countries that voted for it, and no country voted against it.",
+          "fa": "در سال ۱۹۴۸، بعد از جنگ جهانی دوم که رنج بسیار زیادی به بار آورده بود، کشورهای ملل متحد حقوق هر انسان را روی کاغذ آوردند. نام این سند «اعلامیه جهانی حقوق بشر» است. افغانستان یکی از ۴۸ کشوری بود که به آن رأی موافق داد، و هیچ کشوری رأی مخالف نداد."
+        },
+        {
+          "en": "Women helped to write it. One of them, Hansa Mehta from India, is remembered for changing the words 'All men are born free and equal' to 'All human beings are born free and equal'. So the text makes clear that these rights belong to women and girls too.",
+          "fa": "زنان هم در نوشتن آن سهم داشتند. یکی از آن‌ها هانسا مهتا از هندوستان بود. می‌گویند او جمله «همه مردان آزاد و برابر به دنیا می‌آیند» را به «همه انسان‌ها آزاد و برابر به دنیا می‌آیند» تغییر داد. به این ترتیب، متن به روشنی نشان می‌دهد که این حقوق به زنان و دختران هم تعلق دارد."
+        },
+        {
+          "en": "The Declaration has been translated into hundreds of languages, including Dari and Pashto. It speaks about every person on earth, and that includes you.",
+          "fa": "این اعلامیه به صدها زبان، از جمله دری و پشتو، ترجمه شده است. این سند درباره هر انسان روی زمین سخن می‌گوید؛ شما هم شامل آن هستید."
+        },
+        {
+          "en": "Sometimes those in power do not respect a right. That does not make the right disappear: a right that is not respected is still a right. Knowing your rights is the first step to standing up for them, carefully and together with others.",
+          "fa": "گاهی کسانی که قدرت در دست دارند، یک حق را رعایت نمی‌کنند. اما با این کار آن حق از بین نمی‌رود؛ حقی که رعایت نشود، باز هم حق است. دانستن حقوق‌تان اولین قدم برای دفاع از آن‌هاست؛ با احتیاط و همراه با دیگران."
+        }
+      ],
+      "reflect": {
+        "en": "Which of your rights matters most to you right now, and why?",
+        "fa": "همین حالا کدام حق برای شما از همه مهم‌تر است، و چرا؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "How did Afghanistan vote on the Universal Declaration of Human Rights in 1948?",
+            "fa": "افغانستان در سال ۱۹۴۸ درباره اعلامیه جهانی حقوق بشر چه رأی داد؟"
+          },
+          "options": [
+            {
+              "en": "It voted for it",
+              "fa": "به آن رأی موافق داد"
+            },
+            {
+              "en": "It voted against it",
+              "fa": "به آن رأی مخالف داد"
+            },
+            {
+              "en": "It did not take part",
+              "fa": "در رأی‌گیری شرکت نکرد"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "Afghanistan was one of the 48 countries that voted for the Declaration, and no country voted against it.",
+            "fa": "افغانستان یکی از ۴۸ کشوری بود که به این اعلامیه رأی موافق دادند، و هیچ کشوری مخالفت نکرد."
+          }
+        },
+        {
+          "q": {
+            "en": "If those in power do not respect a right, what happens to the right?",
+            "fa": "اگر کسانی که قدرت در دست دارند یک حق را رعایت نکنند، آن حق چه می‌شود؟"
+          },
+          "options": [
+            {
+              "en": "It disappears",
+              "fa": "از بین می‌رود"
+            },
+            {
+              "en": "It is still your right",
+              "fa": "باز هم حق شماست"
+            },
+            {
+              "en": "It then belongs only to boys",
+              "fa": "بعد از آن تنها به پسران تعلق دارد"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "A right belongs to you because you are human, and not respecting it does not take it away.",
+            "fa": "حق به خاطر انسان بودن‌تان مال شماست، و رعایت نکردن آن، آن را از شما نمی‌گیرد."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "Universal Declaration of Human Rights, UN General Assembly Resolution 217 A (III), 10 December 1948: Preamble, Article 1",
+        "UN General Assembly plenary vote, 10 December 1948: 48 in favour (including Afghanistan), 0 against, 8 abstentions",
+        "United Nations, 'Women who shaped the Universal Declaration': Hansa Mehta and the wording of Article 1",
+        "OHCHR UDHR translation collection (hundreds of languages, including Dari and Pashto)"
+      ]
+    },
+    {
+      "id": "r1-2",
+      "title": {
+        "en": "Born free and equal",
+        "fa": "آزاد و برابر به دنیا آمده‌اید"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "Article 1 of the Declaration says: all human beings are born free and equal in dignity and rights. Dignity means your worth as a person. You were born with it, and no one can take it away.",
+          "fa": "ماده اول اعلامیه می‌گوید: همه انسان‌ها آزاد به دنیا می‌آیند و در کرامت و حقوق با هم برابر هستند. کرامت یعنی ارزش شما به حیث یک انسان. شما با آن به دنیا آمده‌اید و هیچ کس نمی‌تواند آن را از شما بگیرد."
+        },
+        {
+          "en": "Article 2 says these rights belong to everyone, without any difference because of sex, language, religion, race, or being rich or poor. That means a girl has exactly the same rights as a boy.",
+          "fa": "ماده دوم می‌گوید این حقوق به همه تعلق دارد، بدون هیچ فرقی میان زن و مرد، زبان، دین، نژاد، یا دارا و نادار. یعنی یک دختر درست همان حقوقی را دارد که یک پسر دارد."
+        },
+        {
+          "en": "Article 1 also says people have reason and conscience and should act towards one another in a spirit of brotherhood, like one family. Equality is not only something we ask from others. It is also about how we treat our own sisters, friends and neighbours.",
+          "fa": "ماده اول همچنان می‌گوید که انسان‌ها عقل و وجدان دارند و باید با یکدیگر با روحیه برادری، مثل یک خانواده، رفتار کنند. برابری تنها چیزی نیست که از دیگران بخواهیم. به این هم مربوط است که ما خود با خواهران، دوستان و همسایه‌های خود چطور رفتار می‌کنیم."
+        },
+        {
+          "en": "Sometimes you may hear that girls are worth less, or that your dreams do not matter. These words can hurt, but they do not change the truth: your worth does not depend on what others say.",
+          "fa": "شاید گاهی بشنوید که دختران کم‌ارزش‌تر هستند یا آرزوهای شما مهم نیست. این گپ‌ها می‌تواند دل‌تان را بیازارد، اما حقیقت را تغییر نمی‌دهد: ارزش شما به گپ دیگران بستگی ندارد."
+        },
+        {
+          "en": "Here is a small practice: each morning, say quietly to yourself, 'I have dignity. I have the same rights as everyone.' Remembering your worth helps you stay strong and kind at the same time.",
+          "fa": "یک تمرین کوچک: هر صبح آهسته با خود بگویید: «من کرامت دارم. من همان حقوقی را دارم که همه دارند.» به یاد داشتن ارزش خود به شما کمک می‌کند که هم قوی بمانید و هم مهربان."
+        }
+      ],
+      "reflect": {
+        "en": "Think of a time someone treated you with respect. How did it feel?",
+        "fa": "به وقتی فکر کنید که کسی با شما با احترام رفتار کرد. در آن لحظه چه احساسی داشتید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "According to Article 2, do girls and boys have the same rights?",
+            "fa": "طبق ماده دوم، آیا دختران و پسران حقوق برابر دارند؟"
+          },
+          "options": [
+            {
+              "en": "Yes, exactly the same rights",
+              "fa": "بلی، درست همان حقوق را دارند"
+            },
+            {
+              "en": "No, boys have more rights",
+              "fa": "نه، پسران حقوق بیشتر دارند"
+            },
+            {
+              "en": "Only when they grow up",
+              "fa": "تنها وقتی که کلان شوند"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "Article 2 says rights belong to everyone without any difference, including between women and men.",
+            "fa": "ماده دوم می‌گوید حقوق بدون هیچ فرقی، از جمله میان زن و مرد، به همه تعلق دارد."
+          }
+        },
+        {
+          "q": {
+            "en": "What does 'dignity' mean?",
+            "fa": "«کرامت» یعنی چه؟"
+          },
+          "options": [
+            {
+              "en": "Having a lot of money",
+              "fa": "داشتن پول زیاد"
+            },
+            {
+              "en": "Your worth as a person, which no one can take away",
+              "fa": "ارزش شما به حیث یک انسان، که هیچ کس نمی‌تواند آن را بگیرد"
+            },
+            {
+              "en": "Being famous",
+              "fa": "مشهور بودن"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Dignity is the worth every person is born with.",
+            "fa": "کرامت ارزشی است که هر انسان با آن به دنیا می‌آید."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "UDHR, Article 1",
+        "UDHR, Article 2"
+      ]
+    },
+    {
+      "id": "r1-3",
+      "title": {
+        "en": "Your right to learn",
+        "fa": "حق شما برای آموختن"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Article 26 of the Declaration says: everyone has the right to education. Education should be free, at least in the first years, and higher education should be open to all based on merit. It does not say 'every boy'. It says everyone.",
+          "fa": "ماده ۲۶ اعلامیه می‌گوید: هر کس حق تعلیم دارد. تعلیم باید دست‌کم در سال‌های اول رایگان باشد، و درس پوهنتون باید بر اساس لیاقت به روی همه باز باشد. این ماده نمی‌گوید «هر پسر»؛ می‌گوید «هر کس»."
+        },
+        {
+          "en": "Afghanistan also made promises in treaties, which are formal agreements between countries. In 1994 it ratified the Convention on the Rights of the Child. Its Article 28 says every child has the right to education, and that countries must help children attend school regularly.",
+          "fa": "افغانستان در پیمان‌ها هم وعده داده است. پیمان یک تعهد رسمی میان کشورهاست. در سال ۱۹۹۴، افغانستان کنوانسیون حقوق طفل را تصویب کرد. ماده ۲۸ آن می‌گوید هر طفل حق تعلیم دارد و کشورها باید کمک کنند که اطفال به طور منظم به مکتب بروند."
+        },
+        {
+          "en": "In 2003, Afghanistan ratified CEDAW, a treaty to end discrimination against women. Its Article 10 says girls and women must have the same chances as boys and men in education: the same access to schools and universities, the same lessons, the same exams and the same chances for scholarships.",
+          "fa": "در سال ۲۰۰۳، افغانستان کنوانسیون سیداو را تصویب کرد؛ پیمانی برای از بین بردن تبعیض علیه زنان. ماده ۱۰ آن می‌گوید دختران و زنان در تعلیم باید همان فرصت‌های پسران و مردان را داشته باشند: همان راه به مکتب و پوهنتون، همان درس‌ها، همان امتحان‌ها و همان فرصت برای بورسیه."
+        },
+        {
+          "en": "These promises were made by the country, not by one government. Under international law, when those in power change, the country's promises remain. Since schools were closed to girls in 2021, your right to learn has not been respected, but it has not been cancelled.",
+          "fa": "این وعده‌ها را کشور داده است، نه یک حکومت خاص. طبق قانون بین‌المللی، وقتی کسانی که قدرت در دست دارند تغییر می‌کنند، وعده‌های کشور باقی می‌ماند. از زمانی که در سال ۲۰۲۱ مکتب‌ها به روی دختران بسته شد، حق تعلیم شما رعایت نشده، اما از بین نرفته است."
+        },
+        {
+          "en": "Every time you open a book, practise a lesson or teach a younger sister, you are using your right to learn. Learning at home is real learning. It keeps your mind strong and ready for the future.",
+          "fa": "هر بار که کتابی را باز می‌کنید، درسی را تمرین می‌کنید یا به خواهر کوچک خود چیزی یاد می‌دهید، از حق تعلیم خود استفاده می‌کنید. درس خواندن در خانه هم درس واقعی است. ذهن شما را قوی و برای آینده آماده نگه می‌دارد."
+        }
+      ],
+      "reflect": {
+        "en": "What is one thing you want to learn this month, and who could learn it with you?",
+        "fa": "این ماه می‌خواهید چه چیزی را یاد بگیرید، و چه کسی می‌تواند همراه شما یاد بگیرد؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Who does Article 26 say has the right to education?",
+            "fa": "طبق ماده ۲۶، چه کسی حق تعلیم دارد؟"
+          },
+          "options": [
+            {
+              "en": "Boys only",
+              "fa": "تنها پسران"
+            },
+            {
+              "en": "Everyone",
+              "fa": "هر کس"
+            },
+            {
+              "en": "Only children in cities",
+              "fa": "تنها اطفال شهرها"
+            },
+            {
+              "en": "Only people who can pay",
+              "fa": "تنها کسانی که پول دارند"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Article 26 says everyone has the right to education, with no exceptions.",
+            "fa": "ماده ۲۶ می‌گوید هر کس، بدون استثنا، حق تعلیم دارد."
+          }
+        },
+        {
+          "q": {
+            "en": "Afghanistan made promises about education in treaties. What happens to them when those in power change?",
+            "fa": "افغانستان در پیمان‌ها درباره تعلیم وعده داده است. وقتی کسانی که قدرت در دست دارند تغییر می‌کنند، این وعده‌ها چه می‌شوند؟"
+          },
+          "options": [
+            {
+              "en": "They end automatically",
+              "fa": "خود به خود از بین می‌روند"
+            },
+            {
+              "en": "They only apply to other countries",
+              "fa": "تنها برای کشورهای دیگر است"
+            },
+            {
+              "en": "They remain, because the country made them",
+              "fa": "باقی می‌مانند، چون کشور آن‌ها را داده است"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "Treaty promises are made by the country, so a change of those in power does not end them.",
+            "fa": "وعده‌های پیمان را کشور می‌دهد، پس با تغییر کسانی که قدرت دارند از بین نمی‌روند."
+          }
+        }
+      ],
+      "practice": "relative-doubts",
+      "sources": [
+        "UDHR, Article 26",
+        "Convention on the Rights of the Child, Article 28; ratified by Afghanistan 28 March 1994 (UN Treaty Collection)",
+        "CEDAW, Article 10; ratified by Afghanistan 5 March 2003 (UN Treaty Collection)",
+        "UN Human Rights Committee, General Comment No. 26 (1997): treaty obligations continue despite a change of government"
+      ]
+    },
+    {
+      "id": "r1-4",
+      "title": {
+        "en": "Free to think, speak and gather",
+        "fa": "آزادی فکر، بیان و گردهمایی"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Article 18 says everyone has freedom of thought, conscience and religion. Your thoughts belong to you. No one can enter your mind and order you what to think.",
+          "fa": "ماده ۱۸ می‌گوید هر کس آزادی فکر، وجدان و دین دارد. فکرهای شما مال خود شماست. هیچ کس نمی‌تواند داخل ذهن شما شود و به شما امر کند که چه فکر کنید."
+        },
+        {
+          "en": "Article 19 says everyone has the right to hold opinions and to express them. It also protects the right to look for, receive and share information and ideas. Reading, asking questions and learning new things are all part of this right.",
+          "fa": "ماده ۱۹ می‌گوید هر کس حق دارد نظر خود را داشته باشد و آن را بیان کند. این ماده همچنان از حق جستجو، گرفتن و رساندن معلومات و فکرها محافظت می‌کند. کتاب خواندن، سوال پرسیدن و یاد گرفتن چیزهای نو، همه بخشی از این حق است."
+        },
+        {
+          "en": "Article 20 says everyone has the right to meet and gather peacefully, and no one can be forced to join a group. In 1983 Afghanistan joined the International Covenant on Civil and Political Rights, a treaty whose Article 21 also protects peaceful assembly.",
+          "fa": "ماده ۲۰ می‌گوید هر کس حق دارد به شکل صلح‌آمیز با دیگران جمع شود، و هیچ کس را نمی‌توان مجبور کرد که عضو یک گروه شود. افغانستان در سال ۱۹۸۳ به میثاق بین‌المللی حقوق مدنی و سیاسی پیوست؛ پیمانی که ماده ۲۱ آن هم از حق گردهمایی صلح‌آمیز محافظت می‌کند."
+        },
+        {
+          "en": "Having a right does not mean it is always safe to use it. Today, speaking or gathering openly can bring real danger to you and to others. You decide when, where and with whom to speak. Choosing to stay safe is not cowardice.",
+          "fa": "داشتن یک حق به این معنا نیست که استفاده از آن همیشه بی‌خطر است. امروز، گپ زدن یا جمع شدن به شکل آشکار می‌تواند برای شما و دیگران خطر جدی داشته باشد. خود شما تصمیم می‌گیرید که چه وقت، کجا و با چه کسی گپ بزنید. حفظ امنیت خود، بزدلی نیست."
+        },
+        {
+          "en": "There are quiet ways to use these rights: thinking deeply, reading, talking with one person you trust, or studying with a sister. If you write down your thoughts, keep them somewhere safe. Your voice is growing, even when it is quiet.",
+          "fa": "راه‌های آرام هم برای استفاده از این حقوق وجود دارد: عمیق فکر کردن، کتاب خواندن، گپ زدن با یک شخص قابل اعتماد، یا درس خواندن همراه خواهرتان. اگر فکرهای خود را می‌نویسید، آن را در جای امن نگه دارید. صدای شما حتی وقتی آرام است، در حال رشد است."
+        }
+      ],
+      "reflect": {
+        "en": "What is one idea you would like to share with someone you trust?",
+        "fa": "کدام فکر را دوست دارید با یک شخص قابل اعتماد در میان بگذارید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Which of these is part of the right in Article 19?",
+            "fa": "کدام یک از این‌ها بخشی از حق ماده ۱۹ است؟"
+          },
+          "options": [
+            {
+              "en": "Never asking questions",
+              "fa": "هیچ وقت سوال نپرسیدن"
+            },
+            {
+              "en": "Looking for, receiving and sharing information and ideas",
+              "fa": "جستجو، گرفتن و رساندن معلومات و فکرها"
+            },
+            {
+              "en": "Having to think what others think",
+              "fa": "مجبور بودن به فکر کردن مثل دیگران"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Article 19 protects your opinions and your right to seek, receive and share information and ideas.",
+            "fa": "ماده ۱۹ از نظر شما و از حق جستجو، گرفتن و رساندن معلومات و فکرها محافظت می‌کند."
+          }
+        },
+        {
+          "q": {
+            "en": "If speaking openly could put you or others in danger, which is true?",
+            "fa": "اگر گپ زدن آشکار، شما یا دیگران را در خطر بیندازد، کدام درست است؟"
+          },
+          "options": [
+            {
+              "en": "You have lost the right forever",
+              "fa": "این حق را برای همیشه از دست داده‌اید"
+            },
+            {
+              "en": "You must speak anyway, or you are a coward",
+              "fa": "باید به هر حال گپ بزنید، ورنه بزدل هستید"
+            },
+            {
+              "en": "You decide when and how to speak; staying safe is not cowardice",
+              "fa": "خود شما تصمیم می‌گیرید چه وقت و چطور گپ بزنید؛ حفظ امنیت بزدلی نیست"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "The right stays yours, and you decide how and when to use it safely.",
+            "fa": "این حق مال شما می‌ماند، و خود شما تصمیم می‌گیرید که چطور و چه وقت با امنیت از آن استفاده کنید."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "UDHR, Article 18",
+        "UDHR, Article 19",
+        "UDHR, Article 20",
+        "ICCPR, Article 21; Afghanistan acceded 24 January 1983 (UN Treaty Collection)"
+      ]
+    },
+    {
+      "id": "r1-5",
+      "title": {
+        "en": "Your life, your choice",
+        "fa": "زندگی شما، انتخاب شما"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Some rights protect the big choices in your life. Article 13 says everyone has the right to move freely and to choose where to live within their country. Everyone also has the right to leave any country and to return to their own.",
+          "fa": "بعضی حقوق از انتخاب‌های بزرگ زندگی شما محافظت می‌کنند. ماده ۱۳ می‌گوید هر کس حق دارد در داخل کشور خود آزادانه رفت‌وآمد کند و جای زندگی خود را انتخاب کند. هر کس همچنان حق دارد از هر کشوری بیرون برود و به کشور خود برگردد."
+        },
+        {
+          "en": "Article 23 says everyone has the right to work, to choose their work freely, to fair conditions, and to equal pay for equal work. A woman who does the same work as a man should be paid the same.",
+          "fa": "ماده ۲۳ می‌گوید هر کس حق کار دارد؛ حق دارد کار خود را آزادانه انتخاب کند، در شرایط عادلانه کار کند و برای کار برابر، مزد برابر بگیرد. زنی که همان کار مرد را انجام می‌دهد، باید همان مزد را بگیرد."
+        },
+        {
+          "en": "Article 16 says marriage must happen only with the free and full consent of both people, and that women and men of full age have equal rights in marriage. CEDAW adds that the marriage of a child should have no legal effect. No girl should be married against her will.",
+          "fa": "ماده ۱۶ می‌گوید ازدواج تنها باید با رضایت آزاد و کامل هر دو طرف انجام شود، و زنان و مردانی که به سن قانونی رسیده‌اند، در ازدواج حقوق برابر دارند. کنوانسیون سیداو هم می‌گوید ازدواج طفل نباید اعتبار قانونی داشته باشد. هیچ دختری نباید برخلاف خواست خود شوهر داده شود."
+        },
+        {
+          "en": "These rights are not about turning away from your family. Many families want the best for their daughters. Knowing your rights can help you talk with them calmly about your future and ask for what you need.",
+          "fa": "این حقوق به معنای دوری از خانواده نیست. بسیاری از خانواده‌ها بهترین چیز را برای دختران خود می‌خواهند. دانستن حقوق به شما کمک می‌کند که با آرامی درباره آینده خود با آن‌ها گپ بزنید و آنچه را نیاز دارید، بخواهید."
+        },
+        {
+          "en": "If you are ever pressured into something you do not want, such as an early marriage, it is not your fault. Do not face it alone: find one adult you trust, such as your mother, an aunt, a grandmother or a teacher, and talk to her. A later lesson explains more about this.",
+          "fa": "اگر روزی شما را برای کاری که نمی‌خواهید، مثلاً ازدواج در سن کم، زیر فشار قرار دادند، تقصیر شما نیست. تنها با آن روبرو نشوید: یک شخص بزرگ و قابل اعتماد، مثل مادر، خاله، عمه، مادرکلان یا معلم خود را پیدا کنید و با او گپ بزنید. در یک درس بعدی در این باره بیشتر می‌خوانید."
+        }
+      ],
+      "reflect": {
+        "en": "What work would you like to do one day, and what could help you get there?",
+        "fa": "دوست دارید روزی چه کاری کنید، و چه چیز می‌تواند به شما کمک کند که به آن برسید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "What does Article 16 say about marriage?",
+            "fa": "ماده ۱۶ درباره ازدواج چه می‌گوید؟"
+          },
+          "options": [
+            {
+              "en": "The family alone decides",
+              "fa": "تنها خانواده تصمیم می‌گیرد"
+            },
+            {
+              "en": "It must be with the free and full consent of both people",
+              "fa": "باید با رضایت آزاد و کامل هر دو طرف باشد"
+            },
+            {
+              "en": "Girls should marry young",
+              "fa": "دختران باید در سن کم ازدواج کنند"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Article 16 says marriage must be entered into only with the free and full consent of both people.",
+            "fa": "ماده ۱۶ می‌گوید ازدواج تنها با رضایت آزاد و کامل هر دو طرف انجام شود."
+          }
+        },
+        {
+          "q": {
+            "en": "If someone pressures you into an early marriage, what is a good first step?",
+            "fa": "اگر کسی شما را برای ازدواج در سن کم زیر فشار بگذارد، یک قدم اول خوب چیست؟"
+          },
+          "options": [
+            {
+              "en": "Keep it secret and face it alone",
+              "fa": "آن را پنهان کنید و تنها با آن روبرو شوید"
+            },
+            {
+              "en": "Blame yourself",
+              "fa": "خود را ملامت کنید"
+            },
+            {
+              "en": "Talk to one adult you trust",
+              "fa": "با یک شخص بزرگ و قابل اعتماد گپ بزنید"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "It is not your fault, and a trusted adult can help so that you are not alone.",
+            "fa": "تقصیر شما نیست، و یک شخص قابل اعتماد می‌تواند کمک کند که تنها نمانید."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "UDHR, Article 13",
+        "UDHR, Article 23",
+        "UDHR, Article 16",
+        "CEDAW, Article 16(2): the betrothal and marriage of a child shall have no legal effect"
+      ]
+    }
+  ]
+}

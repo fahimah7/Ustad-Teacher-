@@ -1,0 +1,68 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 265,
+  "printed_page": 258,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مساحت مثلث از جنس دو ضلع و زاویه بین این دو ضلع",
+  "summary_fa": "بالای صفحه حل مثال ۱ صفحهٔ قبل است: با $\\sin 47.5^\\circ \\approx 0.7373$ مساحت تقریباً $7.74\\,\\text{cm}^2$ می‌شود. در مثال ۲ مثلثی با ضلع‌های 8cm و 13cm و زاویهٔ منفرجهٔ $130^\\circ$ بین آن‌ها داده شده و مساحت با $\\frac{1}{2}ab\\sin C$ حساب می‌شود؛ این نشان می‌دهد فورمول برای زاویهٔ بزرگ‌تر از $90^\\circ$ هم کار می‌کند. در مثال ۳ مثلث متساوی‌الساقین با دو ساق 8cm و زاویهٔ رأس $30^\\circ$ مساحت 16cm² دارد. بعد زیرعنوان «مساحت مثلث از روی سه ضلع آن (فورمول هیرون)» شروع می‌شود: هدف این است که sin نصف زاویه را فقط از روی طول ضلع‌ها بنویسیم. سه فورمول $\\sin\\frac{A}{2}$، $\\sin\\frac{B}{2}$، $\\sin\\frac{C}{2}$ با نصف محیط $p = \\frac{a+b+c}{2}$ داده شده و یادآوری می‌شود که $\\sin\\frac{A}{2} = \\sqrt{\\frac{1 - \\cos A}{2}}$.",
+  "key_points_fa": [
+    "فورمول $\\frac{1}{2}ab\\sin C$ برای زاویهٔ منفرجه هم درست است ($\\sin 130^\\circ = \\sin 50^\\circ \\approx 0.766$).",
+    "در مثلث متساوی‌الساقین با ساق‌های مساوی، مساحت = $\\frac{1}{2}(\\text{ساق})^2 \\sin(\\text{زاویهٔ رأس})$.",
+    "p نصف محیط مثلث است: $p = \\frac{a+b+c}{2}$.",
+    "sin نصف زاویه را می‌توان فقط با طول ضلع‌ها نوشت (ثبوت در صفحهٔ بعد).",
+    "علامه‌های مربع کوچک (□) میان فورمول‌ها اشتباه چاپی و به معنای «،» اند."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\frac{A}{2} = \\sqrt{\\frac{(p-b)(p-c)}{bc}},\\ \\sin\\frac{B}{2} = \\sqrt{\\frac{(p-a)(p-c)}{ac}},\\ \\sin\\frac{C}{2} = \\sqrt{\\frac{(p-a)(p-b)}{ab}}", "meaning_fa": "sin نصف هر زاویهٔ مثلث از روی ضلع‌ها"},
+    {"latex": "p = \\frac{a+b+c}{2}", "meaning_fa": "نصف محیط مثلث"},
+    {"latex": "\\sin\\frac{A}{2} = \\sqrt{\\frac{1 - \\cos A}{2}}", "meaning_fa": "فورمول نصف زاویه که قبلاً خوانده شده است"}
+  ],
+  "terms": [
+    {"fa": "نصف محیط", "en": "semi-perimeter"},
+    {"fa": "فورمول هیرون", "en": "Heron's formula"},
+    {"fa": "مثلث متساوی‌الساقین", "en": "isosceles triangle"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.28, 0.33, 0.70, 0.42], "kind": "diagram", "description_fa": "مثلث باریک ABC با رأس C در بالا؛ ضلع a = 8cm (CB) و b = 13cm (CA) و زاویهٔ $130^\\circ$ در رأس C مشخص شده‌اند؛ ضلع سوم c پایین است. شکل مثال ۲ است."},
+    {"id": "fig2", "bbox": [0.67, 0.47, 0.88, 0.61], "kind": "diagram", "description_fa": "مثلث متساوی‌الساقین ABC با رأس A در بالا، زاویهٔ $30^\\circ$ در A و دو ساق AB و AC هر کدام 8cm. شکل مثال ۳ است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (ادامهٔ حل)",
+      "problem_fa": "$a = 3.5\\,\\text{cm}$، $c = 6\\,\\text{cm}$، $B = 47.5^\\circ$؛ مساحت مثلث؟",
+      "steps_fa": [
+        "$A = \\frac{1}{2}ac\\sin B$ و $\\sin 47.5^\\circ \\approx 0.7373$",
+        "$A = \\frac{1}{2}(3.5)(6)(0.7373) \\approx 7.74\\,\\text{cm}^2$"
+      ],
+      "answer": "$\\approx 7.74\\,\\text{cm}^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مساحت مثلثی را دریابید که $a = 8\\,\\text{cm}$، $b = 13\\,\\text{cm}$ و زاویهٔ بین آن‌ها $C = 130^\\circ$ باشد.",
+      "steps_fa": [
+        "$\\sin 130^\\circ \\approx 0.7660$",
+        "$A = \\frac{1}{2}ab\\sin C = \\frac{1}{2}(8)(13)(0.7660) \\approx 39.83\\,\\text{cm}^2$"
+      ],
+      "answer": "$\\approx 39.83\\,\\text{cm}^2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "در مثلث متساوی‌الساقین ABC، $AB = AC = 8\\,\\text{cm}$ و $A = 30^\\circ$ است. مساحت را دریابید.",
+      "steps_fa": [
+        "$S = \\frac{1}{2} AB \\cdot AC \\sin 30^\\circ$",
+        "$S = \\frac{1}{2} \\cdot 8 \\cdot 8 \\cdot \\frac{1}{2} = 16\\,\\text{cm}^2$"
+      ],
+      "answer": "$16\\,\\text{cm}^2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "زیرعنوان «مساحت مثلث از روی سه ضلع آن (فورمول هیرون)» در پایین این صفحه شروع می‌شود؛ صفحه به درس قبلی نسبت داده شد چون بیشتر آن مثال‌های همان درس است."
+}

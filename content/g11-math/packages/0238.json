@@ -1,0 +1,70 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 238,
+  "printed_page": 229,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "معکوس ضربی متریکس‌های 2×2",
+  "summary_fa": "این صفحه درس معکوس ضربی متریکس‌های $2 \\times 2$ را آغاز می‌کند. همان‌طور که هر عدد حقیقی غیر صفر معکوس ضربی دارد (مثلاً $3 \\cdot \\frac{1}{3} = 1$)، بعضی متریکس‌های مربعی هم معکوس دارند. در فعالیت، دیترمینانت یک متریکس $2 \\times 2$ حساب می‌شود (۱ است) و این متریکس در متریکس دیگری ضرب می‌شود که حاصل آن متریکس واحد است. تعریف: اگر برای متریکس مربعی A یک متریکس مربعی B پیدا شود که $AB = BA = I_n$، آن‌گاه B معکوس ضربی A است و با $A^{-1}$ نشان داده می‌شود. متریکسی که دیترمینانت آن صفر باشد منفرد (singular) و متریکسی که دیترمینانت آن صفر نباشد غیر منفرد یا منظم نام دارد. پس متریکس فقط وقتی معکوس دارد که مربعی و غیر منفرد باشد. در مثال ۱ با ضرب در هر دو ترتیب نشان داده می‌شود که دو متریکس معکوس یکدیگرند.",
+  "key_points_fa": [
+    "B معکوس A است اگر $AB = BA = I$ (متریکس واحد).",
+    "معکوس A را با $A^{-1}$ نشان می‌دهند.",
+    "منفرد: $|A| = 0$ (معکوس ندارد)؛ غیر منفرد یا منظم: $|A| \\neq 0$.",
+    "دو شرط معکوس‌پذیری: متریکس مربعی باشد و دیترمینانت آن صفر نباشد.",
+    "برای امتحان معکوس، هر دو ضرب AB و BA را حساب کنید."
+  ],
+  "formulas": [
+    {"latex": "A A^{-1} = A^{-1} A = I_n", "meaning_fa": "تعریف معکوس ضربی متریکس"},
+    {"latex": "A^{-1} = \\frac{1}{|A|} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}", "meaning_fa": "فورمول معکوس متریکس $2 \\times 2$ $A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}$: جای a و d عوض، علامت b و c منفی، و تقسیم بر دیترمینانت"}
+  ],
+  "terms": [
+    {"fa": "معکوس ضربی متریکس", "en": "multiplicative inverse of a matrix"},
+    {"fa": "متریکس منفرد", "en": "singular matrix"},
+    {"fa": "متریکس غیر منفرد (منظم)", "en": "non-singular matrix"},
+    {"fa": "متریکس واحد", "en": "identity matrix"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.13, 0.14, 0.42, 0.22], "kind": "illustration", "description_fa": "فورمول $A^{-1} = \\frac{1}{|A|} \\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$ که در آن d و a با رنگ زرد برجسته شده‌اند تا نشان دهد عناصر قطر اصلی جابه‌جا می‌شوند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "نشان دهید $A = \\begin{pmatrix} -1 & 3 \\\\ 2 & -7 \\end{pmatrix}$ و $B = \\begin{pmatrix} -7 & -3 \\\\ -2 & -1 \\end{pmatrix}$ معکوس یکدیگرند.",
+      "steps_fa": [
+        "$A \\cdot B = \\begin{pmatrix} (-1)(-7) + 3(-2) & (-1)(-3) + 3(-1) \\\\ 2(-7) + (-7)(-2) & 2(-3) + (-7)(-1) \\end{pmatrix} = \\begin{pmatrix} 7-6 & 3-3 \\\\ -14+14 & -6+7 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
+        "$B \\cdot A = \\begin{pmatrix} 7-6 & -21+21 \\\\ 2-2 & -6+7 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
+        "چون $AB = BA = I$، A و B معکوس یکدیگرند."
+      ],
+      "answer": "$AB = BA = I$، پس $B = A^{-1}$.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "دیترمینانت $A = \\begin{pmatrix} 2 & 1 \\\\ 3 & 2 \\end{pmatrix}$ را محاسبه کنید.",
+      "solution_steps_fa": [
+        "$|A| = 2 \\cdot 2 - 3 \\cdot 1 = 4 - 3 = 1$"
+      ],
+      "answer": "$|A| = 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "متریکس $B = \\begin{pmatrix} 2 & -1 \\\\ -3 & 2 \\end{pmatrix}$ را با A ضرب کنید و نتیجه را بنویسید.",
+      "solution_steps_fa": [
+        "$AB = \\begin{pmatrix} 2 \\cdot 2 + 1(-3) & 2(-1) + 1 \\cdot 2 \\\\ 3 \\cdot 2 + 2(-3) & 3(-1) + 2 \\cdot 2 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$",
+        "$BA = \\begin{pmatrix} 2 \\cdot 2 + (-1) \\cdot 3 & 2 \\cdot 1 + (-1) \\cdot 2 \\\\ -3 \\cdot 2 + 2 \\cdot 3 & -3 \\cdot 1 + 2 \\cdot 2 \\end{pmatrix} = \\begin{pmatrix} 1 & 0 \\\\ 0 & 1 \\end{pmatrix}$"
+      ],
+      "answer": "$AB = BA = I$؛ پس B معکوس ضربی A است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در فعالیت ۲، B در کتاب با خط‌های عمودی (مانند دیترمینانت) چاپ شده ولی منظور متریکس است."
+}

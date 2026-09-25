@@ -1,0 +1,61 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 282,
+  "printed_page": 273,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "حاصل ضرب وکتوری دو وکتور",
+  "summary_fa": "این صفحه ثبوت قانون ساین را با وکتورها تمام می‌کند. از برابری $|\\vec{b}\\times\\vec{c}|=|\\vec{c}\\times\\vec{a}|$ و تعریف طول حاصل ضرب وکتوری ($|\\vec{u}||\\vec{v}|\\sin\\theta$) و اینکه $\\sin(\\pi-A)=\\sin A$، رابطهٔ $b\\sin A=a\\sin B$ یعنی $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$ به دست می‌آید. بعد همین کار با ضرب وکتوری دو طرف رابطهٔ (i) در $\\vec{b}$ تکرار می‌شود و $\\frac{a}{\\sin A}=\\frac{c}{\\sin C}$ حاصل می‌شود. از یکجا کردن این دو، قانون ساین کامل می‌شود. سپس کاربرد چهارم آغاز می‌شود: مساحت متوازی الاضلاع. اگر دو ضلع متوازی الاضلاع وکتورهای $\\vec{u}$ و $\\vec{v}$ با زاویهٔ $\\theta$ باشند، قاعده $|\\vec{v}|$ و ارتفاع $|\\vec{u}|\\sin\\theta$ است، پس مساحت برابر $|\\vec{u}||\\vec{v}|\\sin\\theta=|\\vec{u}\\times\\vec{v}|$ می‌شود.",
+  "key_points_fa": [
+    "زاویهٔ بین دو وکتور ضلع در یک رأس، زاویهٔ بیرونی مثلث است، مثلاً $\\pi-A$؛ و $\\sin(\\pi-A)=\\sin A$.",
+    "از $\\vec{b}\\times\\vec{c}=\\vec{c}\\times\\vec{a}$ نتیجه می‌شود $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$.",
+    "از $\\vec{c}\\times\\vec{b}=\\vec{b}\\times\\vec{a}$ نتیجه می‌شود $\\frac{a}{\\sin A}=\\frac{c}{\\sin C}$.",
+    "مساحت متوازی الاضلاع = قاعده × ارتفاع، و ارتفاع برابر $|\\vec{u}|\\sin\\theta$ است.",
+    "مساحت متوازی الاضلاعی که اضلاعش $\\vec{u}$ و $\\vec{v}$ باشند، برابر $|\\vec{u}\\times\\vec{v}|$ است."
+  ],
+  "formulas": [
+    {"latex": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}", "meaning_fa": "قانون ساین برای هر مثلث"},
+    {"latex": "h = |\\vec{u}|\\sin\\theta", "meaning_fa": "ارتفاع متوازی الاضلاع نسبت به قاعدهٔ $\\vec{v}$"},
+    {"latex": "S = |\\vec{u}|\\,|\\vec{v}|\\sin\\theta = |\\vec{u}\\times\\vec{v}|", "meaning_fa": "مساحت متوازی الاضلاع با کمک حاصل ضرب وکتوری"}
+  ],
+  "terms": [
+    {"fa": "قانون ساین", "en": "law of sines"},
+    {"fa": "متوازی الاضلاع", "en": "parallelogram"},
+    {"fa": "مساحت", "en": "area"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.74, 0.39, 0.87], "kind": "diagram", "description_fa": "متوازی الاضلاعی که دو ضلع مجاور آن وکتورهای $\\vec{u}$ (مایل، به طرف بالا) و $\\vec{v}$ (افقی) هستند و زاویهٔ $\\theta$ بین آن‌هاست؛ یک خط نقطه‌چین عمودی ارتفاع $h=|\\vec{u}|\\sin\\theta$ را نشان می‌دهد و قطر متوازی الاضلاع هم رسم شده است. نشان می‌دهد چرا مساحت برابر $|\\vec{v}|\\cdot|\\vec{u}|\\sin\\theta$ است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مسئلهٔ تطبیقاتی ۳ (ادامه): ثبوت قانون ساین",
+      "problem_fa": "ادامهٔ ثبوت $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$ از رابطهٔ $|\\vec{b}\\times\\vec{c}|=|\\vec{c}\\times\\vec{a}|$.",
+      "steps_fa": [
+        "طبق تعریف: $|\\vec{b}||\\vec{c}|\\sin(\\pi-A)=|\\vec{c}||\\vec{a}|\\sin(\\pi-B)$.",
+        "چون $\\sin(\\pi-A)=\\sin A$: $bc\\sin A=ca\\sin B$، پس $b\\sin A=a\\sin B$ و $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$ ... (ii).",
+        "دو طرف $\\vec{b}+\\vec{c}=-\\vec{a}$ را در $\\vec{b}$ ضرب وکتوری می‌کنیم: $\\vec{b}\\times\\vec{b}+\\vec{c}\\times\\vec{b}=-\\vec{a}\\times\\vec{b}=\\vec{b}\\times\\vec{a}$.",
+        "چون $\\vec{b}\\times\\vec{b}=\\vec{0}$: $\\vec{c}\\times\\vec{b}=\\vec{b}\\times\\vec{a}$، پس $cb\\sin A=ba\\sin C$، یعنی $c\\sin A=a\\sin C$ و $\\frac{a}{\\sin A}=\\frac{c}{\\sin C}$ ... (iii).",
+        "از (ii) و (iii): $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$."
+      ],
+      "answer": "$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "کاربرد ۴: مساحت یک متوازی الاضلاع",
+      "problem_fa": "مساحت متوازی الاضلاعی را که دو ضلع مجاور آن وکتورهای خلاف صفر $\\vec{u}$ و $\\vec{v}$ با زاویهٔ $\\theta$ هستند، با وکتورها بنویسید.",
+      "steps_fa": [
+        "مساحت = قاعده × ارتفاع.",
+        "قاعده $|\\vec{v}|$ و ارتفاع $h=|\\vec{u}|\\sin\\theta$ است.",
+        "پس مساحت $=|\\vec{u}||\\vec{v}|\\sin\\theta$ که همان طول حاصل ضرب وکتوری است: $|\\vec{u}\\times\\vec{v}|$."
+      ],
+      "answer": "مساحت متوازی الاضلاع $=|\\vec{u}\\times\\vec{v}|$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب هر دو رابطهٔ نتیجه را با شمارهٔ (ii) نشانی کرده است. در سطر $|\\vec{c}||\\vec{b}|\\sin A=|\\vec{b}||\\vec{a}|\\sin C$ باید $\\sin(\\pi-A)$ و $\\sin(\\pi-C)$ باشد که مساوی همان ساین‌ها هستند."
+}

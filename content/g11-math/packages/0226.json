@@ -1,0 +1,61 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 226,
+  "printed_page": 217,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "ضرب دو متریکس",
+  "summary_fa": "این صفحه درس ضرب دو متریکس را آغاز می‌کند. در سوال آغاز، دو متریکس $2 \\times 2$ داده شده و پرسیده می‌شود که حاصل ضرب آن‌ها چیست و آیا مانند جمع، ترتیب در ضرب هم مهم نیست. در تعریف گفته می‌شود که ضرب $A \\cdot B$ فقط وقتی ممکن است که تعداد ستون‌های A با تعداد سطرهای B برابر باشد؛ متریکس حاصل ضرب به تعداد سطرهای A سطر و به تعداد ستون‌های B ستون دارد. طریقهٔ کار: هر سطر متریکس اول را با هر ستون متریکس دوم جفت می‌کنیم، عناصر نظیر را ضرب و حاصل‌ها را جمع می‌کنیم؛ نتیجه عنصر همان سطر و همان ستون در متریکس حاصل ضرب است. در پایان مثال ۱ مطرح می‌شود (ضرب یک متریکس $2 \\times 3$ در یک متریکس ستونی $3 \\times 1$) که حل آن در صفحه بعد است.",
+  "key_points_fa": [
+    "شرط ضرب: تعداد ستون‌های متریکس اول = تعداد سطرهای متریکس دوم.",
+    "مرتبهٔ حاصل ضرب: $A_{m \\times n} \\cdot B_{n \\times p} = C_{m \\times p}$.",
+    "عنصر سطر i و ستون j حاصل ضرب = مجموع حاصل ضرب‌های عناصر سطر i متریکس اول در عناصر نظیر ستون j متریکس دوم.",
+    "ضرب متریکس‌ها عموماً تبدیلی نیست: معمولاً $A \\cdot B \\neq B \\cdot A$."
+  ],
+  "formulas": [
+    {"latex": "A_{m \\times n} \\cdot B_{n \\times p} = C_{m \\times p}", "meaning_fa": "شرط ضرب و مرتبهٔ متریکس حاصل ضرب"},
+    {"latex": "c_{ij} = \\sum_{k=1}^{n} a_{ik}\\, b_{kj}", "meaning_fa": "عنصر سطر i و ستون j متریکس حاصل ضرب: سطر i از A ضرب در ستون j از B"}
+  ],
+  "terms": [
+    {"fa": "ضرب دو متریکس", "en": "matrix multiplication"},
+    {"fa": "متریکس حاصل ضرب", "en": "product matrix"},
+    {"fa": "سطر", "en": "row"},
+    {"fa": "ستون", "en": "column"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.12, 0.14, 0.38, 0.23], "kind": "illustration", "description_fa": "دو متریکس $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ و $B = \\begin{pmatrix} -1 & 0 \\\\ 1 & 1 \\end{pmatrix}$ و سوال $A \\cdot B = ?$؛ مثال سادهٔ سوال آغاز درس."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (صورت مسئله)",
+      "problem_fa": "اگر $A = \\begin{pmatrix} 1 & 2 & 0 \\\\ -1 & 0 & 1 \\end{pmatrix}$ و $B = \\begin{pmatrix} 1 \\\\ 0 \\\\ -1 \\end{pmatrix}$ باشد، $A \\times B$ را دریافت کنید.",
+      "steps_fa": [
+        "A از مرتبهٔ $2 \\times 3$ و B از مرتبهٔ $3 \\times 1$ است؛ ۳ = ۳ پس ضرب ممکن است و جواب $2 \\times 1$ می‌شود.",
+        "سطر اول: $1 \\cdot 1 + 2 \\cdot 0 + 0 \\cdot (-1) = 1$",
+        "سطر دوم: $(-1) \\cdot 1 + 0 \\cdot 0 + 1 \\cdot (-1) = -2$"
+      ],
+      "answer": "$A \\times B = \\begin{pmatrix} 1 \\\\ -2 \\end{pmatrix}$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "برای $A = \\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$ و $B = \\begin{pmatrix} -1 & 0 \\\\ 1 & 1 \\end{pmatrix}$ حاصل $A \\cdot B$ چیست؟ آیا مانند جمع ($A + B = B + A$)، در ضرب هم ترتیب مهم نیست؟",
+      "solution_steps_fa": [
+        "سطر ۱ در ستون ۱: $1(-1) + 2(1) = 1$؛ سطر ۱ در ستون ۲: $1(0) + 2(1) = 2$",
+        "سطر ۲ در ستون ۱: $3(-1) + 4(1) = 1$؛ سطر ۲ در ستون ۲: $3(0) + 4(1) = 4$",
+        "پس $A \\cdot B = \\begin{pmatrix} 1 & 2 \\\\ 1 & 4 \\end{pmatrix}$",
+        "برعکس: $B \\cdot A = \\begin{pmatrix} -1 & -2 \\\\ 4 & 6 \\end{pmatrix}$ که با $A \\cdot B$ فرق دارد."
+      ],
+      "answer": "$A \\cdot B = \\begin{pmatrix} 1 & 2 \\\\ 1 & 4 \\end{pmatrix}$؛ و $A \\cdot B \\neq B \\cdot A$، پس در ضرب ترتیب مهم است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "فورمول کلی ضرب در کتاب به شکل $\\sum a_{ij} b_{ij}$ چاپ شده که دقیق نیست؛ در این یادداشت شکل درست $c_{ij} = \\sum_k a_{ik} b_{kj}$ آمده است. حل مثال ۱ در صفحه بعد است."
+}

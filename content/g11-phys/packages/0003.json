@@ -1,0 +1,24 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 3,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "صفحۀ عنوان کتاب. در بالای صفحه بسم الله الرحمن الرحیم و نشان وزارت معارف آمده است. در وسط، نام کتاب «فزیک» (به انگلیسی Physics) و «صنف یازدهم» نوشته شده و در پایین سال چاپ ۱۳۹۹ هـ. ش. دیده می‌شود. این صفحه درس ندارد.",
+  "key_points_fa": [
+    "کتاب فزیک صنف یازدهم، وزارت معارف، سال چاپ ۱۳۹۹ هـ. ش."
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "فزیک", "en": "physics"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارۀ صفحه با حرف «الف» چاپ شده است."
+}

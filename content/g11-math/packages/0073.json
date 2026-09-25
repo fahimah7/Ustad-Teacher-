@@ -1,0 +1,76 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 73,
+  "printed_page": 64,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "قانون تانجنت",
+  "summary_fa": "این صفحه حل مثال ۲ قانون تانجنت را تمام می‌کند و تمرین درس را می‌آورد. از رابطهٔ صفحه قبل، $\\tan\\frac{A-C}{2}$ برابر حاصل ضرب $\\frac{493}{1357}$ در $\\tan 68^\\circ 45'$ می‌شود؛ با قیمت جدول مثلثاتی نتیجه تقریباً ۰٫۹۳۳ است و نصف تفاضل زاویه‌ها تقریباً $43^\\circ$ به دست می‌آید. حالا مجموع و تفاضل A و C معلوم است؛ با جمع آن‌ها A و با تفریق C پیدا می‌شود. در آخر ضلع سوم b با قانون ساین و قیمت‌های ساین از جدول حساب می‌شود. در تمرین دو مثلث داده شده که در هر کدام دو زاویه و یک ضلع معلوم است و باید اجزای دیگر را با قانون تانجنت پیدا کرد.",
+  "key_points_fa": [
+    "راه حل: ۱) مجموع دو زاویه را از $180^\\circ$ پیدا کنید؛ ۲) با قانون تانجنت نصف تفاضل را پیدا کنید؛ ۳) با جمع و تفریق، هر زاویه را جدا کنید؛ ۴) ضلع سوم را با قانون ساین حساب کنید.",
+    "قیمت تانجنت و ساین زاویه‌ها از جدول مثلثاتی (یا ماشین حساب) گرفته می‌شود.",
+    "وقتی دو زاویه معلوم باشد، زاویهٔ سوم از $A + B + C = 180^\\circ$ به دست می‌آید و قانون تانجنت ضلع مجهول را می‌دهد.",
+    "از $\\frac{x + a}{x - a} = k$ ضلع مجهول چنین پیدا می‌شود: $x = a\\,\\frac{k + 1}{k - 1}$."
+  ],
+  "formulas": [
+    {"latex": "\\tan\\frac{A-C}{2} = \\frac{a - c}{a + c}\\,\\tan\\frac{A+C}{2}", "meaning_fa": "شکل حل‌شدهٔ قانون تانجنت برای پیدا کردن نصف تفاضل دو زاویه"},
+    {"latex": "\\frac{b}{\\sin B} = \\frac{c}{\\sin C} \\Rightarrow b = c\\,\\frac{\\sin B}{\\sin C}", "meaning_fa": "قانون ساین برای پیدا کردن ضلع سوم"}
+  ],
+  "terms": [
+    {"fa": "جدول مثلثاتی", "en": "trigonometric table"},
+    {"fa": "قانون ساین", "en": "law of sines"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲ (ادامه)",
+      "problem_fa": "در مثلث ABC: $a = 925\\,cm$، $c = 432\\,cm$، $B = 42^\\circ 30'$ و از صفحه قبل $A + C = 137^\\circ 30'$ و $\\frac{1357}{493} = \\frac{\\tan 68^\\circ 45'}{\\tan\\frac{A-C}{2}}$. A، C و b را دریافت کنید.",
+      "steps_fa": [
+        "$\\tan\\frac{A-C}{2} = \\frac{493}{1357}\\tan 68^\\circ 45' = 0.363 \\times 2.571 \\approx 0.933$",
+        "$\\frac{A-C}{2} \\approx 43^\\circ$ پس $A - C = 86^\\circ$",
+        "جمع با $A + C = 137^\\circ 30'$: $2A = 223^\\circ 30' = 222^\\circ 90'$ پس $A = 111^\\circ 45'$",
+        "$C = 137^\\circ 30' - 111^\\circ 45' = 25^\\circ 45'$",
+        "قانون ساین: $b = 432 \\cdot \\frac{\\sin 42^\\circ 30'}{\\sin 25^\\circ 45'} = 432 \\cdot \\frac{0.676}{0.434} \\approx 672.9\\,cm$"
+      ],
+      "answer": "$A \\approx 111^\\circ 45'$، $C \\approx 25^\\circ 45'$، $b \\approx 673\\,cm$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "در مثلث ABC: $C = 75^\\circ$، $B = 60^\\circ$ و $a = 35\\,ft$. اجزای نامعلوم را با قانون تانجنت دریافت کنید.",
+      "solution_steps_fa": [
+        "$A = 180^\\circ - 75^\\circ - 60^\\circ = 45^\\circ$",
+        "برای b: $\\frac{b + a}{b - a} = \\frac{\\tan\\frac{B+A}{2}}{\\tan\\frac{B-A}{2}} = \\frac{\\tan 52.5^\\circ}{\\tan 7.5^\\circ} = \\frac{1.3032}{0.1317} \\approx 9.899$",
+        "$b = 35 \\cdot \\frac{9.899 + 1}{9.899 - 1} = 35 \\cdot \\frac{10.899}{8.899} \\approx 42.87\\,ft$",
+        "برای c: $\\frac{c + a}{c - a} = \\frac{\\tan 60^\\circ}{\\tan 15^\\circ} = \\frac{1.7321}{0.2679} \\approx 6.464$",
+        "$c = 35 \\cdot \\frac{7.464}{5.464} \\approx 47.81\\,ft$",
+        "امتحان با قانون ساین: $b = 35\\frac{\\sin 60^\\circ}{\\sin 45^\\circ} \\approx 42.87$ و $c = 35\\frac{\\sin 75^\\circ}{\\sin 45^\\circ} \\approx 47.81$"
+      ],
+      "answer": "$A = 45^\\circ$، $b \\approx 42.87\\,ft$، $c \\approx 47.81\\,ft$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "در مثلث ABC: $B = 75^\\circ$، $b = 37\\,cm$ و $A = 45^\\circ$. اجزای نامعلوم را با قانون تانجنت دریافت کنید.",
+      "solution_steps_fa": [
+        "$C = 180^\\circ - 75^\\circ - 45^\\circ = 60^\\circ$",
+        "برای a: $\\frac{b + a}{b - a} = \\frac{\\tan\\frac{B+A}{2}}{\\tan\\frac{B-A}{2}} = \\frac{\\tan 60^\\circ}{\\tan 15^\\circ} \\approx 6.464$",
+        "$a = 37 \\cdot \\frac{6.464 - 1}{6.464 + 1} = 37 \\cdot \\frac{5.464}{7.464} \\approx 27.09\\,cm$",
+        "برای c: $\\frac{b + c}{b - c} = \\frac{\\tan 67.5^\\circ}{\\tan 7.5^\\circ} = \\frac{2.4142}{0.1317} \\approx 18.34$",
+        "$c = 37 \\cdot \\frac{18.34 - 1}{18.34 + 1} \\approx 33.17\\,cm$",
+        "امتحان با قانون ساین: $a = 37\\frac{\\sin 45^\\circ}{\\sin 75^\\circ} \\approx 27.09$ و $c = 37\\frac{\\sin 60^\\circ}{\\sin 75^\\circ} \\approx 33.17$"
+      ],
+      "answer": "$C = 60^\\circ$، $a \\approx 27.09\\,cm$، $c \\approx 33.17\\,cm$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب $b$ را با قیمت‌های گردشدهٔ جدول $672.885$ (به شکل 672·885) نوشته است؛ با قیمت‌های دقیق‌تر $b \\approx 673.07\\,cm$، $A \\approx 111^\\circ 48'$ و $C \\approx 25^\\circ 42'$ می‌شود. تفاوت فقط از گرد کردن است."
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 217,
+  "printed_page": 208,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "متریکس‌ها",
+  "summary_fa": "این صفحه درس «متریکس‌ها» را با یک مثال مساوی بودن و تمرین ختم می‌کند. در مثال، دو متریکس $2 \\times 2$ که یکی عناصر مجهول a و b دارد با هم مساوی گذاشته شده‌اند؛ چون عناصر متناظر باید مساوی باشند، $a = -1$ و $b = 2$ به دست می‌آید. بعد پرسیده می‌شود که آیا متریکس سطری $(2\\ \\ 1)$ با متریکس ستونی $\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ مساوی است. در تمرین، شاگرد مرتبهٔ دو متریکس را می‌نویسد و دو متریکس $3 \\times 3$ را از روی قاعدهٔ عناصرشان ($2i + 3j$ و $\\frac{i}{j}$) به شکل جدول مستطیلی می‌سازد.",
+  "key_points_fa": [
+    "از مساوی بودن دو متریکس، مساوی بودن عناصر متناظر نتیجه می‌شود و مجهول‌ها پیدا می‌شوند.",
+    "متریکس‌هایی با مرتبهٔ متفاوت هرگز مساوی نیستند، حتی اگر عددهای یکسان داشته باشند.",
+    "برای ساختن متریکس از قاعده، i شمارهٔ سطر و j شمارهٔ ستون است."
+  ],
+  "formulas": [
+    {"latex": "\\begin{pmatrix} a & 2 \\\\ b & 3 \\end{pmatrix} = \\begin{pmatrix} -1 & 2 \\\\ 2 & 3 \\end{pmatrix} \\Rightarrow a = -1,\\ b = 2", "meaning_fa": "مساوی گذاشتن عناصر متناظر"}
+  ],
+  "terms": [
+    {"fa": "متریکس‌های مساوی", "en": "equal matrices"},
+    {"fa": "عناصر متناظر", "en": "corresponding elements"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "$\\begin{pmatrix} a & 2 \\\\ b & 3 \\end{pmatrix} = \\begin{pmatrix} -1 & 2 \\\\ 2 & 3 \\end{pmatrix}$ کی مساوی‌اند؟",
+      "steps_fa": [
+        "هر دو $2 \\times 2$ اند؛ عناصر متناظر را مساوی می‌گذاریم.",
+        "$a = -1$ و $b = 2$؛ عناصر دیگر (2 و 3) خودشان مساوی‌اند."
+      ],
+      "answer": "$a = -1$ و $b = 2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال",
+      "kind": "question",
+      "problem_fa": "آیا $(2\\ \\ 1)$ و $\\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$ با هم مساوی‌اند؟ چرا؟",
+      "solution_steps_fa": [
+        "اولی یک سطر و دو ستون دارد ($1 \\times 2$)، دومی دو سطر و یک ستون ($2 \\times 1$).",
+        "مرتبه‌ها فرق دارند، پس عناصر متناظر هم وجود ندارند و متریکس‌ها مساوی نیستند."
+      ],
+      "answer": "خیر؛ مرتبهٔ آن‌ها ($1 \\times 2$ و $2 \\times 1$) یکی نیست.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "مرتبهٔ $A = \\begin{pmatrix} 1 & 2 & 4 \\\\ 2 & 5 & 6 \\\\ 3 & 6 & 0 \\end{pmatrix}$ و $B = \\begin{pmatrix} 1 & 3 & 2 \\\\ -1 & 0 & 4 \\end{pmatrix}$ را بنویسید.",
+      "solution_steps_fa": [
+        "A: ۳ سطر و ۳ ستون ← $3 \\times 3$",
+        "B: ۲ سطر و ۳ ستون ← $2 \\times 3$"
+      ],
+      "answer": "$A_{3 \\times 3}$ و $B_{2 \\times 3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (a)",
+      "kind": "exercise",
+      "problem_fa": "$(2i + 3j)_{3 \\times 3}$ را به شکل جدول مستطیلی بنویسید.",
+      "solution_steps_fa": [
+        "سطر اول (i = 1): $2 + 3 = 5$، $2 + 6 = 8$، $2 + 9 = 11$",
+        "سطر دوم (i = 2): $4 + 3 = 7$، $4 + 6 = 10$، $4 + 9 = 13$",
+        "سطر سوم (i = 3): $6 + 3 = 9$، $6 + 6 = 12$، $6 + 9 = 15$"
+      ],
+      "answer": "$\\begin{pmatrix} 5 & 8 & 11 \\\\ 7 & 10 & 13 \\\\ 9 & 12 & 15 \\end{pmatrix}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲ (b)",
+      "kind": "exercise",
+      "problem_fa": "$\\left(\\frac{i}{j}\\right)_{3 \\times 3}$ را به شکل جدول مستطیلی بنویسید.",
+      "solution_steps_fa": [
+        "سطر اول (i = 1): $\\frac{1}{1}, \\frac{1}{2}, \\frac{1}{3}$",
+        "سطر دوم (i = 2): $\\frac{2}{1} = 2, \\frac{2}{2} = 1, \\frac{2}{3}$",
+        "سطر سوم (i = 3): $3, \\frac{3}{2}, 1$"
+      ],
+      "answer": "$\\begin{pmatrix} 1 & \\frac{1}{2} & \\frac{1}{3} \\\\ 2 & 1 & \\frac{2}{3} \\\\ 3 & \\frac{3}{2} & 1 \\end{pmatrix}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

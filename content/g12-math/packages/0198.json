@@ -1,0 +1,94 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 198,
+  "printed_page": 191,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "انتیگرال‌های توابع لوگاریتمی",
+  "summary_fa": "این صفحه درس انتیگرال توابع لوگاریتمی را شروع می‌کند. سوال آغاز درس دربارهٔ صعودی یا نزولی بودن $y = a^x$ و یادآوری انتیگرال آن است. یک فعالیت سه سوالی انواع لوگاریتم، رابطهٔ $y = \\log_b x$ با $x = b^y$ و امکان انتیگرال گرفتن از لوگاریتم را می‌پرسد. نتیجهٔ اصلی دو قاعده است: انتیگرال $\\ln x$ برابر $x\\ln x - x + C$ و انتیگرال $\\log_a x$ برابر $x\\log_a\\frac{x}{e} + C$. ثبوت اول نشان می‌دهد که اگر در قاعدهٔ عمومی $a = e$ بگذاریم، با خاصیت $\\log\\frac{x}{e} = \\log x - \\log e$ و $\\ln e = 1$ قاعدهٔ $\\ln x$ به دست می‌آید. ثبوت دوم (با انتیگرال قسمی) در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "$y = a^x$ برای $a > 1$ صعودی و برای $0 < a < 1$ نزولی است.",
+    "$\\int \\ln x\\,dx = x\\ln x - x + C = x(\\ln x - 1) + C$",
+    "$\\int \\log_a x\\,dx = x\\log_a\\frac{x}{e} + C = x(\\log_a x - \\log_a e) + C$",
+    "امتحان: مشتق $x\\ln x - x$ برابر $\\ln x + 1 - 1 = \\ln x$ است."
+  ],
+  "formulas": [
+    {"latex": "\\int \\ln x\\,dx = x\\ln x - x + C \\quad (x > 0)", "meaning_fa": "انتیگرال لوگاریتم طبیعی"},
+    {"latex": "\\int \\log_a x\\,dx = x\\log_a\\frac{x}{e} + C \\quad (a > 0,\\ a \\neq 1)", "meaning_fa": "انتیگرال لوگاریتم با قاعدهٔ a"},
+    {"latex": "\\int a^x\\,dx = \\frac{a^x}{\\ln a} + C", "meaning_fa": "یادآوری انتیگرال اکسپوننشیل"}
+  ],
+  "terms": [
+    {"fa": "لوگاریتم اعشاری", "en": "common logarithm"},
+    {"fa": "لوگاریتم طبیعی", "en": "natural logarithm"},
+    {"fa": "صعودی", "en": "increasing"},
+    {"fa": "نزولی", "en": "decreasing"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت ۱",
+      "problem_fa": "از قاعدهٔ $\\int \\log_a x\\,dx = x\\log_a\\frac{x}{e} + C$ با $a = e$، انتیگرال $\\ln x$ را به دست آورید.",
+      "steps_fa": [
+        "با $a = e$: $\\int \\ln x\\,dx = x\\ln\\frac{x}{e} + C$",
+        "$\\ln\\frac{x}{e} = \\ln x - \\ln e = \\ln x - 1$",
+        "$\\int \\ln x\\,dx = x\\ln x - x + C = x(\\ln x - 1) + C$"
+      ],
+      "answer": "$\\int \\ln x\\,dx = x(\\ln x - 1) + C$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "نشان دهید $y = a^x$ در کدام حالت نزولی و در کدام حالت صعودی است. $\\int a^x\\,dx = ?$",
+      "solution_steps_fa": [
+        "$y' = a^x\\ln a$ و $a^x > 0$ است، پس علامت $y'$ مثل علامت $\\ln a$ است.",
+        "اگر $a > 1$: $\\ln a > 0$ و تابع صعودی است.",
+        "اگر $0 < a < 1$: $\\ln a < 0$ و تابع نزولی است.",
+        "$\\int a^x\\,dx = \\frac{a^x}{\\ln a} + C$"
+      ],
+      "answer": "صعودی برای $a > 1$، نزولی برای $0 < a < 1$؛ $\\int a^x\\,dx = \\frac{a^x}{\\ln a} + C$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت - سوال ۱",
+      "kind": "activity",
+      "problem_fa": "لوگاریتم چند نوع است؟ روابط عمومی آن را بنویسید.",
+      "solution_steps_fa": [
+        "لوگاریتم اعشاری با قاعدهٔ ۱۰ ($\\log x$) و لوگاریتم طبیعی با قاعدهٔ e ($\\ln x$)؛ به طور عموم هر قاعدهٔ $a > 0$، $a \\neq 1$ ممکن است.",
+        "روابط: $\\log_a(xy) = \\log_a x + \\log_a y$، $\\log_a\\frac{x}{y} = \\log_a x - \\log_a y$، $\\log_a x^n = n\\log_a x$",
+        "تبدیل قاعده: $\\log_a x = \\frac{\\ln x}{\\ln a}$"
+      ],
+      "answer": "دو نوع مشهور: اعشاری (قاعدهٔ ۱۰) و طبیعی (قاعدهٔ e)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت - سوال ۲",
+      "kind": "activity",
+      "problem_fa": "معادلات $x = b^y$ و $y = \\log_b x$ با یک‌دیگر چه رابطه‌ای دارند؟",
+      "solution_steps_fa": [
+        "با تعریف لوگاریتم، $y = \\log_b x$ دقیقاً یعنی $b^y = x$.",
+        "پس هر دو یک رابطه بین x و y را نشان می‌دهند؛ تابع $y = \\log_b x$ معکوس تابع $y = b^x$ است."
+      ],
+      "answer": "معادل اند (یکی شکل لوگاریتمی دیگری است).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت - سوال ۳",
+      "kind": "activity",
+      "problem_fa": "آیا می‌توانیم از توابع لوگاریتمی انتیگرال بگیریم؟",
+      "solution_steps_fa": [
+        "بلی؛ مثلاً با انتیگرال قسمی ($u = \\ln x$، $dv = dx$).",
+        "نتیجه: $\\int \\ln x\\,dx = x\\ln x - x + C$"
+      ],
+      "answer": "بلی، $\\int \\ln x\\,dx = x\\ln x - x + C$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب در بیان قاعدهٔ عمومی ثابت C را ننوشته است."
+}

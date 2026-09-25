@@ -1,0 +1,55 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 246,
+  "printed_page": 239,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی زاویهٔ $3\\alpha$ از جنس نسبت‌های مثلثاتی زاویهٔ $\\alpha$",
+  "summary_fa": "مثال ۴ این صفحه نشان می‌دهد که $4\\sin\\theta\\sin(60^\\circ-\\theta)\\sin(60^\\circ+\\theta) = \\sin 3\\theta$ است: هر دو ساین را با فورمول مجموع و تفاضل باز می‌کنیم، حاصل‌ضرب آن‌ها به شکل $a^2 - b^2$ درمی‌آید، و بعد از جای‌گزینی $\\cos^2\\theta = 1 - \\sin^2\\theta$ به $3\\sin\\theta - 4\\sin^3\\theta$ می‌رسیم. سپس زیرعنوان «نسبت‌های مثلثاتی $(\\alpha+\\beta+\\gamma)$» می‌آید: مجموع سه زاویه را به شکل $\\alpha + (\\beta+\\gamma)$ می‌نویسیم و دو بار فورمول مجموع دو زاویه را به کار می‌بریم تا فورمول‌های $\\sin$ و $\\cos$ مجموع سه زاویه به دست آیند (در کادرهای سرخ). اثبات فورمول $\\tan(\\alpha+\\beta+\\gamma)$ هم آغاز می‌شود و در صفحهٔ بعد تمام می‌گردد.",
+  "key_points_fa": [
+    "حاصل‌ضرب $(a-b)(a+b) = a^2 - b^2$ در ساده کردن $\\sin(60^\\circ-\\theta)\\sin(60^\\circ+\\theta)$ کمک می‌کند.",
+    "مجموع سه زاویه: $\\alpha+\\beta+\\gamma = \\alpha + (\\beta+\\gamma)$ و دو بار فورمول مجموع.",
+    "در $\\sin(\\alpha+\\beta+\\gamma)$ سه جمله با یک ساین مثبت‌اند و جملهٔ سه ساین منفی است.",
+    "در $\\cos(\\alpha+\\beta+\\gamma)$ جملهٔ سه کوساین مثبت است و سه جمله با دو ساین منفی‌اند."
+  ],
+  "formulas": [
+    {"latex": "4\\sin\\theta\\sin(60^\\circ-\\theta)\\sin(60^\\circ+\\theta) = \\sin 3\\theta", "meaning_fa": "اتحاد مثال ۴"},
+    {"latex": "\\sin(\\alpha+\\beta+\\gamma) = \\sin\\alpha\\cos\\beta\\cos\\gamma + \\cos\\alpha\\sin\\beta\\cos\\gamma + \\cos\\alpha\\cos\\beta\\sin\\gamma - \\sin\\alpha\\sin\\beta\\sin\\gamma", "meaning_fa": "ساین مجموع سه زاویه"},
+    {"latex": "\\cos(\\alpha+\\beta+\\gamma) = \\cos\\alpha\\cos\\beta\\cos\\gamma - \\cos\\alpha\\sin\\beta\\sin\\gamma - \\sin\\alpha\\cos\\beta\\sin\\gamma - \\sin\\alpha\\sin\\beta\\cos\\gamma", "meaning_fa": "کوساین مجموع سه زاویه"},
+    {"latex": "\\tan(\\alpha+\\beta+\\gamma) = \\frac{\\tan\\alpha + \\tan(\\beta+\\gamma)}{1 - \\tan\\alpha\\tan(\\beta+\\gamma)}", "meaning_fa": "قدم اول اثبات تانجانت مجموع سه زاویه"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "نشان دهید که $4\\sin\\theta\\sin(60^\\circ-\\theta)\\sin(60^\\circ+\\theta) = \\sin 3\\theta$.",
+      "steps_fa": [
+        "$\\sin(60^\\circ\\mp\\theta) = \\frac{\\sqrt{3}}{2}\\cos\\theta \\mp \\frac{1}{2}\\sin\\theta$",
+        "حاصل‌ضرب دو پرانتز: $\\frac{3}{4}\\cos^2\\theta - \\frac{1}{4}\\sin^2\\theta$",
+        "$4\\sin\\theta(\\frac{3}{4}\\cos^2\\theta - \\frac{1}{4}\\sin^2\\theta) = \\sin\\theta(3\\cos^2\\theta - \\sin^2\\theta)$",
+        "$= \\sin\\theta[3(1-\\sin^2\\theta) - \\sin^2\\theta] = 3\\sin\\theta - 4\\sin^3\\theta = \\sin 3\\theta$"
+      ],
+      "answer": "اتحاد ثابت شد.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "نسبت‌های مثلثاتی $(\\alpha+\\beta+\\gamma)$",
+      "problem_fa": "فورمول‌های $\\sin$ و $\\cos$ مجموع سه زاویه را به دست آورید.",
+      "steps_fa": [
+        "$\\sin[\\alpha + (\\beta+\\gamma)] = \\sin\\alpha\\cos(\\beta+\\gamma) + \\cos\\alpha\\sin(\\beta+\\gamma)$",
+        "$\\cos(\\beta+\\gamma)$ و $\\sin(\\beta+\\gamma)$ را باز می‌کنیم و ضرب می‌کنیم تا چهار جمله به دست آید.",
+        "به همین ترتیب $\\cos[\\alpha+(\\beta+\\gamma)] = \\cos\\alpha\\cos(\\beta+\\gamma) - \\sin\\alpha\\sin(\\beta+\\gamma)$ را باز می‌کنیم.",
+        "برای تانجانت، $\\tan(\\beta+\\gamma) = \\frac{\\tan\\beta+\\tan\\gamma}{1-\\tan\\beta\\tan\\gamma}$ را جای‌گزین می‌کنیم و کسر مرکب را ساده می‌کنیم (ادامه در صفحهٔ بعد)."
+      ],
+      "answer": "فورمول‌های بالا در بخش formulas.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در تصویر کتاب زاویهٔ سوم به شکل یک مربع خالی (□) چاپ شده که یک حرف یونانی (احتمالاً $\\gamma$) بوده و در چاپ از بین رفته است؛ در این یادداشت‌ها $\\gamma$ نوشته شده است."
+}

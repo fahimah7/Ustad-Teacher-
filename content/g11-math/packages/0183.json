@@ -1,0 +1,133 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 183,
+  "printed_page": 174,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "تبدیل قاعدهٔ لوگاریتم به قاعدهٔ دیگر",
+  "summary_fa": "زیر عنوان «رابطه بین لوگاریتم معمولی و طبیعی»، قانون تبدیل قاعده $\\log_b x = \\frac{\\log_a x}{\\log_a b}$ برای دو قاعدهٔ مهم ۱۰ و e به کار می‌رود. اگر a = e و b = 10 بگیریم، به دست می‌آید $\\ln x = \\ln 10 \\cdot \\log x \\approx 2.3026\\,\\log x$. اگر a = 10 و b = e بگیریم، به دست می‌آید $\\log x = \\log e \\cdot \\ln x \\approx 0.4343\\,\\ln x$. پس با داشتن لوگاریتم معمولی یک عدد، لوگاریتم طبیعی آن با ضرب در 2.3026 و برعکس با ضرب در 0.4343 پیدا می‌شود. دو مثال این کار را نشان می‌دهند: $\\ln 4.69 \\approx 1.5455$ و $\\log 6.73 \\approx 0.8280$. در آخر تمرینی برای ساده کردن چند لوگاریتم با قاعده‌های مختلف و چند لوگاریتم طبیعی آمده است.",
+  "key_points_fa": [
+    "لوگاریتم معمولی قاعدهٔ ۱۰ دارد و $\\log x$ نوشته می‌شود؛ لوگاریتم طبیعی قاعدهٔ e دارد و $\\ln x$ نوشته می‌شود.",
+    "$\\ln x \\approx 2.3026\\,\\log x$ (چون $\\ln 10 \\approx 2.3026$).",
+    "$\\log x \\approx 0.4343\\,\\ln x$ (چون $\\log e \\approx 0.4343$).",
+    "این دو عدد معکوس یکدیگرند: $2.3026 \\times 0.4343 \\approx 1$."
+  ],
+  "formulas": [
+    {"latex": "\\log_b x = \\frac{\\log_a x}{\\log_a b}", "meaning_fa": "قانون تبدیل قاعده (a و b مثبت و خلاف ۱)"},
+    {"latex": "\\ln x = \\ln 10 \\cdot \\log x \\approx 2.3026\\,\\log x", "meaning_fa": "تبدیل لوگاریتم معمولی به طبیعی"},
+    {"latex": "\\log x = \\log e \\cdot \\ln x \\approx 0.4343\\,\\ln x", "meaning_fa": "تبدیل لوگاریتم طبیعی به معمولی"}
+  ],
+  "terms": [
+    {"fa": "لوگاریتم معمولی", "en": "common logarithm"},
+    {"fa": "لوگاریتم طبیعی", "en": "natural logarithm"},
+    {"fa": "عدد e", "en": "Euler's number e"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال اول",
+      "problem_fa": "$\\ln 4.69$ را دریافت کنید.",
+      "steps_fa": [
+        "$\\ln x = 2.3026 \\cdot \\log x$",
+        "$\\log 4.69 = 0.6712$",
+        "$\\ln 4.69 = 2.3026 \\cdot 0.6712 \\approx 1.5455$"
+      ],
+      "answer": "$\\ln 4.69 \\approx 1.5455$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال دوم",
+      "problem_fa": "با دانستن $\\ln 6.73 = 1.9066$، قیمت $\\log 6.73$ را دریافت کنید.",
+      "steps_fa": [
+        "$\\log x = 0.4343 \\cdot \\ln x$",
+        "$\\log 6.73 = 0.4343 \\cdot 1.9066 \\approx 0.8280$"
+      ],
+      "answer": "$\\log 6.73 \\approx 0.8280$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین (a)",
+      "kind": "exercise",
+      "problem_fa": "$\\log_{\\frac13} 3^{-4}$",
+      "solution_steps_fa": [
+        "$3^{-4} = \\left(\\frac13\\right)^4$",
+        "پس $\\log_{\\frac13}\\left(\\frac13\\right)^4 = 4$"
+      ],
+      "answer": "$4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (b)",
+      "kind": "exercise",
+      "problem_fa": "$\\log_9 27$",
+      "solution_steps_fa": [
+        "$9 = 3^2$ و $27 = 3^3$",
+        "$\\log_{3^2}3^3 = \\frac32\\log_3 3 = \\frac32$"
+      ],
+      "answer": "$\\frac32$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (c)",
+      "kind": "exercise",
+      "problem_fa": "$\\log_8 4$",
+      "solution_steps_fa": [
+        "$8 = 2^3$ و $4 = 2^2$",
+        "$\\log_{2^3}2^2 = \\frac23\\log_2 2 = \\frac23$"
+      ],
+      "answer": "$\\frac23$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (d)",
+      "kind": "exercise",
+      "problem_fa": "$\\log_{121} 14641$",
+      "solution_steps_fa": [
+        "$121^2 = 14641$ (یعنی $14641 = 11^4$)",
+        "پس $\\log_{121}121^2 = 2$"
+      ],
+      "answer": "$2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (e)",
+      "kind": "exercise",
+      "problem_fa": "$\\ln 672000$",
+      "solution_steps_fa": [
+        "$\\log 672000 = \\log(6.72 \\cdot 10^5) \\approx 0.8274 + 5 = 5.8274$",
+        "$\\ln 672000 = 2.3026 \\cdot 5.8274 \\approx 13.418$"
+      ],
+      "answer": "$\\approx 13.418$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (f)",
+      "kind": "exercise",
+      "problem_fa": "$\\ln 0.00927$",
+      "solution_steps_fa": [
+        "$\\log 0.00927 = \\log(9.27 \\cdot 10^{-3}) \\approx 0.9671 - 3 = -2.0329$",
+        "$\\ln 0.00927 = 2.3026 \\cdot (-2.0329) \\approx -4.681$"
+      ],
+      "answer": "$\\approx -4.681$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین (g)",
+      "kind": "exercise",
+      "problem_fa": "$\\ln 0.235$",
+      "solution_steps_fa": [
+        "$\\log 0.235 = \\log(2.35 \\cdot 10^{-1}) \\approx 0.3711 - 1 = -0.6289$",
+        "$\\ln 0.235 = 2.3026 \\cdot (-0.6289) \\approx -1.448$"
+      ],
+      "answer": "$\\approx -1.448$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب در دو جا اشتباه چاپی دارد: «2,326» باید 2.3026 باشد و «6,4343» باید 0.4343 باشد. فرمول تبدیل قاعده در سطر اول هم ناقص چاپ شده است؛ شکل درست آن $\\log_b x = \\frac{\\log_a x}{\\log_a b}$ است. برای (e) تا (g) لوگاریتم معمولی از جدول یا ماشین حساب گرفته شده است."
+}

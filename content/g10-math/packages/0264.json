@@ -1,0 +1,70 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 264,
+  "printed_page": 257,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مساحت مثلث از جنس دو ضلع و زاویه بین این دو ضلع",
+  "summary_fa": "درس تازه با یک پرسش آغاز می‌شود: اگر دو ضلع مثلث 4cm و 8cm و زاویهٔ بین آن‌ها $30^\\circ$ باشد، آیا مساحت را می‌توان یافت؟ برای جواب، در مثلث ABC از رأس B ارتفاع BH را بر ضلع AC رسم می‌کنیم. در مثلث قایم‌الزاویهٔ ABH داریم $\\sin A = \\frac{h}{c}$، پس $h = c\\sin A$. مساحت مثلث نصف قاعده ضرب ارتفاع است، یعنی $\\frac{b \\cdot h}{2}$؛ با گذاشتن h نتیجه می‌شود $S = \\frac{1}{2}bc\\sin A$. یعنی مساحت برابر نصف حاصل‌ضرب دو ضلع ضرب sin زاویهٔ بین آن دو است. در فعالیت از شاگرد خواسته می‌شود با رسم ارتفاع از رأس‌های A و C دو شکل دیگر فورمول را هم نشان دهد. مثال ۱ (a = 3.5cm، c = 6cm، $B = 47.5^\\circ$) مطرح می‌شود و حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "مساحت مثلث = نصف حاصل‌ضرب دو ضلع × sin زاویهٔ بین آن دو ضلع.",
+    "ارتفاع از رأس B: $h = c\\sin A$.",
+    "سه شکل فورمول: $\\frac{1}{2}bc\\sin A$، $\\frac{1}{2}ac\\sin B$، $\\frac{1}{2}ab\\sin C$.",
+    "زاویه باید همان زاویهٔ بین دو ضلع داده شده باشد."
+  ],
+  "formulas": [
+    {"latex": "h = c\\sin A", "meaning_fa": "ارتفاع BH از روی ضلع c و زاویهٔ A"},
+    {"latex": "S_{ABC} = \\frac{b \\cdot h}{2} = \\frac{1}{2}bc\\sin A", "meaning_fa": "مساحت مثلث از دو ضلع b و c و زاویهٔ بین آن‌ها"},
+    {"latex": "S_{ABC} = \\frac{1}{2}ac\\sin B = \\frac{1}{2}ab\\sin C", "meaning_fa": "دو شکل دیگر همین فورمول"}
+  ],
+  "terms": [
+    {"fa": "ارتفاع", "en": "altitude (height)"},
+    {"fa": "قاعده", "en": "base"},
+    {"fa": "مساحت مثلث", "en": "area of a triangle"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "diagram", "description_fa": "مثلث ABC با رأس B در بالا؛ ضلع‌ها با a (BC)، b (AC) و c (AB) نام‌گذاری شده‌اند. خط سرخ h از B بر قاعدهٔ AC عمود است و پای آن H است. این شکل نشان می‌دهد که ارتفاع h با ضلع c و زاویهٔ A یک مثلث قایم‌الزاویه می‌سازد و از آن $h = c\\sin A$ به دست می‌آید."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مساحت مثلثی را دریابید که $a = 3.5\\,\\text{cm}$، $c = 6\\,\\text{cm}$ و زاویهٔ بین این دو ضلع $B = 47.5^\\circ$ باشد.",
+      "steps_fa": [
+        "حل در صفحهٔ بعد آمده است.",
+        "$S = \\frac{1}{2}ac\\sin B = \\frac{1}{2}(3.5)(6)\\sin 47.5^\\circ = 10.5 \\cdot 0.7373 \\approx 7.74\\,\\text{cm}^2$"
+      ],
+      "answer": "$\\approx 7.74\\,\\text{cm}^2$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغاز درس",
+      "kind": "question",
+      "problem_fa": "دو ضلع یک مثلث 4cm و 8cm و زاویهٔ بین آن‌ها $30^\\circ$ است. آیا مساحت مثلث را می‌توانید دریابید؟",
+      "solution_steps_fa": [
+        "بلی، با فورمول $S = \\frac{1}{2}ab\\sin C$.",
+        "$S = \\frac{1}{2} \\cdot 4 \\cdot 8 \\cdot \\sin 30^\\circ = 16 \\cdot \\frac{1}{2} = 8\\,\\text{cm}^2$"
+      ],
+      "answer": "بلی، $8\\,\\text{cm}^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "از رأس‌های A و C ارتفاع رسم کنید و نشان دهید که $S_{ABC} = \\frac{1}{2}ac\\sin B$ و $S_{ABC} = \\frac{1}{2}ab\\sin C$.",
+      "solution_steps_fa": [
+        "ارتفاع از A بر ضلع BC (به طول a) را $h_a$ بنامید. در مثلث قایم‌الزاویه‌ای که ضلع c وتر آن است: $h_a = c\\sin B$؛ پس $S = \\frac{1}{2}a \\cdot h_a = \\frac{1}{2}ac\\sin B$.",
+        "همین ارتفاع با ضلع b هم مثلث قایم‌الزاویه می‌سازد: $h_a = b\\sin C$؛ پس $S = \\frac{1}{2}ab\\sin C$.",
+        "(با ارتفاع از C بر ضلع AB هم $h_c = a\\sin B$ و $S = \\frac{1}{2}ac\\sin B$ به دست می‌آید.)"
+      ],
+      "answer": "$S_{ABC} = \\frac{1}{2}ac\\sin B = \\frac{1}{2}ab\\sin C$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "عنوان درس در کتاب «مساحت مثلث از جنس دوضلع و زاویه بین این دو ضلع» چاپ شده؛ شکل فهرست (با فاصله) به کار رفت."
+}

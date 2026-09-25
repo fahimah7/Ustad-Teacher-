@@ -1,0 +1,48 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-phys",
+  "pdf_page": 78,
+  "printed_page": 69,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "طول و فشار",
+  "summary_fa": "این صفحه فورمول‌های مودول شیر را تکمیل می‌کند. تنش شیر برابر قوهٔ مماسی F تقسیم بر مساحت سطحی از مکعب مستطیل است که قوه بر آن عمل می‌کند: $\\delta_s = \\frac{F}{A}$. کشش (strain) شیر برابر $\\varepsilon_s = \\frac{\\Delta L}{L_0}$ است؛ ΔL فاصله‌یی است که سطح بالایی نسبت به سطح پایینی لغزیده (جابه‌جا شده) و $L_0$ طول (ارتفاع) اولی مکعب مستطیل است. اگر تنش شیر را بر کشش شیر تقسیم کنیم، مودول شیر به دست می‌آید. با گذاشتن قیمت‌ها: $S = \\frac{F/A}{\\Delta L/L_0} = \\frac{F\\,L_0}{A\\,\\Delta L}$. واحد S مانند تنش $\\mathrm{N/m^2}$ (پاسکال) است، چون کشش شیر بی‌واحد است.",
+  "key_points_fa": [
+    "تنش شیر: $\\delta_s = \\frac{F}{A}$ (قوهٔ موازی سطح ÷ مساحت همان سطح).",
+    "کشش شیر: $\\varepsilon_s = \\frac{\\Delta L}{L_0}$ (جابه‌جایی سطح بالایی ÷ ارتفاع)؛ بی‌واحد.",
+    "مودول شیر: $S = \\frac{\\delta_s}{\\varepsilon_s} = \\frac{F\\,L_0}{A\\,\\Delta L}$",
+    "واحد S: $\\mathrm{N/m^2}$ یا پاسکال.",
+    "برای زاویه‌های کوچک، $\\frac{\\Delta L}{L_0}$ تقریباً برابر زاویهٔ کج شدن جسم (به رادیان) است."
+  ],
+  "formulas": [
+    {"latex": "\\delta_s = \\frac{F}{A}", "meaning_fa": "تنش شیر: قوهٔ مماسی تقسیم بر مساحت سطح"},
+    {"latex": "\\varepsilon_s = \\frac{\\Delta L}{L_0}", "meaning_fa": "کشش شیر: جابه‌جایی سطح تقسیم بر ارتفاع اولی"},
+    {"latex": "S = \\frac{\\delta_s}{\\varepsilon_s} = \\frac{F/A}{\\Delta L/L_0} = \\frac{F\\,L_0}{A\\,\\Delta L}", "meaning_fa": "مودول شیر؛ واحد $\\mathrm{N/m^2}$"}
+  ],
+  "terms": [
+    {"fa": "تنش شیر", "en": "shear stress"},
+    {"fa": "کشش شیر", "en": "shear strain"},
+    {"fa": "قوهٔ مماسی", "en": "tangential force"},
+    {"fa": "مودول شیر", "en": "shear modulus"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (مودول شیر)",
+      "problem_fa": "سطح بالایی یک بلاک رابری $10\\,\\mathrm{cm}\\times10\\,\\mathrm{cm}$ و ارتفاع آن $5\\,\\mathrm{cm}$ است. قوهٔ مماسی $200\\,\\mathrm{N}$ سطح بالایی را $0.5\\,\\mathrm{mm}$ جابه‌جا می‌کند. مودول شیر را پیدا کنید.",
+      "steps_fa": [
+        "$A = 0.1 \\times 0.1 = 0.01\\,\\mathrm{m^2}$، $L_0 = 0.05\\,\\mathrm{m}$، $\\Delta L = 5\\times10^{-4}\\,\\mathrm{m}$",
+        "تنش شیر: $\\delta_s = \\frac{200}{0.01} = 2\\times10^{4}\\,\\mathrm{N/m^2}$",
+        "کشش شیر: $\\varepsilon_s = \\frac{5\\times10^{-4}}{0.05} = 0.01$",
+        "$S = \\frac{2\\times10^{4}}{0.01} = 2\\times10^{6}\\,\\mathrm{N/m^2}$"
+      ],
+      "answer": "$S = 2\\times10^{6}\\,\\mathrm{N/m^2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "مثال عددی در کتاب نیست و برای تمرین فورمول اضافه شده است. کتاب واحد را برای «s» کوچک نوشته که همان S (مودول شیر) است."
+}

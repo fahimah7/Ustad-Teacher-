@@ -1,0 +1,72 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 270,
+  "printed_page": 263,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "شعاع دایرهٔ محیطی و محاطی یک مثلث",
+  "summary_fa": "این صفحه نتیجهٔ صفحهٔ قبل را برای هر سه ضلع می‌نویسد: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$؛ یعنی نسبت هر ضلع به sin زاویهٔ مقابلش همیشه برابر قطر دایرهٔ محیطی است. بعد با فورمول $R = \\frac{abc}{4S}$ و فورمول هیرون برای مساحت، شعاع دایرهٔ محیطی دو مثلث حساب می‌شود: مثلث 11، 12، 13 (R تقریباً 6.98cm) و مثلث 3، 5، 6 (R تقریباً 3cm). یک فعالیت هم شعاع دایرهٔ محیطی مثلث 18، 24، 30 را می‌خواهد. در آخر صفحه زیرعنوان «شعاع دایرهٔ محاطی یک مثلث» آغاز می‌شود: دایرهٔ محاطی داخل مثلث است و با هر سه ضلع مماس است؛ مرکز آن نقطهٔ تقاطع سه ناصف‌الزاویهٔ مثلث است. برای یافتن شعاع آن، مثلث ABC به سه مثلث OBC، OCA و OAB تقسیم می‌شود و مساحت آن مجموع مساحت این سه است.",
+  "key_points_fa": [
+    "$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$.",
+    "برای R از روی سه ضلع: اول S را با فورمول هیرون پیدا کنید، بعد $R = \\frac{abc}{4S}$.",
+    "دایرهٔ محاطی داخل مثلث است و با هر سه ضلع مماس است.",
+    "مرکز دایرهٔ محاطی = نقطهٔ تقاطع ناصف‌الزاویه‌ها.",
+    "$S_{ABC} = S_{OBC} + S_{OCA} + S_{OAB}$ (O مرکز دایرهٔ محاطی)."
+  ],
+  "formulas": [
+    {"latex": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R", "meaning_fa": "رابطهٔ ضلع‌ها، sin زاویه‌های مقابل و قطر دایرهٔ محیطی"},
+    {"latex": "R = \\frac{a}{2\\sin A} = \\frac{b}{2\\sin B} = \\frac{c}{2\\sin C}", "meaning_fa": "شعاع دایرهٔ محیطی"},
+    {"latex": "R = \\frac{abc}{4\\sqrt{p(p-a)(p-b)(p-c)}}", "meaning_fa": "شعاع دایرهٔ محیطی فقط از روی سه ضلع"},
+    {"latex": "S_{ABC} = S_{OBC} + S_{OCA} + S_{OAB}", "meaning_fa": "تقسیم مثلث به سه مثلث با رأس مشترک O (مرکز دایرهٔ محاطی)"}
+  ],
+  "terms": [
+    {"fa": "دایرهٔ محیطی", "en": "circumcircle"},
+    {"fa": "دایرهٔ محاطی", "en": "inscribed circle (incircle)"},
+    {"fa": "ناصف‌الزاویه", "en": "angle bisector"},
+    {"fa": "مماس", "en": "tangent"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "شعاع دایرهٔ محیطی مثلث ABC را دریابید که $a = 11\\,\\text{cm}$، $b = 12\\,\\text{cm}$ و $c = 13\\,\\text{cm}$ باشد.",
+      "steps_fa": [
+        "$p = \\frac{11+12+13}{2} = 18\\,\\text{cm}$",
+        "$S = \\sqrt{18 \\cdot 7 \\cdot 6 \\cdot 5} = \\sqrt{3780} \\approx 61.48\\,\\text{cm}^2$",
+        "$R = \\frac{abc}{4S} = \\frac{11 \\cdot 12 \\cdot 13}{4\\sqrt{3780}} = \\frac{1716}{245.93} \\approx 6.98\\,\\text{cm}$"
+      ],
+      "answer": "$R \\approx 6.98\\,\\text{cm}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "شعاع دایرهٔ محیطی مثلثی را دریابید که $a = 3\\,\\text{cm}$، $b = 5\\,\\text{cm}$ و $c = 6\\,\\text{cm}$ باشد.",
+      "steps_fa": [
+        "$p = \\frac{3+5+6}{2} = 7$",
+        "$S = \\sqrt{7 \\cdot 4 \\cdot 2 \\cdot 1} = \\sqrt{56} \\approx 7.48\\,\\text{cm}^2$",
+        "$R = \\frac{3 \\cdot 5 \\cdot 6}{4\\sqrt{56}} = \\frac{90}{4\\sqrt{56}} = \\frac{45}{2\\sqrt{56}} \\approx 3\\,\\text{cm}$"
+      ],
+      "answer": "$R \\approx 3\\,\\text{cm}$ (دقیق‌تر 3.01cm)",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "شعاع دایرهٔ محیطی مثلثی را دریابید که ضلع‌های آن 18cm، 24cm و 30cm باشد.",
+      "solution_steps_fa": [
+        "$p = 36$ و از مثال ۵ فورمول هیرون: $S = 216\\,\\text{cm}^2$",
+        "$R = \\frac{abc}{4S} = \\frac{18 \\cdot 24 \\cdot 30}{4 \\cdot 216} = \\frac{12960}{864} = 15\\,\\text{cm}$",
+        "کنترول: مثلث قایم‌الزاویه است ($18^2 + 24^2 = 30^2$) و در مثلث قایم‌الزاویه R نصف وتر است: $\\frac{30}{2} = 15$."
+      ],
+      "answer": "$R = 15\\,\\text{cm}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "زیرعنوان «شعاع دایرهٔ محاطی یک مثلث» در پایین این صفحه شروع می‌شود و در صفحهٔ بعد ادامه دارد."
+}

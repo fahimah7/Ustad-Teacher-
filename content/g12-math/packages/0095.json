@@ -1,0 +1,76 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 95,
+  "printed_page": 88,
+  "page_kind": "exercises",
+  "chapter": 3,
+  "section_fa": "I- تحولات یک تابع",
+  "summary_fa": "سطر اول صفحه نتیجهٔ مثال ۴ را تمام می‌کند: گراف $y = x^2$ در $(-\\infty, 0)$ متناقص و در $(0, +\\infty)$ متزاید است. بعد چهار تمرین در بارهٔ تحولات توابع آمده است: دو تابع خطی و دو تابع درجهٔ دوم. برای تابع خطی علامهٔ ضریب x (میل خط) نوع تحول را معلوم می‌کند. برای تابع درجهٔ دوم، مشتق یک تابع خطی است؛ آن را صفر می‌گذاریم و می‌بینیم در کدام طرف ریشه مثبت است.",
+  "key_points_fa": [
+    "$y = ax + b \\Rightarrow y' = a$: اگر $a > 0$ متزاید، اگر $a < 0$ متناقص، اگر $a = 0$ ثابت.",
+    "برای $y = ax^2 + bx + c$ با $a > 0$: تابع در $x > -\\frac{b}{2a}$ متزاید و در $x < -\\frac{b}{2a}$ متناقص است.",
+    "نقطهٔ $x = -\\frac{b}{2a}$ همان جایی است که مشتق صفر می‌شود (رأس پارابول)."
+  ],
+  "formulas": [
+    {"latex": "(ax^2 + bx + c)' = 2ax + b = 0 \\Rightarrow x = -\\frac{b}{2a}", "meaning_fa": "نقطه‌ای که در آن تحول پارابول تغییر می‌کند"}
+  ],
+  "terms": [
+    {"fa": "انتروال تزاید", "en": "interval of increase"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "تحولات تابع $y = ax + b$ را نشان دهید.",
+      "solution_steps_fa": [
+        "$y' = a$ (یک عدد ثابت)",
+        "اگر $a > 0$: $y' > 0$ و تابع در همه جا متزاید است.",
+        "اگر $a < 0$: $y' < 0$ و تابع در همه جا متناقص است.",
+        "اگر $a = 0$: $y = b$ تابع ثابت است."
+      ],
+      "answer": "نوع تحول با علامهٔ a تعیین می‌شود.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "تحولات تابع $y = -\\frac{3}{4}x - 1$ را نشان دهید.",
+      "solution_steps_fa": [
+        "$y' = -\\frac{3}{4} < 0$",
+        "مشتق برای همهٔ x منفی است."
+      ],
+      "answer": "تابع در $(-\\infty, +\\infty)$ متناقص است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید که $f(x) = 2x^2 + 3x + 1$ در کدام انتروال متزاید است.",
+      "solution_steps_fa": [
+        "$f'(x) = 4x + 3$",
+        "$4x + 3 > 0 \\Rightarrow x > -\\frac{3}{4}$",
+        "برای $x < -\\frac{3}{4}$ مشتق منفی است."
+      ],
+      "answer": "متزاید در $(-\\frac{3}{4}, +\\infty)$ و متناقص در $(-\\infty, -\\frac{3}{4})$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "انتروال تزاید $y = x^2 + 3x + 2$ را تعیین کنید.",
+      "solution_steps_fa": [
+        "$y' = 2x + 3$",
+        "$2x + 3 > 0 \\Rightarrow x > -\\frac{3}{2}$"
+      ],
+      "answer": "انتروال تزاید $(-\\frac{3}{2}, +\\infty)$ است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

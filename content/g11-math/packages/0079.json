@@ -1,0 +1,125 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 79,
+  "printed_page": 70,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مطابقت‌های مثلثاتی",
+  "summary_fa": "این صفحه ثبوت مثال ۹ را تمام می‌کند، مثال ۱۰ را حل می‌کند و تمرین درس مطابقت‌ها را می‌آورد. در مثال ۹ طرف $\\frac{1 - \\cos x}{2}$ در کسر $\\frac{\\tan x}{\\tan x}$ (که برابر ۱ است) ضرب می‌شود و چون حاصل ضرب تانجنت در کوساین همان ساین است، طرف دیگر به دست می‌آید. در مثال ۱۰ دو کسر با مخرج مشترک جمع می‌شوند، مربع $(1 + \\sin x)$ انکشاف داده می‌شود، $\\sin^2 x + \\cos^2 x$ به ۱ تبدیل می‌شود و بعد از حذف فکتور $(1 + \\sin x)$، جواب $2\\sec x$ است. تمرین سه بخش دارد: نوشتن شکل معادل چند افاده، نوشتن دو افاده به کمک $\\sin\\beta$، و ثبوت چهار مطابقت که دو تای آن فورمول‌های زاویهٔ دوچند را لازم دارند.",
+  "key_points_fa": [
+    "ضرب در کسری مثل $\\frac{\\tan x}{\\tan x}$ قیمت را تغییر نمی‌دهد ولی شکل را به طرف مطلوب نزدیک می‌کند.",
+    "$\\tan x\\cos x = \\sin x$",
+    "$(1 + \\sin x)^2 + \\cos^2 x = 2 + 2\\sin x = 2(1 + \\sin x)$",
+    "فورمول‌های زاویهٔ دوچند: $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha$ و $\\cos 2\\alpha = \\cos^2\\alpha - \\sin^2\\alpha = 2\\cos^2\\alpha - 1$."
+  ],
+  "formulas": [
+    {"latex": "\\sin^2\\frac{x}{2} = \\frac{\\tan x - \\sin x}{2\\tan x}", "meaning_fa": "مطابقت مثال ۹"},
+    {"latex": "\\frac{1 + \\sin x}{\\cos x} + \\frac{\\cos x}{1 + \\sin x} = 2\\sec x", "meaning_fa": "مطابقت مثال ۱۰"},
+    {"latex": "\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha,\\quad \\cos 2\\alpha = 2\\cos^2\\alpha - 1", "meaning_fa": "فورمول‌های زاویهٔ دوچند که در تمرین ۳ لازم است"}
+  ],
+  "terms": [
+    {"fa": "زاویهٔ دوچند", "en": "double angle"},
+    {"fa": "افادهٔ معادل", "en": "equivalent expression"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۹ (ادامه)",
+      "problem_fa": "ثبوت کنید: $\\sin^2\\frac{x}{2} = \\frac{\\tan x - \\sin x}{2\\tan x}$ (از صفحه قبل: $\\sin^2\\frac{x}{2} = \\frac{1 - \\cos x}{2}$).",
+      "steps_fa": [
+        "کافی است ثبوت کنیم $\\frac{1 - \\cos x}{2} = \\frac{\\tan x - \\sin x}{2\\tan x}$.",
+        "طرف چپ را در $\\frac{\\tan x}{\\tan x}$ ضرب می‌کنیم: $\\frac{\\tan x - \\tan x\\cos x}{2\\tan x}$",
+        "$\\tan x\\cos x = \\frac{\\sin x}{\\cos x}\\cos x = \\sin x$، پس $= \\frac{\\tan x - \\sin x}{2\\tan x}$"
+      ],
+      "answer": "مطابقت ثابت شد.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱۰",
+      "problem_fa": "ثبوت کنید: $\\frac{1 + \\sin x}{\\cos x} + \\frac{\\cos x}{1 + \\sin x} = 2\\sec x$",
+      "steps_fa": [
+        "مخرج مشترک: $\\frac{(1 + \\sin x)^2 + \\cos^2 x}{\\cos x(1 + \\sin x)} = \\frac{1 + 2\\sin x + \\sin^2 x + \\cos^2 x}{\\cos x(1 + \\sin x)}$",
+        "$\\sin^2 x + \\cos^2 x = 1$، پس صورت $= 2 + 2\\sin x = 2(1 + \\sin x)$",
+        "$\\frac{2(1 + \\sin x)}{\\cos x(1 + \\sin x)} = \\frac{2}{\\cos x} = 2\\sec x$"
+      ],
+      "answer": "$2\\sec x$؛ مطابقت ثابت شد.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "با روابط اساسی، شکل معادل هر افاده را بنویسید: a) $\\frac{\\sin 250^\\circ}{\\cos 250^\\circ}$، b) $\\sqrt{\\sec^2\\beta - 1}$، c) $\\frac{1}{\\cos 80^\\circ}$",
+      "solution_steps_fa": [
+        "a) $\\frac{\\sin\\alpha}{\\cos\\alpha} = \\tan\\alpha$، پس $= \\tan 250^\\circ$؛ و چون دورهٔ تانجنت $180^\\circ$ است، $= \\tan 70^\\circ \\approx 2.747$.",
+        "b) از $1 + \\tan^2\\beta = \\sec^2\\beta$: $\\sec^2\\beta - 1 = \\tan^2\\beta$، پس $\\sqrt{\\tan^2\\beta} = |\\tan\\beta|$.",
+        "c) $\\frac{1}{\\cos\\alpha} = \\sec\\alpha$، پس $= \\sec 80^\\circ$ (که برابر $\\csc 10^\\circ$ هم است)."
+      ],
+      "answer": "a) $\\tan 250^\\circ = \\tan 70^\\circ$  b) $|\\tan\\beta|$  c) $\\sec 80^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "افاده‌های زیر را به کمک $\\sin\\beta$ بنویسید: a) $\\cot\\beta\\cos\\beta$، b) $\\cot^2\\beta$",
+      "solution_steps_fa": [
+        "a) $\\cot\\beta\\cos\\beta = \\frac{\\cos\\beta}{\\sin\\beta}\\cdot\\cos\\beta = \\frac{\\cos^2\\beta}{\\sin\\beta} = \\frac{1 - \\sin^2\\beta}{\\sin\\beta}$",
+        "b) $\\cot^2\\beta = \\frac{\\cos^2\\beta}{\\sin^2\\beta} = \\frac{1 - \\sin^2\\beta}{\\sin^2\\beta} = \\frac{1}{\\sin^2\\beta} - 1$"
+      ],
+      "answer": "a) $\\frac{1 - \\sin^2\\beta}{\\sin\\beta}$  b) $\\frac{1 - \\sin^2\\beta}{\\sin^2\\beta}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳ a",
+      "kind": "exercise",
+      "problem_fa": "ثبوت کنید: $\\frac{\\csc\\alpha}{\\cot\\alpha + \\tan\\alpha} = \\cos\\alpha$",
+      "solution_steps_fa": [
+        "$\\cot\\alpha + \\tan\\alpha = \\frac{1}{\\sin\\alpha\\cos\\alpha}$ (مانند مثال ۷)",
+        "$\\frac{1/\\sin\\alpha}{1/(\\sin\\alpha\\cos\\alpha)} = \\frac{\\sin\\alpha\\cos\\alpha}{\\sin\\alpha} = \\cos\\alpha$"
+      ],
+      "answer": "مطابقت ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳ b",
+      "kind": "exercise",
+      "problem_fa": "ثبوت کنید: $\\frac{\\tan x - \\cot x}{\\tan x + \\cot x} = 1 - 2\\cos^2 x$",
+      "solution_steps_fa": [
+        "صورت و مخرج را در $\\sin x\\cos x$ ضرب می‌کنیم: $\\frac{\\sin^2 x - \\cos^2 x}{\\sin^2 x + \\cos^2 x} = \\sin^2 x - \\cos^2 x$",
+        "$\\sin^2 x = 1 - \\cos^2 x$، پس $= 1 - \\cos^2 x - \\cos^2 x = 1 - 2\\cos^2 x$"
+      ],
+      "answer": "مطابقت ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳ c",
+      "kind": "exercise",
+      "problem_fa": "ثبوت کنید: $\\frac{\\sin\\alpha + \\sin 2\\alpha}{1 + \\cos\\alpha + \\cos 2\\alpha} = \\tan\\alpha$",
+      "solution_steps_fa": [
+        "صورت: $\\sin\\alpha + 2\\sin\\alpha\\cos\\alpha = \\sin\\alpha(1 + 2\\cos\\alpha)$",
+        "مخرج: $1 + \\cos 2\\alpha = 2\\cos^2\\alpha$، پس مخرج $= \\cos\\alpha + 2\\cos^2\\alpha = \\cos\\alpha(1 + 2\\cos\\alpha)$",
+        "با حذف $(1 + 2\\cos\\alpha)$: $\\frac{\\sin\\alpha}{\\cos\\alpha} = \\tan\\alpha$"
+      ],
+      "answer": "مطابقت ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳ d",
+      "kind": "exercise",
+      "problem_fa": "ثبوت کنید: $\\frac{1 - \\tan^2 x}{1 + \\tan^2 x} = \\cos 2x$",
+      "solution_steps_fa": [
+        "مخرج: $1 + \\tan^2 x = \\sec^2 x = \\frac{1}{\\cos^2 x}$",
+        "$\\frac{1 - \\tan^2 x}{1/\\cos^2 x} = \\cos^2 x - \\tan^2 x\\cos^2 x = \\cos^2 x - \\sin^2 x$",
+        "$\\cos^2 x - \\sin^2 x = \\cos 2x$"
+      ],
+      "answer": "مطابقت ثابت شد.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در تمرین ۱، «رابطهٔ معادل» به معنای نوشتن هر افاده با یک نسبت مثلثاتی دیگر فهمیده شده است."
+}

@@ -1,0 +1,64 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 62,
+  "printed_page": 53,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "قانون ساین",
+  "summary_fa": "در این بخش ثبوت قانون ساین در مثلث منفرجه‌الزاویه تمام می‌شود. از رابطهٔ $\\frac{\\sin C}{\\sin B} = \\frac{c}{b}$ با عوض کردن جای وسطین تناسب، رابطهٔ I یعنی $\\frac{\\sin C}{c} = \\frac{\\sin B}{b}$ به دست می‌آید. بعد با ارتفاع CE، از دو مثلث قایم‌الزاویهٔ AEC و BCE دو قیمت برای $\\sin A$ و $\\sin B$ نوشته می‌شود و با تقسیم آن‌ها رابطهٔ II یعنی $\\frac{\\sin A}{a} = \\frac{\\sin B}{b}$ حاصل می‌شود. از یک‌جا کردن I و II قانون ساین برای مثلث منفرجه هم ثابت می‌شود. سپس یک فعالیت می‌خواهد قانون ساین در مثلث قایم‌الزاویه هم ثبوت شود. در آخر، مثال ۱ شروع می‌شود: در یک مثلث قایم‌الزاویه با دانستن دو ضلع و یک زاویه، زاویهٔ C با قانون ساین پیدا می‌شود.",
+  "key_points_fa": [
+    "در تناسب $\\frac{p}{q} = \\frac{r}{s}$ می‌توان جای وسطین (q و r) را عوض کرد: $\\frac{p}{r} = \\frac{q}{s}$.",
+    "قانون ساین برای هر نوع مثلث (حادالزاویه، منفرجه‌الزاویه و قایم‌الزاویه) درست است.",
+    "در مثلث قایم‌الزاویه چون $\\sin 90^\\circ = 1$ است، قانون ساین همان تعریف ساین در مثلث قایم‌الزاویه را می‌دهد.",
+    "اگر در حل مسأله $\\sin C = 1$ به دست آید، زاویهٔ C قایمه ($90^\\circ$) است."
+  ],
+  "formulas": [
+    {"latex": "\\frac{\\sin C}{c} = \\frac{\\sin B}{b} \\quad (I)", "meaning_fa": "رابطهٔ اول در مثلث منفرجه"},
+    {"latex": "\\sin A = \\frac{\\overline{CE}}{b},\\quad \\sin B = \\frac{\\overline{CE}}{a}", "meaning_fa": "ساین زاویه‌های A و B از روی ارتفاع CE"},
+    {"latex": "\\frac{\\sin A}{a} = \\frac{\\sin B}{b} \\quad (II)", "meaning_fa": "رابطهٔ دوم در مثلث منفرجه"},
+    {"latex": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}", "meaning_fa": "قانون ساین برای هر مثلث"}
+  ],
+  "terms": [
+    {"fa": "قانون ساین", "en": "law of sines"},
+    {"fa": "وسطین تناسب", "en": "means of a proportion"},
+    {"fa": "مثلث قایم‌الزاویه", "en": "right triangle"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.14, 0.53, 0.41, 0.66], "kind": "diagram", "description_fa": "مثلث قایم‌الزاویهٔ مثال ۱: زاویهٔ قایمه در رأس C (پایین چپ)، رأس B بالای آن با زاویهٔ $60^\\circ$، رأس A در پایین راست. ضلع افقی CA برابر $b = 9$، وتر AB برابر $c = 6\\sqrt{3}$، و ضلع عمودی BC همان a (نامعلوم) است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "در مثلث قایم‌الزاویهٔ شکل، $B = 60^\\circ$، $b = 9$ و $c = 6\\sqrt{3}$ است. یک ضلع و دو زاویهٔ نامعلوم را دریافت کنید.",
+      "steps_fa": [
+        "از قانون ساین: $\\frac{c}{\\sin C} = \\frac{b}{\\sin B}$",
+        "$\\frac{6\\sqrt{3}}{\\sin C} = \\frac{9}{\\sin 60^\\circ} \\Rightarrow \\sin C = \\frac{6\\sqrt{3}\\cdot \\frac{\\sqrt{3}}{2}}{9} = \\frac{9}{9} = 1$",
+        "چون $\\sin 90^\\circ = 1$ است، $C = 90^\\circ$.",
+        "(ادامه در صفحه بعد:) $A = 180^\\circ - (60^\\circ + 90^\\circ) = 30^\\circ$ و $a = \\frac{b\\sin A}{\\sin B} = \\frac{9\\cdot\\frac{1}{2}}{\\frac{\\sqrt{3}}{2}} = 3\\sqrt{3}$"
+      ],
+      "answer": "$C = 90^\\circ$، $A = 30^\\circ$، $a = 3\\sqrt{3} \\approx 5.2$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "قانون ساین را در مثلث قایم‌الزاویه ثبوت کنید.",
+      "solution_steps_fa": [
+        "فرض کنید $C = 90^\\circ$ باشد؛ پس c وتر است و $\\sin C = 1$.",
+        "از تعریف ساین در مثلث قایم‌الزاویه: $\\sin A = \\frac{a}{c}$ و $\\sin B = \\frac{b}{c}$.",
+        "پس $\\frac{a}{\\sin A} = c$ و $\\frac{b}{\\sin B} = c$.",
+        "همچنین $\\frac{c}{\\sin C} = \\frac{c}{1} = c$.",
+        "بنابراین هر سه نسبت برابر c هستند: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$."
+      ],
+      "answer": "هر سه نسبت مساوی طول وتر (c) است، پس قانون ساین برقرار است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "حل مثال ۱ در صفحه بعد تمام می‌شود؛ گام آخر از روی همان صفحه اضافه شده است."
+}

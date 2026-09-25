@@ -1,0 +1,127 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 263,
+  "printed_page": 256,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "طول قوس (Arc length)",
+  "summary_fa": "این صفحه درس طول قوس، قطاع و قطعه را با تمرین به پایان می‌رساند. اول یک فعالیت: مساحت قطعه در دایره‌ای به شعاع 6cm با قوس $120^\\circ$. بعد مثال ۳: یک وتر به طول 6cm در دایره‌ای به شعاع 6cm یک قطعه جدا می‌کند. نکتهٔ مهم این است که وتر با دو شعاع یک مثلث متساوی‌الاضلاع می‌سازد، پس زاویهٔ مرکزی $60^\\circ$ یا $\\frac{\\pi}{3}$ رادیان است و مساحت قطعه با فورمول $\\frac{1}{2}R^2(\\theta - \\sin\\theta)$ حساب می‌شود. در آخر صفحه سه تمرین آمده است: مساحت قطاع، پیدا کردن زاویهٔ مرکزی از روی مساحت قطاع، و طول قوس با فورمول $L = R\\theta$.",
+  "key_points_fa": [
+    "اگر طول وتر با شعاع مساوی باشد، زاویهٔ مرکزی $60^\\circ = \\frac{\\pi}{3}$ است.",
+    "مساحت قطعه: $\\frac{1}{2}R^2(\\theta - \\sin\\theta)$ با $\\theta$ به رادیان.",
+    "مساحت قطاع: $\\frac{1}{2}R^2\\theta$؛ از این فورمول زاویه هم پیدا می‌شود: $\\theta = \\frac{2A}{R^2}$.",
+    "طول قوس: $L = R\\theta$ (رادیان)."
+  ],
+  "formulas": [
+    {
+      "latex": "S = \\frac{1}{2}R^2(\\theta - \\sin\\theta)",
+      "meaning_fa": "مساحت قطعه"
+    },
+    {
+      "latex": "A = \\frac{1}{2}R^2\\theta \\;\\Rightarrow\\; \\theta = \\frac{2A}{R^2}",
+      "meaning_fa": "مساحت قطاع و زاویهٔ مرکزی آن"
+    },
+    {
+      "latex": "L = R\\theta",
+      "meaning_fa": "طول قوس وقتی زاویه به رادیان است"
+    }
+  ],
+  "terms": [
+    {
+      "fa": "قطعهٔ دایره",
+      "en": "segment of a circle"
+    },
+    {
+      "fa": "قطاع",
+      "en": "sector"
+    },
+    {
+      "fa": "طول قوس",
+      "en": "arc length"
+    },
+    {
+      "fa": "زاویهٔ مرکزی",
+      "en": "central angle"
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [
+        0.71,
+        0.31,
+        0.88,
+        0.44
+      ],
+      "kind": "diagram",
+      "description_fa": "دایره به مرکز O و شعاع سرخ R = 6 که از O به B رسم شده است. وتر BA قطعهٔ کوچک آبی رنگ را از دایره جدا می‌کند. شکل مربوط به مثال ۳ است."
+    }
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "مساحت قطعه‌ای را دریابید که وتری به طول 6cm از دایره‌ای به شعاع 6cm جدا می‌کند.",
+      "steps_fa": [
+        "وتر و دو شعاع هر سه 6cm اند، پس مثلث متساوی‌الاضلاع است و قوس قطعه $\\frac{\\pi}{3}$ رادیان است.",
+        "$S = \\frac{1}{2}(6)^2\\left(\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{2}\\right) = 18\\left(\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{2}\\right) = 6\\pi - 9\\sqrt{3}$",
+        "$\\approx 6(3.14) - 9(1.73) \\approx 3.27\\,\\text{cm}^2$"
+      ],
+      "answer": "$(6\\pi - 9\\sqrt{3})\\,\\text{cm}^2 \\approx 3.27\\,\\text{cm}^2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "مساحت قطعه‌ای از دایره به شعاع 6cm را دریابید که قوس آن $\\overset{\\frown}{AB} = 120^\\circ$ باشد.",
+      "solution_steps_fa": [
+        "$120^\\circ = \\frac{2\\pi}{3}$ رادیان و $\\sin 120^\\circ = \\frac{\\sqrt{3}}{2}$.",
+        "$S = \\frac{1}{2}(6)^2\\left(\\frac{2\\pi}{3} - \\frac{\\sqrt{3}}{2}\\right) = 18\\left(\\frac{2\\pi}{3} - \\frac{\\sqrt{3}}{2}\\right)$",
+        "$= 12\\pi - 9\\sqrt{3} \\approx 37.70 - 15.59 \\approx 22.11\\,\\text{cm}^2$"
+      ],
+      "answer": "$(12\\pi - 9\\sqrt{3})\\,\\text{cm}^2 \\approx 22.11\\,\\text{cm}^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "مساحت قطاع دایره‌ای به شعاع 20cm را دریابید که زاویهٔ مرکزی آن $\\frac{\\pi}{6}$ رادیان باشد.",
+      "solution_steps_fa": [
+        "$A = \\frac{1}{2}R^2\\theta = \\frac{1}{2}(20)^2 \\cdot \\frac{\\pi}{6}$",
+        "$= 200 \\cdot \\frac{\\pi}{6} = \\frac{100\\pi}{3} \\approx 104.72\\,\\text{cm}^2$"
+      ],
+      "answer": "$\\frac{100\\pi}{3}\\,\\text{cm}^2 \\approx 104.72\\,\\text{cm}^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "زاویهٔ مرکزی قطاعی را دریابید که مساحت آن $55.5\\,\\text{cm}^2$ و شعاع آن 12cm باشد.",
+      "solution_steps_fa": [
+        "از $A = \\frac{1}{2}R^2\\theta$ داریم $\\theta = \\frac{2A}{R^2}$.",
+        "$\\theta = \\frac{2 \\cdot 55.5}{144} = \\frac{111}{144} \\approx 0.771$ رادیان.",
+        "به درجه: $0.771 \\cdot \\frac{180^\\circ}{\\pi} \\approx 44.2^\\circ$"
+      ],
+      "answer": "$\\theta \\approx 0.771$ رادیان $\\approx 44.2^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "شعاع دایره 10m است. طول قوس‌هایی را دریابید که مقابل زاویه‌های مرکزی 3.8 رادیان و 27 رادیان قرار دارند.",
+      "solution_steps_fa": [
+        "$L = R\\theta$",
+        "برای 3.8 رادیان: $L = 10 \\cdot 3.8 = 38\\,\\text{m}$",
+        "برای 27 رادیان: $L = 10 \\cdot 27 = 270\\,\\text{m}$ (این زاویه از $2\\pi$ بیشتر است، یعنی قوس چند بار دور دایره می‌چرخد)."
+      ],
+      "answer": "38m و 270m",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "در تمرین ۳ «3,8» با کامهٔ اعشاری کتاب 3.8 خوانده شد؛ اگر منظور دو زاویهٔ ۳ و ۸ رادیان باشد جواب‌ها 30m و 80m می‌شود. 27 رادیان از یک دور کامل بیشتر است؛ شاید 2.7 منظور بوده (در آن صورت 27m)."
+}

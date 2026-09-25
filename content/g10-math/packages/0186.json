@@ -1,0 +1,75 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 186,
+  "printed_page": 179,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "ارتباط بین نسبت‌های مثلثاتی دو زاویه که مجموعه و یا فرق شان $\\pi$ یا $180^\\circ$ باشد",
+  "summary_fa": "درس تازه با سه پرسش شروع می‌شود: آیا نسبت‌های $150^\\circ$ و $135^\\circ$ را می‌توان یافت، آیا $\\sin 135^\\circ$ با $\\sin 45^\\circ$ مساوی است و $\\sin 130^\\circ$ با $\\sin 50^\\circ$ چه رابطه دارد. بعد دو زاویه بررسی می‌شوند که مجموعهٔ آن‌ها $\\pi$ (یا $180^\\circ$) است: زاویهٔ حادهٔ $\\theta$ و زاویهٔ $\\pi - \\theta$. هر دو در دایرهٔ مثلثاتی به حالت معیاری رسم می‌شوند؛ ضلع دوم $\\theta$ دایره را در $M(x,y)$ و ضلع دوم $\\pi - \\theta$ آن را در $M_1(x_1,y_1)$ قطع می‌کند. از مساوی بودن مثلث‌های $OAM$ و $OBM_1$ معلوم می‌شود که این دو نقطه نسبت به محور Y قرینه‌اند: $x_1 = -x$ و $y_1 = y$. پس sin زاویهٔ $\\pi - \\theta$ با sin زاویهٔ $\\theta$ برابر است، ولی cos و tan آن قرینه می‌شوند. در یک فعالیت سه نسبت دیگر خواسته شده است.",
+  "key_points_fa": [
+    "دو زاویه که مجموعهٔ آن‌ها $180^\\circ$ است: $\\theta$ و $180^\\circ - \\theta$.",
+    "نقطهٔ $180^\\circ - \\theta$ قرینهٔ نقطهٔ $\\theta$ نسبت به محور Y است: $x_1 = -x$، $y_1 = y$.",
+    "$\\sin(180^\\circ - \\theta) = \\sin\\theta$ و $\\csc(180^\\circ - \\theta) = \\csc\\theta$.",
+    "cos، tan، cot و sec زاویهٔ $180^\\circ - \\theta$ قرینهٔ نسبت‌های $\\theta$ هستند.",
+    "مثلاً $\\sin 135^\\circ = \\sin 45^\\circ$ و $\\sin 130^\\circ = \\sin 50^\\circ$."
+  ],
+  "formulas": [
+    {"latex": "x_1 = -x,\\quad y_1 = y", "meaning_fa": "نقطه‌های $\\theta$ و $\\pi - \\theta$ نسبت به محور Y قرینه‌اند"},
+    {"latex": "\\sin(\\pi - \\theta) = \\sin\\theta", "meaning_fa": "sin دو زاویهٔ متمم ۱۸۰ درجه مساوی است"},
+    {"latex": "\\cos(\\pi - \\theta) = -\\cos\\theta", "meaning_fa": "cos آن‌ها قرینه است"},
+    {"latex": "\\tan(\\pi - \\theta) = \\frac{\\sin\\theta}{-\\cos\\theta} = -\\tan\\theta", "meaning_fa": "tan آن‌ها قرینه است"}
+  ],
+  "terms": [
+    {"fa": "زاویهٔ حاده", "en": "acute angle"},
+    {"fa": "حالت معیاری", "en": "standard position"},
+    {"fa": "دایرهٔ مثلثاتی", "en": "unit circle"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.05, 0.47, 0.32], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی با مرکز O. زاویهٔ $\\theta$ از محور X تا نقطهٔ $M(x,y)$ در ربع اول و زاویهٔ $\\pi - \\theta$ تا نقطهٔ $M_1(x_1,y_1)$ در ربع دوم رسم شده است. خط‌های نقطه‌چین از M و $M_1$ به نقاط A و B روی محور X می‌رسند و دو مثلث مساوی $OAM$ و $OBM_1$ می‌سازند؛ زاویهٔ میان $OM_1$ و نیمهٔ منفی محور X نیز $\\theta$ است. شکل نشان می‌دهد که دو نقطه ارتفاع (y) یکسان و x قرینه دارند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "اثبات روابط $\\theta$ و $\\pi - \\theta$",
+      "problem_fa": "رابطهٔ sin، cos و tan زاویهٔ $\\pi - \\theta$ را با نسبت‌های $\\theta$ به دست آورید.",
+      "steps_fa": [
+        "از مساوی بودن مثلث‌های $OAM$ و $OBM_1$: $|x_1| = |x|$ و چون $M_1$ در طرف چپ است $x_1 = -x$؛ همچنین $y_1 = y$. در دایرهٔ مثلثاتی $r = 1$.",
+        "$\\sin(\\pi - \\theta) = \\frac{y_1}{1} = y = \\sin\\theta$",
+        "$\\cos(\\pi - \\theta) = \\frac{x_1}{1} = -x = -\\cos\\theta$",
+        "$\\tan(\\pi - \\theta) = \\frac{\\sin(\\pi - \\theta)}{\\cos(\\pi - \\theta)} = \\frac{\\sin\\theta}{-\\cos\\theta} = -\\tan\\theta$"
+      ],
+      "answer": "$\\sin(\\pi - \\theta) = \\sin\\theta$، $\\cos(\\pi - \\theta) = -\\cos\\theta$، $\\tan(\\pi - \\theta) = -\\tan\\theta$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش‌های آغاز درس",
+      "kind": "question",
+      "problem_fa": "(۱) آیا نسبت‌های $150^\\circ$ و $135^\\circ$ را می‌توانید دریافت کنید؟ (۲) آیا $\\sin 135^\\circ = \\sin 45^\\circ$ است؟ چرا؟ (۳) $\\sin 130^\\circ$ و $\\sin 50^\\circ$ چه رابطه دارند؟",
+      "solution_steps_fa": [
+        "(۱) بلی: $150^\\circ = 180^\\circ - 30^\\circ$، پس $\\sin 150^\\circ = \\sin 30^\\circ = \\frac{1}{2}$، $\\cos 150^\\circ = -\\frac{\\sqrt{3}}{2}$، $\\tan 150^\\circ = -\\frac{\\sqrt{3}}{3}$. همچنین $135^\\circ = 180^\\circ - 45^\\circ$: $\\sin 135^\\circ = \\frac{\\sqrt{2}}{2}$، $\\cos 135^\\circ = -\\frac{\\sqrt{2}}{2}$، $\\tan 135^\\circ = -1$.",
+        "(۲) بلی، چون $135^\\circ + 45^\\circ = 180^\\circ$ و ضلع دوم این دو زاویه نسبت به محور Y قرینه است؛ y نقطه‌های آن‌ها یکی است، پس sin مساوی است: $\\frac{\\sqrt{2}}{2}$.",
+        "(۳) $130^\\circ + 50^\\circ = 180^\\circ$، پس $\\sin 130^\\circ = \\sin 50^\\circ$ (ولی $\\cos 130^\\circ = -\\cos 50^\\circ$)."
+      ],
+      "answer": "(۱) بلی، با نوشتن آن‌ها به شکل $180^\\circ - \\theta$؛ (۲) بلی، هر دو $\\frac{\\sqrt{2}}{2}$؛ (۳) $\\sin 130^\\circ = \\sin 50^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "سه نسبت مثلثاتی باقی‌ماندهٔ زاویهٔ $(\\pi - \\theta)$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\cot(\\pi - \\theta) = \\frac{\\cos(\\pi - \\theta)}{\\sin(\\pi - \\theta)} = \\frac{-\\cos\\theta}{\\sin\\theta} = -\\cot\\theta$",
+        "$\\sec(\\pi - \\theta) = \\frac{1}{\\cos(\\pi - \\theta)} = \\frac{1}{-\\cos\\theta} = -\\sec\\theta$",
+        "$\\csc(\\pi - \\theta) = \\frac{1}{\\sin(\\pi - \\theta)} = \\frac{1}{\\sin\\theta} = \\csc\\theta$"
+      ],
+      "answer": "$\\cot(\\pi - \\theta) = -\\cot\\theta$، $\\sec(\\pi - \\theta) = -\\sec\\theta$، $\\csc(\\pi - \\theta) = \\csc\\theta$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

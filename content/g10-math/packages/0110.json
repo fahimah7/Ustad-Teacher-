@@ -1,0 +1,73 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 110,
+  "printed_page": 103,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "عملیه‌های توابع",
+  "summary_fa": "این صفحه درس عملیه‌های توابع را شروع می‌کند. پرسش آغازین می‌پرسد اگر $f(x) = x + 2$ و $g(x) = 2x + 11$ باشد، آیا می‌توان $(f+g)(x)$ و $(f-g)(x)$ را پیدا کرد. بعد چهار عملیه تعریف می‌شوند: جمع، تفریق، ضرب و تقسیم دو تابع، که قیمت هر کدام در نقطهٔ $x$ از جمع، تفریق، ضرب یا تقسیم قیمت‌های $f(x)$ و $g(x)$ به دست می‌آید. ناحیهٔ تعریف جمع، تفریق و ضرب، مشترک ناحیه‌های تعریف $f$ و $g$ است؛ برای تقسیم باید نقاطی را هم که در آن‌ها $g(x) = 0$ می‌شود بیرون کنیم. مثال ۱ جمع دو پولینوم را حساب می‌کند و مثال ۲ که قیمت $(f+g)(3)$ را هم می‌خواهد، در صفحهٔ بعد حل شده است.",
+  "key_points_fa": [
+    "برای جمع دو تابع، افاده‌های آن‌ها را جمع و حدود مشابه را یک‌جا می‌کنیم.",
+    "ناحیهٔ تعریف $f+g$، $f-g$ و $f \\cdot g$ برابر $\\mathrm{dom}\\,f \\cap \\mathrm{dom}\\,g$ است.",
+    "در $\\frac{f}{g}$ علاوه بر آن، نقاطی که مخرج صفر می‌شود ($g(x) = 0$) از ناحیهٔ تعریف بیرون می‌شوند.",
+    "ناحیهٔ تعریف هر پولینوم تمام اعداد حقیقی ($\\mathbb{R}$) است."
+  ],
+  "formulas": [
+    {"latex": "(f \\pm g)(x) = f(x) \\pm g(x)", "meaning_fa": "جمع و تفریق دو تابع"},
+    {"latex": "(f \\cdot g)(x) = f(x) \\cdot g(x)", "meaning_fa": "ضرب دو تابع"},
+    {"latex": "\\left(\\frac{f}{g}\\right)(x) = \\frac{f(x)}{g(x)},\\quad g(x) \\ne 0", "meaning_fa": "تقسیم دو تابع؛ مخرج نباید صفر شود"},
+    {"latex": "\\mathrm{dom}(f \\pm g) = \\mathrm{dom}(f \\cdot g) = \\mathrm{dom}\\,f \\cap \\mathrm{dom}\\,g", "meaning_fa": "ناحیهٔ تعریف جمع، تفریق و ضرب، اشتراک دو ناحیهٔ تعریف است"},
+    {"latex": "\\mathrm{dom}\\left(\\frac{f}{g}\\right) = \\mathrm{dom}\\,f \\cap \\mathrm{dom}\\,g - \\{x \\mid g(x) = 0\\}", "meaning_fa": "ناحیهٔ تعریف تقسیم: اشتراک دو ناحیه، بدون صفرهای مخرج"}
+  ],
+  "terms": [
+    {"fa": "عملیه‌های توابع", "en": "operations on functions"},
+    {"fa": "ناحیهٔ تعریف", "en": "domain"},
+    {"fa": "اشتراک (تقاطع) ست‌ها", "en": "intersection of sets"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.05, 0.46, 0.32], "kind": "illustration", "description_fa": "داخل دایره نوشته شده: $f(x) = \\sqrt{4-x}$، $g(x) = \\sqrt{3+x}$ و $(f+g)(x) = ?$. این پرسش در مثال ۵ همین درس حل می‌شود: $(f+g)(x) = \\sqrt{4-x} + \\sqrt{3+x}$ با ناحیهٔ تعریف $[-3, 4]$."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "اگر $f(x) = 2x + 1$ و $g(x) = x^2 - 4$ باشد، $(f+g)(x)$ و ناحیهٔ تعریف آن را دریابید.",
+      "steps_fa": [
+        "$(f+g)(x) = (2x + 1) + (x^2 - 4) = x^2 + 2x - 3$",
+        "هر دو تابع پولینوم‌اند: $\\mathrm{dom}\\,f = \\mathrm{dom}\\,g = \\mathbb{R}$.",
+        "$\\mathrm{dom}(f+g) = \\mathbb{R} \\cap \\mathbb{R} = \\mathbb{R}$"
+      ],
+      "answer": "$(f+g)(x) = x^2 + 2x - 3$، ناحیهٔ تعریف $\\mathbb{R}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "اگر $f(x) = x^2 - 3$ و $g(x) = 4x + 5$ باشد، $(f+g)(x)$ و $(f+g)(3)$ را دریابید.",
+      "steps_fa": [
+        "$(f+g)(x) = (x^2 - 3) + (4x + 5) = x^2 + 4x + 2$",
+        "$(f+g)(3) = 9 + 12 + 2 = 23$",
+        "(حل این مثال در صفحهٔ بعد آمده است.)"
+      ],
+      "answer": "$(f+g)(x) = x^2 + 4x + 2$ و $(f+g)(3) = 23$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغازین",
+      "kind": "question",
+      "problem_fa": "اگر $f(x) = x + 2$ و $g(x) = 2x + 11$ باشد، $(f+g)(x)$ و $(f-g)(x)$ را دریافت کرده می‌توانید؟",
+      "solution_steps_fa": [
+        "$(f+g)(x) = (x + 2) + (2x + 11) = 3x + 13$",
+        "$(f-g)(x) = (x + 2) - (2x + 11) = x + 2 - 2x - 11 = -x - 9$",
+        "در تفریق، علامت همهٔ حدود تابع دوم عوض می‌شود."
+      ],
+      "answer": "$(f+g)(x) = 3x + 13$ و $(f-g)(x) = -x - 9$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب بین $\\mathrm{dom}\\,g = \\mathbb{R}$ و $\\mathrm{dom}\\,f = \\mathbb{R}$ یک مربع خالی چاپ شده که به جای حرف «و» است. کتاب $\\mathbb{R}$ را به شکل IR می‌نویسد."
+}

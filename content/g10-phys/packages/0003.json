@@ -1,0 +1,24 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-phys",
+  "pdf_page": 3,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ عنوان کتاب. در بالای صفحه بسم الله الرحمن الرحیم و نشان وزارت معارف آمده است. عنوان کتاب «فزیک» (به انگلیسی physics) برای «صنف دهم» با خط درشت نوشته شده و سال چاپ ۱۳۹۸ هجری شمسی ذکر شده است. این صفحه درس ندارد.",
+  "key_points_fa": [
+    "کتاب فزیک صنف دهم، وزارت معارف، سال چاپ ۱۳۹۸ هـ. ش."
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "فزیک", "en": "physics"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه با حرف «الف» چاپ شده است."
+}

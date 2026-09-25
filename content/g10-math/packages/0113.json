@@ -1,0 +1,128 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 113,
+  "printed_page": 106,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "عملیه‌های توابع",
+  "summary_fa": "این صفحه مثال ۵ را تمام می‌کند: ناحیهٔ تعریف $\\sqrt{3+x}$ انتروال $[-3, \\infty)$ است و اشتراک آن با $(-\\infty, 4]$ انتروال $[-3, 4]$ می‌شود که ناحیهٔ تعریف جمع، تفریق و ضرب است. برای تقسیم، چون $g(-3) = 0$ است، عدد ۳- بیرون می‌شود و ناحیهٔ تعریف $(-3, 4]$ است؛ سه محور اعداد این انتروال‌ها را نشان می‌دهند. بعد «حاصل‌ضرب تابع با عدد ثابت» تعریف می‌شود: هر قیمت تابع در آن عدد ضرب می‌شود. مثال ۶ این را برای یک پولینوم نشان می‌دهد. صفحه با تمرین درس پایان می‌یابد: برای شش جوره تابع، چهار عملیه و ناحیهٔ تعریف آن‌ها خواسته شده است.",
+  "key_points_fa": [
+    "ناحیهٔ تعریف مشترک = اشتراک انتروال‌ها؛ آن را روی محور اعداد رسم کنید تا قسمت مشترک دیده شود.",
+    "قوس بسته $[\\,]$ یعنی عدد سر انتروال شامل است؛ قوس باز $(\\,)$ یعنی شامل نیست.",
+    "در $\\frac{f}{g}$، هر جایی که $g(x) = 0$ شود (مثلاً $x = -3$ برای $\\sqrt{3+x}$) بیرون می‌شود.",
+    "حاصل‌ضرب تابع با عدد ثابت: $(cf)(x) = c \\cdot f(x)$."
+  ],
+  "formulas": [
+    {"latex": "(-\\infty, 4] \\cap [-3, \\infty) = [-3, 4]", "meaning_fa": "ناحیهٔ تعریف $f+g$، $f-g$ و $f \\cdot g$ در مثال ۵"},
+    {"latex": "\\mathrm{dom}\\frac{f}{g} = (-3, 4]", "meaning_fa": "چون $g(-3) = 0$، عدد ۳- بیرون می‌شود"},
+    {"latex": "(cf)(x) = c \\cdot f(x)", "meaning_fa": "حاصل‌ضرب تابع با عدد ثابت"}
+  ],
+  "terms": [
+    {"fa": "حاصل‌ضرب تابع با عدد ثابت", "en": "scalar multiple of a function"},
+    {"fa": "انتروال بسته", "en": "closed interval"},
+    {"fa": "انتروال نیمه‌باز", "en": "half-open interval"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.17, 0.16, 0.81, 0.44], "kind": "diagram", "description_fa": "سه محور اعداد: اول $[-3, \\infty)$ (از ۳- با قوس بسته به طرف راست، سرخ)؛ دوم $[-3, 4]$ (بین ۳- و ۴ با دو قوس بسته)؛ سوم $(-3, 4]$ (در ۳- قوس باز و در ۴ قوس بسته). فرق دوم و سوم نشان می‌دهد که صفر مخرج از ناحیهٔ تعریف تقسیم بیرون شده است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۵ (ادامه)",
+      "problem_fa": "ناحیه‌های تعریف برای $f(x) = \\sqrt{4-x}$ و $g(x) = \\sqrt{3+x}$.",
+      "steps_fa": [
+        "$\\mathrm{dom}\\,g$: $3 + x \\ge 0$، پس $x \\ge -3$، یعنی $[-3, \\infty)$.",
+        "$(-\\infty, 4] \\cap [-3, \\infty) = [-3, 4]$ ناحیهٔ تعریف $f+g$، $f-g$ و $f \\cdot g$ است.",
+        "$g(-3) = 0$، پس برای $\\frac{f}{g}$ عدد ۳- بیرون می‌شود: $(-3, 4]$."
+      ],
+      "answer": "$[-3, 4]$ برای جمع، تفریق و ضرب؛ $(-3, 4]$ برای تقسیم",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۶",
+      "problem_fa": "اگر $f(x) = x^3 - x + 2$ و $c = 5$ باشد، $(5f)(x)$ را دریابید.",
+      "steps_fa": [
+        "$(5f)(x) = 5 \\cdot f(x) = 5(x^3 - x + 2)$",
+        "$= 5x^3 - 5x + 10$"
+      ],
+      "answer": "$(5f)(x) = 5x^3 - 5x + 10$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = 2x + 3$ و $g(x) = x - 1$: (۱) $f+g$، $f-g$، $f \\cdot g$ و $\\frac{f}{g}$ را دریابید؛ (۲) ناحیهٔ تعریف آن‌ها را تعیین کنید.",
+      "solution_steps_fa": [
+        "$f+g = 3x + 2$؛ $f-g = x + 4$؛ $f \\cdot g = (2x+3)(x-1) = 2x^2 + x - 3$؛ $\\frac{f}{g} = \\frac{2x+3}{x-1}$.",
+        "هر دو پولینوم‌اند؛ ناحیهٔ تعریف سه تای اول $\\mathbb{R}$ و تقسیم $\\mathbb{R} - \\{1\\}$."
+      ],
+      "answer": "$3x+2$، $x+4$، $2x^2+x-3$ (همه $\\mathbb{R}$)؛ $\\frac{2x+3}{x-1}$ با $x \\ne 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = x - 5$ و $g(x) = 3x^2$: چهار عملیه و ناحیهٔ تعریف آن‌ها.",
+      "solution_steps_fa": [
+        "$f+g = 3x^2 + x - 5$؛ $f-g = -3x^2 + x - 5$؛ $f \\cdot g = 3x^3 - 15x^2$؛ $\\frac{f}{g} = \\frac{x-5}{3x^2}$.",
+        "$3x^2 = 0$ فقط در $x = 0$؛ پس ناحیهٔ تعریف تقسیم $\\mathbb{R} - \\{0\\}$ و بقیه $\\mathbb{R}$."
+      ],
+      "answer": "$3x^2+x-5$، $-3x^2+x-5$، $3x^3-15x^2$ (همه $\\mathbb{R}$)؛ $\\frac{x-5}{3x^2}$ با $x \\ne 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = 2x^2 - x - 3$ و $g(x) = x + 1$: چهار عملیه و ناحیهٔ تعریف آن‌ها.",
+      "solution_steps_fa": [
+        "$f+g = 2x^2 - 2$؛ $f-g = 2x^2 - 2x - 4$؛ $f \\cdot g = 2x^3 + x^2 - 4x - 3$.",
+        "$2x^2 - x - 3 = (2x - 3)(x + 1)$، پس $\\frac{f}{g} = \\frac{(2x-3)(x+1)}{x+1} = 2x - 3$ به شرط $x \\ne -1$.",
+        "ناحیهٔ تعریف سه تای اول $\\mathbb{R}$ و تقسیم $\\mathbb{R} - \\{-1\\}$."
+      ],
+      "answer": "$2x^2-2$، $2x^2-2x-4$، $2x^3+x^2-4x-3$ (همه $\\mathbb{R}$)؛ $\\frac{f}{g} = 2x-3$ با $x \\ne -1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین d",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\sqrt{x}$ و $g(x) = x - 5$: چهار عملیه و ناحیهٔ تعریف آن‌ها.",
+      "solution_steps_fa": [
+        "$f+g = \\sqrt{x} + x - 5$؛ $f-g = \\sqrt{x} - x + 5$؛ $f \\cdot g = (x - 5)\\sqrt{x}$؛ $\\frac{f}{g} = \\frac{\\sqrt{x}}{x - 5}$.",
+        "$\\mathrm{dom}\\,f = [0, \\infty)$ و $\\mathrm{dom}\\,g = \\mathbb{R}$؛ اشتراک $[0, \\infty)$.",
+        "برای تقسیم، $x = 5$ بیرون می‌شود: $[0, 5) \\cup (5, \\infty)$."
+      ],
+      "answer": "جمع، تفریق و ضرب: $[0, \\infty)$؛ تقسیم: $[0,5) \\cup (5,\\infty)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین e",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\sqrt{x+4}$ و $g(x) = \\sqrt{x-1}$: چهار عملیه و ناحیهٔ تعریف آن‌ها.",
+      "solution_steps_fa": [
+        "$f \\pm g = \\sqrt{x+4} \\pm \\sqrt{x-1}$؛ $f \\cdot g = \\sqrt{(x+4)(x-1)} = \\sqrt{x^2 + 3x - 4}$؛ $\\frac{f}{g} = \\sqrt{\\frac{x+4}{x-1}}$.",
+        "$\\mathrm{dom}\\,f = [-4, \\infty)$ و $\\mathrm{dom}\\,g = [1, \\infty)$؛ اشتراک $[1, \\infty)$.",
+        "$g(1) = 0$، پس برای تقسیم ناحیهٔ تعریف $(1, \\infty)$ است."
+      ],
+      "answer": "جمع، تفریق و ضرب: $[1, \\infty)$؛ تقسیم: $(1, \\infty)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین f",
+      "kind": "exercise",
+      "problem_fa": "$f(x) = \\sqrt{3x}$ و $g(x) = \\sqrt{x^2 - 1}$: چهار عملیه و ناحیهٔ تعریف آن‌ها.",
+      "solution_steps_fa": [
+        "$f \\pm g = \\sqrt{3x} \\pm \\sqrt{x^2 - 1}$؛ $f \\cdot g = \\sqrt{3x(x^2 - 1)} = \\sqrt{3x^3 - 3x}$؛ $\\frac{f}{g} = \\frac{\\sqrt{3x}}{\\sqrt{x^2-1}}$.",
+        "$\\mathrm{dom}\\,f$: $3x \\ge 0$، یعنی $[0, \\infty)$. $\\mathrm{dom}\\,g$: $x^2 \\ge 1$، یعنی $(-\\infty, -1] \\cup [1, \\infty)$.",
+        "اشتراک: $[1, \\infty)$. چون $g(1) = 0$، برای تقسیم $(1, \\infty)$."
+      ],
+      "answer": "جمع، تفریق و ضرب: $[1, \\infty)$؛ تقسیم: $(1, \\infty)$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در تمرین c، چون $x+1$ فکتور صورت است، $\\frac{f}{g}$ ساده می‌شود ولی $x = -1$ همچنان از ناحیهٔ تعریف بیرون است. کتاب ناحیهٔ تعریف تقسیم را در متن «$(-3, 4]$» نوشته که با شکل محور اعداد یکی است."
+}

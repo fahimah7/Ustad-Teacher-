@@ -1,0 +1,41 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 163,
+  "printed_page": 156,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "خواص انتیگرال معین",
+  "summary_fa": "بالای صفحه مثال قیمت متوسط را تمام می‌کند: چون $1<\\sqrt{7}<4$ است، نقطهٔ c واقعاً داخل انتروال است و تابع در آن قیمت 7 را می‌گیرد. معنای هندسی: مساحت زیر منحنی $y=x^2$ روی $[1,4]$ با مساحت یک مستطیل برابر است که قاعدهٔ آن $b-a=3$ و ارتفاع آن $f(c)=7$ است (مساحت 21). بعد تمرین فصل می‌آید: سوال اول هفت انتیگرال معین را با قاعدهٔ $F(b)-F(a)$ می‌خواهد، سوال دوم خاصیت جمع انتروال‌ها را تمرین می‌کند و سوال سوم قضیهٔ قیمت متوسط را برای $f(x)=x$ به کار می‌برد.",
+  "key_points_fa": [
+    "قیمت متوسط، ارتفاع مستطیلی است که مساحتش با مساحت زیر منحنی مساوی است.",
+    "انتیگرال معین: تابع اولیه را پیدا کنید و $F(b)-F(a)$ را حساب کنید.",
+    "خاصیت جمع: $\\int_a^b f = \\int_a^c f + \\int_c^b f$",
+    "در توابع طاق روی انتروال متناظر مانند $[-a,a]$، انتیگرال قسمت طاق صفر می‌شود."
+  ],
+  "formulas": [
+    {"latex": "\\int_a^b f(x)\\,dx = \\int_a^c f(x)\\,dx + \\int_c^b f(x)\\,dx", "meaning_fa": "جمع انتیگرال روی انتروال‌های پهلوی هم"},
+    {"latex": "\\int_a^b f(x)\\,dx = F(b) - F(a)", "meaning_fa": "حساب انتیگرال معین با تابع اولیه"}
+  ],
+  "terms": [
+    {"fa": "انتیگرال معین", "en": "definite integral"},
+    {"fa": "قیمت متوسط", "en": "average value"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {"label_fa": "۱-a", "kind": "exercise", "problem_fa": "$\\int_{-1}^{1}(x^3+2)\\,dx$", "solution_steps_fa": ["$\\left[\\frac{x^4}{4}+2x\\right]_{-1}^{1} = \\left(\\frac14+2\\right)-\\left(\\frac14-2\\right)$", "$= 4$"], "answer": "$4$", "solution_source": "generated"},
+    {"label_fa": "۱-b", "kind": "exercise", "problem_fa": "$\\int_{2}^{5}7x\\,dx$", "solution_steps_fa": ["$\\left[\\frac{7x^2}{2}\\right]_2^5 = \\frac72(25-4)$", "$= \\frac{147}{2} = 73.5$"], "answer": "$\\frac{147}{2}$", "solution_source": "generated"},
+    {"label_fa": "۱-c", "kind": "exercise", "problem_fa": "$\\int_{-2}^{4}(-x)\\,dx$", "solution_steps_fa": ["$\\left[-\\frac{x^2}{2}\\right]_{-2}^{4} = -\\frac{16}{2}+\\frac{4}{2}$", "$= -8+2 = -6$"], "answer": "$-6$", "solution_source": "generated"},
+    {"label_fa": "۱-d", "kind": "exercise", "problem_fa": "$\\int_{1}^{3}\\sqrt{x}\\,dx$", "solution_steps_fa": ["$\\sqrt{x}=x^{1/2}$، تابع اولیه: $\\frac23 x^{3/2}$", "$\\frac23\\left(3\\sqrt3 - 1\\right) = 2\\sqrt3 - \\frac23$"], "answer": "$2\\sqrt3-\\frac23 \\approx 2.80$", "solution_source": "generated"},
+    {"label_fa": "۱-e", "kind": "exercise", "problem_fa": "$\\int_{-2}^{3}3x\\,dx$", "solution_steps_fa": ["$\\left[\\frac{3x^2}{2}\\right]_{-2}^{3} = \\frac32(9-4)$", "$= 7.5$"], "answer": "$\\frac{15}{2}$", "solution_source": "generated"},
+    {"label_fa": "۱-f", "kind": "exercise", "problem_fa": "$\\int_{-1}^{2}\\left(x^3-\\frac12x^4\\right)dx$", "solution_steps_fa": ["تابع اولیه: $\\frac{x^4}{4}-\\frac{x^5}{10}$", "در $x=2$: $4-3.2=0.8$؛ در $x=-1$: $\\frac14+\\frac1{10}=0.35$", "$0.8-0.35 = 0.45$"], "answer": "$\\frac{9}{20}$", "solution_source": "generated"},
+    {"label_fa": "۱-g", "kind": "exercise", "problem_fa": "$\\int_{-4}^{4}\\left(2x^2-\\frac18x^4\\right)dx$", "solution_steps_fa": ["تابع جفت است، پس $= 2\\int_0^4\\left(2x^2-\\frac18x^4\\right)dx$", "$2\\left[\\frac{2x^3}{3}-\\frac{x^5}{40}\\right]_0^4 = 2\\left(\\frac{128}{3}-\\frac{128}{5}\\right)$", "$= 2\\cdot\\frac{256}{15} = \\frac{512}{15}$"], "answer": "$\\frac{512}{15}\\approx 34.13$", "solution_source": "generated"},
+    {"label_fa": "۲", "kind": "exercise", "problem_fa": "اگر $\\int_{-1}^{1}f(x)dx=5$ و $\\int_{1}^{4}f(x)dx=-2$ باشد، $\\int_{-1}^{4}f(x)dx$ را دریابید.", "solution_steps_fa": ["با خاصیت جمع انتروال‌ها: $\\int_{-1}^{4}f = \\int_{-1}^{1}f + \\int_{1}^{4}f$", "$= 5 + (-2) = 3$"], "answer": "$3$", "solution_source": "generated"},
+    {"label_fa": "۳", "kind": "exercise", "problem_fa": "برای $f(x)=x$ روی $[0,2]$ عدد c قضیهٔ قیمت متوسط را پیدا کنید.", "solution_steps_fa": ["$\\int_0^2 x\\,dx = \\left[\\frac{x^2}{2}\\right]_0^2 = 2$", "$2 = f(c)(2-0) = 2c$", "$c = 1$ که داخل $[0,2]$ است."], "answer": "$c=1$ (قیمت متوسط $f(c)=1$)", "solution_source": "generated"}
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

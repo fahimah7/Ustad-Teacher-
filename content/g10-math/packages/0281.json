@@ -1,0 +1,122 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 281,
+  "printed_page": 274,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "این صفحه آخرین سؤال‌های تمرین فصل پنجم (سؤال ۳۰ تا ۳۶) را دارد. چند سؤال چهارجوابه دربارهٔ فورمول‌های مجموع و تفاضل دو زاویه است، دو سؤال «نشان دهید که» با فورمول‌های زاویهٔ دوچند و تبدیل مجموع نسبت‌های مثلثاتی به حاصل‌ضرب حل می‌شوند، و دو سؤال آخر دربارهٔ مساحت قطاع دایره است. برای حل، شاگرد باید فورمول $\\cos(\\alpha-\\beta)$، $\\sin(\\alpha+\\beta)$، فورمول‌های تبدیل $\\sin p \\pm \\sin q$ و $\\cos p \\pm \\cos q$ و فورمول مساحت قطاع $A = \\frac{1}{2}r^2\\theta$ را به یاد داشته باشد.",
+  "key_points_fa": [
+    "$\\cos(-t) = \\cos t$، چون کوساین تابع جفت است.",
+    "افاده‌هایی مانند $\\cos A\\cos B + \\sin A\\sin B$ را با فورمول $\\cos(A-B)$ یکجا کنید.",
+    "برای کسرهایی که مجموع یا تفاضل ساین و کوساین دارند، صورت و مخرج را به حاصل‌ضرب تبدیل کنید و حدود مشترک را ساده کنید.",
+    "مساحت قطاع: $A = \\frac{1}{2}r^2\\theta$ که $\\theta$ به رادیان است."
+  ],
+  "formulas": [
+    {"latex": "\\sin 2\\theta = 2\\sin\\theta\\cos\\theta,\\quad 1+\\cos 2\\theta = 2\\cos^2\\theta", "meaning_fa": "فورمول‌های زاویهٔ دوچند"},
+    {"latex": "\\sin p + \\sin q = 2\\sin\\frac{p+q}{2}\\cos\\frac{p-q}{2},\\quad \\sin p - \\sin q = 2\\cos\\frac{p+q}{2}\\sin\\frac{p-q}{2}", "meaning_fa": "تبدیل مجموع و تفاضل ساین‌ها به حاصل‌ضرب"},
+    {"latex": "\\cos p + \\cos q = 2\\cos\\frac{p+q}{2}\\cos\\frac{p-q}{2},\\quad \\cos p - \\cos q = -2\\sin\\frac{p+q}{2}\\sin\\frac{p-q}{2}", "meaning_fa": "تبدیل مجموع و تفاضل کوساین‌ها به حاصل‌ضرب"},
+    {"latex": "A = \\frac{1}{2}r^2\\theta", "meaning_fa": "مساحت قطاع دایره با شعاع r و زاویهٔ مرکزی θ (رادیان)"}
+  ],
+  "terms": [
+    {"fa": "قطاع دایره", "en": "sector of a circle"},
+    {"fa": "زاویهٔ مرکزی", "en": "central angle"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۳۰",
+      "kind": "question",
+      "problem_fa": "$\\cos(0^\\circ - t)$ مساوی کدام است؟ a) $\\sin t$ b) $\\cos t$ c) $-\\sin t$ d) $-\\cos t$",
+      "solution_steps_fa": ["$\\cos(0^\\circ - t) = \\cos(-t)$", "کوساین تابع جفت است، پس $\\cos(-t) = \\cos t$."],
+      "answer": "b) $\\cos t$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۱",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید که $\\frac{\\cos\\theta\\sin 2\\theta}{1+\\cos 2\\theta} = \\sin\\theta$ است.",
+      "solution_steps_fa": ["$\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$ و $1+\\cos 2\\theta = 2\\cos^2\\theta$", "کسر می‌شود: $\\frac{\\cos\\theta\\cdot 2\\sin\\theta\\cos\\theta}{2\\cos^2\\theta}$", "بعد از ساده کردن $2\\cos^2\\theta$، فقط $\\sin\\theta$ می‌ماند."],
+      "answer": "طرف چپ مساوی $\\sin\\theta$ است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۲ (الف)",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $\\frac{\\cos 8x+\\cos 4x}{\\cos 8x-\\cos 4x} = -\\cot 6x\\cot 2x$",
+      "solution_steps_fa": ["صورت: $2\\cos 6x\\cos 2x$", "مخرج: $-2\\sin 6x\\sin 2x$", "نسبت: $-\\frac{\\cos 6x}{\\sin 6x}\\cdot\\frac{\\cos 2x}{\\sin 2x} = -\\cot 6x\\cot 2x$"],
+      "answer": "ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۲ (ب)",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $\\frac{\\sin 4x+\\sin 6x}{\\cos 4x-\\cos 6x} = \\cot x$",
+      "solution_steps_fa": ["صورت: $2\\sin 5x\\cos x$", "مخرج: $-2\\sin 5x\\sin(-x) = 2\\sin 5x\\sin x$", "نسبت: $\\frac{\\cos x}{\\sin x} = \\cot x$"],
+      "answer": "ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۲ (ج)",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $\\frac{\\sin x-\\sin 3x}{\\cos x+\\cos 3x} = -\\tan x$",
+      "solution_steps_fa": ["صورت: $2\\cos 2x\\sin(-x) = -2\\cos 2x\\sin x$", "مخرج: $2\\cos 2x\\cos x$", "نسبت: $-\\frac{\\sin x}{\\cos x} = -\\tan x$"],
+      "answer": "ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۲ (د)",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $\\frac{\\sin x-\\sin 3x}{\\cos x-\\cos 3x} = -\\cot 2x$",
+      "solution_steps_fa": ["صورت: $-2\\cos 2x\\sin x$", "مخرج: $-2\\sin 2x\\sin(-x) = 2\\sin 2x\\sin x$", "نسبت: $-\\frac{\\cos 2x}{\\sin 2x} = -\\cot 2x$"],
+      "answer": "ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۲ (هـ)",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $\\frac{\\sin t+\\sin 3t}{\\cos t+\\cos 3t} = \\tan 2t$",
+      "solution_steps_fa": ["صورت: $2\\sin 2t\\cos t$", "مخرج: $2\\cos 2t\\cos t$", "نسبت: $\\frac{\\sin 2t}{\\cos 2t} = \\tan 2t$"],
+      "answer": "ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۳",
+      "kind": "question",
+      "problem_fa": "$\\cos(x+y)\\cos y + \\sin(x+y)\\sin y$ مساوی کدام است؟ a) $\\sin x$ b) $\\cos x$ c) $-\\sin x$ d) $-\\cos x$",
+      "solution_steps_fa": ["این افاده شکل $\\cos A\\cos B + \\sin A\\sin B = \\cos(A-B)$ را دارد که $A = x+y$ و $B = y$.", "$\\cos((x+y)-y) = \\cos x$"],
+      "answer": "b) $\\cos x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۴",
+      "kind": "question",
+      "problem_fa": "$\\sin(x-y)\\cos y + \\cos(x-y)\\sin y$ مساوی کدام است؟ a) $\\sin x$ b) $\\cos x$ c) $-\\sin x$ d) $-\\cos x$",
+      "solution_steps_fa": ["این افاده شکل $\\sin A\\cos B + \\cos A\\sin B = \\sin(A+B)$ را دارد که $A = x-y$ و $B = y$.", "$\\sin((x-y)+y) = \\sin x$"],
+      "answer": "a) $\\sin x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۵",
+      "kind": "question",
+      "problem_fa": "مساحت قطاع دایره‌یی با شعاع $2\\,m$ و زاویهٔ مرکزی $0.5$ رادیان کدام است؟ a) $3m^2$ b) $2m^2$ c) $1m^2$ d) هر سه غلط اند.",
+      "solution_steps_fa": ["$A = \\frac{1}{2}r^2\\theta = \\frac{1}{2}\\cdot 2^2\\cdot 0.5$", "$= \\frac{1}{2}\\cdot 4\\cdot 0.5 = 1\\,m^2$"],
+      "answer": "c) $1\\,m^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۶",
+      "kind": "question",
+      "problem_fa": "مساحت قطاع یک دایره $200\\,cm^2$ و زاویهٔ مرکزی آن ۲ رادیان است. شعاع دایره کدام است؟ a) $14.14cm$ b) $-14.14cm$ c) $14cm$ d) هر سه درست نیست.",
+      "solution_steps_fa": ["$200 = \\frac{1}{2}r^2\\cdot 2 = r^2$", "$r = \\sqrt{200} = 10\\sqrt{2} \\approx 14.14\\,cm$", "شعاع منفی شده نمی‌تواند، پس جواب b رد می‌شود."],
+      "answer": "a) $14.14\\,cm$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "سؤال ۳۰ در کتاب $\\cos(0^\\circ - t)$ چاپ شده و جواب آن $\\cos t$ است؛ اگر منظور کتاب $\\cos(90^\\circ - t)$ بوده باشد، جواب $\\sin t$ می‌شود. سؤال ۳۲ پنج قسمت جداگانه دارد که با حروف الف تا هـ نام‌گذاری شده‌اند."
+}

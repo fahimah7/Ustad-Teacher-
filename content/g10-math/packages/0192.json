@@ -1,0 +1,56 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 192,
+  "printed_page": 185,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "نسبت‌های مثلثاتی دو زاویه‌یی که مجموعه‌شان $90^\\circ$ یا $\\frac{\\pi}{2}$ رادیان باشد",
+  "summary_fa": "این صفحه رابطه‌های زاویهٔ $\\frac{\\pi}{2} + \\theta$ را با sec و csc کامل می‌کند: sec آن منفی csc و csc آن برابر sec زاویهٔ $\\theta$ است. در مثال ۲ زاویهٔ $120^\\circ$ به شکل $90^\\circ + 30^\\circ$ نوشته شده و هر شش نسبت آن از نسبت‌های $30^\\circ$ حساب می‌شوند؛ جواب‌ها با روش قبلی ($180^\\circ - 60^\\circ$) یکی است. پایین صفحه یک جدول خلاصه دو ستون دارد: ستون چپ شش رابطهٔ $\\frac{\\pi}{2} - \\theta$ (زوایای متمم، همه بدون تغییر علامه) و ستون راست شش رابطهٔ $\\frac{\\pi}{2} + \\theta$ (که در آن‌ها فقط sin و csc مثبت می‌مانند). در هر دو ستون نام نسبت به نسبت هم‌نام تبدیل می‌شود.",
+  "key_points_fa": [
+    "$\\sec(\\frac{\\pi}{2} + \\theta) = -\\csc\\theta$ و $\\csc(\\frac{\\pi}{2} + \\theta) = \\sec\\theta$.",
+    "با $\\frac{\\pi}{2} \\pm \\theta$ نام نسبت عوض می‌شود: sin↔cos، tan↔cot، sec↔csc.",
+    "برای $\\frac{\\pi}{2} - \\theta$ (ربع اول) همهٔ علامه‌ها مثبت می‌مانند.",
+    "برای $\\frac{\\pi}{2} + \\theta$ (ربع دوم) فقط sin و csc مثبت‌اند؛ cos، tan، cot و sec منفی می‌شوند.",
+    "یک زاویه را می‌توان به چند شکل نوشت: $120^\\circ = 90^\\circ + 30^\\circ = 180^\\circ - 60^\\circ$؛ جواب یکی است."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\left(\\frac{\\pi}{2} - \\theta\\right) = \\cos\\theta,\\ \\cos\\left(\\frac{\\pi}{2} - \\theta\\right) = \\sin\\theta,\\ \\tan\\left(\\frac{\\pi}{2} - \\theta\\right) = \\cot\\theta", "meaning_fa": "خلاصهٔ زوایای متمم (بخش اول)"},
+    {"latex": "\\cot\\left(\\frac{\\pi}{2} - \\theta\\right) = \\tan\\theta,\\ \\sec\\left(\\frac{\\pi}{2} - \\theta\\right) = \\csc\\theta,\\ \\csc\\left(\\frac{\\pi}{2} - \\theta\\right) = \\sec\\theta", "meaning_fa": "خلاصهٔ زوایای متمم (بخش دوم)"},
+    {"latex": "\\sin\\left(\\frac{\\pi}{2} + \\theta\\right) = \\cos\\theta,\\ \\cos\\left(\\frac{\\pi}{2} + \\theta\\right) = -\\sin\\theta,\\ \\tan\\left(\\frac{\\pi}{2} + \\theta\\right) = -\\cot\\theta", "meaning_fa": "خلاصهٔ زاویهٔ $\\frac{\\pi}{2} + \\theta$ (بخش اول)"},
+    {"latex": "\\cot\\left(\\frac{\\pi}{2} + \\theta\\right) = -\\tan\\theta,\\ \\sec\\left(\\frac{\\pi}{2} + \\theta\\right) = -\\csc\\theta,\\ \\csc\\left(\\frac{\\pi}{2} + \\theta\\right) = \\sec\\theta", "meaning_fa": "خلاصهٔ زاویهٔ $\\frac{\\pi}{2} + \\theta$ (بخش دوم)"}
+  ],
+  "terms": [
+    {"fa": "زوایای متمم", "en": "complementary angles"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "اثبات sec و csc برای $\\frac{\\pi}{2} + \\theta$",
+      "problem_fa": "sec و csc زاویهٔ $\\frac{\\pi}{2} + \\theta$ را بنویسید.",
+      "steps_fa": [
+        "$\\sec(\\frac{\\pi}{2} + \\theta) = \\frac{1}{\\cos(\\frac{\\pi}{2} + \\theta)} = \\frac{1}{-\\sin\\theta} = -\\csc\\theta$",
+        "$\\csc(\\frac{\\pi}{2} + \\theta) = \\frac{1}{\\sin(\\frac{\\pi}{2} + \\theta)} = \\frac{1}{\\cos\\theta} = \\sec\\theta$"
+      ],
+      "answer": "$\\sec(\\frac{\\pi}{2} + \\theta) = -\\csc\\theta$، $\\csc(\\frac{\\pi}{2} + \\theta) = \\sec\\theta$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $120^\\circ$ را دریابید.",
+      "steps_fa": [
+        "$120^\\circ = 90^\\circ + 30^\\circ$",
+        "$\\sin 120^\\circ = \\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$، $\\cos 120^\\circ = -\\sin 30^\\circ = -\\frac{1}{2}$",
+        "$\\tan 120^\\circ = -\\cot 30^\\circ = -\\sqrt{3}$، $\\cot 120^\\circ = -\\tan 30^\\circ = -\\frac{1}{\\sqrt{3}}$",
+        "$\\sec 120^\\circ = -\\csc 30^\\circ = -2$، $\\csc 120^\\circ = \\sec 30^\\circ = \\frac{2}{\\sqrt{3}}$"
+      ],
+      "answer": "$\\sin = \\frac{\\sqrt{3}}{2}$، $\\cos = -\\frac{1}{2}$، $\\tan = -\\sqrt{3}$، $\\cot = -\\frac{1}{\\sqrt{3}}$، $\\sec = -2$، $\\csc = \\frac{2}{\\sqrt{3}}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

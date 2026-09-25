@@ -1,0 +1,74 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 89,
+  "printed_page": 80,
+  "page_kind": "exercises",
+  "chapter": 2,
+  "section_fa": "معادلات مثلثاتی درجه دوم",
+  "summary_fa": "این صفحه تمرین درس معادلات مثلثاتی درجه دوم است و سه معادله دارد که ست حل آن‌ها باید دریافت شود. در معادلهٔ اول باید با فورمول‌های زاویهٔ دوچند و نیم‌زاویه همه‌چیز را بر حسب $\\cos x$ نوشت. معادلهٔ دوم یک معادلهٔ درجه دوم مستقیم بر حسب $\\cos x$ است که یک جذر آن قبول نیست. معادلهٔ سوم همگن است (همهٔ جمله‌ها درجه دوم‌اند)؛ با تقسیم بر $\\cos^2 x$ به یک معادلهٔ درجه دوم بر حسب $\\tan x$ تبدیل می‌شود. در هر سه، بعد از تعویض، جذرهای بیرون از انتروال مجاز را کنار می‌گذاریم و برای هر جذر قبول‌شده جواب عمومی می‌نویسیم.",
+  "key_points_fa": [
+    "$\\cos 2x + 1 = 2\\cos^2 x$ و $2\\sin^2\\frac{x}{2} = 1 - \\cos x$",
+    "جذر $\\cos x = -\\frac{5}{3}$ قبول نیست، زیرا از $-1$ کوچک‌تر است.",
+    "معادلهٔ همگن $a\\sin^2 x + c\\sin x\\cos x + b\\cos^2 x = 0$ را بر $\\cos^2 x$ تقسیم می‌کنیم تا معادله‌یی بر حسب $\\tan x$ شود؛ قبلاً بررسی می‌کنیم که $\\cos x = 0$ جواب نباشد."
+  ],
+  "formulas": [
+    {"latex": "\\cos 2x = 2\\cos^2 x - 1", "meaning_fa": "کوساین زاویهٔ دوچند بر حسب کوساین"},
+    {"latex": "2\\sin^2\\frac{x}{2} = 1 - \\cos x", "meaning_fa": "فورمول نیم‌زاویه"},
+    {"latex": "\\cos x = \\cos\\theta \\Rightarrow x = 2k\\pi \\pm \\theta", "meaning_fa": "جواب عمومی کوساین"},
+    {"latex": "\\tan x = \\tan\\theta \\Rightarrow x = k\\pi + \\theta", "meaning_fa": "جواب عمومی تانجانت"}
+  ],
+  "terms": [
+    {"fa": "معادلهٔ همگن", "en": "homogeneous equation"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "$\\cos 2x + 1 = 2\\sin^2\\frac{x}{2}$",
+      "solution_steps_fa": [
+        "طرف چپ: $\\cos 2x + 1 = 2\\cos^2 x$؛ طرف راست: $2\\sin^2\\frac{x}{2} = 1 - \\cos x$",
+        "$2\\cos^2 x = 1 - \\cos x \\Rightarrow 2\\cos^2 x + \\cos x - 1 = 0$",
+        "با $y = \\cos x$: $2y^2 + y - 1 = 0 \\Rightarrow (2y - 1)(y + 1) = 0$",
+        "$\\cos x = \\frac{1}{2} \\Rightarrow x = 2k\\pi \\pm \\frac{\\pi}{3}$",
+        "$\\cos x = -1 \\Rightarrow x = (2k+1)\\pi$"
+      ],
+      "answer": "$x = 2k\\pi \\pm \\frac{\\pi}{3}$ یا $x = (2k+1)\\pi$، $k \\in \\mathbb{Z}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "$3\\cos^2 x + 2\\cos x - 5 = 0$",
+      "solution_steps_fa": [
+        "با $y = \\cos x$: $3y^2 + 2y - 5 = 0$",
+        "$\\Delta = 4 + 60 = 64 \\Rightarrow y = \\frac{-2 \\pm 8}{6}$",
+        "$y_1 = 1$ و $y_2 = -\\frac{5}{3}$",
+        "$\\cos x = -\\frac{5}{3}$ قبول نیست (کمتر از $-1$).",
+        "$\\cos x = 1 \\Rightarrow x = 2k\\pi$"
+      ],
+      "answer": "$x = 2k\\pi$، $k \\in \\mathbb{Z}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "$\\sin^2 x - (1 - \\sqrt{3})\\sin x\\cos x - \\sqrt{3}\\cos^2 x = 0$",
+      "solution_steps_fa": [
+        "اگر $\\cos x = 0$ باشد، معادله $\\sin^2 x = 0$ می‌شود که با $\\sin^2 x = 1$ جور نمی‌آید؛ پس $\\cos x \\neq 0$ و می‌توانیم بر $\\cos^2 x$ تقسیم کنیم.",
+        "$\\tan^2 x - (1 - \\sqrt{3})\\tan x - \\sqrt{3} = 0$",
+        "تجزیه: $(\\tan x - 1)(\\tan x + \\sqrt{3}) = 0$",
+        "$\\tan x = 1 \\Rightarrow x = k\\pi + \\frac{\\pi}{4}$",
+        "$\\tan x = -\\sqrt{3} \\Rightarrow x = k\\pi - \\frac{\\pi}{3}$"
+      ],
+      "answer": "$x = k\\pi + \\frac{\\pi}{4}$ یا $x = k\\pi - \\frac{\\pi}{3}$، $k \\in \\mathbb{Z}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "همهٔ جواب‌ها با جاگذاری عددی کنترل شده‌اند."
+}

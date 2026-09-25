@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-phys",
+  "chapter": 1,
+  "title": {
+    "en": "Mechanical equilibrium",
+    "fa": "تعادل میخانیکی"
+  },
+  "questions": [
+    {
+      "pdf_page": 21,
+      "q": {
+        "en": "Two concurrent forces $F_1 = 3\\,\\mathrm{N}$ and $F_2 = 5\\,\\mathrm{N}$ act on one point, with an angle of $60^\\circ$ between them. What is the magnitude of their resultant?",
+        "fa": "دو قوۀ متلاقی $F_1 = 3\\,\\mathrm{N}$ و $F_2 = 5\\,\\mathrm{N}$ بر یک نقطه اثر می‌کنند و زاویۀ بین آن‌ها $60^\\circ$ است. مقدار قوۀ محصلۀ آن‌ها چند است؟"
+      },
+      "options": [
+        {
+          "en": "$8\\,\\mathrm{N}$",
+          "fa": "$8\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$5.8\\,\\mathrm{N}$",
+          "fa": "$5.8\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$7\\,\\mathrm{N}$",
+          "fa": "$7\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$4.4\\,\\mathrm{N}$",
+          "fa": "$4.4\\,\\mathrm{N}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$R = \\sqrt{F_1^2 + F_2^2 + 2F_1F_2\\cos\\alpha} = \\sqrt{9 + 25 + 2 \\cdot 3 \\cdot 5 \\cdot 0.5} = \\sqrt{49} = 7\\,\\mathrm{N}$.",
+        "fa": "طبق فارمول $R = \\sqrt{F_1^2 + F_2^2 + 2F_1F_2\\cos\\alpha} = \\sqrt{9 + 25 + 2 \\cdot 3 \\cdot 5 \\cdot 0.5} = \\sqrt{49} = 7\\,\\mathrm{N}$ است."
+      },
+      "idea": {
+        "en": "Forces add as vectors: $F_1 + F_2 = 8\\,\\mathrm{N}$ is right only for $\\alpha = 0^\\circ$ and $\\sqrt{F_1^2 + F_2^2}$ only for $\\alpha = 90^\\circ$. Use the general formula with $\\cos 60^\\circ = 0.5$ and a plus sign.",
+        "fa": "قوه‌ها وکتوری جمع می‌شوند: $F_1 + F_2 = 8\\,\\mathrm{N}$ فقط برای $\\alpha = 0^\\circ$ و $\\sqrt{F_1^2 + F_2^2}$ فقط برای $\\alpha = 90^\\circ$ درست است. فارمول عمومی را با $\\cos 60^\\circ = 0.5$ و علامۀ جمع به کار ببرید."
+      }
+    },
+    {
+      "pdf_page": 32,
+      "q": {
+        "en": "A force of $20\\,\\mathrm{N}$ acts on the end of a wrench $0.5\\,\\mathrm{m}$ long and makes an angle of $30^\\circ$ with the wrench. What is the moment (torque) of the force about the bolt?",
+        "fa": "قوۀ $20\\,\\mathrm{N}$ بر انجام رنچی به طول $0.5\\,\\mathrm{m}$ اثر می‌کند و با دستۀ رنچ زاویۀ $30^\\circ$ می‌سازد. مومنت قوه (تورک) نسبت به پیچ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$5\\,\\mathrm{N\\cdot m}$",
+          "fa": "$5\\,\\mathrm{N\\cdot m}$"
+        },
+        {
+          "en": "$10\\,\\mathrm{N\\cdot m}$",
+          "fa": "$10\\,\\mathrm{N\\cdot m}$"
+        },
+        {
+          "en": "$8.7\\,\\mathrm{N\\cdot m}$",
+          "fa": "$8.7\\,\\mathrm{N\\cdot m}$"
+        },
+        {
+          "en": "$40\\,\\mathrm{N\\cdot m}$",
+          "fa": "$40\\,\\mathrm{N\\cdot m}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$M = F\\,d\\sin\\theta = 20\\,\\mathrm{N} \\times 0.5\\,\\mathrm{m} \\times \\sin 30^\\circ = 20 \\times 0.5 \\times 0.5 = 5\\,\\mathrm{N\\cdot m}$. Only the part of the force perpendicular to the wrench turns it.",
+        "fa": "$M = F\\,d\\sin\\theta = 20\\,\\mathrm{N} \\times 0.5\\,\\mathrm{m} \\times \\sin 30^\\circ = 5\\,\\mathrm{N\\cdot m}$ است؛ فقط مرکبۀ عمود بر رنچ آن را دوران می‌دهد."
+      },
+      "idea": {
+        "en": "$M = F \\cdot d$ is right only when the force is perpendicular to the wrench. Here take the perpendicular component $F\\sin\\theta$ and multiply it by the length (do not divide).",
+        "fa": "$M = F \\cdot d$ فقط وقتی درست است که قوه بر رنچ عمود باشد. این‌جا مرکبۀ عمودی $F\\sin\\theta$ را بگیرید و آن را در طول رنچ ضرب کنید (نه تقسیم)."
+      }
+    },
+    {
+      "pdf_page": 29,
+      "q": {
+        "en": "A ruler hangs on a nail through a hole that is above its centre of gravity. After a small push it swings back to its first position. What kind of equilibrium is this?",
+        "fa": "یک خط‌کش از سوراخی که بالاتر از مرکز ثقل آن است بر یک میخ آویزان است. با یک تکان کوچک دوباره به حالت اول خود برمی‌گردد. این کدام نوع تعادل است؟"
+      },
+      "options": [
+        {
+          "en": "Unstable equilibrium",
+          "fa": "تعادل ناپایدار"
+        },
+        {
+          "en": "Neutral equilibrium",
+          "fa": "تعادل بی تفاوت"
+        },
+        {
+          "en": "It is not in equilibrium, because the resultant force on it is not zero",
+          "fa": "در تعادل نیست، چون قوۀ محصله بر آن صفر نیست"
+        },
+        {
+          "en": "Stable equilibrium",
+          "fa": "تعادل پایدار"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "When the pivot is above the centre of gravity, a push raises the centre of gravity and the weight brings the ruler back to its first position: this is stable equilibrium.",
+        "fa": "وقتی نقطۀ آویزان بالاتر از مرکز ثقل باشد، با تکان مرکز ثقل بالا می‌رود و وزن، خط‌کش را به حالت اول برمی‌گرداند؛ این تعادل پایدار است."
+      },
+      "idea": {
+        "en": "Compare the pivot with the centre of gravity: pivot above it gives stable, pivot at it gives neutral, pivot below it gives unstable equilibrium.",
+        "fa": "نقطۀ دوران را با مرکز ثقل مقایسه کنید: بالای مرکز ثقل ← تعادل پایدار، روی مرکز ثقل ← بی تفاوت، پایین مرکز ثقل ← ناپایدار."
+      }
+    },
+    {
+      "pdf_page": 43,
+      "q": {
+        "en": "Two equal, parallel and opposite forces of $15\\,\\mathrm{N}$ each act on a body, and the perpendicular distance between their lines of action is $0.4\\,\\mathrm{m}$. Which statement is correct?",
+        "fa": "دو قوۀ مساوی، موازی و مخالف‌الجهت، هر کدام $15\\,\\mathrm{N}$، بر یک جسم اثر می‌کنند و فاصلۀ عمودی بین خطوط تأثیر آن‌ها $0.4\\,\\mathrm{m}$ است. کدام جمله درست است؟"
+      },
+      "options": [
+        {
+          "en": "The resultant force is $30\\,\\mathrm{N}$ and the body moves along a straight line",
+          "fa": "قوۀ محصله $30\\,\\mathrm{N}$ است و جسم در امتداد یک خط مستقیم حرکت می‌کند"
+        },
+        {
+          "en": "The resultant force is zero and the moment is $6\\,\\mathrm{N\\cdot m}$ about any point",
+          "fa": "قوۀ محصله صفر است و مومنت دور هر نقطه $6\\,\\mathrm{N\\cdot m}$ است"
+        },
+        {
+          "en": "The resultant force is zero and the moment is $3\\,\\mathrm{N\\cdot m}$, only about the midpoint",
+          "fa": "قوۀ محصله صفر است و مومنت فقط دور نقطۀ وسط $3\\,\\mathrm{N\\cdot m}$ است"
+        },
+        {
+          "en": "The resultant force and the moment are both zero, so the body stays at rest",
+          "fa": "قوۀ محصله و مومنت هر دو صفر اند، پس جسم ساکن می‌ماند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "This is a couple: the two forces cancel, so the resultant is zero, but they turn the body with the moment $M = F \\cdot l = 15\\,\\mathrm{N} \\times 0.4\\,\\mathrm{m} = 6\\,\\mathrm{N\\cdot m}$, which is the same about every point.",
+        "fa": "این یک زوج قوه است: دو قوه هم‌دیگر را خنثی می‌کنند و محصله صفر است، ولی جسم را با مومنت $M = F \\cdot l = 15\\,\\mathrm{N} \\times 0.4\\,\\mathrm{m} = 6\\,\\mathrm{N\\cdot m}$ دوران می‌دهند که دور هر نقطه یکسان است."
+      },
+      "idea": {
+        "en": "A couple does not move a body along a line; it only turns it. Its moment is one force times the distance between the two forces, whichever point you choose.",
+        "fa": "زوج قوه جسم را انتقال نمی‌دهد، فقط دوران می‌دهد. مومنت آن یک قوه ضرب فاصلۀ بین دو قوه است، هر نقطه‌یی را که انتخاب کنید."
+      }
+    },
+    {
+      "pdf_page": 51,
+      "q": {
+        "en": "A uniform plank $6\\,\\mathrm{m}$ long and weighing $300\\,\\mathrm{N}$ hangs from two vertical ropes at its ends A and B. A painter weighing $600\\,\\mathrm{N}$ stands $2\\,\\mathrm{m}$ from end B. What is the tension in the rope at B?",
+        "fa": "یک تختۀ متجانس به طول $6\\,\\mathrm{m}$ و وزن $300\\,\\mathrm{N}$ از دو انجام A و B با دو ریسمان عمودی آویزان است. رنگمالی به وزن $600\\,\\mathrm{N}$ به فاصلۀ $2\\,\\mathrm{m}$ از انجام B ایستاده است. کشش ریسمان B چند است؟"
+      },
+      "options": [
+        {
+          "en": "$350\\,\\mathrm{N}$",
+          "fa": "$350\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$900\\,\\mathrm{N}$",
+          "fa": "$900\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$550\\,\\mathrm{N}$",
+          "fa": "$550\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$450\\,\\mathrm{N}$",
+          "fa": "$450\\,\\mathrm{N}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Take moments about A, so that $T_A$ has no moment: $T_B \\times 6 = 300 \\times 3 + 600 \\times 4$, so $T_B = \\frac{3300}{6} = 550\\,\\mathrm{N}$. Check: $T_A = 900 - 550 = 350\\,\\mathrm{N}$.",
+        "fa": "مومنت‌ها را دور نقطۀ A بگیرید تا مومنت $T_A$ صفر شود: $T_B \\times 6 = 300 \\times 3 + 600 \\times 4$، پس $T_B = \\frac{3300}{6} = 550\\,\\mathrm{N}$. امتحان: $T_A = 900 - 550 = 350\\,\\mathrm{N}$."
+      },
+      "idea": {
+        "en": "Use both conditions of equilibrium: $\\sum F = 0$ gives $T_A + T_B = 900\\,\\mathrm{N}$, and $\\sum M = 0$ about A gives $T_B$. The plank's weight acts at its middle ($3\\,\\mathrm{m}$ from A) and the painter is $4\\,\\mathrm{m}$ from A; the rope nearer the painter carries more.",
+        "fa": "هر دو شرط تعادل را به کار ببرید: $\\sum F = 0$ می‌دهد $T_A + T_B = 900\\,\\mathrm{N}$ و $\\sum M = 0$ دور A مقدار $T_B$ را می‌دهد. وزن تخته در وسط آن ($3\\,\\mathrm{m}$ از A) اثر می‌کند و رنگمال $4\\,\\mathrm{m}$ از A فاصله دارد؛ ریسمانی که به رنگمال نزدیک‌تر است قوۀ بیشتری تحمل می‌کند."
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 204,
+  "printed_page": 197,
+  "page_kind": "review",
+  "chapter": 5,
+  "section_fa": "نکات مهم فصل پنجم",
+  "summary_fa": "این صفحه خلاصهٔ فصل پنجم است و قاعده‌های اصلی را یکجا جمع می‌کند. در بخش مشتق، قاعده‌های مشتق $e^x$، $a^x$، $\\log_a x$ و $\\log_a g(x)$ آمده است. بعد کسور قسمی تعریف می‌شوند: کسرهای ساده‌ای که جمع آن‌ها همان کسر واقعی اصلی را می‌دهد. سه حالت تجزیه بیان شده: مخرج با عوامل درجهٔ اول بدون تکرار، مخرج با یک عامل تکراری $(x-x_0)^n$، و مخرج با عامل درجهٔ دوم غیر قابل تجزیه که صورت آن به شکل $Ax+B$ است. در آخر فورمول‌های انتیگرال توابع اکسپوننشیل و لوگارتمی تکرار شده‌اند.",
+  "key_points_fa": [
+    "مشتق $e^x$ خودش است؛ مشتق $a^x$ برابر $a^x\\ln a$ است.",
+    "مشتق $\\log_a x$ برابر $\\frac{1}{x\\ln a}$ است.",
+    "کسر واقعی (درجهٔ صورت کمتر از مخرج) را می‌توان به کسور قسمی جدا کرد.",
+    "برای عامل تکراری $(x-x_0)^n$ باید n کسر با توان‌های ۱ تا n نوشت.",
+    "برای عامل درجهٔ دوم غیر قابل تجزیه، صورت کسر $Ax+B$ است.",
+    "$\\int \\ln x\\,dx = x\\ln x - x + C$"
+  ],
+  "formulas": [
+    {"latex": "(e^x)' = e^x,\\quad (a^x)' = a^x\\ln a", "meaning_fa": "مشتق توابع اکسپوننشیل"},
+    {"latex": "(\\log_a x)' = \\frac{1}{x}\\log_a e = \\frac{1}{x\\ln a}", "meaning_fa": "مشتق تابع لوگارتمی"},
+    {"latex": "(\\log_a g(x))' = \\frac{g'(x)}{g(x)}\\log_a e", "meaning_fa": "مشتق لوگارتم یک تابع (قاعدهٔ زنجیری)"},
+    {"latex": "\\frac{P_m(x)}{P_n(x)} = \\frac{A}{x-x_1} + \\frac{B}{x-x_2} + \\dots + \\frac{N}{x-x_n}", "meaning_fa": "تجزیه وقتی عوامل مخرج درجهٔ اول و بدون تکرار باشند"},
+    {"latex": "\\frac{P_m(x)}{P_n(x)} = \\frac{A}{x-x_0} + \\frac{B}{(x-x_0)^2} + \\dots + \\frac{N}{(x-x_0)^n}", "meaning_fa": "تجزیه وقتی عامل $x-x_0$ به تعداد n بار تکرار شده باشد"},
+    {"latex": "\\frac{Ax+B}{ax^2+bx+c}", "meaning_fa": "شکل کسر قسمی برای عامل درجهٔ دوم غیر قابل تجزیه"},
+    {"latex": "\\int e^x\\,dx = e^x + C,\\quad \\int a^x\\,dx = \\frac{a^x}{\\ln a} + C\\ (a>0,\\ a\\neq 1)", "meaning_fa": "انتیگرال توابع اکسپوننشیل"},
+    {"latex": "\\int \\ln x\\,dx = x\\ln x - x + C,\\quad \\int \\log_a x\\,dx = x\\log_a\\frac{x}{e} + C", "meaning_fa": "انتیگرال توابع لوگارتمی"}
+  ],
+  "terms": [
+    {"fa": "کسور قسمی", "en": "partial fractions"},
+    {"fa": "کسر واقعی", "en": "proper rational fraction"},
+    {"fa": "عامل ضربی", "en": "factor"},
+    {"fa": "تابع اکسپوننشیل", "en": "exponential function"},
+    {"fa": "تابع لوگارتمی", "en": "logarithmic function"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در کتاب فورمول $\\int \\ln x\\,dx$ بدون x (به شکل $\\int \\ln dx$) چاپ شده است که یک غلطی چاپی است."
+}

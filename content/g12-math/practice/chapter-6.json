@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-math",
+  "chapter": 6,
+  "title": {
+    "en": "Applications of the integral",
+    "fa": "تطبیقات انتیگرال"
+  },
+  "questions": [
+    {
+      "pdf_page": 208,
+      "q": {
+        "en": "Find the area enclosed by the curve $y = 1 - x^2$ and the $x$-axis.",
+        "fa": "مساحت سطحی را که منحنی $y = 1 - x^2$ با محور $x$ می‌سازد، حساب کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{2}{3}$",
+          "fa": "$\\frac{2}{3}$"
+        },
+        {
+          "en": "$\\frac{8}{3}$",
+          "fa": "$\\frac{8}{3}$"
+        },
+        {
+          "en": "$\\frac{4}{3}$",
+          "fa": "$\\frac{4}{3}$"
+        },
+        {
+          "en": "$2$",
+          "fa": "$2$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The curve meets the $x$-axis at $x = \\pm 1$, and $\\int_{-1}^{1}(1 - x^2)\\,dx = \\left[x - \\frac{x^3}{3}\\right]_{-1}^{1} = \\frac{4}{3}$.",
+        "fa": "منحنی محور $x$ را در $x = \\pm 1$ قطع می‌کند و $\\int_{-1}^{1}(1 - x^2)\\,dx = \\left[x - \\frac{x^3}{3}\\right]_{-1}^{1} = \\frac{4}{3}$ است."
+      },
+      "idea": {
+        "en": "The points where the curve crosses the $x$-axis give the limits of the integral.",
+        "fa": "نقاطی که منحنی در آن‌ها محور $x$ را قطع می‌کند، سرحدات انتیگرال را می‌دهند."
+      }
+    },
+    {
+      "pdf_page": 215,
+      "q": {
+        "en": "Find the area between the curves $f(x) = 2x - x^2$ and $g(x) = x^2$.",
+        "fa": "مساحت بین دو منحنی $f(x) = 2x - x^2$ و $g(x) = x^2$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{3}$",
+          "fa": "$\\frac{1}{3}$"
+        },
+        {
+          "en": "$\\frac{2}{3}$",
+          "fa": "$\\frac{2}{3}$"
+        },
+        {
+          "en": "$1$",
+          "fa": "$1$"
+        },
+        {
+          "en": "$\\frac{4}{3}$",
+          "fa": "$\\frac{4}{3}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The curves meet at $x = 0$ and $x = 1$, where $f$ is on top, so $A = \\int_0^1 (2x - 2x^2)\\,dx = 1 - \\frac{2}{3} = \\frac{1}{3}$.",
+        "fa": "دو منحنی در $x = 0$ و $x = 1$ هم‌دیگر را قطع می‌کنند و در این انتروال $f$ بالاتر است؛ پس $A = \\int_0^1 (2x - 2x^2)\\,dx = 1 - \\frac{2}{3} = \\frac{1}{3}$."
+      },
+      "idea": {
+        "en": "Solve $f(x) = g(x)$ to get the limits, then integrate the upper curve minus the lower curve.",
+        "fa": "برای سرحدات معادلهٔ $f(x) = g(x)$ را حل کنید، بعد منحنی بالایی منفی منحنی پایینی را انتیگرال بگیرید."
+      }
+    },
+    {
+      "pdf_page": 222,
+      "q": {
+        "en": "The region bounded by $y = \\sqrt{2x}$, the $x$-axis and the line $x = 3$ is rotated about the $x$-axis. Find the volume of the solid.",
+        "fa": "ناحیهٔ بین منحنی $y = \\sqrt{2x}$، محور $x$ و خط $x = 3$ به دور محور $x$ دوران می‌کند. حجم جسم دورانی را حساب کنید."
+      },
+      "options": [
+        {
+          "en": "$18\\pi$",
+          "fa": "$18\\pi$"
+        },
+        {
+          "en": "$6\\pi$",
+          "fa": "$6\\pi$"
+        },
+        {
+          "en": "$\\frac{9\\pi}{2}$",
+          "fa": "$\\frac{9\\pi}{2}$"
+        },
+        {
+          "en": "$9\\pi$",
+          "fa": "$9\\pi$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Using $V = \\pi\\int_0^3 y^2\\,dx$ with $y^2 = 2x$ gives $V = \\pi\\left[x^2\\right]_0^3 = 9\\pi$.",
+        "fa": "با فورمول $V = \\pi\\int_0^3 y^2\\,dx$ و $y^2 = 2x$ داریم $V = \\pi\\left[x^2\\right]_0^3 = 9\\pi$."
+      },
+      "idea": {
+        "en": "Each slice is a thin disc of radius $y$, so you integrate $\\pi y^2$, not $y$.",
+        "fa": "هر برش یک استوانهٔ نازک با شعاع $y$ است؛ پس $\\pi y^2$ را انتیگرال بگیرید، نه $y$ را."
+      }
+    },
+    {
+      "pdf_page": 223,
+      "q": {
+        "en": "The region between the line $y = x$ and the curve $y = x^2$ (from $x = 0$ to $x = 1$) is rotated about the $x$-axis. Find the volume of the solid.",
+        "fa": "ناحیهٔ بین خط $y = x$ و منحنی $y = x^2$ (از $x = 0$ تا $x = 1$) به دور محور $x$ دوران می‌کند. حجم این جسم را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{\\pi}{30}$",
+          "fa": "$\\frac{\\pi}{30}$"
+        },
+        {
+          "en": "$\\frac{2\\pi}{15}$",
+          "fa": "$\\frac{2\\pi}{15}$"
+        },
+        {
+          "en": "$\\frac{\\pi}{6}$",
+          "fa": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "en": "$\\frac{8\\pi}{15}$",
+          "fa": "$\\frac{8\\pi}{15}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The line is the outer radius and the parabola the inner one, so $V = \\pi\\int_0^1 (x^2 - x^4)\\,dx = \\pi\\left(\\frac{1}{3} - \\frac{1}{5}\\right) = \\frac{2\\pi}{15}$.",
+        "fa": "خط شعاع بیرونی و پارابول شعاع داخلی است؛ پس $V = \\pi\\int_0^1 (x^2 - x^4)\\,dx = \\pi\\left(\\frac{1}{3} - \\frac{1}{5}\\right) = \\frac{2\\pi}{15}$."
+      },
+      "idea": {
+        "en": "Each slice is a ring: square each radius first and then subtract, because $(y_2 - y_1)^2$ is not the same as $y_2^2 - y_1^2$.",
+        "fa": "مقطع هر برش یک حلقه است: اول هر شعاع را مربع کنید و بعد تفریق کنید، چون $(y_2 - y_1)^2$ با $y_2^2 - y_1^2$ فرق دارد."
+      }
+    },
+    {
+      "pdf_page": 227,
+      "q": {
+        "en": "Find the arc length of $f(x) = \\frac{1}{2}x^{3/2}$ for $0 \\le x \\le 1$.",
+        "fa": "طول قوس منحنی $f(x) = \\frac{1}{2}x^{3/2}$ را در انتروال $0 \\le x \\le 1$ حساب کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{2}$",
+          "fa": "$\\frac{1}{2}$"
+        },
+        {
+          "en": "$\\frac{61}{96}$",
+          "fa": "$\\frac{61}{96}$"
+        },
+        {
+          "en": "$\\frac{61}{54}$",
+          "fa": "$\\frac{61}{54}$"
+        },
+        {
+          "en": "$\\frac{125}{54}$",
+          "fa": "$\\frac{125}{54}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Since $[f'(x)]^2 = \\frac{9}{16}x$, $L = \\int_0^1\\sqrt{1 + \\frac{9}{16}x}\\,dx = \\frac{32}{27}\\left[\\left(1 + \\frac{9}{16}x\\right)^{3/2}\\right]_0^1 = \\frac{32}{27}\\cdot\\frac{61}{64} = \\frac{61}{54}$.",
+        "fa": "چون $[f'(x)]^2 = \\frac{9}{16}x$ است، $L = \\int_0^1\\sqrt{1 + \\frac{9}{16}x}\\,dx = \\frac{32}{27}\\left[\\left(1 + \\frac{9}{16}x\\right)^{3/2}\\right]_0^1 = \\frac{32}{27}\\cdot\\frac{61}{64} = \\frac{61}{54}$."
+      },
+      "idea": {
+        "en": "Use $L = \\int_0^1\\sqrt{1 + [f'(x)]^2}\\,dx$; as a check, the arc cannot be shorter than the straight segment from $(0,0)$ to $(1,\\frac{1}{2})$.",
+        "fa": "از فورمول $L = \\int_0^1\\sqrt{1 + [f'(x)]^2}\\,dx$ استفاده کنید؛ برای امتحان، طول قوس از طول پارچه‌خط مستقیم بین $(0,0)$ و $(1,\\frac{1}{2})$ کوتاه‌تر شده نمی‌تواند."
+      }
+    }
+  ]
+}

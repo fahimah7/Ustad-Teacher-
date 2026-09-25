@@ -1,0 +1,157 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 278,
+  "printed_page": 271,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "تمرین فصل پنجم در این صفحه شروع می‌شود (سوال‌های ۱ تا ۱۰). سوال‌ها همهٔ فصل را مرور می‌کنند: مساحت مثلث متساوی‌الاضلاع و فورمول هیرون (۱ و ۲)، پیدا کردن sin و cos زاویه‌هایی مثل $165^\\circ$ با فورمول‌های مجموع (۳ و ۴)، ثبوت اتحادها (۵، ۷ و ۹)، حساب نسبت‌ها با فورمول‌های مجموع و تفاضل (۶)، فورمول‌های دو چند و نصف زاویه (۸)، و شعاع دایره‌های محیطی و محاطی (۱۰ که متن آن در صفحهٔ بعد تمام می‌شود). برای هر سوال اول باید دید کدام فورمول خلاصهٔ فصل به کار می‌آید.",
+  "key_points_fa": [
+    "$165^\\circ = 120^\\circ + 45^\\circ$ و $\\sin(-x) = -\\sin x$.",
+    "$\\tan 90^\\circ$ تعریف نشده است، چون مخرج $1 - \\tan 30^\\circ \\tan 60^\\circ$ صفر می‌شود.",
+    "برای ثبوت اتحاد، یک طرف را با فورمول‌ها ساده کنید تا به طرف دیگر برسید.",
+    "در ربع اول همهٔ نسبت‌ها و نسبت‌های نصف زاویه مثبت‌اند."
+  ],
+  "formulas": [
+    {"latex": "\\sin 165^\\circ = \\frac{\\sqrt{6} - \\sqrt{2}}{4},\\quad \\cos 165^\\circ = -\\frac{\\sqrt{6} + \\sqrt{2}}{4}", "meaning_fa": "نتیجهٔ سوال ۳"},
+    {"latex": "S = \\frac{\\sqrt{3}}{4}a^2", "meaning_fa": "مساحت مثلث متساوی‌الاضلاع"}
+  ],
+  "terms": [
+    {"fa": "تمرین فصل", "en": "chapter exercises"},
+    {"fa": "اتحاد", "en": "identity"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید که مساحت مثلث متساوی‌الاضلاع با ضلع a برابر $S = \\frac{\\sqrt{3}}{4}a^2$ است.",
+      "solution_steps_fa": [
+        "همهٔ زاویه‌ها $60^\\circ$ اند. $S = \\frac{1}{2} \\cdot a \\cdot a \\cdot \\sin 60^\\circ = \\frac{1}{2}a^2 \\cdot \\frac{\\sqrt{3}}{2} = \\frac{\\sqrt{3}}{4}a^2$"
+      ],
+      "answer": "$S = \\frac{\\sqrt{3}}{4}a^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "ضلع‌های مثلث $a = 7\\,\\text{cm}$، $b = 8\\,\\text{cm}$ و $c = 9\\,\\text{cm}$ است. مساحت؟",
+      "solution_steps_fa": [
+        "$p = 12$",
+        "$S = \\sqrt{12 \\cdot 5 \\cdot 4 \\cdot 3} = \\sqrt{720} = 12\\sqrt{5} \\approx 26.83\\,\\text{cm}^2$"
+      ],
+      "answer": "$12\\sqrt{5} \\approx 26.83\\,\\text{cm}^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "$\\sin 165^\\circ$ و $\\cos 165^\\circ$ را با فورمول‌های مجموع دو زاویه دریابید.",
+      "solution_steps_fa": [
+        "$165^\\circ = 120^\\circ + 45^\\circ$",
+        "$\\sin 165^\\circ = \\sin 120^\\circ\\cos 45^\\circ + \\cos 120^\\circ\\sin 45^\\circ = \\frac{\\sqrt{3}}{2} \\cdot \\frac{\\sqrt{2}}{2} - \\frac{1}{2} \\cdot \\frac{\\sqrt{2}}{2} = \\frac{\\sqrt{6} - \\sqrt{2}}{4}$",
+        "$\\cos 165^\\circ = \\cos 120^\\circ\\cos 45^\\circ - \\sin 120^\\circ\\sin 45^\\circ = -\\frac{\\sqrt{2}}{4} - \\frac{\\sqrt{6}}{4} = -\\frac{\\sqrt{6} + \\sqrt{2}}{4}$"
+      ],
+      "answer": "$\\sin 165^\\circ = \\frac{\\sqrt{6} - \\sqrt{2}}{4} \\approx 0.259$، $\\cos 165^\\circ = -\\frac{\\sqrt{6} + \\sqrt{2}}{4} \\approx -0.966$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(-165^\\circ) = ?$ a) $\\frac{\\sqrt{6} - \\sqrt{2}}{4}$ b) $\\frac{\\sqrt{2} - \\sqrt{6}}{4}$ c) $\\frac{-\\sqrt{6} - \\sqrt{2}}{4}$",
+      "solution_steps_fa": [
+        "$\\sin(-165^\\circ) = -\\sin 165^\\circ = -\\frac{\\sqrt{6} - \\sqrt{2}}{4} = \\frac{\\sqrt{2} - \\sqrt{6}}{4}$"
+      ],
+      "answer": "b",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $\\frac{\\cos 2\\theta}{\\sin\\theta} - \\frac{\\sin 2\\theta}{\\cos\\theta} = \\frac{\\cos 3\\theta}{\\sin\\theta\\cos\\theta}$",
+      "solution_steps_fa": [
+        "مخرج مشترک: $\\frac{\\cos 2\\theta\\cos\\theta - \\sin 2\\theta\\sin\\theta}{\\sin\\theta\\cos\\theta}$",
+        "صورت همان $\\cos(2\\theta + \\theta) = \\cos 3\\theta$ است."
+      ],
+      "answer": "ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "با فورمول‌های مجموع و تفاضل دریابید: $\\sin(30^\\circ+45^\\circ)$، $\\cos(150^\\circ-45^\\circ)$، $\\tan(30^\\circ+60^\\circ)$، $\\sin(135^\\circ+180^\\circ)$، $\\sin(135^\\circ-180^\\circ)$، $\\tan(180^\\circ-45^\\circ)$",
+      "solution_steps_fa": [
+        "$\\sin 75^\\circ = \\frac{1}{2} \\cdot \\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{3}}{2} \\cdot \\frac{\\sqrt{2}}{2} = \\frac{\\sqrt{2} + \\sqrt{6}}{4}$",
+        "$\\cos 105^\\circ = \\cos 150^\\circ\\cos 45^\\circ + \\sin 150^\\circ\\sin 45^\\circ = -\\frac{\\sqrt{6}}{4} + \\frac{\\sqrt{2}}{4} = \\frac{\\sqrt{2} - \\sqrt{6}}{4}$",
+        "$\\tan 90^\\circ = \\frac{\\tan 30^\\circ + \\tan 60^\\circ}{1 - \\tan 30^\\circ\\tan 60^\\circ} = \\frac{\\ldots}{1 - 1}$؛ مخرج صفر است، پس تعریف نشده است.",
+        "$\\sin 315^\\circ = \\sin 135^\\circ\\cos 180^\\circ + \\cos 135^\\circ\\sin 180^\\circ = -\\frac{\\sqrt{2}}{2}$",
+        "$\\sin(-45^\\circ) = \\sin 135^\\circ\\cos 180^\\circ - \\cos 135^\\circ\\sin 180^\\circ = -\\frac{\\sqrt{2}}{2}$",
+        "$\\tan 135^\\circ = \\frac{\\tan 180^\\circ - \\tan 45^\\circ}{1 + \\tan 180^\\circ\\tan 45^\\circ} = \\frac{0 - 1}{1} = -1$"
+      ],
+      "answer": "$\\frac{\\sqrt{6}+\\sqrt{2}}{4}$؛ $\\frac{\\sqrt{2}-\\sqrt{6}}{4}$؛ تعریف نشده؛ $-\\frac{\\sqrt{2}}{2}$؛ $-\\frac{\\sqrt{2}}{2}$؛ $-1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "با فورمول‌های مجموع و تفاضل نشان دهید: $\\sin(90^\\circ-\\theta) = \\cos\\theta$، $\\cos(90^\\circ+\\theta) = -\\sin\\theta$، $\\cos(90^\\circ-\\theta) = \\sin\\theta$، $\\sin(270^\\circ+\\theta) = -\\cos\\theta$، $\\cos(180^\\circ-\\theta) = -\\cos\\theta$، $\\sin(180^\\circ-\\theta) = \\sin\\theta$",
+      "solution_steps_fa": [
+        "$\\sin(90^\\circ-\\theta) = 1 \\cdot \\cos\\theta - 0 \\cdot \\sin\\theta = \\cos\\theta$",
+        "$\\cos(90^\\circ+\\theta) = 0 \\cdot \\cos\\theta - 1 \\cdot \\sin\\theta = -\\sin\\theta$",
+        "$\\cos(90^\\circ-\\theta) = 0 \\cdot \\cos\\theta + 1 \\cdot \\sin\\theta = \\sin\\theta$",
+        "$\\sin(270^\\circ+\\theta) = (-1)\\cos\\theta + 0 \\cdot \\sin\\theta = -\\cos\\theta$",
+        "$\\cos(180^\\circ-\\theta) = (-1)\\cos\\theta + 0 \\cdot \\sin\\theta = -\\cos\\theta$",
+        "$\\sin(180^\\circ-\\theta) = 0 \\cdot \\cos\\theta - (-1)\\sin\\theta = \\sin\\theta$"
+      ],
+      "answer": "هر شش رابطه ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "اگر $0^\\circ < \\theta < 90^\\circ$ و $\\sin\\theta = \\frac{2}{5}$ باشد، $\\sin 2\\theta$، $\\cos 2\\theta$، $\\sin\\frac{\\theta}{2}$ و $\\cos\\frac{\\theta}{2}$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\cos\\theta = \\sqrt{1 - \\frac{4}{25}} = \\frac{\\sqrt{21}}{5}$",
+        "$\\sin 2\\theta = 2 \\cdot \\frac{2}{5} \\cdot \\frac{\\sqrt{21}}{5} = \\frac{4\\sqrt{21}}{25} \\approx 0.733$",
+        "$\\cos 2\\theta = 1 - 2 \\cdot \\frac{4}{25} = \\frac{17}{25}$",
+        "$\\sin\\frac{\\theta}{2} = \\sqrt{\\frac{1 - \\frac{\\sqrt{21}}{5}}{2}} = \\sqrt{\\frac{5 - \\sqrt{21}}{10}} \\approx 0.204$",
+        "$\\cos\\frac{\\theta}{2} = \\sqrt{\\frac{5 + \\sqrt{21}}{10}} \\approx 0.979$ (هر دو مثبت، چون $\\frac{\\theta}{2}$ در ربع اول است)"
+      ],
+      "answer": "$\\sin 2\\theta = \\frac{4\\sqrt{21}}{25}$، $\\cos 2\\theta = \\frac{17}{25}$، $\\sin\\frac{\\theta}{2} = \\sqrt{\\frac{5-\\sqrt{21}}{10}}$، $\\cos\\frac{\\theta}{2} = \\sqrt{\\frac{5+\\sqrt{21}}{10}}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید: $\\frac{\\sin 2\\theta}{\\cos\\theta} = 2\\sin\\theta$، $\\cos 2\\theta + 1 = 2\\cos^2\\theta$، $\\cos 2\\theta + 2\\sin^2\\theta = 1$، $2\\cos^2\\theta - 2\\sin^2\\theta = 2\\cos 2\\theta$، $\\frac{\\cos 2\\theta}{\\cos\\theta + \\sin\\theta} = \\cos\\theta - \\sin\\theta$",
+      "solution_steps_fa": [
+        "$\\frac{2\\sin\\theta\\cos\\theta}{\\cos\\theta} = 2\\sin\\theta$",
+        "$\\cos 2\\theta + 1 = (2\\cos^2\\theta - 1) + 1 = 2\\cos^2\\theta$",
+        "$\\cos 2\\theta + 2\\sin^2\\theta = (1 - 2\\sin^2\\theta) + 2\\sin^2\\theta = 1$",
+        "$2\\cos^2\\theta - 2\\sin^2\\theta = 2(\\cos^2\\theta - \\sin^2\\theta) = 2\\cos 2\\theta$",
+        "$\\frac{\\cos^2\\theta - \\sin^2\\theta}{\\cos\\theta + \\sin\\theta} = \\frac{(\\cos\\theta - \\sin\\theta)(\\cos\\theta + \\sin\\theta)}{\\cos\\theta + \\sin\\theta} = \\cos\\theta - \\sin\\theta$"
+      ],
+      "answer": "هر پنج رابطه ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰",
+      "kind": "exercise",
+      "problem_fa": "ضلع‌های یک مثلث 5cm، 7cm و 8cm است. شعاع دایره‌های محیطی و محاطی آن را دریابید (متن سوال در صفحهٔ بعد تمام می‌شود).",
+      "solution_steps_fa": [
+        "$p = \\frac{5+7+8}{2} = 10$",
+        "$S = \\sqrt{10 \\cdot 5 \\cdot 3 \\cdot 2} = \\sqrt{300} = 10\\sqrt{3} \\approx 17.32\\,\\text{cm}^2$",
+        "$R = \\frac{abc}{4S} = \\frac{280}{40\\sqrt{3}} = \\frac{7}{\\sqrt{3}} = \\frac{7\\sqrt{3}}{3} \\approx 4.04\\,\\text{cm}$",
+        "$r = \\frac{S}{p} = \\frac{10\\sqrt{3}}{10} = \\sqrt{3} \\approx 1.73\\,\\text{cm}$"
+      ],
+      "answer": "$R = \\frac{7\\sqrt{3}}{3} \\approx 4.04\\,\\text{cm}$، $r = \\sqrt{3} \\approx 1.73\\,\\text{cm}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "سوال ۶: $\\tan(30^\\circ+60^\\circ) = \\tan 90^\\circ$ قیمت ندارد (تعریف نشده). سوال ۱۰ در صفحهٔ بعد ادامه دارد."
+}

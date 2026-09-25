@@ -1,0 +1,51 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 132,
+  "printed_page": 125,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "توابع پولینومی",
+  "summary_fa": "این صفحه موضوع نقاط تقاطع پارابولا را تمام می‌کند. با گذاشتن $x=0$ در $y=ax^2+bx+c$ نتیجه $y=c$ می‌شود، پس گراف محور Y را در $(0,c)$ قطع می‌کند. برای تقاطع با محور X قیمت $y=0$ را می‌گذاریم و معادلهٔ درجه دوم $ax^2+bx+c=0$ به دست می‌آید که جذرهایش با فورمول $x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$ حساب می‌شوند. این جذرها فقط وقتی حقیقی اند که $b^2-4ac\\geq0$ باشد. یک جدول سه حالت را خلاصه می‌کند: دو نقطهٔ تقاطع، یک نقطه، یا هیچ نقطه. سپس با عنوان «دریافت کمیات وضعیهٔ نقطهٔ رأس پارابولا» به روش تکمیل مربع، $y=ax^2+bx+c$ به شکل $y=a\\left(x+\\frac{b}{2a}\\right)^2+\\frac{4ac-b^2}{4a}$ یعنی $f(x)=a(x-h)^2+k$ نوشته می‌شود.",
+  "key_points_fa": [
+    "تقاطع با محور Y همیشه نقطهٔ $(0,c)$ است.",
+    "تقاطع با محور X جذرهای $ax^2+bx+c=0$ است.",
+    "$b^2-4ac>0$: دو نقطهٔ تقاطع با محور X؛ $=0$: یک نقطه؛ $<0$: هیچ نقطه.",
+    "با تکمیل مربع، تابع به شکل $a(x-h)^2+k$ نوشته می‌شود و $(h,k)$ رأس است.",
+    "$h=-\\frac{b}{2a}$ و $k=\\frac{4ac-b^2}{4a}$."
+  ],
+  "formulas": [
+    {"latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}", "meaning_fa": "جذرهای معادلهٔ درجه دوم؛ نقاط تقاطع با محور X"},
+    {"latex": "\\Delta=b^2-4ac", "meaning_fa": "تعداد نقاط تقاطع با محور X را معلوم می‌کند"},
+    {"latex": "y=a\\left(x+\\frac{b}{2a}\\right)^2+\\frac{4ac-b^2}{4a}", "meaning_fa": "شکل تکمیل‌مربع‌شدهٔ تابع درجه دوم"},
+    {"latex": "f(x)=a(x-h)^2+k", "meaning_fa": "شکل رأسی؛ رأس $(h,k)$"}
+  ],
+  "terms": [
+    {"fa": "معادلهٔ درجه دوم", "en": "quadratic equation"},
+    {"fa": "جذر معادله", "en": "root of an equation"},
+    {"fa": "طریقهٔ تکمیل مربع", "en": "completing the square"},
+    {"fa": "رأس پارابولا", "en": "vertex of a parabola"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.12, 0.44, 0.83, 0.59], "kind": "table", "description_fa": "جدول نارنجی سه‌سطری برای گراف $y=ax^2+bx+c$: (a) اگر $b^2-4ac>0$ باشد، محور X را در دو نقطه قطع می‌کند؛ (b) اگر $b^2-4ac=0$ باشد، در یک نقطه؛ (c) اگر $b^2-4ac<0$ باشد، محور X را قطع نمی‌کند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "تکمیل مربع (استخراج رأس)",
+      "problem_fa": "$y=ax^2+bx+c$ را به شکل $a(x-h)^2+k$ بنویسید.",
+      "steps_fa": [
+        "ضریب a را از $ax^2+bx$ بیرون می‌کشیم:$y=a\\left(x^2+\\frac{b}{a}x\\right)+c$.",
+        "مربع نصف ضریب x یعنی $\\left(\\frac{b}{2a}\\right)^2$ را داخل قوس جمع و تفریق می‌کنیم.",
+        "$y=a\\left[\\left(x+\\frac{b}{2a}\\right)^2-\\frac{b^2}{4a^2}\\right]+c=a\\left(x+\\frac{b}{2a}\\right)^2-\\frac{b^2}{4a}+c$.",
+        "$y=a\\left(x+\\frac{b}{2a}\\right)^2+\\frac{4ac-b^2}{4a}$."
+      ],
+      "answer": "$h=-\\frac{b}{2a}$ و $k=\\frac{4ac-b^2}{4a}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

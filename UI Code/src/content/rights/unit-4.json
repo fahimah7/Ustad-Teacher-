@@ -1,0 +1,378 @@
+{
+  "unit": 4,
+  "title": {
+    "en": "Standing up for yourself",
+    "fa": "از خود دفاع کنید"
+  },
+  "about": {
+    "en": "Knowing your worth, speaking calmly, talking with family and doubters, and getting help when something is wrong.",
+    "fa": "ارزش خود را بدانید، آرام گپ بزنید، با خانواده و کسانی که شک دارند صحبت کنید، و وقتی چیزی درست نیست کمک بخواهید."
+  },
+  "lessons": [
+    {
+      "id": "r4-1",
+      "title": {
+        "en": "Your worth and your voice",
+        "fa": "ارزش شما و صدای شما"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Your worth does not come from your marks, your family's money or what the neighbours say. It comes from being a human being. The first article of the Universal Declaration of Human Rights says that all people are born free and equal in dignity and rights.",
+          "fa": "ارزش شما از نمره‌هایتان، از پول خانواده یا از گپ همسایه‌ها نمی‌آید. ارزش شما از انسان بودن‌تان است. مادهٔ اول اعلامیهٔ جهانی حقوق بشر می‌گوید که همهٔ انسان‌ها آزاد به دنیا می‌آیند و در کرامت و حقوق با هم برابرند."
+        },
+        {
+          "en": "Speaking up does not mean shouting. It means saying what you need, clearly and calmly. One simple way is an \"I\" sentence, for example: \"I feel sad when I can't study, and I would like one hour each day to read.\" It talks about your feelings instead of blaming anyone.",
+          "fa": "حرف خود را زدن به معنای داد زدن نیست. یعنی آنچه را ضرورت دارید، روشن و آرام بگویید. یک راه ساده، جمله‌ای است که با «من» شروع می‌شود، مثلاً: «من وقتی نمی‌توانم درس بخوانم غمگین می‌شوم، و دلم می‌خواهد هر روز یک ساعت کتاب بخوانم.» این جمله از احساس شما می‌گوید، نه از ملامت کردن کسی."
+        },
+        {
+          "en": "Choose the moment. A quiet evening, when the person is rested and not angry or busy, is better than the middle of a quarrel. It helps to think about your words, or even practise them, before you speak.",
+          "fa": "وقت مناسب را انتخاب کنید. یک شام آرام، وقتی آن شخص خسته، قهر یا مصروف نیست، از وسط یک جنجال بهتر است. خوب است پیش از گپ زدن، به حرف‌هایتان فکر کنید یا حتی آن‌ها را تمرین کنید."
+        },
+        {
+          "en": "Listen first. Let the other person say what worries them, and show that you heard it: \"I understand that you worry about me.\" People listen more when they feel listened to.",
+          "fa": "اول گوش بدهید. بگذارید آن شخص نگرانی خود را بگوید، و نشان بدهید که شنیدید: «می‌فهمم که شما برای من نگران هستید.» مردم وقتی احساس کنند کسی به آن‌ها گوش داده، خودشان هم بیشتر گوش می‌دهند."
+        },
+        {
+          "en": "If the answer is no, you can repeat your wish calmly, in the same kind words. If it is still no today, that is not the end: you can ask again another day. Staying calm keeps you safe and keeps the door open.",
+          "fa": "اگر جواب «نه» بود، می‌توانید خواست خود را با همان کلمات مهربان، آرام تکرار کنید. اگر امروز باز هم جواب «نه» بود، این آخر کار نیست: می‌توانید یک روز دیگر دوباره بپرسید. آرام ماندن شما را در امان نگه می‌دارد و راه را باز می‌گذارد."
+        }
+      ],
+      "reflect": {
+        "en": "What is one thing you need, and how could you say it in an \"I\" sentence?",
+        "fa": "یک چیزی که ضرورت دارید چیست، و چطور می‌توانید آن را با یک جملهٔ «من» بگویید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Which of these is an \"I\" sentence?",
+            "fa": "کدام یک از این‌ها جملهٔ «من» است؟"
+          },
+          "options": [
+            {
+              "en": "\"You never let me do anything!\"",
+              "fa": "«شما هیچ وقت نمی‌گذارید من کاری کنم!»"
+            },
+            {
+              "en": "\"I feel hopeful when I study, and I would like to keep reading.\"",
+              "fa": "«من وقتی درس می‌خوانم امیدوار می‌شوم، و دلم می‌خواهد به خواندن ادامه بدهم.»"
+            },
+            {
+              "en": "\"Everyone is against me.\"",
+              "fa": "«همه ضد من هستند.»"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "It talks about your own feeling and what you would like, without blaming anyone.",
+            "fa": "این جمله از احساس و خواست خود شما می‌گوید، بدون اینکه کسی را ملامت کند."
+          }
+        },
+        {
+          "q": {
+            "en": "When is a good time to ask for something important?",
+            "fa": "چه وقت برای خواستن یک چیز مهم مناسب است؟"
+          },
+          "options": [
+            {
+              "en": "When the person is calm and not busy",
+              "fa": "وقتی آن شخص آرام است و مصروف نیست"
+            },
+            {
+              "en": "In the middle of a quarrel",
+              "fa": "در وسط یک جنجال"
+            },
+            {
+              "en": "When the person is tired and angry",
+              "fa": "وقتی آن شخص خسته و قهر است"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "People listen better when they are calm and have time.",
+            "fa": "مردم وقتی آرام باشند و وقت داشته باشند، بهتر گوش می‌دهند."
+          }
+        }
+      ],
+      "practice": null,
+      "sources": [
+        "UDHR, Article 1",
+        "Otherwise practical guidance on calm, assertive communication ('I' sentences, listening first); no other factual claims"
+      ]
+    },
+    {
+      "id": "r4-2",
+      "title": {
+        "en": "Talking with your family about learning",
+        "fa": "گپ زدن با خانواده در مورد درس"
+      },
+      "minutes": 6,
+      "steps": [
+        {
+          "en": "Many parents who say no to studying are not against you. Often they are afraid: for your safety, for the family's good name, or of what people will say. Try to find out what worries them most.",
+          "fa": "بسیاری از پدر و مادرهایی که به درس خواندن «نه» می‌گویند، مخالف شما نیستند. اکثراً می‌ترسند: برای امنیت شما، برای آبروی خانواده، یا از گپ مردم. کوشش کنید بفهمید که بیشتر از همه چه چیز آن‌ها را نگران می‌کند."
+        },
+        {
+          "en": "Then answer the fear, not the person. If they worry about safety, you can offer to study at home with this app, at set times, after your housework is done. If they worry about what people will say, you can study quietly, without telling others.",
+          "fa": "بعد به ترس آن‌ها جواب بدهید، نه به خود آن‌ها. اگر نگران امنیت هستند، می‌توانید پیشنهاد کنید که در خانه، با همین برنامه، در وقت‌های معین و بعد از کارهای خانه درس بخوانید. اگر از گپ مردم نگران هستند، می‌توانید آرام و بدون اینکه به دیگران بگویید، درس بخوانید."
+        },
+        {
+          "en": "Ask for a small step, not everything at once. For example: \"Can I try studying one hour a day for one month? Then we can talk again.\" A small yes is easier to give than a big one, and it can grow.",
+          "fa": "یک قدم کوچک بخواهید، نه همه چیز را یک‌باره. مثلاً: «آیا می‌توانم برای یک ماه، روزی یک ساعت درس بخوانم؟ بعد دوباره با هم گپ می‌زنیم.» گفتن یک «بلی» کوچک از یک «بلی» کلان آسان‌تر است، و می‌تواند کم‌کم کلان‌تر شود."
+        },
+        {
+          "en": "Show them what learning brings. Read a story to a younger brother or sister, help with the household accounts, or share something new you learned at mealtime. When your family sees the good it does, their fear may grow smaller.",
+          "fa": "به آن‌ها نشان بدهید که آموختن چه فایده‌ای دارد. برای خواهر یا برادر کوچک‌تان قصه بخوانید، در حساب و کتاب خانه کمک کنید، یا سر نان از چیز تازه‌ای که یاد گرفته‌اید گپ بزنید. وقتی خانواده فایدهٔ آن را ببیند، ممکن است ترس‌شان کمتر شود."
+        },
+        {
+          "en": "If they still say no, stay respectful and try again later. You could ask someone they trust, like a grandmother or an aunt, to speak for you. You decide how far to go; keeping peace and safety at home is not giving up.",
+          "fa": "اگر باز هم «نه» گفتند، با احترام رفتار کنید و بعداً دوباره کوشش کنید. می‌توانید از کسی که آن‌ها به او اعتماد دارند، مثل مادرکلان یا خاله، بخواهید که به طرفداری شما گپ بزند. تصمیم با خود شماست؛ نگه داشتن آرامش و امنیت در خانه، تسلیم شدن نیست."
+        }
+      ],
+      "reflect": {
+        "en": "What do you think your family worries about most, and what small step could ease that worry?",
+        "fa": "فکر می‌کنید خانوادهٔ شما بیشتر از همه در مورد چه نگران است، و کدام قدم کوچک می‌تواند این نگرانی را کم کند؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "Your father worries that people will talk if you study. Which answer helps most?",
+            "fa": "پدر شما نگران است که اگر درس بخوانید، مردم گپ بزنند. کدام جواب بیشتر کمک می‌کند؟"
+          },
+          "options": [
+            {
+              "en": "\"I don't care what anyone says.\"",
+              "fa": "«برایم مهم نیست که کسی چه می‌گوید.»"
+            },
+            {
+              "en": "\"I can study quietly at home, and we don't need to tell anyone.\"",
+              "fa": "«می‌توانم آرام در خانه درس بخوانم، و لازم نیست به کسی بگوییم.»"
+            },
+            {
+              "en": "\"Then I will stop talking to you.\"",
+              "fa": "«پس دیگر با شما گپ نمی‌زنم.»"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "It answers his real fear and offers a safe option.",
+            "fa": "این جواب به ترس اصلی ایشان جواب می‌دهد و یک راه بی‌خطر پیشنهاد می‌کند."
+          }
+        },
+        {
+          "q": {
+            "en": "Why ask for a small step, like one hour a day for a month?",
+            "fa": "چرا یک قدم کوچک بخواهیم، مثل روزی یک ساعت برای یک ماه؟"
+          },
+          "options": [
+            {
+              "en": "A small yes is easier to give, and it can grow",
+              "fa": "گفتن یک «بلی» کوچک آسان‌تر است و می‌تواند کلان‌تر شود"
+            },
+            {
+              "en": "Because one hour is all you will ever need",
+              "fa": "چون یک ساعت برای همیشه کافی است"
+            },
+            {
+              "en": "To trick your family",
+              "fa": "برای فریب دادن خانواده"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "Small steps build trust, and trust makes the next step easier.",
+            "fa": "قدم‌های کوچک اعتماد می‌سازند، و اعتماد قدم بعدی را آسان‌تر می‌کند."
+          }
+        }
+      ],
+      "practice": "family-study",
+      "sources": [
+        "Practical guidance only; no factual claims"
+      ]
+    },
+    {
+      "id": "r4-3",
+      "title": {
+        "en": "Answering people who doubt",
+        "fa": "جواب دادن به کسانی که شک دارند"
+      },
+      "minutes": 5,
+      "steps": [
+        {
+          "en": "Sometimes a relative or neighbour says, \"Girls don't need school.\" This can hurt. Remember: their words do not change your worth or your right to learn.",
+          "fa": "گاهی یکی از خویشاوندان یا همسایه‌ها می‌گوید: «دختر به مکتب ضرورت ندارد.» این گپ ممکن است دل شما را بشکند. به یاد داشته باشید: حرف‌های آن‌ها ارزش شما و حق آموختن شما را تغییر نمی‌دهد."
+        },
+        {
+          "en": "You don't need to win. A short, calm answer is often best, for example: \"Knowledge helps me serve my family and my faith.\" Then you can change the subject or leave politely.",
+          "fa": "لازم نیست در بحث برنده شوید. یک جواب کوتاه و آرام اکثراً بهترین است، مثلاً: «علم به من کمک می‌کند که به خانواده و دین خود خدمت کنم.» بعد می‌توانید گپ را عوض کنید یا با احترام از آنجا بروید."
+        },
+        {
+          "en": "Speak to what they care about. You can remind them that the first word of the Quran was \"Read\". Or that women and girls need women doctors, nurses and teachers, and those women must study first. An educated mother can also better help her children learn and stay healthy.",
+          "fa": "از چیزی بگویید که برای آن‌ها مهم است. می‌توانید به یادشان بیاورید که اولین کلمهٔ قرآن «بخوان» بود. یا بگویید که زنان و دختران به داکتر، نرس و معلم زن ضرورت دارند، و این زنان اول باید درس بخوانند. یک مادر باسواد هم بهتر می‌تواند به درس و صحت اولادهای خود کمک کند."
+        },
+        {
+          "en": "A gentle question can work better than an argument: \"If your own daughter were sick, wouldn't you want a woman doctor to see her?\" Questions let people think for themselves.",
+          "fa": "یک سوال نرم گاهی از بحث بهتر کار می‌کند: «اگر دختر خودتان مریض شود، آیا نمی‌خواهید یک داکتر زن او را ببیند؟» سوال به مردم فرصت می‌دهد که خودشان فکر کنند."
+        },
+        {
+          "en": "Some people will not change their minds, and that is all right. You do not have to convince everyone. If a talk becomes angry or unsafe, stop: walking away calmly is wise, not weak.",
+          "fa": "بعضی مردم نظر خود را تغییر نمی‌دهند، و این مشکلی نیست. لازم نیست همه را قانع کنید. اگر گپ به قهر یا خطر کشید، بس کنید: آرام رفتن از آنجا عاقلانه است، نه ضعف."
+        }
+      ],
+      "reflect": {
+        "en": "What is one short, calm sentence you could say the next time someone doubts you?",
+        "fa": "دفعهٔ بعد که کسی به شما شک کرد، چه جملهٔ کوتاه و آرامی می‌توانید بگویید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "A relative says girls don't need school. What is the goal of your answer?",
+            "fa": "یکی از خویشاوندان می‌گوید دختر به مکتب ضرورت ندارد. هدف جواب شما چیست؟"
+          },
+          "options": [
+            {
+              "en": "To win the argument at any cost",
+              "fa": "برنده شدن در بحث به هر قیمتی"
+            },
+            {
+              "en": "To make them feel ashamed",
+              "fa": "شرمنده ساختن آن‌ها"
+            },
+            {
+              "en": "To answer calmly and keep yourself safe",
+              "fa": "آرام جواب دادن و در امان ماندن"
+            }
+          ],
+          "answer": 2,
+          "why": {
+            "en": "You don't have to convince everyone; a calm answer protects your peace and your safety.",
+            "fa": "لازم نیست همه را قانع کنید؛ یک جواب آرام، آرامش و امنیت شما را حفظ می‌کند."
+          }
+        },
+        {
+          "q": {
+            "en": "If the talk becomes angry, what is wise?",
+            "fa": "اگر گپ به قهر کشید، چه کاری عاقلانه است؟"
+          },
+          "options": [
+            {
+              "en": "Shout louder",
+              "fa": "بلندتر داد بزنید"
+            },
+            {
+              "en": "Stop and walk away calmly",
+              "fa": "بس کنید و آرام از آنجا بروید"
+            },
+            {
+              "en": "Say something hurtful back",
+              "fa": "با یک گپ دل‌آزار جواب بدهید"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Leaving calmly is wise, not weak; your safety comes first.",
+            "fa": "آرام رفتن عاقلانه است، نه ضعف؛ امنیت شما از همه مهم‌تر است."
+          }
+        }
+      ],
+      "practice": "relative-doubts",
+      "sources": [
+        "Quran 96:1 (first revealed word, 'Read')",
+        "Otherwise practical guidance; no other factual claims"
+      ]
+    },
+    {
+      "id": "r4-4",
+      "title": {
+        "en": "When something is wrong",
+        "fa": "وقتی چیزی درست نیست"
+      },
+      "minutes": 7,
+      "steps": [
+        {
+          "en": "If someone hurts you, threatens you, or tries to force you to marry, or to marry too young, it is not your fault. Nothing you did or said makes it right. Every child has the right to be protected from violence (Convention on the Rights of the Child, Article 19).",
+          "fa": "اگر کسی به شما آسیب می‌رساند، شما را تهدید می‌کند، یا می‌خواهد شما را به زور یا در سن کم مجبور به ازدواج کند، گناه شما نیست. هیچ کاری که کرده‌اید یا گپی که زده‌اید، آن را درست نمی‌سازد. هر طفل حق دارد از خشونت در امان باشد (کنوانسیون حقوق طفل، مادهٔ ۱۹)."
+        },
+        {
+          "en": "The Universal Declaration of Human Rights (Article 16) says marriage must be only with the free and full consent of both people. CEDAW, which Afghanistan joined in 2003, says the marriage of a child should have no legal effect. In Islam too, the Prophet (peace be upon him) taught that a woman must be asked for her permission before she is married.",
+          "fa": "اعلامیهٔ جهانی حقوق بشر (مادهٔ ۱۶) می‌گوید ازدواج فقط باید با رضایت آزاد و کامل هر دو نفر باشد. کنوانسیون سیداو، که افغانستان در سال ۲۰۰۳ به آن پیوست، می‌گوید نکاح طفل نباید اعتبار قانونی داشته باشد. در اسلام هم پیامبر (ص) فرموده‌اند که پیش از نکاح یک زن، باید از خودش اجازه گرفته شود."
+        },
+        {
+          "en": "Find one trusted adult. This could be your mother, a grandmother, an aunt, an older sister, a woman teacher, or an elder the family respects. Tell her or him what is happening, a little at a time if that is easier. You should not have to carry this alone.",
+          "fa": "یک بزرگ‌سال قابل اعتماد پیدا کنید. این می‌تواند مادر، مادرکلان، خاله یا عمه، خواهر کلان، یک معلم زن، یا یک ریش‌سفید یا موی‌سفید باشد که خانواده به او احترام دارد. به او بگویید که چه می‌گذرد؛ اگر آسان‌تر است، کم‌کم بگویید. شما نباید این بار را تنها بردارید."
+        },
+        {
+          "en": "To say no to pressure, keep it short and calm: \"No. I am not ready.\" You don't need to give many reasons; you can repeat the same words. If you need time, say \"I need time to think,\" and use that time to talk with your trusted adult.",
+          "fa": "برای «نه» گفتن به فشار، کوتاه و آرام بگویید: «نه. من آماده نیستم.» لازم نیست دلیل‌های زیاد بیاورید؛ می‌توانید همان کلمات را تکرار کنید. اگر به وقت ضرورت دارید، بگویید: «به وقت ضرورت دارم تا فکر کنم»، و در این وقت با همان بزرگ‌سال قابل اعتماد گپ بزنید."
+        },
+        {
+          "en": "If you are in danger right now, your first job is to stay safe: go to a place or a person where you are safer, and try to keep things from getting worse. Protecting yourself is not cowardice. If you cannot stop what is happening, it is not your failure, and you can keep looking for help.",
+          "fa": "اگر همین حالا در خطر هستید، اولین کار شما در امان ماندن است: به جایی یا نزد کسی بروید که در آنجا امن‌تر هستید، و کوشش کنید که وضع بدتر نشود. محافظت از خود ترسویی نیست. اگر نتوانستید جلوی آنچه را که پیش می‌آید بگیرید، این ناکامی شما نیست، و می‌توانید باز هم به دنبال کمک باشید."
+        }
+      ],
+      "reflect": {
+        "en": "Think of one adult you trust. How might you start to talk to her or him?",
+        "fa": "به یک بزرگ‌سال فکر کنید که به او اعتماد دارید. چطور می‌توانید گپ زدن با او را شروع کنید؟"
+      },
+      "check": [
+        {
+          "q": {
+            "en": "If someone is hurting you, whose fault is it?",
+            "fa": "اگر کسی به شما آسیب می‌رساند، گناه کیست؟"
+          },
+          "options": [
+            {
+              "en": "Yours, for not being careful enough",
+              "fa": "گناه شما، چون به اندازهٔ کافی احتیاط نکردید"
+            },
+            {
+              "en": "Never yours; the person causing harm is responsible",
+              "fa": "هرگز گناه شما نیست؛ کسی که آسیب می‌رساند مسئول است"
+            },
+            {
+              "en": "No one's; it is just how life is",
+              "fa": "گناه هیچ کس نیست؛ زندگی همین است"
+            }
+          ],
+          "answer": 1,
+          "why": {
+            "en": "Harm is never the fault of the person being hurt.",
+            "fa": "آسیب هرگز گناه کسی نیست که آسیب می‌بیند."
+          }
+        },
+        {
+          "q": {
+            "en": "What does Article 16 of the Universal Declaration of Human Rights say about marriage?",
+            "fa": "مادهٔ ۱۶ اعلامیهٔ جهانی حقوق بشر در مورد ازدواج چه می‌گوید؟"
+          },
+          "options": [
+            {
+              "en": "It must be with the free and full consent of both people",
+              "fa": "باید با رضایت آزاد و کامل هر دو نفر باشد"
+            },
+            {
+              "en": "The family decides alone",
+              "fa": "فقط خانواده تصمیم می‌گیرد"
+            },
+            {
+              "en": "It should happen as early as possible",
+              "fa": "باید هر چه زودتر انجام شود"
+            }
+          ],
+          "answer": 0,
+          "why": {
+            "en": "Article 16 says marriage needs the free and full consent of both people.",
+            "fa": "مادهٔ ۱۶ می‌گوید ازدواج به رضایت آزاد و کامل هر دو نفر ضرورت دارد."
+          }
+        }
+      ],
+      "practice": "say-no",
+      "sources": [
+        "Convention on the Rights of the Child, Article 19 (protection from all forms of violence); ratified by Afghanistan 1994",
+        "UDHR, Article 16(2)",
+        "CEDAW, Article 16(2) (marriage of a child shall have no legal effect); ratified by Afghanistan 2003",
+        "Sahih al-Bukhari 5136 and Sahih Muslim 1419 (a woman is not married without her permission/consultation)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 173,
+  "printed_page": 166,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "توابع مثلثاتی",
+  "summary_fa": "این صفحه دایرهٔ مثلثاتی و خطوط مثلثاتی را معرفی می‌کند. وقتی θ به رادیان باشد، θ متحول مستقل و sin، cos، tan، cot، sec و csc متحول‌های مقید (وابسته) هستند؛ یعنی توابعی‌اند که قیمت آن‌ها فقط به θ بستگی دارد. دایرهٔ مثلثاتی دایره‌یی به شعاع واحد است که مرکزش در مبدأ است. محور عمودی را محور ساین‌ها و محور افقی را محور کوساین‌ها می‌گویند؛ خط مماس بر دایره در نقطهٔ A محور تانجانت و خط مماس در نقطهٔ B محور کوتانجانت است. اگر از A در جهت مثبت تا نقطهٔ M حرکت کنیم، هر شش نسبت زاویهٔ θ برابر طول یک پارچه‌خط در این شکل می‌شود؛ به همین سبب به نسبت‌ها «خطوط مثلثاتی» هم می‌گویند. در پایان گفته می‌شود که این کار برای ربع‌های دیگر هم انجام می‌شود (ادامه در صفحهٔ بعد).",
+  "key_points_fa": [
+    "دایرهٔ مثلثاتی: مرکز در مبدأ و شعاع ۱؛ پس $r = OM = OA = OB = 1$.",
+    "θ متحول مستقل و شش نسبت مثلثاتی متحول‌های مقید (توابع θ) هستند.",
+    "محور y′oy محور ساین‌ها، محور x′ox محور کوساین‌ها، TAT′ (مماس در A) محور تانجانت و q′Bq (مماس در B) محور کوتانجانت است.",
+    "$\\sin\\theta = \\overline{OH'}$، $\\cos\\theta = \\overline{OH}$، $\\tan\\theta = \\overline{AP}$، $\\cot\\theta = \\overline{BQ}$، $\\sec\\theta = \\overline{OP}$، $\\csc\\theta = \\overline{OQ}$."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\theta = \\frac{HM}{OM} = \\overline{OH'},\\quad \\cos\\theta = \\frac{OH}{OM} = \\overline{OH}", "meaning_fa": "sin و cos به شکل پارچه‌خط روی محورها"},
+    {"latex": "\\tan\\theta = \\frac{HM}{OH} = \\frac{AP}{OA} = \\overline{AP},\\quad \\cot\\theta = \\frac{OH}{HM} = \\frac{BQ}{OB} = \\overline{BQ}", "meaning_fa": "tan روی محور تانجانت و cot روی محور کوتانجانت"},
+    {"latex": "\\sec\\theta = \\frac{OM}{OH} = \\frac{OP}{OA} = \\overline{OP},\\quad \\csc\\theta = \\frac{OM}{HM} = \\frac{OQ}{OB} = \\overline{OQ}", "meaning_fa": "sec و csc به شکل فاصله از مبدأ تا نقاط P و Q"}
+  ],
+  "terms": [
+    {"fa": "دایرهٔ مثلثاتی", "en": "trigonometric circle (unit circle)"},
+    {"fa": "متحول مستقل", "en": "independent variable"},
+    {"fa": "متحول مقید", "en": "dependent variable"},
+    {"fa": "محور ساین‌ها", "en": "sine axis"},
+    {"fa": "محور تانجانت", "en": "tangent axis"},
+    {"fa": "خطوط مثلثاتی", "en": "trigonometric lines"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.17, 0.18, 0.48, 0.38], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی سبز با مرکز O و قطرهای XX′ و YY′. خط عمودی TT′ در نقطهٔ A (روی محور مثبت X) بر دایره مماس است و خط افقی q′q در نقطهٔ B (روی محور مثبت Y). یک خط آبی از O با زاویهٔ θ دایره را در M قطع می‌کند و ادامهٔ آن محور تانجانت را در P و محور کوتانجانت را در Q می‌برد. H پای عمود از M بر محور X و H′ پای عمود از M بر محور Y است. طول‌های OH′، OH، AP، BQ، OP و OQ به ترتیب sin، cos، tan، cot، sec و csc زاویهٔ θ هستند."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب در شکل از نقطهٔ P روی محور تانجانت و Q روی محور کوتانجانت استفاده می‌کند؛ روابط sec و csc از تشابه مثلث‌ها به دست می‌آیند."
+}

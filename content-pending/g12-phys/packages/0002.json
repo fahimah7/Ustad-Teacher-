@@ -1,0 +1,22 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-phys",
+  "pdf_page": 2,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": "سرود ملی",
+  "summary_fa": "این صفحه بیرق سه‌رنگ افغانستان (سیاه، سرخ و سبز با نشان ملی در قسمت سرخ) و متن سرود ملی را نشان می‌دهد. سرود ملی به زبان پښتو است و از وطن، وحدت اقوام گوناگون افغانستان و افتخار ملی سخن می‌گوید. نیمهٔ چپ تصویر سفید و خالی است. این صفحه درس فزیک ندارد.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [
+    {"id": "fig1", "bbox": [0.54, 0.05, 0.82, 0.73], "kind": "photo", "description_fa": "بیرق افغانستان روی یک پایهٔ فلزی؛ رنگ‌های سیاه، سرخ و سبز با نشان ملی در قسمت سرخ."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "صفحهٔ سرود ملی؛ محتوای فزیک ندارد و شمارهٔ صفحه چاپ نشده است. متن سرود عمداً نقل نشده است."
+}

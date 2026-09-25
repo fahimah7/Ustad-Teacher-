@@ -1,0 +1,77 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 157,
+  "printed_page": 150,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "خواص انتیگرال معین",
+  "summary_fa": "این صفحه خواص انتیگرال معین را با ثبوت و مثال ادامه می‌دهد. اول مثال خاصیت ۱ ($\\int_3^4 dx$) حل می‌شود. خاصیت ۲: اگر f روی $[a, b]$ انتیگرال‌پذیر و k عدد ثابت باشد، k را می‌توان بیرون از انتیگرال معین آورد؛ ثبوت آن از بیرون آوردن k از مجموع ریمان و لیمت است. مثال آن $\\int_{-2}^{2} 4\\,dx$ است. خاصیت ۳: اگر جای سرحدهای پایینی و بالایی عوض شود، علامهٔ انتیگرال عوض می‌شود؛ ثبوت آن با $F(b) - F(a) = -(F(a) - F(b))$ است. در مثال آخر $\\int_2^3 2x\\,dx$ و $\\int_3^2 2x\\,dx$ حساب می‌شوند و جواب‌ها ۵ و ۵- هستند.",
+  "key_points_fa": [
+    "خاصیت ۲: $\\int_a^b k f(x)dx = k\\int_a^b f(x)dx$",
+    "خاصیت ۳: $\\int_a^b f(x)dx = -\\int_b^a f(x)dx$",
+    "عوض کردن جای سرحدها فقط علامهٔ جواب را عوض می‌کند، نه اندازهٔ آن را.",
+    "$\\int_a^b dx = b - a$ (طول انتروال)"
+  ],
+  "formulas": [
+    {"latex": "\\int_a^b k\\,f(x)\\,dx = k\\int_a^b f(x)\\,dx", "meaning_fa": "خاصیت ۲: بیرون آوردن ضریب ثابت"},
+    {"latex": "\\int_a^b f(x)\\,dx = -\\int_b^a f(x)\\,dx", "meaning_fa": "خاصیت ۳: تبدیل سرحدها علامه را عوض می‌کند"}
+  ],
+  "terms": [
+    {"fa": "انتیگرال‌پذیر", "en": "integrable"},
+    {"fa": "سرحد انتیگرال", "en": "limit of integration"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (خاصیت ۱)",
+      "problem_fa": "$\\int_3^4 dx$",
+      "steps_fa": ["$[x]_3^4 = 4 - 3 = 1$"],
+      "answer": "$1$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت خاصیت ۲",
+      "problem_fa": "نشان دهید $\\int_a^b k f(x)dx = k\\int_a^b f(x)dx$",
+      "steps_fa": [
+        "$\\lim_{n\\to\\infty}\\sum_{i=1}^{n} k f(x_i)\\Delta x = \\lim_{n\\to\\infty} k\\sum_{i=1}^{n} f(x_i)\\Delta x$ (k در هر جمله مشترک است)",
+        "$= k\\lim_{n\\to\\infty}\\sum_{i=1}^{n} f(x_i)\\Delta x = k\\int_a^b f(x)dx$"
+      ],
+      "answer": "$\\int_a^b k f(x)dx = k\\int_a^b f(x)dx$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال (خاصیت ۲)",
+      "problem_fa": "$\\int_{-2}^{2} 4\\,dx$",
+      "steps_fa": ["$4\\int_{-2}^{2} dx = 4[x]_{-2}^{2} = 4(2 + 2) = 16$"],
+      "answer": "$16$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "ثبوت خاصیت ۳",
+      "problem_fa": "اگر F تابع اولیهٔ f و f روی $[a, b]$ متمادی باشد، نشان دهید $\\int_a^b f\\,dx = -\\int_b^a f\\,dx$",
+      "steps_fa": [
+        "$\\int_a^b f(x)dx = F(b) - F(a) = -(F(a) - F(b))$",
+        "$F(a) - F(b) = \\int_b^a f(x)dx$، پس $\\int_a^b f\\,dx = -\\int_b^a f\\,dx$"
+      ],
+      "answer": "$\\int_a^b f(x)dx = -\\int_b^a f(x)dx$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال (خاصیت ۳)",
+      "problem_fa": "تساوی $\\int_2^3 2x\\,dx = -\\int_3^2 2x\\,dx$ را امتحان کنید.",
+      "steps_fa": [
+        "$\\int_2^3 2x\\,dx = [x^2]_2^3 = 9 - 4 = 5$",
+        "$\\int_3^2 2x\\,dx = [x^2]_3^2 = 4 - 9 = -5$",
+        "پس $5 = -(-5)$ و تساوی درست است."
+      ],
+      "answer": "$5$ و $-5$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب تابع اولیهٔ $2x$ را به شکل $\\frac{2x^2}{2}$ نوشته که همان $x^2$ است."
+}

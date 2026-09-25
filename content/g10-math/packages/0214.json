@@ -1,0 +1,61 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 214,
+  "printed_page": 207,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "گراف تابع کوتانجانت",
+  "summary_fa": "این صفحه درس گراف کوتانجانت را شروع می‌کند. شکل آغاز درس دایرهٔ مثلثاتی و خط افقی مماس بر دایره در نقطهٔ $C(0,1)$ را نشان می‌دهد؛ ضلع دوم زاویهٔ t این خط را در A قطع می‌کند و $\\cot t = \\frac{AC}{OC} = \\frac{AC}{1} = AC$. دو پرسش مطرح می‌شود: پریود cot چقدر است و اگر $\\sin t = 0$ باشد، cot تعریف شده است یا نه. چون $\\cot t = \\frac{\\cos t}{\\sin t}$، وقتی $\\sin t = 0$ یعنی $t = k\\pi$ باشد، cot تعریف نشده است. پس ناحیهٔ تعریف cot تمام اعداد حقیقی به جز مضرب‌های تام $\\pi$ است، ناحیهٔ قیمت‌های آن تمام اعداد حقیقی است و گراف آن در $t = k\\pi$ مجانب عمودی دارد. در ناحیهٔ اول cot از $+\\infty$ تا ۰ کم می‌شود و در ناحیهٔ دوم از ۰ تا $-\\infty$؛ چون پریود cot برابر $\\pi$ است، نواحی سوم و چهارم همین تغییرات را تکرار می‌کنند.",
+  "key_points_fa": [
+    "$\\cot t = \\frac{\\cos t}{\\sin t}$؛ در $t = k\\pi$ (جایی که $\\sin t = 0$) تعریف نشده است.",
+    "ناحیهٔ تعریف: $\\mathbb{R} - \\{k\\pi\\}$؛ ناحیهٔ قیمت‌ها: تمام اعداد حقیقی.",
+    "مجانب‌های عمودی cot در $t = k\\pi$ هستند.",
+    "cot در هر شاخه متناقص است: از $+\\infty$ تا ۰ و بعد تا $-\\infty$.",
+    "پریود cot برابر $\\pi$ است."
+  ],
+  "formulas": [
+    {"latex": "\\cot t = \\frac{\\cos t}{\\sin t}", "meaning_fa": "تعریف کوتانجانت"},
+    {"latex": "D_{\\cot} = \\mathbb{R} - \\{t \\mid t = k\\pi,\\ k \\in \\mathbb{Z}\\} = \\{t \\in \\mathbb{R} \\mid \\sin t \\neq 0\\}", "meaning_fa": "ناحیهٔ تعریف تابع cot"},
+    {"latex": "\\cot(t) = \\frac{AC}{OC} = AC", "meaning_fa": "cot به شکل طول قطعه روی خط مماس $y = 1$"},
+    {"latex": "\\cot(t + \\pi) = \\cot t", "meaning_fa": "پریود cot برابر $\\pi$ است"}
+  ],
+  "terms": [
+    {"fa": "کوتانجانت", "en": "cotangent"},
+    {"fa": "مجانب عمودی", "en": "vertical asymptote"},
+    {"fa": "خط مماس", "en": "tangent line"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.04, 0.47, 0.33], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی با مرکز O، نقطهٔ B روی محور X و خط افقی مماس در $C$ (بالای دایره). خط سرخ از O با زاویهٔ t خط مماس را در A قطع می‌کند. زیر شکل نوشته شده $\\cot(t) = \\frac{AC}{OC} = \\frac{AC}{1} = AC$؛ یعنی cot طول AC روی خط مماس است."},
+    {"id": "fig2", "bbox": [0.18, 0.74, 0.78, 0.83], "kind": "table", "description_fa": "جدول تغییرات $\\cot t$ از ۰ تا $2\\pi$: در ۰ خط عمودی دوگانه (تعریف نشده)، بعد از $+\\infty$ کم می‌شود تا ۰ در $\\frac{\\pi}{2}$ و تا $-\\infty$ نزدیک $\\pi$؛ در $\\pi$ خط عمودی دیگر، بعد از $+\\infty$ تا ۰ در $\\frac{3\\pi}{2}$ و تا $-\\infty$ نزدیک $2\\pi$. همهٔ تیرها رو به پایین‌اند."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغاز درس ۱",
+      "kind": "question",
+      "problem_fa": "دورهٔ تناوب تابع کوتانجانت چقدر است؟",
+      "solution_steps_fa": [
+        "$\\cot t = \\frac{1}{\\tan t}$ و tan در هر $\\pi$ تکرار می‌شود.",
+        "پس $\\cot(t + \\pi) = \\cot t$ و عدد مثبت کوچک‌تری این کار را نمی‌کند."
+      ],
+      "answer": "$\\pi$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "پرسش آغاز درس ۲",
+      "kind": "question",
+      "problem_fa": "اگر $\\sin t = 0$ باشد، آیا $\\cot t$ تعریف شده است؟ چرا؟",
+      "solution_steps_fa": [
+        "$\\cot t = \\frac{\\cos t}{\\sin t}$ و مخرج آن $\\sin t$ است.",
+        "اگر مخرج صفر شود، تقسیم ممکن نیست."
+      ],
+      "answer": "خیر؛ چون مخرج صفر می‌شود، cot در $t = k\\pi$ تعریف نشده است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در متن کتاب جملهٔ مجانب‌ها با $f(t) = \\cos(t)$ چاپ شده که منظور $\\cot(t)$ است."
+}

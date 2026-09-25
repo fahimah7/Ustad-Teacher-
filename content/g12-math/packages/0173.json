@@ -1,0 +1,60 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 173,
+  "printed_page": 166,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "انتیگرال‌گیری به طریقهٔ قسمی (Integration by Parts)",
+  "summary_fa": "این صفحه روش قسمی را با دو مثال تمرین می‌دهد و بعد چهار تمرین می‌آورد. در مثال ۱، برای $\\int x\\sin x\\,dx$ قسمت x را u می‌گیریم چون مشتقش ساده (1) می‌شود، و $\\sin x\\,dx$ را dv می‌گیریم؛ با فورمول قسمی جواب $-x\\cos x + \\sin x + C$ به دست می‌آید. در مثال ۲، انتیگرال معین $\\int_0^1 -xe^x dx$ با $u=-x$ و $dv=e^xdx$ حل می‌شود؛ یادداشت صفحه یادآوری می‌کند که انتیگرال $e^x$ خودش $e^x$ است. در تمرین‌ها، قاعدهٔ عمومی این است: x (یا توان آن) را u بگیرید و تابع مثلثاتی یا $e^x$ را dv.",
+  "key_points_fa": [
+    "u را قسمتی بگیرید که با مشتق گرفتن ساده‌تر شود (مثلاً x).",
+    "dv را قسمتی بگیرید که انتیگرالش آسان باشد (مثلاً $\\sin x$، $\\cos x$، $e^x$).",
+    "$\\int e^x dx = e^x + c$",
+    "در انتیگرال معین، $uv$ را در سرحدات حساب کنید و بعد انتیگرال باقی‌مانده را."
+  ],
+  "formulas": [
+    {"latex": "\\int u\\,dv = uv - \\int v\\,du", "meaning_fa": "فورمول روش قسمی"},
+    {"latex": "\\int e^x\\,dx = e^x + c", "meaning_fa": "انتیگرال تابع اکسپوننشیل (یادداشت صفحه)"}
+  ],
+  "terms": [
+    {"fa": "روش قسمی", "en": "integration by parts"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.66, 0.43, 0.88, 0.53], "kind": "table", "description_fa": "جعبهٔ «یادداشت» که قاعدهٔ $\\int e^x dx = e^x + c$ را نشان می‌دهد و در مثال ۲ به کار می‌رود."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\int x\\sin x\\,dx$",
+      "steps_fa": [
+        "$u = x,\\ du = dx$؛ $dv = \\sin x\\,dx,\\ v = -\\cos x$",
+        "$\\int x\\sin x\\,dx = x(-\\cos x) - \\int(-\\cos x)\\,dx$",
+        "$= -x\\cos x + \\sin x + C$"
+      ],
+      "answer": "$-x\\cos x + \\sin x + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\int_0^1 -xe^x\\,dx$",
+      "steps_fa": [
+        "$u = -x,\\ du = -dx$؛ $dv = e^xdx,\\ v = e^x$",
+        "$\\int_0^1 -xe^xdx = \\left[-xe^x\\right]_0^1 + \\int_0^1 e^xdx$",
+        "$= (-e + 0) + (e - 1) = -1$"
+      ],
+      "answer": "$-1$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {"label_fa": "a", "kind": "exercise", "problem_fa": "$\\int\\theta\\cos\\theta\\,d\\theta$", "solution_steps_fa": ["$u=\\theta,\\ du=d\\theta$؛ $dv=\\cos\\theta\\,d\\theta,\\ v=\\sin\\theta$", "$\\theta\\sin\\theta - \\int\\sin\\theta\\,d\\theta = \\theta\\sin\\theta + \\cos\\theta + C$"], "answer": "$\\theta\\sin\\theta + \\cos\\theta + C$", "solution_source": "generated"},
+    {"label_fa": "b", "kind": "exercise", "problem_fa": "$\\int_0^{\\pi/2} x\\cos 2x\\,dx$", "solution_steps_fa": ["$u=x$؛ $dv=\\cos2x\\,dx,\\ v=\\frac12\\sin2x$", "$\\left[\\frac{x}{2}\\sin2x\\right]_0^{\\pi/2} - \\frac12\\int_0^{\\pi/2}\\sin2x\\,dx = 0 - \\frac12\\left[-\\frac12\\cos2x\\right]_0^{\\pi/2}$", "$= \\frac14(\\cos\\pi - \\cos0) = \\frac14(-2)$"], "answer": "$-\\frac12$", "solution_source": "generated"},
+    {"label_fa": "c", "kind": "exercise", "problem_fa": "$\\int x^5\\cos(x^3)\\,dx$", "solution_steps_fa": ["اول تعویض: $t=x^3$، $dt=3x^2dx$، پس $x^5dx = x^3\\cdot x^2dx = \\frac13t\\,dt$", "$\\frac13\\int t\\cos t\\,dt$؛ با روش قسمی: $\\int t\\cos t\\,dt = t\\sin t + \\cos t$", "$\\frac13(x^3\\sin x^3 + \\cos x^3) + C$"], "answer": "$\\frac13\\left(x^3\\sin x^3 + \\cos x^3\\right) + C$", "solution_source": "generated"},
+    {"label_fa": "d", "kind": "exercise", "problem_fa": "$\\int_0^1 xe^x\\,dx$", "solution_steps_fa": ["$u=x$؛ $dv=e^xdx,\\ v=e^x$", "$\\left[xe^x\\right]_0^1 - \\int_0^1e^xdx = e - (e-1)$"], "answer": "$1$", "solution_source": "generated"}
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

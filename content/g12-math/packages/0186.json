@@ -1,0 +1,95 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 186,
+  "printed_page": 179,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مشتق توابع اکسپوننشیل و لوگاریتمی",
+  "summary_fa": "این صفحه پنج مثال حل‌شده دربارهٔ مشتق توابع اکسپوننشیل دارد و صورت مثال ۹ را هم می‌آورد. در مثال‌های ۴ و ۸ قاعدهٔ $(e^u)' = u'e^u$ به کار می‌رود؛ در مثال‌های ۵ و ۷ قاعدهٔ $(a^u)' = u'a^u\\ln a$. مثال ۶ از همه مهم‌تر است: در $y = x^{2x}$ هم قاعده و هم توان متحول اند، پس هیچ‌کدام از قاعده‌های بالا مستقیم کار نمی‌کند؛ از دو طرف لوگاریتم طبیعی می‌گیریم تا توان پایین بیاید، بعد مشتق می‌گیریم (مشتق لوگاریتمی). مثال ۹ سه تابع لوگاریتمی با قاعده‌های مختلف است که حل آن در صفحهٔ بعد آمده.",
+  "key_points_fa": [
+    "$(e^u)' = u'e^u$: خود تابع ضرب مشتق توان.",
+    "$(a^u)' = u'a^u\\ln a$: مثل بالا، فقط ضرب $\\ln a$ هم می‌شود.",
+    "$\\sqrt[x]{2} = 2^{\\frac{1}{x}}$: جذر را به توان کسری تبدیل کنید.",
+    "وقتی قاعده و توان هر دو متحول باشند (مثل $x^{2x}$)، از مشتق لوگاریتمی استفاده کنید."
+  ],
+  "formulas": [
+    {"latex": "(e^u)' = u'e^u", "meaning_fa": "مشتق اکسپوننشیل طبیعی با توان تابعی"},
+    {"latex": "(a^u)' = u'a^u\\ln a", "meaning_fa": "مشتق اکسپوننشیل با قاعدهٔ a"},
+    {"latex": "y = f(x)^{g(x)} \\Rightarrow \\ln y = g(x)\\ln f(x)", "meaning_fa": "گام اول مشتق لوگاریتمی"}
+  ],
+  "terms": [
+    {"fa": "مشتق لوگاریتمی", "en": "logarithmic differentiation"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "مشتق $y = e^{x^2+1}$",
+      "steps_fa": [
+        "$u = x^2 + 1$ و $u' = 2x$",
+        "$y' = u'e^u = 2x\\,e^{x^2+1}$"
+      ],
+      "answer": "$y' = 2x\\,e^{x^2+1}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "مشتق $y = \\sqrt[x]{2}$",
+      "steps_fa": [
+        "$y = 2^{\\frac{1}{x}}$؛ پس $u = \\frac{1}{x}$ و $u' = -\\frac{1}{x^2}$",
+        "$y' = u'a^u\\ln a = -\\frac{1}{x^2}\\cdot 2^{\\frac{1}{x}}\\ln 2$"
+      ],
+      "answer": "$y' = -\\frac{2^{1/x}\\ln 2}{x^2}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۶",
+      "problem_fa": "مشتق $y = x^{2x}$",
+      "steps_fa": [
+        "از دو طرف ln می‌گیریم: $\\ln y = 2x\\ln x$",
+        "مشتق دو طرف (قاعدهٔ ضرب در طرف راست): $\\frac{y'}{y} = 2\\ln x + 2x\\cdot\\frac{1}{x} = 2\\ln x + 2$",
+        "$y' = 2(\\ln x + 1)\\,y = 2(\\ln x + 1)\\,x^{2x}$"
+      ],
+      "answer": "$y' = 2(\\ln x + 1)x^{2x}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۷",
+      "problem_fa": "مشتق $y = 10^x$",
+      "steps_fa": [
+        "با قاعدهٔ $(a^x)' = a^x\\ln a$ و $a = 10$:",
+        "$y' = 10^x\\ln 10$"
+      ],
+      "answer": "$y' = 10^x\\ln 10$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۸",
+      "problem_fa": "مشتق $y = e^{3x}$",
+      "steps_fa": [
+        "$u = 3x$ و $u' = 3$",
+        "$y' = e^u\\cdot u' = 3e^{3x}$"
+      ],
+      "answer": "$y' = 3e^{3x}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۹ (صورت)",
+      "problem_fa": "مشتق این توابع را پیدا کنید: ۱) $y = \\log(x^4+1)$ ۲) $y = \\log_3(\\log_2 x)$ ۳) $y = \\log_{x^2-1}(x^2+1)$",
+      "steps_fa": [
+        "قاعدهٔ لازم: $(\\log_a u)' = \\frac{u'}{u\\ln a}$",
+        "۱) $y' = \\frac{4x^3}{(x^4+1)\\ln 10}$",
+        "۲) $y' = \\frac{\\frac{1}{x\\ln 2}}{\\ln 3\\cdot\\log_2 x} = \\frac{1}{x\\ln 3\\ln x}$",
+        "۳) با تبدیل قاعده $y = \\frac{\\ln(x^2+1)}{\\ln(x^2-1)}$ و بعد قاعدهٔ تقسیم (حل کامل در صفحهٔ بعد)"
+      ],
+      "answer": "۱) $\\frac{4x^3}{(x^4+1)\\ln 10}$ ۲) $\\frac{1}{x\\ln 3\\ln x}$ ۳) در صفحهٔ بعد",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در مثال ۹، $\\log$ بدون قاعده یعنی لوگاریتم با قاعدهٔ ۱۰. حل مثال ۹ در صفحهٔ بعد (چاپی ۱۸۰) آمده است."
+}

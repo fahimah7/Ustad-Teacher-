@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-math",
+  "chapter": 5,
+  "title": {
+    "en": "Logarithmic and exponential functions",
+    "fa": "مشتق و انتیگرال توابع لوگاریتمی و اکسپوننشیل"
+  },
+  "questions": [
+    {
+      "pdf_page": 184,
+      "q": {
+        "en": "Find the derivative of $f(x) = \\ln(x^2+1)$.",
+        "fa": "مشتق تابع $f(x) = \\ln(x^2+1)$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{x^2+1}$",
+          "fa": "$\\frac{1}{x^2+1}$"
+        },
+        {
+          "en": "$\\frac{2x}{x^2+1}$",
+          "fa": "$\\frac{2x}{x^2+1}$"
+        },
+        {
+          "en": "$2x\\ln(x^2+1)$",
+          "fa": "$2x\\ln(x^2+1)$"
+        },
+        {
+          "en": "$\\frac{x^2+1}{2x}$",
+          "fa": "$\\frac{x^2+1}{2x}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "By the rule $(\\ln g)' = \\frac{g'}{g}$ with $g = x^2+1$ and $g' = 2x$, the derivative is $\\frac{2x}{x^2+1}$.",
+        "fa": "با قاعدهٔ $(\\ln g)' = \\frac{g'}{g}$ و $g = x^2+1$ و $g' = 2x$، مشتق مساوی $\\frac{2x}{x^2+1}$ می‌شود."
+      },
+      "idea": {
+        "en": "Call the function inside the logarithm $g(x)$ and remember the chain rule for $\\ln g(x)$.",
+        "fa": "تابع داخل لوگاریتم را $g(x)$ بنامید و قاعدهٔ زنجیری را برای $\\ln g(x)$ به یاد بیاورید."
+      }
+    },
+    {
+      "pdf_page": 190,
+      "q": {
+        "en": "For $y = \\arctan e^x$, find the value of $y'$ at $x = 0$.",
+        "fa": "برای تابع $y = \\arctan e^x$، قیمت مشتق را در نقطهٔ $x = 0$ پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{\\pi}{4}$",
+          "fa": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "en": "$1$",
+          "fa": "$1$"
+        },
+        {
+          "en": "$\\frac{1}{4}$",
+          "fa": "$\\frac{1}{4}$"
+        },
+        {
+          "en": "$\\frac{1}{2}$",
+          "fa": "$\\frac{1}{2}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$y' = \\frac{e^x}{1+e^{2x}}$, so $y'(0) = \\frac{1}{1+1} = \\frac{1}{2}$.",
+        "fa": "$y' = \\frac{e^x}{1+e^{2x}}$ است، پس $y'(0) = \\frac{1}{1+1} = \\frac{1}{2}$ می‌شود."
+      },
+      "idea": {
+        "en": "First find $y'$ with the chain rule for $\\arctan u$ (where $u = e^x$), and only then put in $x = 0$.",
+        "fa": "اول مشتق را با قاعدهٔ زنجیری برای $\\arctan u$ (با $u = e^x$) پیدا کنید و بعد $x = 0$ را بگذارید."
+      }
+    },
+    {
+      "pdf_page": 197,
+      "q": {
+        "en": "Find $\\int 2^{x-3}\\,dx$.",
+        "fa": "انتیگرال $\\int 2^{x-3}\\,dx$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$\\frac{2^x}{8\\ln 2} + C$",
+          "fa": "$\\frac{2^x}{8\\ln 2} + C$"
+        },
+        {
+          "en": "$\\frac{2^x\\ln 2}{8} + C$",
+          "fa": "$\\frac{2^x\\ln 2}{8} + C$"
+        },
+        {
+          "en": "$\\frac{8\\cdot 2^x}{\\ln 2} + C$",
+          "fa": "$\\frac{8\\cdot 2^x}{\\ln 2} + C$"
+        },
+        {
+          "en": "$\\frac{2^{x-2}}{x-2} + C$",
+          "fa": "$\\frac{2^{x-2}}{x-2} + C$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$2^{x-3} = \\frac{1}{8}\\cdot 2^x$ and $\\int 2^x\\,dx = \\frac{2^x}{\\ln 2} + C$, so the result is $\\frac{2^x}{8\\ln 2} + C$.",
+        "fa": "$2^{x-3} = \\frac{1}{8}\\cdot 2^x$ است و $\\int 2^x\\,dx = \\frac{2^x}{\\ln 2} + C$؛ پس جواب $\\frac{2^x}{8\\ln 2} + C$ است."
+      },
+      "idea": {
+        "en": "Write $2^{x-3}$ as a constant times $2^x$; the power rule $\\frac{x^{n+1}}{n+1}$ does not work here because $x$ is in the exponent.",
+        "fa": "$2^{x-3}$ را به شکل یک عدد ثابت ضرب $2^x$ بنویسید؛ قاعدهٔ توان $\\frac{x^{n+1}}{n+1}$ این‌جا کار نمی‌کند، چون $x$ در توان است."
+      }
+    },
+    {
+      "pdf_page": 201,
+      "q": {
+        "en": "Using the substitution $u = x^2$, find the value of $\\int_1^2 2x\\ln x^2\\,dx$.",
+        "fa": "با تعویض $u = x^2$، قیمت انتیگرال $\\int_1^2 2x\\ln x^2\\,dx$ را حساب کنید."
+      },
+      "options": [
+        {
+          "en": "$4\\ln 4 - 4$",
+          "fa": "$4\\ln 4 - 4$"
+        },
+        {
+          "en": "$2\\ln 2 - 1$",
+          "fa": "$2\\ln 2 - 1$"
+        },
+        {
+          "en": "$4\\ln 4 - 3$",
+          "fa": "$4\\ln 4 - 3$"
+        },
+        {
+          "en": "$2\\ln 4 - \\frac{3}{2}$",
+          "fa": "$2\\ln 4 - \\frac{3}{2}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "With $du = 2x\\,dx$ the limits become $1$ and $4$, and $[u\\ln u - u]_1^4 = (4\\ln 4 - 4) - (0 - 1) = 4\\ln 4 - 3$.",
+        "fa": "با $du = 2x\\,dx$ سرحدات $1$ و $4$ می‌شوند و $[u\\ln u - u]_1^4 = (4\\ln 4 - 4) - (0 - 1) = 4\\ln 4 - 3$ است."
+      },
+      "idea": {
+        "en": "When you change the variable in a definite integral, change the limits too, and do not forget the value at the lower limit.",
+        "fa": "وقتی در انتیگرال معین متحول را عوض می‌کنید، سرحدات را هم عوض کنید و قیمت سرحد پایین را فراموش نکنید."
+      }
+    },
+    {
+      "pdf_page": 202,
+      "q": {
+        "en": "Using partial fractions, find $\\int \\frac{7x-12}{x^2-6x+8}\\,dx$.",
+        "fa": "به کمک کسور قسمی، انتیگرال $\\int \\frac{7x-12}{x^2-6x+8}\\,dx$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$8\\ln|x-2| - \\ln|x-4| + C$",
+          "fa": "$8\\ln|x-2| - \\ln|x-4| + C$"
+        },
+        {
+          "en": "$8\\ln|x-4| - \\ln|x-2| + C$",
+          "fa": "$8\\ln|x-4| - \\ln|x-2| + C$"
+        },
+        {
+          "en": "$\\ln|x-2| + 8\\ln|x-4| + C$",
+          "fa": "$\\ln|x-2| + 8\\ln|x-4| + C$"
+        },
+        {
+          "en": "$\\frac{7}{2}\\ln|x^2-6x+8| + C$",
+          "fa": "$\\frac{7}{2}\\ln|x^2-6x+8| + C$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Since $x^2-6x+8 = (x-2)(x-4)$, the fraction equals $\\frac{-1}{x-2} + \\frac{8}{x-4}$, and each part integrates to a natural logarithm.",
+        "fa": "چون $x^2-6x+8 = (x-2)(x-4)$ است، کسر مساوی $\\frac{-1}{x-2} + \\frac{8}{x-4}$ می‌شود و انتیگرال هر قسمت یک لوگاریتم طبیعی است."
+      },
+      "idea": {
+        "en": "Factor the denominator, write $\\frac{A}{x-2} + \\frac{B}{x-4}$, and find $A$ by putting $x = 2$ and $B$ by putting $x = 4$.",
+        "fa": "مخرج را تجزیه کنید، کسر را به شکل $\\frac{A}{x-2} + \\frac{B}{x-4}$ بنویسید و $A$ را با گذاشتن $x = 2$ و $B$ را با گذاشتن $x = 4$ پیدا کنید."
+      }
+    }
+  ]
+}

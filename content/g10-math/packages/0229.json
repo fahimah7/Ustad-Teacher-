@@ -1,0 +1,27 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 229,
+  "printed_page": null,
+  "page_kind": "chapter_title",
+  "chapter": 5,
+  "section_fa": null,
+  "summary_fa": "نیمهٔ دوم صفحهٔ آغاز فصل پنجم (تطبیقات مثلثات). روی آن فقط یک شکل هندسی بزرگ است: دو زاویهٔ A و B که کنار هم در رأس O قرار گرفته‌اند و با هم زاویهٔ $A + B$ را می‌سازند، همراه با چند عمود. این همان نوع شکلی است که در درس اول فصل برای ثبوت فورمول‌های $\\sin(A + B)$ و $\\cos(A + B)$ به کار می‌رود: قیمت نسبت‌های زاویهٔ مجموع از روی طول قطعه‌خط‌های عمودی و افقی شکل حساب می‌شود.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [0.03, 0.31, 0.97, 0.69],
+      "kind": "diagram",
+      "description_fa": "از نقطهٔ O سه شعاع رسم شده است: OP روی خط افقی، OQ با زاویهٔ B از آن، و OR با زاویهٔ A از OQ؛ پس زاویهٔ ROP برابر $A + B$ است. از R عمود RT بر OP و از Q عمود QP بر OP رسم شده، و از Q خط QS عمود بر RT. زاویه‌های قایمه در T، P و S علامه شده‌اند. با این شکل می‌توان نشان داد $\\sin(A+B) = \\sin A\\cos B + \\cos A\\sin B$."
+    }
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "صفحهٔ تصویری آغاز فصل، بدون متن و بدون شمارهٔ صفحه (طبق book.json صفحهٔ چاپی ۲۲۲)."
+}

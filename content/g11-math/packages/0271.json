@@ -1,0 +1,64 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 271,
+  "printed_page": 262,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "حاصل ضرب سکالری دو وکتور",
+  "summary_fa": "این صفحه نتیجهٔ فعالیت قبلی را به شکل چهار خاصیت حاصل ضرب سکالری جمع‌بندی می‌کند: صفر بودن حاصل ضرب یعنی عمود بودن، خاصیت تبدیلی، خاصیت توزیعی ضرب بالای جمع و خاصیت اتحادی با یک عدد حقیقی. در مثال ۱، دو وکتور فضایی به شکل $\\vec{i}$، $\\vec{j}$، $\\vec{k}$ جمله به جمله ضرب می‌شوند؛ از نُه جمله فقط سه جمله باقی می‌ماند و فورمول $a_1a_2 + b_1b_2 + c_1c_2$ به دست می‌آید. در مثال ۲، برای دو وکتور مستوی، با قانون کوساین در مثلثی که ضلع‌های آن $\\vec{v}$، $\\vec{w}$ و $\\vec{v} - \\vec{w}$ هستند، ثابت می‌شود که تعریف هندسی $|\\vec{v}||\\vec{w}|\\cos\\theta$ با فورمول مؤلفه‌یی $x_1x_2 + y_1y_2$ برابر است.",
+  "key_points_fa": [
+    "اگر $\\vec{u}\\cdot\\vec{v} = 0$ باشد، $\\vec{u} \\perp \\vec{v}$.",
+    "خاصیت تبدیلی: $\\vec{u}\\cdot\\vec{v} = \\vec{v}\\cdot\\vec{u}$.",
+    "خاصیت توزیعی: $\\vec{u}\\cdot(\\vec{v} + \\vec{w}) = \\vec{u}\\cdot\\vec{v} + \\vec{u}\\cdot\\vec{w}$.",
+    "خاصیت اتحادی: $(c\\vec{u})\\cdot\\vec{v} = c(\\vec{u}\\cdot\\vec{v})$.",
+    "در فضا: $\\vec{u}\\cdot\\vec{v} = a_1a_2 + b_1b_2 + c_1c_2$ (ضرب مؤلفه‌های هم‌نام و جمع آن‌ها).",
+    "فورمول مؤلفه‌یی از قانون کوساین به دست می‌آید."
+  ],
+  "formulas": [
+    {"latex": "\\vec{u}\\cdot\\vec{v} = 0 \\Rightarrow \\vec{u} \\perp \\vec{v}", "meaning_fa": "شرط عمود بودن دو وکتور غیرصفری"},
+    {"latex": "\\vec{u}\\cdot(\\vec{v} + \\vec{w}) = \\vec{u}\\cdot\\vec{v} + \\vec{u}\\cdot\\vec{w}", "meaning_fa": "خاصیت توزیعی ضرب بالای جمع"},
+    {"latex": "(c\\,\\vec{u})\\cdot\\vec{v} = c\\,(\\vec{u}\\cdot\\vec{v})", "meaning_fa": "خاصیت اتحادی ضرب با عدد حقیقی c"},
+    {"latex": "(a_1\\vec{i} + b_1\\vec{j} + c_1\\vec{k})\\cdot(a_2\\vec{i} + b_2\\vec{j} + c_2\\vec{k}) = a_1a_2 + b_1b_2 + c_1c_2", "meaning_fa": "حاصل ضرب سکالری با مؤلفه‌ها در فضا"},
+    {"latex": "|\\vec{v} - \\vec{w}|^2 = |\\vec{v}|^2 + |\\vec{w}|^2 - 2|\\vec{v}||\\vec{w}|\\cos\\theta", "meaning_fa": "قانون کوساین در مثلث وکتوری"}
+  ],
+  "terms": [
+    {"fa": "خاصیت تبدیلی", "en": "commutative property"},
+    {"fa": "خاصیت توزیعی", "en": "distributive property"},
+    {"fa": "خاصیت اتحادی", "en": "associative property (with a scalar)"},
+    {"fa": "قانون کوساین", "en": "law of cosines"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.57, 0.40, 0.67], "kind": "diagram", "description_fa": "مثلثی که ضلع قاعدهٔ آن وکتور $\\vec{v}$ و ضلع دیگر آن وکتور $\\vec{w}$ از همان رأس تا نقطهٔ P است؛ زاویهٔ بین آن‌ها $\\theta$ است و ضلع سوم وکتور $\\vec{v} - \\vec{w}$ است. این مثلث برای به کار بردن قانون کوساین و ثبوت فورمول مؤلفه‌یی حاصل ضرب سکالری استفاده می‌شود."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "حاصل ضرب سکالری $\\vec{u} = a_1\\vec{i} + b_1\\vec{j} + c_1\\vec{k}$ و $\\vec{v} = a_2\\vec{i} + b_2\\vec{j} + c_2\\vec{k}$ را دریافت کنید.",
+      "steps_fa": [
+        "با خاصیت توزیعی، هر جملهٔ اولی را در هر جملهٔ دومی ضرب می‌کنیم؛ نُه جمله مانند $a_1a_2(\\vec{i}\\cdot\\vec{i})$ و $a_1b_2(\\vec{i}\\cdot\\vec{j})$ به دست می‌آید.",
+        "جمله‌هایی که دو وکتور واحد مختلف دارند صفر هستند و $\\vec{i}\\cdot\\vec{i} = \\vec{j}\\cdot\\vec{j} = \\vec{k}\\cdot\\vec{k} = 1$.",
+        "باقی‌مانده: $a_1a_2 + b_1b_2 + c_1c_2$"
+      ],
+      "answer": "$\\vec{u}\\cdot\\vec{v} = a_1a_2 + b_1b_2 + c_1c_2$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "برای دو وکتور مستوی $\\vec{v} = \\begin{pmatrix} x_1 \\\\ y_1 \\end{pmatrix}$ و $\\vec{w} = \\begin{pmatrix} x_2 \\\\ y_2 \\end{pmatrix}$ نشان دهید که $\\vec{v}\\cdot\\vec{w} = x_1x_2 + y_1y_2$.",
+      "steps_fa": [
+        "در مثلثی با ضلع‌های $\\vec{v}$، $\\vec{w}$ و $\\vec{v} - \\vec{w}$، قانون کوساین: $|\\vec{v} - \\vec{w}|^2 = |\\vec{v}|^2 + |\\vec{w}|^2 - 2|\\vec{v}||\\vec{w}|\\cos\\theta$",
+        "$\\vec{v} - \\vec{w} = \\begin{pmatrix} x_1 - x_2 \\\\ y_1 - y_2 \\end{pmatrix}$، پس $(x_1 - x_2)^2 + (y_1 - y_2)^2 = (x_1^2 + y_1^2) + (x_2^2 + y_2^2) - 2|\\vec{v}||\\vec{w}|\\cos\\theta$",
+        "بعد از باز کردن و حذف مربع‌ها: $-2x_1x_2 - 2y_1y_2 = -2|\\vec{v}||\\vec{w}|\\cos\\theta$",
+        "پس $x_1x_2 + y_1y_2 = |\\vec{v}||\\vec{w}|\\cos\\theta = \\vec{v}\\cdot\\vec{w}$"
+      ],
+      "answer": "$\\vec{v}\\cdot\\vec{w} = x_1x_2 + y_1y_2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در کتاب در مثال ۲ مجموع $(x_1^2 + y_1^2) + (x_2^2 + y_2^2)$ به اشتباه با علامه‌های قیمت مطلقه و بدون علامهٔ جمع چاپ شده است؛ در اینجا شکل درست آن نوشته شد."
+}

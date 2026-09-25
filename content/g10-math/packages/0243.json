@@ -1,0 +1,127 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 243,
+  "printed_page": 236,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی $2\\alpha$ از جنس $\\alpha$",
+  "summary_fa": "صفحهٔ تمرین درس زاویهٔ دوچند و نصف زاویه با هشت سوال. سوال‌های ۱ و ۲ فورمول‌های $\\sin 2\\theta$، $\\cos 2\\theta$ و $\\tan 2\\theta$ را تمرین می‌دهند. سوال‌های ۳ تا ۶ فورمول‌های نصف زاویه را به کار می‌گیرند؛ در این‌ها باید اول نسبت دیگر (مثلاً $\\cos\\theta$) را از روی ربع پیدا کرد و بعد علامهٔ جذر را از روی ربع $\\frac{\\theta}{2}$ تعیین کرد. سوال‌های ۷ و ۸ چهارجوابه هستند: یکی ساین زاویهٔ دوچند و دیگری اتحادی شبیه مثال ۴ صفحهٔ قبل.",
+  "key_points_fa": [
+    "قدم اول همیشه: نسبت نامعلوم را با $\\sin^2\\theta + \\cos^2\\theta = 1$ و علامهٔ ربع پیدا کنید.",
+    "اگر $\\theta$ در ربع دوم باشد ($90^\\circ<\\theta<180^\\circ$)، $\\frac{\\theta}{2}$ در ربع اول است و نسبت‌های آن مثبت‌اند.",
+    "$15^\\circ = \\frac{30^\\circ}{2}$ و $\\frac{\\pi}{12} = \\frac{1}{2}\\cdot\\frac{\\pi}{6}$؛ پس از فورمول نصف زاویه استفاده می‌شود."
+  ],
+  "formulas": [
+    {"latex": "\\sin 2\\theta = 2\\sin\\theta\\cos\\theta,\\quad \\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta,\\quad \\tan 2\\theta = \\frac{2\\tan\\theta}{1-\\tan^2\\theta}", "meaning_fa": "فورمول‌های زاویهٔ دوچند"},
+    {"latex": "\\sin\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1-\\cos\\theta}{2}},\\quad \\cos\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}", "meaning_fa": "فورمول‌های نصف زاویه"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی $240^\\circ$ را از روی نسبت‌های $120^\\circ$ دریابید.",
+      "solution_steps_fa": [
+        "$240^\\circ = 2\\cdot 120^\\circ$؛ $\\sin 120^\\circ = \\frac{\\sqrt{3}}{2}$، $\\cos 120^\\circ = -\\frac{1}{2}$، $\\tan 120^\\circ = -\\sqrt{3}$",
+        "$\\sin 240^\\circ = 2\\cdot\\frac{\\sqrt{3}}{2}\\cdot(-\\frac{1}{2}) = -\\frac{\\sqrt{3}}{2}$",
+        "$\\cos 240^\\circ = \\frac{1}{4} - \\frac{3}{4} = -\\frac{1}{2}$",
+        "$\\tan 240^\\circ = \\frac{2(-\\sqrt{3})}{1 - 3} = \\sqrt{3}$"
+      ],
+      "answer": "$\\sin 240^\\circ = -\\frac{\\sqrt{3}}{2}$، $\\cos 240^\\circ = -\\frac{1}{2}$، $\\tan 240^\\circ = \\sqrt{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\sin\\theta = \\frac{3}{5}$ و $\\theta$ در ربع اول باشد، $\\sin 2\\theta$، $\\cos 2\\theta$ و $\\tan 2\\theta$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\cos\\theta = \\sqrt{1 - \\frac{9}{25}} = \\frac{4}{5}$",
+        "$\\sin 2\\theta = 2\\cdot\\frac{3}{5}\\cdot\\frac{4}{5} = \\frac{24}{25}$",
+        "$\\cos 2\\theta = \\frac{16}{25} - \\frac{9}{25} = \\frac{7}{25}$",
+        "$\\tan 2\\theta = \\frac{24/25}{7/25} = \\frac{24}{7}$"
+      ],
+      "answer": "$\\frac{24}{25}$، $\\frac{7}{25}$، $\\frac{24}{7}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\sin\\theta = \\frac{4}{5}$ و $\\theta$ در ربع دوم باشد، $\\cos\\frac{\\theta}{2}$ را دریابید.",
+      "solution_steps_fa": [
+        "در ربع دوم کوساین منفی است: $\\cos\\theta = -\\frac{3}{5}$",
+        "$45^\\circ < \\frac{\\theta}{2} < 90^\\circ$؛ پس $\\cos\\frac{\\theta}{2}$ مثبت است.",
+        "$\\cos\\frac{\\theta}{2} = \\sqrt{\\frac{1 - \\frac{3}{5}}{2}} = \\sqrt{\\frac{1}{5}} = \\frac{\\sqrt{5}}{5}$"
+      ],
+      "answer": "$\\frac{1}{\\sqrt{5}} = \\frac{\\sqrt{5}}{5}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "$\\sin\\frac{\\pi}{12}$ را از جنس $\\sin\\frac{\\pi}{6}$ دریابید.",
+      "solution_steps_fa": [
+        "$\\frac{\\pi}{12}$ نصف $\\frac{\\pi}{6}$ است و در ربع اول قرار دارد.",
+        "$\\cos\\frac{\\pi}{6} = \\sqrt{1 - \\sin^2\\frac{\\pi}{6}} = \\sqrt{1 - \\frac{1}{4}} = \\frac{\\sqrt{3}}{2}$",
+        "$\\sin\\frac{\\pi}{12} = \\sqrt{\\frac{1 - \\frac{\\sqrt{3}}{2}}{2}} = \\frac{\\sqrt{2-\\sqrt{3}}}{2} = \\frac{\\sqrt{6}-\\sqrt{2}}{4} \\approx 0.259$"
+      ],
+      "answer": "$\\frac{\\sqrt{2-\\sqrt{3}}}{2} = \\frac{\\sqrt{6}-\\sqrt{2}}{4}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\sin\\theta = \\frac{12}{13}$ و $\\theta$ در ربع دوم باشد، $\\sin\\frac{\\theta}{2}$ و $\\tan\\frac{\\theta}{2}$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\cos\\theta = -\\frac{5}{13}$ (ربع دوم)؛ $\\frac{\\theta}{2}$ در ربع اول است.",
+        "$\\sin\\frac{\\theta}{2} = \\sqrt{\\frac{1 + \\frac{5}{13}}{2}} = \\sqrt{\\frac{9}{13}} = \\frac{3}{\\sqrt{13}}$",
+        "$\\cos\\frac{\\theta}{2} = \\sqrt{\\frac{1 - \\frac{5}{13}}{2}} = \\sqrt{\\frac{4}{13}} = \\frac{2}{\\sqrt{13}}$",
+        "$\\tan\\frac{\\theta}{2} = \\frac{3}{2}$"
+      ],
+      "answer": "$\\sin\\frac{\\theta}{2} = \\frac{3}{\\sqrt{13}}$، $\\tan\\frac{\\theta}{2} = \\frac{3}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی $15^\\circ$ را به کمک نسبت‌های $30^\\circ$ دریابید.",
+      "solution_steps_fa": [
+        "$15^\\circ = \\frac{30^\\circ}{2}$ و $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$",
+        "$\\sin 15^\\circ = \\sqrt{\\frac{1 - \\frac{\\sqrt{3}}{2}}{2}} = \\frac{\\sqrt{2-\\sqrt{3}}}{2} = \\frac{\\sqrt{6}-\\sqrt{2}}{4}$",
+        "$\\cos 15^\\circ = \\sqrt{\\frac{1 + \\frac{\\sqrt{3}}{2}}{2}} = \\frac{\\sqrt{2+\\sqrt{3}}}{2} = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$",
+        "$\\tan 15^\\circ = \\sqrt{\\frac{2-\\sqrt{3}}{2+\\sqrt{3}}} = 2 - \\sqrt{3}$"
+      ],
+      "answer": "$\\sin 15^\\circ = \\frac{\\sqrt{6}-\\sqrt{2}}{4}$، $\\cos 15^\\circ = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$، $\\tan 15^\\circ = 2-\\sqrt{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\sin\\beta = \\frac{12}{13}$ و $\\beta$ در ربع دوم باشد، $\\sin 2\\beta$ کدام است؟ a) $\\frac{120}{169}$ b) $-\\frac{120}{169}$ c) $-\\frac{169}{120}$ d) هیچ‌کدام",
+      "solution_steps_fa": [
+        "$\\cos\\beta = -\\frac{5}{13}$",
+        "$\\sin 2\\beta = 2\\cdot\\frac{12}{13}\\cdot(-\\frac{5}{13}) = -\\frac{120}{169}$"
+      ],
+      "answer": "b) $-\\frac{120}{169}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "$\\frac{\\cos 3\\beta}{\\cos\\beta} - \\frac{\\sin 3\\beta}{\\sin\\beta} = ?$ a) 2 b) 1 c) −2 d) −1",
+      "solution_steps_fa": [
+        "مخرج مشترک: $\\frac{\\cos 3\\beta\\sin\\beta - \\sin 3\\beta\\cos\\beta}{\\sin\\beta\\cos\\beta}$",
+        "صورت $= \\sin(\\beta - 3\\beta) = -\\sin 2\\beta = -2\\sin\\beta\\cos\\beta$",
+        "حاصل $= -2$ (قرینهٔ مثال ۴)."
+      ],
+      "answer": "c) $-2$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "همهٔ جواب‌ها با Python بررسی شد. در سوال‌های ۳، ۵ و ۷ «ضلع دوم در ربع ...» به معنای $90^\\circ<\\theta<180^\\circ$ گرفته شده است."
+}

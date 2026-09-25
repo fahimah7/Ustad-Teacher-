@@ -1,0 +1,38 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 90,
+  "printed_page": 81,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم معادلات دو مجهولهٔ مثلثاتی",
+  "summary_fa": "این درس با یک سوال شروع می‌شود: همان‌طور که سیستم معادلات الجبری را حل کردیم، آیا سیستم معادلات مثلثاتی را هم می‌توان حل کرد؟ کتاب این سیستم‌ها را در شش نوع دسته‌بندی می‌کند. در نوع اول یک معادله مجموع یا تفاضل زاویه‌ها را می‌دهد ($x \\pm y = \\alpha$) و معادلهٔ دیگر مجموع یا تفاضل ساین‌ها یا کوساین‌ها را ($\\sin x \\pm \\sin y = a$ یا $\\cos x \\pm \\cos y = a$)؛ با ترکیب علامه‌ها هشت سیستم به دست می‌آید. $a$ عدد ثابت، $\\alpha$ زاویهٔ معلوم، و $x$ و $y$ زاویه‌های مجهول‌اند. برای حل $\\sin x + \\sin y = a$ و $x + y = \\alpha$، طرف چپ را با فورمول تحویل (مجموع به حاصل ضرب) می‌نویسیم، $x + y$ را با $\\alpha$ عوض می‌کنیم و به $\\cos\\frac{x - y}{2} = \\frac{a}{2\\sin\\frac{\\alpha}{2}}$ می‌رسیم. تبصره: چون این قیمت کوساین است، باید بین $-1$ و $1$ باشد؛ این شرط حل سیستم است.",
+  "key_points_fa": [
+    "سیستم معادلات دو مجهولهٔ مثلثاتی شش نوع دارد.",
+    "نوع اول: $x \\pm y = \\alpha$ همراه با $\\sin x \\pm \\sin y = a$ یا $\\cos x \\pm \\cos y = a$ (هشت سیستم).",
+    "فورمول تحویل: $\\sin x + \\sin y = 2\\sin\\frac{x+y}{2}\\cos\\frac{x-y}{2}$",
+    "با جاگذاری $x + y = \\alpha$: $\\cos\\frac{x-y}{2} = \\frac{a}{2\\sin\\frac{\\alpha}{2}}$",
+    "شرط حل: $-1 \\le \\frac{a}{2\\sin\\frac{\\alpha}{2}} \\le 1$"
+  ],
+  "formulas": [
+    {"latex": "\\begin{cases} \\sin x + \\sin y = a \\\\ x + y = \\alpha \\end{cases}", "meaning_fa": "یک سیستم از نوع اول"},
+    {"latex": "\\sin x + \\sin y = 2\\sin\\frac{x+y}{2}\\cos\\frac{x-y}{2}", "meaning_fa": "فورمول تحویل مجموع ساین‌ها به حاصل ضرب"},
+    {"latex": "\\cos\\frac{x-y}{2} = \\frac{a}{2\\sin\\frac{\\alpha}{2}}", "meaning_fa": "نتیجهٔ جاگذاری $x + y = \\alpha$"},
+    {"latex": "-1 \\le \\frac{a}{2\\sin\\frac{\\alpha}{2}} \\le 1", "meaning_fa": "شرط این‌که سیستم حل داشته باشد"}
+  ],
+  "terms": [
+    {"fa": "سیستم معادلات مثلثاتی", "en": "system of trigonometric equations"},
+    {"fa": "مجهول", "en": "unknown"},
+    {"fa": "فورمول‌های تحویل", "en": "sum-to-product / product-to-sum formulas"},
+    {"fa": "تبصره", "en": "remark / note"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.15, 0.10, 0.41, 0.27], "kind": "illustration", "description_fa": "نوشتهٔ تزئینی دو سیستم نمونه از نوع اول: $\\sin x \\pm \\sin y = a$ با $x \\pm y = \\alpha$، و $\\cos x \\pm \\cos y = a$ با $x \\pm y = \\alpha$."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب فورمول‌های مجموع به حاصل ضرب را «فورمول‌های ضرب» یا «فورمول‌های تحویل» می‌نامد."
+}

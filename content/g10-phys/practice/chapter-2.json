@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-phys",
+  "chapter": 2,
+  "title": {
+    "en": "Measurement",
+    "fa": "اندازه‌گیری"
+  },
+  "questions": [
+    {
+      "pdf_page": 23,
+      "q": {
+        "en": "A room is $6.7\\,\\mathrm{m}$ long and $4.6\\,\\mathrm{m}$ wide. How should its area be reported with the correct number of significant figures?",
+        "fa": "طول یک اتاق $6.7\\,\\mathrm{m}$ و عرض آن $4.6\\,\\mathrm{m}$ است. مساحت آن را با تعداد درست ارقام قابل اهمیت چگونه گزارش می‌کنیم؟"
+      },
+      "options": [
+        {
+          "en": "$30.82\\,\\mathrm{m^2}$",
+          "fa": "$30.82\\,\\mathrm{m^2}$"
+        },
+        {
+          "en": "$30.8\\,\\mathrm{m^2}$",
+          "fa": "$30.8\\,\\mathrm{m^2}$"
+        },
+        {
+          "en": "$31\\,\\mathrm{m}$",
+          "fa": "$31\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$31\\,\\mathrm{m^2}$",
+          "fa": "$31\\,\\mathrm{m^2}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$6.7 \\times 4.6 = 30.82$, but each measurement has only two significant figures, so the product is rounded to two: $31\\,\\mathrm{m^2}$. The unit of area is $\\mathrm{m^2}$.",
+        "fa": "$6.7 \\times 4.6 = 30.82$ می‌شود، ولی هر اندازه فقط دو رقم قابل اهمیت دارد؛ پس حاصل ضرب به دو رقم گرد می‌شود: $31\\,\\mathrm{m^2}$. واحد مساحت $\\mathrm{m^2}$ است."
+      },
+      "idea": {
+        "en": "In multiplication the answer keeps as many significant figures as the measurement with the fewest. Check the unit too: metres times metres gives square metres.",
+        "fa": "در ضرب، جواب به اندازهٔ کم‌رقم‌ترین اندازه رقم قابل اهمیت دارد. واحد را هم ببینید: متر ضرب متر، متر مربع می‌شود."
+      }
+    },
+    {
+      "pdf_page": 26,
+      "q": {
+        "en": "Which of these is NOT one of the seven base units of the SI system?",
+        "fa": "کدام یک از این‌ها از هفت واحد اساسی سیستم SI نیست؟"
+      },
+      "options": [
+        {
+          "en": "ampere (A)",
+          "fa": "امپیر (A)"
+        },
+        {
+          "en": "kelvin (K)",
+          "fa": "کلوین (K)"
+        },
+        {
+          "en": "newton (N)",
+          "fa": "نیوتن (N)"
+        },
+        {
+          "en": "candela (cd)",
+          "fa": "کندیلا (cd)"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The seven base units are the metre, kilogram, second, ampere, kelvin, mole and candela. The newton is a derived unit: $1\\,\\mathrm{N} = 1\\,\\mathrm{kg\\,m/s^2}$.",
+        "fa": "هفت واحد اساسی عبارت اند از متر، کیلوگرام، ثانیه، امپیر، کلوین، مول و کندیلا. نیوتن واحد اشتقاقی است: $1\\,\\mathrm{N} = 1\\,\\mathrm{kg\\,m/s^2}$."
+      },
+      "idea": {
+        "en": "A derived unit is built from base units. Which of the four can be written using kilograms, metres and seconds?",
+        "fa": "واحد اشتقاقی از ترکیب واحدات اساسی ساخته می‌شود. کدام یک از این چهار را می‌توان با کیلوگرام، متر و ثانیه نوشت؟"
+      }
+    },
+    {
+      "pdf_page": 28,
+      "q": {
+        "en": "Which of these quantities is a vector?",
+        "fa": "کدام یک از این کمیت‌ها وکتور است؟"
+      },
+      "options": [
+        {
+          "en": "force",
+          "fa": "قوه"
+        },
+        {
+          "en": "mass",
+          "fa": "کتله"
+        },
+        {
+          "en": "temperature",
+          "fa": "درجهٔ حرارت"
+        },
+        {
+          "en": "energy",
+          "fa": "انرژی"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "A vector has both size and direction. To describe a force completely you must give its size and its direction; mass, temperature and energy have only a size, so they are scalars.",
+        "fa": "وکتور هم مقدار و هم جهت دارد. برای بیان کامل یک قوه باید مقدار و جهت آن را گفت؛ کتله، درجهٔ حرارت و انرژی فقط مقدار دارند، پس سکالر اند."
+      },
+      "idea": {
+        "en": "Ask yourself: does it make sense to say in which direction this quantity points?",
+        "fa": "از خود بپرسید: آیا معنا دارد که بگوییم این کمیت به کدام طرف است؟"
+      }
+    },
+    {
+      "pdf_page": 31,
+      "q": {
+        "en": "A clock that runs fast always shows a time ahead of the true time. What kind of error is this?",
+        "fa": "ساعتی که تیز می‌رود، همیشه وقت را پیش‌تر از وقت درست نشان می‌دهد. این کدام نوع اشتباه است؟"
+      },
+      "options": [
+        {
+          "en": "Human error",
+          "fa": "اشتباه انسانی"
+        },
+        {
+          "en": "Instrumental error",
+          "fa": "اشتباه ابزاری"
+        },
+        {
+          "en": "Method error",
+          "fa": "اشتباه میتودی"
+        },
+        {
+          "en": "Rounding error",
+          "fa": "اشتباه گرد کردن"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The error comes from a fault in the instrument itself, and it is one-sided: the clock is always ahead. That is an instrumental error.",
+        "fa": "این اشتباه از نقص خود آله است و یک‌جانبه است: ساعت همیشه پیش است. این اشتباه ابزاری است."
+      },
+      "idea": {
+        "en": "Repeating a measurement reduces human error, but here the same fault appears every time the clock is used. Where does that fault come from?",
+        "fa": "تکرار اندازه‌گیری اشتباه انسانی را کم می‌کند، ولی این‌جا هر بار که ساعت به کار رود همین نقص دیده می‌شود. این نقص از کجا است؟"
+      }
+    },
+    {
+      "pdf_page": 32,
+      "q": {
+        "en": "The mass of a bacterium is $2.0\\,\\mathrm{fg}$ (femtograms; $1\\,\\mathrm{fg} = 10^{-15}\\,\\mathrm{g}$). What is its mass in kilograms?",
+        "fa": "کتلهٔ یک بکتریا $2.0\\,\\mathrm{fg}$ (فمتوگرام؛ $1\\,\\mathrm{fg} = 10^{-15}\\,\\mathrm{g}$) است. کتلهٔ آن به کیلوگرام چند است؟"
+      },
+      "options": [
+        {
+          "en": "$2.0\\times10^{-15}\\,\\mathrm{kg}$",
+          "fa": "$2.0\\times10^{-15}\\,\\mathrm{kg}$"
+        },
+        {
+          "en": "$2.0\\times10^{-12}\\,\\mathrm{kg}$",
+          "fa": "$2.0\\times10^{-12}\\,\\mathrm{kg}$"
+        },
+        {
+          "en": "$2.0\\times10^{-18}\\,\\mathrm{kg}$",
+          "fa": "$2.0\\times10^{-18}\\,\\mathrm{kg}$"
+        },
+        {
+          "en": "$2.0\\times10^{-21}\\,\\mathrm{kg}$",
+          "fa": "$2.0\\times10^{-21}\\,\\mathrm{kg}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$2.0\\,\\mathrm{fg} = 2.0\\times10^{-15}\\,\\mathrm{g}$ and $1\\,\\mathrm{kg} = 10^{3}\\,\\mathrm{g}$, so $2.0\\times10^{-15}\\,\\mathrm{g}\\times\\frac{1\\,\\mathrm{kg}}{10^{3}\\,\\mathrm{g}} = 2.0\\times10^{-18}\\,\\mathrm{kg}$.",
+        "fa": "$2.0\\,\\mathrm{fg} = 2.0\\times10^{-15}\\,\\mathrm{g}$ و $1\\,\\mathrm{kg} = 10^{3}\\,\\mathrm{g}$ است؛ پس $2.0\\times10^{-15}\\,\\mathrm{g}\\times\\frac{1\\,\\mathrm{kg}}{10^{3}\\,\\mathrm{g}} = 2.0\\times10^{-18}\\,\\mathrm{kg}$."
+      },
+      "idea": {
+        "en": "First change femtograms to grams, then divide by 1000 to change grams to kilograms. A kilogram is bigger than a gram, so the number must get smaller.",
+        "fa": "اول فمتوگرام را به گرام تبدیل کنید، بعد بر 1000 تقسیم کنید تا به کیلوگرام برسد. کیلوگرام از گرام بزرگ‌تر است، پس عدد باید کوچک‌تر شود."
+      }
+    }
+  ]
+}

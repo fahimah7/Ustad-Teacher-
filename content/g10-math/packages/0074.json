@@ -1,0 +1,20 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 74,
+  "printed_page": null,
+  "page_kind": "chapter_title",
+  "chapter": 3,
+  "section_fa": null,
+  "summary_fa": "این صفحهٔ عنوان فصل سوم کتاب با نام «تابع» است و درس ندارد. در این فصل شاگرد یاد می‌گیرد که تابع نوع خاصی از رابطه است، و طرق نوشتن تابع، قیمت تابع، ناحیهٔ تعریف و ناحیهٔ قیمت‌ها، توابع خاص و گراف‌های آن‌ها، توابع متزاید و متناقص، توابع جفت و تاق، انتقال گراف‌ها، عملیه‌ها و ترکیب توابع، تابع معکوس، توابع پولینومی و توابع ناطق را مطالعه می‌کند.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه چاپ نشده است (به حساب کتاب صفحهٔ ۶۷)."
+}

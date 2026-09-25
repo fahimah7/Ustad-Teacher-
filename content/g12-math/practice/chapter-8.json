@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-math",
+  "chapter": 8,
+  "title": {
+    "en": "Probability",
+    "fa": "احتمالات"
+  },
+  "questions": [
+    {
+      "pdf_page": 272,
+      "q": {
+        "en": "A die is loaded so that each even number is twice as likely as each odd number. What is the probability of rolling a 5?",
+        "fa": "یک دانهٔ رمل طوری ساخته شده است که احتمال آمدن هر عدد جفت دو برابر احتمال آمدن هر عدد طاق است. احتمال آمدن عدد ۵ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{6}$",
+          "fa": "$\\frac{1}{6}$"
+        },
+        {
+          "en": "$\\frac{2}{9}$",
+          "fa": "$\\frac{2}{9}$"
+        },
+        {
+          "en": "$\\frac{1}{9}$",
+          "fa": "$\\frac{1}{9}$"
+        },
+        {
+          "en": "$\\frac{1}{3}$",
+          "fa": "$\\frac{1}{3}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "If each odd number has probability $p$, then $3p+3(2p)=9p=1$, so $P(5)=p=\\frac{1}{9}$.",
+        "fa": "اگر احتمال هر عدد طاق $p$ باشد، $3p+3(2p)=9p=1$ است، پس $P(5)=p=\\frac{1}{9}$."
+      },
+      "idea": {
+        "en": "The die is not fair, but the probabilities of all six faces must still add up to 1.",
+        "fa": "این رمل سالم نیست، ولی مجموع احتمال‌های هر شش روی آن باز هم باید یک شود."
+      }
+    },
+    {
+      "pdf_page": 274,
+      "q": {
+        "en": "A point is chosen at random inside a cube with edge 2. What is the probability that it lies inside the sphere inscribed in the cube?",
+        "fa": "یک نقطه به طور اتفاقی داخل مکعبی به طول ضلع ۲ انتخاب می‌شود. احتمال این‌که این نقطه داخل کرهٔ محاط مکعب باشد چند است؟"
+      },
+      "options": [
+        {
+          "en": "$\\frac{\\pi}{6}$",
+          "fa": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "en": "$\\frac{\\pi}{4}$",
+          "fa": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "en": "$\\frac{\\pi}{2}$",
+          "fa": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "en": "$\\frac{\\pi}{3}$",
+          "fa": "$\\frac{\\pi}{3}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The sphere has radius 1, so $P=\\frac{\\frac{4}{3}\\pi(1)^3}{2^3}=\\frac{4\\pi}{24}=\\frac{\\pi}{6}$.",
+        "fa": "شعاع کره ۱ است، پس $P=\\frac{\\frac{4}{3}\\pi(1)^3}{2^3}=\\frac{4\\pi}{24}=\\frac{\\pi}{6}$."
+      },
+      "idea": {
+        "en": "In a continuous space you cannot count points, so compare volumes; the sphere's radius is half the cube's edge.",
+        "fa": "در فضای پیوسته نقاط را نمی‌توان شمرد، پس حجم‌ها را مقایسه کنید؛ شعاع کره نصف طول ضلع مکعب است."
+      }
+    },
+    {
+      "pdf_page": 278,
+      "q": {
+        "en": "A student takes the bus to school on 50% of days. When she takes the bus, she is on time 70% of the time. Overall, she is on time on 60% of days. Today she arrived on time. What is the probability that she came by bus?",
+        "fa": "یک شاگرد در ۵۰٪ روزها با سرویس به مکتب می‌رود. وقتی با سرویس برود، ۷۰٪ به وقت می‌رسد. به طور اوسط او در ۶۰٪ روزها به وقت حاضر است. امروز او به وقت رسیده است. احتمال این‌که با سرویس آمده باشد چند است؟"
+      },
+      "options": [
+        {
+          "en": "$0.35$",
+          "fa": "$0.35$"
+        },
+        {
+          "en": "$0.7$",
+          "fa": "$0.7$"
+        },
+        {
+          "en": "$\\frac{5}{12}$",
+          "fa": "$\\frac{5}{12}$"
+        },
+        {
+          "en": "$\\frac{7}{12}$",
+          "fa": "$\\frac{7}{12}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The chance of 'bus and on time' is $0.5\\cdot0.7=0.35$, and dividing by the chance of being on time gives $\\frac{0.35}{0.6}=\\frac{7}{12}\\approx0.58$.",
+        "fa": "احتمال «با سرویس و به وقت» $0.5\\cdot0.7=0.35$ است و با تقسیم آن بر احتمال به وقت رسیدن، $\\frac{0.35}{0.6}=\\frac{7}{12}\\approx0.58$ به دست می‌آید."
+      },
+      "idea": {
+        "en": "Knowing she was on time shrinks the sample space to the on-time days; first find the chance of 'bus and on time'.",
+        "fa": "دانستن این‌که او به وقت رسیده، فضای نمونه را به روزهای به وقت رسیدن محدود می‌کند؛ اول احتمال «با سرویس و به وقت» را پیدا کنید."
+      }
+    },
+    {
+      "pdf_page": 285,
+      "q": {
+        "en": "Events $A$ and $B$ are independent, with $P(A\\cap B)=0.12$ and $P(\\overline{B})=0.6$. Find $P(\\overline{A}\\cap\\overline{B})$.",
+        "fa": "حوادث $A$ و $B$ مستقل اند، $P(A\\cap B)=0.12$ و $P(\\overline{B})=0.6$ است. $P(\\overline{A}\\cap\\overline{B})$ را پیدا کنید."
+      },
+      "options": [
+        {
+          "en": "$0.18$",
+          "fa": "$0.18$"
+        },
+        {
+          "en": "$0.42$",
+          "fa": "$0.42$"
+        },
+        {
+          "en": "$0.48$",
+          "fa": "$0.48$"
+        },
+        {
+          "en": "$0.88$",
+          "fa": "$0.88$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$P(B)=1-0.6=0.4$, so $P(A)=\\frac{0.12}{0.4}=0.3$ and $P(\\overline{A}\\cap\\overline{B})=0.7\\cdot0.6=0.42$.",
+        "fa": "$P(B)=1-0.6=0.4$، پس $P(A)=\\frac{0.12}{0.4}=0.3$ و $P(\\overline{A}\\cap\\overline{B})=0.7\\cdot0.6=0.42$ است."
+      },
+      "idea": {
+        "en": "For independent events the complements are independent too; find $P(B)$ first, then $P(A)$.",
+        "fa": "اگر دو حادثه مستقل باشند، متمم‌های آن‌ها هم مستقل اند؛ اول $P(B)$ و بعد $P(A)$ را پیدا کنید."
+      }
+    },
+    {
+      "pdf_page": 282,
+      "q": {
+        "en": "In a factory, machines $A$, $B$ and $C$ make 30%, 30% and 40% of the light bulbs, and 4%, 2% and 5% of their bulbs are faulty. A faulty bulb is found. What is the probability that machine $C$ made it?",
+        "fa": "در یک فابریکه، ماشین‌های $A$، $B$ و $C$ به ترتیب ۳۰٪، ۳۰٪ و ۴۰٪ گروپ‌های برق را تولید می‌کنند و ۴٪، ۲٪ و ۵٪ گروپ‌های هر کدام خراب است. یک گروپ خراب پیدا شده است. احتمال این‌که این گروپ را ماشین $C$ ساخته باشد چند است؟"
+      },
+      "options": [
+        {
+          "en": "$0.4$",
+          "fa": "$0.4$"
+        },
+        {
+          "en": "$0.05$",
+          "fa": "$0.05$"
+        },
+        {
+          "en": "$\\approx 0.526$",
+          "fa": "$\\approx 0.526$"
+        },
+        {
+          "en": "$0.02$",
+          "fa": "$0.02$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The total chance of a faulty bulb is $0.3\\cdot0.04+0.3\\cdot0.02+0.4\\cdot0.05=0.038$, so Bayes' formula gives $\\frac{0.4\\cdot0.05}{0.038}\\approx0.526$.",
+        "fa": "احتمال کل خراب بودن یک گروپ $0.3\\cdot0.04+0.3\\cdot0.02+0.4\\cdot0.05=0.038$ است، پس با فورمول بائیز جواب $\\frac{0.4\\cdot0.05}{0.038}\\approx0.526$ می‌شود."
+      },
+      "idea": {
+        "en": "First find the total probability that a bulb is faulty, then ask what share of it comes from machine $C$.",
+        "fa": "اول احتمال کل خراب بودن یک گروپ را پیدا کنید، بعد ببینید چه حصهٔ آن از ماشین $C$ می‌آید."
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 233,
+  "printed_page": 226,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "فورمول‌های جمع و تفاضل",
+  "summary_fa": "این صفحه فورمول‌های تفاضل را کامل می‌کند. با گذاشتن $-\\beta$ به جای $\\beta$ در فورمول‌های مجموع، sin، cos و tan تفاضل دو زاویه به دست می‌آیند؛ در هر کدام فقط علامهٔ وسط عوض می‌شود. در یک فعالیت از شاگرد خواسته شده فورمول $\\cot(\\alpha - \\beta)$ را ثبوت کند. سپس سه مثال: مثال ۱ قیمت دقیق $\\cos\\frac{\\pi}{12}$ را با $\\frac{\\pi}{4} - \\frac{\\pi}{6}$ و قیمت $\\sin 150^\\circ$ را با $180^\\circ - 30^\\circ$ حساب می‌کند؛ مثال ۲ نشان می‌دهد $\\cos(\\frac{\\pi}{2} - \\theta) = \\sin\\theta$؛ و مثال ۳ می‌خواهد نشان داده شود $\\cos(270^\\circ - \\theta) = -\\sin\\theta$ (حل آن در صفحهٔ بعد است).",
+  "key_points_fa": [
+    "$\\sin(\\alpha - \\beta) = \\sin\\alpha\\cos\\beta - \\cos\\alpha\\sin\\beta$",
+    "$\\cos(\\alpha - \\beta) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta$ (در cos تفاضل، علامه مثبت می‌شود)",
+    "$\\tan(\\alpha - \\beta) = \\frac{\\tan\\alpha - \\tan\\beta}{1 + \\tan\\alpha\\tan\\beta}$",
+    "$15^\\circ = 45^\\circ - 30^\\circ$ و $150^\\circ = 180^\\circ - 30^\\circ$ نمونه‌های شکستن زاویه به تفاضل‌اند.",
+    "فورمول‌های تفاضل روابط زاویه‌های متمم را هم ثبوت می‌کنند، مانند $\\cos(\\frac{\\pi}{2} - \\theta) = \\sin\\theta$."
+  ],
+  "formulas": [
+    {"latex": "\\sin(\\alpha - \\beta) = \\sin\\alpha\\cos\\beta - \\cos\\alpha\\sin\\beta", "meaning_fa": "sin تفاضل دو زاویه"},
+    {"latex": "\\cos(\\alpha - \\beta) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta", "meaning_fa": "cos تفاضل دو زاویه"},
+    {"latex": "\\tan(\\alpha - \\beta) = \\frac{\\tan\\alpha - \\tan\\beta}{1 + \\tan\\alpha\\tan\\beta}", "meaning_fa": "tan تفاضل دو زاویه"},
+    {"latex": "\\cot(\\alpha - \\beta) = \\frac{\\cot\\alpha\\cot\\beta + 1}{\\cot\\beta - \\cot\\alpha}", "meaning_fa": "cot تفاضل دو زاویه (فعالیت)"}
+  ],
+  "terms": [
+    {"fa": "فورمول‌های تفاضل", "en": "difference formulas"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\cos\\frac{\\pi}{12}$ و $\\sin 150^\\circ$ را دریابید.",
+      "steps_fa": [
+        "$\\cos\\frac{\\pi}{12} = \\cos(\\frac{\\pi}{4} - \\frac{\\pi}{6}) = \\cos\\frac{\\pi}{4}\\cos\\frac{\\pi}{6} + \\sin\\frac{\\pi}{4}\\sin\\frac{\\pi}{6}$",
+        "$= \\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{3}}{2} + \\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2} = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$",
+        "$\\sin 150^\\circ = \\sin(180^\\circ - 30^\\circ) = \\sin 180^\\circ\\cos 30^\\circ - \\cos 180^\\circ\\sin 30^\\circ = 0 - (-1)\\cdot\\frac{1}{2} = \\frac{1}{2}$"
+      ],
+      "answer": "$\\cos\\frac{\\pi}{12} = \\frac{\\sqrt{6}+\\sqrt{2}}{4}$، $\\sin 150^\\circ = \\frac{1}{2}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "با فورمول‌های تفاضل نشان دهید $\\cos(\\frac{\\pi}{2} - \\theta) = \\sin\\theta$.",
+      "steps_fa": [
+        "$\\cos(\\frac{\\pi}{2} - \\theta) = \\cos\\frac{\\pi}{2}\\cos\\theta + \\sin\\frac{\\pi}{2}\\sin\\theta$",
+        "$= 0\\cdot\\cos\\theta + 1\\cdot\\sin\\theta = \\sin\\theta$"
+      ],
+      "answer": "$\\cos(\\frac{\\pi}{2} - \\theta) = \\sin\\theta$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "نشان دهید $\\cos(270^\\circ - \\theta) = -\\sin\\theta$.",
+      "steps_fa": [
+        "$\\cos(270^\\circ - \\theta) = \\cos 270^\\circ\\cos\\theta + \\sin 270^\\circ\\sin\\theta$",
+        "$= 0\\cdot\\cos\\theta + (-1)\\sin\\theta = -\\sin\\theta$"
+      ],
+      "answer": "$\\cos(270^\\circ - \\theta) = -\\sin\\theta$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "نشان دهید $\\cot(\\alpha - \\beta) = \\frac{\\cot\\alpha\\cot\\beta + 1}{\\cot\\beta - \\cot\\alpha}$.",
+      "solution_steps_fa": [
+        "$\\cot(\\alpha - \\beta) = \\frac{\\cos(\\alpha-\\beta)}{\\sin(\\alpha-\\beta)} = \\frac{\\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta}{\\sin\\alpha\\cos\\beta - \\cos\\alpha\\sin\\beta}$",
+        "صورت و مخرج را بر $\\sin\\alpha\\sin\\beta$ تقسیم می‌کنیم.",
+        "صورت: $\\frac{\\cos\\alpha\\cos\\beta}{\\sin\\alpha\\sin\\beta} + 1 = \\cot\\alpha\\cot\\beta + 1$",
+        "مخرج: $\\frac{\\cos\\beta}{\\sin\\beta} - \\frac{\\cos\\alpha}{\\sin\\alpha} = \\cot\\beta - \\cot\\alpha$"
+      ],
+      "answer": "$\\cot(\\alpha - \\beta) = \\frac{\\cot\\alpha\\cot\\beta + 1}{\\cot\\beta - \\cot\\alpha}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "حل مثال ۳ در بالای صفحهٔ بعد چاپ شده است."
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 276,
+  "printed_page": 269,
+  "page_kind": "review",
+  "chapter": 5,
+  "section_fa": "خلاصهٔ فصل",
+  "summary_fa": "ادامهٔ خلاصهٔ فصل. اول فورمول‌های sin، cos و tan مجموع سه زاویه ($\\alpha + \\beta + \\theta$) آمده است. بعد «فورمول‌های ضرب»: چهار فورمولی که مجموع یا تفاضل دو sin یا دو cos را به حاصل‌ضرب تبدیل می‌کنند (در چوکات)، و دو فورمول برای مجموع و تفاضل tan. سپس چهار فورمول برعکس که حاصل‌ضرب نسبت‌های مثلثاتی را به مجموع یا تفاضل تبدیل می‌کنند. در پایین صفحه خلاصهٔ درس طول قوس شروع می‌شود: طول قوس با زاویهٔ مرکزی به درجه و به رادیان، تعریف قطاع (قسمت سطح دایره بین دو شعاع) و مساحت قطاع $\\frac{1}{2}R^2\\theta$. این صفحه تمرین ندارد و برای مرور فورمول‌ها است.",
+  "key_points_fa": [
+    "فورمول‌های مجموع ← حاصل‌ضرب با نصف مجموع و نصف تفاضل زاویه‌ها کار می‌کنند: $\\frac{p+q}{2}$ و $\\frac{p-q}{2}$.",
+    "در $\\cos p - \\cos q$ علامهٔ منفی و دو sin می‌آید.",
+    "فورمول‌های حاصل‌ضرب ← مجموع همه ضریب $\\frac{1}{2}$ دارند.",
+    "طول قوس: $L = \\pi R\\frac{\\theta^\\circ}{180^\\circ}$ (درجه) یا $L = R\\theta$ (رادیان).",
+    "مساحت قطاع: $\\frac{1}{2}R^2\\theta$ (رادیان)."
+  ],
+  "formulas": [
+    {"latex": "\\sin(\\alpha+\\beta+\\theta) = \\sin\\alpha\\cos\\beta\\cos\\theta + \\sin\\beta\\cos\\alpha\\cos\\theta + \\sin\\theta\\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta\\sin\\theta", "meaning_fa": "sin مجموع سه زاویه"},
+    {"latex": "\\cos(\\alpha+\\beta+\\theta) = \\cos\\alpha\\cos\\beta\\cos\\theta - \\cos\\alpha\\sin\\beta\\sin\\theta - \\cos\\beta\\sin\\alpha\\sin\\theta - \\cos\\theta\\sin\\alpha\\sin\\beta", "meaning_fa": "cos مجموع سه زاویه"},
+    {"latex": "\\tan(\\alpha+\\beta+\\theta) = \\frac{\\tan\\alpha + \\tan\\beta + \\tan\\theta - \\tan\\alpha\\tan\\beta\\tan\\theta}{1 - \\tan\\alpha\\tan\\beta - \\tan\\beta\\tan\\theta - \\tan\\alpha\\tan\\theta}", "meaning_fa": "tan مجموع سه زاویه"},
+    {"latex": "\\sin p + \\sin q = 2\\sin\\frac{p+q}{2}\\cos\\frac{p-q}{2},\\quad \\sin p - \\sin q = 2\\cos\\frac{p+q}{2}\\sin\\frac{p-q}{2}", "meaning_fa": "مجموع و تفاضل دو sin به حاصل‌ضرب"},
+    {"latex": "\\cos p + \\cos q = 2\\cos\\frac{p+q}{2}\\cos\\frac{p-q}{2},\\quad \\cos p - \\cos q = -2\\sin\\frac{p+q}{2}\\sin\\frac{p-q}{2}", "meaning_fa": "مجموع و تفاضل دو cos به حاصل‌ضرب"},
+    {"latex": "\\tan p \\pm \\tan q = \\frac{\\sin(p \\pm q)}{\\cos p\\cos q}", "meaning_fa": "مجموع و تفاضل دو tan"},
+    {"latex": "\\sin A\\cos B = \\tfrac{1}{2}[\\sin(A+B) + \\sin(A-B)],\\ \\cos A\\sin B = \\tfrac{1}{2}[\\sin(A+B) - \\sin(A-B)]", "meaning_fa": "حاصل‌ضرب sin و cos به مجموع و تفاضل"},
+    {"latex": "\\cos A\\cos B = \\tfrac{1}{2}[\\cos(A+B) + \\cos(A-B)],\\ \\sin A\\sin B = \\tfrac{1}{2}[\\cos(A-B) - \\cos(A+B)]", "meaning_fa": "حاصل‌ضرب دو cos و دو sin به مجموع و تفاضل"},
+    {"latex": "L = \\pi R\\frac{\\theta^\\circ}{180^\\circ},\\quad L = R\\theta,\\quad A_{\\text{sector}} = \\frac{1}{2}R^2\\theta", "meaning_fa": "طول قوس (درجه و رادیان) و مساحت قطاع"}
+  ],
+  "terms": [
+    {"fa": "فورمول‌های ضرب", "en": "sum-to-product formulas"},
+    {"fa": "قطاع دایره", "en": "sector"},
+    {"fa": "طول قوس", "en": "arc length"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

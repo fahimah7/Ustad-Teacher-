@@ -1,0 +1,50 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-phys",
+  "pdf_page": 46,
+  "printed_page": 37,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سرعت صوت",
+  "summary_fa": "این صفحه از فورمول لاپلاس یک فورمول تازه برای سرعت صوت در گاز می‌سازد که به درجهٔ حرارت مربوط است. اول قانون عمومی گازها را برای چند حالت پی‌درپی می‌نویسد: $\\frac{PV}{T}$ در همهٔ حالت‌ها یک قیمت ثابت دارد. برای یک مول گاز (حجم مولی $V_m$) این ثابت را ثابت گازها $R$ می‌نامند، پس $P = \\frac{RT}{V_m}$. با گذاشتن این قیمت فشار در فورمول لاپلاس، $v = \\sqrt{\\gamma \\frac{RT}{\\rho V_m}}$ به دست می‌آید. کثافت گاز برابر $\\rho = \\frac{M}{V_m}$ است که $M$ کتلهٔ یک مول گاز است. با جاگذاری آن، حجم مولی حذف می‌شود و نتیجهٔ نهایی $v = \\sqrt{\\gamma \\frac{RT}{M}}$ است. یعنی سرعت صوت در یک گاز تنها به نوع گاز ($\\gamma$ و $M$) و درجهٔ حرارت مطلق آن بستگی دارد.",
+  "key_points_fa": [
+    "برای یک مول گاز: $P\\,V_m = R\\,T$",
+    "کثافت گاز: $\\rho = \\frac{M}{V_m}$",
+    "نتیجه: $v = \\sqrt{\\frac{\\gamma R T}{M}}$",
+    "سرعت صوت با جذر درجهٔ حرارت مطلق زیاد می‌شود: $v \\propto \\sqrt{T}$",
+    "در گازهای سبک (M کوچک) سرعت صوت بیشتر است؛ مثلاً در هایدروجن بسیار بیشتر از هوا.",
+    "در درجهٔ حرارت ثابت، سرعت صوت به فشار مربوط نیست."
+  ],
+  "formulas": [
+    {"latex": "\\frac{P\\,V}{T} = \\frac{P_1 V_1}{T_1} = \\dots = \\frac{P_n V_n}{T_n} = \\mathrm{const}", "meaning_fa": "قانون عمومی گازها برای چند حالت"},
+    {"latex": "\\frac{P\\,V_m}{T} = R \\;\\Rightarrow\\; P = \\frac{R\\,T}{V_m}", "meaning_fa": "معادلهٔ حالت برای یک مول گاز؛ $R \\approx 8.31\\,\\mathrm{J/(mol\\cdot K)}$"},
+    {"latex": "\\rho = \\frac{M}{V_m}", "meaning_fa": "کثافت گاز = کتلهٔ یک مول تقسیم بر حجم مولی"},
+    {"latex": "v = \\sqrt{\\gamma\\,\\frac{R\\,T}{M}}", "meaning_fa": "سرعت صوت در گاز بر حسب درجهٔ حرارت مطلق T و کتلهٔ مولی M"}
+  ],
+  "terms": [
+    {"fa": "ثابت گازها", "en": "gas constant (R)"},
+    {"fa": "حجم مولی", "en": "molar volume"},
+    {"fa": "مالیکول گرام (مول)", "en": "gram-molecule (mole)"},
+    {"fa": "درجهٔ حرارت مطلق", "en": "absolute temperature"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "استخراج فورمول سرعت صوت در گاز",
+      "problem_fa": "از فورمول لاپلاس $v = \\sqrt{\\gamma P/\\rho}$ یک فورمول بر حسب درجهٔ حرارت به دست آورید.",
+      "steps_fa": [
+        "برای یک مول گاز: $\\frac{P V_m}{T} = R$، پس $P = \\frac{RT}{V_m}$.",
+        "در فورمول لاپلاس می‌گذاریم: $v = \\sqrt{\\gamma \\frac{RT}{\\rho V_m}}$.",
+        "کثافت گاز $\\rho = \\frac{M}{V_m}$ است، پس $\\rho V_m = M$.",
+        "بنابراین $v = \\sqrt{\\gamma \\frac{RT}{\\frac{M}{V_m} V_m}} = \\sqrt{\\gamma \\frac{RT}{M}}$."
+      ],
+      "answer": "$v = \\sqrt{\\gamma \\frac{RT}{M}}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب $V_m$ را حجم «m مالیکول گرام» گاز می‌نامد؛ در فورمول نهایی $V_m$ حجم یک مول و $M$ کتلهٔ همان یک مول است. اگر $R$ به $\\mathrm{J/(kmol\\cdot K)}$ باشد، $M$ باید به $\\mathrm{kg/kmol}$ باشد."
+}

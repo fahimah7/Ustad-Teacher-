@@ -1,0 +1,57 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 88,
+  "printed_page": 79,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "معادلات مثلثاتی درجه دوم",
+  "summary_fa": "این صفحه حل مثال ۲ ($\\cos 2x + \\sin x = 0$) را تمام می‌کند و مثال ۳ را حل می‌کند. در مثال ۲، از $\\sin x = 1$ جواب $\\frac{\\pi}{2}$ و از $\\sin x = -\\frac{1}{2}$ زاویهٔ $\\frac{7\\pi}{6}$ به دست می‌آید. ساین در ربع سوم و چهارم منفی است؛ پس برای $\\sin x = -\\frac{1}{2}$ دو خانوادهٔ جواب هست: $\\frac{7\\pi}{6}$ در ربع سوم و $\\frac{11\\pi}{6}$ در ربع چهارم، هر دو با دورهای کامل. در مثال ۳، معادلهٔ $2\\sin^2 x - \\sqrt{2}\\sin x = 0$ جملهٔ ثابت ندارد؛ بنابراین $\\sin x$ را فکتور مشترک گرفته و هر فکتور را جداگانه صفر می‌سازیم: $\\sin x = 0$ و $\\sin x = \\frac{\\sqrt{2}}{2}$.",
+  "key_points_fa": [
+    "ساین در ربع سوم و چهارم منفی است؛ برای $\\sin x = -m$ هر دو ربع جواب دارند.",
+    "$\\sin x = 1$ فقط یک خانواده دارد: $x = \\frac{\\pi}{2} + 2k\\pi$.",
+    "اگر معادلهٔ درجه دوم جملهٔ ثابت نداشته باشد، با گرفتن فکتور مشترک حل می‌شود.",
+    "$\\sin x = 0 \\Rightarrow x = k\\pi$"
+  ],
+  "formulas": [
+    {"latex": "\\sin x = 0 \\Rightarrow x = k\\pi", "meaning_fa": "ساین در همهٔ مضرب‌های $\\pi$ صفر است"},
+    {"latex": "\\sin x = 1 \\Rightarrow x = \\frac{\\pi}{2} + 2k\\pi", "meaning_fa": "ساین فقط در بالاترین نقطهٔ دایره ۱ است"},
+    {"latex": "\\sin x = -\\frac{1}{2} \\Rightarrow x = \\frac{7\\pi}{6} + 2k\\pi \\ \\vee \\ x = \\frac{11\\pi}{6} + 2k\\pi", "meaning_fa": "دو خانوادهٔ جواب در ربع سوم و چهارم"}
+  ],
+  "terms": [
+    {"fa": "فکتور مشترک", "en": "common factor"},
+    {"fa": "خوردترین قوس", "en": "smallest arc"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲ (ادامه)",
+      "problem_fa": "ادامهٔ حل $\\cos 2x + \\sin x = 0$ با $\\sin x = 1$ یا $\\sin x = -\\frac{1}{2}$",
+      "steps_fa": [
+        "$\\sin x = 1 \\Rightarrow x = \\frac{\\pi}{2}$؛ ست: $A_1 = \\{\\frac{\\pi}{2},\\ 2\\pi + \\frac{\\pi}{2},\\ 4\\pi + \\frac{\\pi}{2}, \\dots\\}$",
+        "$\\sin x = -\\frac{1}{2} \\Rightarrow$ خوردترین قوس کتاب $x = \\frac{7\\pi}{6}$ است؛ ست: $\\frac{7\\pi}{6} + 2k\\pi$",
+        "زاویهٔ $\\frac{11\\pi}{6}$ (یعنی $-\\frac{\\pi}{6}$) هم ساین $-\\frac{1}{2}$ دارد؛ پس خانوادهٔ $\\frac{11\\pi}{6} + 2k\\pi$ نیز جواب است.",
+        "کتاب $A = \\{x = n\\pi + (-1)^n\\frac{\\pi}{2},\\ x = 2n\\pi + \\frac{7\\pi}{6}\\}$ را می‌نویسد؛ با خانوادهٔ سوم ست حل کامل می‌شود."
+      ],
+      "answer": "$x = \\frac{\\pi}{2} + 2k\\pi$ یا $x = \\frac{7\\pi}{6} + 2k\\pi$ یا $x = \\frac{11\\pi}{6} + 2k\\pi$",
+      "solution_source": "mixed"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "معادلهٔ $2\\sin^2 x - \\sqrt{2}\\sin x = 0$ را حل کنید.",
+      "steps_fa": [
+        "فکتور مشترک: $\\sin x(2\\sin x - \\sqrt{2}) = 0$",
+        "$\\sin x = 0 \\Rightarrow x_1 = 0$؛ ست: $A_1 = \\{0, \\pi, 2\\pi, 3\\pi, \\dots\\}$ یعنی $x = k\\pi$",
+        "$2\\sin x - \\sqrt{2} = 0 \\Rightarrow \\sin x = \\frac{\\sqrt{2}}{2} \\Rightarrow x_2 = \\frac{\\pi}{4}$",
+        "ست: $A_2 = \\{\\frac{\\pi}{4},\\ \\pi - \\frac{\\pi}{4},\\ 2\\pi + \\frac{\\pi}{4},\\ 3\\pi - \\frac{\\pi}{4}, \\dots\\}$ یعنی $x = n\\pi + (-1)^n\\frac{\\pi}{4}$"
+      ],
+      "answer": "$x = k\\pi$ یا $x = n\\pi + (-1)^n\\frac{\\pi}{4}$ ($k, n \\in \\mathbb{Z}$)",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب برای $\\sin x = -\\frac{1}{2}$ فقط خانوادهٔ $\\frac{7\\pi}{6} + 2k\\pi$ را آورده است؛ خانوادهٔ $\\frac{11\\pi}{6} + 2k\\pi$ (ربع چهارم) هم جواب است. به شکل یک‌جا: $x = n\\pi - (-1)^n\\frac{\\pi}{6}$."
+}

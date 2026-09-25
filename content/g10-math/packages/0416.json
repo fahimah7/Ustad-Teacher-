@@ -1,0 +1,60 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 416,
+  "printed_page": 409,
+  "page_kind": "content",
+  "chapter": 9,
+  "section_fa": "منطق ریاضی و استنتاج بیان",
+  "summary_fa": "این صفحه توضیح ترکیب دوطرفه را تمام می‌کند: در $p \\Leftrightarrow q$ هم q از p و هم p از q نتیجه می‌شود. بعد جدول صحت هر چهار ترکیب برای چهار حالت p و q داده شده است. قاعده‌ها: $p \\wedge q$ فقط وقتی درست است که هر دو درست باشند؛ $p \\vee q$ فقط وقتی نادرست است که هر دو نادرست باشند؛ $p \\Rightarrow q$ فقط وقتی نادرست است که p درست و q نادرست باشد؛ $p \\Leftrightarrow q$ وقتی درست است که p و q قیمت صحت یکسان داشته باشند. در مثال ۱ با $p \\equiv (2+4=6)$ (درست) و q = «مربع یک عدد منفی است» (نادرست)، قیمت صحت هشت بیان پیدا می‌شود. در مثال ۲ با جدول صحت نشان داده می‌شود که $p \\vee (p \\Rightarrow q)$ همیشه درست است.",
+  "key_points_fa": [
+    "$p \\wedge q$ فقط در حالت T و T درست است.",
+    "$p \\vee q$ فقط در حالت F و F نادرست است.",
+    "$p \\Rightarrow q$ فقط وقتی نادرست است که p درست و q نادرست باشد.",
+    "$p \\Leftrightarrow q$ وقتی درست است که p و q هر دو درست یا هر دو نادرست باشند.",
+    "$p \\vee (p \\Rightarrow q)$ در همهٔ حالت‌ها درست است."
+  ],
+  "formulas": [
+    {"latex": "\\begin{array}{cc|cccc} p & q & p\\wedge q & p\\vee q & p\\Rightarrow q & p\\Leftrightarrow q \\\\ \\hline T&T&T&T&T&T \\\\ T&F&F&T&F&F \\\\ F&T&F&T&T&F \\\\ F&F&F&F&T&T \\end{array}", "meaning_fa": "جدول صحت چهار ترکیب اساسی دو بیان"}
+  ],
+  "terms": [
+    {"fa": "جدول صحت", "en": "truth table"},
+    {"fa": "ترکیب مشروط دوطرفه", "en": "biconditional"},
+    {"fa": "قیمت صحت (ارزش بیان)", "en": "truth value"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.27, 0.19, 0.67, 0.40], "kind": "table", "description_fa": "جدول صحت با ستون‌های p، q، $p\\wedge q$، $p\\vee q$، $p\\Rightarrow q$، $p\\Leftrightarrow q$ برای چهار حالت (TT، TF، FT، FF)؛ بالای جدول خط‌های قلاب‌مانند علامه‌های $\\wedge$، $\\vee$، $\\Rightarrow$ و $\\Leftrightarrow$ را به ستون‌های p و q وصل می‌کنند تا نشان دهند هر ستون از ترکیب p و q ساخته شده است."},
+    {"id": "fig2", "bbox": [0.12, 0.54, 0.70, 0.60], "kind": "table", "description_fa": "جدول یک‌سطره برای مثال ۱: p=T، q=F، $\\sim p$=F، $\\sim q$=T، $p\\wedge q$=F، $p\\vee q$=T، $\\sim(p\\wedge q)$=T، $\\sim(p\\vee q)$=F."},
+    {"id": "fig3", "bbox": [0.12, 0.66, 0.44, 0.79], "kind": "table", "description_fa": "جدول صحت مثال ۲ با ستون‌های p، q، $p\\Rightarrow q$ و $p\\vee(p\\Rightarrow q)$؛ ستون آخر در هر چهار سطر T است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "اگر $p \\equiv (2+4=6)$ و q = «مربع یک عدد منفی است» باشد، قیمت صحت p، q، $\\sim p$، $\\sim q$، $p \\vee q$، $p \\wedge q$، $\\sim(p \\wedge q)$ و $\\sim(p \\vee q)$ را پیدا کنید.",
+      "steps_fa": [
+        "$2+4=6$ درست است: $p \\equiv T$؛ مربع هیچ عدد حقیقی منفی نیست: $q \\equiv F$.",
+        "$\\sim p \\equiv F$ و $\\sim q \\equiv T$.",
+        "$p \\wedge q \\equiv F$ (یکی نادرست است) و $p \\vee q \\equiv T$ (یکی درست است).",
+        "$\\sim(p \\wedge q) \\equiv T$ و $\\sim(p \\vee q) \\equiv F$."
+      ],
+      "answer": "p=T، q=F، ~p=F، ~q=T، p∧q=F، p∨q=T، ~(p∧q)=T، ~(p∨q)=F",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "با جدول صحت نشان دهید که $p \\vee (p \\Rightarrow q)$ همیشه درست است.",
+      "steps_fa": [
+        "ستون $p \\Rightarrow q$: T، F، T، T.",
+        "ستون $p \\vee (p \\Rightarrow q)$: سطر ۱ و ۲ چون p درست است T؛ سطر ۳ و ۴ چون $p \\Rightarrow q$ درست است T.",
+        "ستون آخر در هر چهار حالت T است."
+      ],
+      "answer": "$p \\vee (p \\Rightarrow q)$ همیشه درست است.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

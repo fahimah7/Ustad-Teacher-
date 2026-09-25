@@ -1,0 +1,51 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 114,
+  "printed_page": 107,
+  "page_kind": "content",
+  "chapter": 3,
+  "section_fa": "ترکیب توابع یا توابع مرکب",
+  "summary_fa": "این صفحه درس ترکیب توابع را شروع می‌کند. تصویر آغازین دو ماشین را نشان می‌دهد که پشت سر هم کار می‌کنند: عدد $x$ داخل ماشین $g$ می‌رود و $g(x)$ بیرون می‌آید؛ بعد $g(x)$ داخل ماشین $f$ می‌رود و $f(g(x))$ بیرون می‌آید. این همان تابع مرکب $(f \\circ g)(x)$ است. در تعریف گفته می‌شود که $x$ باید در ناحیهٔ تعریف $g$ باشد و $g(x)$ هم باید در ناحیهٔ تعریف $f$ باشد؛ در غیر آن ماشین دوم آن را قبول نمی‌کند. یک فعالیت از شاگرد می‌خواهد $f \\circ g$، $g \\circ f$، $f \\circ f$ و $g \\circ g$ را برای دو تابع ساده حساب کند و ببیند که ترتیب ترکیب مهم است.",
+  "key_points_fa": [
+    "$(f \\circ g)(x) = f(g(x))$: اول $g$ عمل می‌کند و بعد $f$ روی نتیجهٔ آن.",
+    "برای حساب کردن، در افادهٔ $f$ به جای $x$ تمام افادهٔ $g(x)$ را بگذارید.",
+    "ناحیهٔ تعریف $f \\circ g$: همهٔ $x$هایی که در ناحیهٔ تعریف $g$ هستند و $g(x)$ آن‌ها در ناحیهٔ تعریف $f$ است.",
+    "به طور عموم $f \\circ g$ با $g \\circ f$ مساوی نیست؛ ترتیب مهم است."
+  ],
+  "formulas": [
+    {"latex": "(f \\circ g)(x) = f(g(x))", "meaning_fa": "تعریف ترکیب دو تابع"},
+    {"latex": "\\mathrm{Dom}(f \\circ g) = \\{x \\in \\mathbb{R} \\mid x \\in \\mathrm{dom}\\,g,\\ g(x) \\in \\mathrm{dom}\\,f\\}", "meaning_fa": "ناحیهٔ تعریف تابع مرکب"}
+  ],
+  "terms": [
+    {"fa": "ترکیب توابع", "en": "composition of functions"},
+    {"fa": "تابع مرکب", "en": "composite function"},
+    {"fa": "ورودی", "en": "input"},
+    {"fa": "خروجی", "en": "output"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.05, 0.46, 0.32], "kind": "illustration", "description_fa": "تصویر یک دستگاه با دو ماشین پشت سر هم: ورودی $x$ از بالا داخل ماشین $g$ می‌شود، خروجی $g(x)$ به ماشین $f$ می‌رود و در پایان $f(g(x))$ یا $(f \\circ g)(x)$ بیرون می‌آید. مفهوم «تابعِ تابع» را با مثال ماشین نشان می‌دهد."},
+    {"id": "fig2", "bbox": [0.11, 0.80, 0.45, 0.88], "kind": "diagram", "description_fa": "دو زنجیرهٔ تیر: $x \\xrightarrow{g} g(x) \\xrightarrow{f} f(g(x))$ و $x \\xrightarrow{f} f(x) \\xrightarrow{g} g(f(x))$. نشان می‌دهد که در $f \\circ g$ اول $g$ و در $g \\circ f$ اول $f$ عمل می‌کند."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر $f(x) = x^2 - 2$ و $g(x) = x + 3$ باشد: (۱) $(f \\circ g)(x)$ و $(g \\circ f)(x)$ را دریابید؛ (۲) در کدام حالت $(f \\circ g)(x) = (g \\circ f)(x)$ است؟ (۳) $(f \\circ f)(x)$ و $(g \\circ g)(x)$ را دریابید.",
+      "solution_steps_fa": [
+        "$(f \\circ g)(x) = f(x + 3) = (x + 3)^2 - 2 = x^2 + 6x + 7$",
+        "$(g \\circ f)(x) = g(x^2 - 2) = x^2 - 2 + 3 = x^2 + 1$",
+        "برای مساوی بودن: $x^2 + 6x + 7 = x^2 + 1 \\Rightarrow 6x = -6 \\Rightarrow x = -1$؛ امتحان: هر دو در $x = -1$ قیمت ۲ دارند.",
+        "$(f \\circ f)(x) = (x^2 - 2)^2 - 2 = x^4 - 4x^2 + 2$",
+        "$(g \\circ g)(x) = (x + 3) + 3 = x + 6$"
+      ],
+      "answer": "$f \\circ g = x^2 + 6x + 7$، $g \\circ f = x^2 + 1$؛ فقط در $x = -1$ مساوی‌اند؛ $f \\circ f = x^4 - 4x^2 + 2$، $g \\circ g = x + 6$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "عنوان بخش همراه با انگلیسی «composition of functions or composite functions» چاپ شده است."
+}

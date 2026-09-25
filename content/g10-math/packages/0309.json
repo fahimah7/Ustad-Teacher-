@@ -1,0 +1,41 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 309,
+  "printed_page": 302,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "ادامه و پایان تمرین‌های فصل اعداد مختلط (سوال ۱۰ تا ۱۸). سوال‌ها همهٔ مهارت‌های فصل را تکرار می‌کنند: ساده کردن کسر موهومی، جمع و تفریق اعداد مختلط (قسمت حقیقی با حقیقی و موهومی با موهومی)، ضرب و نوشتن جواب به شکل $a+bi$، امتحان خاصیت‌های مزدوج برای دو عدد داده شده، پیدا کردن معکوس جمعی و معکوس ضربی چند عدد، و حل یک معادلهٔ درجه دوم که جذرهای مختلط دارد. برای معکوس ضربی $a+bi$، عدد $\\frac{a-bi}{a^2+b^2}$ را بنویسید.",
+  "key_points_fa": [
+    "جمع و تفریق: قسمت‌های حقیقی با هم و قسمت‌های موهومی با هم.",
+    "$(a+bi)(a-bi) = a^2+b^2$",
+    "معکوس جمعی $a+bi$: $-a-bi$ ؛ معکوس ضربی: $\\frac{a-bi}{a^2+b^2}$",
+    "برای معادلهٔ درجه دوم با $\\Delta<0$ ، $\\sqrt{\\Delta} = i\\sqrt{|\\Delta|}$ بگذارید."
+  ],
+  "formulas": [
+    {"latex": "\\frac{1}{a+bi} = \\frac{a-bi}{a^2+b^2}", "meaning_fa": "معکوس ضربی عدد مختلط"},
+    {"latex": "x_{1,2} = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}", "meaning_fa": "فورمول حل معادلهٔ درجه دوم"}
+  ],
+  "terms": [
+    {"fa": "معکوس جمعی", "en": "additive inverse"},
+    {"fa": "معکوس ضربی", "en": "multiplicative inverse"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {"label_fa": "۱۰", "kind": "exercise", "problem_fa": "$-\\frac{xi}{\\sqrt{y}\\,i}$ مساوی کدام است؟ a) $\\frac{x}{\\sqrt y}$ b) $\\frac{-x}{\\sqrt y}$ c) $\\frac{xi}{\\sqrt y}$ d) $\\frac{x}{y}$", "solution_steps_fa": ["$i$ در صورت و مخرج ساده می‌شود و علامهٔ منفی می‌ماند: $-\\frac{x}{\\sqrt y}$"], "answer": "b) $\\frac{-x}{\\sqrt y}$", "solution_source": "generated"},
+    {"label_fa": "۱۱", "kind": "exercise", "problem_fa": "جمع کنید: $(3+4i)+(2+5i)$ ، $(a+bi)+(c+di)$ ، $(1+i)+(1-i)$ ، $(2+3i)+(2-3i)$", "solution_steps_fa": ["$(3+2)+(4+5)i = 5+9i$", "$(a+c)+(b+d)i$", "$(1+1)+(1-1)i = 2$", "$(2+2)+(3-3)i = 4$"], "answer": "$5+9i$ ؛ $(a+c)+(b+d)i$ ؛ $2$ ؛ $4$", "solution_source": "generated"},
+    {"label_fa": "۱۲", "kind": "exercise", "problem_fa": "تفریق کنید: $(4+3i)-(4+4i)$ ، $(3-2i)-(3+2i)$ ، $(4+4i)-(4+3i)$ ، $(1+i)-(1-i)$", "solution_steps_fa": ["$(4-4)+(3-4)i = -i$", "$(3-3)+(-2-2)i = -4i$", "$(4-4)+(4-3)i = i$", "$(1-1)+(1+1)i = 2i$"], "answer": "$-i$ ؛ $-4i$ ؛ $i$ ؛ $2i$", "solution_source": "generated"},
+    {"label_fa": "۱۳", "kind": "exercise", "problem_fa": "$(2a+ib)-(2a-ib)$ مساوی کدام است؟ a) $-ib$ b) $-2ib$ c) $2ib$ d) $4a$", "solution_steps_fa": ["$2a-2a+ib+ib = 2ib$"], "answer": "c) $2ib$", "solution_source": "generated"},
+    {"label_fa": "۱۴", "kind": "exercise", "problem_fa": "حاصل ضرب $(2-3i)(2+3i)$ مساوی کدام است؟ a) $-13$ b) $13i$ c) 13 d) $9i$", "solution_steps_fa": ["دو عدد مزدوج اند: $2^2+3^2 = 4+9 = 13$"], "answer": "c) 13", "solution_source": "generated"},
+    {"label_fa": "۱۵", "kind": "exercise", "problem_fa": "به شکل $a+bi$ بنویسید: $4(2+5i)-(3-4i)$ ، $(4-3i)(2+i)$ ، $i(3-2i)^2$ ، $i^{51}$", "solution_steps_fa": ["$8+20i-3+4i = 5+24i$", "$8+4i-6i-3i^2 = 8-2i+3 = 11-2i$", "$(3-2i)^2 = 9-12i+4i^2 = 5-12i$ ؛ $i(5-12i) = 5i-12i^2 = 12+5i$", "$i^{51} = i^{48}\\cdot i^3 = -i$"], "answer": "$5+24i$ ؛ $11-2i$ ؛ $12+5i$ ؛ $-i$", "solution_source": "generated"},
+    {"label_fa": "۱۶", "kind": "exercise", "problem_fa": "اگر $z_1 = 2-4i$ و $z_2 = 1-i$ باشد، نشان دهید: $\\overline{z_1+z_2} = \\overline{z_1}+\\overline{z_2}$ ، $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$ ، $\\overline{\\left(\\frac{z_1}{z_2}\\right)} = \\frac{\\overline{z_1}}{\\overline{z_2}}$", "solution_steps_fa": ["$z_1+z_2 = 3-5i$ ، مزدوج آن $3+5i$ ؛ $\\overline{z_1}+\\overline{z_2} = (2+4i)+(1+i) = 3+5i$", "$z_1z_2 = (2-4i)(1-i) = 2-2i-4i+4i^2 = -2-6i$ ، مزدوج آن $-2+6i$ ؛ $\\overline{z_1}\\,\\overline{z_2} = (2+4i)(1+i) = 2+6i-4 = -2+6i$", "$\\frac{z_1}{z_2} = \\frac{(2-4i)(1+i)}{2} = \\frac{6-2i}{2} = 3-i$ ، مزدوج آن $3+i$ ؛ $\\frac{\\overline{z_1}}{\\overline{z_2}} = \\frac{(2+4i)(1-i)}{2} = \\frac{6+2i}{2} = 3+i$"], "answer": "در هر سه خاصیت دو طرف برابر اند: $3+5i$ ، $-2+6i$ ، $3+i$", "solution_source": "generated"},
+    {"label_fa": "۱۷", "kind": "exercise", "problem_fa": "معکوس جمعی و معکوس ضربی را دریابید: $3x-\\frac12yi$ ، $2a-bi$ ، $2+5i$ ، $-7+3i$ ، $-6+2i$ ، $3-i$ ، $\\sqrt2+i$", "solution_steps_fa": ["معکوس جمعی: علامهٔ هر دو قسمت عوض می‌شود. معکوس ضربی: $\\frac{a-bi}{a^2+b^2}$", "$3x-\\frac12yi$: جمعی $-3x+\\frac12yi$ ؛ ضربی $\\frac{3x+\\frac12yi}{9x^2+\\frac14y^2} = \\frac{12x+2yi}{36x^2+y^2}$", "$2a-bi$: جمعی $-2a+bi$ ؛ ضربی $\\frac{2a+bi}{4a^2+b^2}$", "$2+5i$: جمعی $-2-5i$ ؛ ضربی $\\frac{2-5i}{29}$ ؛ $-7+3i$: جمعی $7-3i$ ؛ ضربی $\\frac{-7-3i}{58}$", "$-6+2i$: جمعی $6-2i$ ؛ ضربی $\\frac{-6-2i}{40} = \\frac{-3-i}{20}$ ؛ $3-i$: جمعی $-3+i$ ؛ ضربی $\\frac{3+i}{10}$", "$\\sqrt2+i$: جمعی $-\\sqrt2-i$ ؛ ضربی $\\frac{\\sqrt2-i}{3}$"], "answer": "مطابق قدم‌ها؛ مثلاً معکوس ضربی $2+5i$ عدد $\\frac{2}{29}-\\frac{5}{29}i$ است.", "solution_source": "generated"},
+    {"label_fa": "۱۸", "kind": "exercise", "problem_fa": "معادلهٔ $5x^2+2x+1=0$ را حل کنید.", "solution_steps_fa": ["$\\Delta = 2^2-4\\cdot5\\cdot1 = 4-20 = -16$ ، $\\sqrt{\\Delta} = 4i$", "$x_{1,2} = \\frac{-2 \\pm 4i}{10} = -\\frac{1}{5} \\pm \\frac{2}{5}i$"], "answer": "$x_1 = -\\frac15+\\frac25i$ ، $x_2 = -\\frac15-\\frac25i$", "solution_source": "generated"}
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در سوال ۱۰ علامهٔ جذر فقط روی $y$ است. در سوال ۱۷ فرض شده که $x, y, a, b$ حقیقی و عدد غیر صفر است. در سوال ۱۶ به جای «و» علامت مربع چاپ شده است."
+}

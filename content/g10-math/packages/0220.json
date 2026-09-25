@@ -1,0 +1,96 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 220,
+  "printed_page": 213,
+  "page_kind": "review",
+  "chapter": 4,
+  "section_fa": "خلاصهٔ فصل",
+  "summary_fa": "این صفحه خلاصهٔ فصل چهارم (توابع مثلثاتی) را شروع می‌کند. نکته‌های اصلی: با رابطهٔ $\\frac{R}{\\pi} = \\frac{g}{200} = \\frac{d}{180}$ اندازهٔ زاویه بین رادیان، گراد و درجه تبدیل می‌شود. یک رادیان زاویهٔ مرکزی‌یی است که طول قوس مقابل آن با شعاع دایره برابر باشد و به طور عمومی $\\theta = \\frac{s}{r}$. زاویه‌یی در حالت معیاری است که رأس آن در مبدأ سیستم کمیات وضعیه و ضلع اول آن روی جهت مثبت محور X باشد. زوایایی که در حالت معیاری ضلع دوم مشترک دارند، زوایای کوترمینل نامیده می‌شوند. دایرهٔ مثلثاتی دایره‌یی با شعاع یک واحد است. در پایان، یک جدول بزرگ قوانین نسبت‌های مثلثاتی زوایای $90^\\circ - \\theta$، $-\\theta$، $\\pi - \\theta$، $\\frac{\\pi}{2} + \\theta$، $\\pi + \\theta$ و $2\\pi - \\theta$ را بر حسب نسبت‌های θ جمع‌بندی می‌کند.",
+  "key_points_fa": [
+    "تبدیل واحدها: $\\frac{R}{\\pi} = \\frac{g}{200} = \\frac{d}{180}$ (رادیان، گراد، درجه).",
+    "یک رادیان: زاویهٔ مرکزی که قوس مقابل آن مساوی شعاع است؛ $\\theta = \\frac{s}{r}$.",
+    "حالت معیاری: رأس در مبدأ و ضلع اول روی جهت مثبت محور X.",
+    "زوایای کوترمینل: ضلع دوم آن‌ها در حالت معیاری یکی است.",
+    "قاعدهٔ یادگیری جدول: با $90^\\circ \\pm \\theta$ یا $\\frac{\\pi}{2} + \\theta$ نام نسبت عوض می‌شود (sin↔cos، tan↔cot، sec↔csc)، با $\\pi \\pm \\theta$، $-\\theta$ و $2\\pi - \\theta$ نام همان می‌ماند؛ علامت را ربع زاویه تعیین می‌کند."
+  ],
+  "formulas": [
+    {
+      "latex": "\\frac{R}{\\pi} = \\frac{g}{200} = \\frac{d}{180}",
+      "meaning_fa": "تبدیل اندازهٔ زاویه بین رادیان (R)، گراد (g) و درجه (d)"
+    },
+    {
+      "latex": "\\theta = \\frac{s}{r}",
+      "meaning_fa": "اندازهٔ زاویهٔ مرکزی به رادیان؛ s طول قوس و r شعاع"
+    },
+    {
+      "latex": "\\sin(90^\\circ - \\theta) = \\cos\\theta,\\ \\cos(90^\\circ - \\theta) = \\sin\\theta,\\ \\tan(90^\\circ - \\theta) = \\cot\\theta",
+      "meaning_fa": "نسبت‌های زاویهٔ متمم؛ به همین ترتیب cot↔tan و sec↔csc"
+    },
+    {
+      "latex": "\\sin(-\\theta) = -\\sin\\theta,\\ \\cos(-\\theta) = \\cos\\theta,\\ \\tan(-\\theta) = -\\tan\\theta",
+      "meaning_fa": "زاویهٔ منفی؛ فقط cos و sec علامت را نگه می‌دارند"
+    },
+    {
+      "latex": "\\sin(\\pi - \\theta) = \\sin\\theta,\\ \\cos(\\pi - \\theta) = -\\cos\\theta,\\ \\tan(\\pi - \\theta) = -\\tan\\theta",
+      "meaning_fa": "زاویه در ربع دوم؛ فقط sin و csc مثبت می‌مانند"
+    },
+    {
+      "latex": "\\sin(\\tfrac{\\pi}{2} + \\theta) = \\cos\\theta,\\ \\cos(\\tfrac{\\pi}{2} + \\theta) = -\\sin\\theta,\\ \\tan(\\tfrac{\\pi}{2} + \\theta) = -\\cot\\theta",
+      "meaning_fa": "همچنین $\\cot(\\frac{\\pi}{2}+\\theta) = -\\tan\\theta$، $\\sec(\\frac{\\pi}{2}+\\theta) = -\\csc\\theta$، $\\csc(\\frac{\\pi}{2}+\\theta) = \\sec\\theta$"
+    },
+    {
+      "latex": "\\sin(\\pi + \\theta) = -\\sin\\theta,\\ \\cos(\\pi + \\theta) = -\\cos\\theta,\\ \\tan(\\pi + \\theta) = \\tan\\theta,\\ \\cot(\\pi + \\theta) = \\cot\\theta",
+      "meaning_fa": "زاویه در ربع سوم؛ فقط tan و cot مثبت می‌مانند؛ $\\sec(\\pi+\\theta) = -\\sec\\theta$ و $\\csc(\\pi+\\theta) = -\\csc\\theta$"
+    },
+    {
+      "latex": "\\sin(2\\pi - \\theta) = -\\sin\\theta,\\ \\cos(2\\pi - \\theta) = \\cos\\theta,\\ \\tan(2\\pi - \\theta) = -\\tan\\theta",
+      "meaning_fa": "زاویه در ربع چهارم؛ فقط cos و sec مثبت می‌مانند"
+    }
+  ],
+  "terms": [
+    {
+      "fa": "رادیان",
+      "en": "radian"
+    },
+    {
+      "fa": "گراد",
+      "en": "grad (gradian)"
+    },
+    {
+      "fa": "درجه",
+      "en": "degree"
+    },
+    {
+      "fa": "زاویهٔ مرکزی",
+      "en": "central angle"
+    },
+    {
+      "fa": "زوایای کوترمینل",
+      "en": "coterminal angles"
+    },
+    {
+      "fa": "دایرهٔ مثلثاتی",
+      "en": "unit circle"
+    }
+  ],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [
+        0.12,
+        0.46,
+        0.77,
+        0.87
+      ],
+      "kind": "table",
+      "description_fa": "جدول سه ستونی قوانین تبدیل: ستون چپ شش نسبت زوایای $90^\\circ - \\theta$ و $\\frac{\\pi}{2} + \\theta$، ستون وسط زوایای $-\\theta$ و $\\pi + \\theta$، ستون راست زوایای $\\pi - \\theta$ و $2\\pi - \\theta$. هر خانه نشان می‌دهد که sin، cos، tan، cot، sec و csc آن زاویه با کدام نسبت θ و با چه علامتی برابر است."
+    }
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در جدول کتاب $\\cot(\\pi + \\theta) = -\\cot\\theta$ چاپ شده که غلط است؛ درست آن $\\cot(\\pi + \\theta) = \\cot\\theta$ است (مثل $\\tan(\\pi + \\theta) = \\tan\\theta$). عنوان «خلاصه فصل» عیناً مطابق چاپ کتاب نوشته شده است."
+}

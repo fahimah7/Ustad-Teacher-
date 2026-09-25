@@ -1,0 +1,56 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 198,
+  "printed_page": 191,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "رابطه بین نسبت‌های مثلثاتی زاویه‌هایی که مجموعه یا فرق شان $360^\\circ$ یا $2\\pi$ رادیان باشد",
+  "summary_fa": "بالای صفحه مثال ۴ تمام می‌شود: cot زاویهٔ $-\\frac{5\\pi}{2}$ (که با $-\\frac{\\pi}{2}$ کوترمینل است) صفر و cot زاویهٔ $\\frac{7\\pi}{3}$ (کوترمینل با $\\frac{\\pi}{3}$) برابر $\\frac{1}{\\sqrt{3}}$ به دست می‌آید. یک فعالیت دو نسبت باقی‌مانده، یعنی sec و csc، را برای این دو زاویه می‌خواهد. بعد خلاصهٔ درس در دو گروه شش‌تایی آمده است. گروه اول رابطه‌های $2\\pi - \\theta$ است: فقط cos و sec تغییر نمی‌کنند و چهار نسبت دیگر قرینه می‌شوند (مانند زاویهٔ $-\\theta$). گروه دوم رابطه‌های $2\\pi + \\theta$ است: همهٔ شش نسبت بدون تغییر می‌مانند، چون این دو زاویه کوترمینل‌اند.",
+  "key_points_fa": [
+    "$\\cot(-\\frac{5\\pi}{2}) = \\cot(-\\frac{\\pi}{2}) = \\frac{0}{-1} = 0$.",
+    "$\\cot\\frac{7\\pi}{3} = \\cot\\frac{\\pi}{3} = \\frac{1}{\\sqrt{3}}$.",
+    "برای $2\\pi - \\theta$: cos و sec همان می‌مانند؛ sin، tan، cot و csc قرینه می‌شوند.",
+    "برای $2\\pi + \\theta$: هر شش نسبت همان نسبت‌های $\\theta$ است."
+  ],
+  "formulas": [
+    {"latex": "\\sin(2\\pi - \\theta) = -\\sin\\theta,\\ \\cos(2\\pi - \\theta) = \\cos\\theta,\\ \\tan(2\\pi - \\theta) = -\\tan\\theta", "meaning_fa": "خلاصهٔ $2\\pi - \\theta$ (بخش اول)"},
+    {"latex": "\\cot(2\\pi - \\theta) = -\\cot\\theta,\\ \\sec(2\\pi - \\theta) = \\sec\\theta,\\ \\csc(2\\pi - \\theta) = -\\csc\\theta", "meaning_fa": "خلاصهٔ $2\\pi - \\theta$ (بخش دوم)"},
+    {"latex": "\\sin(2\\pi + \\theta) = \\sin\\theta,\\ \\cos(2\\pi + \\theta) = \\cos\\theta,\\ \\tan(2\\pi + \\theta) = \\tan\\theta", "meaning_fa": "خلاصهٔ $2\\pi + \\theta$ (بخش اول)"},
+    {"latex": "\\cot(2\\pi + \\theta) = \\cot\\theta,\\ \\sec(2\\pi + \\theta) = \\sec\\theta,\\ \\csc(2\\pi + \\theta) = \\csc\\theta", "meaning_fa": "خلاصهٔ $2\\pi + \\theta$ (بخش دوم)"}
+  ],
+  "terms": [
+    {"fa": "زوایای کوترمینل", "en": "coterminal angles"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۴ (ادامه)",
+      "problem_fa": "cot زاویه‌های $-\\frac{5\\pi}{2}$ و $\\frac{7\\pi}{3}$",
+      "steps_fa": [
+        "$\\cot(-\\frac{5\\pi}{2}) = \\cot(-\\frac{\\pi}{2}) = \\frac{\\cos(-\\frac{\\pi}{2})}{\\sin(-\\frac{\\pi}{2})} = \\frac{0}{-1} = 0$",
+        "$\\cot\\frac{7\\pi}{3} = \\cot(2\\pi + \\frac{\\pi}{3}) = \\cot\\frac{\\pi}{3} = \\frac{1}{\\sqrt{3}}$"
+      ],
+      "answer": "$\\cot(-\\frac{5\\pi}{2}) = 0$، $\\cot\\frac{7\\pi}{3} = \\frac{1}{\\sqrt{3}}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "دو نسبت مثلثاتی باقی‌ماندهٔ (sec و csc) زاویه‌های $\\frac{7\\pi}{3}$ و $-\\frac{5\\pi}{2}$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\frac{7\\pi}{3}$ با $\\frac{\\pi}{3}$ کوترمینل است: $\\sec\\frac{7\\pi}{3} = \\frac{1}{\\cos\\frac{\\pi}{3}} = \\frac{1}{\\frac{1}{2}} = 2$ و $\\csc\\frac{7\\pi}{3} = \\frac{1}{\\sin\\frac{\\pi}{3}} = \\frac{2}{\\sqrt{3}} = \\frac{2\\sqrt{3}}{3}$",
+        "$-\\frac{5\\pi}{2}$ با $-\\frac{\\pi}{2}$ کوترمینل است: $\\cos(-\\frac{\\pi}{2}) = 0$ و $\\sin(-\\frac{\\pi}{2}) = -1$.",
+        "$\\sec(-\\frac{5\\pi}{2}) = \\frac{1}{0}$ تعریف نشده است؛ $\\csc(-\\frac{5\\pi}{2}) = \\frac{1}{-1} = -1$"
+      ],
+      "answer": "$\\sec\\frac{7\\pi}{3} = 2$، $\\csc\\frac{7\\pi}{3} = \\frac{2\\sqrt{3}}{3}$؛ $\\sec(-\\frac{5\\pi}{2})$ تعریف نشده، $\\csc(-\\frac{5\\pi}{2}) = -1$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

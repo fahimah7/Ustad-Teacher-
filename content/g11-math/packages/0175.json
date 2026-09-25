@@ -1,0 +1,101 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 175,
+  "printed_page": 166,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "لوگاریتم معمولی و لوگاریتم طبیعی",
+  "summary_fa": "این صفحه بحث لوگاریتم معمولی و طبیعی را تمام می‌کند. اول گراف $y = \\ln x$ رسم شده است: منحنی فقط برای x مثبت وجود دارد، از نقطهٔ $(1, 0)$ می‌گذرد، در $x = e$ به ارتفاع ۱ و در $x = e^2$ به ارتفاع ۲ می‌رسد و برای $x = \\frac{1}{e}$ قیمت آن ۱- است. بعد یک فعالیت با دو سوال کوتاه و یک تمرین با چهار لوگاریتم آمده است. کلید حل همه این است که عدد داخل لوگاریتم را به شکل توانی از قاعده بنویسیم: برای $\\ln$ به شکل $e^k$ و برای $\\log$ (قاعدهٔ ۱۰) به شکل $10^k$؛ آنگاه جواب همان توان k است.",
+  "key_points_fa": [
+    "گراف $y = \\ln x$ از $(1, 0)$ و $(e, 1)$ و $(e^2, 2)$ و $(\\frac{1}{e}, -1)$ می‌گذرد.",
+    "ساحهٔ تعریف $\\ln x$ اعداد مثبت است؛ برای $0 < x < 1$ قیمت آن منفی است.",
+    "$\\ln e^k = k$ و $\\log 10^k = k$",
+    "عدد اعشاری را به توان ۱۰ تبدیل کنید: $0.0001 = 10^{-4}$ و $0.01 = 10^{-2}$.",
+    "$\\frac{1}{a^{-n}} = a^n$"
+  ],
+  "formulas": [
+    {"latex": "\\ln e^k = k,\\qquad \\log 10^k = k", "meaning_fa": "لوگاریتم یک توانِ قاعده برابر همان توان است"},
+    {"latex": "\\frac{1}{a^{n}} = a^{-n}", "meaning_fa": "برای بردن عدد از مخرج به صورت، علامت توان عوض می‌شود"}
+  ],
+  "terms": [
+    {"fa": "لوگاریتم طبیعی", "en": "natural logarithm"},
+    {"fa": "لوگاریتم معمولی", "en": "common logarithm"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.14, 0.51, 0.34], "kind": "graph", "description_fa": "گراف $y = \\ln x$. منحنی نزدیک محور y از پایین بالا می‌آید، محور x را در $x = 1$ قطع می‌کند و آهسته بالا می‌رود. خط‌های نقطه‌چین نشان می‌دهند که در $x = e$ قیمت ۱، در $x = e^2$ قیمت ۲، و در $x = \\frac{1}{e}$ قیمت ۱- است. این گراف قرینهٔ گراف $e^x$ نسبت به خط $y = x$ است."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "$y = \\ln\\frac{1}{e^7}$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$\\frac{1}{e^7} = e^{-7}$",
+        "$y = \\ln e^{-7} = -7$"
+      ],
+      "answer": "$-7$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "$\\log 0.0001$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$0.0001 = \\frac{1}{10000} = 10^{-4}$",
+        "$\\log 10^{-4} = -4$"
+      ],
+      "answer": "$-4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "$\\log_e e^8$ را حساب کنید.",
+      "solution_steps_fa": [
+        "$\\log_e e^8 = \\ln e^8$",
+        "لوگاریتم یک توان قاعده همان توان است: $8$"
+      ],
+      "answer": "$8$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "$\\ln\\frac{1}{e^{-3}}$ را حساب کنید.",
+      "solution_steps_fa": [
+        "$\\frac{1}{e^{-3}} = e^{3}$",
+        "$\\ln e^3 = 3$"
+      ],
+      "answer": "$3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین c",
+      "kind": "exercise",
+      "problem_fa": "$\\log 0.01$ را حساب کنید.",
+      "solution_steps_fa": [
+        "$0.01 = \\frac{1}{100} = 10^{-2}$",
+        "$\\log 10^{-2} = -2$"
+      ],
+      "answer": "$-2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین d",
+      "kind": "exercise",
+      "problem_fa": "$\\log\\frac{1}{10^{-2}}$ را حساب کنید.",
+      "solution_steps_fa": [
+        "$\\frac{1}{10^{-2}} = 10^{2} = 100$",
+        "$\\log 10^2 = 2$"
+      ],
+      "answer": "$2$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در فعالیت اول کتاب «$\\ln\\frac{1}{e7}$» چاپ کرده است؛ آن را $\\ln\\frac{1}{e^7}$ (خطای چاپی) در نظر گرفتیم. اگر واقعاً $\\frac{1}{7e}$ باشد، جواب $-(1 + \\ln 7) \\approx -2.946$ است. در تمرین c کتاب ممیز را با کامه نوشته است (0,01)."
+}

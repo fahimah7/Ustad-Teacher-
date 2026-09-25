@@ -1,0 +1,103 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 16,
+  "printed_page": 9,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "خواص لیمت (Properties of limit)",
+  "summary_fa": "این درس قواعدی را معرفی می‌کند که با آن‌ها لیمت مجموع، تفاضل، حاصل ضرب، خارج قسمت و جذر توابع را از روی لیمت هر تابع حساب می‌کنیم. در آغاز پرسیده می‌شود که آیا لیمت $x^2 \\pm x$ در $-1$ با جمع یا تفریق لیمت‌های جداگانه مساوی است. در فعالیت، لیمت‌های $f(x) = x + 2$ و $g(x) = 2x$ حساب شده و با هم جمع، ضرب و تقسیم می‌شوند. از این فعالیت پنج خاصیت به دست می‌آید (ضرب در عدد ثابت، جمع و تفریق، ضرب، تقسیم به شرط $B \\neq 0$، و جذر به شرط $A \\geq 0$). کتاب سه خاصیت را ثبوت می‌کند و بقیه را کارخانگی می‌گذارد. در پایان، تابع بی‌نهایت کوچک تعریف می‌شود: تابعی که لیمت آن در $x \\to a$ صفر است.",
+  "key_points_fa": [
+    "لیمت مجموع (یا تفاضل) مساوی مجموع (یا تفاضل) لیمت‌هاست.",
+    "لیمت حاصل ضرب مساوی حاصل ضرب لیمت‌هاست؛ عدد ثابت از لیمت بیرون می‌آید.",
+    "لیمت خارج قسمت مساوی خارج قسمت لیمت‌هاست، به شرطی که لیمت مخرج صفر نباشد.",
+    "لیمت جذر nام مساوی جذر nام لیمت است (اگر لیمت نامنفی باشد).",
+    "تابع $\\varepsilon(x)$ در $x \\to a$ بی‌نهایت کوچک است اگر $\\lim_{x \\to a} \\varepsilon(x) = 0$."
+  ],
+  "formulas": [
+    {"latex": "\\lim_{x \\to a} K f(x) = K \\lim_{x \\to a} f(x) = KA", "meaning_fa": "عدد ثابت از لیمت بیرون می‌آید"},
+    {"latex": "\\lim_{x \\to a} [f(x) \\pm g(x)] = A \\pm B", "meaning_fa": "لیمت مجموع و تفاضل"},
+    {"latex": "\\lim_{x \\to a} [f(x) \\cdot g(x)] = A \\cdot B", "meaning_fa": "لیمت حاصل ضرب"},
+    {"latex": "\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\frac{A}{B},\\quad B \\neq 0", "meaning_fa": "لیمت خارج قسمت"},
+    {"latex": "\\lim_{x \\to a} \\sqrt[n]{f(x)} = \\sqrt[n]{A},\\quad A \\geq 0", "meaning_fa": "لیمت جذر"},
+    {"latex": "\\lim_{x \\to a} \\varepsilon(x) = 0", "meaning_fa": "تعریف تابع بی‌نهایت کوچک"}
+  ],
+  "terms": [
+    {"fa": "خواص لیمت", "en": "properties of limit"},
+    {"fa": "تابع بی‌نهایت کوچک", "en": "infinitesimal function"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغاز درس",
+      "kind": "question",
+      "problem_fa": "آیا $\\lim_{x \\to -1} (x^2 \\pm x) = \\lim_{x \\to -1} x^2 \\pm \\lim_{x \\to -1} x$ درست است؟",
+      "solution_steps_fa": [
+        "با جمع: $\\lim_{x \\to -1}(x^2 + x) = 1 - 1 = 0$ و $\\lim x^2 + \\lim x = 1 + (-1) = 0$",
+        "با تفریق: $\\lim_{x \\to -1}(x^2 - x) = 1 + 1 = 2$ و $\\lim x^2 - \\lim x = 1 - (-1) = 2$",
+        "در هر دو حالت دو طرف مساوی‌اند."
+      ],
+      "answer": "بلی، مساوی‌اند (برای جمع ۰ و برای تفریق ۲).",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "اگر $x \\to 2$، لیمت $f(x) = x + 2$ چند است؟",
+      "solution_steps_fa": [
+        "$\\lim_{x \\to 2} (x + 2) = 2 + 2 = 4$"
+      ],
+      "answer": "$4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "اگر $x \\to 3$، لیمت $g(x) = 2x$ را پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\lim_{x \\to 3} 2x = 2 \\cdot 3 = 6$"
+      ],
+      "answer": "$6$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۳",
+      "kind": "activity",
+      "problem_fa": "$\\lim_{x \\to 2} f(x) \\pm \\lim_{x \\to 2} g(x)$ را پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\lim_{x \\to 2} f(x) = 4$ و $\\lim_{x \\to 2} g(x) = 2 \\cdot 2 = 4$",
+        "مجموع: $4 + 4 = 8$؛ تفاضل: $4 - 4 = 0$",
+        "مقایسه: $\\lim_{x \\to 2}(x + 2 + 2x) = \\lim_{x \\to 2}(3x + 2) = 8$ که با نتیجه یکی است."
+      ],
+      "answer": "مجموع $8$ و تفاضل $0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۴",
+      "kind": "activity",
+      "problem_fa": "$\\lim_{x \\to 2} f(x) \\cdot \\lim_{x \\to 2} g(x)$ را پیدا کنید.",
+      "solution_steps_fa": [
+        "$4 \\cdot 4 = 16$",
+        "مقایسه: $\\lim_{x \\to 2}(x + 2)(2x) = 4 \\cdot 4 = 16$"
+      ],
+      "answer": "$16$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۵",
+      "kind": "activity",
+      "problem_fa": "$\\lim_{x \\to 2} f(x) \\div \\lim_{x \\to 2} g(x)$ را پیدا کنید.",
+      "solution_steps_fa": [
+        "$\\frac{4}{4} = 1$",
+        "مقایسه: $\\lim_{x \\to 2} \\frac{x + 2}{2x} = \\frac{4}{4} = 1$"
+      ],
+      "answer": "$1$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در فعالیت، لیمت g در $x \\to 3$ پرسیده شده ولی ترکیب‌ها در $x \\to 2$ خواسته شده‌اند؛ برای ترکیب‌ها $\\lim_{x \\to 2} g(x) = 4$ استفاده شد."
+}

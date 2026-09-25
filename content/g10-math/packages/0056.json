@@ -1,0 +1,125 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 56,
+  "printed_page": 49,
+  "page_kind": "exercises",
+  "chapter": 1,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "ادامهٔ تمرین فصل پولینوم، سؤال‌های ۲۷ تا ۳۴. این سؤال‌ها بخش‌های اول فصل را مرور می‌کنند: ضرب با اتحاد تفاضل مربع‌ها (۲۷)، ترتیب نزولی و درجهٔ پولینوم (۲۸ و ۳۱)، قیمت پولینوم (۲۹ و ۳۰)، جمع و تفریق پولینوم‌ها (۳۰ و ۳۳)، تشخیص پولینوم از افادهٔ ناطق و غیر ناطق (۳۲)، و پیدا کردن فکتور دیگر یک افاده وقتی حاصل ضرب و یک فکتور معلوم است (۳۴).",
+  "key_points_fa": [
+    "$(\\sqrt{x}+\\sqrt{y})(\\sqrt{x}-\\sqrt{y})=x-y$",
+    "درجهٔ پولینوم چند متحوله = بزرگ‌ترین مجموع توان‌ها در یک حده.",
+    "اگر متحول در مخرج باشد افاده ناطق است (پولینوم نیست)؛ اگر زیر جذر باشد غیر ناطق است.",
+    "یک عدد ثابت غیر صفر پولینوم درجه صفر است."
+  ],
+  "formulas": [
+    {"latex": "(a-b)(a+b)=a^2-b^2", "meaning_fa": "اتحاد تفاضل مربع‌ها"},
+    {"latex": "a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-bc-ca)", "meaning_fa": "تجزیهٔ افادهٔ سؤال ۳۴"}
+  ],
+  "terms": [
+    {"fa": "افادهٔ ناطق", "en": "rational expression"},
+    {"fa": "افادهٔ غیر ناطق", "en": "irrational expression"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۲۷",
+      "kind": "question",
+      "problem_fa": "حاصل $(\\sqrt{x}+\\sqrt{y})(\\sqrt{x}-\\sqrt{y})(x+y)$: a) $x^2-y^2$ b) $x^2+y^2$ c) $2x^2-y$ d) $x-y$",
+      "solution_steps_fa": [
+        "$(\\sqrt{x}+\\sqrt{y})(\\sqrt{x}-\\sqrt{y})=x-y$",
+        "$(x-y)(x+y)=x^2-y^2$"
+      ],
+      "answer": "a) $x^2-y^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۸",
+      "kind": "exercise",
+      "problem_fa": "به ترتیب نزولی بنویسید و درجه را معلوم کنید: a) $-5x^2+3x^5+9$ b) $-x^2+xy^2z^3-x^5$ c) $3$",
+      "solution_steps_fa": [
+        "a) $3x^5-5x^2+9$؛ بزرگ‌ترین توان ۵",
+        "b) درجهٔ حده‌ها: $xy^2z^3$ ← $1+2+3=6$، $x^5$ ← ۵، $x^2$ ← ۲؛ پس $xy^2z^3-x^5-x^2$",
+        "c) عدد ثابت ۳ پولینوم درجه صفر است."
+      ],
+      "answer": "a) $3x^5-5x^2+9$، درجه ۵؛ b) $xy^2z^3-x^5-x^2$، درجه ۶؛ c) درجه صفر",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲۹",
+      "kind": "question",
+      "problem_fa": "اگر $Q(x)=x^2+3x-5$ باشد، $Q(-1)$ چند است؟ a) 7 b) $-7$ c) 1 d) $-1$",
+      "solution_steps_fa": [
+        "$Q(-1)=1-3-5=-7$"
+      ],
+      "answer": "b) $-7$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۰",
+      "kind": "exercise",
+      "problem_fa": "اگر $P(x)=x^2-2x+3$ و $Q(x)=2x^2+3x-1$ باشد، این‌ها را پیدا کنید: $P(x)-Q(x)$، $P(0)+Q(0)$، $P(1)-Q(-1)$، $P(x)-P(x)$، $[P(x)+Q(x)]+P(x)$",
+      "solution_steps_fa": [
+        "$P-Q=(x^2-2x+3)-(2x^2+3x-1)=-x^2-5x+4$",
+        "$P(0)+Q(0)=3+(-1)=2$",
+        "$P(1)=2$ و $Q(-1)=2-3-1=-2$؛ پس $2-(-2)=4$",
+        "$P(x)-P(x)=0$",
+        "$2P+Q=2x^2-4x+6+2x^2+3x-1=4x^2-x+5$"
+      ],
+      "answer": "$-x^2-5x+4$؛ $2$؛ $4$؛ $0$؛ $4x^2-x+5$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۱",
+      "kind": "exercise",
+      "problem_fa": "به ترتیب نزولی توان y بنویسید: $4x^2y-3xy^2+x^3+y^3$ و $4xy^3-3x^3y+2x^2y^2+x^4+y^4$",
+      "solution_steps_fa": [
+        "اول: $y^3-3xy^2+4x^2y+x^3$",
+        "دوم: $y^4+4xy^3+2x^2y^2-3x^3y+x^4$"
+      ],
+      "answer": "$y^3-3xy^2+4x^2y+x^3$ و $y^4+4xy^3+2x^2y^2-3x^3y+x^4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۲",
+      "kind": "exercise",
+      "problem_fa": "پولینوم‌ها، افاده‌های ناطق و غیر ناطق را جدا کنید: $13$، $\\sqrt{2}x$، $0$، $\\frac{3x^2}{2}$، $\\sqrt{x}-\\frac{1}{x}$، $y^2-\\frac{1}{y^2}$",
+      "solution_steps_fa": [
+        "$13$، $\\sqrt{2}x$، $0$ و $\\frac{3x^2}{2}$ پولینوم‌اند (توان متحول عدد مکمل است؛ جذر فقط روی ضریب است).",
+        "$y^2-\\frac{1}{y^2}$ ناطق است چون متحول در مخرج است.",
+        "$\\sqrt{x}-\\frac{1}{x}$ غیر ناطق است چون متحول زیر جذر است."
+      ],
+      "answer": "پولینوم: $13, \\sqrt{2}x, 0, \\frac{3x^2}{2}$؛ ناطق: $y^2-\\frac{1}{y^2}$؛ غیر ناطق: $\\sqrt{x}-\\frac{1}{x}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۳",
+      "kind": "question",
+      "problem_fa": "حاصل $(1+2x+3x^2)+(3x-5-2x^2)+(-x^2-5x+4)$: a) 1 b) صفر c) $-1$ d) 2",
+      "solution_steps_fa": [
+        "ضریب $x^2$: $3-2-1=0$",
+        "ضریب x: $2+3-5=0$",
+        "عدد ثابت: $1-5+4=0$"
+      ],
+      "answer": "b) صفر",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۴",
+      "kind": "exercise",
+      "problem_fa": "حاصل ضرب دو افاده $a^3+b^3+c^3-3abc$ است؛ اگر یکی $(a+b+c)$ باشد، دیگری را پیدا کنید.",
+      "solution_steps_fa": [
+        "باید $(a^3+b^3+c^3-3abc)\\div(a+b+c)$ را پیدا کنیم.",
+        "امتحان با ضرب: $(a+b+c)(a^2+b^2+c^2-ab-bc-ca)=a^3+b^3+c^3-3abc$"
+      ],
+      "answer": "$a^2+b^2+c^2-ab-bc-ca$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سؤال ۲۸ (b) ترتیب نزولی بر اساس درجهٔ هر حده نوشته شده؛ بر اساس توان x می‌شود $-x^5-x^2+xy^2z^3$."
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-math",
+  "chapter": 7,
+  "title": {
+    "en": "Vectors in space",
+    "fa": "وکتورها در فضا"
+  },
+  "questions": [
+    {
+      "pdf_page": 261,
+      "q": {
+        "en": "Find the midpoint and the distance between $P(1, -2)$ and $Q(7, 6)$.",
+        "fa": "نقطهٔ وسطی و فاصلهٔ بین نقاط $P(1, -2)$ و $Q(7, 6)$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$M(3, 4)$, $|PQ| = 10$",
+          "fa": "$M(3, 4)$، $|PQ| = 10$"
+        },
+        {
+          "en": "$M(4, 2)$, $|PQ| = 10$",
+          "fa": "$M(4, 2)$، $|PQ| = 10$"
+        },
+        {
+          "en": "$M(4, 2)$, $|PQ| = 14$",
+          "fa": "$M(4, 2)$، $|PQ| = 14$"
+        },
+        {
+          "en": "$M(3, 4)$, $|PQ| = 14$",
+          "fa": "$M(3, 4)$، $|PQ| = 14$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$M = \\left(\\frac{1 + 7}{2}, \\frac{-2 + 6}{2}\\right) = (4, 2)$ and $|PQ| = \\sqrt{(7 - 1)^2 + (6 + 2)^2} = \\sqrt{36 + 64} = 10$.",
+        "fa": "$M = \\left(\\frac{1 + 7}{2}, \\frac{-2 + 6}{2}\\right) = (4, 2)$ و $|PQ| = \\sqrt{(7 - 1)^2 + (6 + 2)^2} = \\sqrt{36 + 64} = 10$ است."
+      },
+      "idea": {
+        "en": "For the midpoint add the coordinates and halve them; for the distance square the differences, add them and take the square root.",
+        "fa": "برای نقطهٔ وسطی مختصات را جمع و نصف کنید؛ برای فاصله تفاضل‌ها را مربع کنید، جمع کنید و جذر بگیرید."
+      }
+    },
+    {
+      "pdf_page": 266,
+      "q": {
+        "en": "Find the distance between the points $A(1, 2, 3)$ and $B(3, -1, 9)$.",
+        "fa": "فاصلهٔ بین نقاط $A(1, 2, 3)$ و $B(3, -1, 9)$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$49$",
+          "fa": "$49$"
+        },
+        {
+          "en": "$11$",
+          "fa": "$11$"
+        },
+        {
+          "en": "$\\sqrt{17}$",
+          "fa": "$\\sqrt{17}$"
+        },
+        {
+          "en": "$7$",
+          "fa": "$7$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$|AB| = \\sqrt{(3 - 1)^2 + (-1 - 2)^2 + (9 - 3)^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7$.",
+        "fa": "$|AB| = \\sqrt{(3 - 1)^2 + (-1 - 2)^2 + (9 - 3)^2} = \\sqrt{4 + 9 + 36} = \\sqrt{49} = 7$ است."
+      },
+      "idea": {
+        "en": "In space add the term $(z_2 - z_1)^2$, square each difference (not just its absolute value), and take the square root at the end.",
+        "fa": "در فضا حد $(z_2 - z_1)^2$ را هم اضافه کنید، هر تفاضل را مربع کنید (نه فقط قیمت مطلقهٔ آن) و در آخر جذر بگیرید."
+      }
+    },
+    {
+      "pdf_page": 268,
+      "q": {
+        "en": "Find the direction cosines $(\\cos\\alpha, \\cos\\beta, \\cos\\gamma)$ of $\\vec{v} = 2\\vec{i} - \\vec{j} + 2\\vec{k}$.",
+        "fa": "کوساین‌های جهت $(\\cos\\alpha, \\cos\\beta, \\cos\\gamma)$ وکتور $\\vec{v} = 2\\vec{i} - \\vec{j} + 2\\vec{k}$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$\\left(\\frac{2}{3}, -\\frac{1}{3}, \\frac{2}{3}\\right)$",
+          "fa": "$\\left(\\frac{2}{3}, -\\frac{1}{3}, \\frac{2}{3}\\right)$"
+        },
+        {
+          "en": "$(2, -1, 2)$",
+          "fa": "$(2, -1, 2)$"
+        },
+        {
+          "en": "$\\left(\\frac{2}{9}, -\\frac{1}{9}, \\frac{2}{9}\\right)$",
+          "fa": "$\\left(\\frac{2}{9}, -\\frac{1}{9}, \\frac{2}{9}\\right)$"
+        },
+        {
+          "en": "$\\left(\\frac{2}{3}, \\frac{1}{3}, \\frac{2}{3}\\right)$",
+          "fa": "$\\left(\\frac{2}{3}, \\frac{1}{3}, \\frac{2}{3}\\right)$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$r = |\\vec{v}| = \\sqrt{4 + 1 + 4} = 3$, so $\\cos\\alpha = \\frac{2}{3}$, $\\cos\\beta = -\\frac{1}{3}$, $\\cos\\gamma = \\frac{2}{3}$; check: $\\frac{4}{9} + \\frac{1}{9} + \\frac{4}{9} = 1$.",
+        "fa": "$r = |\\vec{v}| = \\sqrt{4 + 1 + 4} = 3$، پس $\\cos\\alpha = \\frac{2}{3}$، $\\cos\\beta = -\\frac{1}{3}$ و $\\cos\\gamma = \\frac{2}{3}$؛ امتحان: $\\frac{4}{9} + \\frac{1}{9} + \\frac{4}{9} = 1$."
+      },
+      "idea": {
+        "en": "Divide each component by the length $r$ (not by $r^2$) and keep its sign.",
+        "fa": "هر مؤلفه را بر طول $r$ تقسیم کنید (نه بر $r^2$) و علامت آن را نگه دارید."
+      }
+    },
+    {
+      "pdf_page": 272,
+      "q": {
+        "en": "For which value of $\\alpha$ are $\\vec{u} = 3\\vec{i} + \\alpha\\vec{j} + 2\\vec{k}$ and $\\vec{v} = 2\\vec{i} - 4\\vec{j} + \\alpha\\vec{k}$ perpendicular?",
+        "fa": "به ازای کدام قیمت $\\alpha$ وکتورهای $\\vec{u} = 3\\vec{i} + \\alpha\\vec{j} + 2\\vec{k}$ و $\\vec{v} = 2\\vec{i} - 4\\vec{j} + \\alpha\\vec{k}$ بر هم عمود اند؟"
+      },
+      "options": [
+        {
+          "en": "$-3$",
+          "fa": "$-3$"
+        },
+        {
+          "en": "$1$",
+          "fa": "$1$"
+        },
+        {
+          "en": "$3$",
+          "fa": "$3$"
+        },
+        {
+          "en": "$6$",
+          "fa": "$6$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "They are perpendicular when $\\vec{u}\\cdot\\vec{v} = 0$: $6 - 4\\alpha + 2\\alpha = 6 - 2\\alpha = 0$, so $\\alpha = 3$.",
+        "fa": "وکتورها وقتی عمود اند که $\\vec{u}\\cdot\\vec{v} = 0$ باشد: $6 - 4\\alpha + 2\\alpha = 6 - 2\\alpha = 0$، پس $\\alpha = 3$."
+      },
+      "idea": {
+        "en": "Multiply the matching components, add the products, and set the scalar product equal to zero.",
+        "fa": "مؤلفه‌های هم‌نام را ضرب کنید، حاصل‌ها را جمع کنید و حاصل ضرب سکالری را مساوی صفر قرار دهید."
+      }
+    },
+    {
+      "pdf_page": 279,
+      "q": {
+        "en": "Find $\\vec{u} \\times \\vec{v}$ for $\\vec{u} = \\vec{i} + 2\\vec{j}$ and $\\vec{v} = 3\\vec{i} + \\vec{k}$.",
+        "fa": "حاصل ضرب وکتوری $\\vec{u} \\times \\vec{v}$ را برای $\\vec{u} = \\vec{i} + 2\\vec{j}$ و $\\vec{v} = 3\\vec{i} + \\vec{k}$ دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$2\\vec{i} + \\vec{j} - 6\\vec{k}$",
+          "fa": "$2\\vec{i} + \\vec{j} - 6\\vec{k}$"
+        },
+        {
+          "en": "$2\\vec{i} - \\vec{j} - 6\\vec{k}$",
+          "fa": "$2\\vec{i} - \\vec{j} - 6\\vec{k}$"
+        },
+        {
+          "en": "$-2\\vec{i} + \\vec{j} + 6\\vec{k}$",
+          "fa": "$-2\\vec{i} + \\vec{j} + 6\\vec{k}$"
+        },
+        {
+          "en": "$3$",
+          "fa": "$3$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$\\vec{u}\\times\\vec{v} = \\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\\\ 1 & 2 & 0 \\\\ 3 & 0 & 1 \\end{vmatrix} = (2 - 0)\\vec{i} - (1 - 0)\\vec{j} + (0 - 6)\\vec{k} = 2\\vec{i} - \\vec{j} - 6\\vec{k}$.",
+        "fa": "$\\vec{u}\\times\\vec{v} = \\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\\\ 1 & 2 & 0 \\\\ 3 & 0 & 1 \\end{vmatrix} = (2 - 0)\\vec{i} - (1 - 0)\\vec{j} + (0 - 6)\\vec{k} = 2\\vec{i} - \\vec{j} - 6\\vec{k}$ است."
+      },
+      "idea": {
+        "en": "The vector product is a vector, not a number: expand the determinant along its first row and remember the minus sign in front of the $\\vec{j}$ term; $\\vec{v}\\times\\vec{u}$ has the opposite sign.",
+        "fa": "حاصل ضرب وکتوری یک وکتور است، نه عدد: دیترمینانت را بر اساس سطر اول بسط دهید و علامت منفی پیش از حد $\\vec{j}$ را فراموش نکنید؛ $\\vec{v}\\times\\vec{u}$ علامت مخالف دارد."
+      }
+    }
+  ]
+}

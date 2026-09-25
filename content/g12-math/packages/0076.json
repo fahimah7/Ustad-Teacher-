@@ -1,0 +1,71 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 76,
+  "printed_page": 69,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق تابع مثلثاتی $\\cos x$",
+  "summary_fa": "این صفحه مشتق کوساین را به دست می‌آورد. بالای صفحه گراف یک موج آمده که از قیمت ۱ در مبدأ شروع می‌شود و پرسیده می‌شود کدام تابع است. در فعالیت، به $y = \\cos x$ تزاید داده می‌شود و تفاضل $\\cos(x + \\Delta x) - \\cos x$ انکشاف داده می‌شود. در ثبوت، فورمول تبدیل تفاضل کوساین‌ها به حاصل ضرب، $\\Delta y = -2\\sin\\frac{2x + \\Delta x}{2}\\sin\\frac{\\Delta x}{2}$ را می‌دهد. بعد از تقسیم بر $\\Delta x$ و استفاده از لیمت $\\frac{\\sin t}{t} \\to 1$، نتیجه $(\\cos x)' = -\\sin x$ است. علامهٔ منفی از خود فورمول تبدیل می‌آید.",
+  "key_points_fa": [
+    "مشتق $\\cos x$ برابر $-\\sin x$ است؛ علامهٔ منفی را فراموش نکنید.",
+    "فورمول کلیدی: $\\cos a - \\cos b = -2\\sin\\frac{a + b}{2}\\sin\\frac{a - b}{2}$",
+    "گراف کوساین از نقطهٔ $(0, 1)$ شروع می‌شود و در $\\frac{\\pi}{2}$، $\\frac{3\\pi}{2}$ و $\\frac{5\\pi}{2}$ صفر است.",
+    "روش ثبوت دقیقاً مانند ثبوت مشتق ساین است."
+  ],
+  "formulas": [
+    {"latex": "y = \\cos x \\Rightarrow y' = -\\sin x", "meaning_fa": "مشتق تابع کوساین"},
+    {"latex": "\\cos a - \\cos b = -2\\sin\\frac{a + b}{2}\\,\\sin\\frac{a - b}{2}", "meaning_fa": "تبدیل تفاضل کوساین‌ها به حاصل ضرب"},
+    {"latex": "\\lim_{\\Delta x \\to 0}\\frac{\\sin\\frac{\\Delta x}{2}}{\\frac{\\Delta x}{2}} = 1", "meaning_fa": "لیمت مثلثاتی مورد استفاده در ثبوت"}
+  ],
+  "terms": [
+    {"fa": "کوساین", "en": "cosine"},
+    {"fa": "انکشاف", "en": "expansion"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.12, 0.10, 0.50, 0.27], "kind": "graph", "description_fa": "گراف $y = \\cos x$ که از قیمت ۱ روی محور y شروع می‌شود، در $\\frac{\\pi}{2}$ محور x را قطع می‌کند، به ۱- پایین می‌رود، در $\\frac{3\\pi}{2}$ دوباره صفر می‌شود و بعد از رسیدن به ۱، در $\\frac{5\\pi}{2}$ باز صفر می‌شود. این گراف تابعی را معرفی می‌کند که مشتق آن در این صفحه ثابت می‌شود."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت مشتق $\\cos x$",
+      "problem_fa": "ثابت کنید اگر $y = \\cos x$ باشد، $y' = -\\sin x$ است.",
+      "steps_fa": [
+        "$\\Delta y = \\cos(x + \\Delta x) - \\cos x = -2\\sin\\frac{2x + \\Delta x}{2}\\sin\\frac{\\Delta x}{2}$",
+        "$\\frac{\\Delta y}{\\Delta x} = -\\sin(x + \\frac{\\Delta x}{2}) \\cdot \\frac{\\sin\\frac{\\Delta x}{2}}{\\frac{\\Delta x}{2}}$",
+        "وقتی $\\Delta x \\to 0$: $-\\sin x \\cdot 1$",
+        "$y' = -\\sin x$"
+      ],
+      "answer": "$(\\cos x)' = -\\sin x$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغاز درس",
+      "kind": "question",
+      "problem_fa": "گراف بالای صفحه چه نوع تابعی را نشان می‌دهد؟",
+      "solution_steps_fa": [
+        "منحنی در $x = 0$ قیمت ۱ دارد و در $\\frac{\\pi}{2}$ صفر می‌شود.",
+        "بین ۱- و ۱ بالا و پایین می‌رود و هر $2\\pi$ تکرار می‌شود."
+      ],
+      "answer": "تابع مثلثاتی $y = \\cos x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "به $y = \\cos x$ تزاید $\\Delta x$ بدهید، $\\cos(x + \\Delta x) - \\cos x$ را انکشاف دهید، $\\frac{\\Delta y}{\\Delta x}$ را بسازید و لیمت آن را وقتی $\\Delta x \\to 0$ بگیرید.",
+      "solution_steps_fa": [
+        "$\\Delta y = \\cos(x + \\Delta x) - \\cos x$",
+        "$\\Delta y = -2\\sin(x + \\frac{\\Delta x}{2})\\sin\\frac{\\Delta x}{2}$",
+        "$\\frac{\\Delta y}{\\Delta x} = -\\sin(x + \\frac{\\Delta x}{2}) \\cdot \\frac{\\sin(\\Delta x / 2)}{\\Delta x / 2} \\to -\\sin x$"
+      ],
+      "answer": "$(\\cos x)' = -\\sin x$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

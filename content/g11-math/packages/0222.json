@@ -1,0 +1,68 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 222,
+  "printed_page": 213,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "جمع و تفریق متریکس‌ها",
+  "summary_fa": "این صفحه درس جمع و تفریق متریکس‌ها را شروع می‌کند. در آغاز پرسیده می‌شود که آیا $A+A$، $A-A$، $A+B$، $A-B$، $B+B$ و $B-B$ همیشه ممکن است. سپس جمع تعریف می‌شود: دو متریکس فقط وقتی جمع می‌شوند که مرتبهٔ آن‌ها یکی باشد؛ در این صورت هر عنصر حاصل، مجموع دو عنصر هم‌جای آن‌ها است و مرتبهٔ نتیجه هم همان است. در مثال، دو متریکس $3 \\times 2$ عنصر به عنصر جمع می‌شوند. تفریق هم به همین شکل است، فقط عناصر هم‌جا از هم تفریق می‌شوند. در آخر یک فعالیت تفریق دو متریکس $2 \\times 2$ را می‌خواهد.",
+  "key_points_fa": [
+    "جمع و تفریق دو متریکس فقط وقتی ممکن است که مرتبهٔ هر دو مساوی باشد.",
+    "جمع: عنصر سطر i و ستون j حاصل برابر $a_{ij} + b_{ij}$ است.",
+    "تفریق: عنصر سطر i و ستون j حاصل برابر $a_{ij} - b_{ij}$ است.",
+    "حاصل جمع یا تفریق همان مرتبهٔ متریکس‌های اصلی را دارد.",
+    "$A - A$ همیشه متریکس صفری هم‌مرتبهٔ A است."
+  ],
+  "formulas": [
+    {"latex": "A_{m \\times n} + B_{m \\times n} = (a_{ij} + b_{ij})_{m \\times n} = C_{m \\times n}", "meaning_fa": "تعریف جمع دو متریکس هم‌مرتبه"},
+    {"latex": "A_{m \\times n} - B_{m \\times n} = (a_{ij} - b_{ij})_{m \\times n}", "meaning_fa": "تعریف تفریق دو متریکس هم‌مرتبه"}
+  ],
+  "terms": [
+    {"fa": "جمع متریکس‌ها", "en": "matrix addition"},
+    {"fa": "تفریق متریکس‌ها", "en": "matrix subtraction"},
+    {"fa": "مرتبهٔ متریکس", "en": "order of a matrix"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "$A = \\begin{pmatrix} 1 & 2 \\\\ -2 & 0 \\\\ 1 & 7 \\end{pmatrix}$ و $B = \\begin{pmatrix} 3 & 2 \\\\ 1 & 2 \\\\ 0 & -4 \\end{pmatrix}$ را جمع کنید.",
+      "steps_fa": [
+        "هر دو $3 \\times 2$ هستند، پس جمع ممکن است.",
+        "عناصر هم‌جا را جمع می‌کنیم: $\\begin{pmatrix} 1+3 & 2+2 \\\\ -2+1 & 0+2 \\\\ 1+0 & 7+(-4) \\end{pmatrix}$"
+      ],
+      "answer": "$A + B = \\begin{pmatrix} 4 & 4 \\\\ -1 & 2 \\\\ 1 & 3 \\end{pmatrix} = C_{3 \\times 2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "دربارهٔ $A+A$، $A-A$، $A+B$، $A-B$، $B+B$ و $B-B$ چه می‌توان گفت؟ (A و B دو متریکس دلخواه‌اند.)",
+      "solution_steps_fa": [
+        "$A+A$ و $B+B$ همیشه ممکن است، چون یک متریکس با خودش هم‌مرتبه است؛ نتیجه $2A$ و $2B$ است.",
+        "$A-A$ و $B-B$ همیشه متریکس صفری هم‌مرتبه می‌دهد.",
+        "$A+B$ و $A-B$ فقط وقتی ممکن است که A و B مرتبهٔ مساوی داشته باشند."
+      ],
+      "answer": "جمع و تفریق یک متریکس با خودش همیشه ممکن است؛ برای A و B شرط، مساوی بودن مرتبه است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر $A = \\begin{pmatrix} 2 & -1 \\\\ 3 & 1 \\end{pmatrix}$ و $B = \\begin{pmatrix} -2 & -1 \\\\ 3 & -4 \\end{pmatrix}$ باشد، $A - B$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "هر دو $2 \\times 2$ هستند، پس تفریق ممکن است.",
+        "$A - B = \\begin{pmatrix} 2-(-2) & -1-(-1) \\\\ 3-3 & 1-(-4) \\end{pmatrix}$"
+      ],
+      "answer": "$A - B = \\begin{pmatrix} 4 & 0 \\\\ 0 & 5 \\end{pmatrix}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در فورمول تفریق کتاب داخل قوس به اشتباه $a_{ij} + b_{ij}$ چاپ شده؛ درست آن $a_{ij} - b_{ij}$ است."
+}

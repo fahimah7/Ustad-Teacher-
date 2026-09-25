@@ -1,0 +1,24 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 206,
+  "printed_page": 199,
+  "page_kind": "chapter_title",
+  "chapter": 6,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ آغاز فصل ششم کتاب که موضوع آن تطبیقات انتیگرال است. در این فصل شاگرد یاد می‌گیرد که با انتیگرال معین مساحت سطحی را که یک منحنی با محور x می‌سازد، مساحت بین دو منحنی و حجم اجسام دورانی (مانند کره، مخروط و الپس دورانی) را حساب کند. این فصل صفحات ۱۹۹ تا ۲۲۲ کتاب را در بر می‌گیرد.",
+  "key_points_fa": [
+    "فصل ششم: تطبیقات انتیگرال (صفحات ۱۹۹ تا ۲۲۲)"
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "تطبیقات انتیگرال", "en": "applications of the integral"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

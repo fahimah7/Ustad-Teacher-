@@ -1,0 +1,65 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 298,
+  "printed_page": 291,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "ضرب اعداد مختلط",
+  "summary_fa": "این صفحه معکوس ضربی یک عدد مختلط را توضیح می‌دهد، یعنی عددی که ضرب آن در $a+bi$ مساوی ۱ شود. معکوس ضربی $\\frac{1}{a+bi}$ است، ولی این شکل معیاری نیست چون $i$ در مخرج است. برای رفع آن، صورت و مخرج را در مزدوج مخرج یعنی $a-bi$ ضرب می‌کنیم؛ مخرج به $a^2+b^2$ تبدیل می‌شود که حقیقی است. نتیجه: $\\frac{1}{a+bi}=\\frac{a}{a^2+b^2}-\\frac{b}{a^2+b^2}i$. مثال ۳ معکوس $2-3i$ را حساب می‌کند. مثال ۴ نشان می‌دهد که با اعداد مختلط می‌توان $x^2+4$ را تجزیه کرد، چون $4=-(2i)^2$ است. یک فعالیت معکوس دو عدد را می‌خواهد و در آخر فورمول عمومی ضرب دو عدد مختلط دوباره به شکل خلاصه آمده است.",
+  "key_points_fa": [
+    "$(a+bi)(a-bi)=a^2+b^2$ که عدد حقیقی است.",
+    "برای معکوس ضربی، صورت و مخرج $\\frac{1}{a+bi}$ را در مزدوج مخرج ضرب کنید.",
+    "$\\frac{1}{a+bi}=\\frac{a}{a^2+b^2}-\\frac{b}{a^2+b^2}i$ (برای $a+bi\\neq 0$).",
+    "در اعداد مختلط، مجموع دو مربع تجزیه می‌شود: $x^2+k^2=(x-ki)(x+ki)$."
+  ],
+  "formulas": [
+    {"latex": "(a+bi)(a-bi)=a^2+b^2", "meaning_fa": "حاصل‌ضرب عدد در مزدوج آن"},
+    {"latex": "\\frac{1}{a+bi}=\\frac{a}{a^2+b^2}-\\frac{b}{a^2+b^2}i", "meaning_fa": "معکوس ضربی یک عدد مختلط"},
+    {"latex": "x^2+k^2=(x-ki)(x+ki)", "meaning_fa": "تجزیهٔ مجموع دو مربع با اعداد مختلط"},
+    {"latex": "(x+yi)(x'+y'i)=(xx'-yy')+(xy'+x'y)i", "meaning_fa": "فورمول ضرب دو عدد مختلط z و w"}
+  ],
+  "terms": [
+    {"fa": "معکوس ضربی", "en": "multiplicative inverse"},
+    {"fa": "مزدوج مخرج", "en": "conjugate of the denominator"},
+    {"fa": "تجزیه", "en": "factorization"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت فورمول معکوس",
+      "problem_fa": "معکوس ضربی $a+bi$ را به شکل معیاری بنویسید.",
+      "steps_fa": ["$\\frac{1}{a+bi}\\cdot\\frac{a-bi}{a-bi}=\\frac{a-bi}{(a+bi)(a-bi)}$", "$=\\frac{a-bi}{a^2+b^2}$", "$=\\frac{a}{a^2+b^2}-\\frac{b}{a^2+b^2}i$"],
+      "answer": "$\\frac{a}{a^2+b^2}-\\frac{b}{a^2+b^2}i$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "معکوس ضربی $2-3i$ را دریابید.",
+      "steps_fa": ["$\\frac{1}{2-3i}\\cdot\\frac{2+3i}{2+3i}=\\frac{2+3i}{4-9i^2}$", "$=\\frac{2+3i}{4+9}=\\frac{2+3i}{13}$", "$=\\frac{2}{13}+\\frac{3}{13}i$"],
+      "answer": "$\\frac{2}{13}+\\frac{3}{13}i$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "افادهٔ $x^2+4$ را تجزیه کنید.",
+      "steps_fa": ["$x^2+4=x^2-(-1)\\cdot 4=x^2-i^2\\cdot 4$", "$=x^2-(2i)^2$", "با فورمول تفاضل دو مربع: $(x-2i)(x+2i)$"],
+      "answer": "$(x-2i)(x+2i)$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "معکوس ضربی $\\sqrt{2}-4i$ و $5+3i$ را دریابید.",
+      "solution_steps_fa": ["$\\frac{1}{\\sqrt{2}-4i}=\\frac{\\sqrt{2}+4i}{(\\sqrt{2})^2+4^2}=\\frac{\\sqrt{2}+4i}{18}=\\frac{\\sqrt{2}}{18}+\\frac{2}{9}i$", "$\\frac{1}{5+3i}=\\frac{5-3i}{5^2+3^2}=\\frac{5-3i}{34}=\\frac{5}{34}-\\frac{3}{34}i$"],
+      "answer": "$\\frac{\\sqrt{2}}{18}+\\frac{2}{9}i$ و $\\frac{5}{34}-\\frac{3}{34}i$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در فعالیت بین دو عدد یک علامت خراب (مربع) چاپ شده؛ به احتمال زیاد «و» است و عدد دوم $5+3i$ است."
+}

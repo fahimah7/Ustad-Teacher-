@@ -1,0 +1,113 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 26,
+  "printed_page": 19,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "اشکال مبهم $(\\infty - \\infty)$ و $(0 \\cdot \\infty)$",
+  "summary_fa": "این صفحه دو شکل مبهم دیگر را معرفی می‌کند: تفاضل دو بی‌نهایت $(\\infty - \\infty)$ و حاصل ضرب صفر در بی‌نهایت $(0 \\cdot \\infty)$. در هر دو حالت، از روی شکل ظاهری نمی‌توان قیمت لیمت را گفت. فکر اصلی این است که عبارت را با عملیه‌های الجبری (یک‌جا کردن کسرها با مخرج مشترک، ضرب در مزدوج، یا نوشتن حاصل ضرب به شکل یک کسر) طوری تغییر دهیم که به یکی از شکل‌های آشنای $\\frac{0}{0}$ یا $\\frac{\\infty}{\\infty}$ تبدیل شود و بعد با روش‌های قبلی حل شود. فعالیت صفحه مزدوج را مرور می‌کند و دو لیمت در بی‌نهایت می‌پرسد. در مثال ۱، دو کسر با مخرج مشترک یک‌جا می‌شوند، شکل $\\frac{0}{0}$ پیدا می‌شود و با تجزیه، لیمت $\\frac{1}{2}$ به دست می‌آید. مثال ۲ در صفحهٔ بعد حل شده است.",
+  "key_points_fa": [
+    "$\\infty - \\infty$ و $0 \\cdot \\infty$ هم شکل‌های مبهم هستند.",
+    "برای $\\infty - \\infty$ با کسرها: با مخرج مشترک یک‌جا کنید.",
+    "برای $\\infty - \\infty$ با جذرها: در مزدوج ضرب و تقسیم کنید.",
+    "برای $0 \\cdot \\infty$: حاصل ضرب را به شکل یک کسر بنویسید.",
+    "هدف: رسیدن به $\\frac{0}{0}$ یا $\\frac{\\infty}{\\infty}$ و حل آن با روش‌های قبلی."
+  ],
+  "formulas": [
+    {"latex": "(\\sqrt{A} - \\sqrt{B})(\\sqrt{A} + \\sqrt{B}) = A - B", "meaning_fa": "ضرب در مزدوج برای از بین بردن جذر"},
+    {"latex": "\\sqrt{A} - \\sqrt{B} = \\frac{A - B}{\\sqrt{A} + \\sqrt{B}}", "meaning_fa": "تبدیل تفاضل جذرها به کسر"}
+  ],
+  "terms": [
+    {"fa": "شکل مبهم", "en": "indeterminate form"},
+    {"fa": "مزدوج", "en": "conjugate"},
+    {"fa": "مخرج مشترک", "en": "common denominator"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\lim_{x \\to 1} \\left(\\frac{9}{x-1} - \\frac{8x+10}{x^2-1}\\right)$",
+      "steps_fa": [
+        "با وضع $x = 1$: $\\frac{9}{0} - \\frac{18}{0}$، یعنی شکل $\\infty - \\infty$",
+        "با مخرج مشترک $x^2 - 1$: $\\frac{9(x+1) - (8x+10)}{x^2-1} = \\frac{x - 1}{x^2 - 1}$ که شکل $\\frac{0}{0}$ دارد.",
+        "$\\frac{x-1}{(x-1)(x+1)} = \\frac{1}{x+1} \\to \\frac{1}{2}$"
+      ],
+      "answer": "$\\frac{1}{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغاز بخش (۱)",
+      "kind": "question",
+      "problem_fa": "$\\lim_{x \\to 2} \\left(\\frac{1}{x^2-4} - \\frac{x-1}{x^2-4}\\right)$",
+      "solution_steps_fa": [
+        "مخرج‌ها یکی است: $\\frac{1 - (x-1)}{x^2-4} = \\frac{2 - x}{(x-2)(x+2)}$",
+        "$\\frac{-(x-2)}{(x-2)(x+2)} = \\frac{-1}{x+2}$",
+        "با وضع $x = 2$: $-\\frac{1}{4}$"
+      ],
+      "answer": "$-\\frac{1}{4}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال آغاز بخش (۲)",
+      "kind": "question",
+      "problem_fa": "$\\lim_{x \\to 3} (x^2 - 9) \\cdot \\frac{2x^3 - 4}{x - 3}$",
+      "solution_steps_fa": [
+        "شکل $0 \\cdot \\infty$ است.",
+        "$\\frac{(x-3)(x+3)(2x^3-4)}{x-3} = (x+3)(2x^3 - 4)$",
+        "با وضع $x = 3$: $6 \\cdot (54 - 4) = 6 \\cdot 50 = 300$"
+      ],
+      "answer": "$300$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "مزدوج $a + 1$ را بنویسید.",
+      "solution_steps_fa": [
+        "مزدوج با تغییر علامت میان دو جمله ساخته می‌شود."
+      ],
+      "answer": "$a - 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "مزدوج $\\sqrt{x} - 1$ را بنویسید.",
+      "solution_steps_fa": [
+        "علامت میان دو جمله را تغییر می‌دهیم؛ حاصل ضرب آن‌ها $x - 1$ می‌شود."
+      ],
+      "answer": "$\\sqrt{x} + 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۳",
+      "kind": "activity",
+      "problem_fa": "$\\lim_{x \\to \\infty} (\\sqrt{x} - \\sqrt{x+1})$",
+      "solution_steps_fa": [
+        "شکل $\\infty - \\infty$ است؛ در مزدوج ضرب و تقسیم می‌کنیم.",
+        "$\\frac{x - (x+1)}{\\sqrt{x} + \\sqrt{x+1}} = \\frac{-1}{\\sqrt{x} + \\sqrt{x+1}}$",
+        "مخرج بی‌نهایت بزرگ می‌شود، پس کسر به صفر نزدیک می‌شود."
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۴",
+      "kind": "activity",
+      "problem_fa": "$\\lim_{x \\to \\infty} (2x - 1)(x + 1)$",
+      "solution_steps_fa": [
+        "هر دو عامل بی‌نهایت بزرگ می‌شوند (شکل $\\infty \\cdot \\infty$ که مبهم نیست).",
+        "پس حاصل ضرب هم بی‌نهایت بزرگ می‌شود."
+      ],
+      "answer": "$+\\infty$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "مثال ۲ در پایین این صفحه فقط نام برده شده و حل آن در صفحهٔ بعد است."
+}

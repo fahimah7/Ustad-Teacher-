@@ -1,0 +1,53 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 84,
+  "printed_page": 75,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "معادلات مثلثاتی",
+  "summary_fa": "این صفحه حالت سوم (معادلات تانجانت) را تکمیل می‌کند. دو دسته جواب مثال قبل، یعنی $\\frac{\\pi}{3} + 2k\\pi$ و $\\pi + \\frac{\\pi}{3} + 2k\\pi$، در یک فورمول جمع می‌شوند، زیرا دورهٔ تانجانت $\\pi$ است: $x = k\\pi + \\theta$. در مثال ۲ معادلهٔ $\\tan x = \\frac{1}{\\sqrt{3}}$ حل می‌شود و جواب $x = k\\pi + \\frac{\\pi}{6}$ به دست می‌آید. در مثال ۳ دو تانجانت با هم مساوی‌اند: $\\tan(2x - \\frac{\\pi}{4}) = \\tan(x + \\frac{\\pi}{3})$. قاعده این است که اگر تانجانت دو زاویه مساوی باشد، فرق آن دو زاویه مضربی از $\\pi$ است. از این راه $x = k\\pi + \\frac{7\\pi}{12}$ می‌شود و با $k = 0$ و $k = 1$ دو جواب داخل انتروال $[0, 2\\pi]$ پیدا می‌شوند.",
+  "key_points_fa": [
+    "دورهٔ تانجانت $\\pi$ است؛ پس جواب عمومی $\\tan x = \\tan\\theta$ به شکل $x = k\\pi + \\theta$ است.",
+    "اگر $\\tan A = \\tan B$ باشد، آنگاه $A = k\\pi + B$ است.",
+    "برای جواب‌های یک انتروال، به $k$ قیمت‌های تام $0, 1, 2, \\dots$ می‌دهیم تا جواب از انتروال بیرون نشود."
+  ],
+  "formulas": [
+    {"latex": "\\tan x = \\tan\\theta \\Rightarrow x = k\\pi + \\theta,\\ k \\in \\mathbb{Z}", "meaning_fa": "جواب عمومی معادلهٔ تانجانت"},
+    {"latex": "\\tan A = \\tan B \\Rightarrow A = k\\pi + B", "meaning_fa": "شرط مساوی بودن تانجانت دو زاویه"}
+  ],
+  "terms": [
+    {"fa": "دوره (پریود)", "en": "period"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "معادلهٔ $\\tan x = \\frac{1}{\\sqrt{3}}$ را حل کنید.",
+      "steps_fa": [
+        "زاویه‌یی که تانجانت آن $\\frac{1}{\\sqrt{3}}$ است: $x = \\frac{\\pi}{6}$",
+        "با دورهٔ $\\pi$: ست حل $A = \\{x \\mid x = k\\pi + \\frac{\\pi}{6},\\ k \\in \\mathbb{Z}\\}$"
+      ],
+      "answer": "$x = k\\pi + \\frac{\\pi}{6}$، $k \\in \\mathbb{Z}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "ست حل معادلهٔ $\\tan(2x - \\frac{\\pi}{4}) = \\tan(x + \\frac{\\pi}{3})$ را در انتروال $[0, 2\\pi]$ دریافت کنید.",
+      "steps_fa": [
+        "چون تانجانت‌ها مساوی‌اند: $2x - \\frac{\\pi}{4} = k\\pi + x + \\frac{\\pi}{3}$",
+        "$x = k\\pi + \\frac{\\pi}{3} + \\frac{\\pi}{4} = k\\pi + \\frac{7\\pi}{12}$",
+        "$k = 0 \\Rightarrow x_1 = \\frac{7\\pi}{12}$",
+        "$k = 1 \\Rightarrow x_2 = \\pi + \\frac{7\\pi}{12} = \\frac{19\\pi}{12}$",
+        "با $k = 2$ جواب از $2\\pi$ بزرگ‌تر می‌شود."
+      ],
+      "answer": "در $[0, 2\\pi]$: $\\frac{7\\pi}{12}$ و $\\frac{19\\pi}{12}$؛ به شکل عمومی $x = k\\pi + \\frac{7\\pi}{12}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "کتاب شکل $x = k\\pi + \\frac{\\pi}{3} \\wedge (2k-1)\\pi + \\frac{\\pi}{3}$ را نوشته؛ خانوادهٔ دوم در خانوادهٔ اول شامل است و علامهٔ ∧ به معنای «یا» است."
+}

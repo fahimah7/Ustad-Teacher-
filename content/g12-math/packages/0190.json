@@ -1,0 +1,75 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 190,
+  "printed_page": 183,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مشتق توابع معکوس مثلثاتی",
+  "summary_fa": "این صفحه اول ثبوت قاعدهٔ چهارم را تمام می‌کند: مشتق $\\text{arccot}\\, x$ با همان روش تابع معکوس و تقسیم صورت و مخرج بر $\\sin^2 y$ برابر $-\\frac{1}{1+x^2}$ به دست می‌آید. بعد سه مثال حل‌شده می‌آید که قاعدهٔ $\\arctan$ را با قاعدهٔ زنجیری ترکیب می‌کنند: توان پنجم $\\arctan x$، لوگاریتم با قاعدهٔ ۵ از $\\arctan x$، و $\\arctan e^x$ که قیمت مشتق آن در نقطهٔ $x = 0$ خواسته شده است. در همهٔ مثال‌ها تابع بیرونی و تابع داخلی را جدا می‌شناسیم و مشتق هر دو را ضرب می‌کنیم.",
+  "key_points_fa": [
+    "$(\\text{arccot}\\, x)' = -\\frac{1}{1+x^2}$",
+    "$(\\arctan u)' = \\frac{u'}{1+u^2}$ (قاعدهٔ زنجیری)",
+    "$(u^n)' = n u^{n-1}u'$ برای $u = \\arctan x$",
+    "$(\\log_5 u)' = \\frac{u'}{u\\ln 5}$",
+    "برای قیمت مشتق در یک نقطه: اول مشتق را پیدا کنید، بعد x را بگذارید."
+  ],
+  "formulas": [
+    {"latex": "(\\text{arccot}\\, x)' = -\\sin^2 y = \\frac{-1}{1+\\cot^2 y} = -\\frac{1}{1+x^2}", "meaning_fa": "نتیجهٔ ثبوت ۴"},
+    {"latex": "(\\arctan u)' = \\frac{u'}{1+u^2}", "meaning_fa": "مشتق arctan یک تابع"}
+  ],
+  "terms": [
+    {"fa": "معکوس کوتانجانت", "en": "arccotangent"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت ۴",
+      "problem_fa": "ثابت کنید $(\\text{arccot}\\, x)' = -\\frac{1}{1+x^2}$",
+      "steps_fa": [
+        "$y = \\text{arccot}\\, x \\Leftrightarrow x = \\cot y$",
+        "$y'_x = \\frac{1}{(\\cot y)'} = \\frac{1}{-\\frac{1}{\\sin^2 y}} = -\\sin^2 y = \\frac{-\\sin^2 y}{\\sin^2 y + \\cos^2 y}$",
+        "صورت و مخرج را بر $\\sin^2 y$ تقسیم می‌کنیم: $= \\frac{-1}{1 + \\cot^2 y} = -\\frac{1}{1+x^2}$"
+      ],
+      "answer": "$(\\text{arccot}\\, x)' = -\\frac{1}{1+x^2}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مشتق $y = (\\arctan x)^5$",
+      "steps_fa": [
+        "$y' = 5(\\arctan x)^4\\cdot(\\arctan x)'$",
+        "$= 5(\\arctan x)^4\\cdot\\frac{1}{1+x^2}$"
+      ],
+      "answer": "$y' = \\frac{5(\\arctan x)^4}{1+x^2}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "مشتق $y = \\log_5(\\arctan x)$",
+      "steps_fa": [
+        "$u = \\arctan x$ و $u' = \\frac{1}{1+x^2}$",
+        "$y' = \\frac{u'}{u\\ln 5} = \\frac{\\frac{1}{1+x^2}}{\\arctan x\\cdot\\ln 5}$",
+        "$= \\frac{1}{(1+x^2)\\arctan x\\,\\ln 5}$"
+      ],
+      "answer": "$y' = \\frac{1}{(1+x^2)(\\arctan x)\\ln 5}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "قیمت مشتق $y = \\arctan e^x$ را در $x = 0$ پیدا کنید.",
+      "steps_fa": [
+        "$u = e^x$ و $u' = e^x$",
+        "$y' = \\frac{u'}{1+u^2} = \\frac{e^x}{1+e^{2x}}$",
+        "$y'(0) = \\frac{e^0}{1+e^0} = \\frac{1}{1+1} = \\frac{1}{2}$"
+      ],
+      "answer": "$y'(0) = \\frac{1}{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در مثال ۲ کتاب در گام میانی $\\frac{u'}{u\\log_5 e}$ نوشته که اشتباه چاپی است؛ شکل درست $\\frac{u'}{u}\\log_5 e = \\frac{u'}{u\\ln 5}$ است. جواب آخر کتاب درست است."
+}

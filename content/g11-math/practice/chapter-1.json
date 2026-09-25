@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-math",
+  "chapter": 1,
+  "title": {
+    "en": "Conic sections",
+    "fa": "مقاطع مخروطی"
+  },
+  "questions": [
+    {
+      "pdf_page": 20,
+      "q": {
+        "en": "Find the foci of the ellipse $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$.",
+        "fa": "محراق‌های بیضوی $\\frac{x^2}{25} + \\frac{y^2}{9} = 1$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$(0, \\pm 4)$",
+          "fa": "$(0, \\pm 4)$"
+        },
+        {
+          "en": "$(\\pm 5, 0)$",
+          "fa": "$(\\pm 5, 0)$"
+        },
+        {
+          "en": "$(\\pm 4, 0)$",
+          "fa": "$(\\pm 4, 0)$"
+        },
+        {
+          "en": "$(\\pm\\sqrt{34}, 0)$",
+          "fa": "$(\\pm\\sqrt{34}, 0)$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The larger denominator $25$ is under $x^2$, so $a^2 = 25$, $b^2 = 9$ and the major axis is on the x-axis. Then $c^2 = a^2 - b^2 = 16$, so $c = 4$ and the foci are $(\\pm 4, 0)$.",
+        "fa": "مخرج بزرگ‌تر $25$ زیر $x^2$ است، پس $a^2 = 25$، $b^2 = 9$ و قطر کبیر روی محور x است. از $c^2 = a^2 - b^2 = 16$ داریم $c = 4$، پس محراق‌ها $(\\pm 4, 0)$ هستند."
+      },
+      "idea": {
+        "en": "In an ellipse $c^2 = a^2 - b^2$ (not $a^2 + b^2$), and the foci lie on the axis whose variable has the larger denominator.",
+        "fa": "در بیضوی $c^2 = a^2 - b^2$ است (نه $a^2 + b^2$)، و محراق‌ها روی محوری قرار دارند که مخرج بزرگ‌تر زیر متحول آن است."
+      }
+    },
+    {
+      "pdf_page": 31,
+      "q": {
+        "en": "For the parabola $x^2 = 8y$, find the focus and the directrix.",
+        "fa": "محراق و خط موجهٔ پارابولای $x^2 = 8y$ را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "$F(0, 2)$, directrix $y = -2$",
+          "fa": "$F(0, 2)$، خط موجه $y = -2$"
+        },
+        {
+          "en": "$F(2, 0)$, directrix $x = -2$",
+          "fa": "$F(2, 0)$، خط موجه $x = -2$"
+        },
+        {
+          "en": "$F(0, 8)$, directrix $y = -8$",
+          "fa": "$F(0, 8)$، خط موجه $y = -8$"
+        },
+        {
+          "en": "$F(0, -2)$, directrix $y = 2$",
+          "fa": "$F(0, -2)$، خط موجه $y = 2$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Comparing with $x^2 = 4py$ gives $4p = 8$, so $p = 2$. The focus is $(0, p) = (0, 2)$ and the directrix is $y = -p = -2$.",
+        "fa": "با مقایسه با $x^2 = 4py$ داریم $4p = 8$، پس $p = 2$ است. محراق $(0, p) = (0, 2)$ و خط موجه $y = -p = -2$ است."
+      },
+      "idea": {
+        "en": "Write the equation as $x^2 = 4py$ and find $p$ first; since $x$ is the squared variable, the focus lies on the y-axis.",
+        "fa": "معادله را به شکل $x^2 = 4py$ بنویسید و اول $p$ را دریافت کنید؛ چون $x$ مربع شده است، محراق روی محور y قرار دارد."
+      }
+    },
+    {
+      "pdf_page": 40,
+      "q": {
+        "en": "What are the asymptotes of the hyperbola $\\frac{x^2}{9} - \\frac{y^2}{16} = 1$?",
+        "fa": "معادلات مجانب‌های هایپربولای $\\frac{x^2}{9} - \\frac{y^2}{16} = 1$ کدام اند؟"
+      },
+      "options": [
+        {
+          "en": "$y = \\pm\\frac{3}{4}x$",
+          "fa": "$y = \\pm\\frac{3}{4}x$"
+        },
+        {
+          "en": "$y = \\pm\\frac{4}{3}x$",
+          "fa": "$y = \\pm\\frac{4}{3}x$"
+        },
+        {
+          "en": "$y = \\pm\\frac{16}{9}x$",
+          "fa": "$y = \\pm\\frac{16}{9}x$"
+        },
+        {
+          "en": "$y = \\pm\\frac{5}{3}x$",
+          "fa": "$y = \\pm\\frac{5}{3}x$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Here $a^2 = 9$ and $b^2 = 16$, so $a = 3$ and $b = 4$. The foci are on the x-axis, so the asymptotes are $y = \\pm\\frac{b}{a}x = \\pm\\frac{4}{3}x$.",
+        "fa": "این‌جا $a^2 = 9$ و $b^2 = 16$ است، پس $a = 3$ و $b = 4$. محراق‌ها روی محور x اند، پس مجانب‌ها $y = \\pm\\frac{b}{a}x = \\pm\\frac{4}{3}x$ هستند."
+      },
+      "idea": {
+        "en": "Use $a$ and $b$ (not $a^2$ and $b^2$). When the $x^2$ term is positive, the asymptotes are $y = \\pm\\frac{b}{a}x$.",
+        "fa": "از $a$ و $b$ کار بگیرید (نه از $a^2$ و $b^2$). وقتی حد $x^2$ مثبت باشد، مجانب‌ها $y = \\pm\\frac{b}{a}x$ اند."
+      }
+    },
+    {
+      "pdf_page": 24,
+      "q": {
+        "en": "Find the centre of the ellipse $\\frac{(x+3)^2}{16} + \\frac{(y-2)^2}{25} = 1$ and the direction of its major axis.",
+        "fa": "مرکز بیضوی $\\frac{(x+3)^2}{16} + \\frac{(y-2)^2}{25} = 1$ و جهت قطر کبیر آن را دریافت کنید."
+      },
+      "options": [
+        {
+          "en": "Centre $(3, -2)$; major axis parallel to the y-axis",
+          "fa": "مرکز $(3, -2)$؛ قطر کبیر موازی محور y"
+        },
+        {
+          "en": "Centre $(-3, 2)$; major axis parallel to the x-axis",
+          "fa": "مرکز $(-3, 2)$؛ قطر کبیر موازی محور x"
+        },
+        {
+          "en": "Centre $(3, -2)$; major axis parallel to the x-axis",
+          "fa": "مرکز $(3, -2)$؛ قطر کبیر موازی محور x"
+        },
+        {
+          "en": "Centre $(-3, 2)$; major axis parallel to the y-axis",
+          "fa": "مرکز $(-3, 2)$؛ قطر کبیر موازی محور y"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$(x+3)$ means $h = -3$ and $(y-2)$ means $k = 2$, so the centre is $(-3, 2)$. The larger denominator $25 = a^2$ is under $(y-k)^2$, so the major axis is parallel to the y-axis.",
+        "fa": "$(x+3)$ یعنی $h = -3$ و $(y-2)$ یعنی $k = 2$، پس مرکز $(-3, 2)$ است. مخرج بزرگ‌تر $25 = a^2$ زیر $(y-k)^2$ است، پس قطر کبیر موازی محور y است."
+      },
+      "idea": {
+        "en": "Reverse the signs inside the brackets to read $h$ and $k$, then look for the larger denominator to find the major axis.",
+        "fa": "برای خواندن $h$ و $k$ علامت داخل قوس را برعکس کنید، و برای یافتن قطر کبیر ببینید که مخرج بزرگ‌تر زیر کدام متحول است."
+      }
+    },
+    {
+      "pdf_page": 49,
+      "q": {
+        "en": "A line's equation is substituted into the equation of a conic section, and the resulting quadratic equation has discriminant $\\Delta = 0$. What does this mean?",
+        "fa": "معادلهٔ یک خط در معادلهٔ یک مقطع مخروطی وضع شده و مناقشهٔ معادلهٔ درجه دوم حاصل $\\Delta = 0$ شده است. این چه معنا دارد؟"
+      },
+      "options": [
+        {
+          "en": "The line cuts the curve at two points",
+          "fa": "خط منحنی را در دو نقطه قطع می‌کند"
+        },
+        {
+          "en": "The line is tangent to the curve (one common point)",
+          "fa": "خط بر منحنی مماس است (یک نقطهٔ مشترک)"
+        },
+        {
+          "en": "The line and the curve have no common point",
+          "fa": "خط و منحنی نقطهٔ مشترک ندارند"
+        },
+        {
+          "en": "The line passes through the centre of the curve",
+          "fa": "خط از مرکز منحنی می‌گذرد"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$\\Delta = 0$ gives two equal roots, so the line and the curve meet at only one point: the line is tangent.",
+        "fa": "$\\Delta = 0$ دو جذر مساوی می‌دهد، پس خط و منحنی تنها یک نقطهٔ مشترک دارند و خط مماس است."
+      },
+      "idea": {
+        "en": "Each real root is one common point: $\\Delta > 0$ gives two points, $\\Delta = 0$ one point, and $\\Delta < 0$ none.",
+        "fa": "هر جذر حقیقی یک نقطهٔ مشترک است: $\\Delta > 0$ دو نقطه، $\\Delta = 0$ یک نقطه، و $\\Delta < 0$ هیچ نقطه."
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 196,
+  "printed_page": 189,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "رابطه بین نسبت‌های مثلثاتی زاویه‌هایی که مجموعه یا فرق شان $360^\\circ$ یا $2\\pi$ رادیان باشد",
+  "summary_fa": "این صفحه با دو مثال نشان می‌دهد که چطور نسبت‌های زاویه‌های بزرگ‌تر از $360^\\circ$ را پیدا کنیم. در مثال ۱ زاویهٔ $405^\\circ$ به شکل $360^\\circ + 45^\\circ$ (یا $2\\pi + \\frac{\\pi}{4}$) نوشته می‌شود؛ چون این زاویه با $45^\\circ$ کوترمینل است، هر شش نسبت آن با نسبت‌های $45^\\circ$ برابر است. در مثال ۲ زاویهٔ $1500^\\circ$ چهار دور کامل و $60^\\circ$ اضافه است ($4 \\cdot 360^\\circ + 60^\\circ$)، پس نسبت‌های آن همان نسبت‌های $60^\\circ$ است. در آخر صفحه مثال ۳ مطرح می‌شود: sin، cos و tan زاویه‌های $900^\\circ$ و $-930^\\circ$؛ حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "زاویه را به شکل $k \\cdot 360^\\circ + \\alpha$ بنویسید که $0^\\circ \\le \\alpha < 360^\\circ$ باشد؛ نسبت‌ها همان نسبت‌های $\\alpha$ است.",
+    "برای پیدا کردن k، زاویه را بر $360^\\circ$ تقسیم کنید؛ باقی‌مانده همان $\\alpha$ است.",
+    "$405^\\circ = 360^\\circ + 45^\\circ$ و $1500^\\circ = 4 \\cdot 360^\\circ + 60^\\circ$.",
+    "در رادیان، به جای $360^\\circ$ از $2\\pi$ استفاده می‌شود: $405^\\circ = 2\\pi + \\frac{\\pi}{4}$."
+  ],
+  "formulas": [
+    {"latex": "\\sin(k \\cdot 360^\\circ + \\alpha) = \\sin\\alpha,\\quad k \\in \\mathbb{Z}", "meaning_fa": "هر تعداد دور کامل نسبت را تغییر نمی‌دهد (برای همهٔ شش نسبت درست است)"},
+    {"latex": "\\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}", "meaning_fa": "ناطق ساختن مخرج"}
+  ],
+  "terms": [
+    {"fa": "زوایای کوترمینل", "en": "coterminal angles"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $405^\\circ$ را دریابید.",
+      "steps_fa": [
+        "$405^\\circ = 360^\\circ + 45^\\circ = 2\\pi + \\frac{\\pi}{4}$",
+        "$\\sin 405^\\circ = \\sin 45^\\circ = \\frac{1}{\\sqrt{2}} = \\frac{\\sqrt{2}}{2}$، $\\cos 405^\\circ = \\cos 45^\\circ = \\frac{\\sqrt{2}}{2}$",
+        "$\\tan 405^\\circ = \\tan 45^\\circ = 1$، $\\cot 405^\\circ = \\cot 45^\\circ = 1$",
+        "$\\sec 405^\\circ = \\sec 45^\\circ = \\sqrt{2}$، $\\csc 405^\\circ = \\csc 45^\\circ = \\sqrt{2}$"
+      ],
+      "answer": "$\\sin = \\cos = \\frac{\\sqrt{2}}{2}$، $\\tan = \\cot = 1$، $\\sec = \\csc = \\sqrt{2}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $1500^\\circ$ را دریابید.",
+      "steps_fa": [
+        "$1500^\\circ = 4 \\cdot 360^\\circ + 60^\\circ$ (چون $4 \\cdot 360^\\circ = 1440^\\circ$)",
+        "$\\sin 1500^\\circ = \\sin 60^\\circ = \\frac{\\sqrt{3}}{2}$، $\\cos 1500^\\circ = \\cos 60^\\circ = \\frac{1}{2}$",
+        "$\\tan 1500^\\circ = \\tan 60^\\circ = \\sqrt{3}$، $\\cot 1500^\\circ = \\cot 60^\\circ = \\frac{1}{\\sqrt{3}}$",
+        "$\\sec 1500^\\circ = \\sec 60^\\circ = 2$، $\\csc 1500^\\circ = \\csc 60^\\circ = \\frac{2}{\\sqrt{3}}$"
+      ],
+      "answer": "$\\sin = \\frac{\\sqrt{3}}{2}$، $\\cos = \\frac{1}{2}$، $\\tan = \\sqrt{3}$، $\\cot = \\frac{1}{\\sqrt{3}}$، $\\sec = 2$، $\\csc = \\frac{2}{\\sqrt{3}}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳ (فقط صورت سوال)",
+      "problem_fa": "sin، cos و tan زاویه‌های $900^\\circ$ و $-930^\\circ$ را دریابید (حل در صفحهٔ بعد).",
+      "steps_fa": [
+        "$900^\\circ = 2 \\cdot 360^\\circ + 180^\\circ$، پس نسبت‌های آن همان نسبت‌های $180^\\circ$ است.",
+        "$-930^\\circ + 3 \\cdot 360^\\circ = 150^\\circ$، پس نسبت‌های آن همان نسبت‌های $150^\\circ$ است."
+      ],
+      "answer": "حل کامل در صفحهٔ بعد: $\\sin 900^\\circ = 0$، $\\cos 900^\\circ = -1$، $\\tan 900^\\circ = 0$؛ $\\sin(-930^\\circ) = \\frac{1}{2}$، $\\cos(-930^\\circ) = -\\frac{\\sqrt{3}}{2}$، $\\tan(-930^\\circ) = -\\frac{1}{\\sqrt{3}}$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

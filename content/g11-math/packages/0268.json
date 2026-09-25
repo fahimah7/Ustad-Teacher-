@@ -1,0 +1,36 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 268,
+  "printed_page": 259,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "زوایای جهت و کوساین‌های جهت یک وکتور",
+  "summary_fa": "این صفحه درس زوایای جهت را آغاز می‌کند. شعاع وکتور $\\vec{r} = \\overrightarrow{OP}$ از مبدأ تا نقطهٔ $P(x,y,z)$ با سه محور مختصات سه زاویه می‌سازد: $\\alpha$ با محور x، $\\beta$ با محور y و $\\gamma$ با محور z. این‌ها زوایای جهت هستند و کوساین آن‌ها کوساین‌های جهت نام دارد. در مثلث قایم‌الزاویه‌یی که $\\vec{r}$ وتر آن است، مختصهٔ x ضلع مجاور زاویهٔ $\\alpha$ است؛ پس $\\cos\\alpha = \\frac{x}{r}$ و به همین ترتیب برای y و z. اگر هر سه رابطه را مربع کرده جمع کنیم و از $x^2+y^2+z^2 = r^2$ کار بگیریم، نتیجه می‌شود که مجموع مربع‌های سه کوساین جهت همیشه ۱ است. صفحه با آغاز یک فعالیت دربارهٔ زوایای جهت یک وکتور غیرصفری ختم می‌شود.",
+  "key_points_fa": [
+    "زوایای جهت: $\\alpha$، $\\beta$ و $\\gamma$ زاویه‌های وکتور با محورهای x، y و z (یا با $\\vec{i}$، $\\vec{j}$، $\\vec{k}$) هستند.",
+    "کوساین‌های جهت: $\\cos\\alpha = \\frac{x}{r}$، $\\cos\\beta = \\frac{y}{r}$، $\\cos\\gamma = \\frac{z}{r}$ که $r = |\\vec{r}|$ است.",
+    "هر مختصه برابر طول وکتور ضرب کوساین زاویهٔ جهت مربوط است: $x = r\\cos\\alpha$.",
+    "$\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$ برای هر وکتور غیرصفری."
+  ],
+  "formulas": [
+    {"latex": "\\cos\\alpha = \\frac{x}{r},\\quad \\cos\\beta = \\frac{y}{r},\\quad \\cos\\gamma = \\frac{z}{r}", "meaning_fa": "کوساین‌های جهت شعاع وکتور $\\vec{r}$ به طرف نقطهٔ $P(x,y,z)$"},
+    {"latex": "x = r\\cos\\alpha,\\quad y = r\\cos\\beta,\\quad z = r\\cos\\gamma", "meaning_fa": "مختصات نقطه با کمک طول وکتور و زوایای جهت"},
+    {"latex": "r = \\sqrt{x^2 + y^2 + z^2}", "meaning_fa": "طول شعاع وکتور"},
+    {"latex": "\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = \\frac{x^2 + y^2 + z^2}{r^2} = 1", "meaning_fa": "رابطهٔ اساسی بین کوساین‌های جهت"}
+  ],
+  "terms": [
+    {"fa": "زوایای جهت", "en": "direction angles"},
+    {"fa": "کوساین‌های جهت", "en": "direction cosines"},
+    {"fa": "شعاع وکتور", "en": "position vector"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.08, 0.47, 0.29], "kind": "diagram", "description_fa": "یک مکعب مستطیل (جعبه) در سیستم مختصات سه‌بعدی که یک رأس آن مبدأ O و رأس مقابل آن نقطهٔ $P(x,y,z)$ است. نقطهٔ A روی محور x، B روی محور y و C روی محور z رأس‌های جعبه هستند. وکتور $\\vec{r}$ از O تا P قطر جعبه است و زاویه‌های $\\alpha$، $\\beta$ و $\\gamma$ بین $\\vec{r}$ و سه محور با کمان نشانی شده‌اند. نشان می‌دهد که تصویر $\\vec{r}$ روی هر محور همان مختصهٔ مربوط است."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب نام‌گذاری تصویرها را درهم چاپ کرده است ($\\overrightarrow{OA} = \\vec{r}_z$، $\\overrightarrow{OB} = \\vec{r}_x$، $\\overrightarrow{OC} = \\vec{r}_y$)، در حالی که مطابق شکل A روی محور x، B روی محور y و C روی محور z است. سوال‌های فعالیت در صفحه بعد آمده‌اند."
+}

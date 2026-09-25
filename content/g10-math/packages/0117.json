@@ -1,0 +1,129 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 117,
+  "printed_page": 110,
+  "page_kind": "exercises",
+  "chapter": 3,
+  "section_fa": "ترکیب توابع یا توابع مرکب",
+  "summary_fa": "این صفحه مثال ۵ را تمام می‌کند: با گذاشتن ۲ در $\\frac{x}{3x+4}$ قیمت $(f \\circ f)(2) = \\frac{1}{5}$ به دست می‌آید، و با یک بار دیگر ترکیب کردن، $(f \\circ f \\circ f)(x) = \\frac{x}{7x+8}$ می‌شود. بعد یک فعالیت برای ساختن $f \\circ g$ و $g \\circ f$ و حساب کردن قیمت آن‌ها در یک نقطه آمده است. تمرین درس شش سؤال دارد: عملیه‌های چهارگانه و ناحیهٔ تعریف (سؤال ۱ تا ۳)، قیمت تابع مرکب در یک نقطه (۴)، ترکیب توابع جذری و ناحیهٔ تعریف آن‌ها (۵) و ترکیب سه تابع (۶). بنابراین این تمرین هم درس عملیه‌های توابع و هم درس ترکیب توابع را تکرار می‌کند.",
+  "key_points_fa": [
+    "برای $(f \\circ g)(a)$ می‌توان اول $g(a)$ را حساب کرد و بعد $f$ را روی آن عدد اجرا کرد.",
+    "در ترکیب سه تابع $f \\circ g \\circ h$ از راست به چپ کار کنید: اول $h$، بعد $g$، بعد $f$.",
+    "ناحیهٔ تعریف ترکیب توابع جذری را با شرط «زیر جذر $\\ge 0$» در هر مرحله پیدا کنید."
+  ],
+  "formulas": [
+    {"latex": "(f \\circ g \\circ h)(x) = f(g(h(x)))", "meaning_fa": "ترکیب سه تابع از راست به چپ"}
+  ],
+  "terms": [
+    {"fa": "تابع مرکب", "en": "composite function"},
+    {"fa": "ناحیهٔ تعریف", "en": "domain"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۵ (ادامه)",
+      "problem_fa": "برای $f(x) = \\frac{x}{x+2}$: $(f \\circ f)(2)$ و $(f \\circ f \\circ f)(x)$.",
+      "steps_fa": [
+        "$(f \\circ f)(x) = \\frac{x}{3x+4} \\Rightarrow (f \\circ f)(2) = \\frac{2}{3 \\cdot 2 + 4} = \\frac{2}{10} = \\frac{1}{5}$",
+        "$(f \\circ f \\circ f)(x) = \\dfrac{\\frac{x}{x+2}}{3\\left(\\frac{x}{x+2}\\right) + 4} = \\dfrac{\\frac{x}{x+2}}{\\frac{3x + 4x + 8}{x+2}} = \\frac{x}{7x + 8}$"
+      ],
+      "answer": "$(f \\circ f)(2) = \\frac{1}{5}$ و $(f \\circ f \\circ f)(x) = \\frac{x}{7x+8}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "اگر $f(x) = x^2 - 2$ و $g(x) = x + 3$ باشد، $(f \\circ g)(x)$، $(g \\circ f)(x)$، $(f \\circ g)(3)$ و $(g \\circ f)(-2)$ را دریابید.",
+      "solution_steps_fa": [
+        "$(f \\circ g)(x) = (x + 3)^2 - 2 = x^2 + 6x + 7$",
+        "$(g \\circ f)(x) = x^2 - 2 + 3 = x^2 + 1$",
+        "$(f \\circ g)(3) = 9 + 18 + 7 = 34$ (امتحان: $g(3) = 6$ و $f(6) = 34$).",
+        "$(g \\circ f)(-2) = 4 + 1 = 5$ (امتحان: $f(-2) = 2$ و $g(2) = 5$)."
+      ],
+      "answer": "$x^2 + 6x + 7$؛ $x^2 + 1$؛ ۳۴؛ ۵",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "اگر $f(x) = -3x + 2$ و $g(x) = x^3$ باشد، $(f+g)(x)$، $(f-g)(x)$، $(g-f)(x)$، $(f \\cdot g)(x)$ و $(\\frac{g}{f})(x)$ و ناحیهٔ تعریف آن‌ها را دریابید.",
+      "solution_steps_fa": [
+        "$f+g = x^3 - 3x + 2$؛ $f-g = -x^3 - 3x + 2$؛ $g-f = x^3 + 3x - 2$.",
+        "$f \\cdot g = (-3x + 2)x^3 = -3x^4 + 2x^3$.",
+        "$\\frac{g}{f} = \\frac{x^3}{-3x + 2}$؛ مخرج در $x = \\frac{2}{3}$ صفر می‌شود.",
+        "ناحیهٔ تعریف چهار تای اول $\\mathbb{R}$ و ناحیهٔ تعریف $\\frac{g}{f}$ برابر $\\mathbb{R} - \\{\\frac{2}{3}\\}$."
+      ],
+      "answer": "$x^3-3x+2$، $-x^3-3x+2$، $x^3+3x-2$، $-3x^4+2x^3$ (همه $\\mathbb{R}$)؛ $\\frac{x^3}{2-3x}$ با $x \\ne \\frac{2}{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "اگر $f(x) = x^2 - 3$ و $g(x) = \\sqrt{x - 3}$ باشد، $(f \\cdot g)(x)$، $(\\frac{f}{g})(x)$ و $(\\frac{g}{f})(x)$ را معلوم کنید.",
+      "solution_steps_fa": [
+        "$\\mathrm{dom}\\,f = \\mathbb{R}$ و $\\mathrm{dom}\\,g = [3, \\infty)$؛ اشتراک $[3, \\infty)$.",
+        "$(f \\cdot g)(x) = (x^2 - 3)\\sqrt{x - 3}$، ناحیهٔ تعریف $[3, \\infty)$.",
+        "$(\\frac{f}{g})(x) = \\frac{x^2 - 3}{\\sqrt{x - 3}}$؛ $g(3) = 0$، پس ناحیهٔ تعریف $(3, \\infty)$.",
+        "$(\\frac{g}{f})(x) = \\frac{\\sqrt{x - 3}}{x^2 - 3}$؛ $f$ فقط در $x = \\pm\\sqrt{3}$ صفر است که در $[3, \\infty)$ نیست؛ پس ناحیهٔ تعریف $[3, \\infty)$."
+      ],
+      "answer": "$f \\cdot g$ و $\\frac{g}{f}$ روی $[3,\\infty)$؛ $\\frac{f}{g}$ روی $(3,\\infty)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "اگر $f(x) = x^2 + 1$، $g(x) = \\frac{1}{x}$، $h(x) = \\sqrt{4 - x^2}$ و $k(x) = \\sqrt{3x + 4}$ باشد، ناحیه‌های تعریف $(f \\cdot g)(x)$، $(\\frac{f}{g})(x)$، $(h \\cdot k)(x)$ و $(\\frac{h}{k})(x)$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\mathrm{dom}\\,f = \\mathbb{R}$، $\\mathrm{dom}\\,g = \\mathbb{R} - \\{0\\}$، $\\mathrm{dom}\\,h$: $4 - x^2 \\ge 0$ یعنی $[-2, 2]$، $\\mathrm{dom}\\,k$: $3x + 4 \\ge 0$ یعنی $[-\\frac{4}{3}, \\infty)$.",
+        "$f \\cdot g$: $\\mathbb{R} \\cap (\\mathbb{R} - \\{0\\}) = \\mathbb{R} - \\{0\\}$.",
+        "$\\frac{f}{g} = x(x^2 + 1)$ ولی $g$ هیچ‌گاه صفر نیست و در صفر تعریف نیست؛ پس $\\mathbb{R} - \\{0\\}$.",
+        "$h \\cdot k$: $[-2, 2] \\cap [-\\frac{4}{3}, \\infty) = [-\\frac{4}{3}, 2]$.",
+        "$\\frac{h}{k}$: $k(-\\frac{4}{3}) = 0$، پس $(-\\frac{4}{3}, 2]$."
+      ],
+      "answer": "$f \\cdot g$ و $\\frac{f}{g}$: $\\mathbb{R} - \\{0\\}$؛ $h \\cdot k$: $[-\\frac{4}{3}, 2]$؛ $\\frac{h}{k}$: $(-\\frac{4}{3}, 2]$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "اگر $f(x) = 3x - 2$ و $g(x) = x^2$ باشد، $(g \\circ f)(3)$ و $(f \\circ g)(1)$ را دریابید.",
+      "solution_steps_fa": [
+        "$f(3) = 9 - 2 = 7$، پس $(g \\circ f)(3) = g(7) = 49$.",
+        "$g(1) = 1$، پس $(f \\circ g)(1) = f(1) = 3 - 2 = 1$."
+      ],
+      "answer": "$(g \\circ f)(3) = 49$ و $(f \\circ g)(1) = 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "اگر $f(x) = \\sqrt{x}$ و $g(x) = \\sqrt{2 - x}$ باشد، $f \\circ g$، $g \\circ f$ و $f \\circ f$ را دریابید.",
+      "solution_steps_fa": [
+        "$(f \\circ g)(x) = \\sqrt{\\sqrt{2 - x}}$؛ شرط: $2 - x \\ge 0$ یعنی $x \\le 2$؛ چون $\\sqrt{2-x} \\ge 0$ همیشه در ناحیهٔ تعریف $f$ است، ناحیهٔ تعریف $(-\\infty, 2]$.",
+        "$(g \\circ f)(x) = \\sqrt{2 - \\sqrt{x}}$؛ شرط‌ها: $x \\ge 0$ و $2 - \\sqrt{x} \\ge 0$ یعنی $x \\le 4$؛ ناحیهٔ تعریف $[0, 4]$.",
+        "$(f \\circ f)(x) = \\sqrt{\\sqrt{x}}$؛ ناحیهٔ تعریف $[0, \\infty)$."
+      ],
+      "answer": "$f \\circ g = \\sqrt{\\sqrt{2-x}}$ روی $(-\\infty, 2]$؛ $g \\circ f = \\sqrt{2 - \\sqrt{x}}$ روی $[0, 4]$؛ $f \\circ f = \\sqrt{\\sqrt{x}}$ روی $[0, \\infty)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۶",
+      "kind": "exercise",
+      "problem_fa": "اگر $f(x) = \\frac{x}{x+1}$، $g(x) = x^{10}$ و $h(x) = x + 3$ باشد، $(f \\circ g \\circ h)(x)$ را دریابید.",
+      "solution_steps_fa": [
+        "$h(x) = x + 3$",
+        "$g(h(x)) = (x + 3)^{10}$",
+        "$f(g(h(x))) = \\frac{(x + 3)^{10}}{(x + 3)^{10} + 1}$؛ مخرج همیشه مثبت است، پس ناحیهٔ تعریف $\\mathbb{R}$."
+      ],
+      "answer": "$(f \\circ g \\circ h)(x) = \\frac{(x+3)^{10}}{(x+3)^{10} + 1}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "مربع‌های خالی در متن فعالیت و تمرین ۵ به جای حرف «و» چاپ شده‌اند."
+}

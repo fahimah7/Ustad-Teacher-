@@ -1,0 +1,75 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 261,
+  "printed_page": 254,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "توزیع نمونهٔ نسبت",
+  "summary_fa": "این صفحه بخش «توزیع نمونهٔ نسبت» را شروع می‌کند. سؤال آغازین یک نظرسنجی است: از n نفر پرسیده می‌شود که آیا طرفدار یک نامزد شاروالی هستند؛ اگر x تعداد موافقان باشد، کثرت نسبی موافقان $\\frac{x}{n}$ است که آن را نسبت نمونه $\\hat{P}$ می‌گویند. در فعالیت، از توزیع دوجمله‌یی x شروع می‌کنیم و با گذاشتن $x = n\\hat{P}$ توزیع احتمال $\\hat{P}$ را می‌نویسیم. بعد دیده می‌شود که $\\hat{P}$ در اصل اوسط نمونهٔ n متحول برنولی (هر کدام صفر یا یک) است. در پایان، اوسط $\\hat{P}$ برابر P و وریانس آن $\\frac{pq}{n}$ به دست می‌آید و فورمول z برای تبدیل $\\hat{P}$ به توزیع نورمال معیاری داده می‌شود که برای نمونه‌های بزرگ به کار می‌رود.",
+  "key_points_fa": [
+    "نسبت نمونه: $\\hat{P} = \\frac{x}{n}$ که x تعداد موفقیت‌ها در n آزمایش برنولی است.",
+    "$\\hat{P}$ فقط قیمت‌های $0, \\frac{1}{n}, \\frac{2}{n}, \\dots, 1$ را می‌گیرد و $P(\\hat{P} = \\frac{x}{n}) = P(X = x)$.",
+    "$\\hat{P}$ همان اوسط نمونهٔ متحول‌های برنولی $x_1, \\dots, x_n$ است.",
+    "اوسط نسبت نمونه با نسبت جامعه برابر است: $E(\\hat{P}) = P$.",
+    "با بزرگ شدن n، وریانس $\\frac{pq}{n}$ کوچک می‌شود و $\\hat{P}$ به P نزدیک‌تر می‌ماند."
+  ],
+  "formulas": [
+    {"latex": "f(x) = \\binom{n}{x} P^x (1-P)^{n-x},\\quad x = 0, 1, \\dots, n", "meaning_fa": "توزیع دوجمله‌یی تعداد موفقیت‌ها"},
+    {"latex": "\\hat{P} = \\frac{x}{n},\\quad E(x) = np,\\quad V(x) = npq", "meaning_fa": "نسبت نمونه و اوسط و وریانس x"},
+    {"latex": "f(n\\hat{P}) = \\binom{n}{n\\hat{P}} P^{n\\hat{P}} (1-P)^{n(1-\\hat{P})},\\quad \\hat{P} = 0, \\frac{1}{n}, \\dots, 1", "meaning_fa": "توزیع احتمال نسبت نمونه"},
+    {"latex": "\\mu_{\\hat{P}} = E(\\hat{P}) = P,\\quad \\delta^2_{\\hat{P}} = V(\\hat{P}) = \\frac{pq}{n} = \\frac{p(1-p)}{n}", "meaning_fa": "اوسط و وریانس نسبت نمونه"},
+    {"latex": "z = \\frac{x - np}{\\sqrt{npq}} = \\frac{\\hat{P} - P}{\\sqrt{\\frac{pq}{n}}}", "meaning_fa": "تبدیل به توزیع نورمال معیاری (برای n بزرگ)"}
+  ],
+  "terms": [
+    {"fa": "نسبت نمونه", "en": "sample proportion"},
+    {"fa": "توزیع نمونهٔ نسبت", "en": "sampling distribution of a proportion"},
+    {"fa": "کثرت نسبی", "en": "relative frequency"},
+    {"fa": "آزمایش برنولی", "en": "Bernoulli trial"},
+    {"fa": "اوسط (قیمت متوقعه)", "en": "expected value"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.10, 0.43, 0.31], "kind": "illustration", "description_fa": "چند آدمک طلایی دور یک میز گرد با یک علامت سؤال بزرگ در وسط؛ فضای نظرسنجی و پرسیدن نظر مردم را نشان می‌دهد که موضوع نسبت نمونه است."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغازین",
+      "kind": "question",
+      "problem_fa": "از n نفر دربارهٔ انتخاب شخص B به حیث شاروال پرسیده می‌شود و x تعداد موافقان است. کثرت نسبی موافقان چیست؟",
+      "solution_steps_fa": [
+        "کثرت نسبی یعنی تعداد موافقان تقسیم بر تعداد کل افراد پرسیده‌شده.",
+        "پس کثرت نسبی $= \\frac{x}{n}$ است که آن را $\\hat{P}$ می‌نامیم."
+      ],
+      "answer": "$\\hat{P} = \\frac{x}{n}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "با $\\hat{P} = \\frac{x}{n}$ یعنی $x = n\\hat{P}$، فورمول $f(\\hat{P})$ را از روی توزیع دوجمله‌یی بنویسید.",
+      "solution_steps_fa": [
+        "در $f(x) = \\binom{n}{x} P^x (1-P)^{n-x}$ به جای x قیمت $n\\hat{P}$ را می‌گذاریم.",
+        "$n - x = n - n\\hat{P} = n(1 - \\hat{P})$"
+      ],
+      "answer": "$f(\\hat{P}) = \\binom{n}{n\\hat{P}} P^{n\\hat{P}} (1-P)^{n(1-\\hat{P})}$ برای $\\hat{P} = 0, \\frac{1}{n}, \\dots, 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "اگر $x = x_1 + x_2 + \\dots + x_n$ مجموع n متحول تصادفی (برنولی) باشد، $\\hat{P} = \\frac{x}{n}$ با اوسط نمونه چه رابطه دارد؟",
+      "solution_steps_fa": [
+        "هر $x_i$ برای موفقیت ۱ و برای ناکامی ۰ است.",
+        "$\\hat{P} = \\frac{x_1 + x_2 + \\dots + x_n}{n} = \\bar{x}$",
+        "پس $\\hat{P}$ همان اوسط نمونه است و به همین دلیل خواص اوسط نمونه (مثلاً نورمال شدن برای n بزرگ) برای آن هم صدق می‌کند."
+      ],
+      "answer": "$\\hat{P}$ برابر اوسط نمونه $\\bar{x}$ است.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب انحراف معیار را با $\\delta$ نشان می‌دهد (در بسیاری کتاب‌ها $\\sigma$)."
+}

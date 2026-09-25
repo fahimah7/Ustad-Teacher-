@@ -1,0 +1,69 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 150,
+  "printed_page": 143,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "خواص انتیگرال غیرمعین",
+  "summary_fa": "این صفحه بخش خواص انتیگرال غیرمعین را شروع می‌کند. سؤال آغاز درس می‌پرسد آیا خاصیت‌هایی که برای لیمت و مشتق می‌شناسیم (انتیگرال عدد ثابت، جمع و تفریق، ضرب و تقسیم توابع) برای انتیگرال هم درست است. در فعالیت، شاگرد با قاعده‌های مشتق از چهار تابع مشتق می‌گیرد تا یادآوری شود که مشتق با قاعده‌های معین حساب می‌شود. نتیجه این است که انتیگرال غیرمعین هم قاعده‌هایی دارد که در این درس بدون ثبوت قبول می‌شوند. خاصیت ۱: انتیگرال یک عدد ثابت k برابر $kx + C$ است، با مثال $\\int 5\\,dx$. خاصیت ۲: قاعدهٔ توان برای $n \\ne -1$؛ مثال آن در صفحهٔ بعد آمده است.",
+  "key_points_fa": [
+    "خواص انتیگرال غیرمعین در این کتاب بدون ثبوت قبول می‌شوند.",
+    "خاصیت ۱: $\\int k\\,dx = kx + C$ (k عدد ثابت)",
+    "خاصیت ۲: $\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$ به شرط $n \\ne -1$",
+    "جمع و تفریق در انتیگرال جدا می‌شوند، اما برای ضرب و تقسیم توابع چنین قاعدهٔ ساده‌ای وجود ندارد."
+  ],
+  "formulas": [
+    {"latex": "\\int k\\,dx = k\\int dx = kx + C", "meaning_fa": "انتیگرال یک عدد ثابت"},
+    {"latex": "\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C,\\quad n \\ne -1", "meaning_fa": "قاعدهٔ توان"}
+  ],
+  "terms": [
+    {"fa": "خواص انتیگرال غیرمعین", "en": "properties of the indefinite integral"},
+    {"fa": "عدد ثابت", "en": "constant"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.10, 0.10, 0.40, 0.30], "kind": "illustration", "description_fa": "چهار انتیگرال $\\int k\\,dx$، $\\int [f(x) \\pm g(x)]dx$، $\\int [f(x)\\cdot g(x)]dx$ و $\\int \\frac{f(x)}{g(x)}dx$ که با یک قوس به علامهٔ سؤال وصل شده‌اند؛ پرسش آغاز درس دربارهٔ این است که آیا این انتیگرال‌ها قاعدهٔ ساده دارند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "$\\int 5\\,dx$",
+      "steps_fa": [
+        "$\\int 5\\,dx = 5\\int dx = 5x + C$"
+      ],
+      "answer": "$5x + C$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغاز درس",
+      "kind": "question",
+      "problem_fa": "آیا خواص لیمت و مشتق برای انتیگرال‌های غیرمعین $\\int k\\,dx$، $\\int [f \\pm g]dx$، $\\int [f\\cdot g]dx$ و $\\int \\frac{f}{g}dx$ هم درست است؟",
+      "solution_steps_fa": [
+        "$\\int k\\,dx = kx + C$",
+        "$\\int [f(x) \\pm g(x)]dx = \\int f(x)dx \\pm \\int g(x)dx$ (مانند مشتق)",
+        "برای ضرب و تقسیم، انتیگرال برابر ضرب یا تقسیم انتیگرال‌ها نیست؛ مثلاً $\\int x\\cdot x\\,dx = \\frac{x^3}{3} + C$ ولی $\\int x\\,dx \\cdot \\int x\\,dx = \\frac{x^4}{4}$."
+      ],
+      "answer": "برای عدد ثابت و جمع/تفریق بلی؛ برای ضرب و تقسیم نه.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "مشتق این توابع را دریابید: $3x^4$، $2x^3 - \\frac{1}{x^2}$، $\\sin x + \\cos x$، $\\frac{1}{1 + x^2}$",
+      "solution_steps_fa": [
+        "$(3x^4)' = 12x^3$",
+        "$(2x^3 - x^{-2})' = 6x^2 + 2x^{-3} = 6x^2 + \\frac{2}{x^3}$",
+        "$(\\sin x + \\cos x)' = \\cos x - \\sin x$",
+        "$\\left((1 + x^2)^{-1}\\right)' = -(1 + x^2)^{-2}\\cdot 2x = -\\frac{2x}{(1 + x^2)^2}$"
+      ],
+      "answer": "$12x^3$؛ $6x^2 + \\frac{2}{x^3}$؛ $\\cos x - \\sin x$؛ $-\\frac{2x}{(1 + x^2)^2}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

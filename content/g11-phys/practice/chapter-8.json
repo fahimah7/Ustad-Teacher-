@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-phys",
+  "chapter": 8,
+  "title": {
+    "en": "Fluids in motion",
+    "fa": "سیال‌های متحرک"
+  },
+  "questions": [
+    {
+      "pdf_page": 203,
+      "q": {
+        "en": "Water flows at $1.5\\,\\mathrm{m/s}$ in a pipe of diameter $4\\,\\mathrm{cm}$, which then narrows to a diameter of $2\\,\\mathrm{cm}$. What is the speed of the water in the narrow part?",
+        "fa": "آب با سرعت $1.5\\,\\mathrm{m/s}$ در نلی به قطر $4\\,\\mathrm{cm}$ جریان دارد و نل بعد به قطر $2\\,\\mathrm{cm}$ تنگ می‌شود. سرعت آب در قسمت تنگ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$3\\,\\mathrm{m/s}$",
+          "fa": "$3\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$0.375\\,\\mathrm{m/s}$",
+          "fa": "$0.375\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$1.5\\,\\mathrm{m/s}$",
+          "fa": "$1.5\\,\\mathrm{m/s}$"
+        },
+        {
+          "en": "$6\\,\\mathrm{m/s}$",
+          "fa": "$6\\,\\mathrm{m/s}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "By the continuity equation $A_1 v_1 = A_2 v_2$, and $A \\propto d^2$: $v_2 = v_1\\left(\\frac{d_1}{d_2}\\right)^2 = 1.5 \\times 2^2 = 6\\,\\mathrm{m/s}$.",
+        "fa": "طبق معادلۀ متمادیت $A_1 v_1 = A_2 v_2$ است و $A \\propto d^2$: $v_2 = v_1\\left(\\frac{d_1}{d_2}\\right)^2 = 1.5 \\times 2^2 = 6\\,\\mathrm{m/s}$."
+      },
+      "idea": {
+        "en": "In the narrow part the water moves faster. The speed changes with the cross-section area, which goes as the square of the diameter: half the diameter means a quarter of the area.",
+        "fa": "در قسمت تنگ آب تیزتر حرکت می‌کند. سرعت با مساحت مقطع تغییر می‌کند که با مربع قطر متناسب است: نصف قطر یعنی یک‌چهارم مساحت."
+      }
+    },
+    {
+      "pdf_page": 206,
+      "q": {
+        "en": "Wind with a speed of $40\\,\\mathrm{m/s}$ blows against a wall and is brought to rest there. The density of air is $1.25\\,\\mathrm{kg/m^3}$. What is the stagnation pressure on the wall?",
+        "fa": "باد با سرعت $40\\,\\mathrm{m/s}$ به یک دیوار می‌خورد و در آن‌جا متوقف می‌شود. کثافت هوا $1.25\\,\\mathrm{kg/m^3}$ است. فشار بند بر دیوار چند است؟"
+      },
+      "options": [
+        {
+          "en": "$1000\\,\\mathrm{Pa}$",
+          "fa": "$1000\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$2000\\,\\mathrm{Pa}$",
+          "fa": "$2000\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$25\\,\\mathrm{Pa}$",
+          "fa": "$25\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$50\\,\\mathrm{Pa}$",
+          "fa": "$50\\,\\mathrm{Pa}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$p_s = \\frac{1}{2}\\rho v^2 = \\frac{1}{2} \\times 1.25 \\times 40^2 = 1000\\,\\mathrm{Pa}$, about one percent of normal air pressure ($\\approx 10^{5}\\,\\mathrm{Pa}$).",
+        "fa": "$p_s = \\frac{1}{2}\\rho v^2 = \\frac{1}{2} \\times 1.25 \\times 40^2 = 1000\\,\\mathrm{Pa}$ است که حدود یک فیصد فشار عادی هوا ($\\approx 10^{5}\\,\\mathrm{Pa}$) است."
+      },
+      "idea": {
+        "en": "The stagnation pressure is the rise in pressure when a flow is stopped: $p_s = \\frac{1}{2}\\rho v^2$. Square the speed and keep the $\\frac{1}{2}$.",
+        "fa": "فشار بند زیاد شدن فشار است وقتی جریان متوقف شود: $p_s = \\frac{1}{2}\\rho v^2$. سرعت را مربع کنید و $\\frac{1}{2}$ را فراموش نکنید."
+      }
+    },
+    {
+      "pdf_page": 212,
+      "q": {
+        "en": "Why does an aeroplane wing moving fast through the air get an upward force (dynamic lift)?",
+        "fa": "چرا بال طیاره‌یی که با سرعت زیاد در هوا حرکت می‌کند یک قوۀ رو به بالا (قوۀ محرکۀ بلند کننده) می‌گیرد؟"
+      },
+      "options": [
+        {
+          "en": "The air above the wing moves more slowly, so the pressure above it is higher",
+          "fa": "هوای بالای بال آهسته‌تر حرکت می‌کند، پس فشار بالای بال بیشتر است"
+        },
+        {
+          "en": "The wing is lighter than the air it pushes aside, like a floating body",
+          "fa": "بال از هوایی که بی‌جا می‌کند سبک‌تر است، مانند یک جسم شناور"
+        },
+        {
+          "en": "The air moves faster over the curved top of the wing, so the pressure above the wing is lower than below it",
+          "fa": "هوا بالای سطح خمیدۀ بال تیزتر حرکت می‌کند، پس فشار بالای بال از فشار زیر آن کمتر است"
+        },
+        {
+          "en": "The speed of the air does not change its pressure; only the weight of the air pushes the wing up",
+          "fa": "سرعت هوا فشار آن را تغییر نمی‌دهد؛ فقط وزن هوا بال را به بالا فشار می‌دهد"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Streamlines crowd together above the curved top of the wing, so by the continuity equation the air there moves faster. By Bernoulli's law faster air has lower pressure, so the higher pressure under the wing gives a net upward force $F \\approx (p_1 - p_2)A$.",
+        "fa": "خطوط جریان بالای سطح خمیدۀ بال به هم نزدیک می‌شوند، پس طبق معادلۀ متمادیت هوا در آن‌جا تیزتر حرکت می‌کند. طبق قانون برنولی هوای تیزتر فشار کمتر دارد، پس فشار بیشتر زیر بال یک قوۀ محصلۀ رو به بالا $F \\approx (p_1 - p_2)A$ می‌سازد."
+      },
+      "idea": {
+        "en": "Remember Bernoulli's law for level flow, $p + \\frac{1}{2}\\rho v^2 = \\mathrm{const}$: where the speed is higher, the pressure is lower.",
+        "fa": "قانون برنولی را برای جریان هم‌سطح به یاد آورید، $p + \\frac{1}{2}\\rho v^2 = \\mathrm{const}$: هر جا سرعت بیشتر باشد، فشار کمتر است."
+      }
+    },
+    {
+      "pdf_page": 214,
+      "q": {
+        "en": "A thin plate of area $0.02\\,\\mathrm{m^2}$ slides at $0.1\\,\\mathrm{m/s}$ on a layer of oil $2\\,\\mathrm{mm}$ thick lying on a fixed surface. The viscosity of the oil is $\\eta = 0.5\\,\\mathrm{kg/(m\\cdot s)}$. What is the internal friction force $R_i$ on the plate?",
+        "fa": "یک پلیت نازک به مساحت $0.02\\,\\mathrm{m^2}$ با سرعت $0.1\\,\\mathrm{m/s}$ روی یک قشر تیل به ضخامت $2\\,\\mathrm{mm}$ که بر یک سطح ساکن قرار دارد حرکت می‌کند. ضریب لزوجیت تیل $\\eta = 0.5\\,\\mathrm{kg/(m\\cdot s)}$ است. قوۀ اصطکاک داخلی $R_i$ بر پلیت چند است؟"
+      },
+      "options": [
+        {
+          "en": "$5\\times10^{-4}\\,\\mathrm{N}$",
+          "fa": "$5\\times10^{-4}\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$0.5\\,\\mathrm{N}$",
+          "fa": "$0.5\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$1\\times10^{-3}\\,\\mathrm{N}$",
+          "fa": "$1\\times10^{-3}\\,\\mathrm{N}$"
+        },
+        {
+          "en": "$2\\times10^{-4}\\,\\mathrm{N}$",
+          "fa": "$2\\times10^{-4}\\,\\mathrm{N}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$d = 2\\,\\mathrm{mm} = 0.002\\,\\mathrm{m}$, so $R_i = \\eta\\,A\\,\\frac{v}{d} = 0.5 \\times 0.02 \\times \\frac{0.1}{0.002} = 0.5\\,\\mathrm{N}$.",
+        "fa": "$d = 2\\,\\mathrm{mm} = 0.002\\,\\mathrm{m}$ است، پس $R_i = \\eta\\,A\\,\\frac{v}{d} = 0.5 \\times 0.02 \\times \\frac{0.1}{0.002} = 0.5\\,\\mathrm{N}$."
+      },
+      "idea": {
+        "en": "Internal friction grows with the area and the speed and is inversely proportional to the thickness of the layer: $R_i = \\eta A \\frac{v}{d}$. Put $d$ in metres.",
+        "fa": "اصطکاک داخلی با مساحت و سرعت زیاد می‌شود و با ضخامت قشر نسبت معکوس دارد: $R_i = \\eta A \\frac{v}{d}$. $d$ را به متر بگذارید."
+      }
+    },
+    {
+      "pdf_page": 218,
+      "q": {
+        "en": "When a water tap is opened only a little, the water comes out smooth and clear; when it is opened wide, the stream becomes rough and full of eddies. What explains this?",
+        "fa": "وقتی شیر آب را کمی باز کنیم، آب صاف و آرام بیرون می‌آید؛ وقتی آن را زیاد باز کنیم، جریان ناهموار و پر از گرداب می‌شود. علت آن چیست؟"
+      },
+      "options": [
+        {
+          "en": "At high speed the viscosity of water becomes zero",
+          "fa": "در سرعت زیاد لزوجیت آب صفر می‌شود"
+        },
+        {
+          "en": "At low speed the flow is turbulent and at high speed it is laminar",
+          "fa": "در سرعت کم جریان توفانی و در سرعت زیاد لامینار است"
+        },
+        {
+          "en": "The pressure of the water becomes larger than the atmospheric pressure",
+          "fa": "فشار آب از فشار اتموسفیر بیشتر می‌شود"
+        },
+        {
+          "en": "At low speed the flow is laminar; above a certain speed it becomes turbulent",
+          "fa": "در سرعت کم جریان لامینار است و بعد از یک سرعت معین جریان توفانی می‌شود"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "At low speed the layers of water slide smoothly beside each other (laminar flow). When the speed passes a certain value, internal friction at the high speed makes eddies and the layers mix: this is turbulent flow.",
+        "fa": "در سرعت کم قشرهای آب منظم و صاف پهلوی هم حرکت می‌کنند (جریان لامینار). وقتی سرعت از یک قیمت معین بیشتر شود، اصطکاک داخلی در سرعت زیاد گرداب می‌سازد و قشرها مخلوط می‌شوند؛ این جریان توفانی است."
+      },
+      "idea": {
+        "en": "Link the type of flow to the speed: slow flow is orderly (laminar), fast flow breaks into eddies (turbulent).",
+        "fa": "نوع جریان را به سرعت ربط دهید: جریان آهسته منظم (لامینار) و جریان تیز پر از گرداب (توفانی) است."
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 158,
+  "printed_page": 149,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "تمرین فصل چهارم",
+  "summary_fa": "این صفحه بخش اول تمرین فصل چهارم است: هشت سؤال چهارجوابه (انتخاب جواب درست). سؤال‌ها همهٔ موضوع‌های فصل را مرور می‌کنند: پیدا کردن فورمول حد n-ام از روی چند حد، پیدا کردن شمارهٔ حدی که قیمت معین دارد، حد دوازدهم ترادف حسابی، فرق مشترک ترادف حسابی، نسبت مشترک ترادف هندسی، حد دهم ترادف هندسی، فورمول مجموع n حد ترادف هندسی و شرط متقارب بودن سلسلهٔ هندسی لایتناهی. برای هر سؤال بهتر است شاگرد اول خودش حل کند و بعد جواب را با گزینه‌ها مقایسه کند.",
+  "key_points_fa": [
+    "برای پیدا کردن حد n-ام، صورت و مخرج حدود را جداگانه با شمارهٔ حد مقایسه کنید.",
+    "ترادف حسابی: $a_n = a_1 + (n-1)d$؛ ترادف هندسی: $a_n = a_1q^{n-1}$",
+    "مجموع n حد هندسی: $S = a\\frac{q^n - 1}{q - 1}$",
+    "سلسلهٔ هندسی لایتناهی فقط وقتی متقارب است که $|q| < 1$ باشد."
+  ],
+  "formulas": [
+    {"latex": "a_n = a_1 + (n-1)d", "meaning_fa": "حد n-ام ترادف حسابی"},
+    {"latex": "a_n = a_1\\,q^{n-1}", "meaning_fa": "حد n-ام ترادف هندسی"},
+    {"latex": "S = a\\,\\frac{q^n - 1}{q - 1}", "meaning_fa": "مجموع n حد ترادف هندسی"}
+  ],
+  "terms": [
+    {"fa": "فرق مشترک", "en": "common difference"},
+    {"fa": "نسبت مشترک", "en": "common ratio"},
+    {"fa": "سلسلهٔ متقارب", "en": "convergent series"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "سؤال ۱",
+      "kind": "question",
+      "problem_fa": "حد n-ام ترادف $2, \\frac{3}{2}, \\frac{4}{3}, \\frac{5}{4}, \\dots$ کدام است؟ a) $\\frac{\\sqrt{n}-1}{n}$ b) $\\frac{\\sqrt{n}+3}{n+2}$ c) $\\frac{n}{n-c}$ d) $\\frac{n+1}{n}$",
+      "solution_steps_fa": [
+        "حد اول را $\\frac{2}{1}$ بنویسید: $\\frac{2}{1}, \\frac{3}{2}, \\frac{4}{3}, \\frac{5}{4}$",
+        "مخرج همان n و صورت $n + 1$ است."
+      ],
+      "answer": "d) $\\frac{n+1}{n}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۲",
+      "kind": "question",
+      "problem_fa": "اگر $a_n = \\frac{3n-1}{2n-1}$ باشد، کدام حد این ترادف $\\frac{11}{7}$ است؟ a) ۳ b) ۴ c) ۵ d) ۶",
+      "solution_steps_fa": [
+        "$\\frac{3n-1}{2n-1} = \\frac{11}{7} \\Rightarrow 7(3n-1) = 11(2n-1)$",
+        "$21n - 7 = 22n - 11 \\Rightarrow n = 4$",
+        "امتحان: $a_4 = \\frac{11}{7}$"
+      ],
+      "answer": "b) حد چهارم",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۳",
+      "kind": "question",
+      "problem_fa": "حد دوازدهم ترادف حسابی $-9, -5, -1, 3, \\dots$ کدام است؟ a) ۳۵ b) ۳۸ c) $-35$ d) $-38$",
+      "solution_steps_fa": [
+        "$a_1 = -9$، $d = 4$",
+        "$a_{12} = -9 + 11 \\cdot 4 = 35$"
+      ],
+      "answer": "a) ۳۵",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۴",
+      "kind": "question",
+      "problem_fa": "فرق مشترک ترادف حسابی $0.1, 0.4, 0.7, 1, 1.3, \\dots$ کدام است؟ a) ۰٫۳ b) ۰٫۱ c) ۰٫۳ d) ۰٫۲",
+      "solution_steps_fa": [
+        "$d = 0.4 - 0.1 = 0.3$",
+        "امتحان: $0.7 - 0.4 = 0.3$ و $1 - 0.7 = 0.3$"
+      ],
+      "answer": "$d = 0.3$ (گزینهٔ a یا c که هر دو ۰٫۳ چاپ شده‌اند)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۵",
+      "kind": "question",
+      "problem_fa": "نسبت مشترک ترادف هندسی $96, 48, 24, 12, 6, \\dots$ کدام است؟ a) $-\\frac{1}{2}$ b) $\\frac{1}{2}$ c) $\\frac{2}{3}$ d) $-\\frac{2}{3}$",
+      "solution_steps_fa": [
+        "$q = \\frac{48}{96} = \\frac{1}{2}$",
+        "امتحان: $\\frac{24}{48} = \\frac{1}{2}$"
+      ],
+      "answer": "b) $\\frac{1}{2}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۶",
+      "kind": "question",
+      "problem_fa": "حد دهم ترادف هندسی $5, \\frac{5}{2}, \\frac{5}{4}, \\frac{5}{8}, \\frac{5}{16}, \\dots$ کدام است؟ a) $-\\frac{3}{512}$ b) $\\frac{5}{512}$ c) $-\\frac{3}{512}$ d) $-\\frac{5}{512}$",
+      "solution_steps_fa": [
+        "$a_1 = 5$، $q = \\frac{1}{2}$",
+        "$a_{10} = 5 \\cdot \\left(\\frac{1}{2}\\right)^9 = \\frac{5}{512}$"
+      ],
+      "answer": "b) $\\frac{5}{512}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۷",
+      "kind": "question",
+      "problem_fa": "فورمول مجموع n حد ترادف هندسی کدام است؟ a) $S = a\\frac{1+q^n}{1-2}$ b) $S = a\\frac{q^n-1}{q-1}$ c) $S = a\\frac{1+q^n}{1+q}$ d) هیچ کدام",
+      "solution_steps_fa": [
+        "از درس: $S_n = \\frac{a(1-q^n)}{1-q}$",
+        "با ضرب صورت و مخرج در $-1$: $S_n = a\\frac{q^n - 1}{q - 1}$"
+      ],
+      "answer": "b) $S = a\\frac{q^n-1}{q-1}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۸",
+      "kind": "question",
+      "problem_fa": "در سلسله‌های هندسی لایتناهی متقارب، نسبت مشترک q چگونه است؟ a) $q = 0$ b) $|q| > 1$ c) $|q| < 1$ d) هیچ کدام",
+      "solution_steps_fa": [
+        "فقط وقتی $|q| < 1$ باشد، $q^n \\to 0$ و مجموع به $\\frac{a}{1-q}$ نزدیک می‌شود."
+      ],
+      "answer": "c) $|q| < 1$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در سؤال ۴ گزینه‌های a و c هر دو ۰٫۳ چاپ شده‌اند (احتمالاً یکی باید $-0.3$ باشد)؛ ترادف از راست به چپ به صورت $0.1, 0.4, \\dots$ خوانده شد. اگر به صورت $1.3, 1, 0.7, \\dots$ خوانده شود، d مساوی $-0.3$ است. در سؤال ۸ عبارت کتاب «متقارب غیرمعین» است که منظور سلسلهٔ لایتناهی است. تصویر یک مکعب سرخ با علامت‌های سؤال فقط تزئینی است."
+}

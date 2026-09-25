@@ -1,0 +1,73 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 71,
+  "printed_page": 62,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "قانون تانجنت",
+  "summary_fa": "این صفحه ثبوت قانون تانجنت را تمام می‌کند. از $a = D\\sin A$ و $b = D\\sin B$، مجموع و تفاضل دو ضلع نوشته می‌شود و با تقسیم آن‌ها بر یکدیگر D حذف می‌شود؛ نتیجه، نسبت $\\frac{\\sin A + \\sin B}{\\sin A - \\sin B}$ است. بعد با فورمول‌های تبدیل مجموع و تفاضل ساین‌ها به حاصل ضرب، صورت و مخرج به شکل حاصل ضرب ساین و کوساین نصف مجموع و نصف تفاضل زاویه‌ها درمی‌آیند. نسبت ساین بر کوساین تانجنت است و نسبت کوساین بر ساین کوتانجنت؛ و چون کوتانجنت معکوس تانجنت است، قانون تانجنت به دست می‌آید. در فعالیت، شاگرد باید دو شکل دیگر این قانون را برای جوره‌های (c, a) و (b, c) ثبوت کند. در آخر صورت مثال ۱ آمده است که حل آن در صفحه بعد است.",
+  "key_points_fa": [
+    "با تقسیم $a + b$ بر $a - b$، نسبت مشترک D از میان می‌رود.",
+    "$\\sin A + \\sin B = 2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}$",
+    "$\\sin A - \\sin B = 2\\cos\\frac{A+B}{2}\\sin\\frac{A-B}{2}$",
+    "$\\cot x = \\frac{1}{\\tan x}$، پس ضرب در کوتانجنت مثل تقسیم بر تانجنت است.",
+    "قانون تانجنت سه شکل دارد، یکی برای هر جوره ضلع: (a, b)، (b, c) و (c, a)."
+  ],
+  "formulas": [
+    {"latex": "\\frac{a + b}{a - b} = \\frac{\\sin A + \\sin B}{\\sin A - \\sin B}", "meaning_fa": "نسبت مجموع و تفاضل ضلع‌ها برابر نسبت مجموع و تفاضل ساین‌هاست"},
+    {"latex": "\\sin A + \\sin B = 2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}", "meaning_fa": "تبدیل مجموع ساین‌ها به حاصل ضرب"},
+    {"latex": "\\sin A - \\sin B = 2\\cos\\frac{A+B}{2}\\sin\\frac{A-B}{2}", "meaning_fa": "تبدیل تفاضل ساین‌ها به حاصل ضرب"},
+    {"latex": "\\frac{a + b}{a - b} = \\tan\\frac{A+B}{2} \\cdot \\cot\\frac{A-B}{2} = \\frac{\\tan\\frac{A+B}{2}}{\\tan\\frac{A-B}{2}}", "meaning_fa": "قانون تانجنت"},
+    {"latex": "\\frac{c + a}{c - a} = \\frac{\\tan\\frac{C+A}{2}}{\\tan\\frac{C-A}{2}},\\quad \\frac{b + c}{b - c} = \\frac{\\tan\\frac{B+C}{2}}{\\tan\\frac{B-C}{2}}", "meaning_fa": "دو شکل دیگر قانون تانجنت"}
+  ],
+  "terms": [
+    {"fa": "قانون تانجنت", "en": "law of tangents"},
+    {"fa": "فورمول‌های ضرب", "en": "sum-to-product formulas"},
+    {"fa": "کوتانجنت", "en": "cotangent"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت قانون تانجنت (ادامه)",
+      "problem_fa": "با داشتن $a = D\\sin A$ و $b = D\\sin B$، ثبوت کنید که $\\frac{a + b}{a - b} = \\frac{\\tan\\frac{A+B}{2}}{\\tan\\frac{A-B}{2}}$.",
+      "steps_fa": [
+        "$a + b = D(\\sin A + \\sin B)$ و $a - b = D(\\sin A - \\sin B)$",
+        "تقسیم: $\\frac{a + b}{a - b} = \\frac{\\sin A + \\sin B}{\\sin A - \\sin B}$",
+        "با فورمول‌های ضرب: $\\frac{2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}}{2\\cos\\frac{A+B}{2}\\sin\\frac{A-B}{2}} = \\frac{\\sin\\frac{A+B}{2}}{\\cos\\frac{A+B}{2}} \\cdot \\frac{\\cos\\frac{A-B}{2}}{\\sin\\frac{A-B}{2}}$",
+        "$= \\tan\\frac{A+B}{2} \\cdot \\cot\\frac{A-B}{2}$",
+        "چون $\\cot\\frac{A-B}{2} = \\frac{1}{\\tan\\frac{A-B}{2}}$، نتیجه قانون تانجنت است."
+      ],
+      "answer": "$\\frac{a + b}{a - b} = \\frac{\\tan\\frac{A+B}{2}}{\\tan\\frac{A-B}{2}}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱ (صورت مسأله)",
+      "problem_fa": "در مثلث ABC: $\\hat{A} = 90^\\circ$ و $\\frac{b - c}{b + c} = \\frac{1}{\\sqrt{3}}$. زاویه‌های B و C را دریافت کنید.",
+      "steps_fa": [
+        "حل در صفحه بعد است: $B + C = 90^\\circ$، و از قانون تانجنت $\\tan\\frac{B-C}{2} = \\frac{1}{\\sqrt{3}}$ پس $B - C = 60^\\circ$."
+      ],
+      "answer": "$B = 75^\\circ$ و $C = 15^\\circ$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "ثبوت کنید: $\\frac{c + a}{c - a} = \\frac{\\tan\\frac{C+A}{2}}{\\tan\\frac{C-A}{2}}$ و $\\frac{b + c}{b - c} = \\frac{\\tan\\frac{B+C}{2}}{\\tan\\frac{B-C}{2}}$.",
+      "solution_steps_fa": [
+        "از قانون ساین: $a = D\\sin A$، $b = D\\sin B$، $c = D\\sin C$.",
+        "برای جورهٔ اول: $\\frac{c + a}{c - a} = \\frac{\\sin C + \\sin A}{\\sin C - \\sin A} = \\frac{2\\sin\\frac{C+A}{2}\\cos\\frac{C-A}{2}}{2\\cos\\frac{C+A}{2}\\sin\\frac{C-A}{2}}$",
+        "$= \\tan\\frac{C+A}{2} \\cdot \\cot\\frac{C-A}{2} = \\frac{\\tan\\frac{C+A}{2}}{\\tan\\frac{C-A}{2}}$",
+        "برای جورهٔ دوم به همین ترتیب: $\\frac{b + c}{b - c} = \\frac{\\sin B + \\sin C}{\\sin B - \\sin C} = \\frac{\\tan\\frac{B+C}{2}}{\\tan\\frac{B-C}{2}}$"
+      ],
+      "answer": "هر دو رابطه با همان روش ثبوت قانون اصلی ثابت می‌شوند.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 78,
+  "printed_page": 71,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مشتق تابع مثلثاتی $y = \\tan x$",
+  "summary_fa": "این صفحه مشتق تانجانت را به دست می‌آورد. بالای صفحه گراف $\\tan x$ با شاخه‌های جدا و خط‌های مجانب عمودی آمده و پرسیده می‌شود چه تابعی است. در فعالیت، $\\tan x$ به شکل نسبت $\\frac{\\sin x}{\\cos x}$ نوشته می‌شود تا بتوان از قانون حاصل تقسیم استفاده کرد. در ثبوت، صورت به $\\cos^2 x + \\sin^2 x = 1$ ساده می‌شود و نتیجه $(\\tan x)' = \\frac{1}{\\cos^2 x} = \\sec^2 x$ است. ثبوت مشتق توابع باقی‌مانده ($\\cot$، $\\sec$، $\\csc$) به شاگردان سپرده شده است. در مثال ۱، مشتق $\\tan^3 x$ با قانون $(u^n)' = nu^{n-1}u'$ پیدا می‌شود.",
+  "key_points_fa": [
+    "$(\\tan x)' = \\sec^2 x = \\frac{1}{\\cos^2 x}$",
+    "برای ثبوت، $\\tan x = \\frac{\\sin x}{\\cos x}$ بنویسید و قانون حاصل تقسیم را به کار ببرید.",
+    "اتحاد $\\sin^2 x + \\cos^2 x = 1$ صورت را ساده می‌کند.",
+    "گراف $\\tan x$ در $x = \\pm\\frac{\\pi}{2}, \\pm\\frac{3\\pi}{2}, \\dots$ مجانب عمودی دارد و در $0, \\pm\\pi, \\pm 2\\pi$ صفر است.",
+    "توان یک تابع مثلثاتی: $(\\tan^n x)' = n\\tan^{n-1}x \\cdot \\sec^2 x$"
+  ],
+  "formulas": [
+    {"latex": "y = \\tan x \\Rightarrow y' = \\sec^2 x = \\frac{1}{\\cos^2 x}", "meaning_fa": "مشتق تابع تانجانت"},
+    {"latex": "(\\cot x)' = -\\csc^2 x", "meaning_fa": "مشتق کوتانجانت (ثبوت آن کار شاگردان است)"},
+    {"latex": "(\\sec x)' = \\sec x\\tan x,\\quad (\\csc x)' = -\\csc x\\cot x", "meaning_fa": "مشتق سکانت و کوسکانت"}
+  ],
+  "terms": [
+    {"fa": "تانجانت", "en": "tangent (tan)"},
+    {"fa": "سکانت", "en": "secant"},
+    {"fa": "مجانب عمودی", "en": "vertical asymptote"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.07, 0.50, 0.27], "kind": "graph", "description_fa": "گراف $y = \\tan x$ روی چند دوره از $-2\\pi$ تا حدود $2\\pi$؛ شاخه‌های جدا از هم که بین خط‌های عمودی نقطه‌چین (مجانب‌ها در مضرب‌های فرد $\\frac{\\pi}{2}$) از پایین به بالا می‌روند و در $0$، $\\pm\\pi$ و $\\pm 2\\pi$ محور x را قطع می‌کنند. شکل نشان می‌دهد که تانجانت همیشه صعودی است، پس مشتق آن ($\\sec^2 x$) همیشه مثبت است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت مشتق $\\tan x$",
+      "problem_fa": "ثابت کنید $(\\tan x)' = \\sec^2 x$.",
+      "steps_fa": [
+        "$\\tan x = \\frac{\\sin x}{\\cos x}$",
+        "$(\\tan x)' = \\frac{\\cos x \\cdot \\cos x - (-\\sin x)\\sin x}{\\cos^2 x} = \\frac{\\cos^2 x + \\sin^2 x}{\\cos^2 x}$",
+        "$= \\frac{1}{\\cos^2 x} = \\sec^2 x$"
+      ],
+      "answer": "$(\\tan x)' = \\sec^2 x$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مشتق $y = \\tan^3 x$ را دریافت کنید.",
+      "steps_fa": [
+        "$u = \\tan x \\Rightarrow u' = \\sec^2 x$",
+        "$y = u^3 \\Rightarrow y' = 3u^2 u' = 3\\tan^2 x\\sec^2 x$"
+      ],
+      "answer": "$y' = 3\\tan^2 x\\sec^2 x$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "سؤال آغاز درس",
+      "kind": "question",
+      "problem_fa": "گراف بالای صفحه چه نوع تابعی را نشان می‌دهد؟",
+      "solution_steps_fa": [
+        "گراف از شاخه‌های جدا ساخته شده که هر $\\pi$ تکرار می‌شوند.",
+        "در $0$ و $\\pm\\pi$ صفر است و نزدیک $\\pm\\frac{\\pi}{2}$ بی‌نهایت بزرگ یا کوچک می‌شود."
+      ],
+      "answer": "تابع مثلثاتی $y = \\tan x$ (متناوب با دورهٔ $\\pi$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "$y = \\tan x$ را به شکل نسبت مثلثاتی بنویسید. اگر از دو طرف مشتق بگیرید، نتیجه چیست؟",
+      "solution_steps_fa": [
+        "$\\tan x = \\frac{\\sin x}{\\cos x}$",
+        "با قانون حاصل تقسیم: $\\frac{\\cos^2 x + \\sin^2 x}{\\cos^2 x} = \\frac{1}{\\cos^2 x}$"
+      ],
+      "answer": "$(\\tan x)' = \\frac{1}{\\cos^2 x} = \\sec^2 x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "ثبوت مشتق توابع باقی‌مانده (کار شاگردان)",
+      "kind": "exercise",
+      "problem_fa": "مشتق $\\cot x$، $\\sec x$ و $\\csc x$ را ثابت کنید.",
+      "solution_steps_fa": [
+        "$\\cot x = \\frac{\\cos x}{\\sin x}$: $(\\cot x)' = \\frac{-\\sin x\\sin x - \\cos x\\cos x}{\\sin^2 x} = \\frac{-1}{\\sin^2 x} = -\\csc^2 x$",
+        "$\\sec x = \\frac{1}{\\cos x}$: $(\\sec x)' = \\frac{\\sin x}{\\cos^2 x} = \\sec x\\tan x$",
+        "$\\csc x = \\frac{1}{\\sin x}$: $(\\csc x)' = \\frac{-\\cos x}{\\sin^2 x} = -\\csc x\\cot x$"
+      ],
+      "answer": "$(\\cot x)' = -\\csc^2 x$؛ $(\\sec x)' = \\sec x\\tan x$؛ $(\\csc x)' = -\\csc x\\cot x$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "گراف کتاب کوچک و کم‌رنگ است؛ توضیح آن بر اساس شکل عمومی $\\tan x$ و علامه‌های محور نوشته شده است."
+}

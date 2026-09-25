@@ -1,0 +1,167 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 229,
+  "printed_page": 222,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "تمرینات عمومی فصل ششم",
+  "summary_fa": "بالای صفحه خلاصهٔ طول قوس تمام می‌شود: فورمول پارامتری و دو حالت خاص آن (منحنی $y=f(x)$ و منحنی $x=f(y)$). باقی صفحه یازده تمرین عمومی فصل ششم است که سه موضوع اصلی فصل را مرور می‌کند: مساحت زیر یک منحنی یا بین دو منحنی (تمرین ۱ تا ۵)، حجم اجسام دورانی حول محور x (تمرین ۶ تا ۹) و طول قوس (تمرین ۱۰ و ۱۱). برای مساحت، اول نقاط تقاطع را پیدا کنید و ببینید کدام منحنی بالاتر است؛ برای حجم، مربع شعاع را انتیگرال بگیرید؛ برای طول قوس خط مستقیم، جواب را می‌توان با فاصلهٔ دو نقطه هم کنترول کرد.",
+  "key_points_fa": [
+    "برای مساحت: نقاط تقاطع ← منحنی بالایی منفی پایینی ← انتیگرال.",
+    "اگر منحنی در انتروال علامت عوض کند، انتیگرال را تقسیم کرده قیمت مطلق هر قسمت را جمع کنید.",
+    "برای حجم دورانی: $V=\\pi\\int y^2\\,dx$ یا برای حلقه $\\pi\\int(y_{\\text{بیرونی}}^2-y_{\\text{داخلی}}^2)dx$",
+    "طول قوس یک خط مستقیم برابر فاصلهٔ دو نقطهٔ انجام آن است."
+  ],
+  "formulas": [
+    {"latex": "L=\\int_a^b\\sqrt{[f'(t)]^2+[g'(t)]^2}\\,dt", "meaning_fa": "طول قوس منحنی پارامتری"},
+    {"latex": "L=\\int_a^b\\sqrt{1+f'^2(x)}\\,dx", "meaning_fa": "طول قوس منحنی $y=f(x)$"},
+    {"latex": "L=\\int_a^b\\sqrt{1+f'^2(y)}\\,dy", "meaning_fa": "طول قوس منحنی $x=f(y)$"}
+  ],
+  "terms": [
+    {"fa": "طول قوس", "en": "arc length"},
+    {"fa": "مساحت محصور", "en": "enclosed area"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "مساحت بین منحنی $y^2-x-5=0$ و محور y",
+      "solution_steps_fa": [
+        "$x=y^2-5$؛ تقاطع با محور y ($x=0$): $y=\\pm\\sqrt{5}$",
+        "در این انتروال منحنی طرف چپ محور y است، پس $A=\\int_{-\\sqrt5}^{\\sqrt5}(5-y^2)\\,dy$",
+        "$=2\\left[5y-\\frac{y^3}{3}\\right]_0^{\\sqrt5}=2\\left(5\\sqrt5-\\frac{5\\sqrt5}{3}\\right)$"
+      ],
+      "answer": "$\\frac{20\\sqrt5}{3}\\approx 14.91$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "مساحت بین $y=\\sin x$ و محور x در $[0,2\\pi]$",
+      "solution_steps_fa": [
+        "در $[\\pi,2\\pi]$ منحنی زیر محور x است، پس انتیگرال را تقسیم می‌کنیم.",
+        "$\\int_0^{\\pi}\\sin x\\,dx=[-\\cos x]_0^{\\pi}=2$",
+        "$\\left|\\int_{\\pi}^{2\\pi}\\sin x\\,dx\\right|=|-2|=2$",
+        "$A=2+2$"
+      ],
+      "answer": "$4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "مساحت بین $y=x^2-2x$ و $y=6x-x^2$",
+      "solution_steps_fa": [
+        "تقاطع: $x^2-2x=6x-x^2 \\Rightarrow 2x^2-8x=0 \\Rightarrow x=0,\\ 4$",
+        "در $[0,4]$ منحنی $6x-x^2$ بالایی است: $A=\\int_0^4(8x-2x^2)\\,dx$",
+        "$=\\left[4x^2-\\frac{2x^3}{3}\\right]_0^4=64-\\frac{128}{3}$"
+      ],
+      "answer": "$\\frac{64}{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "مساحت بین $y=-x^2+4x-3$ و محور x",
+      "solution_steps_fa": [
+        "ریشه‌ها: $-x^2+4x-3=0 \\Rightarrow x=1,\\ 3$؛ بین آن‌ها منحنی بالای محور x است.",
+        "$A=\\int_1^3(-x^2+4x-3)\\,dx=\\left[-\\frac{x^3}{3}+2x^2-3x\\right]_1^3$",
+        "$=0-\\left(-\\frac{4}{3}\\right)$"
+      ],
+      "answer": "$\\frac{4}{3}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "مساحت بین $y=x^3-6x^2+8x$ و $y=x^2-4x$",
+      "solution_steps_fa": [
+        "تفاضل: $h(x)=x^3-7x^2+12x=x(x-3)(x-4)$؛ تقاطع‌ها $x=0,3,4$",
+        "در $[0,3]$ داریم $h\\ge0$: $\\int_0^3 h\\,dx=\\left[\\frac{x^4}{4}-\\frac{7x^3}{3}+6x^2\\right]_0^3=\\frac{45}{4}$",
+        "در $[3,4]$ داریم $h\\le0$: $\\int_3^4 h\\,dx=\\frac{32}{3}-\\frac{45}{4}=-\\frac{7}{12}$",
+        "$A=\\frac{45}{4}+\\frac{7}{12}=\\frac{142}{12}$"
+      ],
+      "answer": "$\\frac{71}{6}\\approx 11.83$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "حجم دوران ناحیهٔ زیر $y=\\sin x-\\cos x$ در $[0,\\frac{\\pi}{2}]$ حول محور x",
+      "solution_steps_fa": [
+        "$y^2=\\sin^2x-2\\sin x\\cos x+\\cos^2x=1-\\sin 2x$",
+        "$V=\\pi\\int_0^{\\pi/2}(1-\\sin 2x)\\,dx=\\pi\\left[x+\\frac{\\cos 2x}{2}\\right]_0^{\\pi/2}$",
+        "$=\\pi\\left[\\left(\\frac{\\pi}{2}-\\frac{1}{2}\\right)-\\frac{1}{2}\\right]=\\pi\\left(\\frac{\\pi}{2}-1\\right)$"
+      ],
+      "answer": "$\\frac{\\pi^2}{2}-\\pi\\approx 1.79$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "حجم دوران ناحیهٔ بین $y=\\frac{1}{4}x^2+2$ و محور x در $[0,4]$ حول محور x",
+      "solution_steps_fa": [
+        "$y^2=\\frac{x^4}{16}+x^2+4$",
+        "$V=\\pi\\left[\\frac{x^5}{80}+\\frac{x^3}{3}+4x\\right]_0^4=\\pi\\left(\\frac{64}{5}+\\frac{64}{3}+16\\right)$",
+        "$=\\pi\\cdot\\frac{192+320+240}{15}$"
+      ],
+      "answer": "$\\frac{752\\pi}{15}\\approx 157.5$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "حجم دوران ناحیهٔ بین $y=x^2$ و دایرهٔ $x^2+y^2=2$ (بالای سهمی و داخل دایره) حول محور x",
+      "solution_steps_fa": [
+        "تقاطع: $x^2+x^4=2 \\Rightarrow x^2=1 \\Rightarrow x=\\pm1$",
+        "شعاع بیرونی: $y_{\\text{بیرونی}}^2=2-x^2$؛ شعاع داخلی: $y_{\\text{داخلی}}^2=x^4$",
+        "$V=\\pi\\int_{-1}^{1}(2-x^2-x^4)\\,dx=2\\pi\\left[2x-\\frac{x^3}{3}-\\frac{x^5}{5}\\right]_0^1$",
+        "$=2\\pi\\left(2-\\frac{1}{3}-\\frac{1}{5}\\right)=2\\pi\\cdot\\frac{22}{15}$"
+      ],
+      "answer": "$\\frac{44\\pi}{15}\\approx 9.22$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۹",
+      "kind": "exercise",
+      "problem_fa": "حجم دوران ناحیهٔ بین خط $y=\\frac{1}{2}x+1$ و محور x در $[2,6]$ حول محور x",
+      "solution_steps_fa": [
+        "$V=\\pi\\int_2^6\\left(\\frac{x}{2}+1\\right)^2dx$؛ با $u=\\frac{x}{2}+1$، $dx=2\\,du$",
+        "$V=\\pi\\left[\\frac{2}{3}\\left(\\frac{x}{2}+1\\right)^3\\right]_2^6=\\frac{2\\pi}{3}(64-8)$",
+        "کنترول: جسم یک مخروط ناقص با شعاع‌های ۲ و ۴ و ارتفاع ۴ است: $\\frac{\\pi\\cdot4}{3}(16+8+4)$"
+      ],
+      "answer": "$\\frac{112\\pi}{3}\\approx 117.3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۰",
+      "kind": "exercise",
+      "problem_fa": "طول قوس $y=-x+4$ در $-2\\le x\\le 2$",
+      "solution_steps_fa": [
+        "$f'(x)=-1$، پس $\\sqrt{1+1}=\\sqrt2$",
+        "$L=\\int_{-2}^{2}\\sqrt2\\,dx=4\\sqrt2$",
+        "کنترول: فاصلهٔ نقاط $(-2,6)$ و $(2,2)$ برابر $\\sqrt{16+16}=4\\sqrt2$ است."
+      ],
+      "answer": "$4\\sqrt2\\approx 5.66$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱۱",
+      "kind": "exercise",
+      "problem_fa": "طول قوس $y=\\frac{4}{3}x+\\frac{4}{3}$ در $2\\le x\\le 5$",
+      "solution_steps_fa": [
+        "$f'(x)=\\frac{4}{3}$، پس $\\sqrt{1+\\frac{16}{9}}=\\frac{5}{3}$",
+        "$L=\\int_2^5\\frac{5}{3}\\,dx=\\frac{5}{3}\\cdot3$"
+      ],
+      "answer": "$5$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در تمرین ۸ ناحیهٔ عدسی شکل بالای سهمی و داخل دایره در نظر گرفته شده است."
+}

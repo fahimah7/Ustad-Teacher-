@@ -1,0 +1,67 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 169,
+  "printed_page": 162,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "انتیگرال‌گیری به طریقهٔ تعویض",
+  "summary_fa": "این صفحه دو مثال انتیگرال معین را با روش تعویض حل می‌کند. در مثال ۱، افادهٔ داخل قوس $3-5x$ را u می‌گیریم، dx را برحسب du می‌نویسیم و سرحدات 1 و 2 را به $-2$ و $-7$ تبدیل می‌کنیم؛ جواب $\\frac{1}{14}$ است. در مثال ۲، $u=1+2x^3$ انتخاب می‌شود چون $x^2dx$ دقیقاً ضریبی از du است؛ سرحدات به 1 و 3 تبدیل می‌شوند و جواب $\\frac{182}{9}$ می‌شود. در آخر یک فعالیت برای انتیگرال غیرمعین می‌آید: داخل جذر را تعویض کنید، انتیگرال را حساب کنید و با مشتق گرفتن از جواب، تابع اولی را دوباره به دست آورید تا درستی جواب ثابت شود. نتیجهٔ این فعالیت در صفحهٔ بعد نوشته شده است.",
+  "key_points_fa": [
+    "u را طوری انتخاب کنید که مشتق آن (با یک ضریب) بیرون قوس یا جذر موجود باشد.",
+    "ضریب اضافی را پیش از انتیگرال بیرون بکشید، مثلاً $x^2dx = \\frac16du$.",
+    "در انتیگرال معین، با سرحدات جدید u کار را تمام کنید.",
+    "درستی انتیگرال غیرمعین را با مشتق گرفتن از جواب بررسی کنید."
+  ],
+  "formulas": [
+    {"latex": "\\int u^n\\,du = \\frac{u^{n+1}}{n+1} + C,\\quad n \\ne -1", "meaning_fa": "قاعدهٔ توان که بعد از تعویض به کار می‌رود"}
+  ],
+  "terms": [
+    {"fa": "تعویض", "en": "substitution"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (حل)",
+      "problem_fa": "$\\int_1^2 \\frac{dx}{(3-5x)^2}$",
+      "steps_fa": [
+        "$u = 3-5x$، $du=-5\\,dx$، $dx = -\\frac{du}{5}$",
+        "$x=1 \\Rightarrow u=-2$؛ $x=2 \\Rightarrow u=-7$",
+        "$-\\frac15\\int_{-2}^{-7}\\frac{du}{u^2} = -\\frac15\\left[-\\frac1u\\right]_{-2}^{-7} = \\left[\\frac{1}{5u}\\right]_{-2}^{-7}$",
+        "$= \\frac15\\left(-\\frac17+\\frac12\\right) = \\frac{1}{14}$"
+      ],
+      "answer": "$\\frac{1}{14}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\int_0^1 x^2(1+2x^3)^5\\,dx$",
+      "steps_fa": [
+        "$u = 1+2x^3$، $du = 6x^2dx \\Rightarrow x^2dx = \\frac16du$",
+        "$x=0 \\Rightarrow u=1$؛ $x=1 \\Rightarrow u=3$",
+        "$\\frac16\\int_1^3 u^5du = \\frac16\\left[\\frac{u^6}{6}\\right]_1^3 = \\frac{1}{36}(729-1)$",
+        "$= \\frac{728}{36} = \\frac{182}{9} \\approx 20.2$"
+      ],
+      "answer": "$\\frac{182}{9}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "در $\\int x^2\\sqrt{x^3+1}\\,dx$ داخل جذر را u بگیرید، انتیگرال را حساب کنید و با مشتق گرفتن از جواب، تابع اولی را دوباره پیدا کنید.",
+      "solution_steps_fa": [
+        "$u = x^3+1$، $du = 3x^2dx \\Rightarrow x^2dx = \\frac13du$",
+        "$\\frac13\\int u^{1/2}du = \\frac13\\cdot\\frac23u^{3/2} + C = \\frac29(x^3+1)^{3/2} + C$",
+        "بررسی: $\\left(\\frac29(x^3+1)^{3/2}\\right)' = \\frac29\\cdot\\frac32(x^3+1)^{1/2}\\cdot3x^2 = x^2\\sqrt{x^3+1}$ ✓"
+      ],
+      "answer": "$\\frac29(x^3+1)^{3/2} + C$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 33,
+  "printed_page": 26,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "لیمت توابع مثلثاتی",
+  "summary_fa": "این صفحه ثبوت قضیهٔ $\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1$ را کامل می‌کند. از مقایسهٔ مساحت دو مثلث و قطاع، نامساوات $\\sin\\theta < \\theta < \\tan\\theta$ به دست می‌آید. با تقسیم بر $\\sin\\theta$ و معکوس کردن، $\\frac{\\sin\\theta}{\\theta}$ میان $\\cos\\theta$ و ۱ قرار می‌گیرد. چون هر دو طرف به ۱ نزدیک می‌شوند، طبق قضیهٔ ساندویچ، کسر وسط هم به ۱ می‌رسد. بعد با همین قضیه نشان داده می‌شود که وقتی زاویه به بی‌نهایت برود، $\\frac{\\sin\\theta}{\\theta}$ به صفر نزدیک می‌شود، چون ساین همیشه میان $-1$ و $1$ است و مخرج بی‌نهایت بزرگ می‌شود. در آخر، مثال ۱ با تعویض $\\alpha = 2x$ نشان می‌دهد که $\\lim_{x \\to 0} \\frac{\\sin 2x}{x} = 2$.",
+  "key_points_fa": [
+    "برای زاویه‌های کوچک مثبت: $\\sin\\theta < \\theta < \\tan\\theta$",
+    "قضیهٔ ساندویچ: اگر تابعی میان دو تابع باشد که هر دو به یک لیمت می‌رسند، آن تابع هم به همان لیمت می‌رسد.",
+    "$\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1$ ولی $\\lim_{\\theta \\to \\infty} \\frac{\\sin\\theta}{\\theta} = 0$",
+    "قاعدهٔ کاربردی: $\\lim_{x \\to 0} \\frac{\\sin kx}{x} = k$ (با تعویض $\\alpha = kx$)."
+  ],
+  "formulas": [
+    {"latex": "\\sin\\theta < \\theta < \\tan\\theta \\Rightarrow \\cos\\theta < \\frac{\\sin\\theta}{\\theta} < 1", "meaning_fa": "نامساوات اساسی برای ثبوت قضیه"},
+    {"latex": "\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1", "meaning_fa": "نتیجه با قضیهٔ ساندویچ"},
+    {"latex": "\\lim_{\\theta \\to \\infty} \\frac{\\sin\\theta}{\\theta} = 0", "meaning_fa": "در بی‌نهایت، ساین محدود و مخرج بی‌نهایت است"},
+    {"latex": "\\lim_{x \\to 0} \\frac{\\sin kx}{x} = k", "meaning_fa": "نتیجهٔ مثال ۱ به شکل عمومی"}
+  ],
+  "terms": [
+    {"fa": "قضیهٔ ساندویچ", "en": "squeeze (sandwich) theorem"},
+    {"fa": "نامساوات", "en": "inequality"},
+    {"fa": "قطاع", "en": "sector"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت قضیه (ادامه)",
+      "problem_fa": "ثابت کنید $\\lim_{\\theta \\to 0} \\frac{\\sin\\theta}{\\theta} = 1$",
+      "steps_fa": [
+        "مقایسهٔ مساحت‌ها و ضرب در $\\frac{2}{r^2}$ با $r = 1$: $\\sin\\theta < \\theta < \\tan\\theta$",
+        "تقسیم بر $\\sin\\theta$: $1 < \\frac{\\theta}{\\sin\\theta} < \\frac{1}{\\cos\\theta}$",
+        "معکوس: $\\cos\\theta < \\frac{\\sin\\theta}{\\theta} < 1$",
+        "$\\lim_{\\theta \\to 0} \\cos\\theta = 1$ و $\\lim 1 = 1$؛ طبق قضیهٔ ساندویچ جواب ۱ است."
+      ],
+      "answer": "$1$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "لیمت در بی‌نهایت",
+      "problem_fa": "$\\lim_{\\theta \\to \\infty} \\frac{\\sin\\theta}{\\theta}$",
+      "steps_fa": [
+        "$-1 \\le \\sin\\theta \\le 1$، پس برای θ مثبت: $-\\frac{1}{\\theta} \\le \\frac{\\sin\\theta}{\\theta} \\le \\frac{1}{\\theta}$",
+        "هر دو طرف به صفر می‌روند؛ طبق قضیهٔ ساندویچ کسر وسط هم صفر می‌شود."
+      ],
+      "answer": "$0$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "$\\lim_{x \\to 0} \\frac{\\sin 2x}{x}$",
+      "steps_fa": [
+        "می‌گذاریم $\\alpha = 2x$، پس $x = \\frac{\\alpha}{2}$ و $\\alpha \\to 0$",
+        "$\\frac{\\sin\\alpha}{\\frac{\\alpha}{2}} = 2\\frac{\\sin\\alpha}{\\alpha}$",
+        "$2 \\cdot 1 = 2$"
+      ],
+      "answer": "$2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

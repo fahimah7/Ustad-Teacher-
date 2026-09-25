@@ -1,0 +1,39 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 275,
+  "printed_page": 268,
+  "page_kind": "review",
+  "chapter": 5,
+  "section_fa": "خلاصهٔ فصل",
+  "summary_fa": "این صفحه آغاز خلاصهٔ فصل پنجم (تطبیقات مثلثات) است و فورمول‌های مهم فصل را یکجا فهرست می‌کند. اول فورمول‌های sin، cos و tan مجموع و تفاضل دو زاویه. بعد فورمول‌های دو چند زاویه ($2\\alpha$) از روی نسبت‌های $\\alpha$، که برای cos سه شکل دارد. سپس نسبت‌های یک زاویه از روی cos دو چند آن (با علامهٔ ±)، و فورمول‌های نصف زاویه. بعد فورمول‌های سه چند زاویه ($3\\alpha$) آمده است. در آخر صفحه عنوان نسبت‌های مثلثاتی مجموع سه زاویه ($\\alpha + \\beta + \\theta$) آمده که فورمول‌های آن در صفحهٔ بعد است. این صفحه برای مرور است و تمرین ندارد؛ معلم می‌تواند از شاگرد بپرسد هر فورمول از کدام فورمول دیگر به دست می‌آید (مثلاً فورمول‌های $2\\alpha$ از فورمول مجموع با $\\beta = \\alpha$).",
+  "key_points_fa": [
+    "فورمول‌های مجموع و تفاضل پایهٔ همهٔ فورمول‌های دیگر این فصل‌اند.",
+    "با $\\beta = \\alpha$ در فورمول مجموع، فورمول‌های $2\\alpha$ به دست می‌آیند.",
+    "$\\cos 2\\alpha$ سه شکل دارد: $\\cos^2\\alpha - \\sin^2\\alpha = 2\\cos^2\\alpha - 1 = 1 - 2\\sin^2\\alpha$.",
+    "در فورمول‌های نصف زاویه علامهٔ ± به ربع زاویه بستگی دارد.",
+    "فورمول‌های $3\\alpha$ از $\\sin(2\\alpha + \\alpha)$ و $\\cos(2\\alpha + \\alpha)$ به دست می‌آیند."
+  ],
+  "formulas": [
+    {"latex": "\\sin(\\alpha \\pm \\beta) = \\sin\\alpha\\cos\\beta \\pm \\cos\\alpha\\sin\\beta", "meaning_fa": "sin مجموع و تفاضل دو زاویه"},
+    {"latex": "\\cos(\\alpha \\pm \\beta) = \\cos\\alpha\\cos\\beta \\mp \\sin\\alpha\\sin\\beta", "meaning_fa": "cos مجموع و تفاضل دو زاویه"},
+    {"latex": "\\tan(\\alpha \\pm \\beta) = \\frac{\\tan\\alpha \\pm \\tan\\beta}{1 \\mp \\tan\\alpha\\tan\\beta}", "meaning_fa": "tan مجموع و تفاضل دو زاویه"},
+    {"latex": "\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha,\\ \\cos 2\\alpha = \\cos^2\\alpha - \\sin^2\\alpha = 2\\cos^2\\alpha - 1 = 1 - 2\\sin^2\\alpha,\\ \\tan 2\\alpha = \\frac{2\\tan\\alpha}{1 - \\tan^2\\alpha}", "meaning_fa": "نسبت‌های دو چند زاویه"},
+    {"latex": "\\sin\\alpha = \\pm\\sqrt{\\frac{1 - \\cos 2\\alpha}{2}},\\ \\cos\\alpha = \\pm\\sqrt{\\frac{1 + \\cos 2\\alpha}{2}},\\ \\tan\\alpha = \\pm\\sqrt{\\frac{1 - \\cos 2\\alpha}{1 + \\cos 2\\alpha}}", "meaning_fa": "نسبت‌های یک زاویه از روی cos دو چند آن"},
+    {"latex": "\\sin\\frac{\\alpha}{2} = \\pm\\sqrt{\\frac{1 - \\cos\\alpha}{2}},\\ \\cos\\frac{\\alpha}{2} = \\pm\\sqrt{\\frac{1 + \\cos\\alpha}{2}},\\ \\tan\\frac{\\alpha}{2} = \\pm\\sqrt{\\frac{1 - \\cos\\alpha}{1 + \\cos\\alpha}}", "meaning_fa": "نسبت‌های نصف زاویه"},
+    {"latex": "\\sin 3\\alpha = 3\\sin\\alpha - 4\\sin^3\\alpha,\\ \\cos 3\\alpha = 4\\cos^3\\alpha - 3\\cos\\alpha,\\ \\tan 3\\alpha = \\frac{3\\tan\\alpha - \\tan^3\\alpha}{1 - 3\\tan^2\\alpha}", "meaning_fa": "نسبت‌های سه چند زاویه"}
+  ],
+  "terms": [
+    {"fa": "خلاصهٔ فصل", "en": "chapter summary"},
+    {"fa": "دو چند زاویه", "en": "double angle"},
+    {"fa": "نصف زاویه", "en": "half angle"},
+    {"fa": "سه چند زاویه", "en": "triple angle"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب برای $\\tan\\frac{\\alpha}{2}$ علامهٔ ± چاپ نشده است؛ در این یادداشت ± گذاشته شد چون علامه به ربع زاویه بستگی دارد."
+}

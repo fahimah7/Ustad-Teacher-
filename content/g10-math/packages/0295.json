@@ -1,0 +1,63 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 295,
+  "printed_page": 288,
+  "page_kind": "exercises",
+  "chapter": 6,
+  "section_fa": "جمع و تفریق اعداد مختلط",
+  "summary_fa": "ادامهٔ تمرین درس جمع و تفریق اعداد مختلط. این صفحه باقی قسمت‌های سؤال ۵ را دارد: جمع و تفریق اعداد مختلطی که ضریب‌های کسری دارند یا جذر عدد منفی در آن‌ها است. برای ضریب‌های کسری باید مخرج مشترک گرفت، و برای $\\sqrt{-k}$ اول آن را به شکل $i\\sqrt{k}$ نوشت و جذر را ساده کرد. سؤال ۶ معکوس جمعی هشت عدد مختلط را می‌خواهد که با تغییر علامت هر دو قسمت به دست می‌آید.",
+  "key_points_fa": [
+    "برای ضریب‌های کسری مخرج مشترک بگیرید، مثلاً $\\frac{3}{4}-\\frac{2}{3}=\\frac{1}{12}$.",
+    "$\\sqrt{-72}=6\\sqrt{2}\\,i$ و $\\sqrt{-50}=5\\sqrt{2}\\,i$.",
+    "$\\sqrt{12}=2\\sqrt{3}$ و $\\sqrt{8}=2\\sqrt{2}$ اعداد حقیقی اند.",
+    "معکوس جمعی: $-(a+bi)=-a-bi$."
+  ],
+  "formulas": [
+    {"latex": "\\sqrt{-k}=i\\sqrt{k}\\quad (k>0)", "meaning_fa": "نوشتن جذر عدد منفی با i"},
+    {"latex": "-(a+bi)=-a-bi", "meaning_fa": "معکوس جمعی"}
+  ],
+  "terms": [
+    {"fa": "معکوس جمعی", "en": "additive inverse"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۵ (ادامه، کسرها)",
+      "kind": "exercise",
+      "problem_fa": "به شکل $a+bi$ بنویسید: $(8+\\frac{3}{4}i)-(-7+\\frac{2}{3}i)$، $(-6-\\frac{5}{8}i)+(4+\\frac{1}{2}i)$، $(-2+5i)+(3-i)$",
+      "solution_steps_fa": ["$(8+7)+(\\frac{3}{4}-\\frac{2}{3})i=15+\\frac{9-8}{12}i=15+\\frac{1}{12}i$", "$(-6+4)+(-\\frac{5}{8}+\\frac{4}{8})i=-2-\\frac{1}{8}i$", "$(-2+3)+(5-1)i=1+4i$"],
+      "answer": "$15+\\frac{1}{12}i$، $-2-\\frac{1}{8}i$، $1+4i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵ (ادامه، کسرها ۲)",
+      "kind": "exercise",
+      "problem_fa": "به شکل $a+bi$ بنویسید: $(3+\\frac{3}{5}i)-(-11+\\frac{7}{15}i)$، $(-4-\\frac{5}{6}i)+(13+\\frac{3}{8}i)$",
+      "solution_steps_fa": ["$(3+11)+(\\frac{9}{15}-\\frac{7}{15})i=14+\\frac{2}{15}i$", "$(-4+13)+(-\\frac{20}{24}+\\frac{9}{24})i=9-\\frac{11}{24}i$"],
+      "answer": "$14+\\frac{2}{15}i$، $9-\\frac{11}{24}i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵ (ادامه، جذرها)",
+      "kind": "exercise",
+      "problem_fa": "به شکل $a+bi$ بنویسید: $(-7-\\sqrt{-72})+(8+\\sqrt{-50})$ و $(\\sqrt{3}+\\sqrt{-2})-(\\sqrt{12}+\\sqrt{8})$",
+      "solution_steps_fa": ["$\\sqrt{-72}=6\\sqrt{2}i$ و $\\sqrt{-50}=5\\sqrt{2}i$", "$(-7-6\\sqrt{2}i)+(8+5\\sqrt{2}i)=1-\\sqrt{2}i$", "$\\sqrt{-2}=\\sqrt{2}i$، $\\sqrt{12}=2\\sqrt{3}$، $\\sqrt{8}=2\\sqrt{2}$", "$(\\sqrt{3}+\\sqrt{2}i)-(2\\sqrt{3}+2\\sqrt{2})=(-\\sqrt{3}-2\\sqrt{2})+\\sqrt{2}i$"],
+      "answer": "$1-\\sqrt{2}i$ و $(-\\sqrt{3}-2\\sqrt{2})+\\sqrt{2}i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "معکوس جمعی این اعداد را دریابید: $2-3i$، $8+11i$، $1-i$، $-1+i$، $5-8i$، $-13+13i$، $-5i$، $2i$",
+      "solution_steps_fa": ["علامت قسمت حقیقی و قسمت موهومی هر دو عوض می‌شود.", "$2-3i\\to -2+3i$، $8+11i\\to -8-11i$", "$1-i\\to -1+i$، $-1+i\\to 1-i$", "$5-8i\\to -5+8i$، $-13+13i\\to 13-13i$", "$-5i\\to 5i$، $2i\\to -2i$"],
+      "answer": "$-2+3i$، $-8-11i$، $-1+i$، $1-i$، $-5+8i$، $13-13i$، $5i$، $-2i$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در قسمت آخر سؤال ۵، $\\sqrt{12}$ و $\\sqrt{8}$ بدون علامت منفی چاپ شده‌اند و حقیقی اند؛ جواب مطابق همین چاپ نوشته شده است."
+}

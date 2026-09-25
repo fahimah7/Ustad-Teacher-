@@ -1,0 +1,175 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 159,
+  "printed_page": 150,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "تمرین فصل چهارم",
+  "summary_fa": "این صفحه بخش دوم تمرین فصل چهارم است: دوازده سؤال تشریحی که باید کامل حل شوند. سؤال‌ها از همهٔ درس‌های فصل اند: شمردن اعداد دورقمی مضرب ۴ با فورمول حد n-ام، جا دادن چند عدد میان دو عدد (ترادف حسابی و هندسی)، پیدا کردن تعداد حدود از روی مجموع، مجموع ۱۰۰ حد یک ترادف حسابی، پیدا کردن نسبت مشترک از دو حد یا از رابطهٔ میان دو مجموع، مجموع سلسله‌های هندسی لایتناهی، مجموع ۸ حد یک ترادف هندسی، ترادف هارمونیکی (معکوس ترادف حسابی) و تبدیل کسرهای اعشاری متوالی به کسر عام.",
+  "key_points_fa": [
+    "ترادف حسابی: $a_n = a_1 + (n-1)d$ و $S_n = \\frac{n}{2}(a_1 + a_n)$",
+    "ترادف هندسی: $a_n = a_1q^{n-1}$ و $S_n = \\frac{a_1(q^n - 1)}{q - 1}$",
+    "سلسلهٔ هندسی لایتناهی ($|q| < 1$): $S_\\infty = \\frac{a}{1-q}$",
+    "ترادف هارمونیکی: معکوس حدود یک ترادف حسابی.",
+    "برای جا دادن k عدد میان دو عدد، ترادف $k + 2$ حد دارد."
+  ],
+  "formulas": [
+    {"latex": "S_n = \\frac{n}{2}(a_1 + a_n)", "meaning_fa": "مجموع n حد ترادف حسابی"},
+    {"latex": "\\frac{S_8}{S_4} = \\frac{1 - q^8}{1 - q^4} = 1 + q^4", "meaning_fa": "رابطهٔ میان مجموع ۸ حد و ۴ حد ترادف هندسی (سؤال ۶)"},
+    {"latex": "S_\\infty = \\frac{a}{1-q},\\quad |q| < 1", "meaning_fa": "مجموع سلسلهٔ هندسی لایتناهی"},
+    {"latex": "h_n = \\frac{1}{a + (n-1)d}", "meaning_fa": "حد n-ام ترادف هارمونیکی"}
+  ],
+  "terms": [
+    {"fa": "ترادف هارمونیکی", "en": "harmonic sequence"},
+    {"fa": "مضرب", "en": "multiple"},
+    {"fa": "کسر اعشاری متوالی", "en": "repeating decimal"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "سؤال ۱",
+      "kind": "exercise",
+      "problem_fa": "چند عدد طبیعی دورقمی مضرب ۴ اند؟",
+      "solution_steps_fa": [
+        "این اعداد ترادف حسابی $12, 16, 20, \\dots, 96$ با $d = 4$ اند.",
+        "$96 = 12 + (n-1)\\cdot4 \\Rightarrow n - 1 = 21 \\Rightarrow n = 22$"
+      ],
+      "answer": "۲۲ عدد",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۲",
+      "kind": "exercise",
+      "problem_fa": "میان ۲۱ و ۳۱ سه عدد جا دهید (ترادف حسابی).",
+      "solution_steps_fa": [
+        "ترادف ۵ حد دارد: $31 = 21 + 4d \\Rightarrow d = 2.5$",
+        "$23.5, 26, 28.5$"
+      ],
+      "answer": "$21, 23.5, 26, 28.5, 31$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۳",
+      "kind": "exercise",
+      "problem_fa": "در یک ترادف حسابی مجموع حد اول و حد آخر ۱۲۴ و مجموع n حد ۳۷۲۰ است. تعداد حدود چند است؟",
+      "solution_steps_fa": [
+        "$S_n = \\frac{n}{2}(a_1 + a_n) \\Rightarrow 3720 = \\frac{n}{2} \\cdot 124 = 62n$",
+        "$n = \\frac{3720}{62} = 60$"
+      ],
+      "answer": "۶۰ حد",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۴",
+      "kind": "exercise",
+      "problem_fa": "مجموع ۱۰۰ حد ترادف $3, 5, 7, 9, 11, \\dots$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$a_1 = 3$، $d = 2$",
+        "$S_{100} = \\frac{100}{2}[2\\cdot3 + 99\\cdot2] = 50 \\cdot 204 = 10200$"
+      ],
+      "answer": "$10200$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۵",
+      "kind": "exercise",
+      "problem_fa": "حد دوم یک ترادف هندسی ۶ و حد هفتم آن ۱۹۲ است. نسبت مشترک را تعیین کنید.",
+      "solution_steps_fa": [
+        "$\\frac{a_7}{a_2} = \\frac{a_1q^6}{a_1q} = q^5$",
+        "$q^5 = \\frac{192}{6} = 32 = 2^5 \\Rightarrow q = 2$"
+      ],
+      "answer": "$q = 2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۶",
+      "kind": "exercise",
+      "problem_fa": "مجموع ۸ حد اول یک ترادف هندسی ۱۷ برابر مجموع چهار حد اول آن است. نسبت مشترک را حساب کنید.",
+      "solution_steps_fa": [
+        "$\\frac{S_8}{S_4} = \\frac{a_1(1-q^8)/(1-q)}{a_1(1-q^4)/(1-q)} = \\frac{1-q^8}{1-q^4}$",
+        "چون $1 - q^8 = (1-q^4)(1+q^4)$، داریم $\\frac{S_8}{S_4} = 1 + q^4$",
+        "$1 + q^4 = 17 \\Rightarrow q^4 = 16 \\Rightarrow q = \\pm 2$"
+      ],
+      "answer": "$q = 2$ یا $q = -2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۷",
+      "kind": "exercise",
+      "problem_fa": "مجموع سلسلهٔ $0.1 + 0.01 + 0.001 + 0.0001 + \\dots$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$a = 0.1$، $q = 0.1$ و $|q| < 1$",
+        "$S_\\infty = \\frac{0.1}{1 - 0.1} = \\frac{0.1}{0.9} = \\frac{1}{9}$"
+      ],
+      "answer": "$\\frac{1}{9} = 0.\\overline{1}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۸",
+      "kind": "exercise",
+      "problem_fa": "حد اول یک ترادف هندسی نامحدود ۹ و حد چهارم آن $\\frac{1}{9}$ است. مجموع حدود این ترادف را دریافت کنید.",
+      "solution_steps_fa": [
+        "$a_4 = a_1q^3 \\Rightarrow \\frac{1}{9} = 9q^3 \\Rightarrow q^3 = \\frac{1}{81}$",
+        "$q = \\frac{1}{\\sqrt[3]{81}} = \\frac{1}{3\\sqrt[3]{3}} \\approx 0.231$ و $|q| < 1$",
+        "$S_\\infty = \\frac{9}{1 - q} \\approx \\frac{9}{0.769} \\approx 11.71$",
+        "اگر حد چهارم $\\frac{1}{3}$ می‌بود (ترادف $9, 3, 1, \\frac{1}{3}, \\dots$)، $q = \\frac{1}{3}$ و $S_\\infty = \\frac{9}{\\frac{2}{3}} = \\frac{27}{2}$ می‌شد."
+      ],
+      "answer": "$S_\\infty = \\frac{9}{1 - \\frac{1}{\\sqrt[3]{81}}} \\approx 11.71$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۹",
+      "kind": "exercise",
+      "problem_fa": "میان ۳ و ۹۶ چهار عدد جا دهید.",
+      "solution_steps_fa": [
+        "چون $\\frac{96}{3} = 32 = 2^5$، ترادف هندسی ۶حدی می‌سازیم: $96 = 3q^5 \\Rightarrow q = 2$",
+        "اعداد: $6, 12, 24, 48$",
+        "(اگر ترادف حسابی خواسته شود: $d = \\frac{96-3}{5} = 18.6$ و اعداد $21.6, 40.2, 58.8, 77.4$)"
+      ],
+      "answer": "$3, 6, 12, 24, 48, 96$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۱۰",
+      "kind": "exercise",
+      "problem_fa": "مجموع ۸ حد اول سلسلهٔ هندسی $2 + \\frac{2}{3} + \\frac{2}{9} + \\dots$ را دریافت کنید.",
+      "solution_steps_fa": [
+        "$a_1 = 2$، $q = \\frac{1}{3}$",
+        "$S_8 = \\frac{2(1 - (\\frac{1}{3})^8)}{1 - \\frac{1}{3}} = 3\\left(1 - \\frac{1}{6561}\\right)$",
+        "$= \\frac{3 \\cdot 6560}{6561} = \\frac{6560}{2187} \\approx 2.9995$"
+      ],
+      "answer": "$\\frac{6560}{2187} \\approx 2.9995$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۱۱",
+      "kind": "exercise",
+      "problem_fa": "اگر $a = 4$ و $d = 3$ باشد، ترادف هارمونیکی آن را برای $n = 12$ به دست آورید.",
+      "solution_steps_fa": [
+        "ترادف حسابی: $a_n = 4 + (n-1)\\cdot3 = 3n + 1$، یعنی $4, 7, 10, \\dots$",
+        "ترادف هارمونیکی معکوس آن است: $h_n = \\frac{1}{3n+1}$",
+        "$h_{12} = \\frac{1}{37}$؛ دوازده حد: $\\frac{1}{4}, \\frac{1}{7}, \\frac{1}{10}, \\frac{1}{13}, \\frac{1}{16}, \\frac{1}{19}, \\frac{1}{22}, \\frac{1}{25}, \\frac{1}{28}, \\frac{1}{31}, \\frac{1}{34}, \\frac{1}{37}$"
+      ],
+      "answer": "$h_n = \\frac{1}{3n+1}$ و $h_{12} = \\frac{1}{37}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال ۱۲",
+      "kind": "exercise",
+      "problem_fa": "با سلسلهٔ متقارب به کسر عام تبدیل کنید: a) $2.\\overline{8}$ b) $3.\\overline{57}$",
+      "solution_steps_fa": [
+        "a) $2.\\overline{8} = 2 + \\frac{8}{10} + \\frac{8}{100} + \\dots = 2 + \\frac{\\frac{8}{10}}{1 - \\frac{1}{10}} = 2 + \\frac{8}{9} = \\frac{26}{9}$",
+        "b) $3.\\overline{57} = 3 + \\frac{57}{100} + \\frac{57}{10000} + \\dots = 3 + \\frac{\\frac{57}{100}}{1 - \\frac{1}{100}} = 3 + \\frac{57}{99}$",
+        "$= 3 + \\frac{19}{33} = \\frac{118}{33}$"
+      ],
+      "answer": "a) $\\frac{26}{9}$ b) $\\frac{118}{33}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "سؤال ۸ با قیمت‌های چاپی ($a_1 = 9$، $a_4 = \\frac{1}{9}$) نسبت غیر گویا ($q^3 = \\frac{1}{81}$) می‌دهد؛ احتمالاً منظور کتاب حد چهارم $\\frac{1}{3}$ (جواب $\\frac{27}{2}$) بوده است؛ هر دو آمده. در سؤال ۹ نوع ترادف گفته نشده؛ چون ۹۶÷۳ = ۳۲ = $2^5$ است، ترادف هندسی گرفته شد و جواب حسابی هم داده شد. ترادف هارمونیکی در درس ترادف حسابی (صفحه ۱۲۸ چاپی) با اوسط هارمونیکی معرفی شده است."
+}

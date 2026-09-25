@@ -1,0 +1,69 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 184,
+  "printed_page": 177,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "مشتق توابع اکسپوننشیل و لوگاریتمی",
+  "summary_fa": "این صفحه ثبوت حکم دوم قضیه را با قاعدهٔ زنجیری تمام می‌کند: مشتق $\\log_a g(x)$ برابر است با مشتق لوگاریتم در نقطهٔ $g(x)$ ضرب $g'(x)$. با گذاشتن $a = e$ قاعدهٔ مهم $(\\ln g(x))' = \\frac{g'(x)}{g(x)}$ به دست می‌آید. بعد چهار نتیجه جمع‌بندی می‌شود: مشتق $e^x$ خودش است (با گرفتن ln از دو طرف ثابت می‌شود)، مشتق $e^u$ و $a^u$ وقتی u تابعی از x باشد، و مشتق $\\log_a u$ به شکل $\\frac{u'}{u\\ln a}$. در آخر، مثال ۱ مشتق $\\ln(x^2+1)$ را با همین قاعده پیدا می‌کند.",
+  "key_points_fa": [
+    "$(\\ln g(x))' = \\frac{g'(x)}{g(x)}$: مشتق داخل تقسیم بر خود داخل.",
+    "$(e^x)' = e^x$؛ تابع $e^x$ مشتق خودش است.",
+    "$(e^u)' = u'e^u$ و $(a^u)' = u'a^u\\ln a$",
+    "$(\\log_a u)' = \\frac{u'}{u}\\log_a e = \\frac{u'}{u\\ln a}$، چون $\\log_a e = \\frac{1}{\\ln a}$"
+  ],
+  "formulas": [
+    {"latex": "(\\log_a g(x))' = \\frac{g'(x)}{g(x)}\\log_a e", "meaning_fa": "مشتق لوگاریتم یک تابع با قاعدهٔ a"},
+    {"latex": "(\\ln g(x))' = \\frac{g'(x)}{g(x)}", "meaning_fa": "حالت خاص $a = e$"},
+    {"latex": "y = e^x \\Rightarrow y' = e^x", "meaning_fa": "مشتق تابع اکسپوننشیل طبیعی"},
+    {"latex": "y = e^u \\Rightarrow y' = u'e^u", "meaning_fa": "مشتق $e^u$ وقتی u تابع x است"},
+    {"latex": "y = a^u \\Rightarrow y' = u'a^u\\ln a \\quad (a>0,\\ a\\neq 1)", "meaning_fa": "مشتق $a^u$"},
+    {"latex": "y = \\log_a u \\Rightarrow y' = \\frac{u'}{u}\\log_a e = \\frac{u'}{u\\ln a}", "meaning_fa": "مشتق $\\log_a u$"}
+  ],
+  "terms": [
+    {"fa": "قاعدهٔ زنجیری", "en": "chain rule"},
+    {"fa": "نتیجه", "en": "corollary"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "ثبوت قضیهٔ ۲",
+      "problem_fa": "ثابت کنید $(\\log_a g(x))' = \\frac{g'(x)}{g(x)}\\log_a e$.",
+      "steps_fa": [
+        "با قاعدهٔ زنجیری: مشتق $\\log_a$ در نقطهٔ $g(x)$ را ضرب $g'(x)$ می‌کنیم.",
+        "مشتق $\\log_a t$ برابر $\\frac{1}{t}\\log_a e$ است؛ با $t = g(x)$: $\\frac{1}{g(x)}\\log_a e \\cdot g'(x)$",
+        "پس $(\\log_a g(x))' = \\frac{g'(x)}{g(x)}\\log_a e$",
+        "اگر $a = e$ باشد، $\\log_e e = 1$ و $(\\ln g(x))' = \\frac{g'(x)}{g(x)}$"
+      ],
+      "answer": "$(\\log_a g(x))' = \\frac{g'(x)}{g(x)}\\log_a e$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "نتیجهٔ ۱: مشتق $e^x$",
+      "problem_fa": "نشان دهید مشتق $y = e^x$ برابر $e^x$ است.",
+      "steps_fa": [
+        "$\\ln y = x\\ln e = x$",
+        "از دو طرف مشتق: $\\frac{y'}{y} = 1$",
+        "$y' = y = e^x$"
+      ],
+      "answer": "$(e^x)' = e^x$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "مشتق $f(x) = \\ln(x^2+1)$ را پیدا کنید.",
+      "steps_fa": [
+        "$g(x) = x^2 + 1$ و $g'(x) = 2x$",
+        "$f'(x) = \\frac{g'(x)}{g(x)} = \\frac{2x}{x^2+1}$"
+      ],
+      "answer": "$f'(x) = \\frac{2x}{x^2+1}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 74,
+  "printed_page": 65,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مطابقت‌های مثلثاتی",
+  "summary_fa": "این صفحه درس مطابقت‌های مثلثاتی را آغاز می‌کند. اول یادآوری می‌شود که $(a+b)^2 = a^2 + 2ab + b^2$ یک مطابقت الجبری است، چون برای هر قیمت a و b دو طرف آن برابر است؛ سپس پرسیده می‌شود که آیا $\\sin^2\\alpha + \\cos^2\\alpha = 1$ هم چنین است. در فعالیت، جدولی برای زاویه‌های $0^\\circ$، $30^\\circ$، $45^\\circ$، $60^\\circ$ و $90^\\circ$ داده شده تا قیمت دو افادهٔ $A = \\frac{\\cot\\alpha}{\\csc\\alpha - 1}$ و $B = \\frac{\\csc\\alpha + 1}{\\cot\\alpha}$ حساب و مقایسه شود. نتیجه این است که هر جا هر دو تعریف شده باشند، A و B برابرند. از این‌جا تعریف به دست می‌آید: مساواتی مثلثاتی که برای همهٔ قیمت‌های زاویه (که در آن تعریف شده) درست باشد، مطابقت مثلثاتی نام دارد.",
+  "key_points_fa": [
+    "مطابقت یعنی مساواتی که برای همهٔ قیمت‌های متحول درست است، نه فقط برای بعضی قیمت‌ها.",
+    "$\\sin^2\\alpha + \\cos^2\\alpha = 1$ یک مطابقت مثلثاتی است، چون نقطهٔ $M(x, y)$ روی دایرهٔ واحد همیشه $x^2 + y^2 = 1$ دارد.",
+    "$\\frac{\\cot\\alpha}{\\csc\\alpha - 1} = \\frac{\\csc\\alpha + 1}{\\cot\\alpha}$ یک مطابقت مثلثاتی است.",
+    "در زاویه‌هایی که یک طرف تعریف نشده باشد (مثلاً مخرج صفر شود)، مطابقت بررسی نمی‌شود."
+  ],
+  "formulas": [
+    {"latex": "(a + b)^2 = a^2 + 2ab + b^2", "meaning_fa": "مثال یک مطابقت الجبری"},
+    {"latex": "\\sin^2\\alpha + \\cos^2\\alpha = 1", "meaning_fa": "مطابقت اساسی مثلثاتی"},
+    {"latex": "\\frac{\\cot\\alpha}{\\csc\\alpha - 1} = \\frac{\\csc\\alpha + 1}{\\cot\\alpha}", "meaning_fa": "مطابقتی که از فعالیت جدول به دست می‌آید"}
+  ],
+  "terms": [
+    {"fa": "مطابقت مثلثاتی", "en": "trigonometric identity"},
+    {"fa": "مطابقت الجبری", "en": "algebraic identity"},
+    {"fa": "افادهٔ مثلثاتی", "en": "trigonometric expression"},
+    {"fa": "کوسیکانت", "en": "cosecant (csc)"},
+    {"fa": "کوتانجنت", "en": "cotangent (cot)"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.11, 0.10, 0.39, 0.29], "kind": "diagram", "description_fa": "دایرهٔ واحد با مرکز O و محورهای x و y که از ۱ و ۱- می‌گذرند. نقطهٔ $M(x, y)$ روی دایره و زاویهٔ $\\alpha$ بین محور x و شعاع OM نشان داده شده؛ خط‌چین‌ها x و y نقطه را روی محورها نشان می‌دهند. یادآوری می‌کند که $\\cos\\alpha = x$ و $\\sin\\alpha = y$ و چون شعاع ۱ است $x^2 + y^2 = 1$."},
+    {"id": "fig2", "bbox": [0.29, 0.41, 0.71, 0.67], "kind": "table", "description_fa": "جدول خالی فعالیت با سه ستون: $\\alpha$، $A = \\frac{\\cot\\alpha}{\\csc\\alpha - 1}$ و $B = \\frac{\\csc\\alpha + 1}{\\cot\\alpha}$؛ سطرها برای $0^\\circ$، $30^\\circ$، $45^\\circ$، $60^\\circ$ و $90^\\circ$. شاگرد باید قیمت‌ها را بنویسد و ببیند که ستون A و B یکی است."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "سوال آغاز درس",
+      "kind": "question",
+      "problem_fa": "آیا $\\sin^2\\alpha + \\cos^2\\alpha = 1$ یک مطابقت مثلثاتی شده می‌تواند؟",
+      "solution_steps_fa": [
+        "برای هر زاویهٔ $\\alpha$، نقطهٔ $M(\\cos\\alpha, \\sin\\alpha)$ روی دایرهٔ واحد است.",
+        "معادلهٔ دایرهٔ واحد $x^2 + y^2 = 1$ است، پس $\\cos^2\\alpha + \\sin^2\\alpha = 1$ برای همهٔ زاویه‌ها درست است."
+      ],
+      "answer": "بلی، برای همهٔ قیمت‌های $\\alpha$ درست است، پس مطابقت مثلثاتی است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "جدول قیمت‌های $A = \\frac{\\cot\\alpha}{\\csc\\alpha - 1}$ و $B = \\frac{\\csc\\alpha + 1}{\\cot\\alpha}$ را برای $0^\\circ, 30^\\circ, 45^\\circ, 60^\\circ, 90^\\circ$ تکمیل کنید، A و B را مقایسه کنید و رابطهٔ آن‌ها را بنویسید.",
+      "solution_steps_fa": [
+        "$0^\\circ$: $\\cot 0^\\circ$ و $\\csc 0^\\circ$ تعریف نشده‌اند، پس A و B هر دو تعریف نشده‌اند.",
+        "$30^\\circ$: $\\cot = \\sqrt{3}$، $\\csc = 2$؛ $A = \\frac{\\sqrt{3}}{1} = \\sqrt{3}$ و $B = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$.",
+        "$45^\\circ$: $\\cot = 1$، $\\csc = \\sqrt{2}$؛ $A = \\frac{1}{\\sqrt{2} - 1} = \\sqrt{2} + 1$ و $B = \\sqrt{2} + 1$.",
+        "$60^\\circ$: $\\cot = \\frac{1}{\\sqrt{3}}$، $\\csc = \\frac{2}{\\sqrt{3}}$؛ $A = \\frac{1}{2 - \\sqrt{3}} = 2 + \\sqrt{3}$ و $B = \\frac{2 + \\sqrt{3}}{1} = 2 + \\sqrt{3}$.",
+        "$90^\\circ$: $\\cot = 0$، $\\csc = 1$؛ $A = \\frac{0}{0}$ و $B = \\frac{2}{0}$، هر دو تعریف نشده‌اند.",
+        "دلیل برابری: ضرب چلیپایی $\\cot^2\\alpha = (\\csc\\alpha - 1)(\\csc\\alpha + 1) = \\csc^2\\alpha - 1$ می‌دهد که همیشه درست است."
+      ],
+      "answer": "در هر زاویه‌یی که تعریف شده باشند $A = B$؛ یعنی $\\frac{\\cot\\alpha}{\\csc\\alpha - 1} = \\frac{\\csc\\alpha + 1}{\\cot\\alpha}$ (در $0^\\circ$ و $90^\\circ$ تعریف نشده).",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

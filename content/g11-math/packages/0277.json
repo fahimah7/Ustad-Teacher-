@@ -1,0 +1,85 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 277,
+  "printed_page": 268,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "حاصل ضرب وکتوری دو وکتور",
+  "summary_fa": "صفحه با مرحلهٔ چهارم امتحان استقلال خطی آغاز می‌شود: سیستم معادلات را برای سکالرها حل می‌کنیم؛ اگر تنها جواب صفر بودن همهٔ آن‌ها باشد، وکتورها خطاً مستقل و در غیر آن خطاً مربوط هستند. در یک مثال، سه وکتور فضایی با همین چهار مرحله امتحان می‌شوند: ترکیب خطی مساوی صفر قرار داده می‌شود، جمع اجرا می‌شود، یک سیستم سه معادله‌یی ساخته و با تعویض حل می‌شود؛ همهٔ ضریب‌ها صفر می‌آیند، پس وکتورها مستقل هستند. بعد یک فعالیت دربارهٔ حاصل ضرب وکتوری وکتورهای واحد آغاز می‌شود. شکل یک دایره با $\\vec{i}$، $\\vec{j}$، $\\vec{k}$ و تیرهای دوری نشان می‌دهد که در ترتیب دوری $\\vec{i} \\to \\vec{j} \\to \\vec{k} \\to \\vec{i}$ حاصل ضرب دو وکتور پی‌درپی، وکتور سوم است.",
+  "key_points_fa": [
+    "مرحلهٔ چهارم: سیستم را حل کنید؛ همه صفر ← خطاً مستقل، در غیر آن ← خطاً مربوط.",
+    "$(1,2,0)$، $(0,3,1)$ و $(2,3,1)$ خطاً مستقل هستند.",
+    "حاصل ضرب وکتوری یک وکتور در خودش صفر است، چون $\\sin 0^\\circ = 0$.",
+    "$\\vec{i}\\times\\vec{j} = \\vec{k}$، $\\vec{j}\\times\\vec{k} = \\vec{i}$، $\\vec{k}\\times\\vec{i} = \\vec{j}$ (ترتیب دوری).",
+    "تبدیل ترتیب، علامت را عوض می‌کند: $\\vec{v}\\times\\vec{u} = -\\vec{u}\\times\\vec{v}$."
+  ],
+  "formulas": [
+    {"latex": "\\vec{i}\\times\\vec{i} = \\vec{j}\\times\\vec{j} = \\vec{k}\\times\\vec{k} = \\vec{0}", "meaning_fa": "حاصل ضرب وکتوری هر وکتور واحد در خودش"},
+    {"latex": "\\vec{i}\\times\\vec{j} = \\vec{k},\\quad \\vec{j}\\times\\vec{k} = \\vec{i},\\quad \\vec{k}\\times\\vec{i} = \\vec{j}", "meaning_fa": "حاصل ضرب وکتوری وکتورهای واحد در ترتیب دوری"}
+  ],
+  "terms": [
+    {"fa": "خطاً مستقل", "en": "linearly independent"},
+    {"fa": "انحصار خطی", "en": "linear dependence"},
+    {"fa": "ترتیب دوری", "en": "cyclic order"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.76, 0.26, 0.89], "kind": "diagram", "description_fa": "یک دایره که روی آن $\\vec{i}$ در چپ، $\\vec{j}$ در پایین و $\\vec{k}$ در راست نوشته شده و تیرهای کمانی از $\\vec{i}$ به $\\vec{j}$، از $\\vec{j}$ به $\\vec{k}$ و از $\\vec{k}$ به $\\vec{i}$ می‌روند. قاعدهٔ دوری را نشان می‌دهد: ضرب دو وکتور پی‌درپی در جهت تیرها، وکتور سوم (با علامت مثبت) است و در جهت مخالف با علامت منفی."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "نشان دهید که آیا $\\vec{a}_1 = (1,2,0)$، $\\vec{a}_2 = (0,3,1)$ و $\\vec{a}_3 = (2,3,1)$ خطاً مستقل هستند یا خیر.",
+      "steps_fa": [
+        "مرحلهٔ اول: $\\alpha_1(1,2,0) + \\alpha_2(0,3,1) + \\alpha_3(2,3,1) = (0,0,0)$",
+        "مرحلهٔ دوم: $(\\alpha_1 + 2\\alpha_3,\\ 2\\alpha_1 + 3\\alpha_2 + 3\\alpha_3,\\ \\alpha_2 + \\alpha_3) = (0,0,0)$",
+        "مرحلهٔ سوم: $\\alpha_1 + 2\\alpha_3 = 0$، $2\\alpha_1 + 3\\alpha_2 + 3\\alpha_3 = 0$، $\\alpha_2 + \\alpha_3 = 0$",
+        "مرحلهٔ چهارم: از معادلهٔ سوم $\\alpha_2 = -\\alpha_3$؛ در معادلهٔ دوم: $2\\alpha_1 - 3\\alpha_3 + 3\\alpha_3 = 0 \\Rightarrow \\alpha_1 = 0$",
+        "از معادلهٔ اول $\\alpha_3 = 0$ و بعد $\\alpha_2 = 0$."
+      ],
+      "answer": "$\\alpha_1 = \\alpha_2 = \\alpha_3 = 0$، پس وکتورها خطاً مستقل هستند.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت ۱",
+      "kind": "activity",
+      "problem_fa": "با قاعدهٔ دست راست، جهت $\\vec{u}\\times\\vec{v}$ و $\\vec{v}\\times\\vec{u}$ را در شکل دایره نشان دهید.",
+      "solution_steps_fa": [
+        "برای $\\vec{u}\\times\\vec{v}$ انگشت‌های دست راست از $\\vec{u}$ به طرف $\\vec{v}$ خم می‌شوند و شست جهت را نشان می‌دهد.",
+        "برای $\\vec{v}\\times\\vec{u}$ خم شدن انگشت‌ها برعکس است و شست به جهت مخالف قرار می‌گیرد.",
+        "در دایره: حرکت در جهت تیرها ($\\vec{i} \\to \\vec{j} \\to \\vec{k}$) نتیجهٔ مثبت و حرکت خلاف تیرها نتیجهٔ منفی می‌دهد."
+      ],
+      "answer": "$\\vec{u}\\times\\vec{v}$ و $\\vec{v}\\times\\vec{u}$ هم‌طول ولی مخالف‌جهت هستند.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۲",
+      "kind": "activity",
+      "problem_fa": "نشان دهید که $\\vec{i}\\times\\vec{i} = 0$ و $\\vec{i}\\times\\vec{j} = \\vec{k}$ است.",
+      "solution_steps_fa": [
+        "$|\\vec{i}\\times\\vec{i}| = 1 \\cdot 1 \\cdot \\sin 0^\\circ = 0$، پس $\\vec{i}\\times\\vec{i} = \\vec{0}$.",
+        "$|\\vec{i}\\times\\vec{j}| = 1 \\cdot 1 \\cdot \\sin 90^\\circ = 1$، و جهت آن عمود بر مستوی xy است.",
+        "با قاعدهٔ دست راست (از x به طرف y) شست به جهت مثبت محور z است؛ پس $\\vec{i}\\times\\vec{j} = \\vec{k}$."
+      ],
+      "answer": "$\\vec{i}\\times\\vec{i} = \\vec{0}$ و $\\vec{i}\\times\\vec{j} = \\vec{k}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت ۳",
+      "kind": "activity",
+      "problem_fa": "با استفاده از بند بالا، دربارهٔ $\\vec{j}\\times\\vec{j}$، $\\vec{k}\\times\\vec{k}$، $\\vec{j}\\times\\vec{k}$ و $\\vec{k}\\times\\vec{i}$ چه گفته می‌توانید؟",
+      "solution_steps_fa": [
+        "زاویهٔ هر وکتور با خودش صفر است: $\\vec{j}\\times\\vec{j} = \\vec{k}\\times\\vec{k} = \\vec{0}$.",
+        "طبق ترتیب دوری دایره: $\\vec{j}\\times\\vec{k} = \\vec{i}$ و $\\vec{k}\\times\\vec{i} = \\vec{j}$."
+      ],
+      "answer": "$\\vec{j}\\times\\vec{j} = \\vec{k}\\times\\vec{k} = \\vec{0}$، $\\vec{j}\\times\\vec{k} = \\vec{i}$، $\\vec{k}\\times\\vec{i} = \\vec{j}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "بقیهٔ سوال‌های فعالیت در صفحه بعد آمده است."
+}

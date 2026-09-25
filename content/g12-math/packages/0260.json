@@ -1,0 +1,42 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 260,
+  "printed_page": 253,
+  "page_kind": "exercises",
+  "chapter": 7,
+  "section_fa": "قضیهٔ لیمت مرکزی",
+  "summary_fa": "این صفحه یک تمرین دربارهٔ قضیهٔ لیمت مرکزی دارد. وزن جعبه‌هایی که یک ماشین بسته‌بندی می‌کند نورمال است با اوسط ۲۵۰ گرام و انحراف معیاری ۲۰ گرام. باید احتمال این‌که اوسط وزن یک نمونهٔ تصادفی ۱۶تایی کمتر از ۲۴۰ گرام باشد حساب شود. روش مانند مثال صفحهٔ قبل است: اول انحراف معیاری اوسط نمونه ($\\frac{\\delta}{\\sqrt{n}}$) را پیدا می‌کنیم، بعد ۲۴۰ را به z تبدیل می‌کنیم و احتمال را از جدول نورمال معیاری می‌خوانیم. چون z منفی است، از تناظر منحنی استفاده می‌شود.",
+  "key_points_fa": [
+    "برای اوسط نمونه، انحراف معیاری $\\frac{\\delta}{\\sqrt{n}}$ است، نه $\\delta$.",
+    "برای z منفی: $P(z < -a) = P(z > a) = 1 - P(z \\le a)$."
+  ],
+  "formulas": [
+    {"latex": "z = \\frac{\\bar{x} - \\mu}{\\frac{\\delta}{\\sqrt{n}}}", "meaning_fa": "قیمت معیاری اوسط نمونه"},
+    {"latex": "P(z < -a) = 1 - P(z \\le a)", "meaning_fa": "احتمال دم چپ از روی تناظر"}
+  ],
+  "terms": [
+    {"fa": "قضیهٔ لیمت مرکزی", "en": "central limit theorem"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین",
+      "kind": "exercise",
+      "problem_fa": "وزن جعبه‌ها نورمال است با $\\mu = 250\\,gr$ و $\\delta = 20\\,gr$. برای نمونهٔ تصادفی $n = 16$، $P(\\bar{x} < 240)$ را پیدا کنید.",
+      "solution_steps_fa": [
+        "انحراف معیاری اوسط نمونه: $\\frac{\\delta}{\\sqrt{n}} = \\frac{20}{\\sqrt{16}} = \\frac{20}{4} = 5$",
+        "$z = \\frac{240 - 250}{5} = -2$",
+        "$P(\\bar{x} < 240) = P(z < -2) = P(z > 2) = 1 - P(z \\le 2)$",
+        "از جدول (۱): $P(z \\le 2) = 0.9772$، پس $1 - 0.9772 = 0.0228$"
+      ],
+      "answer": "$P(\\bar{x} < 240) = 0.0228$ (حدود ۲.۳٪)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

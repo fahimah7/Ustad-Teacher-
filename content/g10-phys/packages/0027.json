@@ -1,0 +1,69 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-phys",
+  "pdf_page": 27,
+  "printed_page": 18,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم واحدات SI",
+  "summary_fa": "این صفحه می‌گوید که در بعضی کشورها، به خصوص کشورهای انگلیسی‌زبان، به جای واحدات SI واحدات دیگری مثل فت و انچ (به جای متر)، سلگ (به جای کیلوگرام) و پوند (به جای تن یا نیوتن) به کار می‌روند. بعد یک فهرست رابطه‌های تبدیل می‌دهد برای طول، مساحت، حجم، کتله، وزن، وقت، کثافت، سرعت، تعجیل، قوه و فشار. مثلاً یک متر برابر 3.28 فت یا 39.4 انچ است، یک سلگ 14.59 کیلوگرام، یک پوند 4.45 نیوتن، یک سال حدود $3.156\\times10^{7}$ ثانیه، و $1\\,\\mathrm{m/s}$ برابر $3.60\\,\\mathrm{km/h}$. در پایین صفحه قسمت «سؤالات» شروع می‌شود که می‌پرسد برای هر مقدار کدام واحد مناسب است؛ دو قسمت اول در این صفحه و بقیه در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "واحدات غیر SI هنوز در بعضی کشورها به کار می‌روند؛ پیش از حل سؤال باید همه را به یک سیستم تبدیل کرد.",
+    "طول: $1\\,\\mathrm{m} = 3.28\\,\\mathrm{ft} = 39.4\\,\\mathrm{in} = 6.21\\times10^{-4}\\,\\mathrm{mile}$؛ $1\\,\\mathrm{yard} = 0.9144\\,\\mathrm{m}$.",
+    "کتله و وزن: $1\\,\\mathrm{slug} = 14.59\\,\\mathrm{kg}$؛ $1\\,\\mathrm{lb} = 4.45\\,\\mathrm{N}$ پس $1\\,\\mathrm{N} \\approx 0.225\\,\\mathrm{lb}$.",
+    "سرعت: $1\\,\\mathrm{m/s} = 3.60\\,\\mathrm{km/h} = 3.28\\,\\mathrm{ft/s} = 2.24\\,\\mathrm{mile/h}$.",
+    "فشار: $1\\,\\mathrm{atm} = 1.013\\times10^{5}\\,\\mathrm{N/m^2} = 1013\\,\\mathrm{millibar} = 76\\,\\mathrm{cm\\,Hg}$."
+  ],
+  "formulas": [
+    {"latex": "1\\,\\mathrm{m^2} = 10^{4}\\,\\mathrm{cm^2} = 1.55\\times10^{3}\\,\\mathrm{in^2}", "meaning_fa": "تبدیل مساحت"},
+    {"latex": "1\\,\\mathrm{m^3} = 10^{3}\\,\\mathrm{liter} = 6.1\\times10^{4}\\,\\mathrm{in^3} = 35.3\\,\\mathrm{ft^3}", "meaning_fa": "تبدیل حجم"},
+    {"latex": "1\\,\\mathrm{year} = 365.24\\,\\mathrm{days} = 8.76\\times10^{3}\\,\\mathrm{h} = 5.26\\times10^{5}\\,\\mathrm{min} = 3.156\\times10^{7}\\,\\mathrm{s}", "meaning_fa": "تبدیل وقت"},
+    {"latex": "1\\,\\mathrm{kg/m^3} = 10^{-3}\\,\\mathrm{g/cm^3} = 1.94\\times10^{-3}\\,\\mathrm{slug/ft^3}", "meaning_fa": "تبدیل کثافت"},
+    {"latex": "1\\,\\mathrm{m/s^2} = 3.281\\,\\mathrm{ft/s^2} = 3.60\\,\\mathrm{(km/h)/s}", "meaning_fa": "تبدیل تعجیل"},
+    {"latex": "1\\,\\mathrm{N} = 10^{5}\\,\\mathrm{dyne} = 0.225\\,\\mathrm{lb};\\quad 1\\,\\mathrm{lb} = 4.45\\,\\mathrm{N} = 16\\,\\mathrm{ounce}", "meaning_fa": "تبدیل قوه"},
+    {"latex": "1\\,\\mathrm{atm} = 1.013\\times10^{5}\\,\\mathrm{N/m^2} = 14.7\\,\\mathrm{lb/in^2} = 2.12\\times10^{3}\\,\\mathrm{lb/ft^2} = 76\\,\\mathrm{cm\\,Hg}", "meaning_fa": "تبدیل فشار"}
+  ],
+  "terms": [
+    {"fa": "فت", "en": "foot (ft)"},
+    {"fa": "انچ", "en": "inch (in)"},
+    {"fa": "میل", "en": "mile"},
+    {"fa": "یارد", "en": "yard"},
+    {"fa": "سلگ", "en": "slug"},
+    {"fa": "پوند", "en": "pound (lb)"},
+    {"fa": "کثافت", "en": "density"},
+    {"fa": "تعجیل", "en": "acceleration"},
+    {"fa": "فشار", "en": "pressure"}
+  ],
+  "figures": [
+    {"id": "list-conversions", "bbox": [0.11, 0.26, 0.89, 0.71], "kind": "table", "description_fa": "فهرست رابطه‌های تبدیل واحدات؛ نام هر کمیت (طول، مساحت، حجم، کتله، وزن، وقت، کثافت، سرعت، تعجیل، قوه، فشار) در طرف راست با تیر نشان داده شده و در طرف چپ معادل‌های واحد SI آن به واحدات انگلیسی (فت، انچ، میل، سلگ، پوند، اونس، اتموسفیر) نوشته شده است. این فهرست مرجع حل سؤال‌های تبدیل واحد است."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "سؤال 1 الف",
+      "kind": "question",
+      "problem_fa": "برای وقتی که برای دیدن یک CD لازم است، کدام واحد مناسب است؟",
+      "solution_steps_fa": [
+        "دیدن یک CD معمولاً چند ده دقیقه تا یکی دو ساعت وقت می‌گیرد.",
+        "ثانیه عدد بسیار بزرگ می‌دهد، پس دقیقه (یا ساعت) مناسب‌تر است."
+      ],
+      "answer": "دقیقه (یا ساعت)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "سؤال 1 ب",
+      "kind": "question",
+      "problem_fa": "برای کتلهٔ یک موتر تیزرفتار کدام واحد مناسب است؟",
+      "solution_steps_fa": [
+        "کتلهٔ یک موتر حدود یک تا دو هزار کیلوگرام است.",
+        "پس کیلوگرام (یا تن، که 1000 kg است) مناسب است."
+      ],
+      "answer": "کیلوگرام (یا تن)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "medium",
+  "notes": "در فهرست کتاب چند اشتباه چاپی هست که در این بسته اصلاح شده: «$10^{-3}\\,\\mathrm{g/m^3}$» باید $10^{-3}\\,\\mathrm{g/cm^3}$ باشد؛ «1 liter = 4.45 N = 16 ounces» باید «1 lb = 4.45 N = 16 ounces» باشد؛ «760 cm of Hg» باید 76 cm Hg (یا 760 mm Hg) باشد؛ «dey s» یعنی days."
+}

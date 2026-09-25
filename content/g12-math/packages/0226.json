@@ -1,0 +1,44 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 226,
+  "printed_page": 219,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "محاسبهٔ طول قوس",
+  "summary_fa": "این صفحه دو حالت خاص فورمول طول قوس را در یادداشت بیان می‌کند. حالت اول: اگر منحنی به شکل $y=f(x)$ روی $a\\le x\\le b$ داده شده باشد، x را پارامتر می‌گیریم؛ آن وقت مشتق x برابر ۱ است و فورمول به $\\int\\sqrt{1+f'^2(x)}\\,dx$ ساده می‌شود. برای این حالت یک مثال حل می‌شود: طول $y=x^{3/2}$ روی $[0,4]$. مربع مشتق $\\frac{9}{4}x$ است و انتیگرال با تعویض متحول $u=1+\\frac{9}{4}x$ حل می‌شود. حالت دوم: اگر منحنی به شکل $x=f(y)$ روی $a\\le y\\le b$ باشد، y پارامتر است و انتیگرال نظر به y گرفته می‌شود. در آخر صفحه مثالی برای حالت دوم ($x=y^{3/2}$ روی $1\\le y\\le 4$) مطرح می‌شود که حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "برای $y=f(x)$: $L=\\int_a^b\\sqrt{1+[f'(x)]^2}\\,dx$",
+    "برای $x=f(y)$: $L=\\int_a^b\\sqrt{[f'(y)]^2+1}\\,dy$",
+    "این دو فورمول حالت‌های خاص فورمول پارامتری هستند (پارامتر x یا y است).",
+    "انتیگرال‌هایی مانند $\\int\\sqrt{1+kx}\\,dx$ با تعویض متحول $u=1+kx$ حل می‌شوند."
+  ],
+  "formulas": [
+    {"latex": "L=\\int_a^b\\sqrt{1+[f'(x)]^2}\\,dx", "meaning_fa": "طول قوس منحنی $y=f(x)$ روی $a\\le x\\le b$"},
+    {"latex": "L=\\int_a^b\\sqrt{[f'(y)]^2+1}\\,dy", "meaning_fa": "طول قوس منحنی $x=f(y)$ روی $a\\le y\\le b$"}
+  ],
+  "terms": [
+    {"fa": "طول قوس", "en": "arc length"},
+    {"fa": "تعویض متحول", "en": "substitution"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (حالت ۱)",
+      "problem_fa": "طول قوس $y=x^{3/2}$ روی $0\\le x\\le 4$",
+      "steps_fa": [
+        "$f'(x)=\\frac{3}{2}x^{1/2}$، پس $[f'(x)]^2=\\frac{9}{4}x$",
+        "$L=\\int_0^4\\sqrt{1+\\frac{9}{4}x}\\,dx$",
+        "تعویض: $u=1+\\frac{9}{4}x$، $dx=\\frac{4}{9}du$",
+        "$L=\\frac{4}{9}\\cdot\\frac{2}{3}\\left[\\left(1+\\frac{9}{4}x\\right)^{3/2}\\right]_0^4=\\frac{8}{27}\\left(10^{3/2}-1\\right)$"
+      ],
+      "answer": "$L=\\frac{8}{27}\\left(10\\sqrt{10}-1\\right)\\approx 9.07$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "مثال دوم (طول $x=y^{3/2}$ روی $1\\le y\\le 4$) فقط در این صفحه مطرح شده و حل آن در صفحهٔ بعد آمده است؛ جواب آن $\\frac{80\\sqrt{10}-13\\sqrt{13}}{27}\\approx 7.63$ است."
+}

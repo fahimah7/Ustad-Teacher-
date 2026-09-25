@@ -1,0 +1,76 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 77,
+  "printed_page": 68,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "مطابقت‌های مثلثاتی",
+  "summary_fa": "این صفحه چند مثال دیگر از ساده کردن افاده‌ها و ثبوت مطابقت‌ها دارد. در مثال ۳ حاصل ضربی از دو قوس فقط به کمک کوساین نوشته می‌شود: قوس اول به $\\cos^2\\beta$ و سیکانت به معکوس کوساین تبدیل می‌شود و بعد از ضرب، $\\cos^2\\beta + 1$ می‌ماند. در مثال ۴ دو مربع کامل انکشاف داده می‌شوند؛ حدهای $2\\sin\\alpha\\cos\\alpha$ یکدیگر را حذف می‌کنند و از رابطهٔ اساسی جواب ۲ به دست می‌آید. در مثال ۵ دو کسر با مخرج مشترک جمع می‌شوند، صورت با $\\sin^2 A + \\cos^2 A = 1$ ساده می‌شود و فکتور $(1 + \\cos A)$ حذف می‌شود تا $2\\csc A$ بماند. صورت مثال ۶ هم آمده که حل آن در صفحه بعد است.",
+  "key_points_fa": [
+    "برای جمع دو کسر مثلثاتی، مخرج مشترک بگیرید و صورت را انکشاف دهید.",
+    "هر جا $\\sin^2 + \\cos^2$ دیدید، آن را ۱ بنویسید.",
+    "بعد از ساده کردن صورت، دنبال فکتور مشترک با مخرج بگردید تا حذف شود.",
+    "$(a + b)^2 + (a - b)^2 = 2(a^2 + b^2)$؛ حدهای وسطی یکدیگر را حذف می‌کنند."
+  ],
+  "formulas": [
+    {"latex": "(1 - \\sin^2\\beta)(1 + \\sec^2\\beta) = \\cos^2\\beta + 1", "meaning_fa": "نتیجهٔ مثال ۳"},
+    {"latex": "(\\sin\\alpha + \\cos\\alpha)^2 + (\\sin\\alpha - \\cos\\alpha)^2 = 2", "meaning_fa": "مطابقت مثال ۴"},
+    {"latex": "\\frac{\\sin A}{1 + \\cos A} + \\frac{1 + \\cos A}{\\sin A} = 2\\csc A", "meaning_fa": "مطابقت مثال ۵"}
+  ],
+  "terms": [
+    {"fa": "انکشاف دادن", "en": "expanding"},
+    {"fa": "مخرج مشترک", "en": "common denominator"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "افادهٔ $(1 - \\sin^2\\beta)(1 + \\sec^2\\beta)$ را به کمک $\\cos\\beta$ بنویسید.",
+      "steps_fa": [
+        "$1 - \\sin^2\\beta = \\cos^2\\beta$ و $\\sec^2\\beta = \\frac{1}{\\cos^2\\beta}$",
+        "$\\cos^2\\beta\\left(1 + \\frac{1}{\\cos^2\\beta}\\right) = \\cos^2\\beta\\cdot\\frac{\\cos^2\\beta + 1}{\\cos^2\\beta}$",
+        "$= \\cos^2\\beta + 1$"
+      ],
+      "answer": "$\\cos^2\\beta + 1$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "ثبوت کنید: $(\\sin\\alpha + \\cos\\alpha)^2 + (\\sin\\alpha - \\cos\\alpha)^2 = 2$",
+      "steps_fa": [
+        "انکشاف: $\\sin^2\\alpha + 2\\sin\\alpha\\cos\\alpha + \\cos^2\\alpha + \\sin^2\\alpha - 2\\sin\\alpha\\cos\\alpha + \\cos^2\\alpha$",
+        "حدهای $\\pm 2\\sin\\alpha\\cos\\alpha$ حذف می‌شوند: $2\\sin^2\\alpha + 2\\cos^2\\alpha$",
+        "$= 2(\\sin^2\\alpha + \\cos^2\\alpha) = 2 \\cdot 1 = 2$"
+      ],
+      "answer": "طرف چپ برابر ۲ است؛ مطابقت ثابت شد.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "ثبوت کنید: $\\frac{\\sin A}{1 + \\cos A} + \\frac{1 + \\cos A}{\\sin A} = 2\\csc A$",
+      "steps_fa": [
+        "مخرج مشترک: $\\frac{\\sin^2 A + (1 + \\cos A)^2}{\\sin A(1 + \\cos A)} = \\frac{\\sin^2 A + 1 + 2\\cos A + \\cos^2 A}{\\sin A(1 + \\cos A)}$",
+        "$\\sin^2 A + \\cos^2 A = 1$، پس صورت $= 2 + 2\\cos A = 2(1 + \\cos A)$",
+        "$\\frac{2(1 + \\cos A)}{\\sin A(1 + \\cos A)} = \\frac{2}{\\sin A} = 2\\csc A$"
+      ],
+      "answer": "$2\\csc A$؛ مطابقت ثابت شد.",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۶ (صورت مسأله)",
+      "problem_fa": "ثبوت کنید: $\\frac{1 + \\tan^2 A}{1 + \\cot^2 A} = \\tan^2 A$",
+      "steps_fa": [
+        "حل در صفحه بعد است: $1 + \\tan^2 A = \\sec^2 A$ و $1 + \\cot^2 A = \\csc^2 A$.",
+        "$\\frac{\\sec^2 A}{\\csc^2 A} = \\frac{1/\\cos^2 A}{1/\\sin^2 A} = \\frac{\\sin^2 A}{\\cos^2 A} = \\tan^2 A$"
+      ],
+      "answer": "$\\tan^2 A$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در دو سطر حل مثال ۵ کتاب در مخرج $\\sin(1 + \\cos A)$ نوشته که منظور $\\sin A(1 + \\cos A)$ است (اشتباه چاپی)."
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 177,
+  "printed_page": 168,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "قوانین لوگاریتم",
+  "summary_fa": "این صفحه ثبوت قانون سوم را می‌آورد: دو عدد را به شکل توان‌های یک قاعده می‌نویسیم ($x = a^p$ و $y = a^q$)، آن‌ها را ضرب می‌کنیم تا $a^{p+q}$ به دست آید، و بعد از دو طرف لوگاریتم می‌گیریم؛ چون $p = \\log_a x$ و $q = \\log_a y$ است، قانون ثابت می‌شود. دو مثال کاربرد آن را نشان می‌دهند: $\\log 50$ به $\\log 5 + 1$ تبدیل می‌شود و $\\log_4 2 + \\log_4 8$ برابر ۲ می‌شود. یک فعالیت از شاگرد می‌خواهد با مثال عددی نشان دهد که لوگاریتم حاصل جمع، حاصل جمع لوگاریتم‌ها نیست و لوگاریتم حاصل ضرب، حاصل ضرب لوگاریتم‌ها نیست. در آخر قانون چهارم (لوگاریتم خارج قسمت) بیان می‌شود و ثبوت آن به همان روش (تقسیم $a^p$ بر $a^q$) آغاز می‌شود و در صفحه بعد تمام می‌شود.",
+  "key_points_fa": [
+    "روش ثبوت: $x = a^p$ و $y = a^q$ بگیرید؛ آنگاه $p = \\log_a x$ و $q = \\log_a y$.",
+    "قانون سوم: $\\log_a(xy) = \\log_a x + \\log_a y$.",
+    "قانون چهارم: $\\log_a \\frac{x}{y} = \\log_a x - \\log_a y$.",
+    "اشتباه رایج: $\\log_a(x + y)$ مساوی $\\log_a x + \\log_a y$ نیست.",
+    "اشتباه رایج: $\\log_a(xy)$ مساوی $\\log_a x \\cdot \\log_a y$ نیست."
+  ],
+  "formulas": [
+    {"latex": "x = a^p,\\ y = a^q \\Rightarrow x y = a^{p+q} \\Rightarrow \\log_a(xy) = p + q", "meaning_fa": "خلاصهٔ ثبوت قانون سوم"},
+    {"latex": "\\log_a (x \\cdot y) = \\log_a x + \\log_a y", "meaning_fa": "قانون سوم: لوگاریتم حاصل ضرب"},
+    {"latex": "\\log_a \\frac{x}{y} = \\log_a x - \\log_a y", "meaning_fa": "قانون چهارم: لوگاریتم خارج قسمت مساوی لوگاریتم صورت منفی لوگاریتم مخرج"},
+    {"latex": "\\frac{x}{y} = \\frac{a^p}{a^q} = a^{p-q}", "meaning_fa": "قدم اصلی در ثبوت قانون چهارم"}
+  ],
+  "terms": [
+    {"fa": "ثبوت", "en": "proof"},
+    {"fa": "غیرمساوات", "en": "inequality"},
+    {"fa": "خارج قسمت", "en": "quotient"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "لوگاریتم عدد ۵۰ را به دست آورید.",
+      "steps_fa": [
+        "$50 = 5 \\cdot 10$",
+        "$\\log 50 = \\log 5 + \\log 10$",
+        "$\\log 10 = 1$، پس $\\log 50 = \\log 5 + 1$",
+        "با $\\log 5 \\approx 0.6990$: $\\log 50 \\approx 1.6990$"
+      ],
+      "answer": "$\\log 50 = \\log 5 + 1 \\approx 1.699$",
+      "solution_source": "mixed"
+    },
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "$\\log_4 2 + \\log_4 8$ را حساب کنید.",
+      "steps_fa": [
+        "$\\log_4 2 + \\log_4 8 = \\log_4 (2 \\cdot 8) = \\log_4 16$",
+        "$16 = 4 \\cdot 4$، پس $\\log_4 16 = \\log_4 4 + \\log_4 4 = 1 + 1$"
+      ],
+      "answer": "$2$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "با مثال نشان دهید که $\\log_a(x + y) \\neq \\log_a x + \\log_a y$ و $\\log_a(x \\cdot y) \\neq \\log_a x \\cdot \\log_a y$.",
+      "solution_steps_fa": [
+        "قاعده را ۱۰ و $x = y = 10$ می‌گیریم.",
+        "غیرمساوات اول: $\\log(10 + 10) = \\log 20 \\approx 1.301$ ولی $\\log 10 + \\log 10 = 2$؛ پس مساوی نیستند.",
+        "غیرمساوات دوم: $\\log(10 \\cdot 10) = \\log 100 = 2$ ولی $\\log 10 \\cdot \\log 10 = 1 \\cdot 1 = 1$؛ پس مساوی نیستند."
+      ],
+      "answer": "مثلاً با $x = y = 10$: $\\log 20 \\approx 1.301 \\neq 2$ و $\\log 100 = 2 \\neq 1$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در مثال ۲ کتاب در یک قدم قاعدهٔ ۴ را ننوشته است ($\\log(2 \\cdot 2 \\cdot 4)$)؛ منظور $\\log_4$ است. در مثال ۱ کتاب جواب را به شکل $\\log 5 + 1$ گذاشته؛ قیمت تقریبی را ما افزوده‌ایم."
+}

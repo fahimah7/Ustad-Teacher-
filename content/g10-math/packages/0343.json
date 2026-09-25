@@ -1,0 +1,107 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 343,
+  "printed_page": 336,
+  "page_kind": "exercises",
+  "chapter": 7,
+  "section_fa": "فاصلهٔ یک نقطه از یک خط مستقیم",
+  "summary_fa": "این صفحهٔ تمرین پنج سوال دربارهٔ فاصلهٔ نقطه از خط و فاصلهٔ دو خط موازی دارد. سوال ۱ سه جوره خط موازی دارد، سوال ۲ فاصلهٔ یک نقطه از یک خط را می‌خواهد و سوال‌های ۳ تا ۵ چندگزینه‌یی اند. نکتهٔ مهم: وقتی ضریب‌های x و y در دو معادله یکی باشند (مثلاً $3x - 4y + 3 = 0$ و $3x - 4y + 7 = 0$)، فاصله برابر $\\frac{|c_1 - c_2|}{\\sqrt{a^2+b^2}}$ است؛ اگر یکی نباشند، اول یک معادله را طوری ضرب یا تقسیم کنید که ضریب‌ها برابر شوند، یا یک نقطه روی یک خط پیدا کرده فاصلهٔ آن را از خط دیگر حساب کنید.",
+  "key_points_fa": [
+    "فاصلهٔ نقطه از خط: $d = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2+b^2}}$.",
+    "برای دو خط $ax + by + c_1 = 0$ و $ax + by + c_2 = 0$: $d = \\frac{|c_1 - c_2|}{\\sqrt{a^2+b^2}}$.",
+    "قبل از مقایسهٔ $c_1$ و $c_2$، ضریب‌های x و y در هر دو معادله باید دقیقاً برابر باشند.",
+    "$0.04 = \\frac{1}{25} = 4 \\times 10^{-2}$؛ یک عدد می‌تواند به چند شکل نوشته شود."
+  ],
+  "formulas": [
+    {"latex": "d = \\frac{|c_1 - c_2|}{\\sqrt{a^2 + b^2}}", "meaning_fa": "فاصلهٔ دو خط موازی $ax + by + c_1 = 0$ و $ax + by + c_2 = 0$"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱ (الف)",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ خطوط موازی $3x - 4y + 3 = 0$ و $3x - 4y + 7 = 0$ را دریابید.",
+      "solution_steps_fa": [
+        "ضریب‌ها برابر اند: $a = 3$، $b = -4$؛ $\\sqrt{9 + 16} = 5$",
+        "$d = \\frac{|7 - 3|}{5} = \\frac{4}{5}$"
+      ],
+      "answer": "$\\frac{4}{5} = 0.8$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱ (ب)",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ خطوط موازی $12x + 5y - 6 = 0$ و $12x + 5y + 13 = 0$ را دریابید.",
+      "solution_steps_fa": [
+        "$\\sqrt{12^2 + 5^2} = \\sqrt{169} = 13$",
+        "$d = \\frac{|13 - (-6)|}{13} = \\frac{19}{13}$"
+      ],
+      "answer": "$\\frac{19}{13} \\approx 1.46$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۱ (ج)",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ خطوط موازی $x + 2y - 5 = 0$ و $2x + 4y = 1$ را دریابید.",
+      "solution_steps_fa": [
+        "یک نقطه روی خط اول: با $y = 0$، $x = 5$؛ نقطهٔ $(5,0)$.",
+        "خط دوم را به شکل $2x + 4y - 1 = 0$ می‌نویسیم.",
+        "$d = \\frac{|2(5) + 4(0) - 1|}{\\sqrt{4 + 16}} = \\frac{9}{\\sqrt{20}} = \\frac{9}{2\\sqrt{5}}$"
+      ],
+      "answer": "$\\frac{9}{2\\sqrt{5}} = \\frac{9\\sqrt{5}}{10} \\approx 2.01$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ نقطهٔ $P(6,-1)$ را از خط $6x - 4y + 9 = 0$ دریابید.",
+      "solution_steps_fa": [
+        "$d = \\frac{|6(6) - 4(-1) + 9|}{\\sqrt{36 + 16}} = \\frac{|36 + 4 + 9|}{\\sqrt{52}}$",
+        "$d = \\frac{49}{\\sqrt{52}} = \\frac{49}{2\\sqrt{13}}$"
+      ],
+      "answer": "$\\frac{49}{2\\sqrt{13}} \\approx 6.80$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ دو خط موازی $3x + 6y - 8 = 0$ و $2x + 4y + 5 = 0$ کدام است؟ a) $\\frac{31}{\\sqrt{5}}$  b) $\\frac{31}{6\\sqrt{5}}$  c) $6\\sqrt{5}$  d) هیچکدام",
+      "solution_steps_fa": [
+        "خط اول را بر ۳ و خط دوم را بر ۲ تقسیم می‌کنیم: $x + 2y - \\frac{8}{3} = 0$ و $x + 2y + \\frac{5}{2} = 0$.",
+        "$d = \\frac{|\\frac{5}{2} + \\frac{8}{3}|}{\\sqrt{1 + 4}} = \\frac{\\frac{31}{6}}{\\sqrt{5}} = \\frac{31}{6\\sqrt{5}}$"
+      ],
+      "answer": "گزینهٔ b: $\\frac{31}{6\\sqrt{5}}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ نقطهٔ $(1,2)$ از خط $\\frac{3}{5}x - \\frac{4}{5}y + 2 = 0$ کدام است؟ a: 2  b: 1  c: 3  d: $\\frac{1}{2}$",
+      "solution_steps_fa": [
+        "$\\sqrt{(\\frac{3}{5})^2 + (\\frac{4}{5})^2} = \\sqrt{\\frac{9 + 16}{25}} = 1$ (این خط به شکل نورمال است).",
+        "$d = |\\frac{3}{5} - \\frac{8}{5} + 2| = |-1 + 2| = 1$"
+      ],
+      "answer": "گزینهٔ b: ۱",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "فاصلهٔ نقطهٔ $(-2,7)$ از خط $24x + 7y - 2 = 0$ کدام است؟ a: 0.04  b: $\\frac{1}{25}$  c: $4 \\times 10^{-2}$  d: هر سه درست اند",
+      "solution_steps_fa": [
+        "$\\sqrt{24^2 + 7^2} = \\sqrt{576 + 49} = \\sqrt{625} = 25$",
+        "$d = \\frac{|24(-2) + 7(7) - 2|}{25} = \\frac{|-48 + 49 - 2|}{25} = \\frac{1}{25}$",
+        "$\\frac{1}{25} = 0.04 = 4 \\times 10^{-2}$؛ پس هر سه گزینه یک عدد اند."
+      ],
+      "answer": "گزینهٔ d: هر سه درست اند",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

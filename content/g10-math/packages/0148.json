@@ -1,0 +1,40 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 148,
+  "printed_page": 141,
+  "page_kind": "review",
+  "chapter": 3,
+  "section_fa": "خلاصهٔ فصل",
+  "summary_fa": "ادامهٔ خلاصهٔ فصل سوم. اول محور تناظر پارابولا و نقش عدد $\\Delta=b^2-4ac$ در تعداد نقاط تقاطع پارابولا با محور X مرور می‌شود. بعد تعریف تابع متزاید و متناقص، و تابع جفت و تاق تکرار می‌شود. سپس دو نوع انتقال گراف (عمودی و افقی) با یک عدد مثبت c خلاصه شده است. در آخر چهار عملیهٔ توابع (جمع، تفریق، ضرب و تقسیم) و ناحیهٔ تعریف هر کدام آمده است: ناحیهٔ تعریف حاصل، مقطع ناحیه‌های تعریف دو تابع است و برای تقسیم، نقاطی که مخرج را صفر می‌کنند هم حذف می‌شوند.",
+  "key_points_fa": [
+    "محور تناظر پارابولا: $x=-\\frac{b}{2a}$.",
+    "$\\Delta>0$: دو نقطهٔ تقاطع با محور X؛ $\\Delta=0$: یک نقطه؛ $\\Delta<0$: هیچ نقطه.",
+    "متزاید: $x_1<x_2 \\Rightarrow f(x_1)<f(x_2)$؛ متناقص: $x_1<x_2 \\Rightarrow f(x_1)>f(x_2)$.",
+    "تابع جفت: $f(-x)=f(x)$؛ تابع تاق: $f(-x)=-f(x)$.",
+    "انتقال عمودی ($c>0$): $f(x)+c$ به بالا، $f(x)-c$ به پایین؛ انتقال افقی: $f(x+c)$ به چپ، $f(x-c)$ به راست.",
+    "ناحیهٔ تعریف $f \\pm g$ و $f \\cdot g$ مقطع $\\operatorname{dom} f$ و $\\operatorname{dom} g$ است."
+  ],
+  "formulas": [
+    {"latex": "\\Delta=b^2-4ac", "meaning_fa": "عددی که علامهٔ آن تعداد نقاط تقاطع پارابولا با محور X را معلوم می‌کند"},
+    {"latex": "(f+g)(x)=f(x)+g(x),\\quad (f-g)(x)=f(x)-g(x)", "meaning_fa": "جمع و تفریق دو تابع"},
+    {"latex": "(f \\cdot g)(x)=f(x)\\cdot g(x),\\quad \\left(\\frac{f}{g}\\right)(x)=\\frac{f(x)}{g(x)},\\ g(x) \\neq 0", "meaning_fa": "ضرب و تقسیم دو تابع"},
+    {"latex": "\\operatorname{dom}\\left(\\frac{f}{g}\\right)=\\operatorname{dom} f \\cap \\operatorname{dom} g-\\{x \\mid g(x)=0\\}", "meaning_fa": "ناحیهٔ تعریف تقسیم دو تابع"}
+  ],
+  "terms": [
+    {"fa": "محور تناظر", "en": "axis of symmetry"},
+    {"fa": "تابع متزاید", "en": "increasing function"},
+    {"fa": "تابع متناقص", "en": "decreasing function"},
+    {"fa": "تابع جفت", "en": "even function"},
+    {"fa": "تابع تاق", "en": "odd function"},
+    {"fa": "انتقال عمودی", "en": "vertical translation"},
+    {"fa": "انتقال افقی", "en": "horizontal translation"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 87,
+  "printed_page": 80,
+  "page_kind": "review",
+  "chapter": 2,
+  "section_fa": "قوانین مشتق",
+  "summary_fa": "این صفحه ادامهٔ خلاصهٔ فصل دوم است و همهٔ قاعده‌های مهم مشتق را در یک فهرست جمع می‌کند: مشتق عدد ثابت، توان، مجموع و تفاضل، حاصل ضرب، خارج قسمت، جذر دوم و جذر n ام. بعد قاعدهٔ مشتق توابع مرکب (قاعدهٔ زنجیره‌ای) و مشتق توابع مثلثاتی $\\sin$ و $\\cos$، هم برای x و هم برای یک تابع u، آمده است. در آخر علامهٔ مشتق مرتبهٔ n ام یادآوری می‌شود. این صفحه برای مرور پیش از حل تمرینات عمومی فصل بسیار مفید است.",
+  "key_points_fa": [
+    "مشتق عدد ثابت صفر است و $(x^n)' = nx^{n-1}$.",
+    "حاصل ضرب: $(uv)' = u'v + v'u$؛ خارج قسمت: $\\left(\\frac{u}{v}\\right)' = \\frac{u'v - v'u}{v^2}$.",
+    "در تابع مرکب، مشتق بیرونی را در مشتق درونی ضرب کنید.",
+    "$(\\sin u)' = u'\\cos u$ و $(\\cos u)' = -u'\\sin u$."
+  ],
+  "formulas": [
+    {"latex": "f(x) = C \\Rightarrow f'(x) = 0", "meaning_fa": "مشتق عدد ثابت"},
+    {"latex": "f(x) = x^n \\Rightarrow f'(x) = n x^{n-1}", "meaning_fa": "قاعدهٔ توان"},
+    {"latex": "(u \\pm v)' = u' \\pm v'", "meaning_fa": "مشتق مجموع و تفاضل"},
+    {"latex": "(u\\cdot v)' = u'v + v'u", "meaning_fa": "مشتق حاصل ضرب"},
+    {"latex": "\\left(\\frac{u}{v}\\right)' = \\frac{u'v - v'u}{v^2},\\ v \\neq 0", "meaning_fa": "مشتق خارج قسمت"},
+    {"latex": "(\\sqrt{u})' = \\frac{u'}{2\\sqrt{u}},\\quad (\\sqrt[n]{u})' = \\frac{u'}{n\\sqrt[n]{u^{n-1}}}", "meaning_fa": "مشتق جذر دوم و جذر n ام"},
+    {"latex": "y'_{(x)} = y'_{(u)}\\cdot u'_{(x)}", "meaning_fa": "مشتق توابع مرکب (قاعدهٔ زنجیره‌ای)"},
+    {"latex": "(\\sin u)' = u'\\cos u,\\quad (\\cos u)' = -u'\\sin u", "meaning_fa": "مشتق توابع مثلثاتی"},
+    {"latex": "y^{(n)} = f^{(n)}(x)", "meaning_fa": "مشتق مرتبهٔ n ام"}
+  ],
+  "terms": [
+    {"fa": "تابع مرکب", "en": "composite function"},
+    {"fa": "توابع مثلثاتی", "en": "trigonometric functions"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

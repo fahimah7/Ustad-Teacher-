@@ -1,0 +1,27 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 230,
+  "printed_page": 223,
+  "page_kind": "chapter_title",
+  "chapter": 7,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ آغاز فصل هفتم کتاب که موضوع آن احصائیه است. این فصل با تابع توزیع احتمال، متحول تصادفی، اوسط و وریانس آغاز می‌شود و بعد آزمایش برنولی، توزیع دو جمله‌یی، توزیع پواسن و توزیع نورمال را معرفی می‌کند. این فصل صفحات ۲۲۳ تا ۲۶۰ کتاب را در بر می‌گیرد.",
+  "key_points_fa": [
+    "فصل هفتم: احصائیه (صفحات ۲۲۳ تا ۲۶۰)"
+  ],
+  "formulas": [],
+  "terms": [
+    {
+      "fa": "احصائیه",
+      "en": "statistics"
+    }
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 291,
+  "printed_page": 284,
+  "page_kind": "content",
+  "chapter": 6,
+  "section_fa": "عملیه‌های چهارگانه در اعداد موهومی",
+  "summary_fa": "این صفحه درس عملیه‌ها بر اعداد موهومی را تمام می‌کند. اول قاعدهٔ ضرب با خاصیت تبدیلی خلاصه می‌شود: $(ai)(bi)=(bi)(ai)=-ab$. بعد عملیهٔ تقسیم می‌آید: وقتی یک عدد موهومی را بر عدد موهومی دیگر تقسیم کنیم، $i$ از صورت و مخرج ساده می‌شود و حاصل یک عدد حقیقی است. در مثال ۴ کسرهایی مانند $\\frac{5i}{7i}$ و $\\frac{\\sqrt{-7}}{\\sqrt{-5}}$ حل می‌شوند؛ برای کسر دوم هر جذر منفی را اول به شکل $i\\sqrt{k}$ می‌نویسیم. دو فعالیت (یک ضرب و یک تقسیم) و یک خلاصه هم در صفحه است. در آخر، تمرین درس جمع، تفریق، ضرب و تقسیم اعداد موهومی را می‌خواهد.",
+  "key_points_fa": [
+    "$(ai)(bi)=(bi)(ai)=-ab$",
+    "تقسیم: $\\frac{ai}{bi}=\\frac{a}{b}$ که یک عدد حقیقی است ($b\\neq 0$).",
+    "$\\sqrt{-k}$ را اول به $i\\sqrt{k}$ تبدیل کنید، بعد عملیه را انجام دهید.",
+    "در جمع و ضرب اعداد موهومی خاصیت تبدیلی صدق می‌کند.",
+    "حاصل‌ضرب و خارج قسمت دو عدد موهومی عدد حقیقی است."
+  ],
+  "formulas": [
+    {"latex": "(ai)\\cdot(bi)=(bi)\\cdot(ai)=-ab", "meaning_fa": "ضرب اعداد موهومی و خاصیت تبدیلی آن"},
+    {"latex": "\\frac{ai}{bi}=\\frac{a}{b}", "meaning_fa": "خارج قسمت دو عدد موهومی یک عدد حقیقی است"}
+  ],
+  "terms": [
+    {"fa": "عملیهٔ تقسیم", "en": "division"},
+    {"fa": "خارج قسمت", "en": "quotient"},
+    {"fa": "خاصیت تبدیلی", "en": "commutative property"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "حاصل تقسیم $\\frac{5i}{7i}$، $\\frac{\\sqrt{13}i}{\\sqrt{3}i}$ و $\\frac{\\sqrt{-7}}{\\sqrt{-5}}$ را به دست آرید.",
+      "steps_fa": ["$\\frac{5i}{7i}=\\frac{5}{7}$ (i ساده می‌شود)", "$\\frac{\\sqrt{13}i}{\\sqrt{3}i}=\\frac{\\sqrt{13}}{\\sqrt{3}}$", "$\\frac{\\sqrt{-7}}{\\sqrt{-5}}=\\frac{\\sqrt{7}i}{\\sqrt{5}i}=\\frac{\\sqrt{7}}{\\sqrt{5}}$"],
+      "answer": "$\\frac{5}{7}$، $\\frac{\\sqrt{13}}{\\sqrt{3}}$، $\\frac{\\sqrt{7}}{\\sqrt{5}}$ (همه اعداد حقیقی)",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت (ضرب)",
+      "kind": "activity",
+      "problem_fa": "حاصل‌ضرب $(\\frac{2}{3}i)\\cdot(-\\frac{3}{5}i)$ را به دست آرید.",
+      "solution_steps_fa": ["$\\frac{2}{3}\\cdot(-\\frac{3}{5})=-\\frac{2}{5}$", "$-\\frac{2}{5}i^2=-\\frac{2}{5}\\cdot(-1)=\\frac{2}{5}$"],
+      "answer": "$\\frac{2}{5}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "فعالیت (تقسیم)",
+      "kind": "activity",
+      "problem_fa": "$36i$ را بر $-2i$ تقسیم کنید.",
+      "solution_steps_fa": ["$\\frac{36i}{-2i}=\\frac{36}{-2}$", "$=-18$"],
+      "answer": "$-18$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "جمع کنید: $\\sqrt{-1}\\,b+\\sqrt{-1}\\,c$، $\\sqrt{-7}+\\sqrt{-4}$، $\\sqrt{7}i+\\sqrt{7}i$",
+      "solution_steps_fa": ["$\\sqrt{-1}\\,b+\\sqrt{-1}\\,c=bi+ci=(b+c)i$", "$\\sqrt{-7}+\\sqrt{-4}=\\sqrt{7}i+2i=(\\sqrt{7}+2)i$", "$\\sqrt{7}i+\\sqrt{7}i=2\\sqrt{7}i$"],
+      "answer": "$(b+c)i$، $(\\sqrt{7}+2)i$، $2\\sqrt{7}i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "تفریق کنید: $\\sqrt{5}i-\\sqrt{5}i$، $12i-7i$، $5i-2i$",
+      "solution_steps_fa": ["$\\sqrt{5}i-\\sqrt{5}i=0$", "$12i-7i=(12-7)i=5i$", "$5i-2i=3i$"],
+      "answer": "$0$، $5i$، $3i$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "ضرب و تقسیم کنید: $\\frac{13i}{26i}$، $\\frac{16i}{-4i}$، $(3i)(5i)$، $(\\sqrt{7}i)(-7i)$، $(\\frac{7}{4}i)(-\\frac{2}{9}i)$",
+      "solution_steps_fa": ["$\\frac{13i}{26i}=\\frac{13}{26}=\\frac{1}{2}$", "$\\frac{16i}{-4i}=-4$", "$(3i)(5i)=15i^2=-15$", "$(\\sqrt{7}i)(-7i)=-7\\sqrt{7}i^2=7\\sqrt{7}$", "$(\\frac{7}{4}i)(-\\frac{2}{9}i)=-\\frac{14}{36}i^2=\\frac{7}{18}$"],
+      "answer": "$\\frac{1}{2}$، $-4$، $-15$، $7\\sqrt{7}$، $\\frac{7}{18}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در مثال ۴ بین دو کسر اول یک علامت خراب (مربع) چاپ شده که به احتمال زیاد «و» است."
+}

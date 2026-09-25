@@ -1,0 +1,54 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 167,
+  "printed_page": 160,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "قضایای اساسی مشتق و انتیگرال",
+  "summary_fa": "در این صفحه گفته می‌شود که رابطهٔ $\\int_a^b f(t)dt = F(b)-F(a)$ به نام «رابطهٔ نیوتن–لایبنیتز» شناخته می‌شود. یک یادداشت، تابع اولیهٔ چهار تابع مثلثاتی را یادآوری می‌کند. در مثال، $\\int_0^1 x^2dx$ با همین رابطه به آسانی $\\frac13$ به دست می‌آید. تمرین صفحه سه سوال دارد: پیدا کردن مشتق توابعی که به شکل انتیگرال با سرحد متحول تعریف شده‌اند (قضیهٔ اول همراه با قاعدهٔ زنجیری)، حساب $F(b)$ برای تابع اولیهٔ $f(t)=t$ با شرط $F(0)=2$، و انتیگرال $\\sin x$ از 0 تا $\\frac{\\pi}{2}$.",
+  "key_points_fa": [
+    "رابطهٔ نیوتن–لایبنیتز: $\\int_a^b f = F(b)-F(a)$",
+    "برای مشتق انتیگرال با دو سرحد متحول: $\\frac{d}{dt}\\int_{u(t)}^{v(t)} f(x)dx = f(v)\\,v' - f(u)\\,u'$",
+    "اگر سرحد پایینی عدد ثابت باشد، فقط قسمت سرحد بالایی باقی می‌ماند.",
+    "تابع اولیهٔ $\\sin x$ برابر $-\\cos x$ است، نه $\\cos x$."
+  ],
+  "formulas": [
+    {"latex": "\\int_a^b f(t)\\,dt = F(b) - F(a)", "meaning_fa": "رابطهٔ نیوتن–لایبنیتز"},
+    {"latex": "\\int \\sin x\\,dx = -\\cos x + c", "meaning_fa": "تابع اولیهٔ sin"},
+    {"latex": "\\int \\cos x\\,dx = \\sin x + c", "meaning_fa": "تابع اولیهٔ cos"},
+    {"latex": "\\int \\sec^2 x\\,dx = \\tan x + c", "meaning_fa": "تابع اولیهٔ $\\sec^2$"},
+    {"latex": "\\int \\csc^2 x\\,dx = -\\cot x + c", "meaning_fa": "تابع اولیهٔ $\\csc^2$ (در کتاب cosec)"},
+    {"latex": "\\frac{d}{dt}\\int_{u(t)}^{v(t)} f(x)\\,dx = f(v(t))\\,v'(t) - f(u(t))\\,u'(t)", "meaning_fa": "مشتق انتیگرالی که هر دو سرحد آن متحول است"}
+  ],
+  "terms": [
+    {"fa": "رابطهٔ نیوتن–لایبنیتز", "en": "Newton–Leibniz formula"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.06, 0.07, 0.41, 0.25], "kind": "table", "description_fa": "جعبهٔ «یادداشت» با چهار انتیگرال مثلثاتی: $\\sin x$، $\\cos x$، $\\sec^2 x$ و $\\csc^2 x$. این‌ها برای تمرین‌ها و مثال‌های مثلثاتی لازم‌اند."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "$\\int_0^1 x^2\\,dx$ را حساب کنید.",
+      "steps_fa": [
+        "تابع اولیه: $F(x) = \\frac{x^3}{3}$",
+        "$F(1) - F(0) = \\frac13 - 0$"
+      ],
+      "answer": "$\\frac13$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {"label_fa": "۱-a", "kind": "exercise", "problem_fa": "مشتق $F(t) = \\int_{\\sin t}^{\\cos t} \\frac{1}{4-x^2}\\,dx$", "solution_steps_fa": ["سرحد بالایی $\\cos t$ با مشتق $-\\sin t$؛ سرحد پایینی $\\sin t$ با مشتق $\\cos t$", "$F'(t) = \\frac{1}{4-\\cos^2 t}(-\\sin t) - \\frac{1}{4-\\sin^2 t}(\\cos t)$"], "answer": "$F'(t) = -\\frac{\\sin t}{4-\\cos^2 t} - \\frac{\\cos t}{4-\\sin^2 t}$", "solution_source": "generated"},
+    {"label_fa": "۱-b", "kind": "exercise", "problem_fa": "مشتق $F(t) = \\int_{0}^{\\cos t} \\frac{1}{4-x^2}\\,dx$", "solution_steps_fa": ["سرحد پایینی ثابت است، پس فقط سرحد بالایی: $f(\\cos t)\\cdot(\\cos t)'$", "$= \\frac{1}{4-\\cos^2 t}\\cdot(-\\sin t)$"], "answer": "$F'(t) = -\\frac{\\sin t}{4-\\cos^2 t}$", "solution_source": "generated"},
+    {"label_fa": "۱-c", "kind": "exercise", "problem_fa": "مشتق $F(t) = \\int_{-\\pi}^{t} \\frac{\\cos y}{1+y^2}\\,dy$", "solution_steps_fa": ["طبق قضیهٔ اول، y را با سرحد بالایی t عوض می‌کنیم (مشتق t برابر 1 است)."], "answer": "$F'(t) = \\frac{\\cos t}{1+t^2}$", "solution_source": "generated"},
+    {"label_fa": "۱-d", "kind": "exercise", "problem_fa": "مشتق $F(x) = \\int_{1}^{x} \\frac{\\sin t}{t}\\,dt$", "solution_steps_fa": ["طبق قضیهٔ اول، t را با x عوض می‌کنیم."], "answer": "$F'(x) = \\frac{\\sin x}{x}$", "solution_source": "generated"},
+    {"label_fa": "۲", "kind": "exercise", "problem_fa": "F تابع اولیهٔ $f(t)=t$ است و $F(0)=2$. قیمت $F(b)$ را برای $b = 0, 0.2, 0.4, \\dots, 1$ پیدا کنید.", "solution_steps_fa": ["$F(b) = F(0) + \\int_0^b t\\,dt = 2 + \\frac{b^2}{2}$", "$F(0)=2,\\ F(0.2)=2.02,\\ F(0.4)=2.08$", "$F(0.6)=2.18,\\ F(0.8)=2.32,\\ F(1)=2.5$"], "answer": "$F(b) = 2 + \\frac{b^2}{2}$؛ قیمت‌ها: 2، 2.02، 2.08، 2.18، 2.32، 2.5", "solution_source": "generated"},
+    {"label_fa": "۳", "kind": "exercise", "problem_fa": "$\\int_0^{\\pi/2} \\sin x\\,dx$", "solution_steps_fa": ["$[-\\cos x]_0^{\\pi/2} = -\\cos\\frac{\\pi}{2} + \\cos 0$", "$= 0 + 1 = 1$"], "answer": "$1$", "solution_source": "generated"}
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "در سوال ۲ قیمت‌های b به صورت «1, ..., 0.4, 0.2, 0» آمده؛ قدم 0.2 فرض شده است."
+}

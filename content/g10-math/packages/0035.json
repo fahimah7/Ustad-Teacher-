@@ -1,0 +1,160 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 35,
+  "printed_page": 28,
+  "page_kind": "exercises",
+  "chapter": 1,
+  "section_fa": "تقسیم پولینوم بر مونوم",
+  "summary_fa": "بالای صفحه خلاصهٔ درس تقسیم آمده است: می‌توان مونوم را بر مونوم، پولینوم را بر مونوم و پولینوم را بر پولینوم تقسیم کرد؛ مقسوم و مقسوم علیه باید به ترتیب نزولی توان‌ها منظم باشند و تقسیم تا وقتی ادامه می‌یابد که درجهٔ باقی‌مانده دست کم یک درجه از درجهٔ مقسوم علیه کمتر شود. بقیهٔ صفحه «تمرین» است: سوال ۱ قیمت ثابت $p$ را می‌خواهد تا یک پولینوم درجه سه بر $x - 13$ پوره تقسیم شود، و سوال ۲ ده تقسیم دارد، هم پولینوم بر مونوم و هم تقسیم طولانی پولینوم بر پولینوم.",
+  "key_points_fa": [
+    "پولینوم بر مونوم: هر مونوم را جداگانه تقسیم کنید.",
+    "پولینوم بر پولینوم: هر دو را منظم کنید و تقسیم طولانی انجام دهید.",
+    "تقسیم وقتی تمام است که درجهٔ باقی‌مانده از درجهٔ مقسوم علیه کمتر شود.",
+    "برای پوره بودن تقسیم، باقی‌مانده را مساوی صفر قرار دهید.",
+    "مطابقت‌های مفید: $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$ و $x^5 - y^5 = (x - y)(x^4 + x^3y + x^2y^2 + xy^3 + y^4)$"
+  ],
+  "formulas": [
+    {"latex": "P(x) = D(x) \\cdot Q(x) + R(x),\\quad \\deg R < \\deg D", "meaning_fa": "رابطهٔ تقسیم پولینوم‌ها"},
+    {"latex": "a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca)", "meaning_fa": "برای تمرین ۲ (قسمت اول)"}
+  ],
+  "terms": [
+    {"fa": "خارج قسمت", "en": "quotient"},
+    {"fa": "ترتیب نزولی", "en": "descending order"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۱",
+      "kind": "exercise",
+      "problem_fa": "به کدام قیمت $p$ پولینوم $3x^3 - 7x^2 - 9x + p$ بر $x - 13$ پوره تقسیم می‌شود؟",
+      "solution_steps_fa": [
+        "تقسیم طولانی: $3x^2$ ← باقی $32x^2 - 9x$؛ $32x$ ← باقی $407x + p$؛ $407$ ← باقی $p + 5291$",
+        "(یا مستقیم: $3(13)^3 - 7(13)^2 - 9(13) + p = 6591 - 1183 - 117 + p = 5291 + p$)",
+        "$p + 5291 = 0 \\Rightarrow p = -5291$"
+      ],
+      "answer": "$p = -5291$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (الف)",
+      "kind": "exercise",
+      "problem_fa": "$(a^3 + b^3 + c^3 - 3abc) \\div (a + b + c)$",
+      "solution_steps_fa": [
+        "از فعالیت صفحهٔ ۲۴ می‌دانیم: $(a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca) = a^3 + b^3 + c^3 - 3abc$",
+        "پس خارج قسمت همان عامل دوم است و باقی‌مانده صفر."
+      ],
+      "answer": "$a^2 + b^2 + c^2 - ab - bc - ca$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (ب)",
+      "kind": "exercise",
+      "problem_fa": "$(x^2 + x - 6) \\div (x - 2)$",
+      "solution_steps_fa": [
+        "$x$ ← $x(x - 2) = x^2 - 2x$؛ تفریق ← $3x - 6$",
+        "$3$ ← $3(x - 2) = 3x - 6$؛ تفریق ← $0$"
+      ],
+      "answer": "$x + 3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (ج)",
+      "kind": "exercise",
+      "problem_fa": "$(x^5 - y^5) \\div (x - y)$",
+      "solution_steps_fa": [
+        "برای توان‌های گم‌شده جای خالی می‌گذاریم و تقسیم می‌کنیم: $x^4$، $x^3y$، $x^2y^2$، $xy^3$، $y^4$",
+        "در هر قدم باقی‌مانده یک درجه کم می‌شود و در آخر صفر است."
+      ],
+      "answer": "$x^4 + x^3y + x^2y^2 + xy^3 + y^4$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (د)",
+      "kind": "exercise",
+      "problem_fa": "$\\frac{j^5k^2 - 3j^8k^4}{2j^4k}$",
+      "solution_steps_fa": [
+        "$\\frac{j^5k^2}{2j^4k} = \\frac{1}{2}jk$",
+        "$\\frac{3j^8k^4}{2j^4k} = \\frac{3}{2}j^4k^3$"
+      ],
+      "answer": "$\\frac{1}{2}jk - \\frac{3}{2}j^4k^3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (هـ)",
+      "kind": "exercise",
+      "problem_fa": "$\\frac{12x^5 + 9x^4 + 15x^2}{3x^3}$",
+      "solution_steps_fa": [
+        "$\\frac{12x^5}{3x^3} = 4x^2$ و $\\frac{9x^4}{3x^3} = 3x$",
+        "$\\frac{15x^2}{3x^3} = \\frac{5}{x}$"
+      ],
+      "answer": "$4x^2 + 3x + \\frac{5}{x}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (و)",
+      "kind": "exercise",
+      "problem_fa": "$\\frac{27a^6b^{13} - 18a^{12}b^8}{9a^3b^8}$",
+      "solution_steps_fa": [
+        "$\\frac{27a^6b^{13}}{9a^3b^8} = 3a^3b^5$",
+        "$\\frac{18a^{12}b^8}{9a^3b^8} = 2a^9$"
+      ],
+      "answer": "$3a^3b^5 - 2a^9$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (ز)",
+      "kind": "exercise",
+      "problem_fa": "$(x^3 - a^3) \\div (x^2 - ax + a^2)$",
+      "solution_steps_fa": [
+        "$x$ ← $x(x^2 - ax + a^2) = x^3 - ax^2 + a^2x$؛ تفریق ← $ax^2 - a^2x - a^3$",
+        "$a$ ← $a(x^2 - ax + a^2) = ax^2 - a^2x + a^3$؛ تفریق ← $-2a^3$",
+        "درجهٔ $-2a^3$ (نسبت به $x$) صفر است، پس تقسیم تمام است."
+      ],
+      "answer": "خارج قسمت $x + a$، باقی‌مانده $-2a^3$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (ح)",
+      "kind": "exercise",
+      "problem_fa": "$(9x^4 + 2x^2 + 7x + 2) \\div (3x + 2)$",
+      "solution_steps_fa": [
+        "$3x^3$ ← تفریق $9x^4 + 6x^3$ ← $-6x^3 + 2x^2 + 7x + 2$",
+        "$-2x^2$ ← تفریق $-6x^3 - 4x^2$ ← $6x^2 + 7x + 2$",
+        "$2x$ ← تفریق $6x^2 + 4x$ ← $3x + 2$",
+        "$1$ ← تفریق $3x + 2$ ← $0$"
+      ],
+      "answer": "$3x^3 - 2x^2 + 2x + 1$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (ط)",
+      "kind": "exercise",
+      "problem_fa": "$(8x^3 + 27y^3) \\div (2x + 3y)$",
+      "solution_steps_fa": [
+        "$8x^3 + 27y^3 = (2x)^3 + (3y)^3$",
+        "با مطابقت مجموع مکعب‌ها: $(2x + 3y)((2x)^2 - (2x)(3y) + (3y)^2)$"
+      ],
+      "answer": "$4x^2 - 6xy + 9y^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۲ (ی)",
+      "kind": "exercise",
+      "problem_fa": "$(7x - 12 + 2x^4 - 8x^3 - x^2) \\div (2x^2 + 5)$",
+      "solution_steps_fa": [
+        "منظم: $(2x^4 - 8x^3 - x^2 + 7x - 12) \\div (2x^2 + 5)$",
+        "$x^2$ ← تفریق $2x^4 + 5x^2$ ← $-8x^3 - 6x^2 + 7x - 12$",
+        "$-4x$ ← تفریق $-8x^3 - 20x$ ← $-6x^2 + 27x - 12$",
+        "$-3$ ← تفریق $-6x^2 - 15$ ← $27x + 3$ (درجهٔ آن از ۲ کمتر است)"
+      ],
+      "answer": "خارج قسمت $x^2 - 4x - 3$، باقی‌مانده $27x + 3$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "تمرین ۱ به شکل چاپ‌شده ($x - 13$) حل شده و جواب $p = -5291$ است؛ اگر منظور کتاب $x - 3$ بوده باشد، جواب $p = 9$ می‌شود. در ۲ (ز) مقسوم علیه $x^2 - ax + a^2$ است و تقسیم پوره نیست؛ اگر $x^2 + ax + a^2$ منظور بوده باشد، خارج قسمت $x - a$ و باقی‌مانده صفر است."
+}

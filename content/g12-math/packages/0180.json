@@ -1,0 +1,25 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 180,
+  "printed_page": 173,
+  "page_kind": "chapter_title",
+  "chapter": 5,
+  "section_fa": null,
+  "summary_fa": "این صفحه آغاز فصل پنجم کتاب است: «مشتق و انتیگرال توابع لوگاریتمی و اکسپوننشیل». در این فصل شاگرد یاد می‌گیرد که از توابع لوگاریتمی (مانند $\\ln x$) و اکسپوننشیل (مانند $e^x$) مشتق و انتیگرال بگیرد. بعضی انتیگرال‌های فصل چهارم که جوابشان لوگاریتم بود (مثل $\\int\\frac{dx}{x}$) در این فصل کامل توضیح داده می‌شوند. این فصل صفحات ۱۷۳ تا ۱۹۸ کتاب را در بر می‌گیرد.",
+  "key_points_fa": [
+    "فصل پنجم: مشتق و انتیگرال توابع لوگاریتمی و اکسپوننشیل (صفحات ۱۷۳ تا ۱۹۸)"
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "تابع لوگاریتمی", "en": "logarithmic function"},
+    {"fa": "تابع اکسپوننشیل", "en": "exponential function"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

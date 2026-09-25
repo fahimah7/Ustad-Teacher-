@@ -1,0 +1,129 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 274,
+  "printed_page": 267,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "شعاع دایرهٔ محیطی و محاطی یک مثلث",
+  "summary_fa": "این صفحه تمرین درس‌های مساحت مثلث و دایره‌های محیطی و محاطی است و هشت سوال دارد. سوال ۱ چندجوابه است: مساحت قطعه‌ای که وتر آن با شعاع مساوی است (زاویهٔ مرکزی $60^\\circ$). سوال‌های ۲ و ۳ مساحت را از دو ضلع و زاویهٔ بین آن‌ها می‌خواهند. سوال‌های ۴ و ۵ با فورمول هیرون حل می‌شوند. سوال ۶ شعاع دایرهٔ محیطی مثلث قایم‌الزاویه است (نصف وتر). سوال ۷ از قاعده و شعاع دایرهٔ محاطی یک مثلث متساوی‌الساقین، ساق‌ها و شعاع دایرهٔ محیطی را می‌خواهد و سوال ۸ شعاع دایرهٔ محیطی را از روی مساحت و یک ارتفاع مثلث قایم‌الزاویه.",
+  "key_points_fa": [
+    "مساحت قطعه: $\\frac{1}{2}R^2(\\theta - \\sin\\theta)$.",
+    "مساحت از دو ضلع و زاویهٔ بین: $\\frac{1}{2}ab\\sin C$.",
+    "فورمول هیرون: $\\sqrt{p(p-a)(p-b)(p-c)}$.",
+    "$R = \\frac{abc}{4S}$، $r = \\frac{S}{p}$؛ در مثلث قایم‌الزاویه R نصف وتر است."
+  ],
+  "formulas": [
+    {"latex": "S = \\frac{1}{2}R^2(\\theta - \\sin\\theta)", "meaning_fa": "مساحت قطعه"},
+    {"latex": "S = \\sqrt{p(p-a)(p-b)(p-c)}", "meaning_fa": "فورمول هیرون"},
+    {"latex": "R = \\frac{abc}{4S},\\quad r = \\frac{S}{p}", "meaning_fa": "شعاع دایره‌های محیطی و محاطی"}
+  ],
+  "terms": [
+    {"fa": "قطعهٔ دایره", "en": "circular segment"},
+    {"fa": "دایرهٔ محیطی", "en": "circumcircle"},
+    {"fa": "دایرهٔ محاطی", "en": "incircle"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.11, 0.16, 0.29, 0.28], "kind": "diagram", "description_fa": "دایره به مرکز o و مثلث متساوی‌الاضلاع OAB که هر ضلع آن R است؛ A و B روی دایره‌اند و قطعهٔ کوچک بین وتر AB و قوس AB خط‌دار (سبز) است. شکل سوال ۱ است."}
+  ],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "مثلث OAB متساوی‌الاضلاع با ضلع R است و دایره به مرکز O از A و B می‌گذرد. مساحت قطعه‌ای که وتر آن AB است کدام است؟ a) $(\\frac{\\pi}{6} - \\frac{1}{4})R^2$ b) $(\\frac{\\pi}{6} - \\frac{\\sqrt{3}}{5})R^2$ c) $(\\frac{\\pi}{6} - \\frac{\\sqrt{3}}{2})R^2$ d) $(\\frac{\\pi}{6} - \\frac{\\sqrt{2}}{2})R^2$ e) $(\\frac{\\pi}{6} - \\frac{\\sqrt{3}}{4})R^2$",
+      "solution_steps_fa": [
+        "مثلث متساوی‌الاضلاع است، پس زاویهٔ مرکزی $60^\\circ = \\frac{\\pi}{3}$.",
+        "$S = \\frac{1}{2}R^2\\left(\\frac{\\pi}{3} - \\frac{\\sqrt{3}}{2}\\right) = \\left(\\frac{\\pi}{6} - \\frac{\\sqrt{3}}{4}\\right)R^2$"
+      ],
+      "answer": "e) $(\\frac{\\pi}{6} - \\frac{\\sqrt{3}}{4})R^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "هر ساق یک مثلث متساوی‌الساقین 6cm و زاویهٔ بین ساق‌ها $30^\\circ$ است. مساحت؟",
+      "solution_steps_fa": [
+        "$S = \\frac{1}{2} \\cdot 6 \\cdot 6 \\cdot \\sin 30^\\circ = 18 \\cdot \\frac{1}{2} = 9\\,\\text{cm}^2$"
+      ],
+      "answer": "$9\\,\\text{cm}^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۳",
+      "kind": "exercise",
+      "problem_fa": "دو ضلع یک مثلث $5\\sqrt{2}\\,\\text{cm}$ و 6cm و زاویهٔ بین آن‌ها $45^\\circ$ است. مساحت؟",
+      "solution_steps_fa": [
+        "$S = \\frac{1}{2} \\cdot 5\\sqrt{2} \\cdot 6 \\cdot \\frac{\\sqrt{2}}{2}$",
+        "$= \\frac{1}{2} \\cdot 5 \\cdot 6 \\cdot \\frac{2}{2} = 15\\,\\text{cm}^2$"
+      ],
+      "answer": "$15\\,\\text{cm}^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۴",
+      "kind": "exercise",
+      "problem_fa": "ضلع‌های یک مثلث 3cm، 4cm و 5cm است. مساحت؟",
+      "solution_steps_fa": [
+        "$p = 6$",
+        "$S = \\sqrt{6 \\cdot 3 \\cdot 2 \\cdot 1} = \\sqrt{36} = 6\\,\\text{cm}^2$"
+      ],
+      "answer": "$6\\,\\text{cm}^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۵",
+      "kind": "exercise",
+      "problem_fa": "مساحت مثلثی با $a = 7\\,\\text{cm}$، $b = 9\\,\\text{cm}$ و $c = 12\\,\\text{cm}$ را دریابید.",
+      "solution_steps_fa": [
+        "$p = \\frac{7+9+12}{2} = 14$",
+        "$S = \\sqrt{14 \\cdot 7 \\cdot 5 \\cdot 2} = \\sqrt{980} = 14\\sqrt{5} \\approx 31.3\\,\\text{cm}^2$"
+      ],
+      "answer": "$14\\sqrt{5} \\approx 31.3\\,\\text{cm}^2$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۶",
+      "kind": "exercise",
+      "problem_fa": "ضلع‌های قایم یک مثلث قایم‌الزاویه 12cm و 5cm است. شعاع دایرهٔ محیطی؟",
+      "solution_steps_fa": [
+        "وتر: $\\sqrt{144 + 25} = 13\\,\\text{cm}$",
+        "در مثلث قایم‌الزاویه $R = \\frac{\\text{وتر}}{2} = 6.5\\,\\text{cm}$",
+        "کنترول: $S = 30$ و $R = \\frac{5 \\cdot 12 \\cdot 13}{4 \\cdot 30} = \\frac{780}{120} = 6.5$"
+      ],
+      "answer": "$6.5\\,\\text{cm}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۷",
+      "kind": "exercise",
+      "problem_fa": "قاعدهٔ مثلث متساوی‌الساقین ABC، $a = 8\\,\\text{cm}$ و شعاع دایرهٔ محاطی آن $r = 3\\,\\text{cm}$ است. ساق‌ها و شعاع دایرهٔ محیطی را دریابید.",
+      "solution_steps_fa": [
+        "ساق را x بگیرید. ارتفاع بر قاعده $h = \\sqrt{x^2 - 16}$، مساحت $S = 4h$ و $p = 4 + x$.",
+        "$r = \\frac{S}{p}$: $\\frac{4\\sqrt{x^2-16}}{4+x} = 3$ پس $4\\sqrt{x^2-16} = 12 + 3x$.",
+        "مربع دو طرف: $16x^2 - 256 = 9x^2 + 72x + 144$ پس $7x^2 - 72x - 400 = 0$.",
+        "$x = \\frac{72 + \\sqrt{5184 + 11200}}{14} = \\frac{72 + 128}{14} = \\frac{100}{7} \\approx 14.29\\,\\text{cm}$ (جواب منفی قبول نیست).",
+        "$h = \\sqrt{\\frac{10000}{49} - 16} = \\frac{96}{7}$ و $S = 4 \\cdot \\frac{96}{7} = \\frac{384}{7}$",
+        "$R = \\frac{abc}{4S} = \\frac{8 \\cdot (100/7)^2}{4 \\cdot 384/7} = \\frac{625}{84} \\approx 7.44\\,\\text{cm}$"
+      ],
+      "answer": "ساق‌ها $\\frac{100}{7} \\approx 14.29\\,\\text{cm}$، $R = \\frac{625}{84} \\approx 7.44\\,\\text{cm}$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۸",
+      "kind": "exercise",
+      "problem_fa": "مساحت یک مثلث قایم‌الزاویه $84\\,\\text{cm}^2$ و طول یک ارتفاع آن 3.36cm است. شعاع دایرهٔ محیطی؟",
+      "solution_steps_fa": [
+        "در مثلث قایم‌الزاویه دو ارتفاع همان ضلع‌های قایم‌اند؛ ارتفاع سوم بر وتر است. این‌جا ارتفاع بر وتر را 3.36cm می‌گیریم.",
+        "$S = \\frac{1}{2} \\cdot \\text{وتر} \\cdot h$ پس وتر $= \\frac{2 \\cdot 84}{3.36} = 50\\,\\text{cm}$.",
+        "$R = \\frac{\\text{وتر}}{2} = 25\\,\\text{cm}$"
+      ],
+      "answer": "$R = 25\\,\\text{cm}$ (اگر 3.36 ارتفاع بر وتر باشد)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "تمرین ۸ مبهم است: «یک ارتفاع» ارتفاع بر وتر فرض شد (R = 25cm). اگر 3.36 یک ضلع قایم باشد، ضلع دیگر 50 و وتر تقریباً 50.11، پس R ≈ 25.06cm. شاید منظور کتاب مثلث 7، 24، 25 با ارتفاع 6.72 بوده (R = 12.5)؛ عدد 3.36 نصف 6.72 است."
+}

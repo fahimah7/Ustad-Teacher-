@@ -1,0 +1,68 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 151,
+  "printed_page": 144,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "خواص انتیگرال غیرمعین",
+  "summary_fa": "این صفحه خواص انتیگرال غیرمعین را ادامه می‌دهد و برای هر خاصیت مثال می‌آورد. اول مثال قاعدهٔ توان ($\\int x^4 dx$) حل می‌شود. خاصیت ۳: ضریب ثابت را می‌توان بیرون از انتیگرال آورد. خاصیت ۴: انتیگرال جمع یا تفریق دو تابع برابر جمع یا تفریق انتیگرال‌های آن‌هاست. خاصیت ۵: همین قاعده برای جمع چند تابع هم درست است، پس یک پولینوم را جمله به جمله انتیگرال می‌گیریم. خاصیت ۶ هشدار می‌دهد که انتیگرال حاصل ضرب دو تابع برابر حاصل ضرب انتیگرال‌های آن‌ها نیست؛ مثال آن در صفحهٔ بعد آمده است.",
+  "key_points_fa": [
+    "خاصیت ۳: $\\int a f(x)\\,dx = a\\int f(x)\\,dx$",
+    "خاصیت ۴: $\\int [f \\pm g]\\,dx = \\int f\\,dx \\pm \\int g\\,dx$",
+    "خاصیت ۵: یک پولینوم را جمله به جمله انتیگرال بگیرید و در آخر فقط یک C بنویسید.",
+    "خاصیت ۶: $\\int f\\cdot g\\,dx \\ne \\int f\\,dx \\cdot \\int g\\,dx$"
+  ],
+  "formulas": [
+    {"latex": "\\int a\\,f(x)\\,dx = a\\int f(x)\\,dx", "meaning_fa": "بیرون آوردن ضریب ثابت از انتیگرال"},
+    {"latex": "\\int [f(x) \\pm g(x)]\\,dx = \\int f(x)\\,dx \\pm \\int g(x)\\,dx", "meaning_fa": "انتیگرال جمع و تفریق"},
+    {"latex": "\\int [f_1 + f_2 + \\dots + f_n]\\,dx = \\int f_1\\,dx + \\dots + \\int f_n\\,dx", "meaning_fa": "انتیگرال جمع چند تابع"},
+    {"latex": "\\int [f(x)\\cdot g(x)]\\,dx \\ne \\int f(x)\\,dx \\cdot \\int g(x)\\,dx", "meaning_fa": "انتیگرال حاصل ضرب با ضرب انتیگرال‌ها برابر نیست"}
+  ],
+  "terms": [
+    {"fa": "ضریب ثابت", "en": "constant multiple"},
+    {"fa": "تابع تحت انتیگرال", "en": "integrand"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (خاصیت ۲)",
+      "problem_fa": "$\\int x^4\\,dx$",
+      "steps_fa": ["$\\int x^4 dx = \\frac{x^{4+1}}{4+1} + C = \\frac{1}{5}x^5 + C$"],
+      "answer": "$\\frac{1}{5}x^5 + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال (خاصیت ۳)",
+      "problem_fa": "$\\int 2x^2\\,dx$",
+      "steps_fa": ["$\\int 2x^2 dx = 2\\int x^2 dx = 2\\cdot\\frac{x^3}{3} + C = \\frac{2}{3}x^3 + C$"],
+      "answer": "$\\frac{2}{3}x^3 + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال‌ها (خاصیت ۴)",
+      "problem_fa": "$\\int (2x^2 + 3)\\,dx$ و $\\int (8 - 2x)\\,dx$",
+      "steps_fa": [
+        "$\\int (2x^2 + 3)dx = \\int 2x^2 dx + \\int 3\\,dx = \\frac{2}{3}x^3 + 3x + C$",
+        "$\\int (8 - 2x)dx = 8\\int dx - 2\\int x\\,dx = 8x - x^2 + C$"
+      ],
+      "answer": "$\\frac{2}{3}x^3 + 3x + C$ و $8x - x^2 + C$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال (خاصیت ۵)",
+      "problem_fa": "$\\int (x^3 - 6x^2 + 9x + 1)\\,dx$",
+      "steps_fa": [
+        "$= \\int x^3 dx - \\int 6x^2 dx + \\int 9x\\,dx + \\int dx$",
+        "$= \\frac{x^4}{4} - \\frac{6x^3}{3} + \\frac{9x^2}{2} + x + C = \\frac{x^4}{4} - 2x^3 + \\frac{9}{2}x^2 + x + C$"
+      ],
+      "answer": "$\\frac{x^4}{4} - 2x^3 + \\frac{9}{2}x^2 + x + C$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "ساده کردن $\\frac{6x^3}{3} = 2x^3$ در مثال خاصیت ۵ اضافه شده است."
+}

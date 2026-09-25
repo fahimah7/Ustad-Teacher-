@@ -1,0 +1,79 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 21,
+  "printed_page": 14,
+  "page_kind": "content",
+  "chapter": 1,
+  "section_fa": "دریافت قیمت و مجموع ضرایب یک پولینوم",
+  "summary_fa": "این صفحه نشان می‌دهد که فورمول‌های مشهور هندسه هم در حقیقت پولینوم یا افادهٔ الجبری هستند و با وضع کردن عدد به جای متحول‌ها قیمت آن‌ها به دست می‌آید. در مثال ۳ محیط دایره با فورمول $C = 2\\pi r$ و در مثال ۴ مساحت مثلث با فورمول هیرون (با نصف محیط $p$) حساب می‌شود. در فعالیت، حجم استوانه با $V = \\pi r^2 h$ خواسته شده است. در آخر صفحه مفهوم تازهٔ «مجموع ضرایب یک پولینوم» تعریف می‌شود: مجموع همهٔ ضریب‌ها از $a_n$ تا $a_0$. مثال ۵ (مجموع ضرایب $2x^3 + 5x^2 - 3x + 1$) در صفحهٔ بعد حل می‌شود.",
+  "key_points_fa": [
+    "برای دریافت قیمت یک فورمول، عددهای داده شده را به جای متحول‌ها وضع کرده و حساب می‌کنیم.",
+    "اگر $\\pi = \\frac{22}{7}$ گرفته شود و شعاع مضرب ۷ یا $\\frac{7}{2}$ باشد، حساب ساده می‌شود.",
+    "در فورمول هیرون اول نصف محیط $p = \\frac{a+b+c}{2}$ را می‌یابیم، بعد مساحت را.",
+    "مجموع ضرایب پولینوم $p(x) = a_n x^n + \\dots + a_1 x + a_0$ برابر $a_n + a_{n-1} + \\dots + a_1 + a_0$ است که همان $p(1)$ می‌باشد."
+  ],
+  "formulas": [
+    {"latex": "C = 2\\pi r", "meaning_fa": "محیط دایره با شعاع $r$"},
+    {"latex": "p = \\frac{a+b+c}{2},\\quad S = \\sqrt{p(p-a)(p-b)(p-c)}", "meaning_fa": "فورمول هیرون: مساحت مثلث از روی طول سه ضلع آن"},
+    {"latex": "V = \\pi r^2 h", "meaning_fa": "حجم استوانه با شعاع قاعدهٔ $r$ و ارتفاع $h$"},
+    {"latex": "a_n + a_{n-1} + \\dots + a_1 + a_0 = p(1)", "meaning_fa": "مجموع ضرایب یک پولینوم"}
+  ],
+  "terms": [
+    {"fa": "محیط دایره", "en": "circumference"},
+    {"fa": "نصف محیط", "en": "semi-perimeter"},
+    {"fa": "حجم استوانه", "en": "volume of a cylinder"},
+    {"fa": "مجموع ضرایب", "en": "sum of coefficients"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "شعاع یک دایره $r = 3\\frac{1}{2}\\,\\mathrm{cm}$ است. با $\\pi = \\frac{22}{7}$ محیط دایره را دریابید.",
+      "steps_fa": [
+        "$r = 3\\frac{1}{2} = \\frac{7}{2}\\,\\mathrm{cm}$",
+        "$C = 2\\pi r = 2 \\cdot \\frac{22}{7} \\cdot \\frac{7}{2} = 22\\,\\mathrm{cm}$"
+      ],
+      "answer": "$C = 22\\,\\mathrm{cm}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "طول اضلاع مثلث $a = 9\\,\\mathrm{cm}$، $b = 12\\,\\mathrm{cm}$ و $c = 15\\,\\mathrm{cm}$ است. مساحت مثلث را دریابید.",
+      "steps_fa": [
+        "$p = \\frac{9 + 12 + 15}{2} = \\frac{36}{2} = 18\\,\\mathrm{cm}$",
+        "$S = \\sqrt{18(18-9)(18-12)(18-15)} = \\sqrt{18 \\cdot 9 \\cdot 6 \\cdot 3}$",
+        "$= \\sqrt{2^2 \\cdot 3^2 \\cdot 9^2} = 2 \\cdot 3 \\cdot 9 = 54\\,\\mathrm{cm^2}$"
+      ],
+      "answer": "$S = 54\\,\\mathrm{cm^2}$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۵",
+      "problem_fa": "مجموع ضرایب پولینوم $p(x) = 2x^3 + 5x^2 - 3x + 1$ را دریابید.",
+      "steps_fa": [
+        "به جای $x$ عدد ۱ را وضع می‌کنیم: $p(1) = 2 + 5 - 3 + 1$",
+        "$p(1) = 5$ (حل در صفحهٔ بعد آمده است)"
+      ],
+      "answer": "$5$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "حجم استوانه‌ای را دریابید که شعاع قاعدهٔ آن $r = 5\\,\\mathrm{cm}$ و ارتفاع آن $h = 21\\,\\mathrm{cm}$ است ($V = \\pi r^2 h$).",
+      "solution_steps_fa": [
+        "$V = \\pi \\cdot 5^2 \\cdot 21 = 525\\pi\\,\\mathrm{cm^3}$",
+        "اگر $\\pi = \\frac{22}{7}$ بگیریم: $V = \\frac{22}{7} \\cdot 25 \\cdot 21 = 22 \\cdot 25 \\cdot 3 = 1650\\,\\mathrm{cm^3}$"
+      ],
+      "answer": "$V = 525\\pi \\approx 1650\\,\\mathrm{cm^3}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "مثال ۵ در پایین این صفحه مطرح شده و حل آن ($p(1) = 5$) در صفحهٔ بعد آمده است."
+}

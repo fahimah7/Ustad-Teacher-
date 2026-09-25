@@ -1,0 +1,76 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 236,
+  "printed_page": 229,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "نسبت‌های مثلثاتی $2\\alpha$ از جنس $\\alpha$",
+  "summary_fa": "درس تازه: چگونه نسبت‌های مثلثاتی زاویهٔ دوچند ($2\\alpha$) را از روی نسبت‌های خود $\\alpha$ بنویسیم. ایدهٔ اصلی ساده است: $2\\alpha = \\alpha + \\alpha$، پس در فورمول‌های مجموع به جای $\\beta$ همان $\\alpha$ گذاشته می‌شود. از sin مجموع، $\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha$ و از cos مجموع، $\\cos 2\\alpha = \\cos^2\\alpha - \\sin^2\\alpha$ به دست می‌آید. با کمک رابطهٔ $\\sin^2\\alpha + \\cos^2\\alpha = 1$ دو شکل دیگر cos دوچند ساخته می‌شود: یکی فقط با sin و دیگری فقط با cos. از tan مجموع هم فورمول $\\tan 2\\alpha$ حاصل می‌شود. در مثال ۱ اگر $\\sin\\theta = \\frac{4}{5}$ و ضلع دوم $\\theta$ در ربع دوم باشد، اول cos منفی آن ($-\\frac{3}{5}$) پیدا می‌شود؛ بقیهٔ حل در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "$\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha$",
+    "$\\cos 2\\alpha$ سه شکل دارد: $\\cos^2\\alpha - \\sin^2\\alpha$ یا $1 - 2\\sin^2\\alpha$ یا $2\\cos^2\\alpha - 1$.",
+    "$\\tan 2\\alpha = \\frac{2\\tan\\alpha}{1 - \\tan^2\\alpha}$",
+    "$\\sin 2\\alpha$ برابر $2\\sin\\alpha$ نیست.",
+    "علامهٔ cos را از ربعی که ضلع دوم زاویه در آن است تعیین کنید (در ربع دوم cos منفی است)."
+  ],
+  "formulas": [
+    {"latex": "\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha", "meaning_fa": "sin زاویهٔ دوچند"},
+    {"latex": "\\cos 2\\alpha = \\cos^2\\alpha - \\sin^2\\alpha = 2\\cos^2\\alpha - 1 = 1 - 2\\sin^2\\alpha", "meaning_fa": "سه شکل cos زاویهٔ دوچند"},
+    {"latex": "\\tan 2\\alpha = \\frac{2\\tan\\alpha}{1 - \\tan^2\\alpha}", "meaning_fa": "tan زاویهٔ دوچند"},
+    {"latex": "\\cos\\theta = -\\sqrt{1 - \\sin^2\\theta}", "meaning_fa": "cos وقتی زاویه در ربع دوم است"}
+  ],
+  "terms": [
+    {"fa": "زاویهٔ دوچند", "en": "double angle"}
+  ],
+  "figures": [
+    {
+      "id": "fig1",
+      "bbox": [0.08, 0.05, 0.47, 0.32],
+      "kind": "illustration",
+      "description_fa": "دایرهٔ سفید با دو پرسش آغازین: $\\sin\\frac{x}{3}\\cos\\frac{x}{3} + \\cos\\frac{x}{3}\\sin\\frac{x}{3} = ?$ و $\\cos^2 x - \\sin^2 x = ?$. هر دو عبارت نمونه‌هایی از فورمول‌های زاویهٔ دوچند هستند."
+    }
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱ (آغاز)",
+      "problem_fa": "اگر $\\sin\\theta = \\frac{4}{5}$ و ضلع دوم $\\theta$ در ربع دوم باشد، $\\sin 2\\theta$، $\\cos 2\\theta$ و $\\tan 2\\theta$ را دریابید.",
+      "steps_fa": [
+        "در ربع دوم cos منفی است: $\\cos\\theta = -\\sqrt{1 - \\sin^2\\theta}$",
+        "$\\cos\\theta = -\\sqrt{1 - \\frac{16}{25}} = -\\sqrt{\\frac{9}{25}} = -\\frac{3}{5}$",
+        "(ادامه در صفحهٔ بعد) $\\sin 2\\theta = 2\\cdot\\frac{4}{5}\\cdot(-\\frac{3}{5}) = -\\frac{24}{25}$، $\\cos 2\\theta = \\frac{9}{25} - \\frac{16}{25} = -\\frac{7}{25}$، $\\tan 2\\theta = \\frac{24}{7}$"
+      ],
+      "answer": "$\\sin 2\\theta = -\\frac{24}{25}$، $\\cos 2\\theta = -\\frac{7}{25}$، $\\tan 2\\theta = \\frac{24}{7}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "پرسش آغاز درس",
+      "kind": "question",
+      "problem_fa": "$\\sin\\frac{x}{3}\\cos\\frac{x}{3} + \\cos\\frac{x}{3}\\sin\\frac{x}{3} = ?$ و $\\cos^2 x - \\sin^2 x = ?$",
+      "solution_steps_fa": [
+        "عبارت اول: $2\\sin\\frac{x}{3}\\cos\\frac{x}{3} = \\sin(\\frac{x}{3} + \\frac{x}{3}) = \\sin\\frac{2x}{3}$",
+        "عبارت دوم: $\\cos^2 x - \\sin^2 x = \\cos(x + x) = \\cos 2x$"
+      ],
+      "answer": "$\\sin\\frac{2x}{3}$ و $\\cos 2x$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "پرسش",
+      "kind": "question",
+      "problem_fa": "آیا می‌توانید نشان دهید $\\cos 2\\alpha = \\cos^2\\alpha - \\sin^2\\alpha = 2\\cos^2\\alpha - 1 = 1 - 2\\sin^2\\alpha$؟",
+      "solution_steps_fa": [
+        "$\\cos 2\\alpha = \\cos(\\alpha + \\alpha) = \\cos\\alpha\\cos\\alpha - \\sin\\alpha\\sin\\alpha = \\cos^2\\alpha - \\sin^2\\alpha$",
+        "با $\\cos^2\\alpha = 1 - \\sin^2\\alpha$: $\\cos 2\\alpha = 1 - 2\\sin^2\\alpha$",
+        "با $\\sin^2\\alpha = 1 - \\cos^2\\alpha$: $\\cos 2\\alpha = 2\\cos^2\\alpha - 1$"
+      ],
+      "answer": "بلی؛ هر سه شکل برابرند.",
+      "solution_source": "book"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "عنوان درس روی صفحه «نسبت‌های مثلثاتی 2α از جنس α» است؛ در فهرست کتاب همین بخش «نسبت‌های مثلثاتی دوچند و سه‌چند یک زاویه از جنس زاویه» نام دارد."
+}

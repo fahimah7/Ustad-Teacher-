@@ -1,0 +1,139 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 226,
+  "printed_page": 219,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "تمرین فصل",
+  "summary_fa": "ادامهٔ تمرین‌های فصل چهارم (سوال ۳۵ تا ۴۴). بیشتر سوال‌ها چندگزینه‌ای‌اند و قیمت یک نسبت مثلثاتی را برای زاویه‌ای مانند $9\\pi$، $-\\frac{13\\pi}{2}$، $-\\frac{9\\pi}{2}$، $-15\\pi$ یا $-1530^\\circ$ می‌خواهند؛ جواب‌ها معمولاً ۱، ۱-، ۰ یا «تعریف نشده» است. راه حل: زاویه را با افزودن یا کم کردن مضرب‌های $2\\pi$ (یا $360^\\circ$) به یکی از زوایای ربعی ($0$، $\\frac{\\pi}{2}$، $\\pi$، $\\frac{3\\pi}{2}$) برسانید و قیمت را از دایرهٔ مثلثاتی بخوانید. سوال ۳۹ رابطهٔ $\\sin(270^\\circ - \\theta)$ را می‌پرسد. گزینه‌های سوال ۴۴ در صفحهٔ بعد آمده‌اند.",
+  "key_points_fa": [
+    "در $0$: $\\sin = 0$، $\\cos = 1$؛ در $\\frac{\\pi}{2}$: $\\sin = 1$، $\\cos = 0$؛ در $\\pi$: $\\sin = 0$، $\\cos = -1$؛ در $\\frac{3\\pi}{2}$: $\\sin = -1$، $\\cos = 0$.",
+    "اگر مخرج نسبت صفر شود، نسبت تعریف نشده است (مثلاً $\\cot 0^\\circ$ و $\\sec 90^\\circ$).",
+    "برای زاویهٔ منفی: $\\sin(-x) = -\\sin x$ و $\\cos(-x) = \\cos x$.",
+    "$\\sin(270^\\circ - \\theta) = -\\cos\\theta$."
+  ],
+  "formulas": [
+    {"latex": "\\sin(270^\\circ - \\theta) = -\\cos\\theta", "meaning_fa": "رابطهٔ زاویهٔ $270^\\circ - \\theta$"}
+  ],
+  "terms": [
+    {"fa": "زوایای ربعی", "en": "quadrantal angles"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۳۵",
+      "kind": "exercise",
+      "problem_fa": "$\\cot 0^\\circ = ?$ a) 1 b) −1 c) 0 d) تعریف نشده است",
+      "solution_steps_fa": [
+        "$\\cot 0^\\circ = \\frac{\\cos 0^\\circ}{\\sin 0^\\circ} = \\frac{1}{0}$؛ تقسیم بر صفر ممکن نیست."
+      ],
+      "answer": "d (تعریف نشده است)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۶",
+      "kind": "exercise",
+      "problem_fa": "$\\cos 9\\pi = ?$ a) 1 b) −1 c) 0 d) $\\frac{1}{2}$",
+      "solution_steps_fa": [
+        "$9\\pi - 8\\pi = \\pi$، پس $\\cos 9\\pi = \\cos\\pi = -1$"
+      ],
+      "answer": "b ($-1$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۷",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(-\\frac{13\\pi}{2}) = ?$ a) 1 b) −1 c) 0 d) هر سه درست نیست",
+      "solution_steps_fa": [
+        "$\\sin(-\\frac{13\\pi}{2}) = -\\sin\\frac{13\\pi}{2}$",
+        "$\\frac{13\\pi}{2} - 6\\pi = \\frac{\\pi}{2}$، پس $\\sin\\frac{13\\pi}{2} = 1$",
+        "جواب: $-1$"
+      ],
+      "answer": "b ($-1$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۸",
+      "kind": "exercise",
+      "problem_fa": "نسبت‌های مثلثاتی زاویهٔ $-2430^\\circ$ را دریابید.",
+      "solution_steps_fa": [
+        "$-2430 + 7 \\times 360 = 90^\\circ$",
+        "$\\sin 90^\\circ = 1$، $\\cos 90^\\circ = 0$، $\\cot 90^\\circ = 0$، $\\csc 90^\\circ = 1$",
+        "$\\tan 90^\\circ$ و $\\sec 90^\\circ$ تعریف نشده‌اند (مخرج $\\cos = 0$)."
+      ],
+      "answer": "$\\sin = 1$، $\\cos = 0$، $\\cot = 0$، $\\csc = 1$؛ tan و sec تعریف نشده",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۳۹",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(270^\\circ - \\theta) = ?$ a) $\\sin\\theta$ b) $-\\sin\\theta$ c) $\\cos\\theta$ d) $-\\cos\\theta$",
+      "solution_steps_fa": [
+        "$\\sin(270^\\circ - \\theta) = \\sin 270^\\circ\\cos\\theta - \\cos 270^\\circ\\sin\\theta = (-1)\\cos\\theta - 0 = -\\cos\\theta$",
+        "یا: اگر $\\theta$ حاده باشد، $270^\\circ - \\theta$ در ربع سوم است که sin منفی است و sin به cos تبدیل می‌شود."
+      ],
+      "answer": "d ($-\\cos\\theta$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۰",
+      "kind": "exercise",
+      "problem_fa": "$\\sin(-\\frac{9\\pi}{2}) = ?$ a) 1 b) −1 c) 0 d) تعریف نشده",
+      "solution_steps_fa": [
+        "$\\frac{9\\pi}{2} - 4\\pi = \\frac{\\pi}{2}$، پس $\\sin\\frac{9\\pi}{2} = 1$",
+        "$\\sin(-\\frac{9\\pi}{2}) = -1$"
+      ],
+      "answer": "b ($-1$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۱",
+      "kind": "exercise",
+      "problem_fa": "$\\sec(-\\frac{9\\pi}{2}) = ?$ a) 1 b) −1 c) 0 d) تعریف نشده",
+      "solution_steps_fa": [
+        "$\\cos(-\\frac{9\\pi}{2}) = \\cos\\frac{9\\pi}{2} = \\cos\\frac{\\pi}{2} = 0$",
+        "$\\sec = \\frac{1}{\\cos} = \\frac{1}{0}$ تعریف نشده است."
+      ],
+      "answer": "d (تعریف نشده)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۲",
+      "kind": "exercise",
+      "problem_fa": "$\\tan(-15\\pi) = ?$ a) 1 b) −1 c) 0 d) تعریف نشده",
+      "solution_steps_fa": [
+        "$-15\\pi + 16\\pi = \\pi$، پس $\\tan(-15\\pi) = \\tan\\pi = \\frac{0}{-1} = 0$"
+      ],
+      "answer": "c ($0$)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۳",
+      "kind": "exercise",
+      "problem_fa": "$\\sec(-1530^\\circ) = ?$ a) 1 b) −1 c) 0 d) تعریف نشده",
+      "solution_steps_fa": [
+        "$-1530 + 5 \\times 360 = 270^\\circ$",
+        "$\\cos 270^\\circ = 0$، پس $\\sec 270^\\circ$ تعریف نشده است."
+      ],
+      "answer": "d (تعریف نشده)",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۴۴",
+      "kind": "exercise",
+      "problem_fa": "$\\cot(-2430^\\circ) = ?$ (گزینه‌ها در صفحهٔ بعد: a) 1 b) −1 c) 0 d) تعریف نشده)",
+      "solution_steps_fa": [
+        "$-2430 + 7 \\times 360 = 90^\\circ$",
+        "$\\cot 90^\\circ = \\frac{\\cos 90^\\circ}{\\sin 90^\\circ} = \\frac{0}{1} = 0$"
+      ],
+      "answer": "c ($0$)",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "گزینه‌های سوال ۴۴ در بالای صفحهٔ بعد چاپ شده‌اند."
+}

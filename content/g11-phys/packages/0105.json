@@ -1,0 +1,43 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-phys",
+  "pdf_page": 105,
+  "printed_page": 96,
+  "page_kind": "review",
+  "chapter": 3,
+  "section_fa": "خلاصۀ فصل سوم",
+  "summary_fa": "این صفحه بخش اول «خلاصۀ فصل سوم» است و مهم‌ترین رابطه‌های حرکت دو بعدی را مرور می‌کند. موقعیت جسم در دو بعد با وکتور مکان $\\vec r = f(t)\\,\\vec i + g(t)\\,\\vec j$ بیان می‌شود که تابع زمان است. سرعت متوسط مرکبه‌های $\\bar v_x$ و $\\bar v_y$ دارد و سرعت لحظه‌یی لیمت سرعت متوسط، یعنی مشتق وکتور مکان نسبت به زمان است. به همین ترتیب، شتاب متوسط هم‌جهت با $\\Delta\\vec v$ است و شتاب لحظه‌یی مشتق وکتور سرعت نسبت به زمان است. بعد حرکت‌های پرتابی مرور می‌شوند: مسیر جسم پرتاب‌شده یک پارابول است؛ در پرتاب افقی $x = v_0 t$ و $y = \\frac12 g t^2$ (فاصلۀ سقوط به طرف پایین)؛ در پرتاب مایل $a_x = 0$ و $a_y = -g$، و مرکبه‌های مکان به صورت تابع زمان نوشته می‌شوند. خلاصه در صفحۀ بعد ادامه دارد.",
+  "key_points_fa": [
+    "وکتور مکان در دو بعد: $\\vec r = f(t)\\,\\vec i + g(t)\\,\\vec j$.",
+    "سرعت لحظه‌یی مشتق وکتور مکان است: $\\vec v = \\frac{d\\vec r}{dt} = v_x\\vec i + v_y\\vec j$.",
+    "شتاب لحظه‌یی مشتق وکتور سرعت است: $\\vec a = \\frac{d\\vec v}{dt}$؛ شتاب متوسط هم‌جهت با $\\Delta\\vec v$ است.",
+    "مسیر حرکت پرتابی یک پارابول است.",
+    "در پرتاب مایل: حرکت افقی یکنواخت ($a_x = 0$) و حرکت عمودی با شتاب ثابت ($a_y = -g$)."
+  ],
+  "formulas": [
+    {"latex": "\\vec r = f(t)\\,\\vec i + g(t)\\,\\vec j", "meaning_fa": "وکتور مکان به حیث تابع زمان"},
+    {"latex": "\\vec{\\bar v} = \\bar v_x\\,\\vec i + \\bar v_y\\,\\vec j = \\frac{\\Delta\\vec r}{\\Delta t}", "meaning_fa": "سرعت متوسط در دو بعد"},
+    {"latex": "\\vec v = \\lim_{\\Delta t\\to0}\\frac{\\Delta\\vec r}{\\Delta t} = \\frac{d\\vec r}{dt} = v_x\\,\\vec i + v_y\\,\\vec j", "meaning_fa": "سرعت لحظه‌یی"},
+    {"latex": "\\vec{\\bar a} = \\bar a_x\\,\\vec i + \\bar a_y\\,\\vec j = \\frac{\\Delta\\vec v}{\\Delta t}", "meaning_fa": "شتاب متوسط"},
+    {"latex": "\\vec a = \\lim_{\\Delta t\\to0}\\frac{\\Delta\\vec v}{\\Delta t} = \\frac{d\\vec v}{dt} = a_x\\,\\vec i + a_y\\,\\vec j", "meaning_fa": "شتاب لحظه‌یی"},
+    {"latex": "x = v_0 t, \\quad y = \\tfrac12 g t^2", "meaning_fa": "معادله‌های پرتاب افقی (y فاصلۀ سقوط به طرف پایین است)"},
+    {"latex": "a_x = 0, \\quad a_y = -g", "meaning_fa": "مرکبه‌های شتاب در پرتاب مایل"},
+    {"latex": "x = (v_0\\cos\\alpha)\\,t, \\quad y = (v_0\\sin\\alpha)\\,t - \\tfrac12 g t^2", "meaning_fa": "معادله‌های مکان در پرتاب مایل با زاویۀ α"}
+  ],
+  "terms": [
+    {"fa": "وکتور مکان", "en": "position vector"},
+    {"fa": "سرعت لحظه‌یی", "en": "instantaneous velocity"},
+    {"fa": "شتاب لحظه‌یی", "en": "instantaneous acceleration"},
+    {"fa": "حرکت پرتابی", "en": "projectile motion"},
+    {"fa": "پرتاب افقی", "en": "horizontal projection"},
+    {"fa": "پرتاب مایل", "en": "oblique projectile launch"},
+    {"fa": "پارابول", "en": "parabola"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در آخرین رابطۀ صفحه، کتاب $y = \\frac12 g t^2 + (v_0\\sin\\alpha)t$ چاپ کرده که علامت منفی آن افتاده است؛ با $a_y = -g$ شکل درست $y = (v_0\\sin\\alpha)t - \\frac12 g t^2$ است که این‌جا نوشته شد."
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 255,
+  "printed_page": 248,
+  "page_kind": "exercises",
+  "chapter": 5,
+  "section_fa": "تبدیل حاصل‌ضرب نسبت‌های مثلثاتی زوایا به مجموع و تفاضل",
+  "summary_fa": "ادامهٔ تمرین صفحهٔ قبل (سوال‌های ۵ تا ۸). سوال ۵ یک اتحاد مشهور در مثلث است: اگر مجموع سه زاویهٔ داخلی $180^\\circ$ باشد، مجموع ساین‌های آن‌ها برابر چهار برابر حاصل‌ضرب کوساین‌های نصف زاویه‌ها است؛ کلید آن این است که $\\frac{A+B}{2} = 90^\\circ - \\frac{C}{2}$ می‌باشد. سوال ۶ با فورمول تفاضل دو ساین نشان می‌دهد که $\\sin 10^\\circ + \\sin 50^\\circ - \\sin 70^\\circ = 0$. سوال ۷ چهارجوابه است و فورمول ساین مجموع دو زاویه را می‌خواهد. سوال ۸ از شاگرد می‌خواهد روابط زوایای مربوط ($180^\\circ + \\theta$، $270^\\circ + \\theta$، $360^\\circ - \\theta$) را با فورمول‌های مجموع و تفاضل ثابت کند.",
+  "key_points_fa": [
+    "در مثلث: $A + B + C = 180^\\circ$، پس $\\sin\\frac{A+B}{2} = \\cos\\frac{C}{2}$ و $\\cos\\frac{A+B}{2} = \\sin\\frac{C}{2}$.",
+    "$\\sin 30^\\circ\\cos 60^\\circ + \\cos 30^\\circ\\sin 60^\\circ = \\sin 90^\\circ = 1$",
+    "برای روابط زوایای مربوط، قیمت‌های $\\sin$ و $\\cos$ زوایای $180^\\circ$، $270^\\circ$ و $360^\\circ$ را در فورمول مجموع/تفاضل بگذارید."
+  ],
+  "formulas": [
+    {"latex": "\\sin A + \\sin B + \\sin C = 4\\cos\\frac{A}{2}\\cos\\frac{B}{2}\\cos\\frac{C}{2}\\quad (A+B+C = 180^\\circ)", "meaning_fa": "اتحاد ساین‌های زوایای یک مثلث"},
+    {"latex": "\\sin(\\alpha \\pm \\beta) = \\sin\\alpha\\cos\\beta \\pm \\cos\\alpha\\sin\\beta,\\quad \\cos(\\alpha \\pm \\beta) = \\cos\\alpha\\cos\\beta \\mp \\sin\\alpha\\sin\\beta", "meaning_fa": "فورمول‌های مجموع و تفاضل برای سوال ۸"}
+  ],
+  "terms": [
+    {"fa": "زوایای داخلی مثلث", "en": "interior angles of a triangle"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [
+    {
+      "label_fa": "۵",
+      "kind": "exercise",
+      "problem_fa": "اگر $\\hat{A} + \\hat{B} + \\hat{C} = 180^\\circ$ باشد، نشان دهید $\\sin A + \\sin B + \\sin C = 4\\cos\\frac{A}{2}\\cos\\frac{B}{2}\\cos\\frac{C}{2}$.",
+      "solution_steps_fa": [
+        "$\\sin A + \\sin B = 2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2} = 2\\cos\\frac{C}{2}\\cos\\frac{A-B}{2}$، چون $\\frac{A+B}{2} = 90^\\circ - \\frac{C}{2}$",
+        "$\\sin C = 2\\sin\\frac{C}{2}\\cos\\frac{C}{2} = 2\\cos\\frac{C}{2}\\cos\\frac{A+B}{2}$، چون $\\sin\\frac{C}{2} = \\cos\\frac{A+B}{2}$",
+        "مجموع: $2\\cos\\frac{C}{2}[\\cos\\frac{A-B}{2} + \\cos\\frac{A+B}{2}]$",
+        "$\\cos\\frac{A-B}{2} + \\cos\\frac{A+B}{2} = 2\\cos\\frac{A}{2}\\cos\\frac{B}{2}$",
+        "نتیجه: $4\\cos\\frac{A}{2}\\cos\\frac{B}{2}\\cos\\frac{C}{2}$"
+      ],
+      "answer": "اتحاد ثابت شد.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۶",
+      "kind": "exercise",
+      "problem_fa": "نشان دهید $\\sin 10^\\circ + \\sin 50^\\circ - \\sin 70^\\circ = 0$.",
+      "solution_steps_fa": [
+        "$\\sin 50^\\circ - \\sin 70^\\circ = 2\\cos 60^\\circ\\sin(-10^\\circ) = 2\\cdot\\frac{1}{2}\\cdot(-\\sin 10^\\circ) = -\\sin 10^\\circ$",
+        "$\\sin 10^\\circ - \\sin 10^\\circ = 0$"
+      ],
+      "answer": "$0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۷",
+      "kind": "exercise",
+      "problem_fa": "$\\sin 30^\\circ\\cos 60^\\circ + \\cos 30^\\circ\\sin 60^\\circ = ?$ a) −1 b) 1 c) 0 d) $\\frac{1}{2}$",
+      "solution_steps_fa": [
+        "این شکل $\\sin(30^\\circ + 60^\\circ) = \\sin 90^\\circ = 1$ است.",
+        "بررسی: $\\frac{1}{2}\\cdot\\frac{1}{2} + \\frac{\\sqrt{3}}{2}\\cdot\\frac{\\sqrt{3}}{2} = \\frac{1}{4} + \\frac{3}{4} = 1$"
+      ],
+      "answer": "b) 1",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "۸",
+      "kind": "exercise",
+      "problem_fa": "با فورمول‌های مجموع و تفاضل نشان دهید: $\\sin(180^\\circ+\\theta) = -\\sin\\theta$، $\\cos(180^\\circ+\\theta) = -\\cos\\theta$، $\\sin(360^\\circ-\\theta) = -\\sin\\theta$، $\\sin(270^\\circ+\\theta) = -\\cos\\theta$، $\\cos(270^\\circ+\\theta) = \\sin\\theta$، $\\cos(360^\\circ-\\theta) = \\cos\\theta$.",
+      "solution_steps_fa": [
+        "قیمت‌ها: $\\sin 180^\\circ = 0$، $\\cos 180^\\circ = -1$؛ $\\sin 270^\\circ = -1$، $\\cos 270^\\circ = 0$؛ $\\sin 360^\\circ = 0$، $\\cos 360^\\circ = 1$",
+        "$\\sin(180^\\circ+\\theta) = 0\\cdot\\cos\\theta + (-1)\\sin\\theta = -\\sin\\theta$؛ $\\cos(180^\\circ+\\theta) = (-1)\\cos\\theta - 0 = -\\cos\\theta$",
+        "$\\sin(360^\\circ-\\theta) = 0\\cdot\\cos\\theta - 1\\cdot\\sin\\theta = -\\sin\\theta$؛ $\\cos(360^\\circ-\\theta) = 1\\cdot\\cos\\theta + 0 = \\cos\\theta$",
+        "$\\sin(270^\\circ+\\theta) = (-1)\\cos\\theta + 0 = -\\cos\\theta$؛ $\\cos(270^\\circ+\\theta) = 0 - (-1)\\sin\\theta = \\sin\\theta$"
+      ],
+      "answer": "هر شش رابطه ثابت شد.",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "نیمهٔ پایین صفحه خالی است."
+}

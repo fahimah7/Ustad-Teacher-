@@ -1,0 +1,49 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-phys",
+  "pdf_page": 197,
+  "printed_page": 188,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "معادلهٔ سرکت برقی",
+  "summary_fa": "این صفحه معادلهٔ سرکت را کامل می‌کند. از $\\Delta v = \\varepsilon - I r$ دیده می‌شود که اگر جریان صفر باشد (سرکت باز)، ولتیج ترمینل‌ها برابر قوهٔ محرکهٔ ε است. از شکل 7-8 ولتیج ترمینل‌ها با تفاوت پوتانشیل دو انجام مقاومت بیرونی R برابر است؛ R را بار (Load) می‌گویند، چون انرژی لازم برای کار آله را مصرف می‌کند. با گذاشتن $\\Delta v = I R$ نتیجه می‌شود: $\\varepsilon = I R + I r$ و جریان کل $I = \\frac{\\varepsilon}{R + r}$؛ این معادلهٔ سرکت برقی است. اگر R نسبت به r خیلی بزرگ باشد، می‌توان r را صرف نظر کرد. برای سرکت با چند بتری و چند مقاومت: $I = \\frac{\\sum \\varepsilon}{\\sum R + \\sum r}$. اگر دو طرف $\\varepsilon = IR + Ir$ را به I ضرب کنیم: $I\\varepsilon = I^2 R + I^2 r$؛ یعنی طاقتی که بتری تولید می‌کند، قسمتی در R و قسمتی در r مصرف می‌شود. در پایان یک مثال با بتری ۱۲ ولت، مقاومت داخلی ۰٫۰۵ اوم و مقاومت بیرونی ۳ اوم شروع می‌شود.",
+  "key_points_fa": [
+    "در سرکت باز ($I = 0$) ولتیج ترمینل‌ها برابر ε است.",
+    "معادلهٔ سرکت: $I = \\frac{\\varepsilon}{R + r}$.",
+    "اگر $R \\gg r$ باشد، r قابل صرف نظر است و $I \\approx \\frac{\\varepsilon}{R}$.",
+    "چند منبع و چند مقاومت: $I = \\frac{\\sum \\varepsilon}{\\sum R + \\sum r}$.",
+    "طاقت بتری $I\\varepsilon$ بین مقاومت بیرونی ($I^2 R$) و مقاومت داخلی ($I^2 r$) تقسیم می‌شود.",
+    "بار (Load): مقاومتی که انرژی را برای کار آله مصرف می‌کند."
+  ],
+  "formulas": [
+    {"latex": "\\varepsilon = I R + I r", "meaning_fa": "قوهٔ محرکه برابر مجموع افت ولتیج در R و r (معادلهٔ ۲)"},
+    {"latex": "I = \\frac{\\varepsilon}{R + r}", "meaning_fa": "معادلهٔ سرکت برقی: جریان کل"},
+    {"latex": "I = \\frac{\\sum \\varepsilon}{\\sum R + \\sum r}", "meaning_fa": "جریان در سرکت با چند منبع و چند مقاومت (معادلهٔ ۳)"},
+    {"latex": "I\\varepsilon = I^2 R + I^2 r", "meaning_fa": "طاقت تولیدشدهٔ بتری = طاقت مصرف‌شده در R و r"}
+  ],
+  "terms": [
+    {"fa": "بار (لود)", "en": "load"},
+    {"fa": "طاقت", "en": "power"},
+    {"fa": "ولتیج سرکت باز", "en": "open-circuit voltage"},
+    {"fa": "مقاومت داخلی", "en": "internal resistance"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال",
+      "problem_fa": "قوهٔ محرکهٔ یک بتری $12\\,\\mathrm{V}$ و مقاومت داخلی آن $0.05\\,\\Omega$ است. انجام‌های بتری به مقاومت مصرف‌کنندهٔ $3\\,\\Omega$ وصل شده است. جریان سرکت و ولتیج ترمینل‌های بتری را پیدا کنید.",
+      "steps_fa": [
+        "جریان از معادلهٔ سرکت: $I = \\frac{\\varepsilon}{R + r} = \\frac{12\\,\\mathrm{V}}{3\\,\\Omega + 0.05\\,\\Omega} = \\frac{12}{3.05} \\approx 3.93\\,\\mathrm{A}$",
+        "ولتیج ترمینل‌ها: $v = \\varepsilon - I r = 12 - (3.93)(0.05) \\approx 11.8\\,\\mathrm{V}$",
+        "کنترول: $v = I R = 3.93 \\times 3 \\approx 11.8\\,\\mathrm{V}$"
+      ],
+      "answer": "$I \\approx 3.93\\,\\mathrm{A}$ و ولتیج ترمینل‌ها $\\approx 11.8\\,\\mathrm{V}$",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب در سطر اول نوشته که «Ir» با ولتیج سرکت باز برابر است؛ این غلطی چاپی است: وقتی جریان صفر باشد، ولتیج ترمینل‌ها برابر ε است. حل مثال در صفحهٔ بعد ادامه دارد."
+}

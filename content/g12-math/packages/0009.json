@@ -1,0 +1,22 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 9,
+  "printed_page": null,
+  "page_kind": "photo",
+  "chapter": 1,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ تصویری آغاز فصل اول (لیمت). عکس یک بند آب یا پل طولانی را نشان می‌دهد که آب گل‌آلود با فشار از زیر دروازه‌های آن جاری است. این صفحه درس یا تمرین ندارد و فقط برای شروع فصل آمده است؛ درس لیمت از صفحهٔ بعد آغاز می‌شود.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [
+    {"id": "fig1", "bbox": [0.0, 0.0, 1.0, 1.0], "kind": "photo", "description_fa": "عکس (چرخانده‌شده) یک بند آب یا پل بتنی با دروازه‌های پی‌درپی که آب از زیر آن‌ها با فشار جاری است؛ فقط برای تزئین آغاز فصل است."}
+  ],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه در دایرهٔ پایین صفحه دیده نمی‌شود (احتمالاً صفحهٔ ۲)."
+}

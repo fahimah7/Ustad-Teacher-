@@ -1,0 +1,76 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 252,
+  "printed_page": 245,
+  "page_kind": "content",
+  "chapter": 5,
+  "section_fa": "تبدیل حاصل‌ضرب نسبت‌های مثلثاتی زوایا به مجموع و تفاضل",
+  "summary_fa": "این صفحه چند مثال برای بدل کردن حاصل‌ضرب نسبت‌های مثلثاتی به جمع یا تفاضل دارد. در مثال ۲ و ۳، هر حاصل‌ضرب با فورمول مناسب آن (ساین در کوساین، کوساین در کوساین، ...) به مجموع یا تفاضل بدل می‌شود؛ وقتی تفاضل زاویه‌ها منفی شود، از جفت بودن کوساین ($\\cos(-x) = \\cos x$) استفاده می‌شود، و گاهی نتیجه عدد مشخصی می‌شود (مثلاً $2\\cos 45^\\circ\\cos 15^\\circ = \\frac{1+\\sqrt{3}}{2}$). مثال ۴ فورمول $\\cos x\\cos y$ را با باز کردن $\\cos(x+y)$ و $\\cos(x-y)$ دوباره ثابت می‌کند. مثال ۵ کسری از حاصل‌ضرب‌ها را معرفی می‌کند که باید برابر $\\tan 2\\theta$ نشان داده شود؛ حل آن در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "اول نوع حاصل‌ضرب را بشناسید: $\\sin\\cdot\\cos$، $\\cos\\cdot\\sin$، $\\cos\\cdot\\cos$ یا $\\sin\\cdot\\sin$، بعد فورمول آن را به کار ببرید.",
+    "اگر ضریب ۲ پیش حاصل‌ضرب باشد، ضریب $\\frac{1}{2}$ فورمول حذف می‌شود.",
+    "$\\cos(-23^\\circ) = \\cos 23^\\circ$ چون کوساین تابع جفت است.",
+    "$\\cos\\frac{\\pi}{2} = 0$، پس $\\cos(x+\\frac{\\pi}{4})\\cos(x-\\frac{\\pi}{4}) = \\frac{1}{2}\\cos 2x$."
+  ],
+  "formulas": [
+    {"latex": "2\\cos A\\sin B = \\sin(A+B) - \\sin(A-B)", "meaning_fa": "در مثال ۲ و ۳ به کار رفته"},
+    {"latex": "\\cos A\\cos B = \\frac{1}{2}[\\cos(A+B) + \\cos(A-B)]", "meaning_fa": "حاصل‌ضرب دو کوساین"},
+    {"latex": "\\sin A\\cos B = \\frac{1}{2}[\\sin(A+B) + \\sin(A-B)]", "meaning_fa": "حاصل‌ضرب ساین در کوساین"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲",
+      "problem_fa": "به شکل جمع یا تفاضل بدل کنید: $2\\cos 95^\\circ\\sin 13^\\circ$، $\\cos 38^\\circ\\cos 61^\\circ$، $\\cos(x+\\frac{\\pi}{4})\\cos(x-\\frac{\\pi}{4})$",
+      "steps_fa": [
+        "$2\\cos 95^\\circ\\sin 13^\\circ = \\sin 108^\\circ - \\sin 82^\\circ$",
+        "$\\cos 38^\\circ\\cos 61^\\circ = \\frac{1}{2}[\\cos 99^\\circ + \\cos(-23^\\circ)] = \\frac{1}{2}[\\cos 99^\\circ + \\cos 23^\\circ]$",
+        "$\\cos(x+\\frac{\\pi}{4})\\cos(x-\\frac{\\pi}{4}) = \\frac{1}{2}[\\cos 2x + \\cos\\frac{\\pi}{2}] = \\frac{1}{2}\\cos 2x$"
+      ],
+      "answer": "$\\sin 108^\\circ - \\sin 82^\\circ$؛ $\\frac{1}{2}(\\cos 99^\\circ + \\cos 23^\\circ)$؛ $\\frac{1}{2}\\cos 2x$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۳",
+      "problem_fa": "$\\cos 34^\\circ\\sin 28^\\circ$، $2\\cos 45^\\circ\\cos 15^\\circ$ و $\\sin 10\\theta\\cos 4\\theta$ را به مجموع یا تفاضل بدل کنید.",
+      "steps_fa": [
+        "$\\cos 34^\\circ\\sin 28^\\circ = \\frac{1}{2}(\\sin 62^\\circ - \\sin 6^\\circ)$",
+        "$2\\cos 45^\\circ\\cos 15^\\circ = \\cos 60^\\circ + \\cos 30^\\circ = \\frac{1}{2} + \\frac{\\sqrt{3}}{2} = \\frac{1+\\sqrt{3}}{2}$",
+        "$\\sin 10\\theta\\cos 4\\theta = \\frac{1}{2}(\\sin 14\\theta + \\sin 6\\theta)$"
+      ],
+      "answer": "$\\frac{1}{2}(\\sin 62^\\circ - \\sin 6^\\circ)$؛ $\\frac{1+\\sqrt{3}}{2}$؛ $\\frac{1}{2}(\\sin 14\\theta + \\sin 6\\theta)$",
+      "solution_source": "book"
+    },
+    {
+      "label_fa": "مثال ۴",
+      "problem_fa": "نشان دهید $\\frac{1}{2}[\\cos(x+y) + \\cos(x-y)] = \\cos x\\cos y$.",
+      "steps_fa": [
+        "$\\cos(x+y) = \\cos x\\cos y - \\sin x\\sin y$ و $\\cos(x-y) = \\cos x\\cos y + \\sin x\\sin y$",
+        "جمع: $2\\cos x\\cos y$ (جمله‌های ساین حذف می‌شوند).",
+        "$\\frac{1}{2}\\cdot 2\\cos x\\cos y = \\cos x\\cos y$"
+      ],
+      "answer": "$\\cos x\\cos y$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "مثال ۵",
+      "kind": "question",
+      "problem_fa": "نشان دهید $\\frac{\\sin 8\\theta\\cos\\theta - \\sin 6\\theta\\cos 3\\theta}{\\cos 2\\theta\\cos\\theta - \\sin 3\\theta\\sin 4\\theta} = \\tan 2\\theta$.",
+      "solution_steps_fa": [
+        "صورت: $\\frac{1}{2}(\\sin 9\\theta + \\sin 7\\theta) - \\frac{1}{2}(\\sin 9\\theta + \\sin 3\\theta) = \\frac{1}{2}(\\sin 7\\theta - \\sin 3\\theta)$",
+        "مخرج: $\\frac{1}{2}(\\cos 3\\theta + \\cos\\theta) - \\frac{1}{2}(\\cos\\theta - \\cos 7\\theta) = \\frac{1}{2}(\\cos 3\\theta + \\cos 7\\theta)$",
+        "$\\frac{\\sin 7\\theta - \\sin 3\\theta}{\\cos 7\\theta + \\cos 3\\theta} = \\frac{2\\cos 5\\theta\\sin 2\\theta}{2\\cos 5\\theta\\cos 2\\theta} = \\tan 2\\theta$ (حل کتاب در صفحهٔ بعد)."
+      ],
+      "answer": "$\\tan 2\\theta$",
+      "solution_source": "book"
+    }
+  ],
+  "continues_from_previous": false,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

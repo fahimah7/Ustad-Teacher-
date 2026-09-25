@@ -1,0 +1,55 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 337,
+  "printed_page": 330,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "تبدیل معادلهٔ عمومی یک خط مستقیم به اشکال دیگر معادلات خط مستقیم",
+  "summary_fa": "بالای صفحه نتیجهٔ مثال ۵ تفسیر می‌شود: خط $5x - 12y + 39 = 0$ محور X را در $(-\\frac{39}{5}, 0)$ و محور Y را در $(0, \\frac{39}{12})$ قطع می‌کند. یک فعالیت نقاط تقاطع خط $3x - 2y = 6$ با محورها را می‌خواهد. بعد نوع پنجم تبدیل شروع می‌شود: تبدیل معادلهٔ عمومی به شکل نورمال. چون $ax + by + c = 0$ و $x\\cos\\theta + y\\sin\\theta - P = 0$ یک خط را نشان می‌دهند، ضرایب آن‌ها متناسب اند: $\\frac{a}{\\cos\\theta} = \\frac{b}{\\sin\\theta} = \\frac{-c}{P} = k$. با استفاده از $\\cos^2\\theta + \\sin^2\\theta = 1$ نتیجه می‌شود که $\\cos\\theta = \\frac{a}{\\pm\\sqrt{a^2+b^2}}$ و $\\sin\\theta = \\frac{b}{\\pm\\sqrt{a^2+b^2}}$؛ پس برای رسیدن به شکل نورمال، کل معادلهٔ عمومی بر $\\pm\\sqrt{a^2+b^2}$ تقسیم می‌شود. ادامهٔ ثبوت در صفحهٔ بعد است.",
+  "key_points_fa": [
+    "برای پیدا کردن نقاط تقاطع با محورها: $y = 0$ بگذارید تا تقاطع با X و $x = 0$ بگذارید تا تقاطع با Y به دست آید.",
+    "دو معادلهٔ یک خط ضرایب متناسب دارند.",
+    "$\\cos\\theta = \\frac{a}{\\pm\\sqrt{a^2+b^2}}$ و $\\sin\\theta = \\frac{b}{\\pm\\sqrt{a^2+b^2}}$.",
+    "شکل نورمال از تقسیم معادلهٔ عمومی بر $\\pm\\sqrt{a^2+b^2}$ به دست می‌آید."
+  ],
+  "formulas": [
+    {"latex": "\\frac{a}{\\cos\\theta} = \\frac{b}{\\sin\\theta} = \\frac{-c}{P} = k", "meaning_fa": "تناسب ضرایب معادلهٔ عمومی و معادلهٔ نورمال یک خط"},
+    {"latex": "\\cos\\theta = \\frac{a}{\\pm\\sqrt{a^2+b^2}},\\quad \\sin\\theta = \\frac{b}{\\pm\\sqrt{a^2+b^2}}", "meaning_fa": "زاویهٔ نورمال از روی ضرایب a و b"},
+    {"latex": "\\frac{ax}{\\pm\\sqrt{a^2+b^2}} + \\frac{by}{\\pm\\sqrt{a^2+b^2}} + \\frac{c}{\\pm\\sqrt{a^2+b^2}} = 0", "meaning_fa": "معادلهٔ عمومی به شکل نورمال"}
+  ],
+  "terms": [
+    {"fa": "معادلهٔ نورمال خط", "en": "normal form of a line"},
+    {"fa": "نقطهٔ تقاطع", "en": "intercept / point of intersection"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۵ (تفسیر)",
+      "problem_fa": "از شکل $\\frac{x}{-\\frac{39}{5}} + \\frac{y}{\\frac{39}{12}} = 1$ چه نتیجه می‌گیریم؟",
+      "steps_fa": [
+        "مخرج x تقاطع با محور X و مخرج y تقاطع با محور Y است."
+      ],
+      "answer": "خط محور X را در $(-\\frac{39}{5}, 0)$ و محور Y را در $(0, \\frac{39}{12})$ قطع می‌کند.",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "فعالیت",
+      "kind": "activity",
+      "problem_fa": "کمیات وضعیهٔ نقاط تقاطع خط $3x - 2y = 6$ با محورهای X و Y را دریابید.",
+      "solution_steps_fa": [
+        "دو طرف را بر ۶ تقسیم می‌کنیم: $\\frac{x}{2} + \\frac{y}{-3} = 1$",
+        "پس تقاطع با محور X در $x = 2$ و با محور Y در $y = -3$ است.",
+        "امتحان: با $y = 0$، $3x = 6$ پس $x = 2$؛ با $x = 0$، $-2y = 6$ پس $y = -3$."
+      ],
+      "answer": "$(2, 0)$ و $(0, -3)$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": ""
+}

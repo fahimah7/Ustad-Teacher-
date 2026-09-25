@@ -1,0 +1,71 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g10-math",
+  "pdf_page": 175,
+  "printed_page": 168,
+  "page_kind": "exercises",
+  "chapter": 4,
+  "section_fa": "توابع مثلثاتی",
+  "summary_fa": "بالای صفحه حل مثال ۲ تمام می‌شود و شش نسبت برای $x = -3$، $y = 4$، $r = 5$ نوشته می‌شوند. بعد گفته می‌شود که چون محور X محور cos و محور Y محور sin است، هر نقطهٔ روی دایرهٔ مثلثاتی را می‌توان به شکل $P(\\cos\\theta, \\sin\\theta)$ نوشت. خلاصهٔ درس تکرار می‌شود: توابع مثلثاتی فقط به θ بستگی دارند، θ متحول مستقل و نسبت‌ها متحول‌های مقیدند، و علامه‌ها در هر ربع مشخص است. تمرین درس دو سؤال دارد: گفتن علامهٔ ده نسبت مثلثاتی به طور شفاهی، و یافتن sin، cos و tan برای چهار نقطهٔ روی دایرهٔ مثلثاتی.",
+  "key_points_fa": [
+    "روی دایرهٔ مثلثاتی (شعاع ۱): نقطهٔ ضلع دوم $P(\\cos\\theta, \\sin\\theta)$ است.",
+    "برای علامه، اول ربع زاویه را پیدا کنید: $0^\\circ$ تا $90^\\circ$ ربع I، $90^\\circ$ تا $180^\\circ$ ربع II، $180^\\circ$ تا $270^\\circ$ ربع III، $270^\\circ$ تا $360^\\circ$ ربع IV.",
+    "sec هم‌علامهٔ cos، csc هم‌علامهٔ sin و cot هم‌علامهٔ tan است."
+  ],
+  "formulas": [
+    {"latex": "P(x, y) = P(\\cos\\theta, \\sin\\theta)", "meaning_fa": "کمیات وضعیهٔ نقطهٔ ضلع دوم روی دایرهٔ مثلثاتی"}
+  ],
+  "terms": [
+    {"fa": "دایرهٔ مثلثاتی", "en": "unit circle"},
+    {"fa": "ربع", "en": "quadrant"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.17, 0.27, 0.51, 0.47], "kind": "diagram", "description_fa": "دایرهٔ مثلثاتی آبی به شعاع ۱ با نقاط ۱ و −۱ روی محورها. ضلع دوم سرخ زاویهٔ θ (در ربع اول) دایره را در نقطهٔ $P(\\cos\\theta, \\sin\\theta)$ قطع می‌کند؛ یعنی مختص افقی نقطه cos و مختص عمودی آن sin زاویه است."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۲ (ادامهٔ حل)",
+      "problem_fa": "برای $x = -3$، $y = 4$، $r = 5$ (θ در ربع دوم) شش نسبت را بنویسید.",
+      "steps_fa": [
+        "$y > 0$ چون P در ربع دوم است.",
+        "$\\sin\\theta = \\frac{4}{5}$، $\\cos\\theta = \\frac{-3}{5}$، $\\tan\\theta = \\frac{4}{-3} = -\\frac{4}{3}$",
+        "$\\csc\\theta = \\frac{5}{4}$، $\\sec\\theta = \\frac{5}{-3} = -\\frac{5}{3}$، $\\cot\\theta = \\frac{-3}{4}$"
+      ],
+      "answer": "$\\frac{4}{5}, -\\frac{3}{5}, -\\frac{4}{3}, \\frac{5}{4}, -\\frac{5}{3}, -\\frac{3}{4}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱",
+      "kind": "exercise",
+      "problem_fa": "علامهٔ این نسبت‌ها را شفاهی بگویید: $\\sin 120^\\circ$، $\\tan 170^\\circ$، $\\tan 60^\\circ$، $\\cos 330^\\circ$، $\\sec 200^\\circ$، $\\cot 271^\\circ$، $\\csc 91^\\circ$، $\\sin 271^\\circ$، $\\csc 181^\\circ$، $\\csc 315^\\circ$.",
+      "solution_steps_fa": [
+        "$120^\\circ$ ربع II ← sin مثبت؛ $170^\\circ$ ربع II ← tan منفی؛ $60^\\circ$ ربع I ← tan مثبت.",
+        "$330^\\circ$ ربع IV ← cos مثبت؛ $200^\\circ$ ربع III ← sec منفی.",
+        "$271^\\circ$ ربع IV ← cot منفی و sin منفی؛ $91^\\circ$ ربع II ← csc مثبت.",
+        "$181^\\circ$ ربع III ← csc منفی؛ $315^\\circ$ ربع IV ← csc منفی."
+      ],
+      "answer": "مثبت: $\\sin 120^\\circ$، $\\tan 60^\\circ$، $\\cos 330^\\circ$، $\\csc 91^\\circ$؛ منفی: $\\tan 170^\\circ$، $\\sec 200^\\circ$، $\\cot 271^\\circ$، $\\sin 271^\\circ$، $\\csc 181^\\circ$، $\\csc 315^\\circ$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۲",
+      "kind": "exercise",
+      "problem_fa": "θ در حالت معیاری و به رادیان است و ضلع دوم آن از نقاط $\\left(\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}\\right)$، $\\left(-\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}\\right)$، $\\left(\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}\\right)$ و $\\left(-\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}\\right)$ می‌گذرد. $\\sin\\theta$، $\\cos\\theta$ و $\\tan\\theta$ را دریابید.",
+      "solution_steps_fa": [
+        "برای هر نقطه $r = \\sqrt{\\frac{1}{2} + \\frac{1}{2}} = 1$؛ پس $\\cos\\theta = x$، $\\sin\\theta = y$ و $\\tan\\theta = \\frac{y}{x}$.",
+        "نقطهٔ اول: $\\sin = \\frac{\\sqrt{2}}{2}$، $\\cos = \\frac{\\sqrt{2}}{2}$، $\\tan = 1$ ($\\theta = \\frac{\\pi}{4}$).",
+        "نقطهٔ دوم: $\\sin = \\frac{\\sqrt{2}}{2}$، $\\cos = -\\frac{\\sqrt{2}}{2}$، $\\tan = -1$ ($\\theta = \\frac{3\\pi}{4}$).",
+        "نقطهٔ سوم: $\\sin = -\\frac{\\sqrt{2}}{2}$، $\\cos = \\frac{\\sqrt{2}}{2}$، $\\tan = -1$ ($\\theta = \\frac{7\\pi}{4}$).",
+        "نقطهٔ چهارم: $\\sin = -\\frac{\\sqrt{2}}{2}$، $\\cos = -\\frac{\\sqrt{2}}{2}$، $\\tan = 1$ ($\\theta = \\frac{5\\pi}{4}$)."
+      ],
+      "answer": "(sin, cos, tan): $(\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}, 1)$؛ $(\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}, -1)$؛ $(-\\frac{\\sqrt{2}}{2}, \\frac{\\sqrt{2}}{2}, -1)$؛ $(-\\frac{\\sqrt{2}}{2}, -\\frac{\\sqrt{2}}{2}, 1)$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": ""
+}

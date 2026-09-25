@@ -1,0 +1,284 @@
+{
+  "book_id": "g11-math",
+  "terms": [
+    {
+      "book": "مقاطع مخروطی",
+      "avoid": [],
+      "en": "conic sections"
+    },
+    {
+      "book": "بیضوی",
+      "avoid": [
+        "بیضی"
+      ],
+      "en": "ellipse"
+    },
+    {
+      "book": "پارابولا",
+      "avoid": [
+        "سهمی"
+      ],
+      "en": "parabola"
+    },
+    {
+      "book": "هایپربولا",
+      "avoid": [
+        "هذلولی"
+      ],
+      "en": "hyperbola"
+    },
+    {
+      "book": "محراق",
+      "avoid": [
+        "کانون"
+      ],
+      "en": "focus (of a conic)"
+    },
+    {
+      "book": "عن المرکزیت",
+      "avoid": [
+        "خروج از مرکز"
+      ],
+      "en": "eccentricity"
+    },
+    {
+      "book": "قطر کبیر",
+      "avoid": [
+        "قطر بزرگ"
+      ],
+      "en": "major axis"
+    },
+    {
+      "book": "قطر صغیر",
+      "avoid": [
+        "قطر کوچک"
+      ],
+      "en": "minor axis"
+    },
+    {
+      "book": "قانون ساین",
+      "avoid": [
+        "قانون سینوس‌ها"
+      ],
+      "en": "law of sines"
+    },
+    {
+      "book": "قانون کوساین",
+      "avoid": [
+        "قانون کسینوس‌ها"
+      ],
+      "en": "law of cosines"
+    },
+    {
+      "book": "مطابقت مثلثاتی",
+      "avoid": [
+        "اتحاد مثلثاتی"
+      ],
+      "en": "trigonometric identity"
+    },
+    {
+      "book": "ثبوت",
+      "avoid": [
+        "اثبات"
+      ],
+      "en": "proof"
+    },
+    {
+      "book": "مستوی",
+      "avoid": [
+        "صفحه"
+      ],
+      "en": "plane (geometry)"
+    },
+    {
+      "book": "ترادف",
+      "avoid": [
+        "دنباله"
+      ],
+      "en": "sequence"
+    },
+    {
+      "book": "ترادف حسابی",
+      "avoid": [
+        "دنبالهٔ حسابی"
+      ],
+      "en": "arithmetic sequence"
+    },
+    {
+      "book": "ترادف هندسی",
+      "avoid": [
+        "دنبالهٔ هندسی"
+      ],
+      "en": "geometric sequence"
+    },
+    {
+      "book": "فرق مشترک",
+      "avoid": [
+        "قدر نسبت"
+      ],
+      "en": "common difference"
+    },
+    {
+      "book": "سلسله",
+      "avoid": [
+        "سری"
+      ],
+      "en": "series"
+    },
+    {
+      "book": "تابع اکسپوننشیل",
+      "avoid": [
+        "تابع نمایی"
+      ],
+      "en": "exponential function"
+    },
+    {
+      "book": "لوگاریتم",
+      "avoid": [
+        "لگاریتم"
+      ],
+      "en": "logarithm"
+    },
+    {
+      "book": "کرکترستیک",
+      "avoid": [
+        "مفسر"
+      ],
+      "en": "characteristic (of a logarithm)"
+    },
+    {
+      "book": "انترپولیشن خطی",
+      "avoid": [
+        "درون‌یابی خطی"
+      ],
+      "en": "linear interpolation"
+    },
+    {
+      "book": "متریکس",
+      "avoid": [
+        "ماتریس"
+      ],
+      "en": "matrix"
+    },
+    {
+      "book": "دیترمینانت",
+      "avoid": [
+        "دترمینان"
+      ],
+      "en": "determinant"
+    },
+    {
+      "book": "ترانسپوز",
+      "avoid": [
+        "ترانهاده"
+      ],
+      "en": "transpose"
+    },
+    {
+      "book": "سکالر",
+      "avoid": [
+        "اسکالر"
+      ],
+      "en": "scalar"
+    },
+    {
+      "book": "وکتور",
+      "avoid": [
+        "بردار"
+      ],
+      "en": "vector"
+    },
+    {
+      "book": "حاصل ضرب سکالری",
+      "avoid": [
+        "ضرب داخلی"
+      ],
+      "en": "dot (scalar) product"
+    },
+    {
+      "book": "حاصل ضرب وکتوری",
+      "avoid": [
+        "ضرب خارجی"
+      ],
+      "en": "cross (vector) product"
+    },
+    {
+      "book": "شعاع وکتور",
+      "avoid": [
+        "بردار مکان"
+      ],
+      "en": "position vector"
+    },
+    {
+      "book": "سیستم کمیات وضعیهٔ قایم",
+      "avoid": [
+        "دستگاه مختصات دکارتی"
+      ],
+      "en": "rectangular coordinate system"
+    },
+    {
+      "book": "اعداد تام",
+      "avoid": [
+        "اعداد صحیح"
+      ],
+      "en": "integers"
+    },
+    {
+      "book": "احصائیه",
+      "avoid": [
+        "آمار"
+      ],
+      "en": "statistics"
+    },
+    {
+      "book": "اوسط",
+      "avoid": [
+        "میانگین"
+      ],
+      "en": "mean (average)"
+    },
+    {
+      "book": "انحراف معیاری",
+      "avoid": [
+        "انحراف معیار"
+      ],
+      "en": "standard deviation"
+    },
+    {
+      "book": "پراگنده‌گی",
+      "avoid": [
+        "پراکندگی"
+      ],
+      "en": "dispersion"
+    },
+    {
+      "book": "همبسته‌گی",
+      "avoid": [
+        "همبستگی"
+      ],
+      "en": "correlation"
+    },
+    {
+      "book": "ترتیب",
+      "avoid": [
+        "جایگشت"
+      ],
+      "en": "permutation"
+    },
+    {
+      "book": "فکتوریل",
+      "avoid": [
+        "فاکتوریل"
+      ],
+      "en": "factorial"
+    },
+    {
+      "book": "قضیهٔ بینوم",
+      "avoid": [
+        "بسط دوجمله‌ای"
+      ],
+      "en": "binomial theorem"
+    }
+  ],
+  "style_notes_fa": "کتاب واحدهای درسی را «فصل» می‌نامد (فصل اول تا فصل نهم)؛ هر درس با عنوان دری و معادل انگلیسی آن، یک سوال انگیزشی، سپس «فعالیت»، «تعریف» یا «نتیجه»، «مثال» و «حل» پیش می‌رود و با «تمرین» ختم می‌شود، و هر فصل با «نکات مهم فصل» و «تمرین فصل» پایان می‌یابد. کتاب برای یافتن جواب «دریافت کنید»، برای مقدار «قیمت» و برای اثبات «ثبوت» می‌نویسد و اصطلاحات انگلیسی‌الاصل مانند متریکس، وکتور، ساین و کوساین را به کار می‌برد."
+}

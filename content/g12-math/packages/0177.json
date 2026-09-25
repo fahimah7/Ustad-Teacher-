@@ -1,0 +1,28 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-math",
+  "pdf_page": 177,
+  "printed_page": 170,
+  "page_kind": "review",
+  "chapter": 4,
+  "section_fa": "نکات مهم فصل چهارم",
+  "summary_fa": "این صفحه آخرین قسمت خلاصهٔ فصل چهارم است و فقط چند سطر دارد؛ بقیهٔ صفحه خالی است. در آن نام فورمول قسمی برای انتیگرال غیرمعین تکرار می‌شود و بعد شکل معین همین فورمول نوشته می‌شود: اگر u و v روی $[a,b]$ تعریف شده باشند، قسمت $uv$ در دو سرحد حساب می‌شود و انتیگرال باقی‌مانده هم از a تا b گرفته می‌شود. با این صفحه، مرور فصل تمام می‌شود و تمرینات عمومی فصل در صفحهٔ بعد شروع می‌شود.",
+  "key_points_fa": [
+    "فورمول قسمی برای انتیگرال معین دو شکل هم‌معنا دارد.",
+    "در شکل معین، $uv$ را با $[uv]_a^b = u(b)v(b) - u(a)v(a)$ حساب کنید."
+  ],
+  "formulas": [
+    {"latex": "\\int_a^b v'u\\,dx = u\\cdot v\\Big|_a^b - \\int_a^b v u'\\,dx", "meaning_fa": "فورمول انتیگرال معین به روش قسمی (شکل اول)"},
+    {"latex": "\\int_a^b u\\,dv = u\\cdot v\\Big|_a^b - \\int_a^b v\\,du", "meaning_fa": "فورمول انتیگرال معین به روش قسمی (شکل دوم)"}
+  ],
+  "terms": [
+    {"fa": "فورمول انتیگرال معین به روش قسمی", "en": "integration by parts for definite integrals"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "بیشتر صفحه خالی است."
+}

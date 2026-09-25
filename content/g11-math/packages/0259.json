@@ -1,0 +1,83 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 259,
+  "printed_page": 250,
+  "page_kind": "content",
+  "chapter": 7,
+  "section_fa": "وکتورها در سیستم مختصات قایم",
+  "summary_fa": "این صفحه درس وکتورها را ادامه می‌دهد. اول نتیجهٔ سوم صفحه قبل آمده: دو وکتور مخالف یک‌دیگرند اگر طول‌شان مساوی ولی جهت‌شان برعکس باشد؛ مثلاً اگر $\\overrightarrow{OA} = \\vec{a}$ باشد، $\\overrightarrow{AO} = -\\vec{a}$ است و هر دو یک طول دارند. بعد تعریف مهم درس آمده: در سیستم مختصات قایم، هر وکتور را به شکل یک متریکس ستونی $\\begin{pmatrix} a_x \\\\ a_y \\end{pmatrix}$ می‌نویسیم که $a_x$ مختصهٔ روی محور x و $a_y$ مختصهٔ روی محور y است. در مثال ۱ دو وکتور $\\vec{a} = (3, 2)$ و $\\vec{b} = (2, 3)$ به شکل شعاع وکتور رسم شده‌اند. یادداشت صفحه فرق نقطه و وکتور را روشن می‌کند: یک نقطه فقط یک جا دارد، ولی یک وکتور را می‌توان در بی‌نهایت جا رسم کرد. در آخر یک تمرین سه‌قسمتی آمده است.",
+  "key_points_fa": [
+    "وکتور مخالف $-\\vec{a}$: همان طول، جهت برعکس؛ $|\\overrightarrow{OA}| = |\\overrightarrow{AO}|$.",
+    "نوشتن ستونی وکتور: $\\vec{a} = \\begin{pmatrix} a_x \\\\ a_y \\end{pmatrix}$؛ $a_x$ حرکت افقی و $a_y$ حرکت عمودی است.",
+    "شعاع وکتور $\\begin{pmatrix} a_x \\\\ a_y \\end{pmatrix}$ از مبدأ تا نقطهٔ $(a_x, a_y)$ می‌رود.",
+    "$\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix} \\neq \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$: ترتیب مختصه‌ها مهم است.",
+    "نقطه یک جای معین دارد؛ وکتور را می‌توان هر جا رسم کرد، به شرط حفظ طول و جهت."
+  ],
+  "formulas": [
+    {"latex": "\\vec{a} = \\begin{pmatrix} a_x \\\\ a_y \\end{pmatrix}", "meaning_fa": "نمایش وکتور با مختصه‌هایش در سیستم مختصات قایم"},
+    {"latex": "\\overrightarrow{OA} = \\vec{a} \\Rightarrow \\overrightarrow{AO} = -\\vec{a},\\quad |\\overrightarrow{OA}| = |\\overrightarrow{AO}|", "meaning_fa": "وکتور مخالف"},
+    {"latex": "-\\begin{pmatrix} a_x \\\\ a_y \\end{pmatrix} = \\begin{pmatrix} -a_x \\\\ -a_y \\end{pmatrix}", "meaning_fa": "مختصه‌های وکتور مخالف قرینهٔ مختصه‌های وکتور اصلی است"}
+  ],
+  "terms": [
+    {"fa": "وکتور مخالف", "en": "opposite vector"},
+    {"fa": "مختصهٔ وکتور", "en": "vector component"},
+    {"fa": "متریکس ستونی", "en": "column matrix"},
+    {"fa": "شعاع وکتور", "en": "position vector"}
+  ],
+  "figures": [
+    {"id": "fig1", "bbox": [0.08, 0.33, 0.37, 0.50], "kind": "graph", "description_fa": "وکتور $\\vec{a}$ به شکل شعاع وکتور: تیری از مبدأ O تا نقطهٔ $(3, 2)$. خط‌های نقطه‌چین از نوک تیر به محور x (در ۳) و محور y (در ۲) رسم شده‌اند تا دو مختصهٔ وکتور دیده شوند."},
+    {"id": "fig2", "bbox": [0.43, 0.33, 0.72, 0.50], "kind": "graph", "description_fa": "وکتور $\\vec{b}$ به شکل شعاع وکتور: تیری از مبدأ O تا نقطهٔ $(2, 3)$، با خط‌هایی به ۲ روی محور x و ۳ روی محور y. مقایسه با شکل دیگر نشان می‌دهد که عوض کردن جای مختصه‌ها وکتور دیگری با جهت دیگر می‌سازد."}
+  ],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۱",
+      "problem_fa": "وکتورهای $\\vec{a} = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$ و $\\vec{b} = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$ را در سیستم مختصات قایم نشان دهید.",
+      "steps_fa": [
+        "برای $\\vec{a}$: از مبدأ ۳ واحد به راست و ۲ واحد به بالا می‌رویم و از O تا $(3, 2)$ تیر می‌کشیم.",
+        "برای $\\vec{b}$: از مبدأ ۲ واحد به راست و ۳ واحد به بالا می‌رویم و از O تا $(2, 3)$ تیر می‌کشیم."
+      ],
+      "answer": "دو شعاع وکتور $\\overrightarrow{O(3,2)}$ و $\\overrightarrow{O(2,3)}$ (شکل‌های صفحه)",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین ۱ (a)",
+      "kind": "exercise",
+      "problem_fa": "برای هر یک از وکتورهای مثال ۱، سه وکتور نماینده دریافت کنید.",
+      "solution_steps_fa": [
+        "نمایندهٔ $\\vec{a}$ هر تیری است که از $(p, q)$ تا $(p + 3, q + 2)$ برود؛ مثلاً $(1,1) \\to (4,3)$، $(-2,0) \\to (1,2)$، $(0,-3) \\to (3,-1)$.",
+        "نمایندهٔ $\\vec{b}$ هر تیری است که از $(p, q)$ تا $(p + 2, q + 3)$ برود؛ مثلاً $(1,1) \\to (3,4)$، $(-3,0) \\to (-1,3)$، $(2,-2) \\to (4,1)$."
+      ],
+      "answer": "هر تیری با همان تغییر x و y؛ مثال‌ها در قدم‌ها آمده است.",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (b)",
+      "kind": "exercise",
+      "problem_fa": "هر دو وکتور را در موقعیت شعاع وکتور رسم کنید.",
+      "solution_steps_fa": [
+        "شعاع وکتور از مبدأ شروع می‌شود.",
+        "$\\vec{a}$: از $(0,0)$ تا $(3,2)$؛ $\\vec{b}$: از $(0,0)$ تا $(2,3)$ (مانند شکل‌های مثال ۱)."
+      ],
+      "answer": "$O \\to (3,2)$ و $O \\to (2,3)$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین ۱ (c)",
+      "kind": "exercise",
+      "problem_fa": "وکتورهای مخالف آن‌ها کدام‌اند؟",
+      "solution_steps_fa": [
+        "وکتور مخالف با تغییر علامهٔ هر دو مختصه به دست می‌آید.",
+        "$-\\vec{a} = \\begin{pmatrix} -3 \\\\ -2 \\end{pmatrix}$ و $-\\vec{b} = \\begin{pmatrix} -2 \\\\ -3 \\end{pmatrix}$"
+      ],
+      "answer": "$-\\vec{a} = \\begin{pmatrix} -3 \\\\ -2 \\end{pmatrix}$، $-\\vec{b} = \\begin{pmatrix} -2 \\\\ -3 \\end{pmatrix}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "جواب تمرین (a) یگانه نیست؛ هر تیری با همان مختصه‌ها درست است."
+}

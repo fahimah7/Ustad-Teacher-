@@ -1,0 +1,72 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-math",
+  "pdf_page": 99,
+  "printed_page": 90,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "سیستم معادلات دو مجهولهٔ مثلثاتی",
+  "summary_fa": "نیمهٔ بالای این صفحه حل مثال ۶ (نوع ششم) را تمام می‌کند. از صفحه قبل دو معادلهٔ خطی داریم: $x + y = \\frac{\\pi}{6}$ و $x - y = \\frac{\\pi}{2}$. با جمع آن‌ها $2x = \\frac{4\\pi}{6}$ و $x = \\frac{\\pi}{3}$ می‌شود؛ با گذاشتن x در معادلهٔ اول $y = \\frac{\\pi}{6} - \\frac{\\pi}{3} = -\\frac{\\pi}{6}$ دریافت می‌شود. جواب منفی برای y مشکلی ندارد، چون زاویه‌ها می‌توانند منفی باشند. بعد «تمرین» این بخش می‌آید: دو سیستم معادلات مثلثاتی که باید حل شوند. سیستم (a) از نوع چهارم است (مجموع تانجنت‌ها). در سیستم (b) معادلهٔ دوم به شکلی که چاپ شده $\\frac{\\sin x}{\\cos x} = 2$ است، یعنی $\\tan x = 2$.",
+  "key_points_fa": [
+    "وقتی $x + y$ و $x - y$ معلوم شوند: $x = \\frac{(x+y) + (x-y)}{2}$ و $y = \\frac{(x+y) - (x-y)}{2}$.",
+    "امتحان مثال ۶: $\\frac{\\tan\\frac{\\pi}{3}}{\\tan(-\\frac{\\pi}{6})} = \\frac{\\sqrt{3}}{-\\frac{1}{\\sqrt{3}}} = -3$ درست است.",
+    "در تمرین (a) از $\\tan(x+y)$ حاصل ضرب $\\tan x\\tan y$ پیدا می‌شود، مانند مثال ۴.",
+    "$\\frac{\\sin x}{\\cos x} = \\tan x$"
+  ],
+  "formulas": [
+    {"latex": "\\tan(x + y) = \\frac{\\tan x + \\tan y}{1 - \\tan x\\tan y}", "meaning_fa": "فورمول جمع تانجنت، برای تمرین (a)"},
+    {"latex": "\\frac{\\sin x}{\\cos x} = \\tan x", "meaning_fa": "تعریف تانجنت، برای تمرین (b)"}
+  ],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال ۶ (ادامه)",
+      "problem_fa": "حل سیستم خطی $x + y = \\frac{\\pi}{6}$ (I) و $x - y = \\frac{\\pi}{2}$ (II) که از مثال ۶ به دست آمد.",
+      "steps_fa": [
+        "با جمع: $2x = \\frac{\\pi}{6} + \\frac{\\pi}{2} = \\frac{\\pi + 3\\pi}{6} = \\frac{4\\pi}{6}$",
+        "$x = \\frac{4\\pi}{12} = \\frac{\\pi}{3}$",
+        "در (I): $\\frac{\\pi}{3} + y = \\frac{\\pi}{6} \\Rightarrow y = \\frac{\\pi}{6} - \\frac{\\pi}{3} = \\frac{\\pi - 2\\pi}{6} = -\\frac{\\pi}{6}$"
+      ],
+      "answer": "$x = \\frac{\\pi}{3}$، $y = -\\frac{\\pi}{6}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [
+    {
+      "label_fa": "تمرین a",
+      "kind": "exercise",
+      "problem_fa": "سیستم $x + y = \\frac{\\pi}{4}$ و $\\tan x + \\tan y = 1$ را حل کنید.",
+      "solution_steps_fa": [
+        "نوع چهارم است. شرط: $a^2 - 4 + 4a\\cot\\alpha = 1 - 4 + 4\\cdot 1 = 1 \\ge 0$، پس جواب دارد.",
+        "$\\tan(x+y) = \\tan\\frac{\\pi}{4} = 1$، پس $\\frac{\\tan x + \\tan y}{1 - \\tan x\\tan y} = 1$",
+        "به جای صورت ۱ می‌گذاریم: $\\frac{1}{1 - \\tan x\\tan y} = 1 \\Rightarrow 1 - \\tan x\\tan y = 1 \\Rightarrow \\tan x\\tan y = 0$",
+        "$\\tan x$ و $\\tan y$ جذرهای $t^2 - t + 0 = 0$ اند: $t(t - 1) = 0$، پس $t = 0$ یا $t = 1$",
+        "اگر $\\tan x = 0$ و $\\tan y = 1$: $x = 0$، $y = \\frac{\\pi}{4}$",
+        "اگر $\\tan x = 1$ و $\\tan y = 0$: $x = \\frac{\\pi}{4}$، $y = 0$",
+        "امتحان: در هر دو حالت $x + y = \\frac{\\pi}{4}$ و $\\tan x + \\tan y = 0 + 1 = 1$ است."
+      ],
+      "answer": "$x = 0,\\ y = \\frac{\\pi}{4}$ یا $x = \\frac{\\pi}{4},\\ y = 0$",
+      "solution_source": "generated"
+    },
+    {
+      "label_fa": "تمرین b",
+      "kind": "exercise",
+      "problem_fa": "سیستم $x - y = \\frac{\\pi}{3}$ و $\\frac{\\sin x}{\\cos x} = 2$ را حل کنید.",
+      "solution_steps_fa": [
+        "به شکلی که چاپ شده، معادلهٔ دوم $\\tan x = 2$ است، پس $x = \\arctan 2 \\approx 63.43^\\circ \\approx 1.107$ رادیان.",
+        "از معادلهٔ اول: $y = x - \\frac{\\pi}{3} \\approx 63.43^\\circ - 60^\\circ = 3.43^\\circ \\approx 0.060$ رادیان.",
+        "احتمالاً منظور کتاب $\\frac{\\sin x}{\\sin y} = 2$ (نوع سوم) بوده است. در آن صورت با خاصیت تناسب: $\\frac{\\sin x - \\sin y}{\\sin x + \\sin y} = \\frac{2-1}{2+1} = \\frac{1}{3}$",
+        "با فورمول‌های تحویل: $\\cot\\frac{x+y}{2}\\tan\\frac{x-y}{2} = \\frac{1}{3}$ و $\\tan\\frac{\\pi}{6} = \\frac{1}{\\sqrt{3}}$، پس $\\cot\\frac{x+y}{2} = \\frac{\\sqrt{3}}{3} = \\frac{1}{\\sqrt{3}}$",
+        "$\\frac{x+y}{2} = \\frac{\\pi}{3} \\Rightarrow x + y = \\frac{2\\pi}{3}$؛ با $x - y = \\frac{\\pi}{3}$: $x = \\frac{\\pi}{2}$ و $y = \\frac{\\pi}{6}$",
+        "امتحان: $\\frac{\\sin\\frac{\\pi}{2}}{\\sin\\frac{\\pi}{6}} = \\frac{1}{\\frac{1}{2}} = 2$ درست است."
+      ],
+      "answer": "به شکل چاپ‌شده: $x = \\arctan 2 \\approx 63.43^\\circ$، $y \\approx 3.43^\\circ$. اگر معادله $\\frac{\\sin x}{\\sin y} = 2$ باشد: $x = \\frac{\\pi}{2}$، $y = \\frac{\\pi}{6}$",
+      "solution_source": "generated"
+    }
+  ],
+  "continues_from_previous": true,
+  "continues_on_next": false,
+  "confidence": "medium",
+  "notes": "در تمرین (b) معادلهٔ دوم به شکل $\\frac{\\sin x}{\\cos x} = 2$ چاپ شده که فقط $\\tan x = 2$ است و به زاویهٔ مشهوری نمی‌رسد؛ به احتمال زیاد غلط طباعتی برای $\\frac{\\sin x}{\\sin y} = 2$ است (که با این بخش سازگار است و جواب ساده $x = \\frac{\\pi}{2}$، $y = \\frac{\\pi}{6}$ دارد). هر دو حل داده شده است. در تمرین (a) جواب‌های عمومی هم هستند ($x = k\\pi$، $y = \\frac{\\pi}{4} - k\\pi$ و برعکس)؛ جواب‌های اصلی ذکر شد."
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-phys",
+  "pdf_page": 52,
+  "printed_page": 43,
+  "page_kind": "content",
+  "chapter": 2,
+  "section_fa": "امواج الکترومقناطیسی",
+  "summary_fa": "این صفحه شدت نور را در نقطهٔ تداخل به طور ریاضی حساب می‌کند. موج منبع $s_1$ را $y_1 = A\\sin\\omega t$ و موج منبع $s_2$ را $y_2 = A\\sin(\\omega t + \\varphi)$ می‌گیریم؛ هر دو امپلیتیود یکسان دارند و فرق فاز آن‌ها $\\varphi$ است. در نقطهٔ تداخل دو موج جمع می‌شوند. با فورمول مثلثاتی $\\sin P + \\sin Q = 2\\sin\\frac{P+Q}{2}\\cos\\frac{P-Q}{2}$ و این‌که $\\cos(-\\alpha) = \\cos\\alpha$، موج حاصل $y = 2A\\cos\\frac{\\varphi}{2}\\sin(\\omega t + \\frac{\\varphi}{2})$ می‌شود. این هم یک موج سینوسی با همان فریکونسی است، اما امپلیتیود آن $B = 2A\\cos\\frac{\\varphi}{2}$ است. شدت موج (انرژی منتقل‌شده) با مربع امپلیتیود متناسب است: $I_0 = \\frac{1}{2}\\rho C B^2\\omega^2$. بنابراین اگر شدت هر موج تنها $I_0$ باشد، شدت تداخلی $I = 4I_0\\cos^2\\frac{\\varphi}{2}$ است. پس شدت به فرق فاز دو موج بستگی دارد.",
+  "key_points_fa": [
+    "مجموع دو موج هم‌فریکونسی: $y = 2A\\cos\\frac{\\varphi}{2}\\,\\sin(\\omega t + \\frac{\\varphi}{2})$",
+    "امپلیتیود حاصل: $B = 2A\\cos\\frac{\\varphi}{2}$ که به فرق فاز بستگی دارد.",
+    "شدت موج با مربع امپلیتیود متناسب است: $I \\sim B^2$",
+    "شدت تداخلی: $I = 4I_0\\cos^2\\frac{\\varphi}{2}$؛ بیشترین قیمت آن $4I_0$ و کمترین آن صفر است."
+  ],
+  "formulas": [
+    {"latex": "\\sin P + \\sin Q = 2\\sin\\frac{P+Q}{2}\\cos\\frac{P-Q}{2}", "meaning_fa": "فورمول مثلثاتی جمع دو sin"},
+    {"latex": "y = y_1 + y_2 = 2A\\cos\\frac{\\varphi}{2}\\,\\sin\\left(\\omega t + \\frac{\\varphi}{2}\\right)", "meaning_fa": "موج حاصل از تداخل دو موج با امپلیتیود A و فرق فاز φ"},
+    {"latex": "B^2 = 4A^2\\cos^2\\frac{\\varphi}{2}", "meaning_fa": "مربع امپلیتیود موج حاصل"},
+    {"latex": "I_0 = \\frac{1}{2}\\rho\\,C\\,\\omega^2 A^2", "meaning_fa": "شدت یک موج: ρ کثافت، C سرعت، ω فریکونسی زاویه‌یی، A امپلیتیود"},
+    {"latex": "I = 4\\,I_0\\cos^2\\frac{\\varphi}{2}", "meaning_fa": "شدت نور در نقطهٔ تداخل بر حسب فرق فاز"}
+  ],
+  "terms": [
+    {"fa": "فرق فاز", "en": "phase difference"},
+    {"fa": "فریکونسی زاویه‌یی", "en": "angular frequency (ω)"},
+    {"fa": "شدت انرژی نوری تداخلی", "en": "intensity of interference"},
+    {"fa": "امپلیتیود", "en": "amplitude"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "استخراج شدت تداخلی",
+      "problem_fa": "دو موج $y_1 = A\\sin\\omega t$ و $y_2 = A\\sin(\\omega t + \\varphi)$ در یک نقطه با هم یک‌جا می‌شوند. موج حاصل و شدت آن را به دست آورید.",
+      "steps_fa": [
+        "$\\omega t = P$ و $\\omega t + \\varphi = Q$ می‌گیریم: $y = A(\\sin P + \\sin Q)$.",
+        "با فورمول جمع: $y = 2A\\sin\\frac{2\\omega t + \\varphi}{2}\\cos\\frac{-\\varphi}{2}$.",
+        "چون $\\cos\\frac{-\\varphi}{2} = \\cos\\frac{\\varphi}{2}$: $y = 2A\\cos\\frac{\\varphi}{2}\\sin(\\omega t + \\frac{\\varphi}{2})$.",
+        "امپلیتیود حاصل را $B$ می‌نامیم: $B = 2A\\cos\\frac{\\varphi}{2}$ و $B^2 = 4A^2\\cos^2\\frac{\\varphi}{2}$.",
+        "شدت: $I = \\frac{1}{2}\\rho C\\omega^2 B^2 = 4 \\cdot \\frac{1}{2}\\rho C\\omega^2 A^2\\cos^2\\frac{\\varphi}{2}$.",
+        "چون شدت هر موج تنها $I_1 = I_2 = I_0 = \\frac{1}{2}\\rho C\\omega^2 A^2$ است: $I = 4I_0\\cos^2\\frac{\\varphi}{2}$."
+      ],
+      "answer": "$y = 2A\\cos\\frac{\\varphi}{2}\\sin(\\omega t + \\frac{\\varphi}{2})$ و $I = 4I_0\\cos^2\\frac{\\varphi}{2}$",
+      "solution_source": "book"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "در کتاب، حرف B برای امپلیتیود موج حاصل و C برای سرعت موج به کار رفته است (نه ساحهٔ مقناطیسی)."
+}
