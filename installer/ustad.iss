@@ -101,7 +101,9 @@ Source: "{#Stage}\Ustad.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#Stage}\THIRD_PARTY_NOTICES.txt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#Stage}\llama\*"; DestDir: "{app}\llama"; Flags: ignoreversion recursesubdirs
 Source: "{#Stage}\content\*"; DestDir: "{app}\content"; Flags: ignoreversion recursesubdirs nocompression
-Source: "{#Stage}\models\tutor.gguf"; DestDir: "{app}\models"; Flags: ignoreversion nocompression
+; The model (2.9 GB) is replaced only when a newer one ships: rewriting it on every update would
+; need another 2.9 GB free while the copy is made, and fail on a full disk.
+Source: "{#Stage}\models\tutor.gguf"; DestDir: "{app}\models"; Flags: comparetimestamp nocompression
 Source: "{#Stage}\webview2\MicrosoftEdgeWebView2RuntimeInstallerX64.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall nocompression; Check: NeedsWebView2
 
 [Icons]
