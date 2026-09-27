@@ -141,7 +141,7 @@ export function Talk() {
 
   return (
     <Full bg="#1C1433">
-      <div className="safe-top" style={{ minHeight: "100dvh", display: "flex", flexDirection: "column", alignItems: "center", maxWidth: 560, width: "100%", margin: "0 auto" }}>
+      <div className="safe-top" style={{ minHeight: "var(--app-h)", display: "flex", flexDirection: "column", alignItems: "center", maxWidth: 560, width: "100%", margin: "0 auto" }}>
         <div style={{ alignSelf: "stretch", height: 60, display: "flex", alignItems: "center", padding: "0 12px", gap: 10 }}>
           <IconBtn n="close" bg="rgba(255,255,255,.1)" c="#FFFFFF" s={22} w={2.6} label={m({ en: "Close", fa: "بستن" })} onClick={() => { stopAll(); go(-1); }} />
           <div style={{ flex: 1, font: "800 17px/1 var(--font-latin)", color: "#FFFFFF" }}>{m({ en: "Talk with Ustad", fa: "گفتگو با استاد" })}</div>

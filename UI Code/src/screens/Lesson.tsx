@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { Full } from "../components/Shell";
+import { NavRail } from "../components/Nav";
 import { Art } from "../components/Art";
 import { Icon } from "../components/Icon";
 import { askPanel, Chat } from "../components/Chat";
@@ -131,7 +132,8 @@ function Reader({ book, startLesson, startPage, jumpTo }: { book: Book; startLes
   return (
     <>
       {desk ? (
-        <div className="screen" style={{ height: "100dvh", display: "flex", flexDirection: "row", background: "#3A3350" }}>
+        <div className="screen" style={{ height: "var(--app-h)", display: "flex", flexDirection: "row", background: "#3A3350" }}>
+          <NavRail />
           <div style={{ flex: 1, display: "flex", flexDirection: "column", minWidth: 0 }}>
             {bar}
             {view}
@@ -143,7 +145,7 @@ function Reader({ book, startLesson, startPage, jumpTo }: { book: Book; startLes
         </div>
       ) : (
         <Full>
-          <div style={{ display: "flex", flexDirection: "column", height: "100dvh" }}>
+          <div style={{ display: "flex", flexDirection: "column", height: "var(--app-h)" }}>
             {bar}
             {view}
             <Tray onAsk={ask} onPractice={practice} />

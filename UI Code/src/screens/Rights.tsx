@@ -164,7 +164,7 @@ export function RightsLessonScreen() {
 
   return (
     <Full>
-      <div className="col" style={{ maxWidth: 760, minHeight: "100dvh", display: "flex", flexDirection: "column" }}>
+      <div className="col" style={{ maxWidth: 760, minHeight: "var(--app-h)", display: "flex", flexDirection: "column" }}>
         <div style={{ background: color, paddingTop: "max(var(--safe-top), 10px)", paddingBottom: 18, position: "relative", overflow: "hidden" }}>
           <div style={{ position: "absolute", inset: 0, opacity: 0.25 }}><Art seed={lesson.id} w={390} h={170} cols={5} bg={color} anim /></div>
           <div style={{ position: "relative", display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0 12px" }}>
@@ -315,7 +315,7 @@ export function RolePlay() {
 
   return (
     <Full>
-      <div className="col" style={{ maxWidth: 760, height: "100dvh", display: "flex", flexDirection: "column" }}>
+      <div className="col" style={{ maxWidth: 760, height: "var(--app-h)", display: "flex", flexDirection: "column" }}>
         <div style={{ background: "#FFFFFF", borderBottom: "2px solid #F3ECE2", paddingTop: "max(var(--safe-top), 8px)", flex: "none" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "0 12px 10px" }}>
             <IconBtn n="back" label={m({ en: "Back", fa: "برگشت" })} onClick={() => go(-1)} />
@@ -358,7 +358,7 @@ export function Letters() {
   const leave = () => { closeVoice(); go("/rights", { replace: true }); };
   return (
     <Full>
-      <div className="col" style={{ maxWidth: 720, display: "flex", flexDirection: "column", minHeight: "100dvh", padding: "max(var(--safe-top), 12px) 16px 24px", gap: 12 }}>
+      <div className="col" style={{ maxWidth: 720, display: "flex", flexDirection: "column", minHeight: "var(--app-h)", padding: "max(var(--safe-top), 12px) 16px 24px", gap: 12 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <IconBtn n="close" label={m({ en: "Lock and close", fa: "قفل و بستن" })} onClick={leave} />
           <h1 style={{ flex: 1, margin: 0, font: fontOf(lang, 900, 24, 1.3), color: "#1C1433" }}>{m({ en: "My letters", fa: "نامه‌های من" })}</h1>

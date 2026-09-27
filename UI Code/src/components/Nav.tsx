@@ -106,6 +106,32 @@ export function SideNav({ active, onDoorPress }: { active: Tab | null; onDoorPre
   );
 }
 
+/** Slim side menu (from 1024 px) for full-width screens like the book reader, where the 240 px
+ *  side nav would take room from the page: icons with short labels, the same places. */
+export function NavRail() {
+  const { t, lang } = useLang();
+  const go = useNavigate();
+  const fa = lang !== "en";
+  const item = (k: Tab, label: string, icon: IconName) => (
+    <button key={k} onClick={() => go(PATH[k])} title={label} className="press flat" style={{ width: 72, minHeight: 58, borderRadius: 14, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 4, padding: "6px 2px", color: "#4E4868" }}>
+      <Icon n={icon} s={22} c="#6F6A88" />
+      <span style={{ font: `700 ${fa ? 11.5 : 11}px/1.2 ${fa ? "var(--font-rtl)" : "var(--font-latin)"}`, textAlign: "center" }}>{label}</span>
+    </button>
+  );
+  return (
+    <nav aria-label="Main" style={{ width: 84, flex: "none", height: "var(--app-h)", background: "#FFFFFF", borderInlineEnd: "2px solid #F3ECE2", display: "flex", flexDirection: "column", alignItems: "center", gap: 4, padding: "16px 0" }}>
+      {item("home", t("navHome"), "home")}
+      {item("library", t("navLibrary"), "library")}
+      {item("practice", t("navPractice"), "practice")}
+      {item("me", t("navMyLearning"), "me")}
+      {item("rights", t("navRights"), "heart")}
+      <Press onClick={() => go("/ask")} aria-label={t("askUstad")} title={t("askUstad")} style={{ marginTop: 8, width: 56, height: 56, borderRadius: 16, background: "#D81E57", boxShadow: "0 4px 0 #9A1240", display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <Icon n="ask" s={24} c="#FFFFFF" w={2.4} />
+      </Press>
+    </nav>
+  );
+}
+
 export function greeting(lang: string): string {
   const h = new Date().getHours();
   if (lang !== "en") return h < 12 ? "صبح بخیر" : h < 17 ? "روز بخیر" : "شب بخیر";

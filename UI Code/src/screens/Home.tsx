@@ -176,7 +176,7 @@ function HomeDesk() {
   const part = new Date().getHours() < 12 ? "morning" : new Date().getHours() < 17 ? "afternoon" : "evening";
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100dvh", minHeight: 720 }}>
+    <div style={{ display: "flex", flexDirection: "column", height: "var(--app-h)", minHeight: 720 }}>
       <div style={{ height: 290, background: "#00827E", position: "relative", overflow: "hidden", flex: "none", padding: "44px 44px 0" }}>
         <div style={{ position: "absolute", insetInline: 0, bottom: 0, height: 160, opacity: 0.3 }}><Art seed="band-home" w={390} h={130} cols={6} bg="#00827E" /></div>
         <Floaters />

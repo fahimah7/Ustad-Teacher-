@@ -80,7 +80,7 @@ export function Packs() {
   return (
     <Tabbed tab="me">
       <div className="screen">
-        <div className="col" style={{ maxWidth: 640, paddingTop: "var(--safe-top)", display: "flex", flexDirection: "column", minHeight: "calc(100dvh - var(--nav-h))" }}>
+        <div className="col" style={{ maxWidth: 640, paddingTop: "var(--safe-top)", display: "flex", flexDirection: "column", minHeight: "calc(var(--app-h) - var(--nav-h))" }}>
           <div style={{ padding: "12px 20px 0", display: "flex", alignItems: "center", gap: 6 }}>
             <IconBtn n="back" label={t("back")} onClick={() => go(-1)} style={{ marginInlineStart: -12 }} />
             <h1 className="u-enter" style={{ margin: 0, font: "900 30px/1.2 var(--font-latin)", letterSpacing: "-.02em", color: "#1C1433" }}>{m({ en: "On this device", fa: "در این دستگاه" })}</h1>

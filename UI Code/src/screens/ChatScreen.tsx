@@ -19,7 +19,7 @@ export function ChatScreen() {
   if (desk) {
     return (
       <Tabbed tab="ask" panel={false}>
-        <div className="screen" style={{ height: "100dvh", padding: "24px 44px" }}>
+        <div className="screen" style={{ height: "var(--app-h)", padding: "24px 44px" }}>
           <div style={{ flex: 1, minHeight: 0, maxWidth: 820, width: "100%", margin: "0 auto", borderRadius: 32, overflow: "hidden", boxShadow: "0 7px 0 #E6DCCD", background: "#FFFFFF" }}>
             <Chat lessonId={id} initial={initial} initialIntent={intent} />
           </div>
@@ -29,7 +29,7 @@ export function ChatScreen() {
   }
   return (
     <Full>
-      <div style={{ height: "100dvh", display: "flex", flexDirection: "column" }}><Chat lessonId={id} initial={initial} initialIntent={intent} /></div>
+      <div style={{ height: "var(--app-h)", display: "flex", flexDirection: "column" }}><Chat lessonId={id} initial={initial} initialIntent={intent} /></div>
     </Full>
   );
 }

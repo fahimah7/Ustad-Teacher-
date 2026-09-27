@@ -16,6 +16,7 @@ import { Me } from "./screens/Me";
 import { Letters, Rights, RightsLessonScreen, RolePlay } from "./screens/Rights";
 import { LetterCheck, LetterSent, LetterShare, LetterWrite } from "./screens/Letter";
 import { WelcomeBook, WelcomeGrade, WelcomeName } from "./screens/Welcome";
+import { LangBar } from "./components/LangBar";
 
 /** The second door stays shut unless its vault is open in memory. */
 function Voice({ children }: { children: React.ReactNode }) {
@@ -38,11 +39,12 @@ function Welcomed({ children }: { children: React.ReactNode }) {
 
 function Routed() {
   const { ready } = useApp();
-  if (!ready) return <div style={{ minHeight: "100dvh", background: "#00827E" }} />;
+  if (!ready) return <div style={{ minHeight: "var(--app-h)", background: "#00827E" }} />;
   const w = (el: React.ReactNode) => <Welcomed>{el}</Welcomed>;
   return (
     <>
       <ScrollTop />
+      <LangBar />
       <Routes>
         <Route path="/welcome" element={<WelcomeName />} />
         <Route path="/welcome/grade" element={<WelcomeGrade />} />

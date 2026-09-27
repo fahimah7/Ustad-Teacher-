@@ -80,7 +80,7 @@ export function LetterWrite() {
 
   return (
     <Full>
-      <div style={{ display: "flex", flexDirection: "column", minHeight: "100dvh" }}>
+      <div style={{ display: "flex", flexDirection: "column", minHeight: "var(--app-h)" }}>
         <Top title={m({ en: "Letter to the World", fa: "نامه به جهان" })} onBack={() => go("/rights")} right={
           <div style={{ height: 30, padding: "0 10px", borderRadius: 999, background: "#E0F2DF", display: "flex", alignItems: "center", gap: 5, font: "800 12px/1 var(--font-latin)", color: "#146B2D" }}><Icon n="ondevice" s={15} c="#146B2D" w={2.4} />{t("savedOnThisPhone")}</div>
         } />
@@ -136,7 +136,7 @@ export function LetterCheck() {
 
   return (
     <Full>
-      <div style={{ display: "flex", flexDirection: "column", minHeight: "100dvh" }}>
+      <div style={{ display: "flex", flexDirection: "column", minHeight: "var(--app-h)" }}>
         <Top title={m({ en: "Check your letter", fa: "نامه‌ات را بررسی کن" })} right={<div style={{ font: "800 13px/1 var(--font-latin)", color: "#6F6A88" }}>{m({ en: "Step 2 of 3", fa: "مرحله ۲ از ۳" })}</div>} />
         <div className="col" style={{ flex: 1, maxWidth: 720, padding: 16, display: "flex", flexDirection: "column", gap: 12 }}>
           <div className="u-enter" style={{ display: "flex", gap: 12, alignItems: "center", background: "#E0F2DF", borderRadius: 18, padding: "12px 14px" }}>
@@ -195,7 +195,7 @@ export function LetterShare() {
 
   return (
     <Full>
-      <div style={{ display: "flex", flexDirection: "column", minHeight: "100dvh" }}>
+      <div style={{ display: "flex", flexDirection: "column", minHeight: "var(--app-h)" }}>
         <Top title={m({ en: "Your letter is ready", fa: "نامه‌ات آماده است" })} right={<div style={{ font: "800 13px/1 var(--font-latin)", color: "#6F6A88" }}>{m({ en: "Step 3 of 3", fa: "مرحله ۳ از ۳" })}</div>} />
         <div className="col" style={{ flex: 1, maxWidth: 720, padding: 16, display: "flex", flexDirection: "column", gap: 14 }}>
           <div className="u-enter" style={{ background: "#FFFFFF", borderRadius: 22, padding: 16, boxShadow: "0 4px 0 #EFE6DA", display: "flex", flexDirection: "column", gap: 10 }}>
@@ -254,7 +254,7 @@ export function LetterSent() {
   };
   return (
     <Full bg="#1C1433">
-      <div className="safe-top col" style={{ maxWidth: 560, minHeight: "100dvh", display: "flex", flexDirection: "column" }}>
+      <div className="safe-top col" style={{ maxWidth: 560, minHeight: "var(--app-h)", display: "flex", flexDirection: "column" }}>
         <div className="u-enter" style={{ padding: "28px 24px 0" }}>
           <div style={{ display: "inline-flex", height: 30, padding: "0 12px", borderRadius: 999, background: "#1F8F3F", alignItems: "center", gap: 6, font: "800 12px/1 var(--font-latin)", color: "#FFFFFF" }}><Icon n="check" s={15} c="#FFFFFF" w={3} />{m({ en: "Sealed without your name", fa: "بدون نام تو مهر شد" })}</div>
           <h1 style={{ margin: "14px 0 0", font: "900 32px/1.08 var(--font-latin)", letterSpacing: "-.02em", color: "#FFFFFF" }}>{m({ en: "Your letter is ready to travel.", fa: "نامهٔ شما آمادهٔ سفر است." })}</h1>

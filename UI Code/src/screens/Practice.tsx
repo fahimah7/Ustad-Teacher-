@@ -147,7 +147,7 @@ export function Quiz() {
 
   return (
     <Full bg="#00827E">
-      <div className="safe-top" style={{ minHeight: "100dvh", display: "flex", flexDirection: "column", position: "relative", overflow: "hidden" }}>
+      <div className="safe-top" style={{ minHeight: "var(--app-h)", display: "flex", flexDirection: "column", position: "relative", overflow: "hidden" }}>
         <div style={{ position: "absolute", insetInline: 0, top: 0, height: big ? "100%" : 260, opacity: big ? 0.18 : 0.25, pointerEvents: "none" }}><Art seed="band-quiz" w={390} h={130} cols={6} bg="#00827E" anim /></div>
         {big && <Floaters />}
         {header}

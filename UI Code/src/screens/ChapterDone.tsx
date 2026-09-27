@@ -66,7 +66,7 @@ export function ChapterDone() {
 
   return (
     <Full bg="#1C1433">
-      <div className="safe-top" style={{ minHeight: "100dvh", display: "flex", flexDirection: "column", alignItems: "center", maxWidth: 520, margin: "0 auto", width: "100%" }}>
+      <div className="safe-top" style={{ minHeight: "var(--app-h)", display: "flex", flexDirection: "column", alignItems: "center", maxWidth: 520, margin: "0 auto", width: "100%" }}>
         <div className="u-pop" style={{ marginTop: 40, width: 250, height: 300, borderRadius: "125px 125px 30px 30px", overflow: "hidden", border: "8px solid #FFFFFF", position: "relative", boxShadow: "0 10px 0 #0A0714", flex: "none" }}>
           <div style={{ position: "absolute", inset: 0 }}><Art seed={`chapter-${set.unit}-done`} w={300} h={300} cols={3} bg="#00827E" anim kinds={["star", "window", "circle", "arch", "half", "dots"]} /></div>
           <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}><BigStar s={96} /></div>

@@ -36,7 +36,7 @@ export function Tabbed({ tab, panel = true, children }: { tab: Tab | null; panel
 export function Full({ children, bg = "#FFF8EF" }: { children: React.ReactNode; bg?: string }) {
   const { dir } = useLang();
   return (
-    <div dir={dir} className="screen" style={{ minHeight: "100dvh", background: bg }}>
+    <div dir={dir} className="screen" style={{ minHeight: "var(--app-h)", background: bg }}>
       {children}
     </div>
   );

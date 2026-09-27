@@ -37,7 +37,7 @@ export function Certificates() {
   return (
     <Tabbed tab="me">
       <div className="screen">
-        <div className="col" style={{ maxWidth: 560, paddingTop: "var(--safe-top)", display: "flex", flexDirection: "column", minHeight: "calc(100dvh - var(--nav-h))" }}>
+        <div className="col" style={{ maxWidth: 560, paddingTop: "var(--safe-top)", display: "flex", flexDirection: "column", minHeight: "calc(var(--app-h) - var(--nav-h))" }}>
           <div style={{ height: 56, display: "flex", alignItems: "center", gap: 8, padding: "0 14px 0 6px" }}>
             <IconBtn n="back" label={t("back")} onClick={() => go(-1)} />
             <h1 style={{ flex: 1, margin: 0, font: "900 18px/1 var(--font-latin)", color: "#1C1433" }}>{m({ en: "My certificates", fa: "تصدیق‌نامه‌های من" })}</h1>

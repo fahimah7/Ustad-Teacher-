@@ -42,7 +42,7 @@ export function Search() {
   return (
     <Tabbed tab="library">
       <div className="screen">
-        <div className="col desk-pad" style={{ display: "flex", flexDirection: "column", minHeight: "calc(100dvh - var(--nav-h))", paddingTop: "max(var(--safe-top), 28px)" }}>
+        <div className="col desk-pad" style={{ display: "flex", flexDirection: "column", minHeight: "calc(var(--app-h) - var(--nav-h))", paddingTop: "max(var(--safe-top), 28px)" }}>
           <div style={{ padding: "10px 16px 0", display: "flex", gap: 8, alignItems: "center" }}>
             <IconBtn n="back" label={t("back")} onClick={() => go(-1)} />
             <form onSubmit={(e) => { e.preventDefault(); remember(); if (res?.page) open(res.page.lesson.id, res.page.pdfPage); else if (res?.lessons[0]) open(res.lessons[0].lesson.id, res.lessons[0].pdfPage); }} style={{ flex: 1, height: 52, borderRadius: 18, background: "#FFFFFF", border: `3px solid ${focused ? "#00827E" : "#EFE6DA"}`, boxShadow: focused ? "0 0 0 5px #DDF6F3" : undefined, display: "flex", alignItems: "center", gap: 8, padding: "0 12px", transition: "border-color 160ms, box-shadow 160ms" }}>

@@ -41,8 +41,11 @@ html[dir="rtl"] .scale-fa{font-size:1.08em;line-height:1.7}
 .eyebrow{font:var(--type-eyebrow);letter-spacing:.1em;text-transform:uppercase}
 
 /* ── shell ─────────────────────────────────────────────────────── */
-.shell{min-height:100dvh;display:flex;background:var(--bg)}
-.shell-main{flex:1;min-width:0;display:flex;flex-direction:column;min-height:100dvh;position:relative}
+/* The language bar sits on top of every screen; screens fill the height below it. */
+:root{--top-bar:40px;--app-h:calc(100dvh - var(--top-bar))}
+.lang-bar{position:sticky;top:0;z-index:55;height:var(--top-bar);display:flex;align-items:center;justify-content:flex-end;padding:0 14px;background:#FFFFFF;border-bottom:1px solid #ECE5D8}
+.shell{min-height:var(--app-h);display:flex;background:var(--bg)}
+.shell-main{flex:1;min-width:0;display:flex;flex-direction:column;min-height:var(--app-h);position:relative}
 .screen{flex:1;display:flex;flex-direction:column;min-height:0;position:relative;animation:uScreenIn 260ms var(--ease-settle) backwards}
 .with-nav .screen{padding-bottom:calc(var(--nav-h) + var(--safe-bottom))}
 .bottom-nav{position:fixed;inset-inline:0;bottom:0;z-index:30;padding-bottom:var(--safe-bottom);background:#FFFFFF}
@@ -64,8 +67,8 @@ html[dir="rtl"] .scale-fa{font-size:1.08em;line-height:1.7}
 @media (min-width:1024px){
   .with-nav .screen{padding-bottom:0}
   .bottom-nav{display:none}
-  .side-nav{display:flex;position:sticky;top:0;height:100dvh;flex:none;width:var(--side-nav-w)}
-  .ustad-panel{display:flex;position:sticky;top:0;height:100dvh;flex:none;width:var(--panel-w)}
+  .side-nav{display:flex;position:sticky;top:var(--top-bar);height:var(--app-h);flex:none;width:var(--side-nav-w)}
+  .ustad-panel{display:flex;position:sticky;top:var(--top-bar);height:var(--app-h);flex:none;width:var(--panel-w)}
   .phone-only{display:none!important}
   .desk-only{display:revert!important}
   .col{max-width:none}
