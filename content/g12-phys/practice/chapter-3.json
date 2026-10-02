@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-phys",
+  "chapter": 3,
+  "title": {
+    "en": "Mechanical properties of matter",
+    "fa": "خواص میخانیکی ماده"
+  },
+  "questions": [
+    {
+      "pdf_page": 67,
+      "q": {
+        "en": "When ice melts and becomes water, what changes?",
+        "fa": "وقتی یخ ذوب شده به آب تبدیل می‌شود، چه چیز تغییر می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "The water molecules change into new molecules.",
+          "fa": "مالیکول‌های آب به مالیکول‌های تازه تبدیل می‌شوند."
+        },
+        {
+          "en": "The distance between the molecules and the strength of the bonds between them.",
+          "fa": "فاصلهٔ میان مالیکول‌ها و قوت ارتباط میان آن‌ها."
+        },
+        {
+          "en": "The mass of the substance.",
+          "fa": "کتلهٔ ماده."
+        },
+        {
+          "en": "The number of atoms in each molecule.",
+          "fa": "تعداد اتوم‌های هر مالیکول."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In a change of state the molecules themselves stay the same. The heat given to the ice loosens the bonds between the molecules and they move a little farther apart, so the solid becomes a liquid.",
+        "fa": "در تغییر حالت، خود مالیکول‌ها عوض نمی‌شوند. حرارتی که به یخ داده می‌شود ارتباط میان مالیکول‌ها را سست می‌سازد و فاصلهٔ آن‌ها کمی زیاد می‌شود، پس جامد مایع می‌شود."
+      },
+      "idea": {
+        "en": "Ice, water and steam are all $\\mathrm{H_2O}$. Think about what keeps a solid in its shape and what lets a liquid flow.",
+        "fa": "یخ، آب و بخار همه $\\mathrm{H_2O}$ اند. فکر کنید چه چیز جامد را به شکل خود نگه می‌دارد و چه چیز مایع را جاری می‌سازد."
+      }
+    },
+    {
+      "pdf_page": 69,
+      "q": {
+        "en": "A piece of metal with a volume of $20\\,\\mathrm{cm^3}$ has a mass of $54\\,\\mathrm{g}$. What is its density in $\\mathrm{kg/m^3}$?",
+        "fa": "حجم یک پارچهٔ فلز $20\\,\\mathrm{cm^3}$ و کتلهٔ آن $54\\,\\mathrm{g}$ است. کثافت آن به $\\mathrm{kg/m^3}$ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$2.7\\,\\mathrm{kg/m^3}$",
+          "fa": "$2.7\\,\\mathrm{kg/m^3}$"
+        },
+        {
+          "en": "$370\\,\\mathrm{kg/m^3}$",
+          "fa": "$370\\,\\mathrm{kg/m^3}$"
+        },
+        {
+          "en": "$1080\\,\\mathrm{kg/m^3}$",
+          "fa": "$1080\\,\\mathrm{kg/m^3}$"
+        },
+        {
+          "en": "$2700\\,\\mathrm{kg/m^3}$",
+          "fa": "$2700\\,\\mathrm{kg/m^3}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$\\rho = \\frac{m}{V} = \\frac{54\\,\\mathrm{g}}{20\\,\\mathrm{cm^3}} = 2.7\\,\\mathrm{g/cm^3}$, and $1\\,\\mathrm{g/cm^3} = 1000\\,\\mathrm{kg/m^3}$, so $\\rho = 2700\\,\\mathrm{kg/m^3}$.",
+        "fa": "$\\rho = \\frac{m}{V} = \\frac{54\\,\\mathrm{g}}{20\\,\\mathrm{cm^3}} = 2.7\\,\\mathrm{g/cm^3}$ است و $1\\,\\mathrm{g/cm^3} = 1000\\,\\mathrm{kg/m^3}$، پس $\\rho = 2700\\,\\mathrm{kg/m^3}$."
+      },
+      "idea": {
+        "en": "Density is mass divided by volume. Then change the unit: $1\\,\\mathrm{g/cm^3} = \\frac{10^{-3}\\,\\mathrm{kg}}{10^{-6}\\,\\mathrm{m^3}} = 1000\\,\\mathrm{kg/m^3}$.",
+        "fa": "کثافت کتله تقسیم بر حجم است. بعد واحد را تبدیل کنید: $1\\,\\mathrm{g/cm^3} = \\frac{10^{-3}\\,\\mathrm{kg}}{10^{-6}\\,\\mathrm{m^3}} = 1000\\,\\mathrm{kg/m^3}$."
+      }
+    },
+    {
+      "pdf_page": 73,
+      "q": {
+        "en": "A $50\\,\\mathrm{kg}$ body hangs from a wire with a cross-section of $2\\,\\mathrm{mm^2}$ ($g = 10\\,\\mathrm{m/s^2}$). What is the stress in the wire?",
+        "fa": "جسمی به کتلهٔ $50\\,\\mathrm{kg}$ از سیمی آویزان است که مساحت مقطع آن $2\\,\\mathrm{mm^2}$ است ($g = 10\\,\\mathrm{m/s^2}$). تنش (فشار تراکمی) در سیم چند است؟"
+      },
+      "options": [
+        {
+          "en": "$2.5\\times10^{8}\\,\\mathrm{Pa}$",
+          "fa": "$2.5\\times10^{8}\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$2.5\\times10^{7}\\,\\mathrm{Pa}$",
+          "fa": "$2.5\\times10^{7}\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$2.5\\times10^{5}\\,\\mathrm{Pa}$",
+          "fa": "$2.5\\times10^{5}\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$250\\,\\mathrm{Pa}$",
+          "fa": "$250\\,\\mathrm{Pa}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The force is the weight: $F = mg = 50 \\times 10 = 500\\,\\mathrm{N}$. With $A = 2\\,\\mathrm{mm^2} = 2\\times10^{-6}\\,\\mathrm{m^2}$: $\\delta = \\frac{F}{A} = \\frac{500}{2\\times10^{-6}} = 2.5\\times10^{8}\\,\\mathrm{Pa}$.",
+        "fa": "قوه وزن جسم است: $F = mg = 50 \\times 10 = 500\\,\\mathrm{N}$. با $A = 2\\,\\mathrm{mm^2} = 2\\times10^{-6}\\,\\mathrm{m^2}$: $\\delta = \\frac{F}{A} = \\frac{500}{2\\times10^{-6}} = 2.5\\times10^{8}\\,\\mathrm{Pa}$."
+      },
+      "idea": {
+        "en": "Use the weight $mg$ as the force, not the mass, and remember that $1\\,\\mathrm{mm^2} = 10^{-6}\\,\\mathrm{m^2}$, because $1\\,\\mathrm{mm} = 10^{-3}\\,\\mathrm{m}$.",
+        "fa": "به جای کتله، وزن $mg$ را قوه بگیرید و به یاد داشته باشید که $1\\,\\mathrm{mm^2} = 10^{-6}\\,\\mathrm{m^2}$ است، چون $1\\,\\mathrm{mm} = 10^{-3}\\,\\mathrm{m}$."
+      }
+    },
+    {
+      "pdf_page": 75,
+      "q": {
+        "en": "A wire $2\\,\\mathrm{m}$ long with a cross-section of $1\\,\\mathrm{mm^2}$ stretches by $1\\,\\mathrm{mm}$ under a force of $100\\,\\mathrm{N}$. What is Young's modulus $E$ of its material?",
+        "fa": "سیمی به طول $2\\,\\mathrm{m}$ و مقطع $1\\,\\mathrm{mm^2}$ زیر قوهٔ $100\\,\\mathrm{N}$ به اندازهٔ $1\\,\\mathrm{mm}$ دراز می‌شود. مودول یونگ ($E$) مادهٔ آن چند است؟"
+      },
+      "options": [
+        {
+          "en": "$2\\times10^{8}\\,\\mathrm{Pa}$",
+          "fa": "$2\\times10^{8}\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$5\\times10^{4}\\,\\mathrm{Pa}$",
+          "fa": "$5\\times10^{4}\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$2\\times10^{11}\\,\\mathrm{Pa}$",
+          "fa": "$2\\times10^{11}\\,\\mathrm{Pa}$"
+        },
+        {
+          "en": "$2\\times10^{5}\\,\\mathrm{Pa}$",
+          "fa": "$2\\times10^{5}\\,\\mathrm{Pa}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The stress is $P = \\frac{F}{A} = \\frac{100}{10^{-6}} = 10^{8}\\,\\mathrm{Pa}$ and the relative stretch is $\\frac{\\Delta L}{L} = \\frac{10^{-3}}{2} = 5\\times10^{-4}$. So $E = \\frac{P}{\\Delta L/L} = \\frac{10^{8}}{5\\times10^{-4}} = 2\\times10^{11}\\,\\mathrm{Pa}$.",
+        "fa": "تنش $P = \\frac{F}{A} = \\frac{100}{10^{-6}} = 10^{8}\\,\\mathrm{Pa}$ و درازی نسبی $\\frac{\\Delta L}{L} = \\frac{10^{-3}}{2} = 5\\times10^{-4}$ است. پس $E = \\frac{P}{\\Delta L/L} = \\frac{10^{8}}{5\\times10^{-4}} = 2\\times10^{11}\\,\\mathrm{Pa}$."
+      },
+      "idea": {
+        "en": "From $P = E\\frac{\\Delta L}{L}$, Young's modulus is the stress divided by the relative stretch, not multiplied by it. Put all lengths and areas in metres first.",
+        "fa": "از $P = E\\frac{\\Delta L}{L}$، مودول یونگ تنش تقسیم بر درازی نسبی است، نه ضرب آن. اول همهٔ طول‌ها و مساحت‌ها را به متر بنویسید."
+      }
+    },
+    {
+      "pdf_page": 77,
+      "q": {
+        "en": "Two equal and opposite forces act along the top and bottom faces of a block. The block tilts, but its volume does not change. Which quantity describes how strongly the material resists this change?",
+        "fa": "دو قوهٔ مساوی و مخالف به طور مماسی بر سطح بالایی و پایینی یک بلاک وارد می‌شوند. بلاک کج می‌شود، ولی حجم آن تغییر نمی‌کند. کدام کمیت مقاومت ماده را در برابر این تغییر شکل بیان می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "Young's modulus $E$",
+          "fa": "مودول یونگ ($E$)"
+        },
+        {
+          "en": "Shear modulus $S$",
+          "fa": "مودول شیر ($S$)"
+        },
+        {
+          "en": "Bulk modulus $B$",
+          "fa": "مودول بلک ($B$)"
+        },
+        {
+          "en": "Specific gravity",
+          "fa": "وزن مخصوصه"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In shear, forces parallel to the faces make the layers slide over each other: the shape changes but the volume stays the same. This is measured by the shear modulus $S = \\frac{F L_0}{A\\,\\Delta L}$.",
+        "fa": "در شیر، قوه‌های موازی با سطح لایه‌ها را روی هم می‌لغزانند: شکل جسم تغییر می‌کند ولی حجم آن ثابت می‌ماند. این را مودول شیر $S = \\frac{F L_0}{A\\,\\Delta L}$ اندازه می‌کند."
+      },
+      "idea": {
+        "en": "Match each modulus with its change: Young's modulus with a change of length, the bulk modulus with a change of volume, the shear modulus with a change of shape.",
+        "fa": "هر مودول را با نوع تغییر آن مقایسه کنید: مودول یونگ برای تغییر طول، مودول بلک برای تغییر حجم و مودول شیر برای تغییر شکل."
+      }
+    }
+  ]
+}

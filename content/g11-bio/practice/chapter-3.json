@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 3,
+  "title": {
+    "en": "The cell and its environment: passive and active transport",
+    "fa": "حجره و محیط آن، انتقال غیر فعال و انتقال فعال"
+  },
+  "questions": [
+    {
+      "pdf_page": 37,
+      "q": {
+        "en": "What is diffusion?",
+        "fa": "عملیهٔ نفوذ (انتشار) چیست؟"
+      },
+      "options": [
+        {
+          "en": "The movement of molecules from a dilute region to a concentrated region, using energy",
+          "fa": "حرکت مالیکول‌ها از محیط رقیق به محیط غلیظ با مصرف انرژی"
+        },
+        {
+          "en": "The passage of water alone through a semi-permeable membrane",
+          "fa": "عبور تنها آب از یک پردهٔ نیمه‌قابل نفوذ"
+        },
+        {
+          "en": "Taking solid particles into the cell inside a vesicle",
+          "fa": "داخل کردن ذرات جامد به حجره در یک خریطه (ویزیکل)"
+        },
+        {
+          "en": "The movement of molecules or ions from a concentrated region to a dilute region, without using energy",
+          "fa": "حرکت مالیکول‌ها یا آیون‌ها از محیط غلیظ به محیط رقیق، بدون مصرف انرژی"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "In diffusion particles spread by themselves from where they are concentrated to where they are dilute until the concentration is the same everywhere, as when a dye spreads in water.",
+        "fa": "در نفوذ ذرات خودبه‌خود از جای غلیظ به جای رقیق پخش می‌شوند تا غلظت همه جا برابر شود؛ مانند پخش شدن رنگ در آب."
+      },
+      "idea": {
+        "en": "Diffusion is a kind of passive transport. Does passive transport use energy, and which way does it go?",
+        "fa": "نفوذ یک نوع انتقال غیر فعال است؛ آیا انتقال غیر فعال انرژی مصرف می‌کند و به کدام جهت صورت می‌گیرد؟"
+      }
+    },
+    {
+      "pdf_page": 39,
+      "q": {
+        "en": "A semi-permeable membrane separates pure water from a concentrated sugar solution. The sugar molecules are too big to pass through it. What happens?",
+        "fa": "یک پردهٔ نیمه‌قابل نفوذ آب خالص را از محلول غلیظ بوره جدا کرده است و مالیکول‌های بوره از پرده گذشته نمی‌توانند. چه واقع می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Sugar moves from the solution into the pure water.",
+          "fa": "بوره از محلول به طرف آب خالص می‌رود."
+        },
+        {
+          "en": "More water moves from the pure water into the sugar solution.",
+          "fa": "آب بیشتر از طرف آب خالص به طرف محلول بوره می‌رود."
+        },
+        {
+          "en": "More water moves from the sugar solution into the pure water.",
+          "fa": "آب بیشتر از طرف محلول بوره به طرف آب خالص می‌رود."
+        },
+        {
+          "en": "Nothing moves, because osmosis needs energy.",
+          "fa": "هیچ چیز حرکت نمی‌کند، چون آسموسیس به انرژی ضرورت دارد."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In osmosis water passes through the membrane from where there are more water molecules (pure water) to where there are fewer (the sugar solution), and no energy is used.",
+        "fa": "در آسموسیس آب از جایی که مالیکول‌های آب زیاد است (آب خالص) به جایی که کم‌تر است (محلول بوره) از پرده می‌گذرد و انرژی مصرف نمی‌شود."
+      },
+      "idea": {
+        "en": "Only water can cross this membrane. Which side has more water molecules?",
+        "fa": "تنها آب از این پرده گذشته می‌تواند؛ در کدام طرف مالیکول‌های آب بیشتر است؟"
+      }
+    },
+    {
+      "pdf_page": 41,
+      "q": {
+        "en": "A red blood cell is put into pure (distilled) water. What happens to it?",
+        "fa": "یک حجرهٔ کرویات سرخ در آب خالص (آب مقطر) گذاشته می‌شود. چه حالتی برایش پیش می‌آید؟"
+      },
+      "options": [
+        {
+          "en": "Water enters it, it swells and finally bursts.",
+          "fa": "آب داخل آن می‌شود، پندیده می‌شود و در آخر می‌ترکد."
+        },
+        {
+          "en": "Water leaves it and it shrinks (plasmolysis).",
+          "fa": "آب از آن خارج می‌شود و چملک می‌گردد (پلاسمولیسز)."
+        },
+        {
+          "en": "It swells, but its cell wall stops it from bursting.",
+          "fa": "پندیده می‌شود، ولی دیوار حجروی‌اش نمی‌گذارد بترکد."
+        },
+        {
+          "en": "Nothing changes, because the water is isotonic with the cell.",
+          "fa": "هیچ تغییری نمی‌کند، چون آب با حجره ایزوتونیک است."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Pure water is hypotonic to the cell, so water enters by osmosis; an animal cell has no cell wall, so it swells and bursts (hemolysis).",
+        "fa": "آب خالص نسبت به حجره هایپوتونیک است، پس آب با آسموسیس داخل حجره می‌شود؛ حجرهٔ حیوانی دیوار حجروی ندارد، به همین سبب پندیده شده می‌ترکد (Hemolysis)."
+      },
+      "idea": {
+        "en": "Compare the concentration inside the cell with pure water, and remember which cells have a cell wall.",
+        "fa": "غلظت داخل حجره را با آب خالص مقایسه کنید و به یاد بیاورید که کدام حجرات دیوار حجروی دارند."
+      }
+    },
+    {
+      "pdf_page": 43,
+      "q": {
+        "en": "White blood cells and the amoeba take in solid particles by folding their cell membrane around them. What is this process called?",
+        "fa": "کرویات سفید و امیب ذرات جامد را با پیچاندن غشای حجروی به دور آن‌ها به داخل حجره می‌برند. نام این عملیه چیست؟"
+      },
+      "options": [
+        {
+          "en": "Pinocytosis",
+          "fa": "پینوسایتوسز"
+        },
+        {
+          "en": "Exocytosis",
+          "fa": "اکزوسایتوسز"
+        },
+        {
+          "en": "Phagocytosis",
+          "fa": "فاگوسایتوسز"
+        },
+        {
+          "en": "Osmosis",
+          "fa": "آسموسیس"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Phagocytosis is the kind of endocytosis in which solid particles are taken in; it is active transport and uses energy. Taking in droplets of liquid is pinocytosis.",
+        "fa": "فاگوسایتوسز نوعی اندوسایتوسز است که در آن ذرات جامد داخل حجره برده می‌شوند؛ این یک انتقال فعال است و انرژی مصرف می‌کند. داخل کردن قطره‌های مایع پینوسایتوسز نام دارد."
+      },
+      "idea": {
+        "en": "The particles are solid and they go into the cell. Which word means taking in solids?",
+        "fa": "ذرات جامد اند و داخل حجره می‌روند؛ کدام اصطلاح برای داخل کردن مواد جامد است؟"
+      }
+    },
+    {
+      "pdf_page": 44,
+      "q": {
+        "en": "A vesicle carrying undigested material moves to the cell membrane, joins it and empties its contents outside the cell. What is this process called?",
+        "fa": "یک خریطه (ویزیکل) که مواد هضم‌ناشده را دارد به طرف غشای حجروی می‌رود، با غشا یکجا می‌شود و مواد را به بیرون حجره می‌ریزد. نام این عملیه چیست؟"
+      },
+      "options": [
+        {
+          "en": "Endocytosis",
+          "fa": "اندوسایتوسز"
+        },
+        {
+          "en": "Diffusion",
+          "fa": "نفوذ"
+        },
+        {
+          "en": "Plasmolysis",
+          "fa": "پلاسمولیسز"
+        },
+        {
+          "en": "Exocytosis",
+          "fa": "اکزوسایتوسز"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Exocytosis is the reverse of endocytosis: the cell removes undigested or waste material in a vesicle. It is also active transport and uses energy.",
+        "fa": "اکزوسایتوسز برعکس اندوسایتوسز است: حجره مواد هضم‌ناشده یا فاضله را با یک ویزیکل بیرون می‌کند؛ این هم انتقال فعال است و انرژی مصرف می‌کند."
+      },
+      "idea": {
+        "en": "Endocytosis takes material into the cell. What is the opposite process, out of the cell, called?",
+        "fa": "اندوسایتوسز مواد را داخل حجره می‌برد؛ عملیهٔ برعکس آن، یعنی بیرون کردن مواد از حجره، چه نام دارد؟"
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-bio",
+  "chapter": 2,
+  "title": {
+    "en": "Metabolism and inorganic compounds",
+    "fa": "متابولیزم و مرکبات غیر عضوی"
+  },
+  "questions": [
+    {
+      "pdf_page": 18,
+      "q": {
+        "en": "Which of these changes is an example of catabolism?",
+        "fa": "کدام یک از این تغییرات مثال کتابولیزم است؟"
+      },
+      "options": [
+        {
+          "en": "Amino acids join to make a protein",
+          "fa": "امینو اسیدها یکجا شده پروتین می‌سازند"
+        },
+        {
+          "en": "Starch is broken down into glucose",
+          "fa": "نشایسته به گلوکوز تجزیه می‌شود"
+        },
+        {
+          "en": "A plant makes glucose from $\\mathrm{CO_2}$ and water",
+          "fa": "نبات از $\\mathrm{CO_2}$ و آب گلوکوز می‌سازد"
+        },
+        {
+          "en": "Many glucose molecules join to make starch",
+          "fa": "مولیکول‌های زیاد گلوکوز یکجا شده نشایسته می‌سازند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Catabolism breaks complex substances into simpler ones and usually releases energy; the book's examples are protein → amino acids, starch → glucose and fat → fatty acids and glycerol. The other three changes build complex substances (anabolism).",
+        "fa": "کتابولیزم مواد مغلق را به مواد ساده‌تر تجزیه می‌کند و اکثراً انرژی آزاد می‌سازد؛ مثال‌های کتاب: پروتین ← امینو اسید، نشایسته ← گلوکوز و شحم ← تیزاب‌های شحمی و گلیسرول. سه تغییر دیگر مواد مغلق می‌سازند (انابولیزم)."
+      },
+      "idea": {
+        "en": "Ask whether the change goes from complex to simple (catabolism) or from simple to complex (anabolism).",
+        "fa": "ببینید تغییر از مغلق به ساده است (کتابولیزم) یا از ساده به مغلق (انابولیزم)."
+      }
+    },
+    {
+      "pdf_page": 19,
+      "q": {
+        "en": "In a young animal, anabolism is faster than catabolism. What happens to the animal?",
+        "fa": "در یک حیوان جوان، انابولیزم از کتابولیزم سریع‌تر است. برای این حیوان چه رخ می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "It neither grows nor loses weight",
+          "fa": "نه نمو می‌کند و نه وزنش کم می‌شود"
+        },
+        {
+          "en": "It uses up its stored substances and loses weight",
+          "fa": "مواد ذخیره‌شده‌اش را مصرف کرده وزنش کم می‌شود"
+        },
+        {
+          "en": "It grows or stores complex substances",
+          "fa": "نمو می‌کند یا مواد مغلق را در خود ذخیره می‌کند"
+        },
+        {
+          "en": "Its metabolism stops",
+          "fa": "متابولیزم آن متوقف می‌شود"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "When anabolism is greater than catabolism, more complex substances are built than broken down, so the animal grows or stores them. Equal rates keep the weight the same; more catabolism uses up the stores.",
+        "fa": "وقتی انابولیزم از کتابولیزم بیشتر باشد، مواد مغلق بیشتر از آنچه تجزیه می‌شوند ساخته می‌شوند؛ پس حیوان نمو می‌کند یا آن‌ها را ذخیره می‌کند. اگر هر دو یکسان باشند وزن ثابت می‌ماند و اگر کتابولیزم بیشتر باشد ذخیره مصرف می‌شود."
+      },
+      "idea": {
+        "en": "Anabolism builds and catabolism breaks down. If building is faster, what happens to the amount of material in the body?",
+        "fa": "انابولیزم می‌سازد و کتابولیزم تجزیه می‌کند. اگر ساختن سریع‌تر باشد، مقدار مواد بدن چه می‌شود؟"
+      }
+    },
+    {
+      "pdf_page": 20,
+      "q": {
+        "en": "Why does the water in our body protect it from sudden changes in temperature?",
+        "fa": "چرا آب بدن ما، بدن را از تغییرات ناگهانی درجهٔ حرارت حفظ می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "Because water needs a lot of heat to warm up",
+          "fa": "زیرا آب برای گرم شدن حرارت زیاد لازم دارد"
+        },
+        {
+          "en": "Because water warms up faster than copper",
+          "fa": "زیرا آب از مس زودتر گرم می‌شود"
+        },
+        {
+          "en": "Because water makes heat by itself",
+          "fa": "زیرا آب خودش حرارت تولید می‌کند"
+        },
+        {
+          "en": "Because water does not take part in chemical reactions",
+          "fa": "زیرا آب در تعاملات کیمیاوی حصه نمی‌گیرد"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The book holds $50\\,\\mathrm{g}$ of copper wire and $50\\,\\mathrm{g}$ of water over a flame for ten seconds: the copper gets very hot, but the water's temperature hardly changes. Water needs much more heat to change its temperature, so a body full of water keeps a steady temperature.",
+        "fa": "کتاب $50\\,\\mathrm{g}$ سیم مسی و $50\\,\\mathrm{g}$ آب را هر کدام ده ثانیه روی شعلهٔ آتش می‌گیرد: مس بسیار گرم می‌شود، ولی درجهٔ حرارت آب تغییر قابل ملاحظه نمی‌کند. آب برای تغییر درجهٔ حرارت خود حرارت بسیار بیشتر لازم دارد؛ پس بدنِ آب‌دار درجهٔ حرارت ثابت دارد."
+      },
+      "idea": {
+        "en": "Remember the activity with the copper wire and the water: which one got hot quickly and which one did not?",
+        "fa": "فعالیت سیم مسی و آب را به یاد آورید: کدام زود گرم شد و کدام نشد؟"
+      }
+    },
+    {
+      "pdf_page": 20,
+      "q": {
+        "en": "The body needs less than $100$ milligrams of an element each day. According to the book, which group does it belong to, and which element is an example?",
+        "fa": "بدن روزانه کمتر از $100$ ملی‌گرام یک عنصر را ضرورت دارد. طبق کتاب، این عنصر از کدام گروپ است و مثال آن کدام است؟"
+      },
+      "options": [
+        {
+          "en": "Macro elements, for example calcium",
+          "fa": "عناصر پر مصرف، مانند کلسیم"
+        },
+        {
+          "en": "Macro elements, for example fluorine",
+          "fa": "عناصر پر مصرف، مانند فلورین"
+        },
+        {
+          "en": "Trace elements, for example sodium",
+          "fa": "عناصر کم مصرف، مانند سودیم"
+        },
+        {
+          "en": "Trace elements, for example iodine",
+          "fa": "عناصر کم مصرف، مانند آیودین"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Elements needed at less than $100\\,\\mathrm{mg}$ a day are trace elements, such as iodine and fluorine. Sodium, calcium, iron and phosphorus are the book's examples of macro elements (more than $100\\,\\mathrm{mg}$ a day).",
+        "fa": "عناصری که روزانه کمتر از $100$ ملی‌گرام ضرورت اند عناصر کم مصرف اند، مانند آیودین و فلورین. سودیم، کلسیم، آهن و فاسفورس مثال‌های کتاب برای عناصر پر مصرف (بیشتر از $100$ ملی‌گرام در روز) اند."
+      },
+      "idea": {
+        "en": "First decide the group from the $100\\,\\mathrm{mg}$ limit, then check which example really belongs to that group.",
+        "fa": "اول از حد $100$ ملی‌گرام گروپ را تعیین کنید، بعد ببینید کدام مثال واقعاً در همان گروپ است."
+      }
+    },
+    {
+      "pdf_page": 24,
+      "q": {
+        "en": "Why does a lack of iron make a person weak and tired?",
+        "fa": "چرا کمبود آهن شخص را ضعیف و خسته می‌سازد؟"
+      },
+      "options": [
+        {
+          "en": "Because the bones and teeth become soft",
+          "fa": "زیرا استخوان‌ها و دندان‌ها نرم می‌شوند"
+        },
+        {
+          "en": "Because the thyroid gland becomes large",
+          "fa": "زیرا غدهٔ تایراید بزرگ می‌شود"
+        },
+        {
+          "en": "Because there is less haemoglobin, so the blood carries less oxygen",
+          "fa": "زیرا هموگلوبین کم می‌شود و خون اکسیجن کمتر انتقال می‌دهد"
+        },
+        {
+          "en": "Because the nerves become active by themselves",
+          "fa": "زیرا اعصاب خودبه‌خود فعال می‌شوند"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Iron is part of haemoglobin, the protein of red blood cells that carries oxygen to the whole body. With little iron there is less haemoglobin, the blood carries less oxygen and the person becomes weak and tired; this is anaemia.",
+        "fa": "آهن جزء هموگلوبین است، یعنی پروتین حجرات سرخ خون که اکسیجن را به تمام بدن می‌برد. با کمبود آهن هموگلوبین کم می‌شود، خون اکسیجن کمتر انتقال می‌دهد و شخص ضعیف و خسته می‌شود؛ این حالت کم‌خونی نام دارد."
+      },
+      "idea": {
+        "en": "Soft bones come from too little calcium, a large thyroid (goitre) from too little iodine, and active nerves from too little calcium in the blood. What does iron do in the blood?",
+        "fa": "نرمی استخوان از کمبود کلسیم، بزرگ شدن تایراید (جاغور) از کمبود آیودین و فعال شدن اعصاب از کمبود کلسیم خون است. آهن در خون چه کار می‌کند؟"
+      }
+    }
+  ]
+}

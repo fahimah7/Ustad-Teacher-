@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-phys",
+  "chapter": 5,
+  "title": {
+    "en": "Atomic physics",
+    "fa": "فزیک اتومی"
+  },
+  "questions": [
+    {
+      "pdf_page": 123,
+      "q": {
+        "en": "White light passes through sodium vapour, and dark lines appear in its spectrum. Where are these dark lines?",
+        "fa": "نور سفید از بخار سودیم می‌گذرد و در طیف آن خط‌های تاریک پیدا می‌شوند. این خط‌های تاریک در کجا قرار دارند؟"
+      },
+      "options": [
+        {
+          "en": "At the same wavelengths as the bright lines of the sodium emission spectrum",
+          "fa": "در همان طول موج‌های خط‌های روشن طیف نشری سودیم"
+        },
+        {
+          "en": "At random wavelengths that change every time",
+          "fa": "در طول موج‌های تصادفی که هر بار تغییر می‌کنند"
+        },
+        {
+          "en": "Only in the infrared part of the spectrum",
+          "fa": "تنها در ناحیهٔ تحت قرمز طیف"
+        },
+        {
+          "en": "At the same wavelengths for every element",
+          "fa": "در طول موج‌های یکسان برای همهٔ عناصر"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "An atom absorbs from white light exactly the wavelengths that it emits itself when it is heated or excited. So the dark lines of the absorption spectrum sit where the bright lines of the emission spectrum are, and they identify the element like a fingerprint.",
+        "fa": "اتم هر عنصر از نور سفید همان طول موج‌هایی را جذب می‌کند که خودش هنگام گرم شدن یا برانگیخته شدن پخش می‌کند. پس خط‌های تاریک طیف جذبی در جای خط‌های روشن طیف نشری اند و مانند اثر انگشت عنصر را معرفی می‌کنند."
+      },
+      "idea": {
+        "en": "Each element has its own wavelengths, and they are the same for emission and absorption. The dark Fraunhofer lines in sunlight are made in this way.",
+        "fa": "هر عنصر طول موج‌های مخصوص خود را دارد و این طول موج‌ها در نشر و جذب یکی اند. خط‌های تاریک فرانهوفر در طیف آفتاب هم به همین ترتیب پیدا می‌شوند."
+      }
+    },
+    {
+      "pdf_page": 128,
+      "q": {
+        "en": "Light of one frequency, higher than the cutoff frequency, falls on a metal. If the intensity of the light is doubled, what happens?",
+        "fa": "نوری با یک فریکونسی معین، بلندتر از فریکونسی قطع، بر یک فلز می‌تابد. اگر شدت نور دو برابر شود، چه می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "The stopping voltage $V_0$ doubles.",
+          "fa": "ولتاژ متوقف کننده ($V_0$) دو برابر می‌شود."
+        },
+        {
+          "en": "The cutoff frequency of the metal becomes smaller.",
+          "fa": "فریکونسی قطع فلز کوچک‌تر می‌شود."
+        },
+        {
+          "en": "Nothing changes, neither the current nor $V_0$.",
+          "fa": "هیچ چیز تغییر نمی‌کند، نه جریان و نه $V_0$."
+        },
+        {
+          "en": "More photoelectrons come out, so the current grows, but $V_0$ stays the same.",
+          "fa": "فوتوالکترون‌های بیشتری بیرون می‌آیند و جریان زیاد می‌شود، ولی $V_0$ همان می‌ماند."
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Brighter light brings more photons, so more electrons are freed and the current increases. The largest kinetic energy of each electron depends only on the frequency of the light and on the metal ($eV_0 = h\\nu - h\\nu_0$), so $V_0$ does not change.",
+        "fa": "نور قوی‌تر فوتون‌های بیشتری دارد، پس الکترون‌های بیشتری جدا می‌شوند و جریان زیاد می‌شود. بیشترین انرژی حرکی هر الکترون تنها به فریکونسی نور و جنس فلز بسته‌گی دارد ($eV_0 = h\\nu - h\\nu_0$)، پس $V_0$ تغییر نمی‌کند."
+      },
+      "idea": {
+        "en": "In Figure 5-11 the two curves (full and half intensity) reach zero current at the same $-V_0$. The intensity changes how many electrons come out, not how fast they are.",
+        "fa": "در شکل 5-11 هر دو منحنی (شدت کامل و نصف شدت) در همان $-V_0$ به جریان صفر می‌رسند. شدت نور تعداد الکترون‌ها را تغییر می‌دهد، نه سرعت آن‌ها را."
+      }
+    },
+    {
+      "pdf_page": 131,
+      "q": {
+        "en": "In Bohr's model of hydrogen the allowed orbits have radii $r_n = a_0 n^2$, where $a_0 = 5.29\\times10^{-11}\\,\\mathrm{m}$. What is the radius of the orbit with $n = 3$?",
+        "fa": "در مودل بور برای اتم هایدروجن، شعاع مدارهای مجاز $r_n = a_0 n^2$ است که در آن $a_0 = 5.29\\times10^{-11}\\,\\mathrm{m}$. شعاع مدار $n = 3$ چند است؟"
+      },
+      "options": [
+        {
+          "en": "$1.59\\times10^{-10}\\,\\mathrm{m}$",
+          "fa": "$1.59\\times10^{-10}\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$4.76\\times10^{-10}\\,\\mathrm{m}$",
+          "fa": "$4.76\\times10^{-10}\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$3.17\\times10^{-10}\\,\\mathrm{m}$",
+          "fa": "$3.17\\times10^{-10}\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$5.88\\times10^{-12}\\,\\mathrm{m}$",
+          "fa": "$5.88\\times10^{-12}\\,\\mathrm{m}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$r_3 = a_0 \\cdot 3^2 = 9a_0 = 9 \\times 5.29\\times10^{-11}\\,\\mathrm{m} \\approx 4.76\\times10^{-10}\\,\\mathrm{m}$. Only the radii $a_0$, $4a_0$, $9a_0$, … are allowed.",
+        "fa": "$r_3 = a_0 \\cdot 3^2 = 9a_0 = 9 \\times 5.29\\times10^{-11}\\,\\mathrm{m} \\approx 4.76\\times10^{-10}\\,\\mathrm{m}$ است. تنها شعاع‌های $a_0$، $4a_0$، $9a_0$، … مجاز اند."
+      },
+      "idea": {
+        "en": "The radius grows with the square of $n$, not with $n$ itself: for $n = 3$ the radius is $3^2 = 9$ times $a_0$.",
+        "fa": "شعاع با مربع $n$ زیاد می‌شود، نه با خود $n$: برای $n = 3$ شعاع $3^2 = 9$ برابر $a_0$ است."
+      }
+    },
+    {
+      "pdf_page": 135,
+      "q": {
+        "en": "A particle with rest mass $m_0$ moves at $v = 0.6c$. What is its mass according to the theory of relativity?",
+        "fa": "ذره‌یی با کتلهٔ سکون $m_0$ با سرعت $v = 0.6c$ حرکت می‌کند. طبق نظریهٔ نسبیت کتلهٔ آن چند است؟"
+      },
+      "options": [
+        {
+          "en": "$0.8\\,m_0$",
+          "fa": "$0.8\\,m_0$"
+        },
+        {
+          "en": "$1.56\\,m_0$",
+          "fa": "$1.56\\,m_0$"
+        },
+        {
+          "en": "$1.25\\,m_0$",
+          "fa": "$1.25\\,m_0$"
+        },
+        {
+          "en": "$0.64\\,m_0$",
+          "fa": "$0.64\\,m_0$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$m = \\frac{m_0}{\\sqrt{1 - (v/c)^2}} = \\frac{m_0}{\\sqrt{1 - 0.36}} = \\frac{m_0}{\\sqrt{0.64}} = \\frac{m_0}{0.8} = 1.25\\,m_0$.",
+        "fa": "$m = \\frac{m_0}{\\sqrt{1 - (v/c)^2}} = \\frac{m_0}{\\sqrt{1 - 0.36}} = \\frac{m_0}{\\sqrt{0.64}} = \\frac{m_0}{0.8} = 1.25\\,m_0$ است."
+      },
+      "idea": {
+        "en": "The mass of a moving body is never smaller than its rest mass, so any answer below $m_0$ is wrong. Divide by the square root: $\\sqrt{0.64} = 0.8$.",
+        "fa": "کتلهٔ جسم متحرک هیچ‌گاه از کتلهٔ سکون آن کمتر نیست، پس هر جواب کوچک‌تر از $m_0$ غلط است. بر جذر تقسیم کنید: $\\sqrt{0.64} = 0.8$."
+      }
+    },
+    {
+      "pdf_page": 141,
+      "q": {
+        "en": "An electron ($m = 9.1\\times10^{-31}\\,\\mathrm{kg}$) moves at $v = 7.3\\times10^{6}\\,\\mathrm{m/s}$. What is its de Broglie wavelength? ($h = 6.63\\times10^{-34}\\,\\mathrm{J\\,s}$)",
+        "fa": "الکترونی ($m = 9.1\\times10^{-31}\\,\\mathrm{kg}$) با سرعت $v = 7.3\\times10^{6}\\,\\mathrm{m/s}$ حرکت می‌کند. طول موج دی بروگلی آن چند است؟ ($h = 6.63\\times10^{-34}\\,\\mathrm{J\\,s}$)"
+      },
+      "options": [
+        {
+          "en": "$1.0\\times10^{-10}\\,\\mathrm{m}$",
+          "fa": "$1.0\\times10^{-10}\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$1.0\\times10^{10}\\,\\mathrm{m}$",
+          "fa": "$1.0\\times10^{10}\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$7.3\\times10^{-4}\\,\\mathrm{m}$",
+          "fa": "$7.3\\times10^{-4}\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$9.1\\times10^{-41}\\,\\mathrm{m}$",
+          "fa": "$9.1\\times10^{-41}\\,\\mathrm{m}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$\\lambda = \\frac{h}{mv} = \\frac{6.63\\times10^{-34}}{(9.1\\times10^{-31})(7.3\\times10^{6})} \\approx 1.0\\times10^{-10}\\,\\mathrm{m}$, about the size of an atom. That is why the wave behaviour of electrons matters inside atoms.",
+        "fa": "$\\lambda = \\frac{h}{mv} = \\frac{6.63\\times10^{-34}}{(9.1\\times10^{-31})(7.3\\times10^{6})} \\approx 1.0\\times10^{-10}\\,\\mathrm{m}$ است که تقریباً به اندازهٔ یک اتوم است. از همین رو رفتار موجی الکترون در داخل اتوم مهم است."
+      },
+      "idea": {
+        "en": "The whole momentum $p = mv$ goes in the denominator: use both the mass and the speed. The larger the momentum, the shorter the wavelength.",
+        "fa": "تمام مومنتم $p = mv$ در مخرج است: هم کتله و هم سرعت را به کار ببرید. هرچه مومنتم بیشتر باشد، طول موج کوتاه‌تر است."
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 5,
+  "title": {
+    "en": "Blood purification and body defence",
+    "fa": "تصفیهٔ خون و مدافعهٔ بدن"
+  },
+  "questions": [
+    {
+      "pdf_page": 79,
+      "q": {
+        "en": "In which order does the fluid filtered from the blood pass through the parts of a nephron?",
+        "fa": "مایعی که از خون فلتر می‌شود به کدام ترتیب از قسمت‌های نفرون می‌گذرد؟"
+      },
+      "options": [
+        {
+          "en": "Bowman's capsule → distal tubule → loop of Henle → proximal tubule → collecting duct",
+          "fa": "کپسول بومن ← تیوب دستل ← لوپ هنلی ← تیوب پراکسیمال ← کانال جمع‌کننده"
+        },
+        {
+          "en": "Bowman's capsule → proximal tubule → loop of Henle → distal tubule → collecting duct",
+          "fa": "کپسول بومن ← تیوب پراکسیمال ← لوپ هنلی ← تیوب دستل ← کانال جمع‌کننده"
+        },
+        {
+          "en": "Collecting duct → distal tubule → loop of Henle → proximal tubule → Bowman's capsule",
+          "fa": "کانال جمع‌کننده ← تیوب دستل ← لوپ هنلی ← تیوب پراکسیمال ← کپسول بومن"
+        },
+        {
+          "en": "Bowman's capsule → loop of Henle → collecting duct → proximal tubule → distal tubule",
+          "fa": "کپسول بومن ← لوپ هنلی ← کانال جمع‌کننده ← تیوب پراکسیمال ← تیوب دستل"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Filtering happens in Bowman's capsule, which surrounds the glomerulus. The filtrate then flows through the proximal ('near') tubule, the U-shaped loop of Henle and the distal ('far') tubule into the collecting duct, which takes the urine to the renal pelvis.",
+        "fa": "فلتر کردن در کپسول بومن صورت می‌گیرد که دور گلومیرول را گرفته است. فلترات بعد از تیوب پراکسیمال (نزدیک)، لوپ هنلی U مانند و تیوب دستل (دور) گذشته به کانال جمع‌کننده می‌رسد که ادرار را به لگنچه می‌برد."
+      },
+      "idea": {
+        "en": "Proximal means near to Bowman's capsule and distal means far from it.",
+        "fa": "پراکسیمال یعنی نزدیک به کپسول بومن و دستل یعنی دور از آن."
+      }
+    },
+    {
+      "pdf_page": 81,
+      "q": {
+        "en": "The kidneys make about $180$ litres of filtrate in 24 hours, but only about $1.5$ litres of urine leave the body. About what percentage of the filtrate is reabsorbed into the blood?",
+        "fa": "گرده‌ها در ۲۴ ساعت حدود $180$ لیتر فلترات می‌سازند، ولی تنها حدود $1.5$ لیتر ادرار از بدن خارج می‌شود. تقریباً چند فیصد فلترات دوباره جذب خون می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "About $1\\%$",
+          "fa": "حدود $1\\%$"
+        },
+        {
+          "en": "About $90\\%$",
+          "fa": "حدود $90\\%$"
+        },
+        {
+          "en": "About $99\\%$",
+          "fa": "حدود $99\\%$"
+        },
+        {
+          "en": "About $50\\%$",
+          "fa": "حدود $50\\%$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The reabsorbed amount is $180 - 1.5 = 178.5$ litres, and $\\frac{178.5}{180} \\times 100\\% \\approx 99\\%$. Only about $1\\%$ of the filtrate leaves as urine.",
+        "fa": "مقدار جذب‌شده $180 - 1.5 = 178.5$ لیتر است و $\\frac{178.5}{180} \\times 100\\% \\approx 99\\%$ می‌شود. تنها حدود $1\\%$ فلترات به شکل ادرار خارج می‌شود."
+      },
+      "idea": {
+        "en": "First find how much of the filtrate does not leave as urine, then divide it by the total filtrate.",
+        "fa": "اول معلوم کنید چه مقدار فلترات به شکل ادرار خارج نمی‌شود، بعد آن را بر مجموع فلترات تقسیم کنید."
+      }
+    },
+    {
+      "pdf_page": 85,
+      "q": {
+        "en": "A needle pricks a finger and the damaged cells release histamine. What does histamine do in the inflammatory response?",
+        "fa": "سوزنی در انگشت فرو می‌رود و حجرات آسیب‌دیده هستامین آزاد می‌کنند. هستامین در جواب التهابی چه کار می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "It widens the blood vessels and increases blood flow, so white blood cells reach the wound.",
+          "fa": "رگ‌ها را فراخ و جریان خون را زیاد می‌کند تا حجرات سفید خون به محل زخم برسند."
+        },
+        {
+          "en": "It makes holes in the membranes of the microbes so that they die.",
+          "fa": "در غشای میکروب‌ها سوراخ پیدا می‌کند تا بمیرند."
+        },
+        {
+          "en": "It narrows the blood vessels so that the microbes cannot spread.",
+          "fa": "رگ‌ها را تنگ می‌کند تا میکروب‌ها پخش نشوند."
+        },
+        {
+          "en": "It raises the body temperature above $37\\,^{\\circ}\\mathrm{C}$ to stop bacteria growing.",
+          "fa": "حرارت بدن را از $37\\,^{\\circ}\\mathrm{C}$ بالا می‌برد تا بکتریاها رشد نکنند."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Histamine widens the blood vessels around the injury, and the extra blood brings more white blood cells to attack the microbes; this is why the wound swells and turns red. Making holes in microbes is the work of complement proteins, and fever is a separate response.",
+        "fa": "هستامین رگ‌های اطراف آسیب را فراخ می‌کند و خون بیشتر حجرات سفید بیشتری را برای حمله بر میکروب‌ها می‌آورد؛ به همین سبب محل زخم آماس کرده سرخ می‌شود. سوراخ کردن غشای میکروب کار پروتین‌های مکمل است و تب یک جواب جداگانه است."
+      },
+      "idea": {
+        "en": "Think about why an injured place becomes red and swollen.",
+        "fa": "فکر کنید که چرا محل آسیب سرخ و آماس می‌شود."
+      }
+    },
+    {
+      "pdf_page": 90,
+      "q": {
+        "en": "In humoral immunity, which cells attach to their own antigen, divide, and make antibodies?",
+        "fa": "در دفاع هومورال کدام حجرات به انتی‌جن خاص خود می‌چسپند، تقسیم می‌شوند و انتی‌بادی می‌سازند؟"
+      },
+      "options": [
+        {
+          "en": "Natural killer cells",
+          "fa": "حجرات کشندهٔ طبیعی"
+        },
+        {
+          "en": "Macrophages",
+          "fa": "مکروفاژها"
+        },
+        {
+          "en": "Cytotoxic T cells",
+          "fa": "حجرات سیتوتوکسیک T"
+        },
+        {
+          "en": "B lymphocytes (B cells)",
+          "fa": "لمفوسیت‌های B (حجرات B)"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "In humoral immunity, which works in the body fluids, a B cell that meets its own antigen sticks to it, grows and divides, and the B cells make antibodies that stick only to that antigen. Cytotoxic T cells instead attack infected cells (cell immunity).",
+        "fa": "در دفاع هومورال که در مایعات بدن کار می‌کند، حجرهٔ B که با انتی‌جن خاص خود روبه‌رو شود به آن می‌چسپد، نمو و تقسیم می‌کند و حجرات B انتی‌بادی‌هایی می‌سازند که تنها به همان انتی‌جن می‌چسپند. حجرات سیتوتوکسیک T برعکس بالای حجرات آلوده حمله می‌کنند (دفاع حجروی)."
+      },
+      "idea": {
+        "en": "Making antibodies is part of the specific defence, and humoral means 'of the body fluids'. Which lymphocyte works there?",
+        "fa": "ساختن انتی‌بادی کار دفاع اختصاصی است و هومور یعنی مایعات بدن. کدام لمفوسیت در این دفاع کار می‌کند؟"
+      }
+    },
+    {
+      "pdf_page": 92,
+      "q": {
+        "en": "A patient has a very severe disease and cannot wait about two weeks for his body to make antibodies, so he is injected with antiserum. What kind of immunity does he get?",
+        "fa": "مریضی مرض بسیار شدید دارد و نمی‌تواند حدود دو هفته برای ساختن انتی‌بادی در بدن خود صبر کند؛ پس به او انتی سیروم تزریق می‌شود. او کدام نوع معافیت پیدا می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "Active immunity, made by his own body after about two weeks",
+          "fa": "معافیت فعال که بدن خودش بعد از حدود دو هفته می‌سازد"
+        },
+        {
+          "en": "Passive immunity, which starts at once but lasts only a short time (about ten days)",
+          "fa": "معافیت غیر فعال که فوراً شروع می‌شود ولی کوتاه است (حدود ده روز)"
+        },
+        {
+          "en": "Active immunity, which starts at once and lasts for life",
+          "fa": "معافیت فعال که فوراً شروع می‌شود و تمام عمر دوام می‌کند"
+        },
+        {
+          "en": "Passive immunity, which starts after two weeks and lasts many years",
+          "fa": "معافیت غیر فعال که بعد از دو هفته شروع می‌شود و سال‌ها دوام می‌کند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Antiserum contains ready-made antibodies from another person or an animal, so it acts at once. Because the patient's own body did not make these antibodies, the immunity is passive and lasts only about ten days.",
+        "fa": "انتی سیروم انتی‌بادی آماده دارد که در بدن انسان یا حیوان دیگر ساخته شده، پس فوراً اثر می‌کند. چون بدن خود مریض این انتی‌بادی‌ها را نساخته است، این معافیت غیر فعال است و تنها حدود ده روز دوام می‌کند."
+      },
+      "idea": {
+        "en": "Ask who made the antibodies: the patient's own body (active) or another body (passive)?",
+        "fa": "بپرسید انتی‌بادی‌ها را چه کسی ساخته است: بدن خود مریض (فعال) یا بدن دیگر (غیر فعال)؟"
+      }
+    }
+  ]
+}

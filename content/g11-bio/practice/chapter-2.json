@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 2,
+  "title": {
+    "en": "Cell structure: prokaryotic and eukaryotic cells and the organelles of the eukaryotic cell",
+    "fa": "ساختمان حجره، حجرهٔ پروکاریوت و یوکاریوت، اعضای حجرهٔ یوکاریوت"
+  },
+  "questions": [
+    {
+      "pdf_page": 22,
+      "q": {
+        "en": "Which structure is found in both prokaryotic and eukaryotic cells?",
+        "fa": "کدام ساختمان هم در حجرات پروکاریوت و هم در حجرات یوکاریوت یافت می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Mitochondria",
+          "fa": "میتوکاندریا"
+        },
+        {
+          "en": "Ribosomes",
+          "fa": "ریبوزوم"
+        },
+        {
+          "en": "Golgi bodies",
+          "fa": "اجسام گلجی"
+        },
+        {
+          "en": "A nuclear membrane",
+          "fa": "غشای هستوی"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Both kinds of cells have ribosomes, though they are smaller in prokaryotes; prokaryotes have no mitochondria, Golgi bodies or nuclear membrane.",
+        "fa": "ریبوزوم در هر دو نوع حجره هست، اما در پروکاریوت کوچک‌تر است؛ پروکاریوت میتوکاندریا، اجسام گلجی و غشای هستوی ندارد."
+      },
+      "idea": {
+        "en": "Look at the table of differences: which organelle does a bacterium have too, only smaller?",
+        "fa": "به جدول فرق‌ها نگاه کنید: کدام اورگانیل را بکتریا هم دارد، ولی کوچک‌تر؟"
+      }
+    },
+    {
+      "pdf_page": 26,
+      "q": {
+        "en": "Why is the mitochondrion called the energy centre of the cell?",
+        "fa": "چرا میتوکاندریا را مرکز تولید انرژی حجره می‌گویند؟"
+      },
+      "options": [
+        {
+          "en": "Its chlorophyll captures sunlight to make sugar.",
+          "fa": "کلوروفیل آن نور آفتاب را جذب کرده قند می‌سازد."
+        },
+        {
+          "en": "It contains digestive enzymes that break down proteins.",
+          "fa": "انزایم‌های هضمی دارد که مواد پروتینی را تجزیه می‌کنند."
+        },
+        {
+          "en": "Ribosomes on its surface make proteins.",
+          "fa": "ریبوزوم‌های روی سطح آن پروتین می‌سازند."
+        },
+        {
+          "en": "Food is oxidised in it with oxygen, and the energy released is stored as ATP.",
+          "fa": "مواد غذایی در آن با اکسیجن اوکسیدیشن می‌شوند و انرژی آزادشده به شکل ATP ذخیره می‌گردد."
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The mitochondrion holds the enzymes of respiration: food is oxidised there and the energy is stored in ATP, which the cell uses for its work.",
+        "fa": "میتوکاندریا انزایم‌های تنفس را دارد: مواد غذایی در آن اوکسیدیشن می‌شوند و انرژی در ATP ذخیره می‌گردد تا حجره آن را برای کارهای خود به کار ببرد."
+      },
+      "idea": {
+        "en": "Chlorophyll belongs to chloroplasts, digestive enzymes to lysosomes and protein-making to ribosomes. Which job is left for the mitochondrion?",
+        "fa": "کلوروفیل از کلوروپلاست، انزایم‌های هضمی از لیزوزوم و ساختن پروتین کار ریبوزوم است؛ کدام کار برای میتوکاندریا می‌ماند؟"
+      }
+    },
+    {
+      "pdf_page": 28,
+      "q": {
+        "en": "A green tomato turns red as it ripens. Which change in its plastids causes this?",
+        "fa": "بادنجان رومی سبز در وقت پخته شدن سرخ می‌شود. کدام تغییر پلاستیدها سبب این کار است؟"
+      },
+      "options": [
+        {
+          "en": "Chloroplasts change into chromoplasts.",
+          "fa": "کلوروپلاست‌ها به کروموپلاست تبدیل می‌شوند."
+        },
+        {
+          "en": "Leucoplasts change into chloroplasts.",
+          "fa": "لیکوپلاست‌ها به کلوروپلاست تبدیل می‌شوند."
+        },
+        {
+          "en": "Chromoplasts change into chloroplasts.",
+          "fa": "کروموپلاست‌ها به کلوروپلاست تبدیل می‌شوند."
+        },
+        {
+          "en": "Chloroplasts change into leucoplasts that store starch.",
+          "fa": "کلوروپلاست‌ها به لیکوپلاست‌های ذخیره‌کنندهٔ نشایسته تبدیل می‌شوند."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Green chloroplasts, which contain chlorophyll, turn into chromoplasts with yellow, orange and red pigments; this is what colours ripe fruit and autumn leaves.",
+        "fa": "کلوروپلاست‌های سبز که کلوروفیل دارند به کروموپلاست تبدیل می‌شوند که رنگ‌دانه‌های زرد، نارنجی و سرخ دارد؛ رنگ میوهٔ پخته و برگ‌های خزانی از همین است."
+      },
+      "idea": {
+        "en": "Which plastid gives red and yellow colours? A potato turning green in sunlight shows a different change.",
+        "fa": "کدام پلاستید رنگ سرخ و زرد می‌دهد؟ سبز شدن کچالو در آفتاب یک تغییر دیگر را نشان می‌دهد."
+      }
+    },
+    {
+      "pdf_page": 30,
+      "q": {
+        "en": "In DNA, adenine (A) always pairs with thymine (T), and guanine (G) with cytosine (C). If $30\\%$ of the bases in a DNA molecule are adenine, what percentage are guanine?",
+        "fa": "در DNA ادنین (A) همیشه با تایمین (T) و گوانین (G) با سایتوزین (C) جوره می‌شود. اگر $30\\%$ قلوی‌های یک مالیکول DNA ادنین باشد، چند فیصد آن گوانین است؟"
+      },
+      "options": [
+        {
+          "en": "$30\\%$",
+          "fa": "$30\\%$"
+        },
+        {
+          "en": "$40\\%$",
+          "fa": "$40\\%$"
+        },
+        {
+          "en": "$20\\%$",
+          "fa": "$20\\%$"
+        },
+        {
+          "en": "$70\\%$",
+          "fa": "$70\\%$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Thymine equals adenine, so $A + T = 60\\%$; the other $40\\%$ is shared equally by G and C, so $G = 20\\%$.",
+        "fa": "تایمین مساوی ادنین است، پس $A + T = 60\\%$ می‌شود؛ $40\\%$ باقی‌مانده میان G و C برابر تقسیم می‌شود، پس $G = 20\\%$ است."
+      },
+      "idea": {
+        "en": "First find T from A, then share what is left equally between G and C.",
+        "fa": "اول مقدار T را از روی A پیدا کنید، بعد باقی‌مانده را میان G و C برابر تقسیم کنید."
+      }
+    },
+    {
+      "pdf_page": 32,
+      "q": {
+        "en": "Which of these is found in plant cells but NOT in animal cells?",
+        "fa": "کدام یک از این‌ها در حجرات نباتی هست، ولی در حجرات حیوانی نیست؟"
+      },
+      "options": [
+        {
+          "en": "A centrosome with centrioles",
+          "fa": "سنتروزوم با سنتریول‌ها"
+        },
+        {
+          "en": "A cell wall made of cellulose",
+          "fa": "دیوار حجروی از سلولوز"
+        },
+        {
+          "en": "Mitochondria",
+          "fa": "میتوکاندریا"
+        },
+        {
+          "en": "A cell membrane",
+          "fa": "غشای حجروی"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Plant cells have a cellulose wall and plastids, while animal cells have only a cell membrane. The centrosome is found in animal cells, and both kinds have mitochondria and a membrane.",
+        "fa": "حجرهٔ نباتی دیوار سلولوزی و پلاستید دارد، ولی حجرهٔ حیوانی تنها غشای حجروی دارد. سنتروزوم در حجرات حیوانی است و میتوکاندریا و غشا در هر دو نوع هست."
+      },
+      "idea": {
+        "en": "Think of what keeps a plant cell's shape firm. Careful: the centrosome belongs to animal cells.",
+        "fa": "فکر کنید چه چیز شکل حجرهٔ نباتی را محکم نگه می‌دارد. دقت کنید: سنتروزوم مربوط به حجرات حیوانی است."
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 8,
+  "title": {
+    "en": "Plant responses",
+    "fa": "عکس‌العمل‌های نباتات"
+  },
+  "questions": [
+    {
+      "pdf_page": 128,
+      "q": {
+        "en": "Light falls on a young stem from one side only, and the stem bends toward the light. What causes this?",
+        "fa": "نور تنها از یک طرف بالای ساقهٔ یک نبات جوان می‌تابد و ساقه به طرف نور خم می‌شود. علت آن چیست؟"
+      },
+      "options": [
+        {
+          "en": "Auxin gathers on the lit side, so the cells on that side grow longer.",
+          "fa": "اکسین در طرف روشن جمع می‌شود، پس حجرات همان طرف درازتر می‌شوند."
+        },
+        {
+          "en": "Ethylene gathers on the shaded side and stops the growth there.",
+          "fa": "ایتلین در طرف سایه جمع شده رشد آن طرف را متوقف می‌سازد."
+        },
+        {
+          "en": "Auxin gathers on the shaded side, so the cells on that side grow longer than those on the lit side.",
+          "fa": "اکسین در طرف سایه جمع می‌شود، پس حجرات طرف سایه از حجرات طرف روشن درازتر می‌شوند."
+        },
+        {
+          "en": "The cells on the lit side make more sugar by photosynthesis and grow faster.",
+          "fa": "حجرات طرف روشن با فوتوسنتیز قند بیشتر می‌سازند و تیزتر رشد می‌کنند."
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Auxin makes cells grow longer, and when light comes from one side it collects on the shaded side. The cells there become longer than those on the lit side, and this difference in length bends the stem toward the light (positive phototropism).",
+        "fa": "اکسین حجرات را دراز می‌سازد و وقتی نور از یک طرف بتابد، در طرف سایه جمع می‌شود. حجرات این طرف از حجرات طرف روشن درازتر می‌شوند و همین فرق طول ساقه را به طرف نور خم می‌کند (فوتوتروپیزم مثبت)."
+      },
+      "idea": {
+        "en": "If one side of the stem grows longer than the other, which way will the stem bend?",
+        "fa": "اگر یک طرف ساقه از طرف دیگر درازتر شود، ساقه به کدام طرف خم می‌شود؟"
+      }
+    },
+    {
+      "pdf_page": 130,
+      "q": {
+        "en": "Farmers noticed long ago that fruit kept in a room heated by a kerosene (oil) stove ripens sooner. Why does this happen?",
+        "fa": "زارعین از قدیم دیده بودند که میوه در اتاقی که با بخاری نفتی گرم می‌شود زودتر پخته می‌شود. علت آن چیست؟"
+      },
+      "options": [
+        {
+          "en": "Burning kerosene produces ethylene, a gaseous hormone that speeds up ripening.",
+          "fa": "از سوختن نفت ایتلین پیدا می‌شود که یک هورمون گازی است و پخته شدن میوه را تیز می‌کند."
+        },
+        {
+          "en": "Burning kerosene produces abscisic acid, which makes the fruit ripen.",
+          "fa": "از سوختن نفت ابسیزیک اسید پیدا می‌شود که میوه را پخته می‌سازد."
+        },
+        {
+          "en": "The heat makes the fruit produce more auxin, which ripens it.",
+          "fa": "گرمی میوه را به ساختن اکسین بیشتر وا می‌دارد و اکسین آن را پخته می‌سازد."
+        },
+        {
+          "en": "The smoke contains gibberellin, which makes the fruit larger and sweeter.",
+          "fa": "دود گیبرلین دارد که میوه را کلان‌تر و شیرین‌تر می‌سازد."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Ethylene ($\\mathrm{CH_2{=}CH_2}$) is a simple gas of carbon and hydrogen that speeds up ripening and the breakdown of chlorophyll; burning kerosene releases it, so fruit ripened faster in those rooms. Today it is used to ripen grapes, tomatoes and fruit that is picked unripe.",
+        "fa": "ایتلین ($\\mathrm{CH_2{=}CH_2}$) گاز ساده‌یی از کاربن و هایدروجن است که پخته شدن میوه و تجزیهٔ کلوروفیل را تیز می‌کند؛ از سوختن نفت هم پیدا می‌شود و به همین سبب میوه در آن اتاق‌ها زودتر پخته می‌شد. امروز از آن برای زودرس کردن انگور، بادنجان رومی و میوه‌هایی که خام چیده می‌شوند کار می‌گیرند."
+      },
+      "idea": {
+        "en": "Look for the plant hormone that is a gas.",
+        "fa": "هورمون نباتی را پیدا کنید که به شکل گاز است."
+      }
+    },
+    {
+      "pdf_page": 133,
+      "q": {
+        "en": "Which tissue makes the trunk of a tree thicker year after year?",
+        "fa": "کدام نسج تنهٔ درخت را سال به سال ضخیم‌تر (قطورتر) می‌سازد؟"
+      },
+      "options": [
+        {
+          "en": "The apical meristems at the tips of stems and roots",
+          "fa": "مرستیم‌های اولی (انتهایی) در نوک ساقه و ریشه"
+        },
+        {
+          "en": "The secondary meristems, such as the cambium, which form a cylinder in the stem and root",
+          "fa": "مرستیم‌های ثانوی، مانند کامبیوم، که به شکل استوانه در ساقه و ریشه اند"
+        },
+        {
+          "en": "The root cap",
+          "fa": "کلاهک ریشه"
+        },
+        {
+          "en": "The guard cells of the leaves",
+          "fa": "حجرات محافظ برگ‌ها"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Growth is the work of meristem cells: apical meristems at the tips of stems and roots make the plant longer. Secondary meristems such as the cambium, arranged as a cylinder, increase the diameter, which is seen most in plants that live for many years.",
+        "fa": "رشد کار حجرات مرستیم است: مرستیم‌های اولی در نوک ساقه و ریشه نبات را دراز می‌سازند. مرستیم‌های ثانوی، مانند کامبیوم که به شکل استوانه اند، قطر نبات را زیاد می‌کنند؛ این رشد قطری در نباتات چندین‌ساله بیشتر دیده می‌شود."
+      },
+      "idea": {
+        "en": "Growing longer and growing thicker are done by meristems in different places: at the tips, or in a ring inside the stem.",
+        "fa": "دراز شدن و ضخیم شدن را مرستیم‌هایی در جاهای مختلف انجام می‌دهند: در نوک‌ها، یا به شکل حلقه در داخل ساقه."
+      }
+    },
+    {
+      "pdf_page": 135,
+      "q": {
+        "en": "When a Mimosa plant is touched, its leaflets fold suddenly and its leaves droop, then open again after a while. The movement is the same whatever the direction of the touch, and it does not involve growth. What kind of movement is this?",
+        "fa": "وقتی به نبات مموزا تماس شود، برگچه‌هایش ناگهان جمع شده برگ‌هایش پایین می‌افتند و بعد از مدتی دوباره باز می‌شوند. این حرکت به جهت تماس وابسته نیست و با رشد صورت نمی‌گیرد. این کدام نوع حرکت است؟"
+      },
+      "options": [
+        {
+          "en": "Positive phototropism",
+          "fa": "فوتوتروپیزم مثبت"
+        },
+        {
+          "en": "Geotropism",
+          "fa": "جیوتروپیزم"
+        },
+        {
+          "en": "Hydrotropism",
+          "fa": "هایدروتروپیزم"
+        },
+        {
+          "en": "Nastic movement",
+          "fa": "حرکت ناستیک"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "A nastic movement does not depend on the direction of the stimulus and is not caused by growth; the cells quickly lose or gain water, so the movement is fast and reversible. In a tropism the plant grows toward or away from a stimulus that comes from one direction.",
+        "fa": "حرکت ناستیک به جهت محرک وابسته نیست و از رشد پیدا نمی‌شود؛ حجرات به سرعت آب از دست می‌دهند یا می‌گیرند، پس حرکت تیز و برگشت‌پذیر است. در تروپیزم نبات به طرف محرکی که از یک جهت معین می‌آید یا برخلاف آن رشد می‌کند."
+      },
+      "idea": {
+        "en": "All tropisms are growth toward or away from a stimulus that has a direction. Is this movement growth?",
+        "fa": "همهٔ تروپیزم‌ها رشد به طرف یک محرک جهت‌دار یا برخلاف آن اند. آیا این حرکت رشد است؟"
+      }
+    },
+    {
+      "pdf_page": 138,
+      "q": {
+        "en": "During a drought, which hormone builds up in the leaves and keeps the stomata closed so that less water is lost?",
+        "fa": "در وقت خشکسالی کدام هورمون در برگ‌ها زیاد می‌شود و ستوماتا را بسته نگه می‌دارد تا آب کمتر ضایع شود؟"
+      },
+      "options": [
+        {
+          "en": "Auxin",
+          "fa": "اکسین"
+        },
+        {
+          "en": "Gibberellin",
+          "fa": "گیبرلین"
+        },
+        {
+          "en": "Abscisic acid",
+          "fa": "ابسیزیک اسید"
+        },
+        {
+          "en": "Cytokinin",
+          "fa": "سایتوکینین"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "A shortage of water increases the making of abscisic acid in the leaves. This growth-inhibiting hormone keeps the stomata closed and slows the growth of new leaves, so the plant loses less water by transpiration.",
+        "fa": "کمبود آب ساختن ابسیزیک اسید را در برگ‌ها زیاد می‌کند. این هورمون مانع رشد ستوماتا را بسته نگه می‌دارد و رشد برگ‌های نو را کند می‌سازد تا نبات از راه تعرق آب کمتری از دست بدهد."
+      },
+      "idea": {
+        "en": "Auxin, gibberellin and cytokinin all promote growth. Which hormone belongs to the growth-inhibiting group?",
+        "fa": "اکسین، گیبرلین و سایتوکینین همه محرک رشد اند. کدام هورمون از گروه مانع رشد است؟"
+      }
+    }
+  ]
+}

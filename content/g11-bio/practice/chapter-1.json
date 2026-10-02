@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 1,
+  "title": {
+    "en": "Studying the cell and types of microscopes",
+    "fa": "مطالعهٔ حجره و انواع میکروسکوپ‌ها"
+  },
+  "questions": [
+    {
+      "pdf_page": 11,
+      "q": {
+        "en": "Which of these statements is NOT one of the main points of the cell theory?",
+        "fa": "کدام یک از جمله‌های زیر از نکات اساسی نظریهٔ حجروی نیست؟"
+      },
+      "options": [
+        {
+          "en": "The cell is the basic unit of structure and function of living things.",
+          "fa": "حجره واحد اساسی ساختمانی و وظیفوی اجسام زنده است."
+        },
+        {
+          "en": "All living things are made of one or more cells.",
+          "fa": "تمام موجودات زنده از یک یا چند حجره ساخته شده‌اند."
+        },
+        {
+          "en": "Every living thing is made of many cells.",
+          "fa": "هر موجود زنده از حجرات زیاد ساخته شده است."
+        },
+        {
+          "en": "New cells come from cells that existed before.",
+          "fa": "حجرات جدید از حجرات قبلی به‌وجود می‌آیند."
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The cell theory says that living things are made of one or more cells; unicellular organisms such as bacteria have only one cell, so 'many cells' is not part of the theory.",
+        "fa": "نظریهٔ حجروی می‌گوید موجودات زنده از یک یا چند حجره ساخته شده‌اند؛ موجودات وحیدالحجروی، مانند باکتریا، تنها یک حجره دارند. پس «حجرات زیاد» از نکات این نظریه نیست."
+      },
+      "idea": {
+        "en": "Remember the three points of the cell theory, and think about unicellular organisms.",
+        "fa": "سه نکتهٔ نظریهٔ حجروی را به یاد بیاورید و به موجودات وحیدالحجروی فکر کنید."
+      }
+    },
+    {
+      "pdf_page": 12,
+      "q": {
+        "en": "Robert Hooke named the cell after looking at cork, but the cells he saw were dead. Who was the first to see living microorganisms such as bacteria and protozoa?",
+        "fa": "رابرت هوک با دیدن چوب کارک نام حجره را گذاشت، ولی حجراتی که او دید مرده بودند. کدام دانشمند نخستین بار موجودات زندهٔ کوچک، مانند باکتریا و پروتوزوا، را دید؟"
+      },
+      "options": [
+        {
+          "en": "Leeuwenhoek",
+          "fa": "لیون هوک"
+        },
+        {
+          "en": "Robert Hooke",
+          "fa": "رابرت هوک"
+        },
+        {
+          "en": "Marcello Malpighi",
+          "fa": "مارسیلو مالپیگی"
+        },
+        {
+          "en": "Zacharias Janssen",
+          "fa": "ذکریا جانسن"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Leeuwenhoek ground and polished glass to make a simple microscope, and he was the first to see bacteria and protozoa.",
+        "fa": "لیون هوک با تراشیدن و صیقل دادن شیشه مایکروسکوپ ساده‌یی ساخت و نخستین بار باکتریا و پروتوزوا را دید."
+      },
+      "idea": {
+        "en": "Hooke saw empty cork cells, Malpighi watched blood flow in a frog's lungs and the Janssens built an early microscope. Who saw living single cells?",
+        "fa": "رابرت هوک حجرات خالی کارک را دید، مالپیگی جریان خون را در شش‌های بقه دید و جانسن‌ها مایکروسکوپ ساختند؛ حجرات زندهٔ وحیدالحجروی را چه کسی دید؟"
+      }
+    },
+    {
+      "pdf_page": 13,
+      "q": {
+        "en": "A cell is $0.02\\,\\mathrm{mm}$ long. How long is it in micrometres (microns)?",
+        "fa": "طول یک حجره $0.02$ ملی‌متر است. طول آن چند مایکرومتر (مایکرون) است؟"
+      },
+      "options": [
+        {
+          "en": "$2\\,\\mu\\mathrm{m}$",
+          "fa": "$2$ مایکرومتر"
+        },
+        {
+          "en": "$20\\,\\mu\\mathrm{m}$",
+          "fa": "$20$ مایکرومتر"
+        },
+        {
+          "en": "$200\\,\\mu\\mathrm{m}$",
+          "fa": "$200$ مایکرومتر"
+        },
+        {
+          "en": "$20\\,\\mathrm{nm}$",
+          "fa": "$20$ نانومتر"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$1\\,\\mathrm{mm} = 1000\\,\\mu\\mathrm{m}$, so $0.02 \\times 1000 = 20\\,\\mu\\mathrm{m}$.",
+        "fa": "یک ملی‌متر مساوی $1000$ مایکرومتر است، پس $0.02 \\times 1000 = 20$ مایکرومتر می‌شود."
+      },
+      "idea": {
+        "en": "A micron is one-thousandth of a millimetre, not one-hundredth: multiply the millimetres by $1000$.",
+        "fa": "یک مایکرون هزارم حصهٔ ملی‌متر است، نه صدم حصه؛ ملی‌متر را ضرب $1000$ کنید."
+      }
+    },
+    {
+      "pdf_page": 14,
+      "q": {
+        "en": "What does an electron microscope use instead of the light and glass lenses of a compound light microscope?",
+        "fa": "الکترون مایکروسکوپ به جای نور و عدسیه‌های شیشه‌یی مایکروسکوپ مرکب نوری از چه کار می‌گیرد؟"
+      },
+      "options": [
+        {
+          "en": "Ultraviolet rays focused by quartz lenses",
+          "fa": "شعاع ماورای بنفش که با عدسیه‌های کوارتز متمرکز می‌شود"
+        },
+        {
+          "en": "A fluorescent dye that absorbs short-wave rays",
+          "fa": "رنگ فلورسین که شعاع با موج کوتاه را جذب می‌کند"
+        },
+        {
+          "en": "A special condenser that shows the object bright on a dark background",
+          "fa": "کاندنسر مخصوصی که شی را در زمینهٔ تاریک روشن نشان می‌دهد"
+        },
+        {
+          "en": "A beam of electrons focused by electromagnetic lenses",
+          "fa": "یک شعاع الکترون که با عدسیه‌های مقناطیسی برقی متمرکز می‌شود"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "In an electron microscope a beam of electrons passes through the specimen and electromagnetic lenses throw an enlarged image onto a screen, so it magnifies far more than a light microscope.",
+        "fa": "در الکترون مایکروسکوپ شعاع الکترون از نمونه می‌گذرد و عدسیه‌های مقناطیسی برقی تصویر بزرگ‌شده را روی پرده می‌اندازند؛ به همین سبب بزرگ‌نمایی آن بسیار بیشتر از مایکروسکوپ نوری است."
+      },
+      "idea": {
+        "en": "Ultraviolet, fluorescence and dark-field microscopes still use light. Which microscope does not use light at all?",
+        "fa": "مایکروسکوپ‌های ماورای بنفش، فلوریسن و ساحهٔ تاریک باز هم از نور کار می‌گیرند؛ کدام مایکروسکوپ اصلاً نور به کار نمی‌برد؟"
+      }
+    },
+    {
+      "pdf_page": 16,
+      "q": {
+        "en": "Which microscope bounces electrons off the surface of a specimen and shows that surface as a three-dimensional image?",
+        "fa": "کدام مایکروسکوپ الکترون‌ها را به سطح نمونه می‌زند و سطح آن را به شکل سه‌بعدی نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "Scanning electron microscope (SEM)",
+          "fa": "سکانینگ الکترون مایکروسکوپ (SEM)"
+        },
+        {
+          "en": "Transmission electron microscope (TEM)",
+          "fa": "ترانسمیشن الکترون مایکروسکوپ (TEM)"
+        },
+        {
+          "en": "Phase-contrast microscope",
+          "fa": "مایکروسکوپ ساحهٔ متفاوت"
+        },
+        {
+          "en": "Simple microscope (magnifying glass)",
+          "fa": "مایکروسکوپ ساده (ذره‌بین)"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "In the SEM the electrons that bounce back from the surface build the picture, so the object is seen in three dimensions; the TEM sends electrons through a very thin specimen to show its inside.",
+        "fa": "در SEM الکترون‌هایی که از سطح جسم برمی‌گردند تصویر را می‌سازند، پس جسم سه‌بعدی دیده می‌شود؛ ولی TEM الکترون‌ها را از نمونهٔ بسیار نازک عبور می‌دهد و ساختمان داخلی آن را نشان می‌دهد."
+      },
+      "idea": {
+        "en": "Compare the two main electron microscopes: one sends electrons through the sample, the other bounces them off its surface.",
+        "fa": "دو نوع عمدهٔ الکترون مایکروسکوپ را مقایسه کنید: یکی الکترون را از نمونه می‌گذراند و دیگری الکترون را به سطح نمونه می‌زند."
+      }
+    }
+  ]
+}

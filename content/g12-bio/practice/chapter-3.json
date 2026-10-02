@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 3,
+  "title": {
+    "en": "DNA and genetic engineering",
+    "fa": "DNA و انجنیری جنتیکی"
+  },
+  "questions": [
+    {
+      "pdf_page": 39,
+      "q": {
+        "en": "In a DNA molecule, $30\\%$ of the bases are adenine (A). Using Chargaff's rule, what percentage of the bases are guanine (G)?",
+        "fa": "در یک مالیکول DNA، $30\\%$ قلوی‌ها ادنین (A) است. با استفاده از قانون چارگف، چند فیصد قلوی‌ها گوانین (G) است؟"
+      },
+      "options": [
+        {
+          "en": "$30\\%$",
+          "fa": "$30\\%$"
+        },
+        {
+          "en": "$20\\%$",
+          "fa": "$20\\%$"
+        },
+        {
+          "en": "$40\\%$",
+          "fa": "$40\\%$"
+        },
+        {
+          "en": "$70\\%$",
+          "fa": "$70\\%$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "By Chargaff's rule $A = T$, so $T = 30\\%$ and $A + T = 60\\%$. The rest, $100\\% - 60\\% = 40\\%$, is $G + C$, and since $G = C$, $G = 20\\%$.",
+        "fa": "طبق قانون چارگف $A = T$ است، پس $T = 30\\%$ و $A + T = 60\\%$ است. باقی‌مانده، یعنی $100\\% - 60\\% = 40\\%$، مجموع $G + C$ است و چون $G = C$ است، $G = 20\\%$ می‌شود."
+      },
+      "idea": {
+        "en": "Adenine pairs with thymine and guanine pairs with cytosine. First find what percentage of the bases are A or T.",
+        "fa": "ادنین با تایمین و گوانین با سایتوسین جوره می‌شود. اول معلوم کنید که چند فیصد قلوی‌ها A یا T اند."
+      }
+    },
+    {
+      "pdf_page": 41,
+      "q": {
+        "en": "Which of these is a real difference between DNA and RNA?",
+        "fa": "کدام یک از این‌ها فرق درست بین DNA و RNA است؟"
+      },
+      "options": [
+        {
+          "en": "DNA contains uracil instead of thymine.",
+          "fa": "DNA به جای تایمین قلوی یوراسیل دارد."
+        },
+        {
+          "en": "RNA is double-stranded and much larger than DNA.",
+          "fa": "RNA دو‌رشته‌یی و بسیار بزرگ‌تر از DNA است."
+        },
+        {
+          "en": "The sugar of DNA has one more oxygen atom than the sugar of RNA.",
+          "fa": "قند DNA یک اتوم اکسیجن بیشتر از قند RNA دارد."
+        },
+        {
+          "en": "RNA has uracil instead of thymine and is a single strand.",
+          "fa": "RNA به جای تایمین قلوی یوراسیل دارد و یک‌رشته‌یی است."
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "RNA has uracil (U) in place of thymine (T), is a single strand and is much smaller than DNA. Its sugar is ribose, while the sugar of DNA, deoxyribose, has one oxygen fewer.",
+        "fa": "RNA به جای تایمین (T) قلوی یوراسیل (U) دارد، یک‌رشته‌یی و بسیار کوچک‌تر از DNA است. قند آن رایبوز است، در حالی که قند DNA، یعنی دی اوکسی رایبوز، یک اکسیجن کمتر دارد."
+      },
+      "idea": {
+        "en": "Remember the name: deoxy means 'with one oxygen fewer'. DNA is the twisted double ladder.",
+        "fa": "نام را به یاد بیاورید: «دی اوکسی» یعنی یک اکسیجن کمتر. DNA همان زینهٔ دوگانهٔ تاب‌خورده است."
+      }
+    },
+    {
+      "pdf_page": 43,
+      "q": {
+        "en": "How does a cell use the information in DNA to make a protein?",
+        "fa": "حجره چطور از معلومات DNA برای ساختن پروتین استفاده می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "Transcription makes mRNA from DNA, then translation builds the protein from the mRNA message.",
+          "fa": "ترانسکرپشن از روی DNA، mRNA می‌سازد و بعد ترانسلیشن به هدایت پیام mRNA پروتین را می‌سازد."
+        },
+        {
+          "en": "Translation makes mRNA from DNA, then transcription builds the protein.",
+          "fa": "ترانسلیشن از روی DNA، mRNA می‌سازد و بعد ترانسکرپشن پروتین را می‌سازد."
+        },
+        {
+          "en": "The protein is made first and is then copied into DNA by transcription.",
+          "fa": "اول پروتین ساخته می‌شود و بعد با ترانسکرپشن در DNA کاپی می‌شود."
+        },
+        {
+          "en": "Replication makes the protein directly from DNA in the nucleus, without any RNA.",
+          "fa": "کاپی‌سازی بدون RNA مستقیماً در هسته از روی DNA پروتین می‌سازد."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "In transcription ('copying') DNA in the nucleus directs the making of mRNA; the mRNA goes to the ribosomes in the cytoplasm, where translation ('translating') joins amino acids into a protein. So the path is DNA → RNA → protein.",
+        "fa": "در ترانسکرپشن (نسخه گرفتن) DNA در هسته ساختن mRNA را هدایت می‌کند؛ mRNA به ریبوزوم‌های سایتوپلازم می‌رود و در ترانسلیشن (ترجمه) امینو اسیدها به هم وصل شده پروتین ساخته می‌شود. پس مسیر از DNA به RNA و از RNA به پروتین است."
+      },
+      "idea": {
+        "en": "Think of the meanings: transcription means copying (DNA to RNA) and translation means translating (from the language of RNA into protein).",
+        "fa": "به معنای کلمه‌ها فکر کنید: ترانسکرپشن یعنی نسخه گرفتن (از DNA به RNA) و ترانسلیشن یعنی ترجمه (از زبان RNA به پروتین)."
+      }
+    },
+    {
+      "pdf_page": 45,
+      "q": {
+        "en": "To make human insulin by genetic engineering, the human insulin gene is cut out with restriction enzymes ('molecular scissors'). Where is it then placed?",
+        "fa": "برای ساختن انسولین انسانی با انجنیری جنتیکی، جن انسولین انسان با انزایم‌های قطع‌کننده (قیچی‌های مالیکولی) جدا می‌شود. بعد این جن در کجا جا داده می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "In the pancreas of a cow or a pig",
+          "fa": "در پانکراس گاو یا خوک"
+        },
+        {
+          "en": "In the ribosomes of human cells",
+          "fa": "در ریبوزوم‌های حجرات انسان"
+        },
+        {
+          "en": "In a plasmid, a ring of DNA in the bacterium E. coli",
+          "fa": "در پلازمید، یعنی توتهٔ حلقوی DNA در بکتریای E. coli"
+        },
+        {
+          "en": "In the blood of the diabetic patient",
+          "fa": "در خون مریض شکر"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The insulin gene is put into a plasmid, a small ring of DNA outside the bacterium's main DNA. As E. coli multiplies it makes human insulin along with its own proteins, and this insulin is separated and used to treat diabetes.",
+        "fa": "جن انسولین در پلازمید جا داده می‌شود، یعنی توتهٔ حلقوی کوچک DNA که بیرون از DNA اصلی بکتریا قرار دارد. بکتریای E. coli با تکثر خود همراه با پروتین‌های دیگر انسولین انسانی هم می‌سازد و این انسولین جدا شده برای تداوی مریضی شکر استعمال می‌شود."
+      },
+      "idea": {
+        "en": "Taking insulin from cow and pig pancreas was the old method. The new method uses a living 'factory' that multiplies quickly: which organism, and which part of it, carries the foreign gene?",
+        "fa": "گرفتن انسولین از پانکراس گاو و خوک روش کهنه بود. روش نو از یک «فابریکهٔ» زنده کار می‌گیرد که زود تکثر می‌کند: کدام موجود و کدام قسمت آن جن بیگانه را با خود دارد؟"
+      }
+    },
+    {
+      "pdf_page": 49,
+      "q": {
+        "en": "A disorder is caused by a dominant allele A. The father has the disorder and is heterozygous ($Aa$); the mother is healthy ($aa$). What percentage of their children are expected to have the disorder?",
+        "fa": "یک بی‌نظمی به الیل غالب A وابسته است. پدر مریض و هیتروزایگوس ($Aa$) و مادر صحت‌مند ($aa$) است. چند فیصد اولاد آن‌ها مریض خواهند بود؟"
+      },
+      "options": [
+        {
+          "en": "$25\\%$",
+          "fa": "$25\\%$"
+        },
+        {
+          "en": "$100\\%$",
+          "fa": "$100\\%$"
+        },
+        {
+          "en": "$75\\%$",
+          "fa": "$75\\%$"
+        },
+        {
+          "en": "$50\\%$",
+          "fa": "$50\\%$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The father makes A and a gametes in equal numbers and the mother makes only a. So half of the children are $Aa$ (sick, because A is dominant) and half are $aa$ (healthy), that is $50\\%$.",
+        "fa": "پدر گمیت‌های A و a را به اندازهٔ مساوی می‌سازد و مادر تنها گمیت a می‌سازد. پس نیم اولاد $Aa$ (مریض، چون A غالب است) و نیم دیگر $aa$ (صحت‌مند) اند، یعنی $50\\%$."
+      },
+      "idea": {
+        "en": "Draw a Punnett square with the father's gametes (A and a) on one side and the mother's (a and a) on the other, then count the boxes that contain A.",
+        "fa": "یک مربع پونیت رسم کنید: گمیت‌های پدر (A و a) در یک طرف و گمیت‌های مادر (a و a) در طرف دیگر؛ بعد خانه‌هایی را بشمارید که A دارند."
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-phys",
+  "chapter": 2,
+  "title": {
+    "en": "Waves and their motion",
+    "fa": "امواج و حرکت آنها"
+  },
+  "questions": [
+    {
+      "pdf_page": 36,
+      "q": {
+        "en": "A wave has a wavelength of $0.68\\,\\mathrm{m}$ in a medium where its speed is $340\\,\\mathrm{m/s}$. It passes into a second medium where its speed is $1360\\,\\mathrm{m/s}$. What is its wavelength in the second medium?",
+        "fa": "موجی در محیطی که سرعت آن $340\\,\\mathrm{m/s}$ است، طول موج $0.68\\,\\mathrm{m}$ دارد. این موج به محیط دومی می‌رود که سرعتش در آن $1360\\,\\mathrm{m/s}$ است. طول موج آن در محیط دوم چند است؟"
+      },
+      "options": [
+        {
+          "en": "$2.72\\,\\mathrm{m}$",
+          "fa": "$2.72\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$0.17\\,\\mathrm{m}$",
+          "fa": "$0.17\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$0.68\\,\\mathrm{m}$",
+          "fa": "$0.68\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$925\\,\\mathrm{m}$",
+          "fa": "$925\\,\\mathrm{m}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The frequency does not change when a wave enters another medium: $f = \\frac{v_1}{\\lambda_1} = \\frac{340}{0.68} = 500\\,\\mathrm{Hz}$. So $\\lambda_2 = \\frac{v_2}{f} = \\frac{1360}{500} = 2.72\\,\\mathrm{m}$; that is, $\\frac{\\lambda_2}{\\lambda_1} = \\frac{v_2}{v_1} = 4$.",
+        "fa": "وقتی موج به محیط دیگر می‌رود، فریکونسی آن تغییر نمی‌کند: $f = \\frac{v_1}{\\lambda_1} = \\frac{340}{0.68} = 500\\,\\mathrm{Hz}$. پس $\\lambda_2 = \\frac{v_2}{f} = \\frac{1360}{500} = 2.72\\,\\mathrm{m}$ است؛ یعنی $\\frac{\\lambda_2}{\\lambda_1} = \\frac{v_2}{v_1} = 4$."
+      },
+      "idea": {
+        "en": "Use $\\frac{v_1}{v_2} = \\frac{\\lambda_1}{\\lambda_2}$: in the medium where the wave is faster, its wavelength is longer.",
+        "fa": "از $\\frac{v_1}{v_2} = \\frac{\\lambda_1}{\\lambda_2}$ کار بگیرید: در محیطی که موج تیزتر است، طول موج آن هم درازتر است."
+      }
+    },
+    {
+      "pdf_page": 41,
+      "q": {
+        "en": "Two sources $s_1$ and $s_2$ on water vibrate together (in phase) and make waves with wavelength $\\lambda = 2\\,\\mathrm{cm}$. A point $P$ is $d_1 = 10\\,\\mathrm{cm}$ from $s_1$ and $d_2 = 13\\,\\mathrm{cm}$ from $s_2$. What happens at $P$?",
+        "fa": "دو منبع $s_1$ و $s_2$ روی سطح آب هم‌زمان (هم‌فاز) اهتزاز می‌کنند و موج‌هایی با طول موج $\\lambda = 2\\,\\mathrm{cm}$ می‌سازند. نقطهٔ $P$ از $s_1$ به فاصلهٔ $d_1 = 10\\,\\mathrm{cm}$ و از $s_2$ به فاصلهٔ $d_2 = 13\\,\\mathrm{cm}$ است. در نقطهٔ $P$ چه می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Maximum oscillation (constructive interference), because the path difference is $3\\,\\mathrm{cm}$.",
+          "fa": "اهتزاز اعظمی (تداخل تعمیری)، چون تفاوت راه $3\\,\\mathrm{cm}$ است."
+        },
+        {
+          "en": "Maximum oscillation, because $P$ is closer to $s_1$.",
+          "fa": "اهتزاز اعظمی، چون $P$ به $s_1$ نزدیک‌تر است."
+        },
+        {
+          "en": "The water at $P$ stays still (destructive interference), because the path difference is $\\frac{3\\lambda}{2}$.",
+          "fa": "آب در $P$ ساکن می‌ماند (تداخل تخریبی)، چون تفاوت راه $\\frac{3\\lambda}{2}$ است."
+        },
+        {
+          "en": "The oscillation at $P$ is the same as that of one source alone.",
+          "fa": "اهتزاز در $P$ مانند اهتزاز یک منبع تنها است."
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The path difference is $d_2 - d_1 = 13 - 10 = 3\\,\\mathrm{cm} = 1.5\\lambda = (2k+1)\\frac{\\lambda}{2}$ with $k = 1$. A crest from one source meets a trough from the other, so the two waves cancel.",
+        "fa": "تفاوت راه $d_2 - d_1 = 13 - 10 = 3\\,\\mathrm{cm} = 1.5\\lambda$ است که به شکل $(2k+1)\\frac{\\lambda}{2}$ با $k = 1$ است. قلهٔ یک موج با درهٔ موج دیگر می‌رسد و دو موج یک‌دیگر را خنثا می‌کنند."
+      },
+      "idea": {
+        "en": "Compare the path difference with the wavelength: a whole number of wavelengths ($k\\lambda$) gives a maximum; an odd number of half wavelengths gives a still point.",
+        "fa": "تفاوت راه را با طول موج مقایسه کنید: اگر مضرب تام طول موج ($k\\lambda$) باشد اهتزاز اعظمی است؛ اگر مضرب طاق نصف طول موج باشد، نقطه ساکن است."
+      }
+    },
+    {
+      "pdf_page": 46,
+      "q": {
+        "en": "If the absolute temperature of a gas becomes four times larger, how does the speed of sound in it change? Use $v = \\sqrt{\\frac{\\gamma R T}{M}}$.",
+        "fa": "اگر درجهٔ حرارت مطلق یک گاز چهار برابر شود، سرعت صوت در آن چه تغییر می‌کند؟ از $v = \\sqrt{\\frac{\\gamma R T}{M}}$ کار بگیرید."
+      },
+      "options": [
+        {
+          "en": "It becomes four times larger.",
+          "fa": "چهار برابر می‌شود."
+        },
+        {
+          "en": "It becomes twice as large.",
+          "fa": "دو برابر می‌شود."
+        },
+        {
+          "en": "It does not change.",
+          "fa": "تغییر نمی‌کند."
+        },
+        {
+          "en": "It becomes sixteen times larger.",
+          "fa": "شانزده برابر می‌شود."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The speed of sound is proportional to the square root of the absolute temperature, $v \\propto \\sqrt{T}$, so $\\frac{v_2}{v_1} = \\sqrt{4} = 2$.",
+        "fa": "سرعت صوت با جذر درجهٔ حرارت مطلق متناسب است، $v \\propto \\sqrt{T}$؛ پس $\\frac{v_2}{v_1} = \\sqrt{4} = 2$."
+      },
+      "idea": {
+        "en": "$T$ is under the square root. Also remember that this $T$ must be in kelvin, not in degrees Celsius.",
+        "fa": "$T$ زیر جذر است. به یاد داشته باشید که این $T$ باید به کلوین باشد، نه به درجهٔ سلسیوس."
+      }
+    },
+    {
+      "pdf_page": 54,
+      "q": {
+        "en": "In Young's experiment the two sources $s_1$ and $s_2$ are $d = 0.5\\,\\mathrm{mm}$ apart, the screen is $D = 1\\,\\mathrm{m}$ away and the light has $\\lambda = 600\\,\\mathrm{nm}$. What is the distance between two neighbouring bright fringes?",
+        "fa": "در تجربهٔ یونگ فاصلهٔ دو منبع $s_1$ و $s_2$ برابر $d = 0.5\\,\\mathrm{mm}$، فاصلهٔ پرده $D = 1\\,\\mathrm{m}$ و طول موج نور $\\lambda = 600\\,\\mathrm{nm}$ است. فاصلهٔ دو نوار روشن پی‌درپی چند است؟"
+      },
+      "options": [
+        {
+          "en": "$0.6\\,\\mathrm{mm}$",
+          "fa": "$0.6\\,\\mathrm{mm}$"
+        },
+        {
+          "en": "$2.4\\,\\mathrm{mm}$",
+          "fa": "$2.4\\,\\mathrm{mm}$"
+        },
+        {
+          "en": "$1.2\\,\\mathrm{m}$",
+          "fa": "$1.2\\,\\mathrm{m}$"
+        },
+        {
+          "en": "$1.2\\,\\mathrm{mm}$",
+          "fa": "$1.2\\,\\mathrm{mm}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Neighbouring bright fringes are $\\Delta x = \\frac{\\lambda D}{d} = \\frac{(600\\times10^{-9}\\,\\mathrm{m})(1\\,\\mathrm{m})}{0.5\\times10^{-3}\\,\\mathrm{m}} = 1.2\\times10^{-3}\\,\\mathrm{m} = 1.2\\,\\mathrm{mm}$ apart.",
+        "fa": "فاصلهٔ دو نوار روشن پی‌درپی $\\Delta x = \\frac{\\lambda D}{d} = \\frac{(600\\times10^{-9}\\,\\mathrm{m})(1\\,\\mathrm{m})}{0.5\\times10^{-3}\\,\\mathrm{m}} = 1.2\\times10^{-3}\\,\\mathrm{m} = 1.2\\,\\mathrm{mm}$ است."
+      },
+      "idea": {
+        "en": "Write every length in metres first ($1\\,\\mathrm{nm} = 10^{-9}\\,\\mathrm{m}$, $1\\,\\mathrm{mm} = 10^{-3}\\,\\mathrm{m}$). $\\frac{\\lambda D}{2d}$ is the distance from a bright fringe to the next dark one, not to the next bright one.",
+        "fa": "اول همهٔ طول‌ها را به متر بنویسید ($1\\,\\mathrm{nm} = 10^{-9}\\,\\mathrm{m}$ و $1\\,\\mathrm{mm} = 10^{-3}\\,\\mathrm{m}$). مقدار $\\frac{\\lambda D}{2d}$ فاصلهٔ یک نوار روشن تا نوار تاریک پهلوی آن است، نه تا نوار روشن بعدی."
+      }
+    },
+    {
+      "pdf_page": 58,
+      "q": {
+        "en": "Light passes through two tourmaline crystals. When the second crystal is turned until it makes a right angle with the first, no light gets through. What does this show?",
+        "fa": "نور از دو کرستال تورمالین می‌گذرد. وقتی کرستال دوم آن‌قدر چرخانده شود که با اولی زاویهٔ قایم بسازد، هیچ نوری نمی‌گذرد. این تجربه چه چیز را نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "Light is a transverse wave.",
+          "fa": "نور موج عرضی است."
+        },
+        {
+          "en": "Light is a longitudinal wave.",
+          "fa": "نور موج طولی است."
+        },
+        {
+          "en": "Light needs a material medium to travel.",
+          "fa": "نور برای انتشار به محیط مادی ضرورت دارد."
+        },
+        {
+          "en": "Light is not a wave, because it does not interfere.",
+          "fa": "نور موج نیست، چون تداخل نمی‌کند."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Like a wave on a rope passing through two slits, light gets through parallel crystals and is stopped by crossed ones. A longitudinal wave would pass in every position, so the vibration of light must be perpendicular to its direction of travel.",
+        "fa": "مانند موج ریسمان که از دو درز می‌گذرد، نور از دو کرستال موازی می‌گذرد و از دو کرستال عمود بر هم نمی‌گذرد. موج طولی از هر وضعیت می‌گذشت؛ پس اهتزاز نور بر سمت انتشار آن عمود است."
+      },
+      "idea": {
+        "en": "Only waves that vibrate across their direction of travel can be polarized. Interference and diffraction show that light is a wave; polarization shows which kind of wave.",
+        "fa": "تنها موج‌هایی قطبی می‌شوند که اهتزاز آن‌ها بر سمت انتشار عمود باشد. تداخل و تفرق نشان می‌دهند که نور موج است؛ قطبی شدن نوع آن را نشان می‌دهد."
+      }
+    }
+  ]
+}

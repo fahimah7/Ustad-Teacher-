@@ -1,0 +1,24 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-bio",
+  "pdf_page": 3,
+  "printed_page": null,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": null,
+  "summary_fa": "صفحهٔ عنوان کتاب. در بالای صفحه بسم الله الرحمن الرحیم و نشان وزارت معارف آمده است. عنوان کتاب «بیولوژی» (به انگلیسی Biology) برای «صنف یازدهم» با خط درشت نوشته شده و سال چاپ ۱۳۹۸ هجری شمسی ذکر شده است. این صفحه درس ندارد.",
+  "key_points_fa": [
+    "کتاب بیولوژی صنف یازدهم، وزارت معارف، سال چاپ ۱۳۹۸ هـ. ش."
+  ],
+  "formulas": [],
+  "terms": [
+    {"fa": "بیولوژی", "en": "biology"}
+  ],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "شمارهٔ صفحه با حرف «الف» چاپ شده است."
+}

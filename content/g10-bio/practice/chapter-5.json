@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-bio",
+  "chapter": 5,
+  "title": {
+    "en": "Genetics and its importance",
+    "fa": "جنتیک و اهمیت آن"
+  },
+  "questions": [
+    {
+      "pdf_page": 68,
+      "q": {
+        "en": "In Mendel's second generation (F2), $5474$ plants had smooth seeds and $1850$ had wrinkled seeds. What is the ratio of smooth to wrinkled seeds?",
+        "fa": "در نسل دوم (F2) تجربهٔ مندل، $5474$ نبات دانهٔ صاف و $1850$ نبات دانهٔ چملک داشتند. نسبت دانهٔ صاف به دانهٔ چملک چند است؟"
+      },
+      "options": [
+        {
+          "en": "about $1 : 1$",
+          "fa": "تقریباً $1 : 1$"
+        },
+        {
+          "en": "about $0.34 : 1$",
+          "fa": "تقریباً $0.34 : 1$"
+        },
+        {
+          "en": "about $2.96 : 1$, close to $3 : 1$",
+          "fa": "تقریباً $2.96 : 1$، نزدیک به $3 : 1$"
+        },
+        {
+          "en": "about $0.75 : 1$",
+          "fa": "تقریباً $0.75 : 1$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "A ratio compares two numbers as a fraction: $\\frac{5474}{1850} \\approx 2.96$, so smooth : wrinkled $\\approx 2.96 : 1$, about $3 : 1$, the same pattern Mendel found for every trait.",
+        "fa": "نسبت دو عدد را به شکل کسر مقایسه می‌کند: $\\frac{5474}{1850} \\approx 2.96$؛ پس صاف : چملک $\\approx 2.96 : 1$، یعنی تقریباً $3 : 1$، همان نسبتی که مندل در هر مشخصه دید."
+      },
+      "idea": {
+        "en": "Put the first group (smooth) on top of the fraction and divide by the second group (wrinkled), not by the total.",
+        "fa": "گروپ اول (صاف) را در صورت کسر بگذارید و بر گروپ دوم (چملک) تقسیم کنید، نه بر مجموع."
+      }
+    },
+    {
+      "pdf_page": 70,
+      "q": {
+        "en": "A pea plant has the genotype $Pp$ ($P$: purple, dominant; $p$: white, recessive). Which description is correct?",
+        "fa": "جنوتایپ یک نبات مشنگ $Pp$ است ($P$: ارغوانی و بارز؛ $p$: سفید و مخفی). کدام توضیح درست است؟"
+      },
+      "options": [
+        {
+          "en": "Homozygous, with purple flowers",
+          "fa": "هوموزایگوس، با گل ارغوانی"
+        },
+        {
+          "en": "Heterozygous, with white flowers",
+          "fa": "هتروزایگوس، با گل سفید"
+        },
+        {
+          "en": "Homozygous, with white flowers",
+          "fa": "هوموزایگوس، با گل سفید"
+        },
+        {
+          "en": "Heterozygous, with purple flowers",
+          "fa": "هتروزایگوس، با گل ارغوانی"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The two alleles are different, so the plant is heterozygous (impure). The dominant allele $P$ shows its effect, so the phenotype is purple flowers.",
+        "fa": "دو الیل با هم فرق دارند، پس نبات هتروزایگوس (ناخالص) است. الیل بارز $P$ اثر خود را نشان می‌دهد، پس فنوتایپ آن گل ارغوانی است."
+      },
+      "idea": {
+        "en": "Answer two questions separately: are the two letters the same (homozygous) or different (heterozygous)? And which allele decides the flower colour?",
+        "fa": "دو سؤال را جدا جواب دهید: آیا دو حرف یکسان اند (هوموزایگوس) یا فرق دارند (هتروزایگوس)؟ و کدام الیل رنگ گل را تعیین می‌کند؟"
+      }
+    },
+    {
+      "pdf_page": 73,
+      "q": {
+        "en": "Two pea plants with the genotype $Pp$ are crossed and give $400$ new plants. About how many of them will have white flowers?",
+        "fa": "دو نبات مشنگ با جنوتایپ $Pp$ با هم تزویج می‌شوند و $400$ نبات نو به دست می‌آید. تقریباً چند نبات از این‌ها گل سفید خواهند داشت؟"
+      },
+      "options": [
+        {
+          "en": "$100$",
+          "fa": "$100$"
+        },
+        {
+          "en": "$200$",
+          "fa": "$200$"
+        },
+        {
+          "en": "$300$",
+          "fa": "$300$"
+        },
+        {
+          "en": "$0$",
+          "fa": "$0$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The Punnett square for $Pp \\times Pp$ gives $1\\,PP : 2\\,Pp : 1\\,pp$. Only $pp$ is white, that is $\\frac{1}{4}$ of the plants: $\\frac{1}{4} \\times 400 = 100$.",
+        "fa": "مربع پونت برای $Pp \\times Pp$ نسبت $1\\,PP : 2\\,Pp : 1\\,pp$ را می‌دهد. تنها $pp$ گل سفید دارد، یعنی $\\frac{1}{4}$ نباتات: $\\frac{1}{4} \\times 400 = 100$."
+      },
+      "idea": {
+        "en": "Draw the Punnett square. $PP$ and $Pp$ both have purple flowers; count only the boxes with two small letters.",
+        "fa": "مربع پونت را رسم کنید. $PP$ و $Pp$ هر دو گل ارغوانی دارند؛ تنها خانه‌هایی را بشمارید که دو حرف کوچک دارند."
+      }
+    },
+    {
+      "pdf_page": 74,
+      "q": {
+        "en": "A tall pea plant is crossed with a short plant ($tt$). About half of the offspring are tall and half are short. What is the genotype of the tall plant?",
+        "fa": "یک نبات مشنگ قد بلند با یک نبات قد کوتاه ($tt$) تزویج می‌شود. تقریباً نیم نوزادان قد بلند و نیم دیگر قد کوتاه اند. جنوتایپ نبات قد بلند چیست؟"
+      },
+      "options": [
+        {
+          "en": "$TT$",
+          "fa": "$TT$"
+        },
+        {
+          "en": "$Tt$",
+          "fa": "$Tt$"
+        },
+        {
+          "en": "$tt$",
+          "fa": "$tt$"
+        },
+        {
+          "en": "It cannot be found from this cross",
+          "fa": "از این تزویج معلوم شده نمی‌تواند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "This is a test cross. A $TT$ parent would give only tall ($Tt$) offspring. A short offspring ($tt$) gets one $t$ from each parent, so the tall plant carries $t$: it is $Tt$, and $Tt \\times tt$ gives $1$ tall : $1$ short.",
+        "fa": "این امتحان تزویج است. والد $TT$ تنها نوزادان قد بلند ($Tt$) می‌دهد. نوزاد قد کوتاه ($tt$) از هر والد یک $t$ می‌گیرد؛ پس نبات قد بلند الیل $t$ دارد، یعنی $Tt$ است و $Tt \\times tt$ نسبت $1$ قد بلند به $1$ قد کوتاه را می‌دهد."
+      },
+      "idea": {
+        "en": "Where did the short offspring get their two $t$ alleles? One came from the short parent; where did the other one come from?",
+        "fa": "نوزادان قد کوتاه دو الیل $t$ خود را از کجا گرفتند؟ یکی از والد قد کوتاه آمده؛ دیگری از کجا آمده است؟"
+      }
+    },
+    {
+      "pdf_page": 77,
+      "q": {
+        "en": "How many chromosomes are there in a human sex cell (gamete)?",
+        "fa": "در یک حجرهٔ جنسی (گامیت) انسان چند کروموزوم موجود است؟"
+      },
+      "options": [
+        {
+          "en": "$46$",
+          "fa": "$46$"
+        },
+        {
+          "en": "$22$",
+          "fa": "$22$"
+        },
+        {
+          "en": "$23$",
+          "fa": "$23$"
+        },
+        {
+          "en": "$2$",
+          "fa": "$2$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Body cells are $2n$: $46$ chromosomes in $23$ pairs. Sex cells are $n$: they get only one chromosome of each pair, so they have $23$ ($22$ body chromosomes plus one X or one Y).",
+        "fa": "حجرات جسمی $2n$ اند: $46$ کروموزوم در $23$ جوره. حجرات جنسی $n$ اند و از هر جوره فقط یک کروموزوم می‌گیرند؛ پس $23$ کروموزوم دارند ($22$ کروموزوم جسمی و یک X یا یک Y)."
+      },
+      "idea": {
+        "en": "$46$ is the number in body cells. A sex cell gets only one chromosome of each pair; do not forget the sex chromosome.",
+        "fa": "$46$ تعداد کروموزوم‌های حجرات جسمی است. حجرهٔ جنسی از هر جوره تنها یکی را می‌گیرد؛ کروموزوم جنسی را هم فراموش نکنید."
+      }
+    }
+  ]
+}

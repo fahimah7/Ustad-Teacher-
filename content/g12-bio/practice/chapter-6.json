@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 6,
+  "title": {
+    "en": "Reproduction and embryonic development",
+    "fa": "تکثر و انکشاف جنین"
+  },
+  "questions": [
+    {
+      "pdf_page": 101,
+      "q": {
+        "en": "Why are the testes found outside the body cavity, in the scrotum?",
+        "fa": "چرا خصیه‌ها بیرون از جوف بدن، در خریطهٔ خصیه، جا دارند؟"
+      },
+      "options": [
+        {
+          "en": "Because sperm develop only at a temperature about $3\\,^{\\circ}\\mathrm{C}$ below normal body temperature ($37\\,^{\\circ}\\mathrm{C}$)",
+          "fa": "چون سپرم تنها در حرارتی انکشاف می‌کند که حدود $3\\,^{\\circ}\\mathrm{C}$ از حرارت نورمال بدن ($37\\,^{\\circ}\\mathrm{C}$) پایین‌تر باشد"
+        },
+        {
+          "en": "Because sperm need a temperature higher than $37\\,^{\\circ}\\mathrm{C}$ to develop",
+          "fa": "چون سپرم برای انکشاف به حرارتی بیشتر از $37\\,^{\\circ}\\mathrm{C}$ ضرورت دارد"
+        },
+        {
+          "en": "So that they are close to the bladder, where sperm are stored",
+          "fa": "تا نزدیک مثانه باشند، چون سپرم در مثانه ذخیره می‌شود"
+        },
+        {
+          "en": "Because the testes need more blood than any other organ",
+          "fa": "چون خصیه‌ها نسبت به همهٔ اعضای دیگر به خون بیشتر ضرورت دارند"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Sperm develop only at about $3\\,^{\\circ}\\mathrm{C}$ below the normal body temperature of $37\\,^{\\circ}\\mathrm{C}$, and the scrotum keeps the testes outside the body, where it is cooler. Sperm are stored and mature in the epididymis, not in the bladder.",
+        "fa": "سپرم تنها در حرارتی حدود $3\\,^{\\circ}\\mathrm{C}$ کمتر از حرارت نورمال بدن ($37\\,^{\\circ}\\mathrm{C}$) انکشاف می‌کند و خریطهٔ خصیه خصیه‌ها را بیرون از بدن، در جای سردتر، نگه می‌دارد. سپرم در اپی دیدایمس ذخیره و پخته می‌شود، نه در مثانه."
+      },
+      "idea": {
+        "en": "Think about temperature: is it warmer inside the body or outside it?",
+        "fa": "به حرارت فکر کنید: داخل بدن گرم‌تر است یا بیرون آن؟"
+      }
+    },
+    {
+      "pdf_page": 104,
+      "q": {
+        "en": "Fertilization usually does not happen if there are fewer than $20$ million sperm in each mL of semen. A man's ejaculation contains $3.5\\,\\mathrm{mL}$ of semen with $56$ million sperm in total. How many sperm are there in each mL, and what does this mean?",
+        "fa": "اگر در هر ملی لیتر منی کمتر از $20$ میلیون سپرم باشد، معمولاً القاح صورت نمی‌گیرد. در انزال یک مرد $3.5$ ملی لیتر منی با مجموعاً $56$ میلیون سپرم خارج می‌شود. در هر ملی لیتر چند سپرم است و این چه معنا دارد؟"
+      },
+      "options": [
+        {
+          "en": "$196$ million per mL; fertilization is likely",
+          "fa": "$196$ میلیون در هر ملی لیتر؛ القاح ممکن است"
+        },
+        {
+          "en": "$56$ million per mL; fertilization is likely",
+          "fa": "$56$ میلیون در هر ملی لیتر؛ القاح ممکن است"
+        },
+        {
+          "en": "$16$ million per mL; fertilization is likely",
+          "fa": "$16$ میلیون در هر ملی لیتر؛ القاح ممکن است"
+        },
+        {
+          "en": "$16$ million per mL; fertilization usually does not happen",
+          "fa": "$16$ میلیون در هر ملی لیتر؛ معمولاً القاح صورت نمی‌گیرد"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Sperm per mL $= \\frac{56}{3.5} = 16$ million, which is below the limit of $20$ million, so fertilization usually does not happen. Normal semen has $300$ to $400$ million sperm in $3.5\\,\\mathrm{mL}$, about $86$ to $114$ million per mL.",
+        "fa": "تعداد سپرم در هر ملی لیتر $\\frac{56}{3.5} = 16$ میلیون است که از حد $20$ میلیون کمتر است، پس معمولاً القاح صورت نمی‌گیرد. منی نورمال در $3.5$ ملی لیتر $300$ تا $400$ میلیون سپرم دارد، یعنی حدود $86$ تا $114$ میلیون در هر ملی لیتر."
+      },
+      "idea": {
+        "en": "Divide the total number of sperm by the volume of semen, then compare the result with $20$ million.",
+        "fa": "تعداد مجموعی سپرم را بر حجم منی تقسیم کنید و نتیجه را با $20$ میلیون مقایسه کنید."
+      }
+    },
+    {
+      "pdf_page": 106,
+      "q": {
+        "en": "Which list gives the four stages of the menstrual cycle in the order the book describes, starting when menstruation ends?",
+        "fa": "کدام فهرست چهار مرحلهٔ دورهٔ حیض را به ترتیبی که کتاب گفته، از ختم حیض به بعد، درست نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "Ovulation → follicle stage → menstruation → luteal stage",
+          "fa": "تخم‌گذاری ← مرحلهٔ فولیکولی ← حیض ← مرحلهٔ تشکیل جسم زرد"
+        },
+        {
+          "en": "Follicle stage → ovulation (about day 14) → luteal stage (corpus luteum) → menstruation",
+          "fa": "مرحلهٔ فولیکولی ← تخم‌گذاری (حدود روز ۱۴) ← مرحلهٔ تشکیل جسم زرد ← حیض"
+        },
+        {
+          "en": "Follicle stage → luteal stage → ovulation → menstruation",
+          "fa": "مرحلهٔ فولیکولی ← مرحلهٔ تشکیل جسم زرد ← تخم‌گذاری ← حیض"
+        },
+        {
+          "en": "Menstruation → luteal stage → ovulation → follicle stage",
+          "fa": "حیض ← مرحلهٔ تشکیل جسم زرد ← تخم‌گذاری ← مرحلهٔ فولیکولی"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "After menstruation the follicle stage lasts until about day 14 or 15, the egg is released (ovulation) on about day 14, and the luteal stage, when the corpus luteum forms, lasts from day 15 to 28. If the egg is not fertilized, the lining of the uterus breaks down and menstruation follows for 4 to 5 days.",
+        "fa": "بعد از ختم حیض مرحلهٔ فولیکولی تا حدود روز ۱۴ یا ۱۵ دوام می‌کند، در حدود روز ۱۴ تخمه آزاد می‌شود (تخم‌گذاری) و مرحلهٔ تشکیل جسم زرد از روز ۱۵ تا ۲۸ است. اگر القاح نشود، پوش داخلی رحم تخریب شده حیض ۴ تا ۵ روز دوام می‌کند."
+      },
+      "idea": {
+        "en": "The egg must first grow in its follicle before it can be released, and the corpus luteum forms only after the egg has left.",
+        "fa": "تخمه اول باید در فولیکل خود نمو کند تا آزاد شود، و جسم زرد تنها بعد از آزاد شدن تخمه ساخته می‌شود."
+      }
+    },
+    {
+      "pdf_page": 107,
+      "q": {
+        "en": "Where in the female body does fertilization normally take place?",
+        "fa": "القاح معمولاً در کدام قسمت جهاز تناسلی زن صورت می‌گیرد؟"
+      },
+      "options": [
+        {
+          "en": "In the uterus",
+          "fa": "در رحم"
+        },
+        {
+          "en": "In the ovary",
+          "fa": "در تخمدان"
+        },
+        {
+          "en": "In the oviduct (Fallopian tube)",
+          "fa": "در نفیره (تیوب فالوپین)"
+        },
+        {
+          "en": "In the vagina",
+          "fa": "در مهبل"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Each month an egg leaves the ovary and moves along the oviduct toward the uterus, and a sperm meets it in the oviduct. The zygote then takes 5 to 6 days to reach the uterus, dividing on the way, and implants in its wall.",
+        "fa": "هر ماه یک تخمه از تخمدان آزاد شده از راه نفیره به طرف رحم می‌رود و سپرم در خود نفیره با آن یکجا می‌شود. زایگوت بعد در ۵ تا ۶ روز به رحم می‌رسد، در راه چندین بار تقسیم می‌شود و در دیوار رحم غرس می‌گردد."
+      },
+      "idea": {
+        "en": "The uterus is where the embryo implants and grows, and that happens several days after fertilization.",
+        "fa": "رحم جای غرس و نموی جنین است، و این کار چند روز بعد از القاح واقع می‌شود."
+      }
+    },
+    {
+      "pdf_page": 108,
+      "q": {
+        "en": "What happens to the blood of the mother and the blood of the fetus in the placenta?",
+        "fa": "خون مادر و خون جنین در جوره (Placenta) چه حالت دارند؟"
+      },
+      "options": [
+        {
+          "en": "They flow very close to each other but never mix; oxygen and food pass to the fetus and wastes pass to the mother.",
+          "fa": "خیلی نزدیک هم جریان دارند ولی هیچ‌گاه مخلوط نمی‌شوند؛ اکسیجن و غذا به جنین و مواد فضله به مادر می‌رسد."
+        },
+        {
+          "en": "They mix completely, so the fetus uses its mother's blood.",
+          "fa": "کاملاً با هم مخلوط می‌شوند و جنین از خون مادر استفاده می‌کند."
+        },
+        {
+          "en": "They never come near each other; the fetus gets its food only from the amniotic fluid.",
+          "fa": "هیچ‌گاه نزدیک هم نمی‌آیند و جنین غذای خود را تنها از مایع امنیوتیک می‌گیرد."
+        },
+        {
+          "en": "Only the fetus's blood flows in the placenta, carrying wastes into the amniotic fluid.",
+          "fa": "تنها خون جنین در جوره جریان دارد و مواد فضله را به مایع امنیوتیک می‌ریزد."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The placenta is an organ of two-way exchange with many blood vessels, where the two bloods flow side by side without mixing. Oxygen and food pass from the mother to the fetus, and the fetus's wastes pass to the mother's blood so that her body can excrete them.",
+        "fa": "جوره عضو تبادلهٔ دوطرفه است و رگ‌های خون زیاد دارد که در آن دو خون پهلوی هم جریان دارند ولی مخلوط نمی‌شوند. اکسیجن و مواد غذایی از مادر به جنین می‌رسد و مواد فضلهٔ جنین به خون مادر داده می‌شود تا بدن مادر آن را اطراح کند."
+      },
+      "idea": {
+        "en": "The placenta works like a border where materials are exchanged, not a place where the two bloods join.",
+        "fa": "جوره مانند یک سرحد است که مواد در آن تبادله می‌شوند، نه جایی که دو خون با هم یکجا شوند."
+      }
+    }
+  ]
+}

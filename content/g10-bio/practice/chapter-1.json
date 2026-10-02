@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-bio",
+  "chapter": 1,
+  "title": {
+    "en": "Scientific methods",
+    "fa": "میتودهای علمی"
+  },
+  "questions": [
+    {
+      "pdf_page": 10,
+      "q": {
+        "en": "Which list shows the steps of the scientific method in the correct order?",
+        "fa": "کدام فهرست مراحل میتود علمی را به ترتیب درست نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "Observation → asking questions → forming a hypothesis → testing the hypothesis → results → writing a report",
+          "fa": "مشاهده ← طرح سؤالات ← فرضیه سازی ← تحلیل فرضیه ← نتایج تحلیل فرضیه ← تهیهٔ راپور"
+        },
+        {
+          "en": "Asking questions → observation → forming a hypothesis → testing the hypothesis → results → writing a report",
+          "fa": "طرح سؤالات ← مشاهده ← فرضیه سازی ← تحلیل فرضیه ← نتایج تحلیل فرضیه ← تهیهٔ راپور"
+        },
+        {
+          "en": "Asking questions → forming a hypothesis → writing a report → observation → testing the hypothesis → results",
+          "fa": "طرح سؤالات ← فرضیه سازی ← تهیهٔ راپور ← مشاهده ← تحلیل فرضیه ← نتایج تحلیل فرضیه"
+        },
+        {
+          "en": "Forming a hypothesis → asking questions → observation → results → testing the hypothesis → writing a report",
+          "fa": "فرضیه سازی ← طرح سؤالات ← مشاهده ← نتایج تحلیل فرضیه ← تحلیل فرضیه ← تهیهٔ راپور"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Research starts with a question; then information is gathered by observation, a hypothesis is formed and tested, the results are interpreted, and finally a report is written, as in the book's figure (1-1).",
+        "fa": "تحقیق با طرح سؤال شروع می‌شود؛ بعد با مشاهده معلومات جمع می‌شود، فرضیه ساخته و آزمایش (تحلیل) می‌شود، نتایج تعبیر و تفسیر می‌شوند و در آخر راپور تهیه می‌گردد، مانند شکل (۱-۱) کتاب."
+      },
+      "idea": {
+        "en": "Ask yourself what must come before everything else: without a clear question you do not know what to observe or what to guess about.",
+        "fa": "فکر کنید چه چیز باید پیش از همه باشد: بدون یک سؤال روشن نمی‌دانید چه چیز را مشاهده کنید و در بارهٔ چه حدس بزنید."
+      }
+    },
+    {
+      "pdf_page": 11,
+      "q": {
+        "en": "In the scientific method, what does observation mean?",
+        "fa": "در میتود علمی، مشاهده به چه معنا است؟"
+      },
+      "options": [
+        {
+          "en": "Only looking carefully at something with the eyes",
+          "fa": "تنها با دقت دیدن یک چیز با چشم"
+        },
+        {
+          "en": "A guess about the cause of something that happens",
+          "fa": "حدس و گمان در بارهٔ علت یک پدیده"
+        },
+        {
+          "en": "Collecting information about a subject using the different senses",
+          "fa": "جمع‌آوری معلومات در بارهٔ یک موضوع با استفاده از حواس مختلف"
+        },
+        {
+          "en": "Testing whether a guess is right or wrong",
+          "fa": "آزمایش این که یک حدس درست است یا نادرست"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Observation means gathering information with all the senses, such as touching, smelling or looking through a microscope; it is not only looking with the eyes.",
+        "fa": "مشاهده یعنی جمع‌آوری معلومات با همهٔ حواس، مانند لمس کردن، بوییدن یا دیدن زیر مایکروسکوپ؛ مشاهده تنها نگاه کردن با چشم نیست."
+      },
+      "idea": {
+        "en": "A guess about a cause is a hypothesis, and checking a guess is testing it. Observation comes before both: with which organs do we gather information?",
+        "fa": "حدس در بارهٔ علت فرضیه است و آزمایش حدس تحلیل فرضیه. مشاهده پیش از هر دو می‌آید: ما با کدام اعضا معلومات جمع می‌کنیم؟"
+      }
+    },
+    {
+      "pdf_page": 12,
+      "q": {
+        "en": "Karim sees that the leaves of a plant in a dark corner have turned yellow. He says: “Perhaps this plant is not getting enough light.” Which step of the scientific method is this sentence?",
+        "fa": "کریم می‌بیند که برگ‌های نباتی که در یک کنج تاریک است زرد شده اند. او می‌گوید: «شاید این نبات روشنی کافی نمی‌گیرد.» این جملهٔ او کدام مرحلهٔ میتود علمی است؟"
+      },
+      "options": [
+        {
+          "en": "Observation",
+          "fa": "مشاهده"
+        },
+        {
+          "en": "Writing a report",
+          "fa": "تهیهٔ راپور"
+        },
+        {
+          "en": "Results of testing the hypothesis",
+          "fa": "نتایج تحلیل فرضیه"
+        },
+        {
+          "en": "Forming a hypothesis",
+          "fa": "فرضیه سازی"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "A hypothesis is a possible answer, a guess about the cause, made from what was observed. Karim has not tested it yet, so it may be right or wrong.",
+        "fa": "فرضیه جواب احتمالی یا حدس در بارهٔ علت است که بر اساس مشاهده زده می‌شود. کریم هنوز آن را آزمایش نکرده، پس ممکن است درست یا نادرست باشد."
+      },
+      "idea": {
+        "en": "Seeing the yellow leaves is the observation. The word “perhaps” shows a guess about why it happened.",
+        "fa": "دیدن برگ‌های زرد مشاهده است. کلمهٔ «شاید» نشان می‌دهد که این یک حدس در بارهٔ علت است."
+      }
+    },
+    {
+      "pdf_page": 13,
+      "q": {
+        "en": "A test showed that standing water is dirtier than running water. Which of these statements is a prediction based on this result?",
+        "fa": "آزمایش نشان داد که آب ایستاده از آب جاری کثیف‌تر است. کدام یک از جمله‌های زیر پیش بینی بر اساس این نتیجه است؟"
+      },
+      "options": [
+        {
+          "en": "Drinking standing water can cause various diseases in people.",
+          "fa": "نوشیدن آب ایستاده می‌تواند سبب امراض مختلف در انسان شود."
+        },
+        {
+          "en": "Standing water is dirtier than running water.",
+          "fa": "آب ایستاده از آب جاری کثیف‌تر است."
+        },
+        {
+          "en": "Maybe standing water is dirtier than running water.",
+          "fa": "شاید آب ایستاده از آب جاری کثیف‌تر باشد."
+        },
+        {
+          "en": "Look at a drop of standing water under a microscope.",
+          "fa": "یک قطره آب ایستاده را زیر مایکروسکوپ ببینید."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The book uses this example: the result is that standing water is dirtier, and from it we predict that drinking it causes diseases. A prediction says what will happen.",
+        "fa": "کتاب همین مثال را می‌آورد: نتیجه این است که آب ایستاده کثیف‌تر است و از آن پیش بینی می‌کنیم که نوشیدن آن سبب امراض می‌شود. پیش بینی می‌گوید چه رخ خواهد داد."
+      },
+      "idea": {
+        "en": "Sort the sentences: one is the result itself, one is the hypothesis before the test and one is the way of testing. Which one talks about what will happen?",
+        "fa": "جمله‌ها را جدا کنید: یکی خود نتیجه است، یکی فرضیهٔ پیش از آزمایش و یکی طرز آزمایش. کدام جمله از آنچه رخ خواهد داد گپ می‌زند؟"
+      }
+    },
+    {
+      "pdf_page": 13,
+      "q": {
+        "en": "According to the book, what makes a scientific report easier to understand?",
+        "fa": "طبق کتاب، چه چیز فهمیدن یک راپور علمی را آسان‌تر می‌سازد؟"
+      },
+      "options": [
+        {
+          "en": "Making it as long as possible",
+          "fa": "تا حد ممکن دراز نوشتن آن"
+        },
+        {
+          "en": "Writing only the final answer, without the hypothesis",
+          "fa": "نوشتن تنها جواب آخر، بدون فرضیه"
+        },
+        {
+          "en": "Leaving out the calculations and observations",
+          "fa": "ننوشتن محاسبات و مشاهدات"
+        },
+        {
+          "en": "Showing the results in tables and graphs",
+          "fa": "نشان دادن نتایج در جدول‌ها و گراف‌ها"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "A report should not be very long, but its answers, hypotheses and predictions must be accurate and orderly; results shown in tables and graphs are understood more easily.",
+        "fa": "راپور نباید بسیار دراز باشد، ولی جواب‌ها، فرضیه‌ها و پیش بینی‌های آن باید دقیق و منظم باشند؛ نتایجی که در جدول و گراف نشان داده شوند آسان‌تر فهمیده می‌شوند."
+      },
+      "idea": {
+        "en": "A good report is short but complete: it keeps the ideas, calculations, observations and tests. In what form can numbers be shown clearly?",
+        "fa": "راپور خوب کوتاه ولی مکمل است: فکرها، محاسبات، مشاهدات و آزمایش‌ها را دارد. اعداد را به کدام شکل می‌توان واضح نشان داد؟"
+      }
+    }
+  ]
+}

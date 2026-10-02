@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 8,
+  "title": {
+    "en": "Comparison of invertebrate body systems",
+    "fa": "مقایسهٔ سیستم‌های حیوانات غیر فقاریه"
+  },
+  "questions": [
+    {
+      "pdf_page": 105,
+      "q": {
+        "en": "In what order does food pass through the digestive system of an earthworm?",
+        "fa": "غذا در سیستم هاضمهٔ کرم زمینی به کدام ترتیب حرکت می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "mouth → oesophagus → pharynx → crop → gizzard → intestine → anus",
+          "fa": "دهن ← مری ← حلقوم ← جاغور ← سنگ‌دان ← روده ← مخرج"
+        },
+        {
+          "en": "mouth → pharynx → oesophagus → gizzard → crop → intestine → anus",
+          "fa": "دهن ← حلقوم ← مری ← سنگ‌دان ← جاغور ← روده ← مخرج"
+        },
+        {
+          "en": "mouth → pharynx → oesophagus → crop → gizzard → intestine → anus",
+          "fa": "دهن ← حلقوم ← مری ← جاغور ← سنگ‌دان ← روده ← مخرج"
+        },
+        {
+          "en": "mouth → pharynx → crop → oesophagus → intestine → gizzard → anus",
+          "fa": "دهن ← حلقوم ← جاغور ← مری ← روده ← سنگ‌دان ← مخرج"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The earthworm has a complete digestive tube: mouth, pharynx, oesophagus, crop, gizzard, intestine and anus. In the grasshopper, too, the crop comes before the gizzard.",
+        "fa": "سیستم هاضمهٔ کرم زمینی یک نل مکمل است: دهن، حلقوم، مری، جاغور، سنگ‌دان، روده و مخرج. در ملخ هم جاغور پیش از سنگ‌دان است."
+      },
+      "idea": {
+        "en": "The pharynx comes right after the mouth, and in both the earthworm and the grasshopper the crop comes before the gizzard.",
+        "fa": "حلقوم درست بعد از دهن است و در کرم زمینی و ملخ هر دو، جاغور پیش از سنگ‌دان می‌آید."
+      }
+    },
+    {
+      "pdf_page": 106,
+      "q": {
+        "en": "Which invertebrate has a closed circulatory system in which five pairs of aortic arches around the oesophagus work as hearts?",
+        "fa": "کدام حیوان غیر فقاریه دوران بستهٔ خون دارد که در آن پنج جوره رگ قوسی دور مری کار قلب را انجام می‌دهند؟"
+      },
+      "options": [
+        {
+          "en": "The earthworm",
+          "fa": "کرم زمینی"
+        },
+        {
+          "en": "The grasshopper",
+          "fa": "ملخ"
+        },
+        {
+          "en": "The snail",
+          "fa": "حلزون"
+        },
+        {
+          "en": "The crab",
+          "fa": "خرچنگ"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "In the earthworm the blood always stays inside vessels, and five pairs of aortic arches pump it; its blood is red because of hemoglobin. Most molluscs and arthropods have an open circulation.",
+        "fa": "در کرم زمینی خون همیشه داخل رگ‌ها می‌ماند و پنج جوره رگ قوسی آن را حرکت می‌دهند؛ خون آن به سبب هموگلوبین سرخ است. بیشتر نرم‌تنان و مفصلیه‌ها دوران باز دارند."
+      },
+      "idea": {
+        "en": "In an open system the blood leaves the vessels and flows through the body cavity. Which of these animals keeps its blood inside vessels?",
+        "fa": "در دوران باز خون از رگ‌ها بیرون شده در خالی‌گاه بدن جریان می‌کند؛ کدام یک از این حیوانات خون را داخل رگ‌ها نگه می‌دارد؟"
+      }
+    },
+    {
+      "pdf_page": 107,
+      "q": {
+        "en": "How does oxygen reach the tissues of a grasshopper?",
+        "fa": "اکسیجن چطور به انساج بدن ملخ می‌رسد؟"
+      },
+      "options": [
+        {
+          "en": "Gases are exchanged through its moist skin.",
+          "fa": "گازها از راه جلد مرطوب آن تبادله می‌شوند."
+        },
+        {
+          "en": "It breathes with gills, like a crab.",
+          "fa": "مانند خرچنگ با برانشی تنفس می‌کند."
+        },
+        {
+          "en": "It breathes with book lungs, like a spider.",
+          "fa": "مانند جولاگک با شش‌های کتاب‌مانند تنفس می‌کند."
+        },
+        {
+          "en": "Air enters through spiracles and travels in branching air tubes (tracheae) to the tissues.",
+          "fa": "هوا از سوراخ‌های تنفسی (سپایریکل) داخل نل‌های هوایی شاخه‌دار شده به انساج می‌رسد."
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Insects breathe with tracheae: air enters through the spiracles, and the branching tubes carry oxygen to every part of the body and take $\\mathrm{CO_2}$ out.",
+        "fa": "حشرات با نل‌های هوایی تنفس می‌کنند: هوا از سپایریکل‌ها داخل می‌شود و نل‌های شاخه‌دار اکسیجن را به همهٔ قسمت‌های بدن می‌رسانند و $\\mathrm{CO_2}$ را بیرون می‌کنند."
+      },
+      "idea": {
+        "en": "The earthworm uses its skin, the crab gills and the spider book lungs. What is special about insects?",
+        "fa": "کرم زمینی با جلد، خرچنگ با برانشی و جولاگک با شش‌های کتاب‌مانند تنفس می‌کند؛ حشرات چه چیز خاص دارند؟"
+      }
+    },
+    {
+      "pdf_page": 110,
+      "q": {
+        "en": "The earthworm is a hermaphrodite. Which statement about its reproduction is correct?",
+        "fa": "کرم زمینی هرموفرودایت است. کدام جمله دربارهٔ تکثر آن درست است؟"
+      },
+      "options": [
+        {
+          "en": "It has both male and female organs and always fertilises itself.",
+          "fa": "اعضای تکثری مذکر و مؤنث هر دو را دارد و همیشه خودش را القاح می‌کند."
+        },
+        {
+          "en": "It has both male and female organs, but two worms fertilise each other (cross fertilisation).",
+          "fa": "اعضای تکثری مذکر و مؤنث هر دو را دارد، ولی دو کرم یکدیگر را القاح می‌کنند (القاح متقابل)."
+        },
+        {
+          "en": "It has only female organs and reproduces by parthenogenesis.",
+          "fa": "تنها اعضای تکثری مؤنث دارد و با پارتینوجینیسس تکثر می‌کند."
+        },
+        {
+          "en": "Its sperm and eggs meet in water outside the body, as in the sea star.",
+          "fa": "سپرم و تخمهٔ آن مانند ستارهٔ بحری در آب بیرون از بدن یک‌جا می‌شوند."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "A hermaphrodite has both sexes in one body, but the earthworm still needs a partner: at night two worms lie side by side and exchange male sex cells, and the fertilised eggs develop in a case made by the clitellum.",
+        "fa": "هرموفرودایت هر دو جنس را در یک بدن دارد، ولی کرم زمینی باز هم به جوره ضرورت دارد: شب دو کرم پهلوی هم قرار گرفته حجرات جنسی مذکر را تبادله می‌کنند و تخم‌های القاح‌شده در غلافی که کلیتیلیوم می‌سازد انکشاف می‌کنند."
+      },
+      "idea": {
+        "en": "Having both kinds of organs does not always mean self-fertilisation. Think about what 'cross fertilisation' means.",
+        "fa": "داشتن هر دو نوع عضو همیشه به معنای القاح خود نیست؛ به معنای «القاح متقابل» فکر کنید."
+      }
+    },
+    {
+      "pdf_page": 111,
+      "q": {
+        "en": "Which sequence shows complete metamorphosis, as in a butterfly?",
+        "fa": "کدام ترتیب استحالهٔ مکمل را، مانند استحالهٔ پروانه، نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "egg → larva → pupa → adult",
+          "fa": "تخم ← بطیطه ← شفیره ← بالغ"
+        },
+        {
+          "en": "egg → young that looks like a wingless adult → adult",
+          "fa": "تخم ← چوچهٔ شبیه بالغ و بی‌بال ← بالغ"
+        },
+        {
+          "en": "egg → pupa → larva → adult",
+          "fa": "تخم ← شفیره ← بطیطه ← بالغ"
+        },
+        {
+          "en": "larva → egg → pupa → adult",
+          "fa": "بطیطه ← تخم ← شفیره ← بالغ"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "In complete metamorphosis a larva that looks nothing like the adult hatches from the egg, turns into a pupa, and the adult comes out of the pupa. Incomplete metamorphosis, as in the grasshopper, has no larva or pupa.",
+        "fa": "در استحالهٔ مکمل از تخم بطیطه‌یی بیرون می‌شود که هیچ شباهت به حیوان بالغ ندارد؛ بطیطه به شفیره تبدیل می‌شود و از شفیره حیوان بالغ بیرون می‌آید. استحالهٔ نامکمل، مانند ملخ، بطیطه و شفیره ندارد."
+      },
+      "idea": {
+        "en": "Complete metamorphosis has four stages, and the larva comes before the pupa.",
+        "fa": "استحالهٔ مکمل چهار مرحله دارد و بطیطه پیش از شفیره است."
+      }
+    }
+  ]
+}

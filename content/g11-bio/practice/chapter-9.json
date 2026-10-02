@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 9,
+  "title": {
+    "en": "Vertebrates and their characteristics",
+    "fa": "حیوانات فقاریه و مشخصات حیوانات فقاریه"
+  },
+  "questions": [
+    {
+      "pdf_page": 115,
+      "q": {
+        "en": "Which three features do all chordates share, at least in the embryo?",
+        "fa": "تمام حیوانات کورداتا، دست‌کم در مرحلهٔ جنین، کدام سه نشانهٔ مشترک را دارند؟"
+      },
+      "options": [
+        {
+          "en": "A backbone, feathers and lungs",
+          "fa": "تیر کمر، پر و شش"
+        },
+        {
+          "en": "A notochord, gill slits and a hollow dorsal nerve cord",
+          "fa": "نوتوکورد، درزهای تنفسی و طناب عصبی میان‌خالی"
+        },
+        {
+          "en": "Scales, fins and gills",
+          "fa": "فلس، شهپر و برانشی"
+        },
+        {
+          "en": "An exoskeleton, jointed legs and antennae",
+          "fa": "اسکلیت خارجی، پاهای بندبند و آنتن"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Every chordate has a notochord (a flexible rod along the back), gill slits beside the throat and a hollow nerve cord above the notochord; in most vertebrates the backbone later takes the place of the notochord.",
+        "fa": "هر حیوان کورداتا نوتوکورد (میلهٔ قابل انعطاف در طول پشت)، درزهای تنفسی در دو طرف حلقوم و طناب عصبی میان‌خالی بالای نوتوکورد دارد؛ در بیشتر فقاریه‌ها بعداً ستون فقرات جای نوتوکورد را می‌گیرد."
+      },
+      "idea": {
+        "en": "Feathers, fins and jointed legs belong only to some groups. Look for features found even in the embryo of every chordate.",
+        "fa": "پر، شهپر و پاهای بندبند تنها در بعضی گروه‌ها است؛ نشانه‌هایی را پیدا کنید که در جنین همهٔ کورداتاها دیده می‌شوند."
+      }
+    },
+    {
+      "pdf_page": 122,
+      "q": {
+        "en": "How many chambers does the heart have in a fish, an amphibian (frog) and a bird, in that order?",
+        "fa": "قلب ماهی، ذوحیاتین (بقه) و پرنده، به همین ترتیب، چند جوف دارد؟"
+      },
+      "options": [
+        {
+          "en": "$3$, $2$, $4$",
+          "fa": "$3$، $2$، $4$"
+        },
+        {
+          "en": "$2$, $4$, $3$",
+          "fa": "$2$، $4$، $3$"
+        },
+        {
+          "en": "$2$, $3$, $3$",
+          "fa": "$2$، $3$، $3$"
+        },
+        {
+          "en": "$2$, $3$, $4$",
+          "fa": "$2$، $3$، $4$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "A fish heart has one atrium and one ventricle ($2$ chambers), an amphibian heart two atria and one ventricle ($3$), and a bird heart, like a mammal's, two atria and two ventricles ($4$).",
+        "fa": "قلب ماهی یک دهلیز و یک بطن ($2$ جوف)، قلب ذوحیاتین دو دهلیز و یک بطن ($3$ جوف) و قلب پرنده، مانند پستان‌داران، دو دهلیز و دو بطن ($4$ جوف) دارد."
+      },
+      "idea": {
+        "en": "The number of chambers grows from fish to amphibians to birds.",
+        "fa": "تعداد جوف‌های قلب از ماهی به ذوحیاتین و از ذوحیاتین به پرنده زیاد می‌شود."
+      }
+    },
+    {
+      "pdf_page": 124,
+      "q": {
+        "en": "Which feature helps reptiles live on dry land?",
+        "fa": "کدام مشخصه به خزنده‌گان کمک می‌کند که در خشکه زنده‌گی کنند؟"
+      },
+      "options": [
+        {
+          "en": "Moist skin without scales, kept wet by glands",
+          "fa": "جلد مرطوب و بی‌فلس که غده‌ها آن را تر نگه می‌دارند"
+        },
+        {
+          "en": "Gills covered by an operculum",
+          "fa": "برانشی‌هایی که اوپرکولوم آن‌ها را پوشانده است"
+        },
+        {
+          "en": "Dry, rough skin that stops the body from losing too much water",
+          "fa": "جلد خشک و درشت که نمی‌گذارد آب بدن زیاد ضایع شود"
+        },
+        {
+          "en": "A body covered with feathers",
+          "fa": "بدن پوشیده از پر"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Reptiles have dry, rough skin that prevents evaporation of the body's water; they breathe with lungs and most lay their eggs on land. Moist skin belongs to amphibians, which need water.",
+        "fa": "خزنده‌گان جلد خشک و درشت دارند که از تبخیر آب بدن جلوگیری می‌کند؛ با شش تنفس می‌کنند و بیشترشان تخم‌های خود را در خشکه می‌گذارند. جلد مرطوب از ذوحیاتین است که به آب ضرورت دارند."
+      },
+      "idea": {
+        "en": "On dry land the danger is drying out. Which kind of skin keeps water in?",
+        "fa": "در خشکه خطر خشک شدن بدن است؛ کدام نوع جلد آب بدن را نگه می‌دارد؟"
+      }
+    },
+    {
+      "pdf_page": 130,
+      "q": {
+        "en": "The ostrich, the kiwi and the cassowary cannot fly. To which group of birds do they belong, and why?",
+        "fa": "شترمرغ، کیوی و کسوویری پرواز کرده نمی‌توانند. این پرنده‌گان از کدام گروه اند و چرا؟"
+      },
+      "options": [
+        {
+          "en": "Running birds: they have large, heavy bodies and few or no feathers on their wings and tail.",
+          "fa": "پرنده‌گان دونده: جسامت کلان دارند و در بال و دم آن‌ها پر کم است یا هیچ نیست."
+        },
+        {
+          "en": "Flying birds: their bodies are light and their chest muscles strong.",
+          "fa": "پرنده‌گان پروازکننده: بدن‌شان سبک است و عضلات سینهٔ آن‌ها قوی."
+        },
+        {
+          "en": "They are not birds but mammals, because they cannot fly.",
+          "fa": "این‌ها پرنده نیستند، بلکه پستان‌دار اند، چون پرواز نمی‌کنند."
+        },
+        {
+          "en": "They are reptiles, because they lay eggs.",
+          "fa": "این‌ها خزنده اند، چون تخم می‌گذارند."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "By the way they move, birds are flying birds or running birds. Running birds such as the ostrich and the kiwi are large, with few or weak feathers on the wings and tail, so they walk and run instead of flying; they are still birds, with feathers and a beak.",
+        "fa": "پرنده‌گان از لحاظ حرکت پروازکننده یا دونده اند. پرنده‌گان دونده، مانند شترمرغ و کیوی، جسامت کلان و پرهای کم یا ضعیف در بال و دم دارند و به جای پرواز راه می‌روند و می‌دوند؛ با آن هم پرنده اند، چون پر و منقار دارند."
+      },
+      "idea": {
+        "en": "Not flying does not stop an animal with feathers and a beak from being a bird.",
+        "fa": "پرواز نکردن، حیوانی را که پر و منقار دارد از پرنده بودن بیرون نمی‌کند."
+      }
+    },
+    {
+      "pdf_page": 134,
+      "q": {
+        "en": "The duck-billed platypus lays eggs. Which feature shows that it is still a mammal?",
+        "fa": "دک‌بیل پلاتی‌پس تخم می‌گذارد. کدام مشخصه نشان می‌دهد که با آن هم پستان‌دار است؟"
+      },
+      "options": [
+        {
+          "en": "It lays its eggs on land.",
+          "fa": "تخم‌های خود را در خشکه می‌گذارد."
+        },
+        {
+          "en": "It has a four-chambered heart.",
+          "fa": "قلب چهار جوف دارد."
+        },
+        {
+          "en": "The female feeds its young with milk after they hatch.",
+          "fa": "ماده چوچه‌های خود را پس از برآمدن از تخم شیر می‌دهد."
+        },
+        {
+          "en": "It has a bill like a duck.",
+          "fa": "مانند مرغابی نول دارد."
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Mammals are named for feeding their young with milk: the platypus lays eggs, but its young drink their mother's milk after hatching. Laying eggs and a four-chambered heart are found in birds too.",
+        "fa": "نام پستان‌داران از این است که چوچه‌های خود را شیر می‌دهند: پلاتی‌پس تخم می‌گذارد، ولی چوچه پس از برآمدن از تخم شیر مادر را می‌خورد. تخم‌گذاری و قلب چهار جوف در پرنده‌گان هم دیده می‌شود."
+      },
+      "idea": {
+        "en": "Find the feature that only mammals have, not birds.",
+        "fa": "مشخصه‌یی را پیدا کنید که تنها پستان‌داران دارند، نه پرنده‌گان."
+      }
+    }
+  ]
+}

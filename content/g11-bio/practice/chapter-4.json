@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 4,
+  "title": {
+    "en": "Photosynthesis",
+    "fa": "ترکیب ضیایی"
+  },
+  "questions": [
+    {
+      "pdf_page": 48,
+      "q": {
+        "en": "The overall equation of photosynthesis is $\\mathrm{6CO_2 + 6H_2O \\rightarrow C_6H_{12}O_6 + 6O_2}$. How many molecules of oxygen are released when a leaf makes $3$ molecules of glucose?",
+        "fa": "معادلهٔ عمومی ترکیب ضیایی $\\mathrm{6CO_2 + 6H_2O \\rightarrow C_6H_{12}O_6 + 6O_2}$ است. وقتی یک برگ $3$ مالیکول گلوکوز بسازد، چند مالیکول اکسیجن آزاد می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "$6$",
+          "fa": "$6$"
+        },
+        {
+          "en": "$3$",
+          "fa": "$3$"
+        },
+        {
+          "en": "$18$",
+          "fa": "$18$"
+        },
+        {
+          "en": "$36$",
+          "fa": "$36$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Each molecule of glucose comes with $6$ molecules of oxygen, so $3 \\times 6 = 18$ molecules of $\\mathrm{O_2}$.",
+        "fa": "با هر مالیکول گلوکوز $6$ مالیکول اکسیجن آزاد می‌شود، پس $3 \\times 6 = 18$ مالیکول $\\mathrm{O_2}$ است."
+      },
+      "idea": {
+        "en": "Read the ratio from the equation: $1$ glucose to $6\\,\\mathrm{O_2}$. Count molecules, not oxygen atoms.",
+        "fa": "نسبت را از معادله بخوانید: یک گلوکوز در برابر $6$ مالیکول $\\mathrm{O_2}$؛ مالیکول‌ها را بشمارید، نه اتوم‌های اکسیجن را."
+      }
+    },
+    {
+      "pdf_page": 50,
+      "q": {
+        "en": "Through which openings do carbon dioxide and oxygen enter and leave a leaf?",
+        "fa": "کاربن دای اوکساید و اکسیجن از راه کدام سوراخ‌ها داخل برگ می‌شوند یا از آن خارج می‌گردند؟"
+      },
+      "options": [
+        {
+          "en": "The stomata of the lower epidermis, each surrounded by two guard cells",
+          "fa": "ستوماتای اپی‌درمس پایانی که هر کدام را دو حجرهٔ محافظ احاطه کرده است"
+        },
+        {
+          "en": "The xylem vessels, which bring water to the leaf",
+          "fa": "نل‌های زایلم که آب را به برگ می‌رسانند"
+        },
+        {
+          "en": "The palisade mesophyll cells under the upper epidermis",
+          "fa": "حجرات میزوفیل پالیسید زیر اپی‌درمس بالایی"
+        },
+        {
+          "en": "The phloem, which carries food out of the leaf",
+          "fa": "فلویم که غذا را از برگ بیرون می‌برد"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The small holes called stomata, found in the lower epidermis, let $\\mathrm{CO_2}$ and $\\mathrm{O_2}$ pass and water vapour escape; each one is surrounded by two guard cells.",
+        "fa": "سوراخ‌های کوچکی به نام ستوماتا که در اپی‌درمس پایانی اند، اجازهٔ عبور $\\mathrm{CO_2}$ و $\\mathrm{O_2}$ و خروج بخار آب را می‌دهند؛ هر ستوما را دو حجرهٔ محافظ احاطه کرده است."
+      },
+      "idea": {
+        "en": "Xylem and phloem carry water and food, and the mesophyll makes food. Which part is a hole in the leaf's surface?",
+        "fa": "زایلم و فلویم آب و غذا را انتقال می‌دهند و میزوفیل غذا می‌سازد؛ کدام قسمت سوراخی در سطح برگ است؟"
+      }
+    },
+    {
+      "pdf_page": 53,
+      "q": {
+        "en": "Where does the oxygen released in photosynthesis come from?",
+        "fa": "اکسیجنی که در ترکیب ضیایی آزاد می‌شود، از کجا به‌دست می‌آید؟"
+      },
+      "options": [
+        {
+          "en": "From carbon dioxide broken down in the dark reaction",
+          "fa": "از تجزیهٔ کاربن دای اوکساید در تعامل تاریک"
+        },
+        {
+          "en": "From glucose broken down in the stroma",
+          "fa": "از تجزیهٔ گلوکوز در ستروما"
+        },
+        {
+          "en": "From air that enters through the stomata and leaves unchanged",
+          "fa": "از هوایی که از راه ستوماتا داخل شده بی‌تغییر خارج می‌شود"
+        },
+        {
+          "en": "From water molecules split by light energy in the light reaction (photolysis)",
+          "fa": "از تجزیهٔ مالیکول‌های آب با انرژی نور در تعامل روشنی (Photolysis)"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "In the light reaction in the grana, chlorophyll uses light energy to split water into hydrogen and oxygen; the oxygen is released and the hydrogen is used in the dark reaction.",
+        "fa": "در تعامل روشنی در گرانا، کلوروفیل با انرژی نور آب را به هایدروجن و اکسیجن تجزیه می‌کند؛ اکسیجن آزاد می‌شود و هایدروجن در تعامل تاریک به کار می‌رود."
+      },
+      "idea": {
+        "en": "Look at the light-reaction equation $\\mathrm{12H_2O \\rightarrow 6O_2 + 24H}$: which substance gives the $\\mathrm{O_2}$?",
+        "fa": "به معادلهٔ تعامل روشنی $\\mathrm{12H_2O \\rightarrow 6O_2 + 24H}$ نگاه کنید: $\\mathrm{O_2}$ از کدام ماده حاصل می‌شود؟"
+      }
+    },
+    {
+      "pdf_page": 56,
+      "q": {
+        "en": "In an activity, two potted plants are first kept in the dark until their starch is used up. One is then covered with a plastic bag holding soda lime (which absorbs $\\mathrm{CO_2}$) and the other with a bag holding sodium bicarbonate (which gives off $\\mathrm{CO_2}$). After some hours in sunlight, only the leaf of the soda-lime plant does not turn blue with iodine. What does this show?",
+        "fa": "در یک فعالیت، دو گلدان نبات اول در تاریکی گذاشته می‌شوند تا نشایستهٔ آن‌ها تمام شود. بعد یکی با پلاستیکی پوشانده می‌شود که در آن سودا لایم (جذب‌کنندهٔ $\\mathrm{CO_2}$) است و دیگری با پلاستیکی که در آن سودیم بای کاربونیت (تهیه‌کنندهٔ $\\mathrm{CO_2}$) است. پس از چند ساعت آفتاب، تنها برگ نبات سودا لایم با آیودین آبی نمی‌شود. این تجربه چه را نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "Light is needed for photosynthesis.",
+          "fa": "نور برای ترکیب ضیایی ضروری است."
+        },
+        {
+          "en": "Carbon dioxide is needed for photosynthesis.",
+          "fa": "کاربن دای اوکساید برای ترکیب ضیایی ضروری است."
+        },
+        {
+          "en": "Soda lime destroys chlorophyll.",
+          "fa": "سودا لایم کلوروفیل را از بین می‌برد."
+        },
+        {
+          "en": "Iodine reacts with carbon dioxide, not with starch.",
+          "fa": "آیودین با کاربن دای اوکساید تعامل می‌کند، نه با نشایسته."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Both plants had light, water and chlorophyll; only the soda-lime plant had no $\\mathrm{CO_2}$, and it made no starch, so $\\mathrm{CO_2}$ is a raw material of photosynthesis.",
+        "fa": "هر دو نبات نور، آب و کلوروفیل داشتند؛ تنها نبات سودا لایم $\\mathrm{CO_2}$ نداشت و نشایسته نساخت؛ پس $\\mathrm{CO_2}$ مادهٔ خام ترکیب ضیایی است."
+      },
+      "idea": {
+        "en": "Find the one thing that was different between the two plants.",
+        "fa": "آن یگانه چیزی را پیدا کنید که میان دو نبات فرق داشت."
+      }
+    },
+    {
+      "pdf_page": 59,
+      "q": {
+        "en": "What happens when ATP loses one phosphate group?",
+        "fa": "وقتی ATP یک گروپ فاسفیت خود را از دست بدهد، چه واقع می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "It becomes ADP and energy is released.",
+          "fa": "به ADP تبدیل می‌شود و انرژی آزاد می‌گردد."
+        },
+        {
+          "en": "It becomes AMP and energy is stored.",
+          "fa": "به AMP تبدیل می‌شود و انرژی ذخیره می‌گردد."
+        },
+        {
+          "en": "It becomes glucose.",
+          "fa": "به گلوکوز تبدیل می‌شود."
+        },
+        {
+          "en": "It becomes ADP and the cell must take in energy.",
+          "fa": "به ADP تبدیل می‌شود و حجره باید انرژی بگیرد."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The bonds between the three phosphates of ATP hold energy; when the last phosphate breaks off, ADP and a phosphate form and energy is released for the cell's work: $\\mathrm{ATP \\rightarrow ADP + P} + \\text{energy}$.",
+        "fa": "رابطه‌های میان سه فاسفیت ATP انرژی دارند؛ با جدا شدن فاسفیت آخری، ADP و یک فاسفیت ساخته شده انرژی برای کارهای حجره آزاد می‌شود: $\\mathrm{ATP \\rightarrow ADP + P}$ + انرژی."
+      },
+      "idea": {
+        "en": "Tri- means three and di- means two. Is energy released or used when the bond breaks?",
+        "fa": "«ترای» یعنی سه و «دای» یعنی دو؛ وقتی رابطه می‌شکند، انرژی آزاد می‌شود یا مصرف؟"
+      }
+    }
+  ]
+}

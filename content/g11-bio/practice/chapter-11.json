@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 11,
+  "title": {
+    "en": "Interactions among populations",
+    "fa": "عمل متقابل بین جمعیت‌ها"
+  },
+  "questions": [
+    {
+      "pdf_page": 156,
+      "q": {
+        "en": "Harmless bacteria live in the intestines of vertebrates: the bacteria benefit, and the animal is neither helped nor harmed. What kind of relationship is this?",
+        "fa": "باکتریاهای بی‌ضرر در روده‌های حیوانات فقاریه زنده‌گی می‌کنند: باکتریا فایده می‌برند و به حیوان نه فایده می‌رسد نه ضرر. این کدام نوع رابطه است؟"
+      },
+      "options": [
+        {
+          "en": "Mutualism",
+          "fa": "کمک متقابل (میوچوالیزم)"
+        },
+        {
+          "en": "Parasitism",
+          "fa": "پرازیتیزم"
+        },
+        {
+          "en": "Competition",
+          "fa": "رقابت"
+        },
+        {
+          "en": "Commensalism",
+          "fa": "هم‌سفری (کامن سیلزم)"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "In commensalism one species benefits and the other gets neither benefit nor harm; it is one of the kinds of symbiosis.",
+        "fa": "در هم‌سفری یک نوع فایده می‌برد و به نوع دیگر نه فایده می‌رسد نه ضرر؛ این یکی از اقسام هم‌زیستی است."
+      },
+      "idea": {
+        "en": "In mutualism both benefit, and in parasitism the host is harmed. Here only one side benefits and the other is not affected.",
+        "fa": "در کمک متقابل هر دو فایده می‌برند و در پرازیتیزم میزبان ضرر می‌بیند؛ این‌جا تنها یک طرف فایده می‌برد و طرف دیگر بی‌تأثیر می‌ماند."
+      }
+    },
+    {
+      "pdf_page": 157,
+      "q": {
+        "en": "Which of these is an example of mutualism, in which both species benefit?",
+        "fa": "کدام یک از این‌ها مثال کمک متقابل (میوچوالیزم) است که در آن هر دو نوع فایده می‌برند؟"
+      },
+      "options": [
+        {
+          "en": "Termites and the flagellates that digest cellulose in their gut",
+          "fa": "مورچهٔ سفید و فلاجیلاتا که سلولوز را در نل هاضمهٔ آن هضم می‌کند"
+        },
+        {
+          "en": "A tapeworm living in a person's intestine",
+          "fa": "کرم کدودانه که در رودهٔ انسان زنده‌گی می‌کند"
+        },
+        {
+          "en": "A cat catching a mouse",
+          "fa": "پشک که موش را شکار می‌کند"
+        },
+        {
+          "en": "A dog and a cat fighting over a piece of meat",
+          "fa": "سگ و پشک که بر سر یک توته گوشت با هم مقابله می‌کنند"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Termites eat wood but cannot digest cellulose; the flagellates in their gut digest it for them and get a safe home in return, so both benefit. The lichen, an alga and a fungus living together, is another example.",
+        "fa": "مورچهٔ سفید چوب می‌خورد، ولی سلولوز را هضم کرده نمی‌تواند؛ فلاجیلاتای نل هاضمهٔ آن سلولوز را هضم می‌کند و در بدل جای امن می‌گیرد، پس هر دو فایده می‌برند. گل‌سنگ که از یک الجی و یک فنجی ساخته شده، مثال دیگر آن است."
+      },
+      "idea": {
+        "en": "For each pair, ask what each side gets: in which pair do both gain?",
+        "fa": "برای هر جوره ببینید که هر طرف چه به‌دست می‌آورد: در کدام جوره هر دو فایده می‌برند؟"
+      }
+    },
+    {
+      "pdf_page": 158,
+      "q": {
+        "en": "A parasite that lives inside the body of its host is called an endoparasite. Which of these is an endoparasite?",
+        "fa": "پرازیتی که در داخل بدن میزبان زنده‌گی می‌کند پرازیت داخلی نام دارد. کدام یک از این‌ها پرازیت داخلی است؟"
+      },
+      "options": [
+        {
+          "en": "A louse",
+          "fa": "شپش"
+        },
+        {
+          "en": "A flea",
+          "fa": "کیک"
+        },
+        {
+          "en": "The Ascaris worm in the intestine",
+          "fa": "کرم اسکریس در روده"
+        },
+        {
+          "en": "A leech",
+          "fa": "جوک"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The Ascaris worm, the pinworm and the tapeworm live inside the host's body, so they are endoparasites; lice and fleas live on the outside of the body, and the leech attaches to the skin from outside, so they are ectoparasites.",
+        "fa": "کرم اسکریس، کرم کخ و کرم کدودانه در داخل بدن میزبان زنده‌گی می‌کنند، پس پرازیت داخلی اند؛ شپش و کیک بیرون بدن زنده‌گی می‌کنند و جوک هم از بیرون به جلد می‌چسپد، پس این‌ها پرازیت خارجی اند."
+      },
+      "idea": {
+        "en": "Ask where the parasite lives: on the skin and hair, or inside the gut?",
+        "fa": "ببینید پرازیت در کجا زنده‌گی می‌کند: روی جلد و موی، یا داخل روده؟"
+      }
+    },
+    {
+      "pdf_page": 159,
+      "q": {
+        "en": "Drosera (sundew) has chlorophyll and carries out photosynthesis, yet it catches insects. Why?",
+        "fa": "نبات دروسرا کلوروفیل دارد و ترکیب ضیایی می‌کند، ولی باز هم حشرات را می‌گیرد. چرا؟"
+      },
+      "options": [
+        {
+          "en": "It cannot make any food, because it is a complete heterotroph.",
+          "fa": "هیچ غذا ساخته نمی‌تواند، چون به‌طور کامل هتروتروف است."
+        },
+        {
+          "en": "It digests them with enzymes to get materials for making protein.",
+          "fa": "حشرات را با انزایم‌ها هضم می‌کند تا مواد لازم برای ساختن پروتین را به‌دست آورد."
+        },
+        {
+          "en": "It gets water from the bodies of the insects.",
+          "fa": "آب را از بدن حشرات می‌گیرد."
+        },
+        {
+          "en": "It needs the insects to carry its pollen.",
+          "fa": "به حشرات ضرورت دارد تا گردهٔ آن را انتقال دهند."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Insect-eating plants are not complete heterotrophs: they make sugar by photosynthesis, but they attract insects with colour, smell and a sticky substance and digest them with enzymes to get what they need for making protein.",
+        "fa": "نباتات حشره‌خور به‌طور کامل هتروتروف نیستند: با ترکیب ضیایی قند می‌سازند، ولی حشرات را با رنگ، بوی و مادهٔ چسپناک جلب کرده با انزایم‌ها هضم می‌کنند تا مواد لازم برای ساختن پروتین را به‌دست آورند."
+      },
+      "idea": {
+        "en": "Photosynthesis gives sugar, not everything a plant needs. What can an insect's body provide?",
+        "fa": "ترکیب ضیایی قند می‌دهد، نه همهٔ مواد لازم نبات را؛ بدن حشره چه چیز را تهیه کرده می‌تواند؟"
+      }
+    },
+    {
+      "pdf_page": 160,
+      "q": {
+        "en": "A strong animal drives a weaker animal of its own species out of the area, and the weak one dies because it cannot reach food. What is this called?",
+        "fa": "یک حیوان قوی حیوان ضعیف هم‌نوع خود را از محیط بیرون می‌کند و حیوان ضعیف به خاطر نرسیدن به غذا می‌میرد. این را چه می‌گویند؟"
+      },
+      "options": [
+        {
+          "en": "Competition between different species",
+          "fa": "رقابت بین انواع مختلف"
+        },
+        {
+          "en": "Predation",
+          "fa": "شکار نمودن"
+        },
+        {
+          "en": "Commensalism",
+          "fa": "هم‌سفری"
+        },
+        {
+          "en": "Competition within the same species",
+          "fa": "رقابت بین هم‌نوع"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Competition is the struggle of living things for the same need, such as food, water, land or sunlight, when there is not enough of it. When both animals are of the same species, it is competition within the species.",
+        "fa": "رقابت کوشش موجودات زنده برای یک چیز مشترک، مانند غذا، آب، زمین و نور آفتاب، است وقتی که آن چیز در محیط کم باشد. اگر هر دو حیوان هم‌نوع باشند، آن را رقابت بین هم‌نوع می‌گویند."
+      },
+      "idea": {
+        "en": "The strong animal does not eat the weak one, so it is not predation. Are the two animals of the same kind?",
+        "fa": "حیوان قوی حیوان ضعیف را نمی‌خورد، پس شکار نیست؛ آیا این دو حیوان هم‌نوع اند؟"
+      }
+    }
+  ]
+}

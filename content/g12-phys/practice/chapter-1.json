@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-phys",
+  "chapter": 1,
+  "title": {
+    "en": "Oscillations and simple harmonic motion",
+    "fa": "اهتزازات و حرکت سادهٔ هارمونیکی"
+  },
+  "questions": [
+    {
+      "pdf_page": 14,
+      "q": {
+        "en": "Which condition makes the oscillation of a body a simple harmonic motion?",
+        "fa": "کدام شرط، اهتزاز یک جسم را حرکت سادهٔ هارمونیکی می‌سازد؟"
+      },
+      "options": [
+        {
+          "en": "The body moves around a circle with constant speed.",
+          "fa": "جسم با سرعت ثابت روی یک دایره حرکت می‌کند."
+        },
+        {
+          "en": "The acceleration always points toward the equilibrium position and is proportional to the displacement.",
+          "fa": "شتاب همیشه به طرف موقعیت تعادل است و با فاصلهٔ بی‌جاشده متناسب است."
+        },
+        {
+          "en": "The body moves back and forth with constant speed.",
+          "fa": "جسم با سرعت ثابت پس و پیش می‌رود."
+        },
+        {
+          "en": "The restoring force has the same size at every position.",
+          "fa": "قوهٔ برگرداننده در همهٔ موقعیت‌ها یک اندازه دارد."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In simple harmonic motion $a \\propto -x$: the acceleration is directed toward the equilibrium point and grows with the displacement, as for a mass on a spring, where $a = -\\frac{k}{m}x$.",
+        "fa": "در حرکت سادهٔ هارمونیکی $a \\propto -x$ است: شتاب به طرف نقطهٔ تعادل است و با فاصلهٔ بی‌جاشده زیاد می‌شود، مانند کتلهٔ وصل به فنر که در آن $a = -\\frac{k}{m}x$ است."
+      },
+      "idea": {
+        "en": "Think of the spring: the farther the mass is pulled, the harder the spring pulls it back. A constant speed or a constant force cannot give this.",
+        "fa": "به فنر فکر کنید: هرچه کتله دورتر کش شود، فنر آن را قوی‌تر پس می‌کشد. سرعت ثابت یا قوهٔ ثابت چنین حالتی نمی‌سازد."
+      }
+    },
+    {
+      "pdf_page": 15,
+      "q": {
+        "en": "A simple pendulum is released at point $S$. It swings through the lowest point $O$ to the other end $P$ and back. Which path is one complete oscillation?",
+        "fa": "رقاصهٔ ساده‌یی از نقطهٔ $S$ رها می‌شود، از پایین‌ترین نقطهٔ $O$ می‌گذرد، به انجام دیگر $P$ می‌رسد و برمی‌گردد. کدام مسیر یک اهتزاز مکمل است؟"
+      },
+      "options": [
+        {
+          "en": "$S \\to O \\to P$",
+          "fa": "$S \\to O \\to P$"
+        },
+        {
+          "en": "$S \\to O$",
+          "fa": "$S \\to O$"
+        },
+        {
+          "en": "$S \\to O \\to P \\to O$",
+          "fa": "$S \\to O \\to P \\to O$"
+        },
+        {
+          "en": "$S \\to O \\to P \\to O \\to S$",
+          "fa": "$S \\to O \\to P \\to O \\to S$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "A complete oscillation ends when the bob passes the same point again, moving in the same direction: starting from $S$ it must go to $P$ and come all the way back to $S$.",
+        "fa": "اهتزاز مکمل وقتی تمام می‌شود که گلوله دوباره از همان نقطه در همان سمت بگذرد: از $S$ باید تا $P$ برود و دوباره تا $S$ برگردد."
+      },
+      "idea": {
+        "en": "$S \\to O \\to P$ is only half an oscillation. Passing $O$ in the opposite direction does not finish the cycle.",
+        "fa": "مسیر $S \\to O \\to P$ تنها نیم اهتزاز است. گذشتن از $O$ در سمت مخالف، اهتزاز مکمل را تمام نمی‌کند."
+      }
+    },
+    {
+      "pdf_page": 16,
+      "q": {
+        "en": "A pendulum makes $20$ complete oscillations in $50\\,\\mathrm{s}$. What is its frequency?",
+        "fa": "یک رقاصه در $50\\,\\mathrm{s}$ تعداد $20$ اهتزاز مکمل انجام می‌دهد. فریکونسی آن چند است؟"
+      },
+      "options": [
+        {
+          "en": "$0.4\\,\\mathrm{Hz}$",
+          "fa": "$0.4\\,\\mathrm{Hz}$"
+        },
+        {
+          "en": "$2.5\\,\\mathrm{Hz}$",
+          "fa": "$2.5\\,\\mathrm{Hz}$"
+        },
+        {
+          "en": "$1000\\,\\mathrm{Hz}$",
+          "fa": "$1000\\,\\mathrm{Hz}$"
+        },
+        {
+          "en": "$0.02\\,\\mathrm{Hz}$",
+          "fa": "$0.02\\,\\mathrm{Hz}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Frequency is the number of complete oscillations in one second: $f = \\frac{N}{t} = \\frac{20}{50\\,\\mathrm{s}} = 0.4\\,\\mathrm{Hz}$. The period is $T = \\frac{1}{f} = 2.5\\,\\mathrm{s}$.",
+        "fa": "فریکونسی تعداد اهتزازهای مکمل در یک ثانیه است: $f = \\frac{N}{t} = \\frac{20}{50\\,\\mathrm{s}} = 0.4\\,\\mathrm{Hz}$. پیریود آن $T = \\frac{1}{f} = 2.5\\,\\mathrm{s}$ است."
+      },
+      "idea": {
+        "en": "Divide the number of oscillations by the time, not the time by the number: $\\frac{50}{20} = 2.5$ is the period in seconds, not the frequency.",
+        "fa": "تعداد اهتزازها را بر زمان تقسیم کنید، نه زمان را بر تعداد: $\\frac{50}{20} = 2.5$ پیریود به ثانیه است، نه فریکونسی."
+      }
+    },
+    {
+      "pdf_page": 23,
+      "q": {
+        "en": "A simple pendulum is $2.45\\,\\mathrm{m}$ long ($g = 9.8\\,\\mathrm{m/s^2}$). What is its period?",
+        "fa": "طول یک رقاصهٔ ساده $2.45\\,\\mathrm{m}$ است ($g = 9.8\\,\\mathrm{m/s^2}$). پیریود آن چند است؟"
+      },
+      "options": [
+        {
+          "en": "$1.57\\,\\mathrm{s}$",
+          "fa": "$1.57\\,\\mathrm{s}$"
+        },
+        {
+          "en": "$12.6\\,\\mathrm{s}$",
+          "fa": "$12.6\\,\\mathrm{s}$"
+        },
+        {
+          "en": "$3.14\\,\\mathrm{s}$",
+          "fa": "$3.14\\,\\mathrm{s}$"
+        },
+        {
+          "en": "$0.32\\,\\mathrm{s}$",
+          "fa": "$0.32\\,\\mathrm{s}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$T = 2\\pi\\sqrt{\\frac{L}{g}} = 2\\pi\\sqrt{\\frac{2.45}{9.8}} = 2\\pi\\sqrt{0.25} = 2\\pi \\times 0.5 \\approx 3.14\\,\\mathrm{s}$.",
+        "fa": "$T = 2\\pi\\sqrt{\\frac{L}{g}} = 2\\pi\\sqrt{\\frac{2.45}{9.8}} = 2\\pi\\sqrt{0.25} = 2\\pi \\times 0.5 \\approx 3.14\\,\\mathrm{s}$ است."
+      },
+      "idea": {
+        "en": "The length goes on top: $\\frac{L}{g}$, not $\\frac{g}{L}$. And do not forget the square root: $\\sqrt{0.25} = 0.5$.",
+        "fa": "طول در صورت کسر است: $\\frac{L}{g}$، نه $\\frac{g}{L}$. جذر را هم فراموش نکنید: $\\sqrt{0.25} = 0.5$."
+      }
+    },
+    {
+      "pdf_page": 25,
+      "q": {
+        "en": "A small ball on a turntable moves uniformly on a circle of radius $10\\,\\mathrm{cm}$ and makes $2$ turns every second. Its shadow on a screen moves in simple harmonic motion. What are the amplitude and the frequency of the shadow's motion?",
+        "fa": "گلولهٔ کوچکی روی یک دسک دوّار، روی دایره‌یی به شعاع $10\\,\\mathrm{cm}$ حرکت یکنواخت دارد و در هر ثانیه $2$ دور می‌زند. سایهٔ آن روی پرده حرکت سادهٔ هارمونیکی دارد. امپلیتیود و فریکونسی حرکت سایه چند است؟"
+      },
+      "options": [
+        {
+          "en": "$A = 20\\,\\mathrm{cm}$, $f = 2\\,\\mathrm{Hz}$",
+          "fa": "$A = 20\\,\\mathrm{cm}$، $f = 2\\,\\mathrm{Hz}$"
+        },
+        {
+          "en": "$A = 10\\,\\mathrm{cm}$, $f = 2\\,\\mathrm{Hz}$",
+          "fa": "$A = 10\\,\\mathrm{cm}$، $f = 2\\,\\mathrm{Hz}$"
+        },
+        {
+          "en": "$A = 10\\,\\mathrm{cm}$, $f = 0.5\\,\\mathrm{Hz}$",
+          "fa": "$A = 10\\,\\mathrm{cm}$، $f = 0.5\\,\\mathrm{Hz}$"
+        },
+        {
+          "en": "$A = 20\\,\\mathrm{cm}$, $f = 4\\,\\mathrm{Hz}$",
+          "fa": "$A = 20\\,\\mathrm{cm}$، $f = 4\\,\\mathrm{Hz}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Simple harmonic motion is the projection of uniform circular motion on a diameter: the amplitude equals the radius ($10\\,\\mathrm{cm}$), and one turn of the ball is one complete oscillation of the shadow, so $f = 2\\,\\mathrm{Hz}$.",
+        "fa": "حرکت سادهٔ هارمونیکی مرتسم حرکت یکنواخت دایره‌یی بر یک قطر است: امپلیتیود برابر شعاع ($10\\,\\mathrm{cm}$) است و هر دور گلوله یک اهتزاز مکمل سایه است، پس $f = 2\\,\\mathrm{Hz}$."
+      },
+      "idea": {
+        "en": "The shadow moves between $-A$ and $+A$, so its whole path ($20\\,\\mathrm{cm}$) is twice the amplitude. The number of turns per second is already the frequency.",
+        "fa": "سایه میان $-A$ و $+A$ رفت و آمد می‌کند، پس تمام مسیر آن ($20\\,\\mathrm{cm}$) دو برابر امپلیتیود است. تعداد دورها در یک ثانیه خودش فریکونسی است."
+      }
+    }
+  ]
+}

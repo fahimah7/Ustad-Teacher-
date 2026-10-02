@@ -1,0 +1,20 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g11-bio",
+  "pdf_page": 170,
+  "printed_page": 163,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": "مأخذها",
+  "summary_fa": "این صفحهٔ آخر کتاب فهرست مأخذها، یعنی کتاب‌هایی است که مؤلفان در تهیهٔ این کتاب از آن‌ها استفاده کرده اند، و درس ندارد. هفده مأخذ نام برده شده: ده کتاب بیولوژی به زبان انگلیسی (از جمله کتاب‌های Holt، Glencoe، Mader و Campbell که بین سال‌های ۱۹۹۰ و ۲۰۰۸ چاپ شده اند)، دو کتاب حیاتیات بورد کتاب‌های درسی پشاور، دو کتاب درسی بیولوژی به زبان عربی و سه کتاب جانورشناسی و بیولوژی به زبان فارسی که در ایران چاپ شده اند.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "صفحهٔ پایانی کتاب (فهرست مأخذها)؛ چون نوع back matter در فهرست page_kind نیست، مانند کتاب‌های دیگر front_matter انتخاب شد. فصلی به این صفحه تعلق ندارد."
+}

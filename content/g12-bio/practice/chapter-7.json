@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 7,
+  "title": {
+    "en": "Transport of materials in seed plants",
+    "fa": "انتقال مواد در نباتات تخمدار"
+  },
+  "questions": [
+    {
+      "pdf_page": 118,
+      "q": {
+        "en": "Wheat and barley have many thin roots that grow from the base of the plant and spread near the surface of the soil. What kind of roots are these, and which plants usually have them?",
+        "fa": "گندم و جو ریشه‌های زیاد و باریک دارند که از بیخ نبات می‌رویند و نزدیک سطح خاک پهن می‌شوند. این کدام نوع ریشه است و معمولاً در کدام نباتات دیده می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Tap roots; dicotyledons (two seed leaves)",
+          "fa": "ریشه‌های راست؛ نباتات دو مشیمه‌یی (دو پله‌یی)"
+        },
+        {
+          "en": "Storage (glandular) roots; dicotyledons",
+          "fa": "ریشه‌های غده‌یی؛ نباتات دو مشیمه‌یی"
+        },
+        {
+          "en": "Fibrous roots; dicotyledons",
+          "fa": "ریشه‌های افشان؛ نباتات دو مشیمه‌یی"
+        },
+        {
+          "en": "Fibrous roots; monocotyledons (one seed leaf)",
+          "fa": "ریشه‌های افشان؛ نباتات یک مشیمه‌یی (یک پله‌یی)"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Many thin roots spreading near the surface are fibrous roots, which take water from the top layer of the soil. Monocots such as grasses, wheat and barley usually have them, while dicots usually have a tap root that grows deep.",
+        "fa": "ریشه‌های زیاد و باریک که نزدیک سطح خاک پهن می‌شوند ریشه‌های افشان اند و آب را از طبقهٔ بالایی خاک می‌گیرند. نباتات یک مشیمه‌یی مانند علف‌ها، گندم و جو معمولاً چنین ریشه دارند، در حالی که نباتات دو مشیمه‌یی معمولاً ریشهٔ راست دارند که به عمق می‌رود."
+      },
+      "idea": {
+        "en": "A tap root is one thick root that goes deep. Which type spreads out like threads?",
+        "fa": "ریشهٔ راست یک ریشهٔ ضخیم است که به عمق می‌رود. کدام نوع مانند تارها پهن می‌شود؟"
+      }
+    },
+    {
+      "pdf_page": 119,
+      "q": {
+        "en": "As water evaporates from the leaves, the whole column of water in the xylem is pulled up without breaking. What makes this possible?",
+        "fa": "وقتی آب از برگ‌ها تبخیر می‌شود، تمام ستون آب در زایلم بدون قطع شدن بالا کشیده می‌شود. چه چیز این کار را ممکن می‌سازد؟"
+      },
+      "options": [
+        {
+          "en": "Water molecules stick together (cohesion), so evaporation creates a pulling force along the whole column.",
+          "fa": "مالیکول‌های آب به هم می‌چسپند (قوهٔ چسپنده‌گی)، پس تبخیر یک قوهٔ کشش در تمام ستون پیدا می‌کند."
+        },
+        {
+          "en": "Phloem cells pump the water upward using energy.",
+          "fa": "حجرات فلویم آب را با مصرف انرژی به طرف بالا پمپ می‌کنند."
+        },
+        {
+          "en": "Guard cells push the water up from the roots.",
+          "fa": "حجرات محافظ آب را از ریشه به طرف بالا تیله می‌کنند."
+        },
+        {
+          "en": "Root pressure alone pushes it to the top of tall trees.",
+          "fa": "تنها فشار ریشه آب را تا سر درختان بلند تیله می‌کند."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The xylem holds a continuous column of water from root to leaf, and because water molecules stick together, the water lost by transpiration pulls on the molecules below it. The whole column therefore rises without breaking, while root pressure alone can lift water only about one metre.",
+        "fa": "زایلم یک ستون پیوستهٔ آب از ریشه تا برگ دارد و چون مالیکول‌های آب به هم می‌چسپند، آبی که با تعرق ضایع می‌شود مالیکول‌های زیرین را می‌کشد. پس تمام ستون بدون قطع شدن بالا می‌رود، در حالی که فشار ریشه به تنهایی آب را تنها حدود یک متر بالا برده می‌تواند."
+      },
+      "idea": {
+        "en": "Think of the water column as a chain: when the top link is pulled away by evaporation, the rest follows.",
+        "fa": "ستون آب را مانند یک زنجیر تصور کنید: وقتی حلقهٔ بالایی با تبخیر کشیده شود، باقی حلقه‌ها هم دنبال آن می‌آیند."
+      }
+    },
+    {
+      "pdf_page": 120,
+      "q": {
+        "en": "What happens when the guard cells around a stoma take in water?",
+        "fa": "وقتی حجرات محافظ دو طرف یک ستوما آب جذب می‌کنند، چه واقع می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "They shrink and come together, so the stoma closes.",
+          "fa": "کوچک شده به هم نزدیک می‌شوند و ستوما بسته می‌شود."
+        },
+        {
+          "en": "They swell and press together, so the stoma closes.",
+          "fa": "متورم شده به هم می‌چسپند و ستوما بسته می‌شود."
+        },
+        {
+          "en": "They swell, curve and move apart, so the stoma opens and transpiration takes place.",
+          "fa": "متورم و خمیده شده از هم دور می‌شوند؛ ستوما باز می‌شود و تعرق صورت می‌گیرد."
+        },
+        {
+          "en": "They lose their chloroplasts, so photosynthesis stops.",
+          "fa": "کلوروپلاست‌های خود را از دست می‌دهند و فوتوسنتیز متوقف می‌شود."
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "When the bean-shaped guard cells take in water they swell and bend away from each other, so the stoma opens and water vapour leaves the leaf. When they lose water they become shorter and come together, the stoma closes and transpiration stops.",
+        "fa": "وقتی حجرات محافظ لوبیاشکل آب جذب می‌کنند، متورم شده خم می‌شوند و از هم فاصله می‌گیرند؛ ستوما باز شده بخار آب از برگ خارج می‌شود. وقتی آب خود را از دست بدهند، کوتاه شده به هم نزدیک می‌شوند، ستوما بسته می‌شود و تعرق می‌ایستد."
+      },
+      "idea": {
+        "en": "A plant with plenty of water can let water vapour out; a thirsty plant closes its stomata.",
+        "fa": "نباتی که آب کافی دارد می‌تواند بخار آب را بیرون بدهد؛ نبات تشنه ستوماتای خود را می‌بندد."
+      }
+    },
+    {
+      "pdf_page": 122,
+      "q": {
+        "en": "In which layer of the leaf does most photosynthesis take place?",
+        "fa": "بیشترین فوتوسنتیز در کدام طبقهٔ برگ صورت می‌گیرد؟"
+      },
+      "options": [
+        {
+          "en": "The cuticle, the thin covering on the surface of the leaf",
+          "fa": "کیوتیکل، یعنی پوشش نازک سطح برگ"
+        },
+        {
+          "en": "The palisade layer, whose long cells are full of chloroplasts",
+          "fa": "طبقهٔ پالیساید که حجرات دراز آن پر از کلوروپلاست اند"
+        },
+        {
+          "en": "The spongy layer, which has air spaces and the xylem and phloem",
+          "fa": "طبقهٔ اسفنجی که فضاهای هوایی و زایلم و فلویم دارد"
+        },
+        {
+          "en": "The lower epidermis, where the guard cells are",
+          "fa": "اپیدرمس پایینی که حجرات محافظ در آن اند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The middle of the leaf has two layers: the upper palisade layer has long cells packed with chloroplasts, so most photosynthesis happens there. The spongy layer below it has spaces where carbon dioxide moves freely and contains the veins (xylem and phloem).",
+        "fa": "قسمت میانی برگ دو طبقه دارد: طبقهٔ بالایی، یعنی پالیساید، حجرات دراز پر از کلوروپلاست دارد، پس بیشترین فوتوسنتیز در آن صورت می‌گیرد. طبقهٔ اسفنجی زیر آن فضاهایی دارد که کاربن دای اوکساید در آن آزادانه حرکت می‌کند و رگ‌های برگ (زایلم و فلویم) هم در آن اند."
+      },
+      "idea": {
+        "en": "Photosynthesis needs chloroplasts. Which layer has the most of them?",
+        "fa": "فوتوسنتیز به کلوروپلاست ضرورت دارد. کدام طبقه بیشترین کلوروپلاست را دارد؟"
+      }
+    },
+    {
+      "pdf_page": 123,
+      "q": {
+        "en": "How is the movement of organic materials (sugar) in the phloem different from the movement of water in the xylem?",
+        "fa": "حرکت مواد عضوی (قند) در فلویم با حرکت آب در زایلم چه فرق دارد؟"
+      },
+      "options": [
+        {
+          "en": "Organic materials move only upward in the phloem, while water moves in all directions in the xylem.",
+          "fa": "مواد عضوی در فلویم تنها به طرف بالا حرکت می‌کنند، ولی آب در زایلم به همه طرف می‌رود."
+        },
+        {
+          "en": "Organic materials move freely between the phloem cells, while water must pass through the inside of the xylem cells.",
+          "fa": "مواد عضوی آزادانه بین حجرات فلویم حرکت می‌کنند، ولی آب باید از داخل حجرات زایلم بگذرد."
+        },
+        {
+          "en": "There is no difference: both move only downward, from the leaves to the roots.",
+          "fa": "هیچ فرقی ندارند: هر دو تنها به طرف پایین، از برگ به ریشه، حرکت می‌کنند."
+        },
+        {
+          "en": "Water moves only upward in the xylem, while organic materials move in all directions in the phloem.",
+          "fa": "آب در زایلم تنها به طرف بالا می‌رود، ولی مواد عضوی در فلویم به همه طرف حرکت می‌کنند."
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The book gives three differences: water moves freely in the xylem but organic materials must pass through the phloem cells, water goes only upward but organic materials go in all directions, and water can diffuse through cell membranes but organic materials cannot.",
+        "fa": "کتاب سه فرق می‌گوید: آب در زایلم آزادانه حرکت می‌کند ولی مواد عضوی باید از داخل حجرات فلویم بگذرند، آب تنها به طرف بالا می‌رود ولی مواد عضوی به همه طرف می‌روند، و آب از غشای حجروی انتشار یافته می‌تواند ولی مواد عضوی نمی‌توانند."
+      },
+      "idea": {
+        "en": "The leaves make sugar, but the roots, the tips of the stem and the fruits all need it. In which directions must the sugar travel?",
+        "fa": "برگ‌ها قند می‌سازند، ولی ریشه، نوک ساقه و میوه همه به آن ضرورت دارند. قند باید به کدام طرف‌ها حرکت کند؟"
+      }
+    }
+  ]
+}

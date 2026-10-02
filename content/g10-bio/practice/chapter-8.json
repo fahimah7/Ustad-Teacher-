@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-bio",
+  "chapter": 8,
+  "title": {
+    "en": "Ecology and its components",
+    "fa": "ایکالوژی و اجزای آن"
+  },
+  "questions": [
+    {
+      "pdf_page": 103,
+      "q": {
+        "en": "Which list contains only non-living parts of an ecosystem?",
+        "fa": "کدام فهرست تنها اجزای غیر زندهٔ یک ایکوسیستم را دارد؟"
+      },
+      "options": [
+        {
+          "en": "Plants, animals and algae",
+          "fa": "نباتات، حیوانات و الجی"
+        },
+        {
+          "en": "Bacteria, protists and fungi",
+          "fa": "باکتریا، پروتستا و فنجی"
+        },
+        {
+          "en": "Soil, air, water, temperature and light",
+          "fa": "خاک، هوا، آب، درجهٔ حرارت و روشنی"
+        },
+        {
+          "en": "Producers, consumers and decomposers",
+          "fa": "تولیدکننده‌گان، مصرف‌کننده‌گان و تجزیه‌کننده‌گان"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "If all the living things are taken away from an ecosystem, its non-living parts remain: soil, air, water, temperature and light. These decide which organisms can live in a place.",
+        "fa": "اگر همهٔ موجودات زنده را از یک ایکوسیستم برداریم، اجزای غیر زندهٔ آن باقی می‌مانند: خاک، هوا، آب، درجهٔ حرارت و روشنی. همین اجزا تعیین می‌کنند که کدام موجودات در یک جا زنده‌گی کرده می‌توانند."
+      },
+      "idea": {
+        "en": "Bacteria, protists and fungi are too small to see, but they are alive. Producers, consumers and decomposers are roles of living things.",
+        "fa": "باکتریا، پروتستا و فنجی از خوردی دیده نمی‌شوند، ولی زنده اند. تولیدکننده، مصرف‌کننده و تجزیه‌کننده نقش‌های موجودات زنده اند."
+      }
+    },
+    {
+      "pdf_page": 104,
+      "q": {
+        "en": "A particular region with its own climate and the plants and animals that live in it, such as the forests of Nuristan with oak, juniper and pistachio trees, is called a…",
+        "fa": "یک منطقهٔ مشخص با اقلیم خاص و نباتات و حیواناتی که در آن زنده‌گی می‌کنند، مانند جنگل‌های نورستان با درختان بلوط، ارچه و پسته، چه نام دارد؟"
+      },
+      "options": [
+        {
+          "en": "Biome",
+          "fa": "بایوم"
+        },
+        {
+          "en": "Climate",
+          "fa": "اقلیم"
+        },
+        {
+          "en": "Community",
+          "fa": "جمعیت"
+        },
+        {
+          "en": "Food chain",
+          "fa": "زنجیر غذایی"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "A biome is a definite region with a particular climate together with the plants and animals living in it. Climate is only the long-lasting state of the weather in a place.",
+        "fa": "بایوم یک منطقهٔ مشخص با اقلیم خاص همراه با نباتات و حیواناتی است که در آن زنده‌گی می‌کنند. اقلیم تنها حالت آب و هوای یک جا است که برای مدت طولانی دوام می‌کند."
+      },
+      "idea": {
+        "en": "The description includes both the climate and the living things of a region. Which word names all of that together?",
+        "fa": "توضیح سؤال هم اقلیم و هم موجودات زندهٔ یک منطقه را در بر دارد. کدام کلمه همهٔ این‌ها را یکجا نام می‌دهد؟"
+      }
+    },
+    {
+      "pdf_page": 105,
+      "q": {
+        "en": "Why are the plankton that carry out photosynthesis the first link of the food chain in the sea?",
+        "fa": "چرا پلانکتون‌هایی که فوتوسنتیز می‌کنند اولین حلقهٔ زنجیر غذایی بحر اند؟"
+      },
+      "options": [
+        {
+          "en": "Because they are the largest living things in the sea",
+          "fa": "زیرا بزرگ‌ترین موجودات زندهٔ بحر اند"
+        },
+        {
+          "en": "Because they feed on dead remains",
+          "fa": "زیرا از بقایای موجودات مرده تغذیه می‌کنند"
+        },
+        {
+          "en": "Because they eat small fish",
+          "fa": "زیرا ماهی‌های خورد را می‌خورند"
+        },
+        {
+          "en": "Because they make their own food, so they are autotrophs (producers)",
+          "fa": "زیرا غذای خود را خود می‌سازند، پس اوتوتروف (تولیدکننده) اند"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "These plankton make food by photosynthesis, so they are autotrophs and producers. Every food chain starts with a producer, and the other sea animals get their energy from it.",
+        "fa": "این پلانکتون‌ها با فوتوسنتیز غذا می‌سازند؛ پس اوتوتروف و تولیدکننده اند. هر زنجیر غذایی با تولیدکننده شروع می‌شود و دیگر حیوانات بحر انرژی خود را از آن می‌گیرند."
+      },
+      "idea": {
+        "en": "Plankton are among the smallest living things; the blue whale is the largest. What does photosynthesis allow an organism to do?",
+        "fa": "پلانکتون‌ها از خوردترین موجودات اند و نهنگ آبی بزرگ‌ترین. فوتوسنتیز به یک موجود چه توانایی می‌دهد؟"
+      }
+    },
+    {
+      "pdf_page": 106,
+      "q": {
+        "en": "No sunlight reaches the bottom of the deep sea, and it is very cold there. Where do the fish, worms and crabs living there get their food?",
+        "fa": "به قسمت تحتانی بحر هیچ روشنی آفتاب نمی‌رسد و آن‌جا بسیار سرد است. ماهی‌ها، کرم‌ها و خرچنگ‌هایی که آن‌جا زنده‌گی می‌کنند غذای خود را از کجا می‌گیرند؟"
+      },
+      "options": [
+        {
+          "en": "From plants that photosynthesise on the sea floor",
+          "fa": "از نباتاتی که در کف بحر فوتوسنتیز می‌کنند"
+        },
+        {
+          "en": "From material that sinks down from the surface water",
+          "fa": "از موادی که از سطح آب به عمق پایین می‌آیند"
+        },
+        {
+          "en": "They need no food, because the water is cold",
+          "fa": "به غذا ضرورت ندارند، زیرا آب سرد است"
+        },
+        {
+          "en": "From the soil of the coast",
+          "fa": "از خاک ساحل"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Without light, no photosynthesis can take place at the bottom of the sea. The animals there have adapted to darkness, cold and depth, and they feed on material that comes down from the surface water.",
+        "fa": "بدون روشنی در قسمت تحتانی بحر فوتوسنتیز صورت گرفته نمی‌تواند. حیوانات آن‌جا با تاریکی، سردی و عمق توافق کرده اند و از موادی تغذیه می‌کنند که از سطح آب به عمق پایین می‌آیند."
+      },
+      "idea": {
+        "en": "Plants need light for photosynthesis. If no light reaches the bottom, where else could the food come from?",
+        "fa": "نباتات برای فوتوسنتیز به روشنی ضرورت دارند. اگر روشنی به قسمت تحتانی نرسد، غذا از کجای دیگر آمده می‌تواند؟"
+      }
+    },
+    {
+      "pdf_page": 108,
+      "q": {
+        "en": "In an area the number of mice increases. According to the book, what happens to the animals that feed on mice?",
+        "fa": "در یک محیط تعداد موش‌ها زیاد می‌شود. طبق کتاب، برای حیواناتی که از موش‌ها تغذیه می‌کنند چه رخ می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "Their number decreases",
+          "fa": "تعداد شان کم می‌شود"
+        },
+        {
+          "en": "Nothing changes, because each population lives on its own",
+          "fa": "هیچ تغییری نمی‌آید، زیرا هر اجتماع جدا زنده‌گی می‌کند"
+        },
+        {
+          "en": "They start eating plants instead",
+          "fa": "به جای موش نبات می‌خورند"
+        },
+        {
+          "en": "Their number also increases",
+          "fa": "تعداد شان هم زیاد می‌شود"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The populations of a community depend on each other, so a change in one changes the others. More mice means more food for the animals that eat mice, so their number rises too.",
+        "fa": "اجتماع‌های یک جامعه به یکدیگر وابسته اند؛ پس تغییر یک اجتماع اجتماع‌های دیگر را هم تغییر می‌دهد. موش بیشتر یعنی غذای بیشتر برای حیوانات موش‌خوار؛ پس تعداد آن‌ها هم زیاد می‌شود."
+      },
+      "idea": {
+        "en": "No group of living things can live completely on its own. What happens to the number of animals when their food becomes plentiful?",
+        "fa": "هیچ گروه موجودات زنده به تنهایی زنده‌گی کرده نمی‌تواند. وقتی غذای یک حیوان زیاد شود، تعداد آن چه می‌شود؟"
+      }
+    }
+  ]
+}

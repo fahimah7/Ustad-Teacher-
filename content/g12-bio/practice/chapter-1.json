@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 1,
+  "title": {
+    "en": "Mendel and heredity",
+    "fa": "مندل و وراثت"
+  },
+  "questions": [
+    {
+      "pdf_page": 13,
+      "q": {
+        "en": "According to Mendel's law of segregation (his third law in this book), what happens to the two alleles of a trait when gametes are formed?",
+        "fa": "طبق قانون تفکیک جن‌ها (قانون سوم مندل در این کتاب)، هنگام ساخته شدن گمیت‌ها دو الیل یک صفت چه می‌شوند؟"
+      },
+      "options": [
+        {
+          "en": "Both alleles go into every gamete.",
+          "fa": "هر دو الیل به هر گمیت می‌روند."
+        },
+        {
+          "en": "The two alleles separate, and each gamete gets only one of them.",
+          "fa": "دو الیل از هم جدا می‌شوند و هر گمیت تنها یکی از آن‌ها را می‌گیرد."
+        },
+        {
+          "en": "The two alleles blend into one new allele.",
+          "fa": "دو الیل با هم مخلوط شده یک الیل نو می‌سازند."
+        },
+        {
+          "en": "Only the dominant allele enters the gametes; the recessive one is lost.",
+          "fa": "تنها الیل غالب به گمیت‌ها می‌رود و الیل مغلوب از بین می‌رود."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "When gametes form, the pair of factors (alleles) separates and each gamete carries only one of them; at fertilization two gametes join, so the offspring again has two alleles, one from each parent.",
+        "fa": "هنگام ساخته شدن گمیت‌ها جورهٔ فکتورها (الیل‌ها) از هم جدا می‌شوند و هر گمیت تنها یک الیل را می‌گیرد؛ در القاح دو گمیت یکجا می‌شوند، پس نوزاد دوباره دو الیل پیدا می‌کند، یکی از پدر و یکی از مادر."
+      },
+      "idea": {
+        "en": "Think about why the recessive green seed colour appears again in F2: the alleles stay separate and are not lost.",
+        "fa": "فکر کنید چرا رنگ سبز مغلوب دانه در F2 دوباره ظاهر می‌شود: الیل‌ها جدا می‌مانند و از بین نمی‌روند."
+      }
+    },
+    {
+      "pdf_page": 17,
+      "q": {
+        "en": "Two pea plants that are both RrYy (round, yellow seeds) are crossed. R = round, r = wrinkled, Y = yellow, y = green. What fraction of the offspring are expected to have green, wrinkled seeds?",
+        "fa": "دو نبات مشنگ که هر دو RrYy (دانهٔ مدور و زرد) اند با هم تزویج می‌شوند. R = مدور، r = چملک، Y = زرد و y = سبز است. چه حصه‌یی از اولاد دانهٔ سبز و چملک خواهند داشت؟"
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{16}$",
+          "fa": "$\\frac{1}{16}$"
+        },
+        {
+          "en": "$\\frac{3}{16}$",
+          "fa": "$\\frac{3}{16}$"
+        },
+        {
+          "en": "$\\frac{9}{16}$",
+          "fa": "$\\frac{9}{16}$"
+        },
+        {
+          "en": "$\\frac{1}{4}$",
+          "fa": "$\\frac{1}{4}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Green, wrinkled seeds need the genotype rryy, and each parent makes the gamete ry with probability $\\frac{1}{4}$. So rryy appears in $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$ of the offspring: the 1 in the ratio $9:3:3:1$.",
+        "fa": "دانهٔ سبز و چملک جینوتایپ rryy می‌خواهد و هر والد گمیت ry را با احتمال $\\frac{1}{4}$ می‌سازد. پس rryy در $\\frac{1}{4} \\times \\frac{1}{4} = \\frac{1}{16}$ اولاد پیدا می‌شود؛ این همان «۱» در نسبت $9:3:3:1$ است."
+      },
+      "idea": {
+        "en": "Both traits are recessive here, so the plant must be rr and yy. In the $4 \\times 4$ Punnett square, how many of the 16 boxes are rryy?",
+        "fa": "هر دو صفت مغلوب اند، پس نبات باید rr و yy باشد. در مربع پونیت $4 \\times 4$، چند خانه از ۱۶ خانه rryy است؟"
+      }
+    },
+    {
+      "pdf_page": 20,
+      "q": {
+        "en": "A human body cell is diploid and has 46 chromosomes. How many chromosomes does a human gamete (sperm or egg) have?",
+        "fa": "حجرهٔ جسمی انسان دیپلویید است و ۴۶ کروموزوم دارد. یک گمیت انسان (سپرم یا تخمه) چند کروموزوم دارد؟"
+      },
+      "options": [
+        {
+          "en": "$46$",
+          "fa": "$46$"
+        },
+        {
+          "en": "$92$",
+          "fa": "$92$"
+        },
+        {
+          "en": "$22$",
+          "fa": "$22$"
+        },
+        {
+          "en": "$23$",
+          "fa": "$23$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Gametes are haploid: they get only one chromosome from each pair, so $n = \\frac{46}{2} = 23$. When a sperm and an egg join, the zygote again has $23 + 23 = 46$.",
+        "fa": "گمیت‌ها هپلویید اند و از هر جوره تنها یک کروموزوم دارند، پس $n = \\frac{46}{2} = 23$ است. وقتی سپرم و تخمه یکجا شوند، زایگوت دوباره $23 + 23 = 46$ کروموزوم دارد."
+      },
+      "idea": {
+        "en": "At fertilization a sperm and an egg together make a cell with 46 chromosomes. How many must each one bring?",
+        "fa": "در القاح یک سپرم و یک تخمه با هم حجره‌یی با ۴۶ کروموزوم می‌سازند. هر کدام باید چند کروموزوم بیاورد؟"
+      }
+    },
+    {
+      "pdf_page": 21,
+      "q": {
+        "en": "In incomplete dominance, a pure red-flowered plant is crossed with a pure white-flowered plant, and all F1 flowers are pink. If the F1 plants are crossed with each other, what is the ratio of flower colours in F2?",
+        "fa": "در بارزیت ناقص، نبات خالص گل‌سرخ با نبات خالص گل‌سفید تزویج می‌شود و همهٔ گل‌های F1 گلابی اند. اگر نباتات F1 با هم تزویج شوند، تناسب رنگ گل‌ها در F2 چگونه است؟"
+      },
+      "options": [
+        {
+          "en": "3 red : 1 white",
+          "fa": "۳ سرخ : ۱ سفید"
+        },
+        {
+          "en": "All pink",
+          "fa": "همه گلابی"
+        },
+        {
+          "en": "1 red : 2 pink : 1 white",
+          "fa": "۱ سرخ : ۲ گلابی : ۱ سفید"
+        },
+        {
+          "en": "3 pink : 1 white",
+          "fa": "۳ گلابی : ۱ سفید"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Neither allele is dominant, so the heterozygous plants are pink, and pink × pink gives 1 red : 2 pink : 1 white. Red and white appear again because the alleles do not blend; they pass unchanged to the next generation.",
+        "fa": "هیچ الیلی غالب نیست، پس نباتات هیتروزایگوس گلابی اند و از تزویج گلابی با گلابی ۱ سرخ : ۲ گلابی : ۱ سفید به دست می‌آید. سرخ و سفید دوباره ظاهر می‌شوند، چون الیل‌ها مخلوط نمی‌شوند و بدون تغییر به نسل بعد می‌روند."
+      },
+      "idea": {
+        "en": "Work out the genotypes as in a monohybrid cross ($1:2:1$). In incomplete dominance each genotype has its own colour.",
+        "fa": "جینوتایپ‌ها را مانند تزویج مونوهایبرید ($1:2:1$) پیدا کنید؛ در بارزیت ناقص هر جینوتایپ رنگ خاص خود را دارد."
+      }
+    },
+    {
+      "pdf_page": 23,
+      "q": {
+        "en": "Why is colour blindness much more common in men than in women?",
+        "fa": "چرا کوری رنگ در مردها خیلی بیشتر از زن‌ها دیده می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "The colour-blindness allele is on the Y chromosome, which only men have.",
+          "fa": "الیل کوری رنگ روی کروموزوم Y است که تنها مردها دارند."
+        },
+        {
+          "en": "A man has only one X chromosome, so one recessive allele on it is enough; a woman is colour-blind only if both of her X chromosomes carry the allele.",
+          "fa": "مرد تنها یک کروموزوم X دارد، پس یک الیل مغلوب روی آن کافی است؛ زن تنها وقتی کوررنگ می‌شود که هر دو کروموزوم X او این الیل را داشته باشند."
+        },
+        {
+          "en": "The allele is dominant in men but recessive in women.",
+          "fa": "این الیل در مردها غالب ولی در زن‌ها مغلوب است."
+        },
+        {
+          "en": "Women do not receive any X chromosome from their father.",
+          "fa": "زن‌ها از پدر خود هیچ کروموزوم X نمی‌گیرند."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The colour-blindness allele is recessive and lies on the X chromosome: a man (XY) gets his only X from his mother, so one affected X makes him colour-blind. A woman (XX) gets one X from each parent, and a normal X hides the recessive allele, so she is usually a healthy carrier.",
+        "fa": "الیل کوری رنگ مغلوب است و روی کروموزوم X قرار دارد: مرد (XY) یگانه X خود را از مادر می‌گیرد، پس یک X مریض او را کوررنگ می‌سازد. زن (XX) از هر والد یک X می‌گیرد و X سالم الیل مغلوب را پنهان می‌کند، پس او اکثراً ناقل سالم است."
+      },
+      "idea": {
+        "en": "Count the X chromosomes in each sex, and remember that a recessive allele shows only when no dominant allele hides it.",
+        "fa": "کروموزوم‌های X را در هر جنس بشمارید و به یاد داشته باشید که الیل مغلوب تنها وقتی ظاهر می‌شود که الیل غالبی آن را پنهان نکند."
+      }
+    }
+  ]
+}

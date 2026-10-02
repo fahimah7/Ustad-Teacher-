@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-bio",
+  "chapter": 3,
+  "title": {
+    "en": "Organic compounds",
+    "fa": "مرکبات عضوی"
+  },
+  "questions": [
+    {
+      "pdf_page": 27,
+      "q": {
+        "en": "How is the disaccharide maltose formed?",
+        "fa": "دای سکراید مالتوز چطور ساخته می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "One glucose and one fructose join",
+          "fa": "یک گلوکوز و یک فروکتوز یکجا می‌شوند"
+        },
+        {
+          "en": "Many glucose molecules join in a long chain",
+          "fa": "مولیکول‌های زیاد گلوکوز در یک زنجیر دراز یکجا می‌شوند"
+        },
+        {
+          "en": "Two glucose molecules join and one water molecule is removed",
+          "fa": "دو مولیکول گلوکوز یکجا می‌شوند و یک مولیکول آب جدا می‌شود"
+        },
+        {
+          "en": "Glucose is broken down into pyruvic acid",
+          "fa": "گلوکوز به پایرویک اسید تجزیه می‌شود"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "A disaccharide forms when two monosaccharides join and one water molecule is removed. Maltose is glucose + glucose; sucrose is glucose + fructose, and a long chain of glucose is a polysaccharide such as starch.",
+        "fa": "دای سکراید وقتی ساخته می‌شود که دو مونوسکراید یکجا شوند و یک مولیکول آب جدا شود. مالتوز از گلوکوز + گلوکوز است؛ سکروز از گلوکوز + فروکتوز، و زنجیر دراز گلوکوز پولی سکراید مانند نشایسته است."
+      },
+      "idea": {
+        "en": "“Di” means two. Which option joins exactly two units, and are both of them glucose?",
+        "fa": "«دای» یعنی دو. کدام جواب دقیقاً دو واحد را یکجا می‌کند و آیا هر دو گلوکوز اند؟"
+      }
+    },
+    {
+      "pdf_page": 30,
+      "q": {
+        "en": "Which element is found in proteins and amino acids but not in sugars and fats?",
+        "fa": "کدام عنصر در پروتین‌ها و امینو اسیدها هست، ولی در قندها و شحمیات نیست؟"
+      },
+      "options": [
+        {
+          "en": "Nitrogen",
+          "fa": "نایتروجن"
+        },
+        {
+          "en": "Carbon",
+          "fa": "کاربن"
+        },
+        {
+          "en": "Oxygen",
+          "fa": "اکسیجن"
+        },
+        {
+          "en": "Hydrogen",
+          "fa": "هایدروجن"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Sugars and fats are made of carbon, hydrogen and oxygen only. Amino acids, the building units of proteins, also contain nitrogen.",
+        "fa": "قندها و شحمیات تنها از کاربن، هایدروجن و اکسیجن ساخته شده اند. امینو اسیدها، که واحدهای ساختمانی پروتین اند، نایتروجن هم دارند."
+      },
+      "idea": {
+        "en": "Carbon, hydrogen and oxygen are in all three groups. Look for the extra element that amino acids have.",
+        "fa": "کاربن، هایدروجن و اکسیجن در هر سه گروپ هستند. عنصر اضافی امینو اسیدها را پیدا کنید."
+      }
+    },
+    {
+      "pdf_page": 31,
+      "q": {
+        "en": "A food contains $10\\,\\mathrm{g}$ of fat and $20\\,\\mathrm{g}$ of sugar. About how much energy is released when all of it is burned in the body?",
+        "fa": "یک غذا $10\\,\\mathrm{g}$ شحم و $20\\,\\mathrm{g}$ قند دارد. اگر همهٔ آن در بدن بسوزد، تقریباً چقدر انرژی آزاد می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "$120\\,\\mathrm{kcal}$",
+          "fa": "$120$ کیلوکالوری"
+        },
+        {
+          "en": "$220\\,\\mathrm{kcal}$",
+          "fa": "$220$ کیلوکالوری"
+        },
+        {
+          "en": "$270\\,\\mathrm{kcal}$",
+          "fa": "$270$ کیلوکالوری"
+        },
+        {
+          "en": "$170\\,\\mathrm{kcal}$",
+          "fa": "$170$ کیلوکالوری"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Each gram of fat gives about $9\\,\\mathrm{kcal}$ and each gram of sugar about $4\\,\\mathrm{kcal}$: $10 \\times 9 + 20 \\times 4 = 90 + 80 = 170\\,\\mathrm{kcal}$.",
+        "fa": "هر گرام شحم حدود $9$ کیلوکالوری و هر گرام قند حدود $4$ کیلوکالوری انرژی می‌دهد: $10 \\times 9 + 20 \\times 4 = 90 + 80 = 170$ کیلوکالوری."
+      },
+      "idea": {
+        "en": "Fat and sugar do not give the same energy per gram. Multiply each mass by its own value ($9$ for fat, $4$ for sugar) and then add.",
+        "fa": "شحم و قند در هر گرام انرژی یکسان نمی‌دهند. هر مقدار را با عدد خودش ضرب کنید ($9$ برای شحم و $4$ برای قند) و بعد جمع کنید."
+      }
+    },
+    {
+      "pdf_page": 32,
+      "q": {
+        "en": "Which statement about enzymes is correct?",
+        "fa": "کدام جمله در بارهٔ انزایم‌ها درست است؟"
+      },
+      "options": [
+        {
+          "en": "An enzyme is used up in the reaction it speeds up",
+          "fa": "انزایم در تعاملی که سریع می‌سازد مصرف می‌شود"
+        },
+        {
+          "en": "Each enzyme speeds up one particular reaction and can be used again",
+          "fa": "هر انزایم یک تعامل معین را سریع می‌سازد و دوباره به کار می‌رود"
+        },
+        {
+          "en": "One enzyme can speed up all the reactions in a cell",
+          "fa": "یک انزایم می‌تواند همهٔ تعاملات حجره را سریع سازد"
+        },
+        {
+          "en": "Enzymes make reactions need more energy and a higher temperature",
+          "fa": "انزایم‌ها سبب می‌شوند که تعاملات به انرژی و حرارت بیشتر ضرورت داشته باشند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Enzymes are organic catalysts. The shape of each enzyme fits only certain molecules, so it controls one particular reaction; it brings the molecules together so they react quickly with little energy, then separates and repeats the same work.",
+        "fa": "انزایم‌ها کتالیست‌های عضوی اند. شکل هر انزایم فقط با مولیکول‌های معین جور می‌آید، پس یک تعامل معین را تنظیم می‌کند؛ مولیکول‌ها را به هم نزدیک می‌سازد تا با انرژی کم و به سرعت تعامل کنند، بعد جدا شده همان کار را تکرار می‌کند."
+      },
+      "idea": {
+        "en": "A catalyst takes part only for a short time and is not used up. Also think about why each enzyme works only with certain molecules.",
+        "fa": "کتالیست فقط به صورت موقت در تعامل سهم می‌گیرد و مصرف نمی‌شود. همچنان فکر کنید چرا هر انزایم فقط با مولیکول‌های معین کار می‌کند."
+      }
+    },
+    {
+      "pdf_page": 33,
+      "q": {
+        "en": "A nucleic acid contains the base uracil (U). What can you conclude?",
+        "fa": "در یک تیزاب هستوی قلوی یوراسیل (U) موجود است. از این چه نتیجه می‌گیرید؟"
+      },
+      "options": [
+        {
+          "en": "It is RNA",
+          "fa": "این RNA است"
+        },
+        {
+          "en": "It is DNA",
+          "fa": "این DNA است"
+        },
+        {
+          "en": "It also contains the base thymine (T)",
+          "fa": "قلوی تایمین (T) را هم دارد"
+        },
+        {
+          "en": "It is a protein",
+          "fa": "این یک پروتین است"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "DNA has the bases adenine, guanine, cytosine and thymine. In RNA, uracil (U) is found instead of thymine (T), so a nucleic acid with uracil is RNA.",
+        "fa": "DNA قلوی‌های آدنین، گوانین، سیتوزین و تایمین را دارد. در RNA به جای تایمین (T) قلوی یوراسیل (U) موجود است؛ پس تیزاب هستوی دارای یوراسیل RNA است."
+      },
+      "idea": {
+        "en": "Compare the bases of the two nucleic acids: which base does one of them have that the other does not?",
+        "fa": "قلوی‌های دو تیزاب هستوی را مقایسه کنید: کدام قلوی در یکی است که در دیگری نیست؟"
+      }
+    }
+  ]
+}

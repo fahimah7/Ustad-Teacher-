@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 10,
+  "title": {
+    "en": "Comparison of vertebrate body systems",
+    "fa": "مقایسهٔ سیستم‌های حیوانات فقاریه"
+  },
+  "questions": [
+    {
+      "pdf_page": 143,
+      "q": {
+        "en": "Why can vertebrates grow much larger than arthropods?",
+        "fa": "چرا حیوانات فقاریه نسبت به حیوانات مفصلیه بسیار کلان‌تر شده می‌توانند؟"
+      },
+      "options": [
+        {
+          "en": "Their endoskeleton is living tissue that grows with the body; the arthropod exoskeleton is not alive and limits growth.",
+          "fa": "اسکلیت داخلی آن‌ها نسج زنده است و با بدن نمو می‌کند؛ اسکلیت خارجی مفصلیه‌ها زنده نیست و نمو را محدود می‌سازد."
+        },
+        {
+          "en": "They have a chitin exoskeleton that keeps growing all their life.",
+          "fa": "اسکلیت خارجی شیتینی دارند که در تمام عمر نمو می‌کند."
+        },
+        {
+          "en": "All their bones are hollow and light.",
+          "fa": "همهٔ استخوان‌های آن‌ها میان‌خالی و سبک اند."
+        },
+        {
+          "en": "They have no skeleton, so nothing limits their growth.",
+          "fa": "اسکلیت ندارند، پس هیچ چیز نمو آن‌ها را محدود نمی‌سازد."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "An internal skeleton made of living cartilage and bone grows along with the body; that is why very large animals are found among the vertebrates.",
+        "fa": "اسکلیت داخلی که از غضروف و استخوان زنده ساخته شده با بدن یک‌جا نمو می‌کند؛ به همین سبب حیوانات بسیار کلان در میان فقاریه‌ها پیدا می‌شوند."
+      },
+      "idea": {
+        "en": "Compare a living skeleton inside the body with a hard, non-living case outside it.",
+        "fa": "اسکلیت زندهٔ داخل بدن را با پوش سخت و غیر زندهٔ بیرون بدن مقایسه کنید."
+      }
+    },
+    {
+      "pdf_page": 146,
+      "q": {
+        "en": "Why is the blood circulation of a fish called single circulation?",
+        "fa": "چرا دوران خون ماهی را «دوران واحد» می‌گویند؟"
+      },
+      "options": [
+        {
+          "en": "Because the fish heart has only one chamber.",
+          "fa": "چون قلب ماهی تنها یک جوف دارد."
+        },
+        {
+          "en": "Because the blood flows freely through the body cavity, outside the vessels.",
+          "fa": "چون خون بیرون از رگ‌ها در خالی‌گاه بدن آزاد جریان می‌کند."
+        },
+        {
+          "en": "Because in each complete round the blood passes through the heart only once: heart → gills → body → heart.",
+          "fa": "چون خون در هر دور کامل تنها یک بار از قلب می‌گذرد: قلب ← برانشی‌ها ← بدن ← قلب."
+        },
+        {
+          "en": "Because the blood goes from the heart to the lungs and back to the heart.",
+          "fa": "چون خون از قلب به شش‌ها می‌رود و دوباره به قلب برمی‌گردد."
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The fish heart (one atrium, one ventricle) pumps blood to the gills, where it takes up oxygen, and from there it goes on to the body and back to the heart, so it passes the heart once in each round. Other vertebrates have two circuits: the small (lung) and the large (body) circulation.",
+        "fa": "قلب ماهی (یک دهلیز و یک بطن) خون را به برانشی‌ها می‌فرستد، خون در آن‌جا اکسیجن می‌گیرد و از همان‌جا به بدن رفته به قلب برمی‌گردد؛ پس در هر دور یک بار از قلب می‌گذرد. فقاریه‌های دیگر دو دوران دارند: دوران کوچک (شش) و دوران بزرگ (بدن)."
+      },
+      "idea": {
+        "en": "The fish heart has two chambers, and all vertebrates have closed circulation. Count how many times the blood passes the heart in one round.",
+        "fa": "قلب ماهی دو جوف دارد و دوران خون همهٔ فقاریه‌ها بسته است؛ بشمارید که خون در یک دور چند بار از قلب می‌گذرد."
+      }
+    },
+    {
+      "pdf_page": 148,
+      "q": {
+        "en": "Besides their two lungs, what helps birds get enough air during flight?",
+        "fa": "پرنده‌گان علاوه بر دو شش، از چه چیز کمک می‌گیرند تا در وقت پرواز هوای کافی داشته باشند؟"
+      },
+      "options": [
+        {
+          "en": "Gills under an operculum",
+          "fa": "برانشی‌هایی زیر اوپرکولوم"
+        },
+        {
+          "en": "Large air sacs that store air and pass it through the lungs",
+          "fa": "کیسه‌های هوایی کلان که هوا را ذخیره کرده از شش‌ها می‌گذرانند"
+        },
+        {
+          "en": "Breathing through moist skin",
+          "fa": "تنفس از راه جلد مرطوب"
+        },
+        {
+          "en": "A diaphragm between the chest and the abdomen",
+          "fa": "حجاب حاجز میان جوف سینه و شکم"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Birds have large air sacs joined to their lungs; they store air and move it through the lungs, which helps a lot in flight. Breathing through moist skin belongs to the frog, and the diaphragm to mammals.",
+        "fa": "پرنده‌گان کیسه‌های هوایی کلان دارند که با شش‌ها وصل اند؛ هوا را ذخیره کرده از شش‌ها می‌گذرانند و در پرواز بسیار کمک می‌کنند. تنفس با جلد مرطوب از بقه و حجاب حاجز از پستان‌داران است."
+      },
+      "idea": {
+        "en": "Which breathing structure is found only in the respiratory system of birds?",
+        "fa": "کدام ساختمان تنفسی تنها در سیستم تنفسی پرنده‌گان دیده می‌شود؟"
+      }
+    },
+    {
+      "pdf_page": 149,
+      "q": {
+        "en": "Why do most birds have no urinary bladder?",
+        "fa": "چرا بیشتر پرنده‌گان مثانه ندارند؟"
+      },
+      "options": [
+        {
+          "en": "They have no kidneys, so they make no urine.",
+          "fa": "گرده ندارند، پس ادرار نمی‌سازند."
+        },
+        {
+          "en": "They remove their nitrogen waste through sweat glands.",
+          "fa": "مواد نایتروجن‌دار را از راه غدوات عرقیه خارج می‌کنند."
+        },
+        {
+          "en": "Their lungs remove the urea.",
+          "fa": "شش‌های‌شان یوریا را خارج می‌کنند."
+        },
+        {
+          "en": "It keeps their body light for flying; their kidneys send uric acid straight to the cloaca.",
+          "fa": "تا بدن‌شان برای پرواز سبک باشد؛ گرده‌های‌شان یوریک اسید را مستقیم به کلواکا می‌فرستند."
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Birds have a pair of kidneys that send uric acid through thin tubes to the cloaca; having no bladder keeps the body light for flight. Birds have no sweat glands either.",
+        "fa": "پرنده‌گان یک جوره گرده دارند که یوریک اسید را با نل‌های باریک به کلواکا می‌فرستند؛ نداشتن مثانه بدن را برای پرواز سبک نگه می‌دارد. پرنده‌گان غدوات عرقیه هم ندارند."
+      },
+      "idea": {
+        "en": "Birds do have kidneys. Think about what flying needs.",
+        "fa": "پرنده‌گان گرده دارند؛ فکر کنید که پرواز به چه ضرورت دارد."
+      }
+    },
+    {
+      "pdf_page": 151,
+      "q": {
+        "en": "Which vertebrates are warm-blooded (homeothermic), keeping a constant body temperature?",
+        "fa": "کدام فقاریه‌ها خون‌گرم (Homeothermous) اند و درجهٔ حرارت بدن خود را ثابت نگه می‌دارند؟"
+      },
+      "options": [
+        {
+          "en": "Fish and amphibians",
+          "fa": "ماهیان و ذوحیاتین"
+        },
+        {
+          "en": "Birds and mammals",
+          "fa": "پرنده‌گان و پستان‌داران"
+        },
+        {
+          "en": "Reptiles and birds",
+          "fa": "خزنده‌گان و پرنده‌گان"
+        },
+        {
+          "en": "Amphibians and mammals",
+          "fa": "ذوحیاتین و پستان‌داران"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Birds and mammals keep their body temperature constant with energy from the body's chemical reactions; for example, the human body stays at $37\\,^{\\circ}\\mathrm{C}$. Fish, amphibians and reptiles are cold-blooded: their temperature follows the surroundings.",
+        "fa": "پرنده‌گان و پستان‌داران با انرژی تعاملات کیمیاوی بدن حرارت بدن را ثابت نگه می‌دارند؛ مثلاً حرارت بدن انسان $37\\,^{\\circ}\\mathrm{C}$ است. ماهیان، ذوحیاتین و خزنده‌گان خون‌سرد اند و حرارت بدن‌شان تابع محیط است."
+      },
+      "idea": {
+        "en": "Cold-blooded animals often hibernate in winter. Which two classes do not depend on the outside temperature?",
+        "fa": "حیوانات خون‌سرد اکثراً خواب زمستانی دارند؛ کدام دو صنف به حرارت محیط وابسته نیستند؟"
+      }
+    }
+  ]
+}

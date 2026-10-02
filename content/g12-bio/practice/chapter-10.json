@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 10,
+  "title": {
+    "en": "Environmental problems and their solutions",
+    "fa": "پرابلم‌های محیطی و حل آن‌ها"
+  },
+  "questions": [
+    {
+      "pdf_page": 159,
+      "q": {
+        "en": "What is the main cause of the hole in the ozone layer?",
+        "fa": "عامل عمدهٔ شگاف (سوراخ) طبقهٔ اوزون چیست؟"
+      },
+      "options": [
+        {
+          "en": "Acid rain, which dissolves the ozone layer",
+          "fa": "باران اسیدی که طبقهٔ اوزون را حل می‌کند"
+        },
+        {
+          "en": "Carbon dioxide from cars and factories, which traps heat in the atmosphere",
+          "fa": "کاربن دای اوکساید موترها و فابریکه‌ها که حرارت را در اتموسفیر نگه می‌دارد"
+        },
+        {
+          "en": "Chlorofluorocarbons (CFCs) from refrigerators and coolers: ultraviolet light frees chlorine atoms from them, and each chlorine atom destroys many ozone molecules",
+          "fa": "کلوروفلوروکاربن‌ها (CFCs) که در یخچال‌ها و کولرها به کار می‌رفتند: شعاع ماورای بنفش اتوم‌های کلورین را از آن‌ها آزاد می‌کند و هر اتوم کلورین مالیکول‌های زیاد اوزون را تخریب می‌کند"
+        },
+        {
+          "en": "Sulfur dioxide from factory smoke, which forms sulfuric acid",
+          "fa": "سلفر دای اوکساید دود فابریکه‌ها که سلفوریک اسید می‌سازد"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "In the stratosphere ultraviolet light breaks CFC molecules and frees chlorine atoms, and each chlorine atom destroys many ozone molecules in a chain of reactions, so many countries have banned CFCs. Carbon dioxide causes the greenhouse effect and sulfur dioxide causes acid rain.",
+        "fa": "در ستراتوسفیر شعاع ماورای بنفش مالیکول‌های CFC را می‌شکند و اتوم‌های کلورین آزاد می‌شوند و هر اتوم کلورین در یک سلسله تعاملات زنجیری مالیکول‌های زیاد اوزون را از بین می‌برد؛ به همین سبب بسیاری کشورها CFCs را منع کرده اند. کاربن دای اوکساید سبب تأثیر گلخانه‌یی و سلفر دای اوکساید سبب باران اسیدی است."
+      },
+      "idea": {
+        "en": "Each of these gases causes a different global problem. Which one was used in refrigerators and releases chlorine?",
+        "fa": "هر کدام از این گازها یک پرابلم جهانی جدا را سبب می‌شود. کدام یک در یخچال‌ها به کار می‌رفت و کلورین آزاد می‌کند؟"
+      }
+    },
+    {
+      "pdf_page": 161,
+      "q": {
+        "en": "Scientists dug into a landfill that had been filled forty years earlier and found that much of the waste had not broken down. Why?",
+        "fa": "ساینس‌دانان جای انبار ضایعاتی را که چهل سال پیش پر شده بود کندند و دیدند که بسیاری از ضایعات هنوز تجزیه نشده است. علت آن چیست؟"
+      },
+      "options": [
+        {
+          "en": "Under the soil there is no oxygen, so bacteria and other decomposers cannot live and work there.",
+          "fa": "زیر خاک اکسیجن نمی‌رسد، پس بکتریاها و دیگر اجسام تجزیه‌کننده در آن‌جا زنده‌گی و کار کرده نمی‌توانند."
+        },
+        {
+          "en": "Rain washes the bacteria out of the landfill.",
+          "fa": "باران بکتریاها را از جای انبار ضایعات می‌شوید و می‌برد."
+        },
+        {
+          "en": "All solid wastes are made of plastic, which never breaks down.",
+          "fa": "همهٔ ضایعات جامد از پلاستیک ساخته شده اند که هرگز تجزیه نمی‌شود."
+        },
+        {
+          "en": "There is too much oxygen under the ground, and it kills the bacteria.",
+          "fa": "زیر خاک اکسیجن بسیار زیاد است و بکتریاها را می‌کشد."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "The bacteria that break down waste are aerobic, which means they need oxygen. Buried wastes are cut off from the air, so even materials that can be broken down, such as food and wood, stay almost unchanged for many years.",
+        "fa": "بکتریاهایی که ضایعات را تجزیه می‌کنند هوازی اند، یعنی به اکسیجن ضرورت دارند. ضایعاتی که زیر خاک دفن شده اند از هوا جدا می‌مانند، پس حتی مواد قابل تجزیه مانند غذا و چوب سال‌های زیاد تقریباً بدون تغییر باقی می‌مانند."
+      },
+      "idea": {
+        "en": "The bacteria that break down waste are aerobic. What do they need that is missing under the ground?",
+        "fa": "بکتریاهایی که ضایعات را تجزیه می‌کنند هوازی اند. به چه چیزی ضرورت دارند که زیر خاک نیست؟"
+      }
+    },
+    {
+      "pdf_page": 166,
+      "q": {
+        "en": "In which stage of sewage treatment is air blown into a tank so that aerobic bacteria and protozoa break down the organic matter into carbon dioxide and water?",
+        "fa": "در کدام مرحلهٔ تصفیهٔ فاضلاب هوا با فشار در یک تانک داده می‌شود تا بکتریاهای هوازی و پروتوزواها مواد عضوی را به کاربن دای اوکساید و آب تجزیه کنند؟"
+      },
+      "options": [
+        {
+          "en": "Primary treatment",
+          "fa": "تصفیهٔ ابتدایی (اولی)"
+        },
+        {
+          "en": "Tertiary treatment",
+          "fa": "تصفیهٔ سومی"
+        },
+        {
+          "en": "Filtering by the soil above the groundwater",
+          "fa": "فلتر شدن به واسطهٔ خاک بالای آب‌های زیرزمینی"
+        },
+        {
+          "en": "Secondary treatment",
+          "fa": "تصفیهٔ ثانوی"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Primary treatment is physical (large solids are removed and sand and grit settle), while secondary treatment is biological: the air makes aerobic bacteria and protozoa multiply, and they remove 75 to 95 percent of the organic matter. Tertiary treatment then removes the remaining nitrogen and phosphate compounds.",
+        "fa": "تصفیهٔ ابتدایی فزیکی است (مواد جامد کلان جدا می‌شوند و ریگ و سنگریزه ته‌نشین می‌گردند)، ولی تصفیهٔ ثانوی بیولوژیکی است: هوا بکتریاهای هوازی و پروتوزواها را زیاد و فعال می‌سازد و آن‌ها ۷۵ تا ۹۵ فیصد مواد عضوی را از بین می‌برند. تصفیهٔ سومی بعد مواد نایتروجنی و فاسفیت‌دار باقی‌مانده را دور می‌کند."
+      },
+      "idea": {
+        "en": "Which stage uses living organisms? The first stage is physical, and the last one is mostly physical and chemical.",
+        "fa": "کدام مرحله از موجودات زنده کار می‌گیرد؟ مرحلهٔ اول فزیکی و مرحلهٔ آخر بیشتر فزیکی و کیمیاوی است."
+      }
+    },
+    {
+      "pdf_page": 169,
+      "q": {
+        "en": "Why is breathing carbon monoxide ($\\mathrm{CO}$) dangerous?",
+        "fa": "چرا تنفس کاربن مونو اوکساید ($\\mathrm{CO}$) خطرناک است؟"
+      },
+      "options": [
+        {
+          "en": "It turns into sulfuric acid in the lungs.",
+          "fa": "در شش‌ها به سلفوریک اسید تبدیل می‌شود."
+        },
+        {
+          "en": "It quickly joins the hemoglobin of the blood, so the blood can carry less oxygen.",
+          "fa": "به سرعت با هیموگلوبین خون یکجا می‌شود، پس خون اکسیجن کمتر انتقال داده می‌تواند."
+        },
+        {
+          "en": "It smells of rotten eggs and burns the nose.",
+          "fa": "بوی تخم گنده دارد و بینی را می‌سوزاند."
+        },
+        {
+          "en": "It thins the ozone layer, so more ultraviolet light reaches the lungs.",
+          "fa": "طبقهٔ اوزون را نازک می‌سازد و شعاع ماورای بنفش بیشتر به شش‌ها می‌رسد."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Carbon monoxide comes from burning petrol, coal and oil; once breathed in, it binds quickly to hemoglobin and lowers the blood's ability to carry oxygen, so a little causes drowsiness and a lot can kill. The rotten-egg smell belongs to hydrogen sulfide ($\\mathrm{H_2S}$).",
+        "fa": "کاربن مونو اوکساید از سوختن بنزین، زغال و تیل پیدا می‌شود؛ وقتی تنفس شود به سرعت با هیموگلوبین یکجا شده ظرفیت انتقال اکسیجن خون را کم می‌سازد، پس غلظت کم آن خواب‌آلوده‌گی و غلظت زیاد آن مرگ می‌آورد. بوی تخم گنده از هایدروجن سلفاید ($\\mathrm{H_2S}$) است."
+      },
+      "idea": {
+        "en": "Think about what carries oxygen in the blood, and what happens if something else takes its place.",
+        "fa": "فکر کنید چه چیزی در خون اکسیجن را انتقال می‌دهد و اگر چیز دیگری جای آن را بگیرد چه می‌شود."
+      }
+    },
+    {
+      "pdf_page": 173,
+      "q": {
+        "en": "Mending old clothes and shoes, or repairing a broken dish, instead of throwing them away is an example of what?",
+        "fa": "ترمیم لباس و بوت کهنه یا ترمیم ظرف شکسته به جای دور انداختن آن‌ها، مثال کدام کار است؟"
+      },
+      "options": [
+        {
+          "en": "Recycling: waste is collected and turned into raw material for new things in a factory",
+          "fa": "دوران دوباره (Recycling): ضایعات جمع‌آوری شده در فابریکه به مادهٔ خام برای ساختن چیزهای نو تبدیل می‌شوند"
+        },
+        {
+          "en": "Biodegradation: bacteria break the material down",
+          "fa": "تجزیهٔ بیولوژیکی: بکتریاها آن مواد را تجزیه می‌کنند"
+        },
+        {
+          "en": "Reuse: the same object is used again, often after repair",
+          "fa": "استعمال دوباره (Reuse): خود همان شی، اکثراً بعد از ترمیم، دوباره به کار برده می‌شود"
+        },
+        {
+          "en": "Protecting habitats",
+          "fa": "محافظت هبیتات (محل زنده‌گی)"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "In reuse the same object is used again, here after mending, instead of being thrown away; in recycling, waste goes to a factory and is made into raw material for new things. Both save natural resources, keep the environment cleaner and help the economy of the family and the country.",
+        "fa": "در استعمال دوباره خود همان شی، این‌جا بعد از ترمیم، دوباره به کار برده می‌شود و دور انداخته نمی‌شود؛ در دوران دوباره ضایعات به فابریکه برده شده به مادهٔ خام برای ساختن چیزهای نو تبدیل می‌شوند. هر دو در منابع طبیعی صرفه‌جویی می‌کنند، محیط را پاک‌تر نگه می‌دارند و به اقتصاد فامیل و کشور کمک می‌کنند."
+      },
+      "idea": {
+        "en": "Was the shoe sent to a factory and made into something new, or was the same shoe used again?",
+        "fa": "آیا بوت به فابریکه رفته و چیز نو از آن ساخته شد، یا خود همان بوت دوباره به کار رفت؟"
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 4,
+  "title": {
+    "en": "Body regulation and response",
+    "fa": "تنظیم بدن و عکس‌العمل"
+  },
+  "questions": [
+    {
+      "pdf_page": 56,
+      "q": {
+        "en": "When the biceps muscle of the upper arm contracts, what happens?",
+        "fa": "وقتی عضلهٔ دوسره (Biceps) بازو منقبض می‌شود، چه واقع می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "The elbow straightens and the triceps contracts too.",
+          "fa": "بند آرنج راست می‌شود و عضلهٔ سه‌سره هم منقبض می‌شود."
+        },
+        {
+          "en": "The elbow bends and the triceps contracts at the same time.",
+          "fa": "بند آرنج خم می‌شود و عضلهٔ سه‌سره هم در همان وقت منقبض می‌شود."
+        },
+        {
+          "en": "The elbow bends and the triceps relaxes.",
+          "fa": "بند آرنج خم (قات) می‌شود و عضلهٔ سه‌سره منبسط می‌شود."
+        },
+        {
+          "en": "The elbow straightens and the triceps relaxes.",
+          "fa": "بند آرنج راست می‌شود و عضلهٔ سه‌سره منبسط می‌شود."
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The biceps is the flexor of the elbow: it pulls the forearm and bends the joint. Its antagonist, the triceps (the extensor), relaxes at the same time; when the triceps contracts, the elbow straightens.",
+        "fa": "عضلهٔ دوسره انقباض‌کنندهٔ (Flexor) بند آرنج است و با کشیدن ساعد بند را خم می‌کند. عضلهٔ متضاد آن، یعنی سه‌سره (Extensor)، در همان وقت منبسط می‌شود؛ وقتی سه‌سره منقبض شود، آرنج راست می‌شود."
+      },
+      "idea": {
+        "en": "A muscle can only pull, never push, so antagonistic muscles work in pairs: when one contracts, the other relaxes.",
+        "fa": "عضله تنها می‌تواند بکشد، نه این‌که تیله کند؛ پس عضلات متضاد جوره‌یی کار می‌کنند: وقتی یکی منقبض است، دیگری منبسط است."
+      }
+    },
+    {
+      "pdf_page": 57,
+      "q": {
+        "en": "In the sliding filament mechanism, which substance is released from the endoplasmic reticulum of the muscle cell and makes the actin filaments slide over the myosin filaments?",
+        "fa": "در میکانیزم لغزش الیاف، کدام ماده از اندوپلازمیک ریتیکولوم حجرهٔ عضله آزاد می‌شود و سبب لغزیدن رشته‌های اکتین بالای رشته‌های میوسین می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Calcium ions ($\\mathrm{Ca^{2+}}$)",
+          "fa": "ایون کلسیم ($\\mathrm{Ca^{2+}}$)"
+        },
+        {
+          "en": "Sodium ions ($\\mathrm{Na^{+}}$)",
+          "fa": "ایون سودیم ($\\mathrm{Na^{+}}$)"
+        },
+        {
+          "en": "Acetylcholine",
+          "fa": "استیل کولین"
+        },
+        {
+          "en": "ADP",
+          "fa": "ADP (ادینوسین دای فاسفیت)"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Acetylcholine from the nerve opens channels so that $\\mathrm{Na^{+}}$ enters and an electrical impulse forms; the impulse releases $\\mathrm{Ca^{2+}}$ from the endoplasmic reticulum. Calcium acts on actin and myosin, the filaments slide and the muscle contracts, and when calcium goes back the muscle relaxes.",
+        "fa": "استیل کولین که از آخر عصب آزاد می‌شود چینل‌ها را باز می‌کند تا $\\mathrm{Na^{+}}$ داخل حجره شود و انگیزهٔ برقی پیدا شود؛ این انگیزه $\\mathrm{Ca^{2+}}$ را از اندوپلازمیک ریتیکولوم آزاد می‌کند. کلسیم بالای اکتین و میوسین اثر کرده رشته‌ها را به لغزش می‌آورد و عضله منقبض می‌شود؛ وقتی کلسیم دوباره برگردد، عضله منبسط می‌شود."
+      },
+      "idea": {
+        "en": "Follow the steps in order: nerve message → acetylcholine → sodium enters → ? → the filaments slide. Which ion is stored inside the endoplasmic reticulum?",
+        "fa": "قدم‌ها را به ترتیب دنبال کنید: پیام عصبی ← استیل کولین ← داخل شدن سودیم ← ؟ ← لغزش رشته‌ها. کدام ایون در اندوپلازمیک ریتیکولوم ذخیره است؟"
+      }
+    },
+    {
+      "pdf_page": 60,
+      "q": {
+        "en": "Your hand touches a hot heater and you pull it away. In what order does the message travel?",
+        "fa": "دست شما با بخاری گرم تماس می‌کند و آن را دور می‌کشید. پیام به کدام ترتیب حرکت می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "Receptor → motor neuron → associative neuron → sensory neuron → muscle",
+          "fa": "آخذه ← نیورون حرکی ← نیورون ارتباط‌دهنده ← نیورون حسی ← عضله"
+        },
+        {
+          "en": "Receptor → associative neuron → sensory neuron → muscle",
+          "fa": "آخذه ← نیورون ارتباط‌دهنده ← نیورون حسی ← عضله"
+        },
+        {
+          "en": "Muscle → motor neuron → sensory neuron → receptor",
+          "fa": "عضله ← نیورون حرکی ← نیورون حسی ← آخذه"
+        },
+        {
+          "en": "Receptor in the skin → sensory neuron → associative neuron → motor neuron → muscle",
+          "fa": "آخذهٔ پوست ← نیورون حسی ← نیورون ارتباط‌دهنده ← نیورون حرکی ← عضله"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Heat stimulates receptors in the skin, sensory neurons carry the message to the brain and spinal cord, and associative neurons pass it to motor neurons. The motor neurons make the arm muscles contract, so all three kinds of neuron take part.",
+        "fa": "گرمی آخذه‌های پوست را تحریک می‌کند، نیورون‌های حسی پیام را به مغز و حرام مغز می‌برند و نیورون‌های ارتباط‌دهنده آن را به نیورون‌های حرکی می‌دهند. نیورون‌های حرکی عضلات دست را منقبض می‌سازند؛ پس هر سه نوع نیورون حصه می‌گیرند."
+      },
+      "idea": {
+        "en": "Sensory neurons bring information in; motor neurons carry orders out to the muscles and glands.",
+        "fa": "نیورون حسی معلومات را به مرکز می‌آورد و نیورون حرکی حکم را به عضلات و غده‌ها می‌برد."
+      }
+    },
+    {
+      "pdf_page": 65,
+      "q": {
+        "en": "After a meal the level of glucose in the blood rises. Which hormone does the pancreas release, and what does it do?",
+        "fa": "بعد از نان خوردن سطح گلوکوز خون بلند می‌رود. پانکراس کدام هورمون را ترشح می‌کند و آن هورمون چه کار می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "Glucagon from the alpha cells; it makes the liver release more glucose.",
+          "fa": "گلوکاگون از حجرات الفا؛ جگر را به آزاد کردن گلوکوز بیشتر وادار می‌کند."
+        },
+        {
+          "en": "Insulin from the beta cells; it makes cells take up the extra glucose and store it as glycogen.",
+          "fa": "انسولین از حجرات بیتا؛ حجرات را به گرفتن گلوکوز اضافی و ذخیرهٔ آن به شکل گلایکوجن وادار می‌کند."
+        },
+        {
+          "en": "Insulin from the alpha cells; it breaks glycogen down into glucose.",
+          "fa": "انسولین از حجرات الفا؛ گلایکوجن را به گلوکوز تجزیه می‌کند."
+        },
+        {
+          "en": "Calcitonin; it stores the extra glucose in the bones.",
+          "fa": "کلسیتونین؛ گلوکوز اضافی را در استخوان‌ها ذخیره می‌کند."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In the islets of Langerhans the beta cells make insulin and the alpha cells make glucagon. Insulin lowers blood glucose by making cells take in glucose and turn the extra into glycogen, while glucagon does the opposite when glucose is low.",
+        "fa": "در جزایر لنگرهانز حجرات بیتا انسولین و حجرات الفا گلوکاگون می‌سازند. انسولین گلوکوز خون را پایین می‌آورد، زیرا حجرات را به گرفتن گلوکوز و تبدیل اضافهٔ آن به گلایکوجن وادار می‌کند، و گلوکاگون وقتی گلوکوز کم شود برعکس کار می‌کند."
+      },
+      "idea": {
+        "en": "Glucose is high, so the body needs a hormone that brings it down. Insulin and glucagon work against each other.",
+        "fa": "گلوکوز زیاد است، پس بدن هورمونی می‌خواهد که آن را پایین بیاورد. انسولین و گلوکاگون برعکس یکدیگر کار می‌کنند."
+      }
+    },
+    {
+      "pdf_page": 70,
+      "q": {
+        "en": "Why is iodine added to table salt?",
+        "fa": "چرا به نمک طعام آیودین علاوه می‌کنند؟"
+      },
+      "options": [
+        {
+          "en": "To help the pancreas make more insulin",
+          "fa": "تا پانکراس انسولین بیشتر بسازد"
+        },
+        {
+          "en": "To prevent gigantism, which comes from too much growth hormone",
+          "fa": "تا از دیوپیکری که از زیادی هورمون رشد پیدا می‌شود جلوگیری شود"
+        },
+        {
+          "en": "To prevent goiter, because the thyroid gland needs iodine to make T3 and T4",
+          "fa": "تا از جاغور جلوگیری شود، چون غدهٔ تایراید برای ساختن T3 و T4 به آیودین ضرورت دارد"
+        },
+        {
+          "en": "To raise the calcium level of the blood, as parathyroid hormone does",
+          "fa": "تا سطح کلسیم خون را مانند هورمون پاراتایراید بالا ببرد"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The thyroid hormones T4 (thyroxine) and T3 contain iodine. Without enough iodine in food the thyroid cannot make enough of them and goiter appears, so iodized salt prevents this disease.",
+        "fa": "هورمون‌های تایراید، یعنی T4 (تیروکسین) و T3، آیودین دارند. اگر غذا آیودین کافی نداشته باشد، تایراید این هورمون‌ها را به اندازهٔ کافی ساخته نمی‌تواند و جاغور پیدا می‌شود؛ پس نمک آیودین‌دار از این مرض جلوگیری می‌کند."
+      },
+      "idea": {
+        "en": "The numbers in T3 and T4 tell how many iodine atoms each thyroid hormone has.",
+        "fa": "عدد کنار T در T3 و T4 تعداد اتوم‌های آیودین هر هورمون تایراید را نشان می‌دهد."
+      }
+    }
+  ]
+}

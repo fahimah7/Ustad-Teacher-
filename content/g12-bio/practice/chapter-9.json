@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 9,
+  "title": {
+    "en": "Reproduction in flowering plants",
+    "fa": "تکثر در نباتات گلدار"
+  },
+  "questions": [
+    {
+      "pdf_page": 144,
+      "q": {
+        "en": "A flower has sepals, petals and stamens, but no pistil. How is this flower described?",
+        "fa": "یک گل کاسبرگ، گلبرگ و آلات تذکیر دارد، ولی آلهٔ تأنیث ندارد. این گل چگونه نامیده می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Complete and bisexual",
+          "fa": "کامل و دوجنسه"
+        },
+        {
+          "en": "Complete and unisexual",
+          "fa": "کامل و یک‌جنسه"
+        },
+        {
+          "en": "Incomplete and bisexual",
+          "fa": "ناکامل و دوجنسه"
+        },
+        {
+          "en": "Incomplete and unisexual",
+          "fa": "ناکامل و یک‌جنسه"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "A complete flower has all four rings (sepals, petals, stamens and pistil), so a flower without a pistil is incomplete. A bisexual flower has both stamens and a pistil; with stamens only, this flower is unisexual (a male flower).",
+        "fa": "گل کامل هر چهار حلقه (کاسبرگ، گلبرگ، آلات تذکیر و آلهٔ تأنیث) را دارد، پس گلی که آلهٔ تأنیث ندارد ناکامل است. گل دوجنسه هم آلات تذکیر و هم آلهٔ تأنیث دارد؛ این گل تنها آلات تذکیر دارد، پس یک‌جنسه (گل مذکر) است."
+      },
+      "idea": {
+        "en": "Answer two questions separately: are all four rings there, and are both sex organs there?",
+        "fa": "دو سؤال را جدا جواب دهید: آیا هر چهار حلقه موجود است، و آیا هر دو عضو جنسی موجود است؟"
+      }
+    },
+    {
+      "pdf_page": 145,
+      "q": {
+        "en": "Inside an ovule, one cell divides by meiosis. How many haploid cells does it form, and how many of them remain to build the embryo sac?",
+        "fa": "در داخل تخمه یک حجره با میوسیس تقسیم می‌شود. چند حجرهٔ هپلویید ساخته می‌شود و چند تای آن باقی مانده کیسهٔ جنینی را می‌سازد؟"
+      },
+      "options": [
+        {
+          "en": "Four are formed and only one remains; the other three die.",
+          "fa": "چهار حجره ساخته می‌شود و تنها یکی باقی می‌ماند؛ سه حجرهٔ دیگر از بین می‌روند."
+        },
+        {
+          "en": "Four are formed and all four build the embryo sac together.",
+          "fa": "چهار حجره ساخته می‌شود و هر چهار با هم کیسهٔ جنینی را می‌سازند."
+        },
+        {
+          "en": "Two are formed and both remain.",
+          "fa": "دو حجره ساخته می‌شود و هر دو باقی می‌مانند."
+        },
+        {
+          "en": "Eight are formed and two remain.",
+          "fa": "هشت حجره ساخته می‌شود و دو تای آن باقی می‌ماند."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Meiosis of one cell gives four haploid cells; in the ovule three of them die and one remains. That cell grows and divides several times by mitosis to form the embryo sac, which holds the egg cell and the binucleate cell.",
+        "fa": "میوسیس یک حجره چهار حجرهٔ هپلویید می‌سازد؛ در تخمه سه حجره از بین می‌روند و یکی باقی می‌ماند. این حجره رشد کرده با چند تقسیم پی‌درپی (میتوسیس) کیسهٔ جنینی را می‌سازد که تخمزا و حجرهٔ دوهسته‌یی در آن اند."
+      },
+      "idea": {
+        "en": "Compare with the anther: there, all four cells made by meiosis become pollen, but in the ovule only one is kept.",
+        "fa": "با انتر مقایسه کنید: در آن‌جا هر چهار حجره‌یی که از میوسیس ساخته می‌شوند گرده می‌شوند، ولی در تخمه تنها یکی نگه داشته می‌شود."
+      }
+    },
+    {
+      "pdf_page": 146,
+      "q": {
+        "en": "In double fertilization, one male gamete joins the egg cell and the second joins the binucleate cell. What do these two unions produce?",
+        "fa": "در القاح مضاعف یک گمیت مذکر با تخمزا و گمیت مذکر دوم با حجرهٔ دوهسته‌یی یکجا می‌شود. از این دو یکجا شدن چه ساخته می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "A haploid ($n$) zygote and a diploid ($2n$) albumen",
+          "fa": "زایگوت هپلویید ($n$) و البومین دپلویید ($2n$)"
+        },
+        {
+          "en": "A triploid ($3n$) zygote and a diploid ($2n$) albumen",
+          "fa": "زایگوت ترپلویید ($3n$) و البومین دپلویید ($2n$)"
+        },
+        {
+          "en": "A diploid ($2n$) zygote that forms the embryo, and a triploid ($3n$) cell that forms the albumen, the stored food of the seed",
+          "fa": "زایگوت دپلویید ($2n$) که جنین را می‌سازد، و تخم ترپلویید ($3n$) که البومین، یعنی غذای ذخیره‌یی دانه، را می‌سازد"
+        },
+        {
+          "en": "Two diploid ($2n$) zygotes, so every seed has two embryos",
+          "fa": "دو زایگوت دپلویید ($2n$)، پس هر دانه دو جنین دارد"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Egg cell ($n$) + male gamete ($n$) gives the zygote, $n + n = 2n$, which becomes the embryo. The binucleate cell has two haploid nuclei, so with the second male gamete $n + n + n = 3n$, and this triploid cell divides to form the albumen.",
+        "fa": "تخمزا ($n$) + گمیت مذکر ($n$) زایگوت را می‌سازد: $n + n = 2n$، که جنین می‌شود. حجرهٔ دوهسته‌یی دو هستهٔ هپلویید دارد، پس با گمیت مذکر دوم $n + n + n = 3n$ می‌شود و این تخم ترپلویید تقسیم شده البومین را می‌سازد."
+      },
+      "idea": {
+        "en": "Count the haploid sets: the egg cell has one, and the binucleate cell has two nuclei.",
+        "fa": "مجموعه‌های هپلویید را بشمارید: تخمزا یکی دارد و حجرهٔ دوهسته‌یی دو هسته دارد."
+      }
+    },
+    {
+      "pdf_page": 149,
+      "q": {
+        "en": "A honeybee carries pollen from the anther of one apple flower to the stigma of another apple flower. What is this called?",
+        "fa": "یک زنبور عسل گرده را از انتر یک گل سیب به ستگمای گل سیب دیگر می‌برد. این کار چه نام دارد؟"
+      },
+      "options": [
+        {
+          "en": "Self (direct) pollination",
+          "fa": "گرده‌افشانی خودی (مستقیم)"
+        },
+        {
+          "en": "Indirect (cross) pollination",
+          "fa": "گرده‌افشانی غیر مستقیم"
+        },
+        {
+          "en": "Double fertilization",
+          "fa": "القاح مضاعف"
+        },
+        {
+          "en": "Grafting",
+          "fa": "پیوند کردن"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In self (direct) pollination pollen falls on the stigma of the same flower. When pollen goes to the stigma of another flower of the same kind it is indirect (cross) pollination, which is done mostly by animals such as bees.",
+        "fa": "در گرده‌افشانی خودی (مستقیم) گرده روی ستگمای همان گل می‌افتد. وقتی گرده به ستگمای گل دیگرِ همان نوع برود، گرده‌افشانی غیر مستقیم است که بیشتر توسط حیوانات مانند زنبور عسل انجام می‌شود."
+      },
+      "idea": {
+        "en": "Did the pollen stay in the same flower, or move to a different flower?",
+        "fa": "آیا گرده در همان گل ماند یا به گل دیگر رفت؟"
+      }
+    },
+    {
+      "pdf_page": 150,
+      "q": {
+        "en": "Why are plants made by grafting or from cuttings genetically the same as the plant they came from?",
+        "fa": "چرا نباتاتی که با پیوند یا قلمه به دست می‌آیند از نظر جنتیکی مانند نبات والد خود اند؟"
+      },
+      "options": [
+        {
+          "en": "Because they grow from the seeds of the parent plant",
+          "fa": "چون از دانه‌های نبات والد می‌رویند"
+        },
+        {
+          "en": "Because the parent's pollen fertilizes them",
+          "fa": "چون گردهٔ نبات والد آن‌ها را القاح می‌کند"
+        },
+        {
+          "en": "Because double fertilization gives them the same albumen",
+          "fa": "چون القاح مضاعف به آن‌ها همان البومین را می‌دهد"
+        },
+        {
+          "en": "Because no gametes or fertilization take part; the new plant grows from a vegetative part (stem, leaf or root) of the parent",
+          "fa": "چون گمیت و القاح در کار نیست؛ نبات نو از یک عضو نمویی (ساقه، برگ یا ریشه) نبات والد می‌روید"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Asexual (vegetative) reproduction uses a stem, leaf or root instead of male and female gametes. Since the genes of two parents are not combined, the new plant has the same genetic make-up as its parent.",
+        "fa": "در تکثر غیر زوجی به جای گمیت‌های مذکر و مؤنث، ساقه، برگ یا ریشه شرکت دارد. چون جن‌های دو والد با هم یکجا نمی‌شوند، نبات نو همان ساختار جنتیکی نبات والد را دارد."
+      },
+      "idea": {
+        "en": "Seeds come from sexual reproduction. What is missing in grafting and cuttings?",
+        "fa": "دانه از تکثر زوجی به وجود می‌آید. در پیوند و قلمه چه چیز وجود ندارد؟"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-phys",
+  "pdf_page": 99,
+  "printed_page": 90,
+  "page_kind": "content",
+  "chapter": 4,
+  "section_fa": "گرادینت درجهٔ حرارت",
+  "summary_fa": "این صفحه قانون هدایت حرارت را بیان می‌کند. تجربه نشان می‌دهد که جریان حرارت $H = \\frac{dQ}{dt}$ با مساحت مقطع A و با تفاوت درجهٔ حرارت دو طرف متناسب مستقیم، و با طول (فاصلهٔ) L متناسب معکوس است. ثابت تناسب k را «هدایت حرارتی ماده» می‌گویند: $H = kA\\frac{T_2 - T_1}{L}$. نسبت تفاوت درجهٔ حرارت بر طول، یعنی $\\frac{T_2 - T_1}{L}$، «گرادینت درجهٔ حرارت» نام دارد؛ چون حرارت از درجهٔ بالا به طرف درجهٔ پایین می‌رود، این کمیت منفی است. قیمت k به جنس جسم مربوط است: مواد با k بزرگ هادی خوب حرارت، و مواد با k کوچک هادی ضعیف یا عایق اند. در یک جسم متجانس با مقطع یکسان، جریان حرارت عمود بر مقطع است. واحد H ژول بر ثانیه یا وات است؛ واحد k در SI $\\mathrm{W/(m\\cdot K)}$ یا در سیستم دیگر $\\mathrm{cal/(cm\\cdot {}^{\\circ}C\\cdot s)}$ است. در آخر مثالی طرح می‌شود: حرارتی که در ده دقیقه از شیشهٔ کلکین یک صنف بیرون می‌رود.",
+  "key_points_fa": [
+    "$H \\propto A$، $H \\propto \\Delta T$ و $H \\propto \\frac{1}{L}$.",
+    "در حساب اندازهٔ مثبت را می‌گیریم: $H = kA\\frac{|T_1 - T_2|}{L}$.",
+    "k بزرگ ← هادی خوب (فلزات)؛ k کوچک ← عایق (هوا، پشم، چوب).",
+    "واحد H: $\\mathrm{J/s} = \\mathrm{W}$؛ واحد k: $\\mathrm{W/(m\\cdot K)}$.",
+    "مقدار حرارت در وقت t: $Q = H\\,t = \\frac{kA\\,\\Delta T\\,t}{L}$."
+  ],
+  "formulas": [
+    {"latex": "H = \\frac{dQ}{dt} = k\\,A\\,\\frac{T_2 - T_1}{L}", "meaning_fa": "قانون هدایت حرارت؛ k هدایت حرارتی ماده، A مساحت مقطع، L طول (ضخامت)"},
+    {"latex": "\\frac{T_2 - T_1}{L}", "meaning_fa": "گرادینت درجهٔ حرارت: تغییر درجهٔ حرارت در واحد طول؛ در جهت جریان حرارت منفی است"},
+    {"latex": "k = \\frac{dQ\\cdot L}{A\\,(T_2 - T_1)\\,dt}", "meaning_fa": "هدایت حرارتی ماده از همان رابطه"},
+    {"latex": "[k] = \\frac{\\mathrm{J\\cdot m}}{\\mathrm{m^2\\cdot K\\cdot s}} = \\frac{\\mathrm{W}}{\\mathrm{m\\cdot K}}", "meaning_fa": "واحد k در SI (یا $\\mathrm{cal/(cm\\cdot {}^{\\circ}C\\cdot s)}$)"}
+  ],
+  "terms": [
+    {"fa": "هدایت حرارتی ماده", "en": "thermal conductivity (k)"},
+    {"fa": "گرادینت درجهٔ حرارت", "en": "temperature gradient"},
+    {"fa": "هادی", "en": "conductor"},
+    {"fa": "عایق", "en": "insulator"},
+    {"fa": "جسم متجانس", "en": "homogeneous body"},
+    {"fa": "وات", "en": "watt (W)"}
+  ],
+  "figures": [],
+  "worked_examples": [
+    {
+      "label_fa": "مثال (شیشهٔ کلکین) ـ صورت مسئله",
+      "problem_fa": "مساحت هر شیشهٔ کلکین یک صنف $450\\,\\mathrm{cm^2}$ و ضخامت آن $5\\,\\mathrm{mm}$ است. درجهٔ حرارت بیرون $15^\\circ\\mathrm{C}$ و داخل صنف $25^\\circ\\mathrm{C}$ است. حرارتی را که در ده دقیقه از شیشه‌ها بیرون می‌رود حساب کنید.",
+      "steps_fa": [
+        "حل کتاب در صفحهٔ بعد است.",
+        "معلومات: $\\Delta T = 10^\\circ\\mathrm{C}$، $A = 450\\,\\mathrm{cm^2}$، $L = 0.5\\,\\mathrm{cm}$، $t = 600\\,\\mathrm{s}$؛ کتاب برای شیشه $k = 0.0024\\,\\mathrm{cal/(cm\\cdot {}^{\\circ}C\\cdot s)}$ می‌گیرد.",
+        "$Q = \\frac{kA\\,\\Delta T\\,t}{L} = \\frac{0.0024\\times450\\times10\\times600}{0.5} = 12960\\,\\mathrm{cal}$ (برای هر شیشه)"
+      ],
+      "answer": "$Q = 12960\\,\\mathrm{cal} \\approx 5.4\\times10^{4}\\,\\mathrm{J}$ برای هر شیشه",
+      "solution_source": "mixed"
+    }
+  ],
+  "exercises": [],
+  "continues_from_previous": true,
+  "continues_on_next": true,
+  "confidence": "high",
+  "notes": "کتاب $T_1$ را درجهٔ بالا و $T_2$ را درجهٔ پایین گرفته، پس در $H = kA\\frac{T_2 - T_1}{L}$ علامهٔ منفی پیدا می‌شود که تنها جهت را نشان می‌دهد؛ در مسایل اندازهٔ مثبت $kA\\frac{T_1 - T_2}{L}$ حساب می‌شود (شکل دقیق‌تر: $H = -kA\\frac{dT}{dx}$). کتاب k را گاهی با K بزرگ هم نوشته است."
+}

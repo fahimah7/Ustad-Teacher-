@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 6,
+  "title": {
+    "en": "The cell cycle and cell division",
+    "fa": "دوران حجره و تقسیم حجروی"
+  },
+  "questions": [
+    {
+      "pdf_page": 71,
+      "q": {
+        "en": "In single-celled organisms such as the amoeba and in cartilage cells, the nucleus and then the cytoplasm simply pinch into two equal parts, without the stages of mitosis. What is this kind of division called?",
+        "fa": "در موجودات یک‌حجره‌یی، مانند آمیب، و در حجرات غضروف، اول مادهٔ هسته و بعد سایتوپلازم با یک فرورفته‌گی ساده به دو حصهٔ مساوی تقسیم می‌شوند و مراحل میتوسیس دیده نمی‌شود. این نوع تقسیم چه نام دارد؟"
+      },
+      "options": [
+        {
+          "en": "Direct division (amitosis)",
+          "fa": "تقسیم مستقیم (امیتوسیس)"
+        },
+        {
+          "en": "Mitosis",
+          "fa": "میتوسیس"
+        },
+        {
+          "en": "Meiosis",
+          "fa": "میوسیس"
+        },
+        {
+          "en": "Cytokinesis",
+          "fa": "سایتوکنیسیس"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "In direct division (amitosis) the cell lengthens, a groove forms in its middle and the nucleus and cytoplasm split into two equal parts; it is seen in single-celled organisms and in cartilage cells.",
+        "fa": "در تقسیم مستقیم (امیتوسیس) حجره دراز می‌شود، در وسط آن فرورفته‌گی پیدا می‌شود و هسته و سایتوپلازم به دو حصهٔ مساوی تقسیم می‌شوند؛ این تقسیم در موجودات یک‌حجره‌یی و حجرات غضروف دیده می‌شود."
+      },
+      "idea": {
+        "en": "Mitosis and meiosis are indirect divisions with many stages. Which division is the simple, direct one?",
+        "fa": "میتوسیس و میوسیس تقسیم‌های غیر مستقیم با مراحل زیاد اند؛ تقسیم ساده و مستقیم کدام است؟"
+      }
+    },
+    {
+      "pdf_page": 72,
+      "q": {
+        "en": "In which phase of the cell cycle is DNA copied, so that one DNA molecule becomes two identical molecules?",
+        "fa": "در کدام مرحلهٔ دوران حجره DNA کاپی می‌شود، طوری که از یک مالیکول DNA دو مالیکول کاملاً یک‌سان ساخته شود؟"
+      },
+      "options": [
+        {
+          "en": "The G1 phase (first growth)",
+          "fa": "مرحلهٔ G1 (رشد و نمو اولی)"
+        },
+        {
+          "en": "The G2 phase (second growth)",
+          "fa": "مرحلهٔ G2 (نمو دومی)"
+        },
+        {
+          "en": "Cytokinesis",
+          "fa": "سایتوکنیسیس"
+        },
+        {
+          "en": "The S phase (synthesis)",
+          "fa": "مرحلهٔ S (ساختن یا ترکیب)"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Interphase has three phases: G1 (the cell grows quickly), S (DNA is copied) and G2 (the cell gets ready to divide). The letter S stands for synthesis.",
+        "fa": "انترفیز سه مرحله دارد: G1 (رشد سریع حجره)، S (کاپی شدن DNA) و G2 (آماده‌گی برای تقسیم). حرف S از کلمهٔ Synthesis (ساختن) گرفته شده است."
+      },
+      "idea": {
+        "en": "Think of the meaning of each letter: G for growth, S for synthesis.",
+        "fa": "به معنای هر حرف فکر کنید: G برای نمو (Growth) و S برای ساختن (Synthesis)."
+      }
+    },
+    {
+      "pdf_page": 74,
+      "q": {
+        "en": "In which stage of mitosis does the centromere of each chromosome split, so that the spindle fibres pull the two chromatids to opposite poles?",
+        "fa": "در کدام مرحلهٔ میتوسیس سنترومیر هر کروموزوم دو حصه می‌شود و تارهای دوک دو کروماتید را به دو قطب مخالف می‌کشند؟"
+      },
+      "options": [
+        {
+          "en": "Prophase",
+          "fa": "پروفیز"
+        },
+        {
+          "en": "Anaphase",
+          "fa": "انافیز"
+        },
+        {
+          "en": "Metaphase",
+          "fa": "میتافیز"
+        },
+        {
+          "en": "Telophase",
+          "fa": "تیلوفیز"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In anaphase the centromeres divide and the shortening spindle fibres pull the chromatids, now daughter chromosomes, to the two poles in a V shape.",
+        "fa": "در انافیز سنترومیرها تقسیم می‌شوند و تارهای دوک با کوتاه شدن، کروماتیدها (کروموزوم‌های دختری) را به شکل V به دو قطب می‌کشند."
+      },
+      "idea": {
+        "en": "Order: prophase (chromosomes form), metaphase (they attach to the spindle), then they separate, and last telophase (new nuclei form).",
+        "fa": "ترتیب را به یاد بیاورید: پروفیز (ساخته شدن کروموزوم‌ها)، میتافیز (وصل شدن به تارهای دوک)، بعد جدا شدن، و در آخر تیلوفیز (ساخته شدن هسته‌های نو)."
+      }
+    },
+    {
+      "pdf_page": 76,
+      "q": {
+        "en": "A cell with $2n = 16$ chromosomes divides by meiosis. How many cells are formed, and how many chromosomes does each have?",
+        "fa": "حجره‌یی که $2n = 16$ کروموزوم دارد، با میوسیس تقسیم می‌شود. چند حجره ساخته می‌شود و هر کدام چند کروموزوم دارد؟"
+      },
+      "options": [
+        {
+          "en": "$2$ cells, each with $16$ chromosomes",
+          "fa": "$2$ حجره، هر کدام با $16$ کروموزوم"
+        },
+        {
+          "en": "$4$ cells, each with $16$ chromosomes",
+          "fa": "$4$ حجره، هر کدام با $16$ کروموزوم"
+        },
+        {
+          "en": "$4$ cells, each with $8$ chromosomes",
+          "fa": "$4$ حجره، هر کدام با $8$ کروموزوم"
+        },
+        {
+          "en": "$2$ cells, each with $8$ chromosomes",
+          "fa": "$2$ حجره، هر کدام با $8$ کروموزوم"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Meiosis has two divisions one after the other, so one mother cell gives $4$ daughter cells, and each has half the chromosomes: $n = 16 \\div 2 = 8$.",
+        "fa": "میوسیس دو تقسیم پی‌درپی دارد، پس از یک حجرهٔ مادری $4$ حجرهٔ دختری ساخته می‌شود و هر کدام نصف کروموزوم‌ها را دارد: $n = 16 \\div 2 = 8$."
+      },
+      "idea": {
+        "en": "Two cells with the same number of chromosomes is the result of mitosis. Meiosis is a reduction division.",
+        "fa": "دو حجره با همان تعداد کروموزوم نتیجهٔ میتوسیس است؛ میوسیس تقسیم تنقیصی است."
+      }
+    },
+    {
+      "pdf_page": 78,
+      "q": {
+        "en": "Human body cells have $46$ chromosomes. How many chromosomes are there in a human egg cell, and how many in the zygote formed when it is fertilised?",
+        "fa": "حجرات جسمی انسان $46$ کروموزوم دارند. در گمیت ماده (تخمه) انسان چند کروموزوم است و در زایگوتی که پس از القاح ساخته می‌شود چند کروموزوم؟"
+      },
+      "options": [
+        {
+          "en": "$46$ in the egg cell, $92$ in the zygote",
+          "fa": "در گمیت ماده $46$ و در زایگوت $92$"
+        },
+        {
+          "en": "$23$ in the egg cell, $23$ in the zygote",
+          "fa": "در گمیت ماده $23$ و در زایگوت $23$"
+        },
+        {
+          "en": "$46$ in the egg cell, $46$ in the zygote",
+          "fa": "در گمیت ماده $46$ و در زایگوت $46$"
+        },
+        {
+          "en": "$23$ in the egg cell, $46$ in the zygote",
+          "fa": "در گمیت ماده $23$ و در زایگوت $46$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Meiosis halves the number, so each gamete has $n = 23$; at fertilisation $23 + 23 = 46$, so the zygote has the normal number again.",
+        "fa": "میوسیس تعداد کروموزوم‌ها را نصف می‌کند، پس هر گمیت $n = 23$ دارد؛ در القاح $23 + 23 = 46$ می‌شود و زایگوت دوباره تعداد عادی را دارد."
+      },
+      "idea": {
+        "en": "If gametes had $46$ chromosomes, the number would double in every generation. That is why gametes are made by meiosis.",
+        "fa": "اگر گمیت‌ها $46$ کروموزوم می‌داشتند، تعداد کروموزوم‌ها در هر نسل دوچند می‌شد؛ به همین سبب گمیت‌ها با میوسیس ساخته می‌شوند."
+      }
+    }
+  ]
+}

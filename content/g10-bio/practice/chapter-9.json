@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-bio",
+  "chapter": 9,
+  "title": {
+    "en": "Movement of matter and energy in the ecosystem",
+    "fa": "حرکت مواد و انرژی در ایکوسیستم"
+  },
+  "questions": [
+    {
+      "pdf_page": 111,
+      "q": {
+        "en": "Euglena is a single-celled organism that has chlorophyll. How does it get its energy?",
+        "fa": "یوگلینا یک موجود یک‌حجروی است که کلوروفیل دارد. انرژی خود را چطور به دست می‌آورد؟"
+      },
+      "options": [
+        {
+          "en": "It is a heterotroph that eats other organisms",
+          "fa": "هتروتروف است و موجودات دیگر را می‌خورد"
+        },
+        {
+          "en": "It is an autotroph that makes food using the energy of sunlight",
+          "fa": "اتوتروف است و با انرژی روشنی آفتاب غذا می‌سازد"
+        },
+        {
+          "en": "It is a decomposer that breaks down dead bodies",
+          "fa": "تجزیه‌کننده است و اجساد مرده را تجزیه می‌کند"
+        },
+        {
+          "en": "It is a carnivore",
+          "fa": "گوشت‌خوار است"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Autotrophs (producers) take energy from sunlight and store it in chemical compounds. Plants are the largest group, but other organisms with chlorophyll, such as single-celled Euglena, are autotrophs too.",
+        "fa": "اتوتروف‌ها (تولیدکننده‌گان) انرژی را از روشنی آفتاب می‌گیرند و در مرکبات کیمیاوی ذخیره می‌کنند. نباتات بزرگ‌ترین گروپ آن‌ها اند، ولی موجودات کلوروفیل‌دار دیگر، مانند یوگلینای یک‌حجروی، هم اتوتروف اند."
+      },
+      "idea": {
+        "en": "Chlorophyll is what lets plants capture sunlight. What can an organism with chlorophyll do?",
+        "fa": "کلوروفیل به نباتات کمک می‌کند تا انرژی روشنی آفتاب را بگیرند. موجود دارای کلوروفیل چه کار کرده می‌تواند؟"
+      }
+    },
+    {
+      "pdf_page": 113,
+      "q": {
+        "en": "In the food chain grass → grasshopper → lizard → eagle, which trophic level is the lizard?",
+        "fa": "در زنجیر غذایی علف ← ملخ ← چلپاسه ← عقاب، چلپاسه در کدام سطح غذایی است؟"
+      },
+      "options": [
+        {
+          "en": "Producer",
+          "fa": "تولیدکننده"
+        },
+        {
+          "en": "Primary consumer",
+          "fa": "مصرف‌کنندهٔ اولی"
+        },
+        {
+          "en": "Tertiary consumer",
+          "fa": "مصرف‌کنندهٔ سومی"
+        },
+        {
+          "en": "Secondary consumer",
+          "fa": "مصرف‌کنندهٔ دومی"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Grass is the producer, the grasshopper that eats grass is the primary consumer, the lizard that eats the grasshopper is the secondary consumer, and the eagle is the tertiary consumer.",
+        "fa": "علف تولیدکننده است، ملخ که علف می‌خورد مصرف‌کنندهٔ اولی، چلپاسه که ملخ را می‌خورد مصرف‌کنندهٔ دومی و عقاب مصرف‌کنندهٔ سومی است."
+      },
+      "idea": {
+        "en": "Count along the chain from the producer: the first animal is the primary consumer. Where does the lizard come?",
+        "fa": "از تولیدکننده در زنجیر بشمارید: اولین حیوان مصرف‌کنندهٔ اولی است. چلپاسه در کدام جا می‌آید؟"
+      }
+    },
+    {
+      "pdf_page": 114,
+      "q": {
+        "en": "In a food web, an eagle eats mice, rabbits and snakes. If the number of mice falls, why can the eagle still find food?",
+        "fa": "در یک شبکهٔ غذایی، عقاب موش، خرگوش و مار را می‌خورد. اگر تعداد موش‌ها کم شود، چرا عقاب هنوز غذا پیدا کرده می‌تواند؟"
+      },
+      "options": [
+        {
+          "en": "Because in a food web it has several food sources, from several connected food chains",
+          "fa": "زیرا در شبکهٔ غذایی از چند زنجیر غذایی به‌هم‌وصل چند منبع غذا دارد"
+        },
+        {
+          "en": "Because it can make its own food",
+          "fa": "زیرا غذای خود را خود ساخته می‌تواند"
+        },
+        {
+          "en": "Because energy increases at higher trophic levels",
+          "fa": "زیرا انرژی در سطح‌های غذایی بالاتر زیاد می‌شود"
+        },
+        {
+          "en": "Because the eagle is a decomposer",
+          "fa": "زیرا عقاب تجزیه‌کننده است"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "A food web is made of several connected food chains. One animal can eat several kinds of food, so if one food becomes scarce it can still get energy along the other paths.",
+        "fa": "شبکهٔ غذایی از چند زنجیر غذایی به‌هم‌وصل ساخته شده است. یک حیوان چند نوع غذا خورده می‌تواند؛ پس اگر یک غذا کم شود، هنوز از راه‌های دیگر انرژی به دست آورده می‌تواند."
+      },
+      "idea": {
+        "en": "Compare a single food chain with a food web: in which one does an animal have more than one way of getting food?",
+        "fa": "یک زنجیر غذایی را با شبکهٔ غذایی مقایسه کنید: در کدام یک حیوان برای پیدا کردن غذا بیشتر از یک راه دارد؟"
+      }
+    },
+    {
+      "pdf_page": 115,
+      "q": {
+        "en": "Why are there fewer organisms and less energy at each higher level of the energy pyramid?",
+        "fa": "چرا در هر سطح بالاتر هرم انرژی تعداد موجودات و مقدار انرژی کمتر است؟"
+      },
+      "options": [
+        {
+          "en": "Because the animals at the top eat less food",
+          "fa": "زیرا حیوانات سطح بالا غذای کمتر می‌خورند"
+        },
+        {
+          "en": "Because energy is made again at each level",
+          "fa": "زیرا انرژی در هر سطح دوباره ساخته می‌شود"
+        },
+        {
+          "en": "Because at each level most of the energy is used by the organisms themselves or lost as heat, and only a little passes to the next level",
+          "fa": "زیرا در هر سطح بیشتر انرژی را خود موجودات مصرف می‌کنند یا به شکل حرارت ضایع می‌شود و تنها مقدار کم به سطح بعدی می‌رسد"
+        },
+        {
+          "en": "Because producers get the least energy from the sun",
+          "fa": "زیرا تولیدکننده‌گان کمترین انرژی را از آفتاب می‌گیرند"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "A plant uses part of the food it makes for its own cells and growth, and some energy is lost as heat; only a little stays in its body for the primary consumer. The same happens at every level, so each consumer must eat many organisms of the level below.",
+        "fa": "نبات بخشی از غذایی را که می‌سازد برای کارهای حجروی و رشد خود مصرف می‌کند و بخشی از انرژی به شکل حرارت ضایع می‌شود؛ تنها مقدار کم در جسم آن برای مصرف‌کنندهٔ اولی می‌ماند. همین کار در هر سطح تکرار می‌شود؛ پس هر مصرف‌کننده باید موجودات زیاد سطح پایین‌تر را بخورد."
+      },
+      "idea": {
+        "en": "Follow the energy from the sun to the plant and from the plant to the first consumer. At each step, where does most of the energy go?",
+        "fa": "انرژی را از آفتاب به نبات و از نبات به مصرف‌کنندهٔ اولی دنبال کنید. در هر قدم بیشتر انرژی به کجا می‌رود؟"
+      }
+    },
+    {
+      "pdf_page": 119,
+      "q": {
+        "en": "Nitrogen gas makes up 78% of the air, but living things cannot use it in this form. How does nitrogen get into the proteins of animals?",
+        "fa": "گاز نایتروجن ۷۸ فیصد هوا را تشکیل می‌دهد، ولی موجودات زنده آن را به همین شکل استفاده کرده نمی‌توانند. نایتروجن چطور به پروتین حیوانات می‌رسد؟"
+      },
+      "options": [
+        {
+          "en": "Animals breathe in nitrogen gas and build it into proteins",
+          "fa": "حیوانات گاز نایتروجن را تنفس کرده در پروتین داخل می‌کنند"
+        },
+        {
+          "en": "Some bacteria (for example in the roots of beans and peas) change it into nitrogen compounds; plants use these, and herbivores eat the plant proteins",
+          "fa": "بعضی باکتریا (مثلاً در ریشهٔ لوبیا و نخود) آن را به مرکبات نایتروجن‌دار تبدیل می‌کنند؛ نباتات از این‌ها استفاده می‌کنند و علف‌خواران پروتین نباتی را می‌خورند"
+        },
+        {
+          "en": "Rain carries nitrogen gas directly into the food of animals",
+          "fa": "باران گاز نایتروجن را مستقیم به غذای حیوانات می‌رساند"
+        },
+        {
+          "en": "Burning wood changes nitrogen gas into protein",
+          "fa": "سوختن چوب گاز نایتروجن را به پروتین تبدیل می‌کند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Nitrogen must first be fixed: some bacteria and plants such as beans, peas, peanuts and mung beans (in fact bacteria in their roots) change it into nitrogen compounds that plants can use. Herbivores eat plant proteins; digestion breaks them into amino acids, which are joined into animal proteins.",
+        "fa": "نایتروجن اول باید نصب شود: بعضی باکتریا و نباتاتی مانند لوبیا، نخود، ممپلی و متر (در حقیقت باکتریای ریشهٔ آن‌ها) آن را به مرکبات نایتروجن‌دار تبدیل می‌کنند که نباتات استفاده کرده می‌توانند. علف‌خواران پروتین نباتی را می‌خورند؛ در هضم، پروتین به امینو اسیدها تجزیه می‌شود و از آن‌ها پروتین حیوانی ساخته می‌شود."
+      },
+      "idea": {
+        "en": "Air nitrogen is useless to animals until it is changed into compounds. Which living things make that change, and how does the nitrogen then pass along the food chain?",
+        "fa": "نایتروجن هوا تا وقتی به مرکبات تبدیل نشود برای حیوانات فایده ندارد. کدام موجودات این تبدیل را انجام می‌دهند و بعد نایتروجن چطور در زنجیر غذایی پیش می‌رود؟"
+      }
+    }
+  ]
+}

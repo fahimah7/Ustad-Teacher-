@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-phys",
+  "chapter": 4,
+  "title": {
+    "en": "Thermal properties of materials",
+    "fa": "خواص حرارتی مواد"
+  },
+  "questions": [
+    {
+      "pdf_page": 89,
+      "q": {
+        "en": "What is $20^\\circ\\mathrm{C}$ on the Fahrenheit scale?",
+        "fa": "$20^\\circ\\mathrm{C}$ در سکیل فارنهایت چند درجه است؟"
+      },
+      "options": [
+        {
+          "en": "$36^\\circ\\mathrm{F}$",
+          "fa": "$36^\\circ\\mathrm{F}$"
+        },
+        {
+          "en": "$93.6^\\circ\\mathrm{F}$",
+          "fa": "$93.6^\\circ\\mathrm{F}$"
+        },
+        {
+          "en": "$68^\\circ\\mathrm{F}$",
+          "fa": "$68^\\circ\\mathrm{F}$"
+        },
+        {
+          "en": "$43.1^\\circ\\mathrm{F}$",
+          "fa": "$43.1^\\circ\\mathrm{F}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$T_F = \\frac{9}{5}T_C + 32 = \\frac{9}{5}(20) + 32 = 36 + 32 = 68^\\circ\\mathrm{F}$.",
+        "fa": "$T_F = \\frac{9}{5}T_C + 32 = \\frac{9}{5}(20) + 32 = 36 + 32 = 68^\\circ\\mathrm{F}$ است."
+      },
+      "idea": {
+        "en": "First multiply by $\\frac{9}{5}$, then add $32$. Water freezes at $32^\\circ\\mathrm{F}$, so a mild day must be well above $32$.",
+        "fa": "اول در $\\frac{9}{5}$ ضرب کنید، بعد $32$ را جمع کنید. آب در $32^\\circ\\mathrm{F}$ یخ می‌بندد، پس یک روز معتدل باید خیلی بالاتر از $32$ باشد."
+      }
+    },
+    {
+      "pdf_page": 93,
+      "q": {
+        "en": "A steel rod is $10\\,\\mathrm{m}$ long at $0^\\circ\\mathrm{C}$ ($\\alpha = 12\\times10^{-6}\\,\\mathrm{K^{-1}}$). How much longer is it at $40^\\circ\\mathrm{C}$?",
+        "fa": "طول یک میلهٔ فولادی در $0^\\circ\\mathrm{C}$ برابر $10\\,\\mathrm{m}$ است ($\\alpha = 12\\times10^{-6}\\,\\mathrm{K^{-1}}$). در $40^\\circ\\mathrm{C}$ چقدر درازتر می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "$0.48\\,\\mathrm{mm}$",
+          "fa": "$0.48\\,\\mathrm{mm}$"
+        },
+        {
+          "en": "$14.4\\,\\mathrm{mm}$",
+          "fa": "$14.4\\,\\mathrm{mm}$"
+        },
+        {
+          "en": "$37.6\\,\\mathrm{mm}$",
+          "fa": "$37.6\\,\\mathrm{mm}$"
+        },
+        {
+          "en": "$4.8\\,\\mathrm{mm}$",
+          "fa": "$4.8\\,\\mathrm{mm}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "$\\Delta L = \\alpha L_0 \\Delta T = (12\\times10^{-6}\\,\\mathrm{K^{-1}})(10\\,\\mathrm{m})(40\\,\\mathrm{K}) = 4.8\\times10^{-3}\\,\\mathrm{m} = 4.8\\,\\mathrm{mm}$.",
+        "fa": "$\\Delta L = \\alpha L_0 \\Delta T = (12\\times10^{-6}\\,\\mathrm{K^{-1}})(10\\,\\mathrm{m})(40\\,\\mathrm{K}) = 4.8\\times10^{-3}\\,\\mathrm{m} = 4.8\\,\\mathrm{mm}$ است."
+      },
+      "idea": {
+        "en": "Use the change in temperature, $\\Delta T = 40^\\circ\\mathrm{C} = 40\\,\\mathrm{K}$, not the temperature itself. For a length use $\\alpha$; $3\\alpha$ is only for a volume.",
+        "fa": "تغییر درجهٔ حرارت را به کار ببرید، $\\Delta T = 40^\\circ\\mathrm{C} = 40\\,\\mathrm{K}$، نه خود درجهٔ حرارت را. برای طول $\\alpha$ را بگیرید؛ $3\\alpha$ تنها برای حجم است."
+      }
+    },
+    {
+      "pdf_page": 99,
+      "q": {
+        "en": "Heat flows through a wall by conduction. If only the thickness $L$ of the wall is doubled (same material, area and temperatures), how does the heat flow $H$ change?",
+        "fa": "حرارت از راه هدایت از یک دیوار می‌گذرد. اگر تنها ضخامت $L$ دیوار دو برابر شود (ماده، مساحت و درجه‌های حرارت همان باشند)، جریان حرارت $H$ چه تغییر می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "It is halved.",
+          "fa": "نصف می‌شود."
+        },
+        {
+          "en": "It is doubled.",
+          "fa": "دو برابر می‌شود."
+        },
+        {
+          "en": "It becomes a quarter.",
+          "fa": "یک‌چهارم می‌شود."
+        },
+        {
+          "en": "It does not change.",
+          "fa": "تغییر نمی‌کند."
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "From $H = kA\\frac{T_2 - T_1}{L}$, the heat flow is inversely proportional to the thickness: doubling $L$ halves the temperature gradient and therefore halves $H$.",
+        "fa": "از $H = kA\\frac{T_2 - T_1}{L}$ دیده می‌شود که جریان حرارت با ضخامت نسبت معکوس دارد: دو برابر شدن $L$ گرادینت درجهٔ حرارت و در نتیجه $H$ را نصف می‌سازد."
+      },
+      "idea": {
+        "en": "$L$ is in the denominator, and it appears only once, not squared. This is why less heat escapes through a thicker wall.",
+        "fa": "$L$ در مخرج است و تنها یک بار آمده، نه به توان دو. به همین سبب از دیوار ضخیم‌تر حرارت کمتری بیرون می‌رود."
+      }
+    },
+    {
+      "pdf_page": 104,
+      "q": {
+        "en": "There is a vacuum between the Sun and the Earth. How does the Sun's heat reach us?",
+        "fa": "میان آفتاب و زمین خلا است. حرارت آفتاب چگونه به ما می‌رسد؟"
+      },
+      "options": [
+        {
+          "en": "By conduction, from particle to particle",
+          "fa": "با هدایت، از ذره به ذره"
+        },
+        {
+          "en": "By radiation: electromagnetic waves that need no material medium",
+          "fa": "با تشعشع: امواج الکترومقناطیسی که به محیط مادی ضرورت ندارند"
+        },
+        {
+          "en": "By convection, as hot gases move from the Sun to the Earth",
+          "fa": "با کانوکشن، با حرکت گازهای داغ از آفتاب تا زمین"
+        },
+        {
+          "en": "By conduction through the air between the Sun and the Earth",
+          "fa": "با هدایت از راه هوای میان آفتاب و زمین"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Conduction and convection need matter, and there is none in a vacuum. Radiation travels as electromagnetic waves (for heat, mostly infrared) at the speed of light, even through empty space.",
+        "fa": "هدایت و کانوکشن به ماده ضرورت دارند و در خلا ماده نیست. تشعشع به شکل امواج الکترومقناطیسی (برای حرارت بیشتر اشعهٔ تحت قرمز) با سرعت نور، حتی از فضای خالی، می‌گذرد."
+      },
+      "idea": {
+        "en": "Ask what each method needs: conduction needs particles that touch, convection needs a moving liquid or gas, and radiation needs no matter at all.",
+        "fa": "ببینید هر راه به چه ضرورت دارد: هدایت به ذره‌های پهلوی هم، کانوکشن به مایع یا گاز متحرک، ولی تشعشع به هیچ ماده‌یی ضرورت ندارد."
+      }
+    },
+    {
+      "pdf_page": 109,
+      "q": {
+        "en": "A star radiates most strongly at the wavelength $\\lambda_m = 290\\,\\mathrm{nm}$. Using Wien's law, $\\lambda_m T = 2.9\\times10^{-3}\\,\\mathrm{m\\cdot K}$, what is its surface temperature?",
+        "fa": "یک ستاره در طول موج $\\lambda_m = 290\\,\\mathrm{nm}$ بیشترین تشعشع را می‌دهد. با قانون وین، $\\lambda_m T = 2.9\\times10^{-3}\\,\\mathrm{m\\cdot K}$، درجهٔ حرارت سطح آن چند است؟"
+      },
+      "options": [
+        {
+          "en": "$1000\\,\\mathrm{K}$",
+          "fa": "$1000\\,\\mathrm{K}$"
+        },
+        {
+          "en": "$5800\\,\\mathrm{K}$",
+          "fa": "$5800\\,\\mathrm{K}$"
+        },
+        {
+          "en": "$10000\\,\\mathrm{K}$",
+          "fa": "$10000\\,\\mathrm{K}$"
+        },
+        {
+          "en": "$8.4\\times10^{-10}\\,\\mathrm{K}$",
+          "fa": "$8.4\\times10^{-10}\\,\\mathrm{K}$"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "$T = \\frac{2.9\\times10^{-3}\\,\\mathrm{m\\cdot K}}{290\\times10^{-9}\\,\\mathrm{m}} = \\frac{2.9\\times10^{-3}}{2.9\\times10^{-7}}\\,\\mathrm{K} = 10^{4}\\,\\mathrm{K} = 10000\\,\\mathrm{K}$. Its peak wavelength is shorter than the Sun's (about $500\\,\\mathrm{nm}$), so this star is hotter than the Sun.",
+        "fa": "$T = \\frac{2.9\\times10^{-3}\\,\\mathrm{m\\cdot K}}{290\\times10^{-9}\\,\\mathrm{m}} = \\frac{2.9\\times10^{-3}}{2.9\\times10^{-7}}\\,\\mathrm{K} = 10^{4}\\,\\mathrm{K} = 10000\\,\\mathrm{K}$ است. طول موج قلهٔ آن از آفتاب (حدود $500\\,\\mathrm{nm}$) کوتاه‌تر است، پس این ستاره از آفتاب گرم‌تر است."
+      },
+      "idea": {
+        "en": "$\\lambda_m$ and $T$ are inversely proportional: divide the constant by the wavelength written in metres ($1\\,\\mathrm{nm} = 10^{-9}\\,\\mathrm{m}$).",
+        "fa": "$\\lambda_m$ و $T$ نسبت معکوس دارند: ثابت را بر طول موج به متر تقسیم کنید ($1\\,\\mathrm{nm} = 10^{-9}\\,\\mathrm{m}$)."
+      }
+    }
+  ]
+}

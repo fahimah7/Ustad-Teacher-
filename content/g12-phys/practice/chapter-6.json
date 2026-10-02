@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-phys",
+  "chapter": 6,
+  "title": {
+    "en": "Nuclear physics",
+    "fa": "فزیک هسته‌یی"
+  },
+  "questions": [
+    {
+      "pdf_page": 152,
+      "q": {
+        "en": "Carbon has the isotopes ${}^{12}_{6}\\mathrm{C}$, ${}^{13}_{6}\\mathrm{C}$ and ${}^{14}_{6}\\mathrm{C}$. How are these nuclei alike, and how do they differ?",
+        "fa": "کاربن ایزوتوپ‌های ${}^{12}_{6}\\mathrm{C}$، ${}^{13}_{6}\\mathrm{C}$ و ${}^{14}_{6}\\mathrm{C}$ را دارد. این هسته‌ها در چه چیز یکسان و در چه چیز متفاوت اند؟"
+      },
+      "options": [
+        {
+          "en": "Same number of neutrons, different numbers of protons",
+          "fa": "تعداد نیوترون یکسان، تعداد پروتون متفاوت"
+        },
+        {
+          "en": "Same mass number, different atomic numbers",
+          "fa": "عدد کتلهٔ یکسان، نمبر اتومی متفاوت"
+        },
+        {
+          "en": "Same number of protons (6), different numbers of neutrons (6, 7 and 8)",
+          "fa": "تعداد پروتون یکسان (6)، تعداد نیوترون متفاوت (6، 7 و 8)"
+        },
+        {
+          "en": "Same numbers of protons and neutrons; only their electrons differ",
+          "fa": "تعداد پروتون و نیوترون یکسان؛ تنها الکترون‌های آن‌ها فرق دارند"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "All three have $Z = 6$, which makes them carbon. Their mass numbers differ, so $N = A - Z$ is $6$, $7$ and $8$: isotopes have the same $Z$ but different $N$ and $A$.",
+        "fa": "هر سه $Z = 6$ دارند و همین آن‌ها را کاربن می‌سازد. عدد کتلهٔ آن‌ها فرق دارد، پس $N = A - Z$ برابر $6$، $7$ و $8$ است: ایزوتوپ‌ها $Z$ برابر ولی $N$ و $A$ متفاوت دارند."
+      },
+      "idea": {
+        "en": "The lower number $Z$ fixes the element. If $Z$ changed, the nucleus would no longer be carbon.",
+        "fa": "عدد پایین ($Z$) نوع عنصر را معین می‌کند. اگر $Z$ تغییر کند، هسته دیگر کاربن نیست."
+      }
+    },
+    {
+      "pdf_page": 156,
+      "q": {
+        "en": "The mass defect of a nucleus is $\\Delta M = 5\\times10^{-29}\\,\\mathrm{kg}$. What is its binding energy? ($c = 3\\times10^{8}\\,\\mathrm{m/s}$)",
+        "fa": "کمبود کتلهٔ یک هسته $\\Delta M = 5\\times10^{-29}\\,\\mathrm{kg}$ است. انرژی بسته‌گی آن چند است؟ ($c = 3\\times10^{8}\\,\\mathrm{m/s}$)"
+      },
+      "options": [
+        {
+          "en": "$1.5\\times10^{-20}\\,\\mathrm{J}$",
+          "fa": "$1.5\\times10^{-20}\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$4.5\\times10^{-12}\\,\\mathrm{J}$",
+          "fa": "$4.5\\times10^{-12}\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$4.5\\times10^{-20}\\,\\mathrm{J}$",
+          "fa": "$4.5\\times10^{-20}\\,\\mathrm{J}$"
+        },
+        {
+          "en": "$4.5\\times10^{-18}\\,\\mathrm{J}$",
+          "fa": "$4.5\\times10^{-18}\\,\\mathrm{J}$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$B = \\Delta M\\,c^2 = (5\\times10^{-29}\\,\\mathrm{kg})(3\\times10^{8}\\,\\mathrm{m/s})^2 = (5\\times10^{-29})(9\\times10^{16}) = 4.5\\times10^{-12}\\,\\mathrm{J}$, which is about $28\\,\\mathrm{MeV}$.",
+        "fa": "$B = \\Delta M\\,c^2 = (5\\times10^{-29}\\,\\mathrm{kg})(3\\times10^{8}\\,\\mathrm{m/s})^2 = (5\\times10^{-29})(9\\times10^{16}) = 4.5\\times10^{-12}\\,\\mathrm{J}$ است که حدود $28\\,\\mathrm{MeV}$ می‌شود."
+      },
+      "idea": {
+        "en": "Square the whole speed of light, $(3\\times10^{8})^2 = 9\\times10^{16}$, and keep $c$ in $\\mathrm{m/s}$ so that the energy comes out in joules.",
+        "fa": "تمام سرعت نور را به توان دو برسانید، $(3\\times10^{8})^2 = 9\\times10^{16}$، و $c$ را به $\\mathrm{m/s}$ بنویسید تا انرژی به ژول به دست آید."
+      }
+    },
+    {
+      "pdf_page": 161,
+      "q": {
+        "en": "Polonium-210 (${}^{210}_{84}\\mathrm{Po}$) emits an alpha particle. Which nucleus is left?",
+        "fa": "پولونیم 210 (${}^{210}_{84}\\mathrm{Po}$) یک ذرهٔ الفا خارج می‌کند. کدام هسته باقی می‌ماند؟"
+      },
+      "options": [
+        {
+          "en": "${}^{210}_{85}\\mathrm{At}$",
+          "fa": "${}^{210}_{85}\\mathrm{At}$"
+        },
+        {
+          "en": "${}^{206}_{84}\\mathrm{Po}$",
+          "fa": "${}^{206}_{84}\\mathrm{Po}$"
+        },
+        {
+          "en": "${}^{208}_{82}\\mathrm{Pb}$",
+          "fa": "${}^{208}_{82}\\mathrm{Pb}$"
+        },
+        {
+          "en": "${}^{206}_{82}\\mathrm{Pb}$",
+          "fa": "${}^{206}_{82}\\mathrm{Pb}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "An alpha particle is ${}^{4}_{2}\\mathrm{He}$, so $A$ drops by 4 and $Z$ by 2: ${}^{210}_{84}\\mathrm{Po} \\rightarrow {}^{206}_{82}\\mathrm{Pb} + {}^{4}_{2}\\alpha$. Check: $210 = 206 + 4$ and $84 = 82 + 2$; element 82 is lead.",
+        "fa": "ذرهٔ الفا ${}^{4}_{2}\\mathrm{He}$ است، پس $A$ چهار واحد و $Z$ دو واحد کم می‌شود: ${}^{210}_{84}\\mathrm{Po} \\rightarrow {}^{206}_{82}\\mathrm{Pb} + {}^{4}_{2}\\alpha$. کنترول: $210 = 206 + 4$ و $84 = 82 + 2$؛ عنصر شمارهٔ 82 سرب است."
+      },
+      "idea": {
+        "en": "Balance both numbers: the mass numbers on the two sides must have the same total, and so must the atomic numbers.",
+        "fa": "هر دو عدد را برابر کنید: مجموع عددهای کتله در دو طرف و مجموع نمبرهای اتومی در دو طرف باید یکسان باشند."
+      }
+    },
+    {
+      "pdf_page": 166,
+      "q": {
+        "en": "A radioactive substance has a half-life of 6 hours. How much of an $80\\,\\mathrm{g}$ sample is still undecayed after 24 hours?",
+        "fa": "نیم عمر یک مادهٔ رادیواکتیف 6 ساعت است. از نمونهٔ $80\\,\\mathrm{g}$ آن، بعد از 24 ساعت چند گرام متلاشی نشده باقی می‌ماند؟"
+      },
+      "options": [
+        {
+          "en": "$5\\,\\mathrm{g}$",
+          "fa": "$5\\,\\mathrm{g}$"
+        },
+        {
+          "en": "$20\\,\\mathrm{g}$",
+          "fa": "$20\\,\\mathrm{g}$"
+        },
+        {
+          "en": "$10\\,\\mathrm{g}$",
+          "fa": "$10\\,\\mathrm{g}$"
+        },
+        {
+          "en": "$40\\,\\mathrm{g}$",
+          "fa": "$40\\,\\mathrm{g}$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "24 hours is $\\frac{24}{6} = 4$ half-lives. After each half-life half is left: $80 \\rightarrow 40 \\rightarrow 20 \\rightarrow 10 \\rightarrow 5\\,\\mathrm{g}$, that is, $80 \\times \\left(\\frac{1}{2}\\right)^4 = 5\\,\\mathrm{g}$.",
+        "fa": "24 ساعت برابر $\\frac{24}{6} = 4$ نیم عمر است. بعد از هر نیم عمر نصف باقی می‌ماند: $80 \\rightarrow 40 \\rightarrow 20 \\rightarrow 10 \\rightarrow 5\\,\\mathrm{g}$، یعنی $80 \\times \\left(\\frac{1}{2}\\right)^4 = 5\\,\\mathrm{g}$."
+      },
+      "idea": {
+        "en": "Do not divide by the number of half-lives; halve the amount once for every half-life.",
+        "fa": "مقدار را بر تعداد نیم عمرها تقسیم نکنید؛ برای هر نیم عمر یک بار آن را نصف کنید."
+      }
+    },
+    {
+      "pdf_page": 183,
+      "q": {
+        "en": "What happens when the control rods (cadmium or boron) are pushed deeper into the core of a nuclear reactor?",
+        "fa": "وقتی میله‌های کنترول (کادمیم یا بور) بیشتر در قلب ریکتور هسته‌یی فرو برده شوند، چه می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "They release extra neutrons, so the reaction speeds up.",
+          "fa": "نیوترون‌های اضافی آزاد می‌کنند، پس تعامل تیزتر می‌شود."
+        },
+        {
+          "en": "They slow the neutrons down so that uranium-235 splits more easily.",
+          "fa": "نیوترون‌ها را کند می‌سازند تا یورانیم 235 آسان‌تر انشقاق کند."
+        },
+        {
+          "en": "They absorb more neutrons, so fewer fissions happen and the reaction slows down.",
+          "fa": "نیوترون‌های بیشتری را جذب می‌کنند، پس انشقاق‌ها کم می‌شوند و تعامل آهسته می‌شود."
+        },
+        {
+          "en": "They carry the heat out of the core.",
+          "fa": "حرارت را از قلب ریکتور بیرون می‌برند."
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Cadmium and boron absorb neutrons. With fewer neutrons left, fewer uranium-235 nuclei split, so the chain reaction slows down or stops; pulling the rods out does the opposite.",
+        "fa": "کادمیم و بور نیوترون جذب می‌کنند. با کم شدن نیوترون‌ها، هسته‌های کمتری از یورانیم 235 انشقاق می‌کنند و تعامل زنجیری آهسته یا متوقف می‌شود؛ بیرون کشیدن میله‌ها برعکس است."
+      },
+      "idea": {
+        "en": "Keep the three parts apart: the moderator (water, heavy water, graphite) slows the neutrons, the coolant carries the heat away, and the control rods absorb neutrons.",
+        "fa": "سه بخش ریکتور را از هم جدا کنید: کندساز (آب، آب سنگین، گرافیت) نیوترون‌ها را کند می‌سازد، سرد کننده حرارت را بیرون می‌برد و میله‌های کنترول نیوترون جذب می‌کنند."
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-bio",
+  "chapter": 7,
+  "title": {
+    "en": "Applications of genetics",
+    "fa": "تطبیق جنتیک"
+  },
+  "questions": [
+    {
+      "pdf_page": 92,
+      "q": {
+        "en": "One side of a piece of DNA has the bases A–T–G–C. Following the pairing rule of the Watson and Crick model, which bases are on the other side?",
+        "fa": "یک طرف یک قطعهٔ DNA قلوی‌های A–T–G–C را دارد. طبق قاعدهٔ جوره شدن در مدل واتسن و گریک، قلوی‌های طرف دیگر کدام اند؟"
+      },
+      "options": [
+        {
+          "en": "A–T–G–C",
+          "fa": "A–T–G–C"
+        },
+        {
+          "en": "T–A–C–G",
+          "fa": "T–A–C–G"
+        },
+        {
+          "en": "U–A–C–G",
+          "fa": "U–A–C–G"
+        },
+        {
+          "en": "G–C–A–T",
+          "fa": "G–C–A–T"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In the double helix, adenine (A) always pairs with thymine (T), and cytosine (C) always pairs with guanine (G). So A–T–G–C on one side faces T–A–C–G on the other.",
+        "fa": "در مارپیچ دوگانه همیشه ادنین (A) با تایمین (T) و سیتوزین (C) با گوانین (G) جوره می‌شود. پس در مقابل A–T–G–C در طرف دیگر T–A–C–G قرار دارد."
+      },
+      "idea": {
+        "en": "Pair each base on its own: A with T, T with A, G with C and C with G. Uracil (U) belongs to RNA, not DNA.",
+        "fa": "هر قلوی را جدا جوره کنید: A با T، T با A، G با C و C با G. یوراسیل (U) در RNA است، نه در DNA."
+      }
+    },
+    {
+      "pdf_page": 93,
+      "q": {
+        "en": "How do genetic engineers make bacteria produce human insulin?",
+        "fa": "انجنیران جنتیک چطور باکتریا را به ساختن انسولین انسانی وادار می‌کنند؟"
+      },
+      "options": [
+        {
+          "en": "They put the human gene for insulin into the bacteria's DNA",
+          "fa": "جن سازندهٔ انسولین انسان را در DNA باکتریا داخل می‌کنند"
+        },
+        {
+          "en": "They feed the bacteria with human insulin",
+          "fa": "به باکتریا انسولین انسانی می‌دهند"
+        },
+        {
+          "en": "They remove all the genes of the bacteria",
+          "fa": "همهٔ جن‌های باکتریا را دور می‌کنند"
+        },
+        {
+          "en": "They inject the bacteria with a vaccine",
+          "fa": "به باکتریا واکسین زرق می‌کنند"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Joining the DNA of two organisms makes recombinant DNA with new properties. With the human insulin gene in its DNA, the bacterium makes insulin, of better quality and in larger amounts than with earlier methods; it is used for people with diabetes.",
+        "fa": "یکجا کردن DNA دو موجود، DNA با ترکیب جدید (Recombinant DNA) با خواص تازه می‌سازد. وقتی جن انسولین انسان در DNA باکتریا باشد، باکتریا انسولین می‌سازد که کیفیت بهتر و مقدار بیشتر از روش‌های قبلی دارد و برای مریضان دیابت (شکر) به کار می‌رود."
+      },
+      "idea": {
+        "en": "A cell makes a protein only if it has the gene for that protein. What must be added to the bacterium?",
+        "fa": "حجره تنها وقتی یک پروتین را می‌سازد که جن آن پروتین را داشته باشد. چه چیز باید به باکتریا علاوه شود؟"
+      }
+    },
+    {
+      "pdf_page": 95,
+      "q": {
+        "en": "In a vaccine made by genetic engineering, what is transferred into a harmless virus?",
+        "fa": "در واکسینی که با انجنیری جنتیک ساخته می‌شود، چه چیز به یک وایرس بی‌ضرر انتقال داده می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "The whole active pathogen",
+          "fa": "تمام پاتوجن فعال"
+        },
+        {
+          "en": "Ready-made antibodies",
+          "fa": "انتی بادی‌های آماده"
+        },
+        {
+          "en": "The part of the pathogen's DNA that makes its surface proteins",
+          "fa": "آن قسمت DNA پاتوجن که پروتین‌های سطح آن را می‌سازد"
+        },
+        {
+          "en": "An antibiotic that kills the pathogen",
+          "fa": "انتی بیوتیکی که پاتوجن را می‌کشد"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The harmless virus then carries the pathogen's surface proteins but does not cause the disease. The body recognises these proteins, makes antibodies against them and becomes immune to the disease.",
+        "fa": "بعد وایرس بی‌ضرر پروتین‌های سطح پاتوجن را با خود دارد، ولی مرض پیدا نمی‌کند. بدن این پروتین‌ها را می‌شناسد، ضد آن‌ها انتی بادی می‌سازد و در مقابل آن مرض معافیت پیدا می‌کند."
+      },
+      "idea": {
+        "en": "A vaccine must teach the body to recognise the pathogen without making the person ill. Which part of the pathogen does the body recognise?",
+        "fa": "واکسین باید به بدن بیاموزد که پاتوجن را بشناسد، بدون این که شخص مریض شود. بدن کدام قسمت پاتوجن را می‌شناسد؟"
+      }
+    },
+    {
+      "pdf_page": 96,
+      "q": {
+        "en": "Genetic engineers moved a gene from a soil bacterium into crop plants. How does this help the environment?",
+        "fa": "انجنیران جنتیک جن یک باکتریای خاک را به نباتات زراعتی انتقال دادند. این کار چطور به محیط زیست کمک می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "The plants grow without any water",
+          "fa": "نباتات بدون آب نمو می‌کنند"
+        },
+        {
+          "en": "The plants make a protein that harms insect pests, so less chemical insecticide is needed",
+          "fa": "نباتات پروتینی می‌سازند که به حشره‌های مضر صدمه می‌رساند، پس به حشره‌کش کیمیاوی کمتر ضرورت است"
+        },
+        {
+          "en": "The plants contain iron and beta-carotene",
+          "fa": "نباتات آهن و بیتا کاروتین دارند"
+        },
+        {
+          "en": "All the bacteria in the soil die",
+          "fa": "همهٔ باکتریاهای خاک می‌میرند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The bacterial gene makes the plant produce a protein that damages harmful insects, a natural insecticide. Farmers then need fewer chemical insecticides, which protects the environment from polluting substances.",
+        "fa": "جن باکتریا نبات را به ساختن پروتینی وادار می‌کند که به حشره‌های مضر صدمه می‌رساند؛ این یک حشره‌کش طبیعی است. پس زارعان به حشره‌کش‌های کیمیاوی کمتر ضرورت دارند و محیط زیست از مواد آلوده‌کننده حفظ می‌شود."
+      },
+      "idea": {
+        "en": "Iron and beta-carotene belong to the golden rice example. Think about what the new protein does to insects and what farmers would otherwise spray.",
+        "fa": "آهن و بیتا کاروتین مربوط به مثال برنج طلایی است. فکر کنید پروتین نو با حشره‌ها چه می‌کند و زارعان در غیر آن چه چیز را می‌پاشند."
+      }
+    },
+    {
+      "pdf_page": 97,
+      "q": {
+        "en": "What is gene therapy?",
+        "fa": "جن تراپی چیست؟"
+      },
+      "options": [
+        {
+          "en": "Treating an infection with antibiotics",
+          "fa": "تداوی یک عفونت با انتی بیوتیک"
+        },
+        {
+          "en": "Making a person immune with a vaccine",
+          "fa": "مصون ساختن شخص با واکسین"
+        },
+        {
+          "en": "Studying a person's genetic map without changing it",
+          "fa": "مطالعهٔ نقشهٔ جنتیکی یک شخص بدون تغییر دادن آن"
+        },
+        {
+          "en": "Putting healthy genes into human cells in place of faulty genes",
+          "fa": "داخل کردن جن‌های سالم به عوض جن‌های ناقص در حجره‌های انسان"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Gene therapy corrects a genetic disorder by placing healthy genes in the cells instead of faulty ones; viruses can be used to carry the healthy DNA into the cells. Haemophilia and some muscle disorders can be treated in this way.",
+        "fa": "جن تراپی با جا دادن جن‌های سالم به عوض جن‌های ناقص در حجره‌ها، بی‌نظمی جنتیکی را اصلاح می‌کند؛ برای بردن DNA سالم به داخل حجره از وایرس‌ها کار گرفته می‌شود. هیموفیلیا و بعضی نارسایی‌های عضلاتی به این روش تداوی شده می‌توانند."
+      },
+      "idea": {
+        "en": "“Gene therapy” means treatment with genes. Which option really changes the genes inside the cells?",
+        "fa": "«جن تراپی» یعنی تداوی با جن. کدام جواب واقعاً جن‌های داخل حجره را تغییر می‌دهد؟"
+      }
+    }
+  ]
+}

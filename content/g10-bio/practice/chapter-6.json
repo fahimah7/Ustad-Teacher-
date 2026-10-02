@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-bio",
+  "chapter": 6,
+  "title": {
+    "en": "Hereditary traits",
+    "fa": "صفات ارثی"
+  },
+  "questions": [
+    {
+      "pdf_page": 81,
+      "q": {
+        "en": "In the book's example of incomplete dominance, $PP$ plants have purple flowers, $pp$ plants white flowers and $Pp$ plants pink flowers. If two pink plants are crossed, what fraction of the offspring will be pink?",
+        "fa": "در مثال کتاب برای نیمه بارزی، نباتات $PP$ گل ارغوانی، نباتات $pp$ گل سفید و نباتات $Pp$ گل گلابی دارند. اگر دو نبات گلابی با هم تزویج شوند، چه حصهٔ نوزادان گل گلابی خواهند داشت؟"
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{4}$",
+          "fa": "$\\frac{1}{4}$"
+        },
+        {
+          "en": "$\\frac{1}{2}$",
+          "fa": "$\\frac{1}{2}$"
+        },
+        {
+          "en": "$\\frac{3}{4}$",
+          "fa": "$\\frac{3}{4}$"
+        },
+        {
+          "en": "All of them",
+          "fa": "همهٔ آن‌ها"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$Pp \\times Pp$ gives $1\\,PP : 2\\,Pp : 1\\,pp$. With incomplete dominance each genotype has its own colour: $1$ purple : $2$ pink : $1$ white, so $\\frac{2}{4} = \\frac{1}{2}$ of the offspring are pink.",
+        "fa": "$Pp \\times Pp$ نسبت $1\\,PP : 2\\,Pp : 1\\,pp$ را می‌دهد. در نیمه بارزی هر جنوتایپ رنگ خود را دارد: $1$ ارغوانی : $2$ گلابی : $1$ سفید؛ پس $\\frac{2}{4} = \\frac{1}{2}$ نوزادان گلابی اند."
+      },
+      "idea": {
+        "en": "Make the Punnett square for $Pp \\times Pp$ and remember that here only the $Pp$ boxes are pink; $PP$ is purple.",
+        "fa": "مربع پونت $Pp \\times Pp$ را رسم کنید و به یاد داشته باشید که این‌جا تنها خانه‌های $Pp$ گلابی اند و $PP$ ارغوانی است."
+      }
+    },
+    {
+      "pdf_page": 82,
+      "q": {
+        "en": "Whose sex cell decides whether a baby will be a boy or a girl?",
+        "fa": "حجرهٔ جنسی کدام والد تعیین می‌کند که طفل پسر باشد یا دختر؟"
+      },
+      "options": [
+        {
+          "en": "The mother's, because her sex cells can carry X or Y",
+          "fa": "حجرهٔ جنسی مادر، زیرا حجرات جنسی او X یا Y دارند"
+        },
+        {
+          "en": "Both parents' equally, because both give a Y chromosome",
+          "fa": "هر دو والد به یک اندازه، زیرا هر دو کروموزوم Y می‌دهند"
+        },
+        {
+          "en": "The father's, because his sex cells carry either X or Y, while all of the mother's carry X",
+          "fa": "حجرهٔ جنسی پدر، زیرا حجرات جنسی او یا X دارند یا Y، ولی همهٔ حجرات جنسی مادر X دارند"
+        },
+        {
+          "en": "Neither; it depends only on the mother's age",
+          "fa": "هیچ‌کدام؛ تنها به سن مادر وابسته است"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "A woman is XX and makes only X sex cells. A man is XY, so half of his sex cells carry X and half carry Y. X from the father with X from the mother gives a girl (XX); Y from the father gives a boy (XY).",
+        "fa": "زن XX است و تنها حجرات جنسی X می‌سازد. مرد XY است؛ پس نیم حجرات جنسی او X و نیم دیگر Y دارند. X پدر با X مادر دختر (XX) می‌سازد و Y پدر با X مادر پسر (XY)."
+      },
+      "idea": {
+        "en": "Write the sex chromosomes of each parent (mother XX, father XY). Which parent can give two different kinds?",
+        "fa": "کروموزوم‌های جنسی هر والد را بنویسید (مادر XX، پدر XY). کدام والد می‌تواند دو نوع مختلف بدهد؟"
+      }
+    },
+    {
+      "pdf_page": 83,
+      "q": {
+        "en": "In fruit flies the white-eye allele ($r$) is recessive and lies on the X chromosome. Morgan mated a white-eyed female ($X^rX^r$) with a red-eyed male ($X^RY$). What were the offspring like?",
+        "fa": "در مگس میوه الیل چشم سفید ($r$) مخفی است و روی کروموزوم X قرار دارد. مورگان مگس مؤنث چشم‌سفید ($X^rX^r$) را با مگس مذکر چشم‌سرخ ($X^RY$) تزویج کرد. نوزادان چگونه بودند؟"
+      },
+      "options": [
+        {
+          "en": "All red-eyed",
+          "fa": "همه چشم سرخ"
+        },
+        {
+          "en": "All white-eyed",
+          "fa": "همه چشم سفید"
+        },
+        {
+          "en": "Half of the females and half of the males white-eyed",
+          "fa": "نیم مؤنث‌ها و نیم مذکرها چشم سفید"
+        },
+        {
+          "en": "All females red-eyed and all males white-eyed",
+          "fa": "همهٔ مؤنث‌ها چشم سرخ و همهٔ مذکرها چشم سفید"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The females get $X^R$ from the father and $X^r$ from the mother, so they are $X^RX^r$ and red-eyed. The males get their only X from the mother ($X^r$) and Y from the father, so they are $X^rY$ and white-eyed, because Y has no allele for eye colour.",
+        "fa": "مؤنث‌های نوزاد $X^R$ را از پدر و $X^r$ را از مادر می‌گیرند؛ پس $X^RX^r$ و چشم سرخ اند. مذکرها تنها X خود را از مادر ($X^r$) و Y را از پدر می‌گیرند؛ پس $X^rY$ و چشم سفید اند، زیرا Y برای رنگ چشم الیل ندارد."
+      },
+      "idea": {
+        "en": "A male fly has only one X, and it always comes from his mother. Which X does this mother have?",
+        "fa": "مگس مذکر تنها یک X دارد که همیشه از مادرش می‌آید. این مادر کدام X را دارد؟"
+      }
+    },
+    {
+      "pdf_page": 85,
+      "q": {
+        "en": "Albinism is a recessive trait. Both parents have normal skin colour but are carriers ($Aa$). What is the probability that their child will be albino?",
+        "fa": "خضری (البینو) یک صفت مخفی است. پدر و مادر هر دو رنگ جلد نورمال دارند، ولی ناقل اند ($Aa$). احتمال این که طفل شان البینو باشد چقدر است؟"
+      },
+      "options": [
+        {
+          "en": "$\\frac{1}{4}$ (25%)",
+          "fa": "$\\frac{1}{4}$ (۲۵ فیصد)"
+        },
+        {
+          "en": "$\\frac{1}{2}$ (50%)",
+          "fa": "$\\frac{1}{2}$ (۵۰ فیصد)"
+        },
+        {
+          "en": "$0$, because both parents are normal",
+          "fa": "$0$، زیرا هر دو والد نورمال اند"
+        },
+        {
+          "en": "$\\frac{3}{4}$ (75%)",
+          "fa": "$\\frac{3}{4}$ (۷۵ فیصد)"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "Each parent gives the allele $a$ with probability $\\frac{1}{2}$. The child is albino only as $aa$: $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. The Punnett square also gives $1\\,AA : 2\\,Aa : 1\\,aa$.",
+        "fa": "هر والد الیل $a$ را با احتمال $\\frac{1}{2}$ می‌دهد. طفل تنها با $aa$ البینو می‌شود: $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$. مربع پونت هم $1\\,AA : 2\\,Aa : 1\\,aa$ را نشان می‌دهد."
+      },
+      "idea": {
+        "en": "Carriers look normal but have one hidden allele. Use the Punnett square for $Aa \\times Aa$ and find the boxes with two recessive alleles.",
+        "fa": "ناقل‌ها نورمال معلوم می‌شوند، ولی یک الیل مخفی دارند. مربع پونت $Aa \\times Aa$ را رسم کنید و خانه‌های دارای دو الیل مخفی را پیدا کنید."
+      }
+    },
+    {
+      "pdf_page": 87,
+      "q": {
+        "en": "How many chromosomes does a person with Down syndrome have, and why?",
+        "fa": "شخص مبتلا به داون سندروم چند کروموزوم دارد و چرا؟"
+      },
+      "options": [
+        {
+          "en": "$45$, because one chromosome 21 is missing",
+          "fa": "$45$، زیرا یک کروموزوم شمارهٔ ۲۱ کم است"
+        },
+        {
+          "en": "$46$, but chromosome 21 is damaged",
+          "fa": "$46$، ولی کروموزوم شمارهٔ ۲۱ خراب است"
+        },
+        {
+          "en": "$47$, because there are three copies of chromosome 21",
+          "fa": "$47$، زیرا سه کروموزوم شمارهٔ ۲۱ موجود است"
+        },
+        {
+          "en": "$48$, because there are two extra chromosomes",
+          "fa": "$48$، زیرا دو کروموزوم اضافی موجود است"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Normally there are $46$ chromosomes, with two copies of chromosome 21. In Down syndrome there are three copies of chromosome 21, so the total is $47$. The risk rises with the mother's age.",
+        "fa": "به طور عادی $46$ کروموزوم موجود است که از کروموزوم شمارهٔ ۲۱ دو عدد دارد. در داون سندروم کروموزوم شمارهٔ ۲۱ سه عدد است، پس مجموع $47$ می‌شود. خطر این نقیصه با بالا رفتن سن مادر زیاد می‌شود."
+      },
+      "idea": {
+        "en": "The book says Down syndrome comes from one extra chromosome. Add one to the normal number.",
+        "fa": "کتاب می‌گوید داون سندروم از یک کروموزوم اضافی پیدا می‌شود. یک عدد را بر تعداد نورمال علاوه کنید."
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g12-bio",
+  "chapter": 2,
+  "title": {
+    "en": "Genetic disorders",
+    "fa": "بی‌نظمی‌های جنتیکی"
+  },
+  "questions": [
+    {
+      "pdf_page": 30,
+      "q": {
+        "en": "In which type of chromosome mutation does a piece of a chromosome break off and join again in the same place but turned around, so that no genes are lost or added but their order changes?",
+        "fa": "در کدام نوع کروموزوم موتیشن یک قسمت کروموزوم جدا شده و به‌صورت سرچپه دوباره در جای خود وصل می‌شود، طوری که جن‌ها کم یا زیاد نمی‌شوند ولی ترتیب شان عوض می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Deletion",
+          "fa": "دیلیشن"
+        },
+        {
+          "en": "Duplication",
+          "fa": "دپلیکیشن"
+        },
+        {
+          "en": "Inversion",
+          "fa": "انورشن"
+        },
+        {
+          "en": "Translocation",
+          "fa": "ترانسلوکیشن"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "In an inversion a piece of the chromosome turns around and reattaches in its own place. In a deletion a piece is lost, in a duplication it is doubled, and in a translocation pieces are exchanged between two chromosomes.",
+        "fa": "در انورشن یک قسمت کروموزوم سرچپه شده در جای خود وصل می‌شود. در دیلیشن یک قسمت کم می‌شود، در دپلیکیشن دو برابر می‌شود و در ترانسلوکیشن قطعه‌ها بین دو کروموزوم تبادله می‌شوند."
+      },
+      "idea": {
+        "en": "Here nothing is lost, doubled or moved to another chromosome; the piece is only turned around.",
+        "fa": "در این‌جا چیزی کم، دو برابر یا به کروموزوم دیگر منتقل نمی‌شود؛ قطعه تنها سرچپه می‌شود."
+      }
+    },
+    {
+      "pdf_page": 31,
+      "q": {
+        "en": "Sickle cell anemia and cystic fibrosis are both caused by which kind of mutation?",
+        "fa": "کم‌خونی داس‌مانند و سیستیک فیبروسیس هر دو در نتیجهٔ کدام نوع موتیشن به وجود می‌آیند؟"
+      },
+      "options": [
+        {
+          "en": "Polyploidy: whole sets of chromosomes are added",
+          "fa": "پولی‌پلویدی: زیاد شدن مجموعه‌های کامل کروموزوم"
+        },
+        {
+          "en": "Gene (point) mutation: a change in a single gene",
+          "fa": "جن موتیشن (موتیشن نقطه‌یی): تغییر در یک جن"
+        },
+        {
+          "en": "Aneuploidy: one chromosome is extra or missing",
+          "fa": "انیوپلویدی: یک کروموزوم اضافی یا کم"
+        },
+        {
+          "en": "Translocation: pieces are exchanged between two chromosomes",
+          "fa": "ترانسلوکیشن: تبادلهٔ قطعه‌ها بین دو کروموزوم"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Both disorders come from a change in one gene: in sickle cell anemia the red blood cells take a sickle shape, and cystic fibrosis comes from a gene on the long arm of chromosome 7. A change in one gene is called a gene mutation or point mutation.",
+        "fa": "هر دو بی‌نظمی از تغییر در یک جن پیدا می‌شوند: در کم‌خونی داس‌مانند کرویات سرخ شکل داس می‌گیرند و سیستیک فیبروسیس از یک جن در بازوی دراز کروموزوم هفتم است. تغییر در یک جن را جن موتیشن یا موتیشن نقطه‌یی می‌گویند."
+      },
+      "idea": {
+        "en": "In these disorders the number and shape of the chromosomes stay normal. What smaller change is left?",
+        "fa": "در این بی‌نظمی‌ها تعداد و شکل کروموزوم‌ها عادی می‌ماند. کدام تغییر کوچک‌تر باقی می‌ماند؟"
+      }
+    },
+    {
+      "pdf_page": 32,
+      "q": {
+        "en": "A person with Down syndrome (trisomy 21) has three copies of chromosome 21 instead of two. How many chromosomes are in his or her body cells?",
+        "fa": "شخص مبتلا به داون سندروم (تریزومی بیست و یکم) به جای دو کروموزوم ۲۱ سه کروموزوم ۲۱ دارد. حجرات جسمی او چند کروموزوم دارند؟"
+      },
+      "options": [
+        {
+          "en": "$47$",
+          "fa": "$47$"
+        },
+        {
+          "en": "$45$",
+          "fa": "$45$"
+        },
+        {
+          "en": "$46$",
+          "fa": "$46$"
+        },
+        {
+          "en": "$69$",
+          "fa": "$69$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "A normal body cell has $2n = 46$ chromosomes, and one extra chromosome 21 gives $2n + 1 = 46 + 1 = 47$. This is a kind of aneuploidy.",
+        "fa": "حجرهٔ جسمی عادی $2n = 46$ کروموزوم دارد و یک کروموزوم ۲۱ اضافی تعداد را $2n + 1 = 46 + 1 = 47$ می‌سازد. این یک نوع انیوپلویدی است."
+      },
+      "idea": {
+        "en": "Trisomy means one chromosome too many, not a whole extra set of chromosomes ($3n$).",
+        "fa": "تریزومی یعنی یک کروموزوم اضافی، نه یک مجموعهٔ کامل اضافی کروموزوم ($3n$)."
+      }
+    },
+    {
+      "pdf_page": 33,
+      "q": {
+        "en": "A person has 44 autosomes and the sex chromosomes XXY. Which disorder is this, and is the person a man or a woman?",
+        "fa": "شخصی ۴۴ کروموزوم جسمی (اوتوزوم) و کروموزوم‌های جنسی XXY دارد. این کدام بی‌نظمی است و این شخص مرد است یا زن؟"
+      },
+      "options": [
+        {
+          "en": "Turner syndrome; a woman",
+          "fa": "تورنر سیندروم؛ زن"
+        },
+        {
+          "en": "Klinefelter syndrome; a woman",
+          "fa": "کلینیفلتر سیندروم؛ زن"
+        },
+        {
+          "en": "Down syndrome; a man",
+          "fa": "داون سندروم؛ مرد"
+        },
+        {
+          "en": "Klinefelter syndrome; a man",
+          "fa": "کلینیفلتر سیندروم؛ مرد"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "XXY is Klinefelter syndrome: because there is a Y chromosome the person is a man, and the extra X makes him sterile, with small testes. Turner syndrome is XO and is found in women.",
+        "fa": "XXY کلینیفلتر سیندروم است: چون کروموزوم Y موجود است، شخص مرد است و X اضافی سبب عقیمی و کوچکی خصیه‌ها می‌شود. تورنر سیندروم XO است و در زن‌ها دیده می‌شود."
+      },
+      "idea": {
+        "en": "Look for the Y chromosome: a person with a Y is male, however many X chromosomes there are.",
+        "fa": "به کروموزوم Y نگاه کنید: شخصی که Y دارد مرد است، هر قدر کروموزوم X داشته باشد."
+      }
+    },
+    {
+      "pdf_page": 33,
+      "q": {
+        "en": "Which of these prenatal tests is amniocentesis?",
+        "fa": "کدام یک از این تست‌های قبل از تولد امنیوسنتیسس است؟"
+      },
+      "options": [
+        {
+          "en": "Cells are taken from the placenta (chorion) in weeks 8–9 of pregnancy.",
+          "fa": "حجرات پلاسنتا (Chorion) در هفتهٔ ۸ تا ۹ حامله‌گی گرفته می‌شوند."
+        },
+        {
+          "en": "In weeks 14–16 of pregnancy fluid is taken from the amnion with a syringe, and the cells of the fetus in it are examined.",
+          "fa": "در هفتهٔ ۱۴ تا ۱۶ حامله‌گی با پیچکاری از کیسهٔ امنیون مایع گرفته می‌شود و حجرات جنین که در آن اند معاینه می‌شوند."
+        },
+        {
+          "en": "An embryo made in a test tube is examined before it is placed in the mother's womb.",
+          "fa": "جنینی که در تست تیوب ساخته شده، پیش از پیوند در رحم مادر معاینه می‌شود."
+        },
+        {
+          "en": "A gene test is done on the child after birth to predict future diseases.",
+          "fa": "بعد از تولد بالای طفل تست جن اجرا می‌شود تا مریضی‌های آینده پیش‌گویی شوند."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "In amniocentesis a little fluid is drawn from the amnion sac around the fetus in weeks 14–16, and the fetal cells in it are examined genetically. Taking placenta cells is a different, earlier test with a higher risk of losing the baby.",
+        "fa": "در امنیوسنتیسس در هفتهٔ ۱۴ تا ۱۶ کمی از مایع کیسهٔ امنیون که جنین را احاطه کرده گرفته می‌شود و حجرات جنین در آن از نظر جنتیکی معاینه می‌شوند. گرفتن حجرات پلاسنتا تست دیگر و زودتر است که خطر ضایع شدن طفل در آن بیشتر است."
+      },
+      "idea": {
+        "en": "The name comes from the amnion, the sac of fluid around the fetus.",
+        "fa": "نام این میتود از امنیون گرفته شده، یعنی کیسهٔ مایعی که جنین را احاطه کرده است."
+      }
+    }
+  ]
+}

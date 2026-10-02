@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 12,
+  "title": {
+    "en": "Biomes",
+    "fa": "بایوم‌ها"
+  },
+  "questions": [
+    {
+      "pdf_page": 163,
+      "q": {
+        "en": "Which biome gets $200$–$400$ cm of rain a year, has temperatures of $25$–$29\\,^{\\circ}\\mathrm{C}$ and is one of the richest in kinds of living things?",
+        "fa": "کدام بایوم در سال $200$ تا $400$ سانتی‌متر باران دارد، درجهٔ حرارت آن $25$ تا $29$ درجهٔ سانتی‌گرید است و از نظر انواع زنده‌جان‌ها یکی از غنی‌ترین بایوم‌ها است؟"
+      },
+      "options": [
+        {
+          "en": "Savanna",
+          "fa": "ساوانا"
+        },
+        {
+          "en": "Taiga",
+          "fa": "تایگا"
+        },
+        {
+          "en": "Tropical rain forest",
+          "fa": "جنگل بارانی استوایی"
+        },
+        {
+          "en": "Desert",
+          "fa": "بیابان"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The tropical rain forest has very heavy rain and warm, steady temperatures; many mammals, reptiles and birds live there, and most of its plants are evergreen.",
+        "fa": "جنگل بارانی استوایی باران بسیار زیاد و حرارت گرم و یک‌نواخت دارد؛ پستان‌داران، خزنده‌گان و پرنده‌گان زیاد در آن زنده‌گی می‌کنند و بیشتر نباتات آن همیشه سبز اند."
+      },
+      "idea": {
+        "en": "The savanna gets $90$–$150$ cm, the taiga $25$–$50$ cm and the desert less than $30$ cm of rain a year. Which biome is the wettest?",
+        "fa": "ساوانا $90$ تا $150$، تایگا $25$ تا $50$ و بیابان کم‌تر از $30$ سانتی‌متر بارنده‌گی سالانه دارد؛ مرطوب‌ترین بایوم کدام است؟"
+      }
+    },
+    {
+      "pdf_page": 164,
+      "q": {
+        "en": "What is the main limiting factor for life in the tundra?",
+        "fa": "عامل محدودکنندهٔ عمدهٔ زنده‌گی در تندرا چیست؟"
+      },
+      "options": [
+        {
+          "en": "Very heavy rain all year",
+          "fa": "باران بسیار زیاد در تمام سال"
+        },
+        {
+          "en": "The short growing season, with water frozen for most of the year",
+          "fa": "کوتاهی موسم نمو، با آبی که بیشتر سال یخ بسته است"
+        },
+        {
+          "en": "Very high temperatures",
+          "fa": "حرارت بسیار بلند"
+        },
+        {
+          "en": "Too many trees that block the light",
+          "fa": "درختان بسیار زیاد که جلو نور را می‌گیرند"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The tundra has long, cold winters (down to $-30\\,^{\\circ}\\mathrm{C}$), so its water is frozen most of the year; the summer days are long but the growing season is short, and this short season limits life there.",
+        "fa": "تندرا زمستان‌های طولانی و سرد (تا $-30\\,^{\\circ}\\mathrm{C}$) دارد و آب آن بیشتر سال یخ است؛ روزهای تابستان دراز اند، ولی موسم نمو کوتاه است و همین کوتاهی زنده‌گی را در آن‌جا محدود می‌سازد."
+      },
+      "idea": {
+        "en": "Think of the coldest biome: what does a long cold season do to the water and to the time plants have for growing?",
+        "fa": "به سردترین بایوم فکر کنید: سردی طولانی با آب و با وقت نمو نباتات چه می‌کند؟"
+      }
+    },
+    {
+      "pdf_page": 165,
+      "q": {
+        "en": "The grassland biome gets on average $20$ inches of rain a year. If $1$ inch $= 2.54$ cm, about how much rain is that in centimetres?",
+        "fa": "بایوم علف‌زار به طور اوسط در سال $20$ انچ بارنده‌گی دارد. اگر $1$ انچ مساوی $2.54$ سانتی‌متر باشد، این بارنده‌گی تقریباً چند سانتی‌متر است؟"
+      },
+      "options": [
+        {
+          "en": "About $51$ cm",
+          "fa": "تقریباً $51$ سانتی‌متر"
+        },
+        {
+          "en": "About $8$ cm",
+          "fa": "تقریباً $8$ سانتی‌متر"
+        },
+        {
+          "en": "About $22.5$ cm",
+          "fa": "تقریباً $22.5$ سانتی‌متر"
+        },
+        {
+          "en": "About $508$ cm",
+          "fa": "تقریباً $508$ سانتی‌متر"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$20 \\times 2.54 = 50.8$, which is about $51$ cm.",
+        "fa": "$20 \\times 2.54 = 50.8$ است که تقریباً $51$ سانتی‌متر می‌شود."
+      },
+      "idea": {
+        "en": "An inch is longer than a centimetre, so the number of centimetres must be bigger: multiply by $2.54$, do not divide or add.",
+        "fa": "یک انچ از یک سانتی‌متر درازتر است، پس تعداد سانتی‌مترها باید بیشتر باشد: ضرب $2.54$ کنید، نه تقسیم یا جمع."
+      }
+    },
+    {
+      "pdf_page": 167,
+      "q": {
+        "en": "What are plankton, and why are they important in the sea?",
+        "fa": "پلانکتون‌ها چیستند و در بحر چه اهمیت دارند؟"
+      },
+      "options": [
+        {
+          "en": "Large fish of the dark deep sea, which hunt the smaller animals there",
+          "fa": "ماهیان کلان اعماق تاریک بحر که حیوانات کوچک‌تر آن‌جا را شکار می‌کنند"
+        },
+        {
+          "en": "Plants rooted on the floor of shallow coastal water, where fish hide",
+          "fa": "نباتاتی که در بستر آب‌های کم‌عمق کنار بحر ریشه دارند و ماهی‌ها در آن پنهان می‌شوند"
+        },
+        {
+          "en": "Bacteria that live only in the mud at the bottom of lakes",
+          "fa": "باکتریاهایی که تنها در لای بستر جهیل‌ها زنده‌گی می‌کنند"
+        },
+        {
+          "en": "Microscopic organisms, mostly algae, floating freely near the surface; many sea animals feed on them",
+          "fa": "موجودات مایکروسکوپی، بیشتر الجی، که آزادانه نزدیک سطح آب شناور اند و غذای بسیاری از حیوانات بحری اند"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Plankton are microscopic organisms that drift freely near the surface; they are the base of food in the water, and even deep-sea animals depend on them directly or indirectly.",
+        "fa": "پلانکتون‌ها موجودات مایکروسکوپی اند که آزادانه نزدیک سطح آب شناور اند؛ اساس غذای حیوانات آبی اند و حتی حیوانات اعماق بحر مستقیم یا غیر مستقیم از آن‌ها تغذیه می‌کنند."
+      },
+      "idea": {
+        "en": "Plankton float and are very small. In which part of the sea do they live, and which animals eat them?",
+        "fa": "پلانکتون‌ها شناور و بسیار کوچک اند؛ در کدام قسمت بحر زنده‌گی می‌کنند و کدام حیوانات آن‌ها را می‌خورند؟"
+      }
+    },
+    {
+      "pdf_page": 168,
+      "q": {
+        "en": "In a lake, which zone lies below the depth that sunlight reaches, with many bacteria and worms on its bottom?",
+        "fa": "در یک جهیل، کدام زون پایین‌تر از جایی است که نور آفتاب به آن می‌رسد و در بستر آن باکتریا و کرم‌های زیاد زنده‌گی می‌کنند؟"
+      },
+      "options": [
+        {
+          "en": "The littoral (shore) zone",
+          "fa": "زون ساحلی (Littoral)"
+        },
+        {
+          "en": "The limnetic zone",
+          "fa": "زون لیمنیتیک (Limnetic)"
+        },
+        {
+          "en": "The profundal (deep) zone",
+          "fa": "زون عمیق (Profundal)"
+        },
+        {
+          "en": "A wetland",
+          "fa": "زمین‌های مرطوب"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "A lake has three zones: the shallow littoral zone near the shore, the open limnetic zone near the surface, and the deep profundal zone, which sunlight does not reach and where bacteria and worms live on the bottom.",
+        "fa": "جهیل سه زون دارد: زون ساحلی کم‌عمق نزدیک کنار، زون لیمنیتیک باز نزدیک سطح، و زون عمیق که نور آفتاب به آن نمی‌رسد و در بستر آن باکتریا و کرم‌ها زنده‌گی می‌کنند."
+      },
+      "idea": {
+        "en": "Light gets weaker as the water gets deeper. Which zone is farthest from the surface?",
+        "fa": "هرقدر آب عمیق‌تر شود، نور کم‌تر می‌رسد؛ کدام زون از سطح آب دورتر است؟"
+      }
+    }
+  ]
+}

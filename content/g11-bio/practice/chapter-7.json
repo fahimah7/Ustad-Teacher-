@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 7,
+  "title": {
+    "en": "Classification of invertebrates and their characteristics",
+    "fa": "طبقه‌بندی حیوانات غیر فقاریه و مشخصات آن‌ها"
+  },
+  "questions": [
+    {
+      "pdf_page": 82,
+      "q": {
+        "en": "Which part of a mollusc makes its calcium carbonate shell?",
+        "fa": "کدام قسمت بدن نرم‌تنان صدف آهکی (کلسیم کاربونیت) آن‌ها را می‌سازد؟"
+      },
+      "options": [
+        {
+          "en": "The radula",
+          "fa": "رادیولا"
+        },
+        {
+          "en": "The coelom (body cavity)",
+          "fa": "خالی‌گاه بدن (Coelom)"
+        },
+        {
+          "en": "The gills",
+          "fa": "برانشی‌ها"
+        },
+        {
+          "en": "The mantle",
+          "fa": "منتل"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "The mantle is a thin membrane covering the body of molluscs, and it builds the shell, which is their exoskeleton. The radula works like a tongue and teeth.",
+        "fa": "منتل غشای نازکی است که بدن نرم‌تنان را پوشانده و صدف را می‌سازد؛ صدف اسکلیت خارجی آن‌ها است. رادیولا کار زبان و دندان را انجام می‌دهد."
+      },
+      "idea": {
+        "en": "The radula is for feeding and the gills are for breathing. Which thin layer covers the soft body?",
+        "fa": "رادیولا برای خوردن و برانشی برای تنفس است؛ کدام غشای نازک بدن نرم را می‌پوشاند؟"
+      }
+    },
+    {
+      "pdf_page": 88,
+      "q": {
+        "en": "Which annelid has no setae, has a sucker at each end of its body and lives as an external parasite, sucking the blood of vertebrates?",
+        "fa": "کدام کرم حلقوی شیتا ندارد، در دو سر بدن خود چوشک دارد و به شکل پرازیت خارجی خون حیوانات فقاریه را می‌مکد؟"
+      },
+      "options": [
+        {
+          "en": "The earthworm",
+          "fa": "کرم زمینی"
+        },
+        {
+          "en": "The leech",
+          "fa": "جوک"
+        },
+        {
+          "en": "Nereis",
+          "fa": "نایرس"
+        },
+        {
+          "en": "The snail",
+          "fa": "حلزون"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "The leech (class Hirudinea) has no setae and has two suckers; it wounds the host's skin, puts in a substance that stops the blood from clotting and sucks the blood.",
+        "fa": "جوک (کلاس هیرودینا) شیتا ندارد و دو چوشک دارد؛ جلد میزبان را زخمی کرده ماده‌یی در زخم می‌ریزد که نمی‌گذارد خون لخته شود و خون را می‌مکد."
+      },
+      "idea": {
+        "en": "The earthworm has a few setae and Nereis has many; the snail is not a worm at all. Which annelid sucks blood?",
+        "fa": "کرم زمینی شیتای کم و نایرس شیتای زیاد دارد و حلزون اصلاً کرم نیست؛ کدام کرم حلقوی خون می‌مکد؟"
+      }
+    },
+    {
+      "pdf_page": 89,
+      "q": {
+        "en": "Which set of features belongs to echinoderms such as the sea star?",
+        "fa": "کدام دسته مشخصات مربوط به خارپوستان، مانند ستارهٔ بحری، است؟"
+      },
+      "options": [
+        {
+          "en": "A soft body with a mantle, a shell and a radula",
+          "fa": "بدن نرم با منتل، صدف و رادیولا"
+        },
+        {
+          "en": "A body of similar rings with setae and a clitellum",
+          "fa": "بدن ساخته‌شده از حلقه‌های مشابه با شیتا و کلیتیلیوم"
+        },
+        {
+          "en": "Spiny skin, five-part radial symmetry in adults, tube feet and a water vascular system",
+          "fa": "جلد خاردار، تناظر شعاعی پنج‌جانبه در حیوان بالغ، پاهای تیوبی و سیستم انتقال آب"
+        },
+        {
+          "en": "A chitin exoskeleton and jointed legs",
+          "fa": "اسکلیت خارجی شیتینی و پاهای بندبند"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Echino means spiny and derm means skin. Adult echinoderms have five-part radial symmetry, move with tube feet and have a water vascular system; the other options describe molluscs, annelids and arthropods.",
+        "fa": "Echino یعنی خار و derm یعنی جلد. خارپوستان بالغ تناظر شعاعی پنج‌جانبه دارند، با پاهای تیوبی حرکت می‌کنند و سیستم انتقال آب دارند؛ گزینه‌های دیگر مشخصات نرم‌تنان، کرم‌های حلقوی و حیوانات مفصلیه اند."
+      },
+      "idea": {
+        "en": "Think of the shape of a sea star and the meaning of the name Echinodermata.",
+        "fa": "به شکل ستارهٔ بحری و معنای نام ایکاینودرماتا فکر کنید."
+      }
+    },
+    {
+      "pdf_page": 97,
+      "q": {
+        "en": "According to the book, honey is $17\\%$ water and $77.5\\%$ sugars; the rest is minerals, enzymes and pollen. What percentage of honey is this rest?",
+        "fa": "به گفتهٔ کتاب، عسل $17\\%$ آب و $77.5\\%$ قندهای مختلف دارد و باقی آن مواد معدنی، انزایم‌ها و گرده است. این باقی‌مانده چند فیصد عسل است؟"
+      },
+      "options": [
+        {
+          "en": "$5.5\\%$",
+          "fa": "$5.5\\%$"
+        },
+        {
+          "en": "$22.5\\%$",
+          "fa": "$22.5\\%$"
+        },
+        {
+          "en": "$60.5\\%$",
+          "fa": "$60.5\\%$"
+        },
+        {
+          "en": "$94.5\\%$",
+          "fa": "$94.5\\%$"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$100\\% - 17\\% - 77.5\\% = 5.5\\%$.",
+        "fa": "$100\\% - 17\\% - 77.5\\% = 5.5\\%$ است."
+      },
+      "idea": {
+        "en": "All the parts together make $100\\%$: subtract both the water and the sugars.",
+        "fa": "همهٔ اجزا با هم $100\\%$ می‌شوند؛ هم آب و هم قندها را از آن تفریق کنید."
+      }
+    },
+    {
+      "pdf_page": 99,
+      "q": {
+        "en": "An animal has a cephalothorax (head and chest joined), four pairs of legs and no antennae. To which class does it belong?",
+        "fa": "حیوانی سفالوتوراکس (یک‌جا شدن سر و سینه) و چهار جوره پا دارد، ولی آنتن ندارد. این حیوان از کدام صنف است؟"
+      },
+      "options": [
+        {
+          "en": "Insects",
+          "fa": "صنف حشرات"
+        },
+        {
+          "en": "Arachnids (spiders, scorpions, ticks)",
+          "fa": "صنف عنکبوت‌ها (جولاگک، گژدم، کنه)"
+        },
+        {
+          "en": "Crustaceans",
+          "fa": "صنف قشریه (سخت‌پوستان)"
+        },
+        {
+          "en": "Millipedes",
+          "fa": "هزارپاها"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Arachnids have a cephalothorax and an abdomen, four pairs of legs and no antennae. Insects have three body parts, three pairs of legs and one pair of antennae, and crustaceans have two pairs of antennae.",
+        "fa": "عنکبوتیه‌ها سفالوتوراکس و شکم و چهار جوره پا دارند، ولی آنتن ندارند. حشرات سه قسمت بدن، سه جوره پا و یک جوره آنتن دارند و سخت‌پوستان دو جوره آنتن دارند."
+      },
+      "idea": {
+        "en": "Count the legs: six legs means an insect. Which class has eight legs and no antennae?",
+        "fa": "پاها را بشمارید: شش پا نشانهٔ حشره است؛ کدام صنف هشت پا دارد و آنتن ندارد؟"
+      }
+    }
+  ]
+}

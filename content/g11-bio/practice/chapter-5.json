@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g11-bio",
+  "chapter": 5,
+  "title": {
+    "en": "Cellular respiration",
+    "fa": "تنفس حجروی"
+  },
+  "questions": [
+    {
+      "pdf_page": 63,
+      "q": {
+        "en": "Which statement about glycolysis is correct?",
+        "fa": "کدام جمله دربارهٔ گلایکولیز درست است؟"
+      },
+      "options": [
+        {
+          "en": "It takes place in the mitochondria and needs oxygen.",
+          "fa": "در میتوکاندریا صورت می‌گیرد و به اکسیجن ضرورت دارد."
+        },
+        {
+          "en": "It happens in the cytoplasm, without oxygen, and turns glucose into pyruvic acid.",
+          "fa": "در سایتوپلازم و بدون اکسیجن صورت می‌گیرد و گلوکوز را به پایرویک اسید تبدیل می‌کند."
+        },
+        {
+          "en": "It gives about $38$ ATP from one glucose.",
+          "fa": "از یک گلوکوز تقریباً $38$ ATP می‌دهد."
+        },
+        {
+          "en": "It happens only in plant cells.",
+          "fa": "تنها در حجرات نباتی صورت می‌گیرد."
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "Glycolysis is the first stage of respiration: in the cytoplasm, without oxygen, glucose becomes two molecules of pyruvic acid and the cell gains $2$ ATP. It happens in all living things.",
+        "fa": "گلایکولیز مرحلهٔ اول تنفس است: در سایتوپلازم و بدون اکسیجن گلوکوز به دو مالیکول پایرویک اسید تبدیل شده $2$ ATP حاصل می‌شود؛ این مرحله در همهٔ موجودات زنده صورت می‌گیرد."
+      },
+      "idea": {
+        "en": "The Krebs cycle and the electron transport chain are the stages in the mitochondria that need oxygen. Glycolysis comes before them.",
+        "fa": "دوران کربس و زنجیر انتقال الکترون مراحلی اند که در میتوکاندریا به اکسیجن ضرورت دارند؛ گلایکولیز پیش از آن‌ها است."
+      }
+    },
+    {
+      "pdf_page": 64,
+      "q": {
+        "en": "After glycolysis, when oxygen is present, where does the pyruvic acid go?",
+        "fa": "پس از گلایکولیز، اگر اکسیجن موجود باشد، پایرویک اسید به کجا می‌رود؟"
+      },
+      "options": [
+        {
+          "en": "It stays in the cytoplasm and becomes lactic acid",
+          "fa": "در سایتوپلازم می‌ماند و به لکتیک اسید تبدیل می‌شود"
+        },
+        {
+          "en": "Into the chloroplast, for the Calvin cycle",
+          "fa": "به کلوروپلاست، برای دوران کالوین"
+        },
+        {
+          "en": "Into the mitochondria, for the Krebs cycle and the electron transport chain",
+          "fa": "به میتوکاندریا، برای دوران کربس و زنجیر انتقال الکترون"
+        },
+        {
+          "en": "Into the nucleus, to make DNA",
+          "fa": "به هسته، برای ساختن DNA"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "With oxygen, pyruvic acid enters the mitochondria and passes through the Krebs cycle and the electron transport chain; it is broken down completely to $\\mathrm{CO_2}$ and water and gives most of the ATP.",
+        "fa": "در موجودیت اکسیجن پایرویک اسید به میتوکاندریا می‌رود و دوران کربس و زنجیر انتقال الکترون را طی می‌کند؛ به طور کامل به $\\mathrm{CO_2}$ و آب تجزیه شده بیشترین ATP را می‌دهد."
+      },
+      "idea": {
+        "en": "Lactic acid forms when there is not enough oxygen. Which organelle is the centre of aerobic respiration?",
+        "fa": "لکتیک اسید وقتی ساخته می‌شود که اکسیجن کافی نباشد؛ مرکز تنفس هوازی کدام اورگانیل است؟"
+      }
+    },
+    {
+      "pdf_page": 65,
+      "q": {
+        "en": "From one molecule of glucose, aerobic respiration gives about $38$ ATP, while anaerobic respiration (fermentation) gives only $2$ ATP. How many times more ATP does aerobic respiration give?",
+        "fa": "از یک مالیکول گلوکوز، تنفس هوازی تقریباً $38$ ATP و تنفس غیر هوازی (تخمر) تنها $2$ ATP می‌دهد. تنفس هوازی چند برابر بیشتر ATP می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "$19$ times",
+          "fa": "$19$ برابر"
+        },
+        {
+          "en": "$36$ times",
+          "fa": "$36$ برابر"
+        },
+        {
+          "en": "$40$ times",
+          "fa": "$40$ برابر"
+        },
+        {
+          "en": "$76$ times",
+          "fa": "$76$ برابر"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "$38 \\div 2 = 19$, so aerobic respiration gets about $19$ times as much usable energy from the same glucose.",
+        "fa": "$38 \\div 2 = 19$ است؛ پس تنفس هوازی از همان گلوکوز تقریباً $19$ برابر تنفس غیر هوازی ATP به‌دست می‌آورد."
+      },
+      "idea": {
+        "en": "'How many times' means divide, not subtract: $38 - 2$ gives the difference, not the ratio.",
+        "fa": "«چند برابر» یعنی تقسیم، نه تفریق؛ $38 - 2$ فرق را می‌دهد، نه نسبت را."
+      }
+    },
+    {
+      "pdf_page": 66,
+      "q": {
+        "en": "Yeast carries out alcoholic fermentation. Which balanced equation shows this process?",
+        "fa": "خمیرمایه تخمر الکولی انجام می‌دهد. کدام معادلهٔ متوازن این عملیه را نشان می‌دهد؟"
+      },
+      "options": [
+        {
+          "en": "$\\mathrm{C_6H_{12}O_6 \\rightarrow C_2H_5OH + CO_2}$",
+          "fa": "$\\mathrm{C_6H_{12}O_6 \\rightarrow C_2H_5OH + CO_2}$"
+        },
+        {
+          "en": "$\\mathrm{C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O}$",
+          "fa": "$\\mathrm{C_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O}$"
+        },
+        {
+          "en": "$\\mathrm{C_6H_{12}O_6 \\rightarrow 2C_3H_6O_3}$",
+          "fa": "$\\mathrm{C_6H_{12}O_6 \\rightarrow 2C_3H_6O_3}$"
+        },
+        {
+          "en": "$\\mathrm{C_6H_{12}O_6 \\rightarrow 2C_2H_5OH + 2CO_2}$",
+          "fa": "$\\mathrm{C_6H_{12}O_6 \\rightarrow 2C_2H_5OH + 2CO_2}$"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Alcoholic fermentation uses no oxygen: one glucose gives two molecules of ethyl alcohol and two of $\\mathrm{CO_2}$ (and $2$ ATP). Both sides have $6$ carbon, $12$ hydrogen and $6$ oxygen atoms.",
+        "fa": "تخمر الکولی اکسیجن مصرف نمی‌کند: یک گلوکوز دو مالیکول ایتایل الکول و دو مالیکول $\\mathrm{CO_2}$ (و $2$ ATP) می‌دهد. در هر دو طرف $6$ اتوم کاربن، $12$ اتوم هایدروجن و $6$ اتوم اکسیجن است."
+      },
+      "idea": {
+        "en": "Check that the atoms balance, that no oxygen is used, and that the products are alcohol and carbon dioxide.",
+        "fa": "ببینید که اتوم‌ها متوازن باشند، اکسیجن مصرف نشود و محصولات الکول و کاربن دای اوکساید باشند."
+      }
+    },
+    {
+      "pdf_page": 67,
+      "q": {
+        "en": "Which statement correctly compares cellular respiration with photosynthesis?",
+        "fa": "کدام جمله تنفس حجروی را با ترکیب ضیایی درست مقایسه می‌کند؟"
+      },
+      "options": [
+        {
+          "en": "Plants carry out only photosynthesis, and only animals respire, using their lungs.",
+          "fa": "نباتات تنها ترکیب ضیایی می‌کنند و تنها حیوانات با شش‌های خود تنفس می‌کنند."
+        },
+        {
+          "en": "Both processes take place in the chloroplasts and store energy in glucose.",
+          "fa": "هر دو عملیه در کلوروپلاست صورت می‌گیرند و انرژی را در گلوکوز ذخیره می‌کنند."
+        },
+        {
+          "en": "Respiration releases energy in the mitochondria day and night; photosynthesis stores energy in the chloroplasts, only in light.",
+          "fa": "تنفس انرژی را در میتوکاندریا شب و روز آزاد می‌کند؛ ترکیب ضیایی انرژی را در کلوروپلاست، تنها در روشنی، ذخیره می‌کند."
+        },
+        {
+          "en": "Respiration happens only at night and photosynthesis only during the day.",
+          "fa": "تنفس تنها در شب و ترکیب ضیایی تنها در روز صورت می‌گیرد."
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "The two processes are opposites: photosynthesis builds glucose and stores light energy, while respiration breaks glucose down and releases its energy. Respiration goes on all the time in the cells of every living thing, plants included.",
+        "fa": "این دو عملیه برعکس یکدیگر اند: ترکیب ضیایی گلوکوز می‌سازد و انرژی نور را ذخیره می‌کند، ولی تنفس گلوکوز را تجزیه کرده انرژی آن را آزاد می‌کند. تنفس در حجرات همهٔ موجودات زنده، از جمله نباتات، همیشه جریان دارد."
+      },
+      "idea": {
+        "en": "Plants respire too. Which process needs light, and which goes on all the time?",
+        "fa": "نباتات هم تنفس می‌کنند؛ کدام عملیه به نور ضرورت دارد و کدام همیشه جریان دارد؟"
+      }
+    }
+  ]
+}

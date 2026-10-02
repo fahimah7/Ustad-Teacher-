@@ -1,0 +1,181 @@
+{
+  "schema": "practice-set/1",
+  "book_id": "g10-bio",
+  "chapter": 4,
+  "title": {
+    "en": "Diseases and prevention",
+    "fa": "امراض و وقایه"
+  },
+  "questions": [
+    {
+      "pdf_page": 38,
+      "q": {
+        "en": "Bacteria divide about every $20$ minutes, so their number doubles each time. If $10$ harmful bacteria enter the body, about how many will there be after $2$ hours?",
+        "fa": "باکتریا تقریباً هر $20$ دقیقه تقسیم می‌شوند، یعنی تعداد شان هر بار دو برابر می‌شود. اگر $10$ باکتریای مضر داخل بدن شوند، بعد از $2$ ساعت تقریباً چند باکتریا خواهد بود؟"
+      },
+      "options": [
+        {
+          "en": "$120$",
+          "fa": "$120$"
+        },
+        {
+          "en": "$640$",
+          "fa": "$640$"
+        },
+        {
+          "en": "$60$",
+          "fa": "$60$"
+        },
+        {
+          "en": "$1280$",
+          "fa": "$1280$"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "$2$ hours $= 120$ minutes $= 6$ periods of $20$ minutes, so the number doubles $6$ times: $10 \\times 2^6 = 10 \\times 64 = 640$.",
+        "fa": "در $2$ ساعت ($120$ دقیقه) شش دورهٔ $20$ دقیقه‌یی است؛ پس تعداد $6$ بار دو برابر می‌شود: $10 \\times 2^6 = 10 \\times 64 = 640$."
+      },
+      "idea": {
+        "en": "Doubling means multiplying by $2$ each time, not adding. First count how many $20$-minute periods fit into $2$ hours.",
+        "fa": "دو برابر شدن یعنی هر بار ضرب در $2$، نه جمع کردن. اول بشمارید که در $2$ ساعت چند دورهٔ $20$ دقیقه‌یی است."
+      }
+    },
+    {
+      "pdf_page": 43,
+      "q": {
+        "en": "Which of these diseases does not pass from one person to another?",
+        "fa": "کدام یک از این امراض از یک شخص به شخص دیگر سرایت نمی‌کند؟"
+      },
+      "options": [
+        {
+          "en": "Tuberculosis (TB)",
+          "fa": "توبرکلوز (سل)"
+        },
+        {
+          "en": "The common cold",
+          "fa": "سرماخوردگی (ریزش)"
+        },
+        {
+          "en": "Cancer",
+          "fa": "سرطان"
+        },
+        {
+          "en": "AIDS",
+          "fa": "ایدز"
+        }
+      ],
+      "answer": 2,
+      "why": {
+        "en": "Cancer and heart diseases are non-infectious: they do not spread from person to person. AIDS, the cold and tuberculosis are infectious diseases caused by pathogens.",
+        "fa": "سرطان و امراض قلبی امراض غیر ساری اند و از شخصی به شخص دیگر سرایت نمی‌کنند. ایدز، ریزش و توبرکلوز امراض ساری اند که عامل آن‌ها پاتوجن‌ها است."
+      },
+      "idea": {
+        "en": "Infectious diseases are caused by microbes such as viruses and bacteria. Which disease in the list starts from the body's own cells instead?",
+        "fa": "عامل امراض ساری میکروب‌ها، مانند وایرس‌ها و باکتریا، اند. کدام مرض این فهرست از حجرات خود بدن پیدا می‌شود؟"
+      }
+    },
+    {
+      "pdf_page": 47,
+      "q": {
+        "en": "When the skin is cut, the place becomes red, warm and painful. What causes this?",
+        "fa": "وقتی جلد بریده شود، آن‌جا سرخ، گرم و دردناک می‌شود. سبب آن چیست؟"
+      },
+      "options": [
+        {
+          "en": "The dead cells of the skin fall off at that place",
+          "fa": "حجرات مردهٔ جلد در آن‌جا می‌ریزند"
+        },
+        {
+          "en": "Injured cells release histamine, which brings more blood and white blood cells to the wound",
+          "fa": "حجرات زخمی هیستامین ترشح می‌کنند که خون و حجرات سفید خون بیشتر را به جای زخم می‌آورد"
+        },
+        {
+          "en": "Antibodies from a vaccine attack the skin",
+          "fa": "انتی بادی‌های واکسین به جلد حمله می‌کنند"
+        },
+        {
+          "en": "Sweat makes the surface of the skin acidic",
+          "fa": "عرق سطح جلد را تیزابی می‌سازد"
+        }
+      ],
+      "answer": 1,
+      "why": {
+        "en": "This is inflammation, a non-specific defence. Injured cells release chemicals such as histamine; histamine increases the blood flow to the wound, so more white blood cells arrive and fight the microbes, and the place becomes red, warm and painful.",
+        "fa": "این التهاب است که یک دفاع غیر اختصاصی است. حجرات زخمی مواد کیمیاوی مانند هیستامین ترشح می‌کنند؛ هیستامین جریان خون را به جای زخم زیاد می‌سازد، حجرات سفید بیشتر به آن‌جا رسیده با میکروب‌ها می‌جنگند و جای زخم سرخ، گرم و دردناک می‌شود."
+      },
+      "idea": {
+        "en": "Dead skin cells and acidic sweat stop microbes before they enter. Think about what happens after microbes have entered through the cut.",
+        "fa": "حجرات مردهٔ جلد و عرق تیزابی پیش از داخل شدن میکروب‌ها کار می‌کنند. فکر کنید بعد از داخل شدن میکروب از راه زخم چه رخ می‌دهد."
+      }
+    },
+    {
+      "pdf_page": 50,
+      "q": {
+        "en": "Ahmad had measles as a child and recovered. Why will he probably not get measles again, although he can still get polio?",
+        "fa": "احمد در طفولیت سرخکان گرفت و صحت یافت. چرا او احتمالاً دیگر سرخکان نمی‌گیرد، ولی هنوز ممکن است به فلج اطفال (پولیو) مبتلا شود؟"
+      },
+      "options": [
+        {
+          "en": "Measles antibodies stay in his body, but they protect only against measles",
+          "fa": "انتی بادی‌های سرخکان در بدنش مانده اند، ولی تنها در مقابل سرخکان حفاظت می‌کنند"
+        },
+        {
+          "en": "His skin became stronger after the illness",
+          "fa": "بعد از مریضی جلدش قوی‌تر شده است"
+        },
+        {
+          "en": "Measles antibodies protect against all viruses except polio",
+          "fa": "انتی بادی‌های سرخکان در مقابل همهٔ وایرس‌ها به جز پولیو حفاظت می‌کنند"
+        },
+        {
+          "en": "Measles is not caused by a microbe",
+          "fa": "سرخکان عامل میکروبی ندارد"
+        }
+      ],
+      "answer": 0,
+      "why": {
+        "en": "During an illness the blood makes antibodies; they stay in the body and keep the person immune to the same disease, for measles often for life. Immunity works only against that disease: measles antibodies are of no use against polio.",
+        "fa": "هنگام مریضی در خون انتی بادی ساخته می‌شود؛ این انتی بادی‌ها در بدن می‌مانند و شخص را در مقابل همان مرض مصون نگه می‌دارند، در سرخکان اکثراً تا آخر عمر. معافیت تنها در مقابل همان مرض است: انتی بادی سرخکان در مقابل فلج اطفال فایده ندارد."
+      },
+      "idea": {
+        "en": "Specific defence means defence against one particular microbe. Was the measles antibody made for polio?",
+        "fa": "دفاع اختصاصی یعنی دفاع در مقابل یک میکروب معین. آیا انتی بادی سرخکان برای پولیو ساخته شده است؟"
+      }
+    },
+    {
+      "pdf_page": 54,
+      "q": {
+        "en": "Why can too much vitamin D be harmful, while extra vitamin C usually leaves the body?",
+        "fa": "چرا ویتامین D زیاد می‌تواند زیان‌آور باشد، در حالی که مقدار اضافی ویتامین C معمولاً از بدن خارج می‌شود؟"
+      },
+      "options": [
+        {
+          "en": "Vitamin D gives energy, but vitamin C does not",
+          "fa": "ویتامین D انرژی تولید می‌کند، ولی ویتامین C نه"
+        },
+        {
+          "en": "Vitamin C is found only in meat",
+          "fa": "ویتامین C تنها در گوشت یافت می‌شود"
+        },
+        {
+          "en": "Vitamin D is made only by plants",
+          "fa": "ویتامین D تنها توسط نباتات ساخته می‌شود"
+        },
+        {
+          "en": "Vitamin D dissolves in fat and is stored in the body; vitamin C dissolves in water and the kidneys remove the extra",
+          "fa": "ویتامین D در چربی منحل است و در بدن ذخیره می‌شود؛ ویتامین C در آب منحل است و مقدار اضافی آن توسط گرده‌ها دفع می‌شود"
+        }
+      ],
+      "answer": 3,
+      "why": {
+        "en": "Fat-soluble vitamins (A, D, E and K) are kept in the body's fat stores, so large amounts build up and harm the body. Water-soluble vitamins (C and the B group) dissolve in blood plasma, and the kidneys remove the extra, so they are not stored.",
+        "fa": "ویتامین‌های منحل در چربی (A، D، E و K) در ذخایر چربی بدن نگه‌داری می‌شوند؛ پس مقدار زیاد آن‌ها جمع شده به بدن زیان می‌رساند. ویتامین‌های منحل در آب (C و گروپ B) در پلازمای خون حل می‌شوند و مقدار اضافی آن‌ها توسط گرده‌ها دفع می‌شود، پس ذخیره نمی‌شوند."
+      },
+      "idea": {
+        "en": "Vitamins do not give energy. Remember the two groups of vitamins: which group can the body store?",
+        "fa": "ویتامین‌ها انرژی تولید نمی‌کنند. دو گروپ ویتامین‌ها را به یاد آورید: بدن کدام گروپ را ذخیره کرده می‌تواند؟"
+      }
+    }
+  ]
+}

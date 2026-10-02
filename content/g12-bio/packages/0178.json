@@ -1,0 +1,20 @@
+{
+  "schema": "page-package/1",
+  "book_id": "g12-bio",
+  "pdf_page": 178,
+  "printed_page": 171,
+  "page_kind": "front_matter",
+  "chapter": null,
+  "section_fa": "مأخذها",
+  "summary_fa": "این صفحهٔ آخر کتاب فهرست «مأخذها» است، یعنی کتاب‌هایی که مؤلفان در تهیهٔ این کتاب از آن‌ها استفاده کرده اند، و درس ندارد. دوازده مأخذ نام برده شده است: یازده کتاب بیولوژی، ساینس و اناتومی و فزیولوژی به زبان‌های انگلیسی و جرمنی که بین سال‌های ۱۹۹۰ و ۲۰۰۸ م. چاپ شده اند (مانند کتاب‌های Holt، Glencoe، Mader و Campbell و کتاب‌های جرمنی DUDEN و NATURA)، و یک کتاب درسی بیولوژی و لابراتوار (۲) به زبان فارسی که در سال ۱۳۸۵ هـ. ش. در ایران چاپ شده و نام مؤلفان آن هم آمده است.",
+  "key_points_fa": [],
+  "formulas": [],
+  "terms": [],
+  "figures": [],
+  "worked_examples": [],
+  "exercises": [],
+  "continues_from_previous": false,
+  "continues_on_next": false,
+  "confidence": "high",
+  "notes": "صفحهٔ پایانی کتاب (فهرست مأخذها)؛ چون نوع back matter در فهرست page_kind نیست، مانند کتاب‌های دیگر front_matter انتخاب شد. فصلی به این صفحه تعلق ندارد."
+}
