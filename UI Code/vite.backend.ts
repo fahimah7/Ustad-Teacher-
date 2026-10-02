@@ -65,12 +65,12 @@ export function devBackend(): Plugin {
           if (path === "chat" && req.method === "POST") {
             let body = "";
             for await (const chunk of req) body += chunk;
-            const { messages } = JSON.parse(body);
+            const { messages, temperature } = JSON.parse(body);
             const ctrl = new AbortController();
             res.on("close", () => ctrl.abort());
             const r = await fetch(`${LLAMA}/v1/chat/completions`, {
               method: "POST", headers: { "Content-Type": "application/json" }, signal: ctrl.signal,
-              body: JSON.stringify({ messages, stream: true, temperature: 0.3, max_tokens: 600, cache_prompt: true, chat_template_kwargs: { enable_thinking: false } }),
+              body: JSON.stringify({ messages, stream: true, temperature: typeof temperature === "number" ? Math.min(1, Math.max(0, temperature)) : 0.3, max_tokens: 1200, cache_prompt: true, chat_template_kwargs: { enable_thinking: false } }),
             });
             res.statusCode = r.status;
             res.setHeader("Content-Type", "text/event-stream");

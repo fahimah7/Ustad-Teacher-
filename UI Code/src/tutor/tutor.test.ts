@@ -2,7 +2,7 @@ import { describe, expect, test } from "vitest";
 import { faNum, parseFaInt } from "./fa";
 import { dariFixer, glossaryReplacements, iranianTermsIn, toBookDari } from "./dariTerms";
 import { PagePackage, TextBook } from "./book";
-import { followUpOf, referenceOf, resolveReference, shapeHistory, tidyAnswer, uncoveredParts } from "./conversation";
+import { followUpOf, guideFor, makeRequestOf, ownProblemOf, referenceOf, resolveReference, shapeHistory, temperatureFor, tidyAnswer, uncoveredParts } from "./conversation";
 import { teacherTemplate } from "./teacherPrompt";
 import { normalizeForSearch, tokenize } from "./bookSearch";
 import { buildOutline, outlineText, stripLatin } from "./outline";
@@ -269,5 +269,33 @@ describe("follow-ups", () => {
   test("'what else' offers a part of the page the answers have not covered", () => {
     const pkg = new PagePackage({ pdf_page: 1, key_points_fa: ["تغییر متوسط = $\frac{\Delta y}{\Delta x} = \frac{f(x_2)-f(x_1)}{x_2-x_1}$", "سرعت لحظه‌ای = لیمت سرعت وسطی"] });
     expect(uncoveredParts(pkg, "The average change is $\frac{\Delta y}{\Delta x}$.")[0]).toContain("سرعت لحظه‌ای");
+  });
+});
+
+describe("the teacher's own problems", () => {
+  test("asking for a made-up problem: solved for her, or for her to try", () => {
+    for (const q of ["یک سوال تازه بسازید و حل کنید", "از خودتان یک سوال جدید در بارهٔ همین درس طرح کن و حلش کن", "Make up a new problem and solve it", "come up with a problem on this topic and solve it for me too", "یک مثال دیگر بدهید", "give me another example"]) expect(makeRequestOf(q), q).toBe("create");
+    for (const q of ["یک سوال تازه بساز", "امتحانم کنید", "از من یک سوال بپرسید", "quiz me", "give me a new practice question", "یک تمرین تازه برایم بسازید"]) expect(makeRequestOf(q), q).toBe("quiz");
+    // The book's own numbered problems, and ordinary questions, are not made-up requests.
+    for (const q of ["تمرین ۲ را حل کنید", "solve problem 1", "یک سوال دیگر دارم: لیمت چیست؟", "What is a limit?", "یک مثال بدهید"]) expect(makeRequestOf(q), q).toBeNull();
+  });
+
+  test("the made-up problem is read back from the teacher's answer", () => {
+    expect(ownProblemOf("سوال: ۳ نان ۶۰ افغانی است. ۵ نان چند است؟\nحل: ...")).toBe("۳ نان ۶۰ افغانی است. ۵ نان چند است؟");
+    expect(ownProblemOf("Problem: A car goes 60 km in 2 h. Find its speed.\nSolution: ...")).toBe("A car goes 60 km in 2 h. Find its speed.");
+  });
+
+  test("notes: make and solve, make for her, then solve it or check her answer", () => {
+    expect(guideFor("یک سوال تازه بسازید و حل کنید", null, [], "fa")).toContain("«سوال:»");
+    const quiz = guideFor("quiz me", null, [], "en");
+    expect(quiz).toContain("do NOT give the solution");
+    const history = [{ role: "user" as const, content: "quiz me" }, { role: "assistant" as const, content: "Problem: 2x + 3 = 11. Find x.\nTry it and tell me your answer!" }];
+    expect(guideFor("x = 4", null, history, "en")).toContain("answering the problem you gave her");
+    expect(guideFor("solve it", null, history, "en")).toContain("solve the problem you made up");
+    expect(guideFor("solve it", null, history, "en")).toContain("2x + 3 = 11");
+    // A made-up problem gets a little imagination; solving it stays careful.
+    expect(temperatureFor("quiz me", [])).toBeGreaterThan(0.5);
+    expect(temperatureFor("solve it", history)).toBeLessThan(0.5);
+    expect(temperatureFor("What is a limit?", [])).toBeLessThan(0.5);
   });
 });

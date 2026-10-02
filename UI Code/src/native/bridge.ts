@@ -86,7 +86,7 @@ let nextChat = 1;
 
 /** Streams the teacher's reply from the local model. Resolves when the reply is complete;
  *  aborting the signal stops the model mid-answer. */
-export async function chat(messages: ChatMessage[], onDelta: (text: string) => void, signal?: AbortSignal): Promise<void> {
+export async function chat(messages: ChatMessage[], onDelta: (text: string) => void, signal?: AbortSignal, temperature?: number): Promise<void> {
   if (isNativeApp()) {
     const id = nextChat++;
     const channel = new Channel<ChatEvent>();
@@ -98,7 +98,7 @@ export async function chat(messages: ChatMessage[], onDelta: (text: string) => v
     const onAbort = () => { invoke("tutor_cancel", { id }).catch(() => {}); };
     signal?.addEventListener("abort", onAbort);
     try {
-      await invoke("tutor_chat", { id, messages, onEvent: channel });
+      await invoke("tutor_chat", { id, messages, temperature: temperature ?? null, onEvent: channel });
     } finally {
       signal?.removeEventListener("abort", onAbort);
     }
@@ -106,7 +106,7 @@ export async function chat(messages: ChatMessage[], onDelta: (text: string) => v
     return;
   }
   if (!devBackend()) unavailable();
-  const r = await fetch(`${DEV}/chat`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ messages }), signal });
+  const r = await fetch(`${DEV}/chat`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ messages, temperature }), signal });
   if (!r.ok || !r.body) throw new Error(`teacher ${r.status}: ${await r.text()}`);
   await readSse(r.body, onDelta, signal);
 }

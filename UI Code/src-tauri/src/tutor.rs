@@ -48,12 +48,56 @@ pub struct Tutor {
     log: Arc<Mutex<VecDeque<String>>>,
     cancels: Mutex<HashMap<u32, Arc<AtomicBool>>>,
     stopping: AtomicBool,
+    /// Set after llama-server has failed once: the next start leaves the graphics chip alone, in
+    /// case its driver is what failed.
+    cpu_only: AtomicBool,
 }
 
 enum Health {
     Ready,
     Loading,
     Down,
+}
+
+/// The model in a folder: the first part of a split model (tutor-00001-of-00003.gguf, which
+/// llama.cpp loads together with the parts beside it), else a single tutor.gguf.
+fn model_in(dir: &Path) -> Option<PathBuf> {
+    let mut parts: Vec<PathBuf> = std::fs::read_dir(dir)
+        .ok()?
+        .filter_map(|e| e.ok().map(|e| e.path()))
+        .filter(|p| p.file_name().and_then(|n| n.to_str()).is_some_and(|n| n.starts_with("tutor-00001-of-") && n.ends_with(".gguf")))
+        .collect();
+    parts.sort();
+    parts.into_iter().next().or_else(|| Some(dir.join("tutor.gguf")).filter(|p| p.exists()))
+}
+
+/// The Vulkan name ("Vulkan1") of a graphics card, if the computer has one: llama-server lists
+/// the devices it can use. Built-in graphics (Intel Iris/UHD, AMD Radeon Graphics) don't count.
+fn discrete_gpu(exe: &Path) -> Option<String> {
+    let mut cmd = Command::new(exe);
+    cmd.arg("--list-devices").stdin(Stdio::null()).stdout(Stdio::piped()).stderr(Stdio::piped());
+    #[cfg(windows)]
+    {
+        use std::os::windows::process::CommandExt;
+        cmd.creation_flags(0x0800_0000); // CREATE_NO_WINDOW
+    }
+    let out = cmd.output().ok()?;
+    let text = format!("{}{}", String::from_utf8_lossy(&out.stdout), String::from_utf8_lossy(&out.stderr));
+    pick_discrete_gpu(&text)
+}
+
+/// From `--list-devices` lines like "  Vulkan1: NVIDIA GeForce RTX 3050 Laptop GPU (3965 MiB, …)".
+fn pick_discrete_gpu(list: &str) -> Option<String> {
+    let integrated = ["iris", "uhd", "hd graphics", "radeon(tm) graphics", "radeon graphics", "vega", "microsoft basic", "llvmpipe"];
+    let discrete = ["nvidia", "geforce", "quadro", "rtx", "radeon rx", "radeon pro", "arc(tm) a", "arc a"];
+    list.lines().find_map(|line| {
+        let (id, name) = line.trim().split_once(": ")?;
+        let n = name.to_lowercase();
+        // A CUDA device (a developer's CUDA build) is always a graphics card.
+        let card = id.starts_with("CUDA")
+            || (id.starts_with("Vulkan") && discrete.iter().any(|d| n.contains(d)) && !integrated.iter().any(|i| n.contains(i)));
+        card.then(|| id.to_string())
+    })
 }
 
 fn first_existing(candidates: Vec<PathBuf>) -> Option<PathBuf> {
@@ -71,10 +115,14 @@ impl Tutor {
         let mut exes: Vec<PathBuf> = env_path("SCHOOL_LLAMA_SERVER").into_iter().collect();
         exes.extend(bundled("llama/llama-server.exe"));
         exes.extend(bundled("llama/llama-server"));
+        exes.push(PathBuf::from(r"D:\dev\llama-vulkan\llama-server.exe")); // development machine
         exes.push(PathBuf::from(r"D:\dev\llama.cpp\llama-server.exe"));
 
         let mut models: Vec<PathBuf> = env_path("SCHOOL_MODEL").into_iter().collect();
-        models.extend(bundled("models/tutor.gguf"));
+        models.extend(bundled("models").iter().filter_map(|d| model_in(d)));
+        // Development machine: the large teacher, then the standard one.
+        models.push(PathBuf::from(r"D:\ai-models\gemma-4\gemma-4-E4B-it-qat-UD-Q4_K_XL.gguf"));
+        models.push(PathBuf::from(r"D:\ai-models\gemma-4\gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf"));
         models.push(PathBuf::from(r"C:\ai-models\gemma-4\gemma-4-E2B-it-Q4_K_M.gguf")); // SSD: loads in seconds
         models.push(PathBuf::from(r"D:\ai-models\gemma-4\gemma-4-E2B-it-Q4_K_M.gguf")); // HDD: slower
 
@@ -94,6 +142,7 @@ impl Tutor {
             log: Arc::new(Mutex::new(VecDeque::new())),
             cancels: Mutex::new(HashMap::new()),
             stopping: AtomicBool::new(false),
+            cpu_only: AtomicBool::new(false),
         }
     }
 
@@ -151,6 +200,7 @@ impl Tutor {
                             Some(code) => {
                                 if !code.is_empty() {
                                     failures += 1;
+                                    self.cpu_only.store(true, Ordering::Relaxed);
                                     retry_at = Instant::now() + Duration::from_secs(10);
                                     let tail: Vec<String> = self.log.lock().unwrap().iter().rev().take(6).rev().cloned().collect();
                                     self.set("error", Some(format!("llama-server stopped ({code}): {}", tail.join(" | "))));
@@ -178,12 +228,25 @@ impl Tutor {
             "--model", &model.to_string_lossy(),
             "--host", "127.0.0.1",
             "--port", &self.config.port.to_string(),
-            "--ctx-size", "8192",
-            "--n-gpu-layers", "99",
-            "--flash-attn", "on",
+            // Room for a long conversation and more of the book.
+            "--ctx-size", "32768",
+            // One conversation at a time: less memory, and the cached prompt is always reused.
+            "--parallel", "1",
+            // Read the whole model into memory at start: on a hard disk, loading parts of it on
+            // demand while answering is many times slower.
+            "--load-mode", "none",
+            "--flash-attn", "auto",
             "--jinja",
             "--no-webui",
         ]);
+        match (self.cpu_only.load(Ordering::Relaxed), discrete_gpu(&exe)) {
+            // A graphics card (Vulkan: NVIDIA, AMD or Intel Arc): as many layers on it as its
+            // memory holds, the rest on the CPU.
+            (false, Some(gpu)) => cmd.args(["--device", &gpu, "--fit", "on"]),
+            // Built-in graphics share the computer's memory and, measured on an Intel Iris Xe,
+            // made writing two to three times slower than the CPU alone. So: CPU only.
+            _ => cmd.args(["--device", "none"]),
+        };
         if let Some(cuda) = &self.config.cuda_bin {
             // ggml-cuda.dll needs the CUDA runtime/cuBLAS DLLs from the installed toolkit.
             let path = std::env::var("PATH").unwrap_or_default();
@@ -231,7 +294,7 @@ impl Tutor {
 
     /// Streams one reply. Stopping (cancel) closes the connection, which makes llama-server stop
     /// generating.
-    pub fn chat(&self, id: u32, messages: Vec<ChatMessage>, out: &Channel<ChatEvent>) -> Result<(), String> {
+    pub fn chat(&self, id: u32, messages: Vec<ChatMessage>, temperature: Option<f32>, out: &Channel<ChatEvent>) -> Result<(), String> {
         if self.status().state != "ready" {
             return Err("Ustad is still getting ready. Please try again in a moment.".into());
         }
@@ -247,8 +310,10 @@ impl Tutor {
         let body = serde_json::json!({
             "messages": messages,
             "stream": true,
-            "temperature": 0.3,
-            "max_tokens": 600,
+            // Made-up problems get a little imagination; explaining and solving stay careful.
+            "temperature": temperature.filter(|t| t.is_finite()).unwrap_or(0.3).clamp(0.0, 1.0),
+            // Long enough for a problem solved step by step in Dari.
+            "max_tokens": 1200,
             "cache_prompt": true,
             // llama-server enables Gemma 4's thinking channel unless told otherwise; the tutor must answer directly.
             "chat_template_kwargs": { "enable_thinking": false },
@@ -304,5 +369,21 @@ impl Tutor {
             }
         }
         Ok(())
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::pick_discrete_gpu;
+
+    #[test]
+    fn picks_the_graphics_card_not_the_built_in_graphics() {
+        let laptop = "Available devices:\n  Vulkan0: Intel(R) Iris(R) Xe Graphics (16275 MiB, 15507 MiB free)\n  Vulkan1: NVIDIA GeForce RTX 3050 Laptop GPU (3965 MiB, 3370 MiB free)\n";
+        assert_eq!(pick_discrete_gpu(laptop).as_deref(), Some("Vulkan1"));
+        let amd = "  Vulkan0: AMD Radeon(TM) Graphics (8192 MiB, 7000 MiB free)\n";
+        assert_eq!(pick_discrete_gpu(amd), None);
+        assert_eq!(pick_discrete_gpu("  Vulkan0: Intel(R) UHD Graphics 620 (4096 MiB)\n"), None);
+        assert_eq!(pick_discrete_gpu("  Vulkan0: AMD Radeon RX 6600M (8176 MiB, 8000 MiB free)\n").as_deref(), Some("Vulkan0"));
+        assert_eq!(pick_discrete_gpu(""), None);
     }
 }

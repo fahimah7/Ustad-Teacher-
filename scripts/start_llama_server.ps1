@@ -1,31 +1,32 @@
 # Starts the local llama.cpp server for the tutor (loopback only — never exposed to the network).
-# Usage: .\scripts\start_llama_server.ps1 [-Model e2b|e4b] [-Port 8080] [-Ctx 8192]
+# Usage: .\scripts\start_llama_server.ps1 [-Model e4b|e2b] [-Port 8080] [-Ctx 32768] [-Cpu]
+#   e4b: the large teacher (Gemma 4 E4B, QAT 4-bit), e2b: the standard teacher (Gemma 4 E2B, QAT 4-bit).
+#   -Cpu runs without the graphics card, like a laptop without one.
 param(
-    [ValidateSet("e2b", "e4b")] [string]$Model = "e2b",
+    [ValidateSet("e4b", "e2b")] [string]$Model = "e4b",
     [int]$Port = 8080,
-    [int]$Ctx = 8192
+    [int]$Ctx = 32768,
+    [switch]$Cpu
 )
 
-$llama = "D:\dev\llama.cpp\llama-server.exe"
+$llama = "D:\dev\llama-vulkan\llama-server.exe"
 $models = @{
-    # Prefer the SSD copy on C: (loads in seconds); D: is a slow HDD.
-    e2b = @("C:\ai-models\gemma-4\gemma-4-E2B-it-Q4_K_M.gguf", "D:\ai-models\gemma-4\gemma-4-E2B-it-Q4_K_M.gguf") |
-          Where-Object { Test-Path $_ } | Select-Object -First 1
-    e4b = "D:\ai-models\gemma-4\gemma-4-E4B-it-Q4_K_M.gguf"
+    e4b = "D:\ai-models\gemma-4\gemma-4-E4B-it-qat-UD-Q4_K_XL.gguf"
+    e2b = "D:\ai-models\gemma-4\gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf"
 }
 
-# ggml-cuda.dll needs the CUDA runtime/cuBLAS DLLs from the installed toolkit.
-$cudaBin = "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin"
-if (Test-Path $cudaBin) { $env:PATH = "$cudaBin;$env:PATH" }
-
-# E2B fits entirely in a 4 GB GPU. E4B does not, so let llama.cpp's --fit split it between GPU and CPU.
-$gpuArgs = if ($Model -eq "e2b") { @("--n-gpu-layers", "99") } else { @("--fit", "on") }
+# Same choice as the app (UI Code/src-tauri/src/tutor.rs): the graphics card if there is one,
+# filled as far as its memory allows; otherwise the CPU alone.
+$gpu = & $llama --list-devices 2>&1 | Select-String "^\s*(Vulkan\d+): .*(NVIDIA|GeForce|RTX|Radeon RX|Arc\(TM\) A)" | Select-Object -First 1
+$device = if ($Cpu -or -not $gpu) { @("--device", "none") } else { @("--device", $gpu.Matches[0].Groups[1].Value, "--fit", "on") }
 
 & $llama `
     --model $models[$Model] `
     --host 127.0.0.1 --port $Port `
     --ctx-size $Ctx `
-    @gpuArgs `
-    --flash-attn on `
+    --parallel 1 `
+    --load-mode none `
+    @device `
+    --flash-attn auto `
     --jinja `
     --no-webui

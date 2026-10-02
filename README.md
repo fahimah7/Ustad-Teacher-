@@ -2,7 +2,7 @@
 
 An offline school for Afghan girls: the real Ministry of Education textbooks, page by page, with a
 local AI teacher ("Ustad") that knows which page the student is reading. Nothing goes online.
-Today: **Grades 10–12 Mathematics and Grades 10–11 Physics** (5 books, every page with study notes
+Today: **Grades 10–12 Mathematics, Physics and Biology** (9 books, every page with study notes
 and checked practice questions) on Windows, plus a "My rights, my voice" section. More books are being
 prepared in `content-pending/`; Android is next.
 
@@ -11,13 +11,13 @@ prepared in `content-pending/`; Android is next.
 | Path | What |
 |---|---|
 | `UI Code/` | **The app**: React UI in a Tauri 2 shell. `src/` is the UI and the tutor logic, `src-tauri/` the native side (books from disk, the teacher model, learning packs). See `UI Code/README.md` |
-| `content/<book>/` | The books in the app (g10-math, g11-math, g12-math, g10-phys, g11-phys): `book.json` (chapters, pages), `packages/NNNN.json` (study notes per page), `practice/chapter-N.json` (5 checked questions per chapter), `titles_en.json`, `glossary.json` (the book's Dari terms), `pages/` (rendered images, not in git, regenerated) |
-| `content-pending/` | Books still being prepared (chemistry, biology, English, grade 12 physics); see its README |
+| `content/<book>/` | The books in the app (g10-, g11-, g12-math, -phys and -bio): `book.json` (chapters, pages), `packages/NNNN.json` (study notes per page), `practice/chapter-N.json` (5 checked questions per chapter), `titles_en.json`, `glossary.json` (the book's Dari terms), `pages/` (rendered images, not in git, regenerated) |
+| `content-pending/` | Books still being prepared (chemistry, English); see its README |
 | `UI Code/src/content/rights/` | The rights lessons (6 units, Dari and English) |
 | `pipeline/` | Adding a book: `BOOK_SETUP.md` → `TRANSCRIBE.md` → `FINISH_BOOK.md`; `render_pages.py` (PDF → page images), `PAGE_PACKAGE.md` (page-package format), `validate_packages.py`, `validate_practice.py` |
 | `app/` | The earlier Flutter app. Its tutor code (Dart) is the evaluated reference; `app/tool/dump_prompts.dart` checks the web port against it |
 | `scripts/run_ustad.ps1` | Runs the app |
-| `scripts/build_windows.ps1`, `installer/` | The Windows installer (Inno Setup): app, books, teacher model and runtime in one setup, split into parts under 2 GB for GitHub Releases. Installers are not in git |
+| `scripts/build_windows.ps1`, `installer/` | The Windows installer (Inno Setup): one setup file with the app, books and runtime. During installation it downloads the teacher (large or standard, chosen by the computer's memory) in parts from GitHub Releases, or copies the parts from its own folder for computers without internet. Signs everything when `USTAD_SIGN_CMD` is set (see the script). Installers are not in git |
 | `Website/` | ustadschool.com (published from its own repository) |
 | `eval/` | Teacher evaluations and replayed conversations |
 | `scripts/start_llama_server.ps1` | Runs llama.cpp by hand for testing |
@@ -25,16 +25,18 @@ prepared in `content-pending/`; Android is next.
 
 ## Run on Windows
 
-Needs: Node 22 (`D:\dev\node22`), Rust, llama.cpp CUDA build (`D:\dev\llama.cpp`),
-`gemma-4-E2B-it-Q4_K_M.gguf` in `C:\ai-models\gemma-4\` (SSD, loads fast) or `D:\ai-models\gemma-4\`,
-CUDA 12.x runtime.
+Needs: Node 22 (`D:\dev\node22`), Rust, the llama.cpp Vulkan build (`D:\dev\llama-vulkan`), and the
+teachers in `D:\ai-models\gemma-4\`: `gemma-4-E4B-it-qat-UD-Q4_K_XL.gguf` (large) and
+`gemma-4-E2B-it-qat-UD-Q4_K_XL.gguf` (standard), from Unsloth's Gemma 4 QAT GGUF repositories.
 
 ```bash
 powershell -ExecutionPolicy Bypass -File scripts/run_ustad.ps1
 ```
 
 The app starts `llama-server` itself on `127.0.0.1:8080` (loopback only), reuses one that is
-already running, and stops the one it started when the window closes. Override paths with
+already running, and stops the one it started when the window closes. It puts the model on a
+graphics card if the computer has one (Vulkan: NVIDIA, AMD or Intel Arc), and otherwise runs it on
+the CPU alone, with a 32K context. Override paths with
 `SCHOOL_CONTENT_DIR`, `SCHOOL_LLAMA_SERVER`, `SCHOOL_MODEL`, `SCHOOL_CUDA_BIN`, `SCHOOL_LLAMA_PORT`.
 
 ## How the teacher sees the book
@@ -51,10 +53,28 @@ character-identical prompts (`UI Code/src/tutor/parity.test.ts`).
 ## Test the teacher without the app
 
 ```bash
-powershell -File scripts/start_llama_server.ps1 -Model e2b
-cd app && dart run tool/eval_teacher.dart e2b         # answers → eval/teacher_e2b.jsonl
-cd "UI Code" && npm test                               # tutor logic + parity with the Dart prompts
+powershell -File scripts/start_llama_server.ps1 -Model e4b      # or -Model e2b, add -Cpu for no graphics card
+cd "UI Code" && USTAD_EVAL=1 USTAD_EVAL_TAG=e4b npx vitest run src/tutor/conversation.eval.test.ts   # → eval/conversations_app_e4b.md
+cd "UI Code" && npm test                                         # tutor logic + parity with the Dart prompts
 ```
 
-On an RTX 3050 (4 GB): Gemma 4 E2B answers in ~2–5 s at ~65 tok/s; E4B ~14 s at ~14 tok/s.
+Measured on a laptop with an i5-11300H, Intel Iris Xe and an RTX 3050 (4 GB), writing / reading speed:
+
+| Teacher | RTX 3050 (Vulkan) | CPU only |
+|---|---|---|
+| Large: Gemma 4 E4B QAT (4.2 GB) | ~16 / ~440 tok/s | ~8 / ~38 tok/s |
+| Standard: Gemma 4 E2B QAT (2.6 GB) | ~69 tok/s | ~17 / ~85 tok/s |
+
+The built-in Iris Xe graphics wrote two to three times slower than the CPU, so without a graphics
+card the app uses the CPU alone. When a book opens, the app sends the rules and the book's outline
+ahead of time (`warmTeacher`), so the first question doesn't wait for them. Qwen3.5-4B was also tried
+(`eval/conversations_app_qwen3.5-4b.md`): correct maths, but informal Dari («تو») and slow on Vulkan.
 Requests must send `chat_template_kwargs: {"enable_thinking": false}` or Gemma 4 spends its tokens on hidden reasoning.
+
+## License
+
+Ustad is open source. The app's code is under the [MIT License](LICENSE). The learning content
+written for it (page notes, practice questions, titles, glossaries and the "My rights" lessons) is
+under [CC BY 4.0](LICENSE-CONTENT.md). The textbooks themselves belong to the Ministry of Education
+of Afghanistan, and the software and model shipped in the installer keep their own licenses
+([`installer/THIRD_PARTY_NOTICES.txt`](installer/THIRD_PARTY_NOTICES.txt)).

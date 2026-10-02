@@ -29,9 +29,9 @@ fn tutor_status(tutor: State<'_, Arc<Tutor>>) -> TutorStatus {
 }
 
 #[tauri::command]
-async fn tutor_chat(tutor: State<'_, Arc<Tutor>>, id: u32, messages: Vec<ChatMessage>, on_event: Channel<ChatEvent>) -> Result<(), String> {
+async fn tutor_chat(tutor: State<'_, Arc<Tutor>>, id: u32, messages: Vec<ChatMessage>, temperature: Option<f32>, on_event: Channel<ChatEvent>) -> Result<(), String> {
     let tutor = tutor.inner().clone();
-    tauri::async_runtime::spawn_blocking(move || tutor.chat(id, messages, &on_event)).await.map_err(|e| e.to_string())?
+    tauri::async_runtime::spawn_blocking(move || tutor.chat(id, messages, temperature, &on_event)).await.map_err(|e| e.to_string())?
 }
 
 #[tauri::command]

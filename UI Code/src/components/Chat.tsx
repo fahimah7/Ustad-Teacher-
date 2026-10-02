@@ -6,7 +6,7 @@ import { MicGlyph, Typing, Wave } from "./fx";
 import { MathText, isRtlText } from "./MathText";
 import { FigureCrop } from "./FigureCrop";
 import { useApp, uid, type ChatMsg } from "../state/app";
-import { askTeacher, flashcards, historyOnThisPage, pageLabel, plainText, questionFor, quickCheck, showMe, suggestionsFor, useTutorStatus, type Intent, type Reply, type TeacherLang } from "../lib/tutor";
+import { askTeacher, flashcards, historyOnThisPage, pageLabel, plainText, questionFor, quickCheck, showMe, suggestionsFor, useTutorStatus, warmTeacher, type Intent, type Reply, type TeacherLang } from "../lib/tutor";
 import { bookById, lessonById, lessonForPage } from "../content/library";
 import { SUBJECTS } from "../content/subjects";
 import { useLang, SEP } from "../lib/i18n";
@@ -52,6 +52,8 @@ export function Chat({ lessonId, variant = "screen", onBack, showContext = true,
   const checks = useRef(0);
   const busy = live !== null;
   const ready = status.state === "ready";
+  // Have the book's outline read before she asks (lib/tutor.ts warmTeacher).
+  useEffect(() => { if (ready && bookId) void warmTeacher(bookId, lang, name); }, [ready, bookId, lang, name]);
   const [, rechoose] = useState(0);
   const choosing = !!bookId && msgs.some((x) => x.from !== "page") && !chosen.has(bookId) && !initial;
   const choose = (keep: boolean) => {

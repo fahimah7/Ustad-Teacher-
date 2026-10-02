@@ -117,7 +117,7 @@ export async function askTeacher(o: {
   const answered = o.history.some((m) => m.role === "assistant");
   const fix = (t: string) => tidyAnswer(lang === "en" ? t : fixer.fix(t), o.name, answered);
   try {
-    await chat(turn.messages, (piece) => { raw += piece; o.onText?.(fix(raw)); }, o.signal);
+    await chat(turn.messages, (piece) => { raw += piece; o.onText?.(fix(raw)); }, o.signal, turn.temperature);
   } catch (e) {
     const sorry = lang === "en" ? "Sorry, something went wrong. Please try again." : "معذرت می‌خواهم، مشکلی پیش آمد. لطفاً دوباره کوشش کنید.";
     if (import.meta.env.DEV) console.error("tutor error", e);
@@ -126,6 +126,21 @@ export async function askTeacher(o: {
   const text = fix(raw).trim();
   if (o.signal?.aborted) return { kind: "teacher", text, page: o.page, links: [], lang, stopped: true };
   return { kind: "teacher", text, page: o.page, links: builder.answerLinks(text, o.page, turn.sourcePages, lang), lang };
+}
+
+/** Sends the teacher's fixed part of every question (rules + the book's outline) ahead of time,
+ *  so llama.cpp has it cached when she asks: on a computer without a graphics card, reading those
+ *  few thousand words takes the better part of a minute. Stops at the first word of the answer. */
+const warmed = new Set<string>();
+export async function warmTeacher(bookId: string, lang: string, name: string): Promise<void> {
+  const tl = teacherLang(lang);
+  const key = `${bookId}|${tl}|${name}`;
+  const builder = builderFor(bookId, tl, name);
+  if (!builder || warmed.has(key)) return;
+  warmed.add(key);
+  const ctrl = new AbortController();
+  const system = builder.build(1, "").messages[0];
+  await chat([system, { role: "user", content: tl === "en" ? "Hello" : "سلام" }], () => ctrl.abort(), ctrl.signal).catch(() => warmed.delete(key));
 }
 
 /** Plain words of an answer for read-aloud and captions. */
@@ -176,10 +191,18 @@ export function quickCheck(bookId: string, page: number, nth = 0): Reply {
 
 /** Three things to ask about the page she is on. */
 export function suggestionsFor(bookId: string, page: number): { q: Multi; tint: "saf" | "teal" | "vio" }[] {
-  const pkg = bookById(bookId)?.text?.pkg(page);
+  const book = bookById(bookId);
+  const pkg = book?.text?.pkg(page);
   const out: { q: Multi; tint: "saf" | "teal" | "vio" }[] = [{ q: { en: "Explain this page simply", fa: "این صفحه را ساده توضیح بدهید" }, tint: "saf" }];
   if (pkg?.exercises.length) out.push({ q: { en: "Solve exercise 1 step by step", fa: "تمرین ۱ را قدم به قدم حل کنید" }, tint: "teal" });
   else if (pkg?.workedExamples.length) out.push({ q: { en: "Walk me through the example", fa: "مثال این صفحه را قدم به قدم توضیح بدهید" }, tint: "teal" });
+  // The teacher's own problem on this lesson (tutor/conversation.ts): solved for her, or, for
+  // English, an exercise for her to try.
+  if (pkg && pkg.pageKind !== "cover" && (pkg.keyPoints.length || pkg.exercises.length || pkg.workedExamples.length)) {
+    out.push(book?.subject === "eng"
+      ? { q: { en: "Make a new exercise for me", fa: "یک تمرین تازه برایم بسازید" }, tint: "vio" }
+      : { q: { en: "Make up a new problem and solve it", fa: "یک سوال تازه بسازید و حل کنید" }, tint: "vio" });
+  }
   const term = pkg?.terms.find((t) => t.fa);
   if (term?.fa) out.push({ q: { en: `What does “${term.en ?? term.fa}” mean?`, fa: `«${term.fa}» یعنی چه؟` }, tint: "vio" });
   else if (pkg?.formulas[0]?.meaning_fa) out.push({ q: { en: "Where does the main formula come from?", fa: `${pkg.formulas[0].meaning_fa} از کجا می‌آید؟` }, tint: "vio" });
