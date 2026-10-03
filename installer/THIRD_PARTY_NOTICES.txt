@@ -1,10 +1,12 @@
 Ustad includes the following third-party software and content.
 
-Teacher model: Gemma 4 E2B (instruction-tuned), quantized to GGUF (Q4_K_M)
+Teacher model, downloaded during setup: Gemma 4 E4B (large teacher) or Gemma 4 E2B (standard
+teacher), instruction-tuned, quantization-aware trained, as 4-bit GGUF (UD-Q4_K_XL)
   Copyright Google LLC. Licensed under the Apache License, Version 2.0.
   License terms: https://ai.google.dev/gemma/docs/gemma_4_license
   You may obtain a copy of the Apache License at http://www.apache.org/licenses/LICENSE-2.0
-  Quantized file by Unsloth (https://huggingface.co/unsloth).
+  GGUF files by Unsloth (https://huggingface.co/unsloth), split into parts with llama.cpp's
+  gguf-split.
 
 llama.cpp (llama-server and the ggml libraries, with the Vulkan and CPU backends)
   Copyright (c) 2023-2026 The ggml authors. MIT License.
